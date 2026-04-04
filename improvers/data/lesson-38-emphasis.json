@@ -3,74 +3,238 @@
   "subtitle": "Lesson 38 — 你到底去不去 · Are you going or not",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 38)",
+      "items": [
+        {
+          "zh": "到底",
+          "py": "dàodǐ",
+          "en": "after all; exactly; on earth"
+        },
+        {
+          "zh": "究竟",
+          "py": "jiūjìng",
+          "en": "exactly; after all"
+        },
+        {
+          "zh": "如果",
+          "py": "rúguǒ",
+          "en": "if"
+        },
+        {
+          "zh": "要是",
+          "py": "yàoshi",
+          "en": "if (colloquial)"
+        },
+        {
+          "zh": "连...都/也",
+          "py": "lián...dōu/yě",
+          "en": "even..."
+        },
+        {
+          "zh": "不管",
+          "py": "bùguǎn",
+          "en": "no matter; regardless"
+        },
+        {
+          "zh": "博物馆",
+          "py": "bówùguǎn",
+          "en": "museum"
+        },
+        {
+          "zh": "专业",
+          "py": "zhuānyè",
+          "en": "major; specialty"
+        },
+        {
+          "zh": "决定",
+          "py": "juédìng",
+          "en": "to decide; decision"
+        },
+        {
+          "zh": "经济",
+          "py": "jīngjì",
+          "en": "economics; economy"
+        },
+        {
+          "zh": "有用",
+          "py": "yǒu yòng",
+          "en": "useful"
+        },
+        {
+          "zh": "同意",
+          "py": "tóngyì",
+          "en": "to agree"
+        },
+        {
+          "zh": "选择",
+          "py": "xuǎnzé",
+          "en": "to choose; choice"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 38)",
       "items": [
-        {"zh": "你到底去不去？", "py": "Nǐ dàodǐ qù bu qù?", "en": "Are you going or not? (after all)"},
-        {"zh": "这件事你到底怎么想的？", "py": "Zhè jiàn shì nǐ dàodǐ zěnme xiǎng de?", "en": "What do you really think about this?"},
-        {"zh": "你究竟想说什么？", "py": "Nǐ jiūjìng xiǎng shuō shénme?", "en": "What exactly do you want to say?"},
-        {"zh": "如果明天下雨，我们就不去了。", "py": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le.", "en": "If it rains tomorrow, we won't go."},
-        {"zh": "要是你不同意，就告诉我。", "py": "Yàoshi nǐ bù tóngyì, jiù gàosu wǒ.", "en": "If you don't agree, tell me."},
-        {"zh": "连他都不知道。", "py": "Lián tā dōu bù zhīdào.", "en": "Even he doesn't know."}
+        {
+          "zh": "你到底去不去？",
+          "py": "Nǐ dàodǐ qù bu qù?",
+          "en": "Are you going or not? (after all)"
+        },
+        {
+          "zh": "这件事你到底怎么想的？",
+          "py": "Zhè jiàn shì nǐ dàodǐ zěnme xiǎng de?",
+          "en": "What do you really think about this?"
+        },
+        {
+          "zh": "你究竟想说什么？",
+          "py": "Nǐ jiūjìng xiǎng shuō shénme?",
+          "en": "What exactly do you want to say?"
+        },
+        {
+          "zh": "如果明天下雨，我们就不去了。",
+          "py": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le.",
+          "en": "If it rains tomorrow, we won't go."
+        },
+        {
+          "zh": "要是你不同意，就告诉我。",
+          "py": "Yàoshi nǐ bù tóngyì, jiù gàosu wǒ.",
+          "en": "If you don't agree, tell me."
+        },
+        {
+          "zh": "连他都不知道。",
+          "py": "Lián tā dōu bù zhīdào.",
+          "en": "Even he doesn't know."
+        }
       ]
     },
     {
       "topic": "会话1 · Dialogue 1 (Making Plans)",
       "items": [
-        {"zh": "刘京：周末我们去爬长城吧。", "py": "Liú Jīng: Zhōumò wǒmen qù pá Chángchéng ba.", "en": "Liu Jing: Let's climb the Great Wall this weekend."},
-        {"zh": "大卫：好啊。可是如果下雨呢？", "py": "Dàwèi: Hǎo a. Kěshì rúguǒ xià yǔ ne?", "en": "David: Sure. But what if it rains?"},
-        {"zh": "刘京：要是下雨，我们就去博物馆。你到底去不去？", "py": "Liú Jīng: Yàoshi xià yǔ, wǒmen jiù qù bówùguǎn. Nǐ dàodǐ qù bu qù?", "en": "Liu Jing: If it rains, we'll go to a museum. So are you going or not?"},
-        {"zh": "大卫：去！一定去。", "py": "Dàwèi: Qù! Yīdìng qù.", "en": "David: Yes! Definitely."},
-        {"zh": "刘京：好，我叫玛丽和和子也一起去。", "py": "Liú Jīng: Hǎo, wǒ jiào Mǎlì hé Hézǐ yě yīqǐ qù.", "en": "Liu Jing: Good, I'll ask Mary and Hezi to come too."},
-        {"zh": "大卫：连和子都去吗？太好了！", "py": "Dàwèi: Lián Hézǐ dōu qù ma? Tài hǎo le!", "en": "David: Even Hezi is going? Great!"}
+        {
+          "zh": "刘京：周末我们去爬长城吧。",
+          "py": "Liú Jīng: Zhōumò wǒmen qù pá Chángchéng ba.",
+          "en": "Liu Jing: Let's climb the Great Wall this weekend."
+        },
+        {
+          "zh": "大卫：好啊。可是如果下雨呢？",
+          "py": "Dàwèi: Hǎo a. Kěshì rúguǒ xià yǔ ne?",
+          "en": "David: Sure. But what if it rains?"
+        },
+        {
+          "zh": "刘京：要是下雨，我们就去博物馆。你到底去不去？",
+          "py": "Liú Jīng: Yàoshi xià yǔ, wǒmen jiù qù bówùguǎn. Nǐ dàodǐ qù bu qù?",
+          "en": "Liu Jing: If it rains, we'll go to a museum. So are you going or not?"
+        },
+        {
+          "zh": "大卫：去！一定去。",
+          "py": "Dàwèi: Qù! Yīdìng qù.",
+          "en": "David: Yes! Definitely."
+        },
+        {
+          "zh": "刘京：好，我叫玛丽和和子也一起去。",
+          "py": "Liú Jīng: Hǎo, wǒ jiào Mǎlì hé Hézǐ yě yīqǐ qù.",
+          "en": "Liu Jing: Good, I'll ask Mary and Hezi to come too."
+        },
+        {
+          "zh": "大卫：连和子都去吗？太好了！",
+          "py": "Dàwèi: Lián Hézǐ dōu qù ma? Tài hǎo le!",
+          "en": "David: Even Hezi is going? Great!"
+        }
       ]
     },
     {
       "topic": "会话2 · Dialogue 2 (Decisions)",
       "items": [
-        {"zh": "玛丽：你到底想学什么专业？", "py": "Mǎlì: Nǐ dàodǐ xiǎng xué shénme zhuānyè?", "en": "Mary: What major do you actually want to study?"},
-        {"zh": "和子：我还没决定呢。", "py": "Hézǐ: Wǒ hái méi juédìng ne.", "en": "Hezi: I haven't decided yet."},
-        {"zh": "玛丽：如果你喜欢中国文化，可以学汉语专业。", "py": "Mǎlì: Rúguǒ nǐ xǐhuan Zhōngguó wénhuà, kěyǐ xué Hànyǔ zhuānyè.", "en": "Mary: If you like Chinese culture, you could study Chinese."},
-        {"zh": "和子：我也想过。可是学经济也很有用。", "py": "Hézǐ: Wǒ yě xiǎng guo. Kěshì xué jīngjì yě hěn yǒu yòng.", "en": "Hezi: I've thought about it. But economics is also useful."},
-        {"zh": "玛丽：不管学什么，最重要的是喜欢。", "py": "Mǎlì: Bùguǎn xué shénme, zuì zhòngyào de shì xǐhuan.", "en": "Mary: No matter what you study, the most important thing is to like it."},
-        {"zh": "和子：你说得对。", "py": "Hézǐ: Nǐ shuō de duì.", "en": "Hezi: You're right."}
-      ]
-    },
-    {
-      "topic": "生词 · New Words (Lesson 38)",
-      "items": [
-        {"zh": "到底", "py": "dàodǐ", "en": "after all; exactly; on earth"},
-        {"zh": "究竟", "py": "jiūjìng", "en": "exactly; after all"},
-        {"zh": "如果", "py": "rúguǒ", "en": "if"},
-        {"zh": "要是", "py": "yàoshi", "en": "if (colloquial)"},
-        {"zh": "连...都/也", "py": "lián...dōu/yě", "en": "even..."},
-        {"zh": "不管", "py": "bùguǎn", "en": "no matter; regardless"},
-        {"zh": "博物馆", "py": "bówùguǎn", "en": "museum"},
-        {"zh": "专业", "py": "zhuānyè", "en": "major; specialty"},
-        {"zh": "决定", "py": "juédìng", "en": "to decide; decision"},
-        {"zh": "经济", "py": "jīngjì", "en": "economics; economy"},
-        {"zh": "有用", "py": "yǒu yòng", "en": "useful"},
-        {"zh": "同意", "py": "tóngyì", "en": "to agree"},
-        {"zh": "选择", "py": "xuǎnzé", "en": "to choose; choice"}
+        {
+          "zh": "玛丽：你到底想学什么专业？",
+          "py": "Mǎlì: Nǐ dàodǐ xiǎng xué shénme zhuānyè?",
+          "en": "Mary: What major do you actually want to study?"
+        },
+        {
+          "zh": "和子：我还没决定呢。",
+          "py": "Hézǐ: Wǒ hái méi juédìng ne.",
+          "en": "Hezi: I haven't decided yet."
+        },
+        {
+          "zh": "玛丽：如果你喜欢中国文化，可以学汉语专业。",
+          "py": "Mǎlì: Rúguǒ nǐ xǐhuan Zhōngguó wénhuà, kěyǐ xué Hànyǔ zhuānyè.",
+          "en": "Mary: If you like Chinese culture, you could study Chinese."
+        },
+        {
+          "zh": "和子：我也想过。可是学经济也很有用。",
+          "py": "Hézǐ: Wǒ yě xiǎng guo. Kěshì xué jīngjì yě hěn yǒu yòng.",
+          "en": "Hezi: I've thought about it. But economics is also useful."
+        },
+        {
+          "zh": "玛丽：不管学什么，最重要的是喜欢。",
+          "py": "Mǎlì: Bùguǎn xué shénme, zuì zhòngyào de shì xǐhuan.",
+          "en": "Mary: No matter what you study, the most important thing is to like it."
+        },
+        {
+          "zh": "和子：你说得对。",
+          "py": "Hézǐ: Nǐ shuō de duì.",
+          "en": "Hezi: You're right."
+        }
       ]
     },
     {
       "topic": "语法 · Grammar (如果/要是...就 Conditionals)",
       "items": [
-        {"zh": "如果明天下雨，我们就不去了。", "py": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le.", "en": "If it rains tomorrow, we won't go."},
-        {"zh": "要是你不去，我也不去。", "py": "Yàoshi nǐ bú qù, wǒ yě bú qù.", "en": "If you don't go, I won't either."},
-        {"zh": "如果有时间，我想去旅行。", "py": "Rúguǒ yǒu shíjiān, wǒ xiǎng qù lǚxíng.", "en": "If I have time, I want to travel."},
-        {"zh": "连小孩子都会说这个。", "py": "Lián xiǎo háizi dōu huì shuō zhège.", "en": "Even children can say this. (连...都)"},
-        {"zh": "不管多忙，他都坚持学习。", "py": "Bùguǎn duō máng, tā dōu jiānchí xuéxí.", "en": "No matter how busy, he persists in studying."}
+        {
+          "zh": "如果明天下雨，我们就不去了。",
+          "py": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le.",
+          "en": "If it rains tomorrow, we won't go."
+        },
+        {
+          "zh": "要是你不去，我也不去。",
+          "py": "Yàoshi nǐ bú qù, wǒ yě bú qù.",
+          "en": "If you don't go, I won't either."
+        },
+        {
+          "zh": "如果有时间，我想去旅行。",
+          "py": "Rúguǒ yǒu shíjiān, wǒ xiǎng qù lǚxíng.",
+          "en": "If I have time, I want to travel."
+        },
+        {
+          "zh": "连小孩子都会说这个。",
+          "py": "Lián xiǎo háizi dōu huì shuō zhège.",
+          "en": "Even children can say this. (连...都)"
+        },
+        {
+          "zh": "不管多忙，他都坚持学习。",
+          "py": "Bùguǎn duō máng, tā dōu jiānchí xuéxí.",
+          "en": "No matter how busy, he persists in studying."
+        }
       ]
     },
     {
       "topic": "替换 · Substitution Drills",
       "items": [
-        {"zh": "你到底去不去？→ 你到底买不买？", "py": "Nǐ dàodǐ qù bu qù? → Nǐ dàodǐ mǎi bu mǎi?", "en": "Going or not? → Buying or not?"},
-        {"zh": "如果你累了，就休息一下。", "py": "Rúguǒ nǐ lèi le, jiù xiūxi yīxià.", "en": "If you're tired, take a rest."},
-        {"zh": "要是有问题，就问我。", "py": "Yàoshi yǒu wèntí, jiù wèn wǒ.", "en": "If you have questions, ask me."},
-        {"zh": "连老师都不知道答案。", "py": "Lián lǎoshī dōu bù zhīdào dá'àn.", "en": "Even the teacher doesn't know the answer."},
-        {"zh": "不管天气怎么样，我都去。", "py": "Bùguǎn tiānqì zěnmeyàng, wǒ dōu qù.", "en": "No matter the weather, I'll go."}
+        {
+          "zh": "你到底去不去？→ 你到底买不买？",
+          "py": "Nǐ dàodǐ qù bu qù? → Nǐ dàodǐ mǎi bu mǎi?",
+          "en": "Going or not? → Buying or not?"
+        },
+        {
+          "zh": "如果你累了，就休息一下。",
+          "py": "Rúguǒ nǐ lèi le, jiù xiūxi yīxià.",
+          "en": "If you're tired, take a rest."
+        },
+        {
+          "zh": "要是有问题，就问我。",
+          "py": "Yàoshi yǒu wèntí, jiù wèn wǒ.",
+          "en": "If you have questions, ask me."
+        },
+        {
+          "zh": "连老师都不知道答案。",
+          "py": "Lián lǎoshī dōu bù zhīdào dá'àn.",
+          "en": "Even the teacher doesn't know the answer."
+        },
+        {
+          "zh": "不管天气怎么样，我都去。",
+          "py": "Bùguǎn tiānqì zěnmeyàng, wǒ dōu qù.",
+          "en": "No matter the weather, I'll go."
+        }
       ]
     }
   ]

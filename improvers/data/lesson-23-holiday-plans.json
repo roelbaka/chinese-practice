@@ -3,81 +3,273 @@
   "subtitle": "Lesson 23 — 假期你打算怎么过 · How do you plan to spend the holiday",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 23)",
+      "items": [
+        {
+          "zh": "假期",
+          "py": "jiàqī",
+          "en": "holiday; vacation"
+        },
+        {
+          "zh": "打算",
+          "py": "dǎsuàn",
+          "en": "to plan; to intend"
+        },
+        {
+          "zh": "旅行",
+          "py": "lǚxíng",
+          "en": "to travel; a trip"
+        },
+        {
+          "zh": "春节",
+          "py": "Chūnjié",
+          "en": "Spring Festival; Chinese New Year"
+        },
+        {
+          "zh": "过",
+          "py": "guò",
+          "en": "to spend (time); to celebrate"
+        },
+        {
+          "zh": "年夜饭",
+          "py": "niányèfàn",
+          "en": "New Year's Eve dinner"
+        },
+        {
+          "zh": "鞭炮",
+          "py": "biānpào",
+          "en": "firecrackers"
+        },
+        {
+          "zh": "红包",
+          "py": "hóngbāo",
+          "en": "red envelope (money gift)"
+        },
+        {
+          "zh": "春晚",
+          "py": "chūnwǎn",
+          "en": "Spring Festival Gala (TV show)"
+        },
+        {
+          "zh": "热闹",
+          "py": "rènao",
+          "en": "lively; bustling"
+        },
+        {
+          "zh": "放假",
+          "py": "fàng jià",
+          "en": "to have a holiday"
+        },
+        {
+          "zh": "大概",
+          "py": "dàgài",
+          "en": "approximately; probably"
+        },
+        {
+          "zh": "全",
+          "py": "quán",
+          "en": "whole; entire"
+        },
+        {
+          "zh": "西安",
+          "py": "Xī'ān",
+          "en": "Xi'an (city)"
+        },
+        {
+          "zh": "上海",
+          "py": "Shànghǎi",
+          "en": "Shanghai"
+        },
+        {
+          "zh": "高兴",
+          "py": "gāoxìng",
+          "en": "happy; glad"
+        },
+        {
+          "zh": "中秋节",
+          "py": "Zhōngqiūjié",
+          "en": "Mid-Autumn Festival"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 23)",
       "items": [
-        {"zh": "假期你打算怎么过？", "py": "Jiàqī nǐ dǎsuàn zěnme guò?", "en": "How do you plan to spend the holiday?"},
-        {"zh": "我打算去西安旅行。", "py": "Wǒ dǎsuàn qù Xī'ān lǚxíng.", "en": "I plan to travel to Xi'an."},
-        {"zh": "你想去哪儿玩？", "py": "Nǐ xiǎng qù nǎr wán?", "en": "Where do you want to go for fun?"},
-        {"zh": "春节快到了。", "py": "Chūnjié kuài dào le.", "en": "Spring Festival is coming soon."},
-        {"zh": "你们怎么过春节？", "py": "Nǐmen zěnme guò Chūnjié?", "en": "How do you celebrate Spring Festival?"},
-        {"zh": "全家人在一起吃年夜饭。", "py": "Quán jiā rén zài yīqǐ chī niányèfàn.", "en": "The whole family eats New Year's Eve dinner together."}
+        {
+          "zh": "假期你打算怎么过？",
+          "py": "Jiàqī nǐ dǎsuàn zěnme guò?",
+          "en": "How do you plan to spend the holiday?"
+        },
+        {
+          "zh": "我打算去西安旅行。",
+          "py": "Wǒ dǎsuàn qù Xī'ān lǚxíng.",
+          "en": "I plan to travel to Xi'an."
+        },
+        {
+          "zh": "你想去哪儿玩？",
+          "py": "Nǐ xiǎng qù nǎr wán?",
+          "en": "Where do you want to go for fun?"
+        },
+        {
+          "zh": "春节快到了。",
+          "py": "Chūnjié kuài dào le.",
+          "en": "Spring Festival is coming soon."
+        },
+        {
+          "zh": "你们怎么过春节？",
+          "py": "Nǐmen zěnme guò Chūnjié?",
+          "en": "How do you celebrate Spring Festival?"
+        },
+        {
+          "zh": "全家人在一起吃年夜饭。",
+          "py": "Quán jiā rén zài yīqǐ chī niányèfàn.",
+          "en": "The whole family eats New Year's Eve dinner together."
+        }
       ]
     },
     {
       "topic": "会话1 · Dialogue 1 (Travel Plans)",
       "items": [
-        {"zh": "和子：快放假了。假期你打算怎么过？", "py": "Hézǐ: Kuài fàng jià le. Jiàqī nǐ dǎsuàn zěnme guò?", "en": "Hezi: The holiday is coming. How do you plan to spend it?"},
-        {"zh": "大卫：我打算去西安旅行。你呢？", "py": "Dàwèi: Wǒ dǎsuàn qù Xī'ān lǚxíng. Nǐ ne?", "en": "David: I plan to travel to Xi'an. You?"},
-        {"zh": "和子：我想去上海看看。", "py": "Hézǐ: Wǒ xiǎng qù Shànghǎi kànkan.", "en": "Hezi: I want to go have a look at Shanghai."},
-        {"zh": "大卫：一个人去吗？", "py": "Dàwèi: Yī ge rén qù ma?", "en": "David: Going alone?"},
-        {"zh": "和子：不，跟同学一起去。", "py": "Hézǐ: Bù, gēn tóngxué yīqǐ qù.", "en": "Hezi: No, going with classmates."},
-        {"zh": "大卫：你们打算去几天？", "py": "Dàwèi: Nǐmen dǎsuàn qù jǐ tiān?", "en": "David: How many days do you plan to go?"},
-        {"zh": "和子：大概五天。", "py": "Hézǐ: Dàgài wǔ tiān.", "en": "Hezi: About five days."},
-        {"zh": "大卫：祝你们玩得高兴！", "py": "Dàwèi: Zhù nǐmen wán de gāoxìng!", "en": "David: Hope you have a great time!"}
+        {
+          "zh": "和子：快放假了。假期你打算怎么过？",
+          "py": "Hézǐ: Kuài fàng jià le. Jiàqī nǐ dǎsuàn zěnme guò?",
+          "en": "Hezi: The holiday is coming. How do you plan to spend it?"
+        },
+        {
+          "zh": "大卫：我打算去西安旅行。你呢？",
+          "py": "Dàwèi: Wǒ dǎsuàn qù Xī'ān lǚxíng. Nǐ ne?",
+          "en": "David: I plan to travel to Xi'an. You?"
+        },
+        {
+          "zh": "和子：我想去上海看看。",
+          "py": "Hézǐ: Wǒ xiǎng qù Shànghǎi kànkan.",
+          "en": "Hezi: I want to go have a look at Shanghai."
+        },
+        {
+          "zh": "大卫：一个人去吗？",
+          "py": "Dàwèi: Yī ge rén qù ma?",
+          "en": "David: Going alone?"
+        },
+        {
+          "zh": "和子：不，跟同学一起去。",
+          "py": "Hézǐ: Bù, gēn tóngxué yīqǐ qù.",
+          "en": "Hezi: No, going with classmates."
+        },
+        {
+          "zh": "大卫：你们打算去几天？",
+          "py": "Dàwèi: Nǐmen dǎsuàn qù jǐ tiān?",
+          "en": "David: How many days do you plan to go?"
+        },
+        {
+          "zh": "和子：大概五天。",
+          "py": "Hézǐ: Dàgài wǔ tiān.",
+          "en": "Hezi: About five days."
+        },
+        {
+          "zh": "大卫：祝你们玩得高兴！",
+          "py": "Dàwèi: Zhù nǐmen wán de gāoxìng!",
+          "en": "David: Hope you have a great time!"
+        }
       ]
     },
     {
       "topic": "会话2 · Dialogue 2 (Spring Festival)",
       "items": [
-        {"zh": "玛丽：张老师，春节快到了吧？", "py": "Mǎlì: Zhāng lǎoshī, Chūnjié kuài dào le ba?", "en": "Mary: Teacher Zhang, Spring Festival is coming soon, right?"},
-        {"zh": "张老师：对，下个星期就是春节了。", "py": "Zhāng lǎoshī: Duì, xià ge xīngqī jiù shì Chūnjié le.", "en": "Teacher Zhang: Yes, it's Spring Festival next week."},
-        {"zh": "玛丽：你们怎么过春节？", "py": "Mǎlì: Nǐmen zěnme guò Chūnjié?", "en": "Mary: How do you celebrate Spring Festival?"},
-        {"zh": "张老师：全家人在一起吃年夜饭。", "py": "Zhāng lǎoshī: Quán jiā rén zài yīqǐ chī niányèfàn.", "en": "Teacher Zhang: The whole family eats New Year's Eve dinner together."},
-        {"zh": "玛丽：还做什么？", "py": "Mǎlì: Hái zuò shénme?", "en": "Mary: What else?"},
-        {"zh": "张老师：放鞭炮，看春晚，小孩子还有红包。", "py": "Zhāng lǎoshī: Fàng biānpào, kàn chūnwǎn, xiǎo háizi hái yǒu hóngbāo.", "en": "Teacher Zhang: Set off firecrackers, watch the Spring Festival gala, kids get red envelopes."},
-        {"zh": "玛丽：真热闹！", "py": "Mǎlì: Zhēn rènao!", "en": "Mary: How lively!"}
-      ]
-    },
-    {
-      "topic": "生词 · New Words (Lesson 23)",
-      "items": [
-        {"zh": "假期", "py": "jiàqī", "en": "holiday; vacation"},
-        {"zh": "打算", "py": "dǎsuàn", "en": "to plan; to intend"},
-        {"zh": "旅行", "py": "lǚxíng", "en": "to travel; a trip"},
-        {"zh": "春节", "py": "Chūnjié", "en": "Spring Festival; Chinese New Year"},
-        {"zh": "过", "py": "guò", "en": "to spend (time); to celebrate"},
-        {"zh": "年夜饭", "py": "niányèfàn", "en": "New Year's Eve dinner"},
-        {"zh": "鞭炮", "py": "biānpào", "en": "firecrackers"},
-        {"zh": "红包", "py": "hóngbāo", "en": "red envelope (money gift)"},
-        {"zh": "春晚", "py": "chūnwǎn", "en": "Spring Festival Gala (TV show)"},
-        {"zh": "热闹", "py": "rènao", "en": "lively; bustling"},
-        {"zh": "放假", "py": "fàng jià", "en": "to have a holiday"},
-        {"zh": "大概", "py": "dàgài", "en": "approximately; probably"},
-        {"zh": "全", "py": "quán", "en": "whole; entire"},
-        {"zh": "西安", "py": "Xī'ān", "en": "Xi'an (city)"},
-        {"zh": "上海", "py": "Shànghǎi", "en": "Shanghai"},
-        {"zh": "高兴", "py": "gāoxìng", "en": "happy; glad"},
-        {"zh": "中秋节", "py": "Zhōngqiūjié", "en": "Mid-Autumn Festival"}
+        {
+          "zh": "玛丽：张老师，春节快到了吧？",
+          "py": "Mǎlì: Zhāng lǎoshī, Chūnjié kuài dào le ba?",
+          "en": "Mary: Teacher Zhang, Spring Festival is coming soon, right?"
+        },
+        {
+          "zh": "张老师：对，下个星期就是春节了。",
+          "py": "Zhāng lǎoshī: Duì, xià ge xīngqī jiù shì Chūnjié le.",
+          "en": "Teacher Zhang: Yes, it's Spring Festival next week."
+        },
+        {
+          "zh": "玛丽：你们怎么过春节？",
+          "py": "Mǎlì: Nǐmen zěnme guò Chūnjié?",
+          "en": "Mary: How do you celebrate Spring Festival?"
+        },
+        {
+          "zh": "张老师：全家人在一起吃年夜饭。",
+          "py": "Zhāng lǎoshī: Quán jiā rén zài yīqǐ chī niányèfàn.",
+          "en": "Teacher Zhang: The whole family eats New Year's Eve dinner together."
+        },
+        {
+          "zh": "玛丽：还做什么？",
+          "py": "Mǎlì: Hái zuò shénme?",
+          "en": "Mary: What else?"
+        },
+        {
+          "zh": "张老师：放鞭炮，看春晚，小孩子还有红包。",
+          "py": "Zhāng lǎoshī: Fàng biānpào, kàn chūnwǎn, xiǎo háizi hái yǒu hóngbāo.",
+          "en": "Teacher Zhang: Set off firecrackers, watch the Spring Festival gala, kids get red envelopes."
+        },
+        {
+          "zh": "玛丽：真热闹！",
+          "py": "Mǎlì: Zhēn rènao!",
+          "en": "Mary: How lively!"
+        }
       ]
     },
     {
       "topic": "语法 · Grammar (打算 / 想 Plans)",
       "items": [
-        {"zh": "我打算去西安。", "py": "Wǒ dǎsuàn qù Xī'ān.", "en": "I plan to go to Xi'an. (打算 = definite plan)"},
-        {"zh": "我想去上海看看。", "py": "Wǒ xiǎng qù Shànghǎi kànkan.", "en": "I'd like to visit Shanghai. (想 = wish/desire)"},
-        {"zh": "你打算什么时候走？", "py": "Nǐ dǎsuàn shénme shíhou zǒu?", "en": "When do you plan to leave?"},
-        {"zh": "假期你打算做什么？", "py": "Jiàqī nǐ dǎsuàn zuò shénme?", "en": "What do you plan to do during the holiday?"},
-        {"zh": "我没打算去。", "py": "Wǒ méi dǎsuàn qù.", "en": "I don't plan to go."}
+        {
+          "zh": "我打算去西安。",
+          "py": "Wǒ dǎsuàn qù Xī'ān.",
+          "en": "I plan to go to Xi'an. (打算 = definite plan)"
+        },
+        {
+          "zh": "我想去上海看看。",
+          "py": "Wǒ xiǎng qù Shànghǎi kànkan.",
+          "en": "I'd like to visit Shanghai. (想 = wish/desire)"
+        },
+        {
+          "zh": "你打算什么时候走？",
+          "py": "Nǐ dǎsuàn shénme shíhou zǒu?",
+          "en": "When do you plan to leave?"
+        },
+        {
+          "zh": "假期你打算做什么？",
+          "py": "Jiàqī nǐ dǎsuàn zuò shénme?",
+          "en": "What do you plan to do during the holiday?"
+        },
+        {
+          "zh": "我没打算去。",
+          "py": "Wǒ méi dǎsuàn qù.",
+          "en": "I don't plan to go."
+        }
       ]
     },
     {
       "topic": "替换 · Substitution Drills",
       "items": [
-        {"zh": "假期你打算怎么过？——我打算去旅行。", "py": "Jiàqī nǐ dǎsuàn zěnme guò? —— Wǒ dǎsuàn qù lǚxíng.", "en": "How will you spend the holiday? — I plan to travel."},
-        {"zh": "假期你打算怎么过？——我打算在家休息。", "py": "Jiàqī nǐ dǎsuàn zěnme guò? —— Wǒ dǎsuàn zài jiā xiūxi.", "en": "— I plan to rest at home."},
-        {"zh": "假期你打算怎么过？——我打算去看朋友。", "py": "Jiàqī nǐ dǎsuàn zěnme guò? —— Wǒ dǎsuàn qù kàn péngyou.", "en": "— I plan to visit friends."},
-        {"zh": "你想去哪儿玩？——我想去成都。", "py": "Nǐ xiǎng qù nǎr wán? —— Wǒ xiǎng qù Chéngdū.", "en": "Where do you want to go? — Chengdu."},
-        {"zh": "你想去哪儿玩？——我想去桂林。", "py": "Nǐ xiǎng qù nǎr wán? —— Wǒ xiǎng qù Guìlín.", "en": "Where do you want to go? — Guilin."}
+        {
+          "zh": "假期你打算怎么过？——我打算去旅行。",
+          "py": "Jiàqī nǐ dǎsuàn zěnme guò? —— Wǒ dǎsuàn qù lǚxíng.",
+          "en": "How will you spend the holiday? — I plan to travel."
+        },
+        {
+          "zh": "假期你打算怎么过？——我打算在家休息。",
+          "py": "Jiàqī nǐ dǎsuàn zěnme guò? —— Wǒ dǎsuàn zài jiā xiūxi.",
+          "en": "— I plan to rest at home."
+        },
+        {
+          "zh": "假期你打算怎么过？——我打算去看朋友。",
+          "py": "Jiàqī nǐ dǎsuàn zěnme guò? —— Wǒ dǎsuàn qù kàn péngyou.",
+          "en": "— I plan to visit friends."
+        },
+        {
+          "zh": "你想去哪儿玩？——我想去成都。",
+          "py": "Nǐ xiǎng qù nǎr wán? —— Wǒ xiǎng qù Chéngdū.",
+          "en": "Where do you want to go? — Chengdu."
+        },
+        {
+          "zh": "你想去哪儿玩？——我想去桂林。",
+          "py": "Nǐ xiǎng qù nǎr wán? —— Wǒ xiǎng qù Guìlín.",
+          "en": "Where do you want to go? — Guilin."
+        }
       ]
     }
   ]

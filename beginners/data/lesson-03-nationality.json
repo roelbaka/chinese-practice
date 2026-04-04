@@ -3,6 +3,81 @@
   "subtitle": "Lesson 3 — 你是哪国人 · What nationality are you?",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be (am, is, are)"
+        },
+        {
+          "zh": "哪",
+          "py": "nǎ",
+          "en": "which"
+        },
+        {
+          "zh": "国",
+          "py": "guó",
+          "en": "country, nation"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person, people"
+        },
+        {
+          "zh": "做",
+          "py": "zuò",
+          "en": "to do, to make"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "学生",
+          "py": "xuésheng",
+          "en": "student"
+        },
+        {
+          "zh": "请",
+          "py": "qǐng",
+          "en": "please; to invite"
+        },
+        {
+          "zh": "请问",
+          "py": "qǐngwèn",
+          "en": "excuse me, may I ask"
+        },
+        {
+          "zh": "进",
+          "py": "jìn",
+          "en": "to enter, to come in"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit, to sit down"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know (a person); to recognize"
+        },
+        {
+          "zh": "高兴",
+          "py": "gāoxìng",
+          "en": "happy, glad, pleased"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -108,141 +183,6 @@
       ]
     },
     {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "是",
-          "py": "shì",
-          "en": "to be (am, is, are)"
-        },
-        {
-          "zh": "哪",
-          "py": "nǎ",
-          "en": "which"
-        },
-        {
-          "zh": "国",
-          "py": "guó",
-          "en": "country, nation"
-        },
-        {
-          "zh": "人",
-          "py": "rén",
-          "en": "person, people"
-        },
-        {
-          "zh": "做",
-          "py": "zuò",
-          "en": "to do, to make"
-        },
-        {
-          "zh": "什么",
-          "py": "shénme",
-          "en": "what"
-        },
-        {
-          "zh": "学生",
-          "py": "xuésheng",
-          "en": "student"
-        },
-        {
-          "zh": "请",
-          "py": "qǐng",
-          "en": "please; to invite"
-        },
-        {
-          "zh": "请问",
-          "py": "qǐngwèn",
-          "en": "excuse me, may I ask"
-        },
-        {
-          "zh": "进",
-          "py": "jìn",
-          "en": "to enter, to come in"
-        },
-        {
-          "zh": "坐",
-          "py": "zuò",
-          "en": "to sit, to sit down"
-        },
-        {
-          "zh": "认识",
-          "py": "rènshi",
-          "en": "to know (a person); to recognize"
-        },
-        {
-          "zh": "高兴",
-          "py": "gāoxìng",
-          "en": "happy, glad, pleased"
-        },
-        {
-          "zh": "朋友",
-          "py": "péngyou",
-          "en": "friend"
-        }
-      ]
-    },
-    {
-      "topic": "国家 · Countries",
-      "items": [
-        {
-          "zh": "中国",
-          "py": "Zhōngguó",
-          "en": "China"
-        },
-        {
-          "zh": "美国",
-          "py": "Měiguó",
-          "en": "America / USA"
-        },
-        {
-          "zh": "英国",
-          "py": "Yīngguó",
-          "en": "England / UK"
-        },
-        {
-          "zh": "法国",
-          "py": "Fǎguó",
-          "en": "France"
-        },
-        {
-          "zh": "德国",
-          "py": "Déguó",
-          "en": "Germany"
-        },
-        {
-          "zh": "日本",
-          "py": "Rìběn",
-          "en": "Japan"
-        },
-        {
-          "zh": "韩国",
-          "py": "Hánguó",
-          "en": "South Korea"
-        },
-        {
-          "zh": "荷兰",
-          "py": "Hélán",
-          "en": "The Netherlands"
-        },
-        {
-          "zh": "中国人",
-          "py": "Zhōngguó rén",
-          "en": "Chinese person"
-        },
-        {
-          "zh": "美国人",
-          "py": "Měiguó rén",
-          "en": "American person"
-        },
-        {
-          "zh": "荷兰人",
-          "py": "Hélán rén",
-          "en": "Dutch person"
-        }
-      ]
-    },
-    {
       "topic": "语法 · Grammar",
       "items": [
         {
@@ -334,6 +274,66 @@
           "zh": "我的朋友是荷兰人。",
           "py": "Wǒ de péngyou shì Hélán rén.",
           "en": "My friend is Dutch."
+        }
+      ]
+    },
+    {
+      "topic": "国家 · Countries",
+      "items": [
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "美国",
+          "py": "Měiguó",
+          "en": "America / USA"
+        },
+        {
+          "zh": "英国",
+          "py": "Yīngguó",
+          "en": "England / UK"
+        },
+        {
+          "zh": "法国",
+          "py": "Fǎguó",
+          "en": "France"
+        },
+        {
+          "zh": "德国",
+          "py": "Déguó",
+          "en": "Germany"
+        },
+        {
+          "zh": "日本",
+          "py": "Rìběn",
+          "en": "Japan"
+        },
+        {
+          "zh": "韩国",
+          "py": "Hánguó",
+          "en": "South Korea"
+        },
+        {
+          "zh": "荷兰",
+          "py": "Hélán",
+          "en": "The Netherlands"
+        },
+        {
+          "zh": "中国人",
+          "py": "Zhōngguó rén",
+          "en": "Chinese person"
+        },
+        {
+          "zh": "美国人",
+          "py": "Měiguó rén",
+          "en": "American person"
+        },
+        {
+          "zh": "荷兰人",
+          "py": "Hélán rén",
+          "en": "Dutch person"
         }
       ]
     }

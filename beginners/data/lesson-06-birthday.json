@@ -148,111 +148,6 @@
       ]
     },
     {
-      "topic": "月份 · Months",
-      "items": [
-        {
-          "zh": "一月",
-          "py": "yī yuè",
-          "en": "January"
-        },
-        {
-          "zh": "二月",
-          "py": "èr yuè",
-          "en": "February"
-        },
-        {
-          "zh": "三月",
-          "py": "sān yuè",
-          "en": "March"
-        },
-        {
-          "zh": "四月",
-          "py": "sì yuè",
-          "en": "April"
-        },
-        {
-          "zh": "五月",
-          "py": "wǔ yuè",
-          "en": "May"
-        },
-        {
-          "zh": "六月",
-          "py": "liù yuè",
-          "en": "June"
-        },
-        {
-          "zh": "七月",
-          "py": "qī yuè",
-          "en": "July"
-        },
-        {
-          "zh": "八月",
-          "py": "bā yuè",
-          "en": "August"
-        },
-        {
-          "zh": "九月",
-          "py": "jiǔ yuè",
-          "en": "September"
-        },
-        {
-          "zh": "十月",
-          "py": "shí yuè",
-          "en": "October"
-        },
-        {
-          "zh": "十一月",
-          "py": "shíyī yuè",
-          "en": "November"
-        },
-        {
-          "zh": "十二月",
-          "py": "shí'èr yuè",
-          "en": "December"
-        }
-      ]
-    },
-    {
-      "topic": "星期 · Days of the Week",
-      "items": [
-        {
-          "zh": "星期一",
-          "py": "xīngqī yī",
-          "en": "Monday"
-        },
-        {
-          "zh": "星期二",
-          "py": "xīngqī èr",
-          "en": "Tuesday"
-        },
-        {
-          "zh": "星期三",
-          "py": "xīngqī sān",
-          "en": "Wednesday"
-        },
-        {
-          "zh": "星期四",
-          "py": "xīngqī sì",
-          "en": "Thursday"
-        },
-        {
-          "zh": "星期五",
-          "py": "xīngqī wǔ",
-          "en": "Friday"
-        },
-        {
-          "zh": "星期六",
-          "py": "xīngqī liù",
-          "en": "Saturday"
-        },
-        {
-          "zh": "星期日",
-          "py": "xīngqī rì",
-          "en": "Sunday"
-        }
-      ]
-    },
-    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -378,17 +273,17 @@
         {
           "zh": "你的生日是几月几号？",
           "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào?",
-          "en": "几 asks "which" for month/day; 几月几号 = which month, which date"
+          "en": "几 asks 'which' for month/day; 几月几号 = which month, which date"
         },
         {
           "zh": "你们班有多少学生？",
           "py": "Nǐmen bān yǒu duōshao xuéshēng?",
-          "en": "多少 asks "how many" when the number may be large or unknown."
+          "en": "多少 asks 'how many' when the number may be large or unknown."
         },
         {
           "zh": "今天星期几？",
           "py": "Jīntiān xīngqī jǐ?",
-          "en": "星期几 = "what day of the week?" (几 here means "which")"
+          "en": "星期几 = 'what day of the week?' (几 here means 'which')"
         },
         {
           "zh": "明天是星期日。",
@@ -484,6 +379,111 @@
           "zh": "我们星期六去朋友家，好吗？",
           "py": "Wǒmen xīngqī liù qù péngyou jiā, hǎo ma?",
           "en": "Let's go to a friend's house on Saturday, OK?"
+        }
+      ]
+    },
+    {
+      "topic": "星期 · Days of the Week",
+      "items": [
+        {
+          "zh": "星期一",
+          "py": "xīngqī yī",
+          "en": "Monday"
+        },
+        {
+          "zh": "星期二",
+          "py": "xīngqī èr",
+          "en": "Tuesday"
+        },
+        {
+          "zh": "星期三",
+          "py": "xīngqī sān",
+          "en": "Wednesday"
+        },
+        {
+          "zh": "星期四",
+          "py": "xīngqī sì",
+          "en": "Thursday"
+        },
+        {
+          "zh": "星期五",
+          "py": "xīngqī wǔ",
+          "en": "Friday"
+        },
+        {
+          "zh": "星期六",
+          "py": "xīngqī liù",
+          "en": "Saturday"
+        },
+        {
+          "zh": "星期日",
+          "py": "xīngqī rì",
+          "en": "Sunday"
+        }
+      ]
+    },
+    {
+      "topic": "月份 · Months",
+      "items": [
+        {
+          "zh": "一月",
+          "py": "yī yuè",
+          "en": "January"
+        },
+        {
+          "zh": "二月",
+          "py": "èr yuè",
+          "en": "February"
+        },
+        {
+          "zh": "三月",
+          "py": "sān yuè",
+          "en": "March"
+        },
+        {
+          "zh": "四月",
+          "py": "sì yuè",
+          "en": "April"
+        },
+        {
+          "zh": "五月",
+          "py": "wǔ yuè",
+          "en": "May"
+        },
+        {
+          "zh": "六月",
+          "py": "liù yuè",
+          "en": "June"
+        },
+        {
+          "zh": "七月",
+          "py": "qī yuè",
+          "en": "July"
+        },
+        {
+          "zh": "八月",
+          "py": "bā yuè",
+          "en": "August"
+        },
+        {
+          "zh": "九月",
+          "py": "jiǔ yuè",
+          "en": "September"
+        },
+        {
+          "zh": "十月",
+          "py": "shí yuè",
+          "en": "October"
+        },
+        {
+          "zh": "十一月",
+          "py": "shíyī yuè",
+          "en": "November"
+        },
+        {
+          "zh": "十二月",
+          "py": "shí'èr yuè",
+          "en": "December"
         }
       ]
     }

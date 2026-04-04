@@ -3,6 +3,116 @@
   "subtitle": "Lesson 13 — 要红的还是要蓝的 · Do you want the red one or the blue one",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "件",
+          "py": "jiàn",
+          "en": "measure word for clothes/items"
+        },
+        {
+          "zh": "毛衣",
+          "py": "máoyī",
+          "en": "sweater"
+        },
+        {
+          "zh": "衬衫",
+          "py": "chènshān",
+          "en": "shirt"
+        },
+        {
+          "zh": "试",
+          "py": "shì",
+          "en": "to try; to try on"
+        },
+        {
+          "zh": "合适",
+          "py": "héshì",
+          "en": "suitable; to fit"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "en": "size; number"
+        },
+        {
+          "zh": "颜色",
+          "py": "yánsè",
+          "en": "color"
+        },
+        {
+          "zh": "红",
+          "py": "hóng",
+          "en": "red"
+        },
+        {
+          "zh": "蓝",
+          "py": "lán",
+          "en": "blue"
+        },
+        {
+          "zh": "白",
+          "py": "bái",
+          "en": "white"
+        },
+        {
+          "zh": "黑",
+          "py": "hēi",
+          "en": "black"
+        },
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or (in questions)"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yīdiǎnr",
+          "en": "a little bit"
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "en": "again; once more"
+        },
+        {
+          "zh": "当然",
+          "py": "dāngrán",
+          "en": "of course; certainly"
+        },
+        {
+          "zh": "条",
+          "py": "tiáo",
+          "en": "measure word for trousers/scarves"
+        },
+        {
+          "zh": "裤子",
+          "py": "kùzi",
+          "en": "trousers; pants"
+        },
+        {
+          "zh": "鞋",
+          "py": "xié",
+          "en": "shoes"
+        },
+        {
+          "zh": "双",
+          "py": "shuāng",
+          "en": "pair (measure word)"
+        },
+        {
+          "zh": "长",
+          "py": "cháng",
+          "en": "long"
+        },
+        {
+          "zh": "短",
+          "py": "duǎn",
+          "en": "short (length)"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -138,146 +248,6 @@
       ]
     },
     {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "件",
-          "py": "jiàn",
-          "en": "measure word for clothes/items"
-        },
-        {
-          "zh": "毛衣",
-          "py": "máoyī",
-          "en": "sweater"
-        },
-        {
-          "zh": "衬衫",
-          "py": "chènshān",
-          "en": "shirt"
-        },
-        {
-          "zh": "试",
-          "py": "shì",
-          "en": "to try; to try on"
-        },
-        {
-          "zh": "合适",
-          "py": "héshì",
-          "en": "suitable; to fit"
-        },
-        {
-          "zh": "号",
-          "py": "hào",
-          "en": "size; number"
-        },
-        {
-          "zh": "颜色",
-          "py": "yánsè",
-          "en": "color"
-        },
-        {
-          "zh": "红",
-          "py": "hóng",
-          "en": "red"
-        },
-        {
-          "zh": "蓝",
-          "py": "lán",
-          "en": "blue"
-        },
-        {
-          "zh": "白",
-          "py": "bái",
-          "en": "white"
-        },
-        {
-          "zh": "黑",
-          "py": "hēi",
-          "en": "black"
-        },
-        {
-          "zh": "还是",
-          "py": "háishi",
-          "en": "or (in questions)"
-        },
-        {
-          "zh": "一点儿",
-          "py": "yīdiǎnr",
-          "en": "a little bit"
-        },
-        {
-          "zh": "再",
-          "py": "zài",
-          "en": "again; once more"
-        },
-        {
-          "zh": "当然",
-          "py": "dāngrán",
-          "en": "of course; certainly"
-        },
-        {
-          "zh": "条",
-          "py": "tiáo",
-          "en": "measure word for trousers/scarves"
-        },
-        {
-          "zh": "裤子",
-          "py": "kùzi",
-          "en": "trousers; pants"
-        },
-        {
-          "zh": "鞋",
-          "py": "xié",
-          "en": "shoes"
-        },
-        {
-          "zh": "双",
-          "py": "shuāng",
-          "en": "pair (measure word)"
-        },
-        {
-          "zh": "长",
-          "py": "cháng",
-          "en": "long"
-        },
-        {
-          "zh": "短",
-          "py": "duǎn",
-          "en": "short (length)"
-        }
-      ]
-    },
-    {
-      "topic": "语法 · Grammar (还是 Questions)",
-      "items": [
-        {
-          "zh": "你要红的还是蓝的？",
-          "py": "Nǐ yào hóng de háishi lán de?",
-          "en": "Do you want red or blue? (A 还是 B)"
-        },
-        {
-          "zh": "你喝咖啡还是茶？",
-          "py": "Nǐ hē kāfēi háishi chá?",
-          "en": "Do you drink coffee or tea?"
-        },
-        {
-          "zh": "他是老师还是学生？",
-          "py": "Tā shì lǎoshī háishi xuéshēng?",
-          "en": "Is he a teacher or a student?"
-        },
-        {
-          "zh": "你去还是不去？",
-          "py": "Nǐ qù háishi bú qù?",
-          "en": "Are you going or not?"
-        },
-        {
-          "zh": "你买大的还是小的？",
-          "py": "Nǐ mǎi dà de háishi xiǎo de?",
-          "en": "Are you buying a big one or a small one?"
-        }
-      ]
-    },
-    {
       "topic": "语法 · Grammar (太...了 & Adj + 了一点儿)",
       "items": [
         {
@@ -309,6 +279,36 @@
           "zh": "贵了一点儿。",
           "py": "Guì le yīdiǎnr.",
           "en": "A bit too expensive."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (还是 Questions)",
+      "items": [
+        {
+          "zh": "你要红的还是蓝的？",
+          "py": "Nǐ yào hóng de háishi lán de?",
+          "en": "Do you want red or blue? (A 还是 B)"
+        },
+        {
+          "zh": "你喝咖啡还是茶？",
+          "py": "Nǐ hē kāfēi háishi chá?",
+          "en": "Do you drink coffee or tea?"
+        },
+        {
+          "zh": "他是老师还是学生？",
+          "py": "Tā shì lǎoshī háishi xuéshēng?",
+          "en": "Is he a teacher or a student?"
+        },
+        {
+          "zh": "你去还是不去？",
+          "py": "Nǐ qù háishi bú qù?",
+          "en": "Are you going or not?"
+        },
+        {
+          "zh": "你买大的还是小的？",
+          "py": "Nǐ mǎi dà de háishi xiǎo de?",
+          "en": "Are you buying a big one or a small one?"
         }
       ]
     },

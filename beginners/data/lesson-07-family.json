@@ -3,116 +3,6 @@
   "subtitle": "Lesson 7 — 你家有几口人 · How many people in your family?",
   "data": [
     {
-      "topic": "句子 · Key Sentences",
-      "items": [
-        {
-          "zh": "你家有几口人？",
-          "py": "Nǐ jiā yǒu jǐ kǒu rén?",
-          "en": "How many people are in your family?"
-        },
-        {
-          "zh": "我家有五口人。",
-          "py": "Wǒ jiā yǒu wǔ kǒu rén.",
-          "en": "There are five people in my family."
-        },
-        {
-          "zh": "你有没有兄弟姐妹？",
-          "py": "Nǐ yǒu méiyǒu xiōngdì jiěmèi?",
-          "en": "Do you have siblings?"
-        },
-        {
-          "zh": "你爸爸做什么工作？",
-          "py": "Nǐ bàba zuò shénme gōngzuò?",
-          "en": "What does your father do?"
-        },
-        {
-          "zh": "我爸爸是医生。",
-          "py": "Wǒ bàba shì yīshēng.",
-          "en": "My father is a doctor."
-        }
-      ]
-    },
-    {
-      "topic": "会话1 · Dialogue 1",
-      "items": [
-        {
-          "zh": "玛丽：王兰，你家有几口人？",
-          "py": "Mǎlì: Wáng Lán, nǐ jiā yǒu jǐ kǒu rén?",
-          "en": "Mary: Wang Lan, how many people are in your family?"
-        },
-        {
-          "zh": "王兰：我家有四口人。我爸爸、我妈妈、我妹妹和我。",
-          "py": "Wáng Lán: Wǒ jiā yǒu sì kǒu rén. Wǒ bàba, wǒ māma, wǒ mèimei hé wǒ.",
-          "en": "Wang Lan: There are four in my family — my dad, my mom, my younger sister, and me."
-        },
-        {
-          "zh": "玛丽：你有没有哥哥？",
-          "py": "Mǎlì: Nǐ yǒu méiyǒu gēge?",
-          "en": "Mary: Do you have an older brother?"
-        },
-        {
-          "zh": "王兰：没有，我没有哥哥，只有一个妹妹。",
-          "py": "Wáng Lán: Méiyǒu, wǒ méiyǒu gēge, zhǐ yǒu yí gè mèimei.",
-          "en": "Wang Lan: No, I don't have an older brother — only one younger sister."
-        },
-        {
-          "zh": "玛丽：你爱人也是中国人吗？",
-          "py": "Mǎlì: Nǐ àiren yě shì Zhōngguó rén ma?",
-          "en": "Mary: Is your spouse Chinese too?"
-        },
-        {
-          "zh": "王兰：我还没有爱人呢。",
-          "py": "Wáng Lán: Wǒ hái méiyǒu àiren ne.",
-          "en": "Wang Lan: I don't have a spouse yet."
-        }
-      ]
-    },
-    {
-      "topic": "会话2 · Dialogue 2",
-      "items": [
-        {
-          "zh": "大卫：你家有几口人？",
-          "py": "Dàwèi: Nǐ jiā yǒu jǐ kǒu rén?",
-          "en": "David: How many people are in your family?"
-        },
-        {
-          "zh": "玛丽：我家有五口人。我爸爸、我妈妈、我丈夫、我女儿和我儿子。",
-          "py": "Mǎlì: Wǒ jiā yǒu wǔ kǒu rén. Wǒ bàba, wǒ māma, wǒ zhàngfu, wǒ nǚ'ér hé wǒ érzi.",
-          "en": "Mary: There are five — my dad, my mom, my husband, my daughter, and my son."
-        },
-        {
-          "zh": "大卫：你爸爸做什么工作？",
-          "py": "Dàwèi: Nǐ bàba zuò shénme gōngzuò?",
-          "en": "David: What does your father do?"
-        },
-        {
-          "zh": "玛丽：我爸爸是医生。",
-          "py": "Mǎlì: Wǒ bàba shì yīshēng.",
-          "en": "Mary: My dad's a doctor."
-        },
-        {
-          "zh": "大卫：你妈妈呢？",
-          "py": "Dàwèi: Nǐ māma ne?",
-          "en": "David: What about your mother?"
-        },
-        {
-          "zh": "玛丽：我妈妈是公司的职员。",
-          "py": "Mǎlì: Wǒ māma shì gōngsī de zhíyuán.",
-          "en": "Mary: My mom is an office worker at a company."
-        },
-        {
-          "zh": "大卫：你丈夫在大学工作吗？",
-          "py": "Dàwèi: Nǐ zhàngfu zài dàxué gōngzuò ma?",
-          "en": "David: Does your husband work at a university?"
-        },
-        {
-          "zh": "玛丽：对，他在北京大学工作。",
-          "py": "Mǎlì: Duì, tā zài Běijīng Dàxué gōngzuò.",
-          "en": "Mary: Yes, he works at Peking University."
-        }
-      ]
-    },
-    {
       "topic": "生词 · New Words",
       "items": [
         {
@@ -228,6 +118,116 @@
       ]
     },
     {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "你家有几口人？",
+          "py": "Nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "How many people are in your family?"
+        },
+        {
+          "zh": "我家有五口人。",
+          "py": "Wǒ jiā yǒu wǔ kǒu rén.",
+          "en": "There are five people in my family."
+        },
+        {
+          "zh": "你有没有兄弟姐妹？",
+          "py": "Nǐ yǒu méiyǒu xiōngdì jiěmèi?",
+          "en": "Do you have siblings?"
+        },
+        {
+          "zh": "你爸爸做什么工作？",
+          "py": "Nǐ bàba zuò shénme gōngzuò?",
+          "en": "What does your father do?"
+        },
+        {
+          "zh": "我爸爸是医生。",
+          "py": "Wǒ bàba shì yīshēng.",
+          "en": "My father is a doctor."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1",
+      "items": [
+        {
+          "zh": "玛丽：王兰，你家有几口人？",
+          "py": "Mǎlì: Wáng Lán, nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "Mary: Wang Lan, how many people are in your family?"
+        },
+        {
+          "zh": "王兰：我家有四口人。我爸爸、我妈妈、我妹妹和我。",
+          "py": "Wáng Lán: Wǒ jiā yǒu sì kǒu rén. Wǒ bàba, wǒ māma, wǒ mèimei hé wǒ.",
+          "en": "Wang Lan: There are four in my family — my dad, my mom, my younger sister, and me."
+        },
+        {
+          "zh": "玛丽：你有没有哥哥？",
+          "py": "Mǎlì: Nǐ yǒu méiyǒu gēge?",
+          "en": "Mary: Do you have an older brother?"
+        },
+        {
+          "zh": "王兰：没有，我没有哥哥，只有一个妹妹。",
+          "py": "Wáng Lán: Méiyǒu, wǒ méiyǒu gēge, zhǐ yǒu yí gè mèimei.",
+          "en": "Wang Lan: No, I don't have an older brother — only one younger sister."
+        },
+        {
+          "zh": "玛丽：你爱人也是中国人吗？",
+          "py": "Mǎlì: Nǐ àiren yě shì Zhōngguó rén ma?",
+          "en": "Mary: Is your spouse Chinese too?"
+        },
+        {
+          "zh": "王兰：我还没有爱人呢。",
+          "py": "Wáng Lán: Wǒ hái méiyǒu àiren ne.",
+          "en": "Wang Lan: I don't have a spouse yet."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2",
+      "items": [
+        {
+          "zh": "大卫：你家有几口人？",
+          "py": "Dàwèi: Nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "David: How many people are in your family?"
+        },
+        {
+          "zh": "玛丽：我家有五口人。我爸爸、我妈妈、我丈夫、我女儿和我儿子。",
+          "py": "Mǎlì: Wǒ jiā yǒu wǔ kǒu rén. Wǒ bàba, wǒ māma, wǒ zhàngfu, wǒ nǚ'ér hé wǒ érzi.",
+          "en": "Mary: There are five — my dad, my mom, my husband, my daughter, and my son."
+        },
+        {
+          "zh": "大卫：你爸爸做什么工作？",
+          "py": "Dàwèi: Nǐ bàba zuò shénme gōngzuò?",
+          "en": "David: What does your father do?"
+        },
+        {
+          "zh": "玛丽：我爸爸是医生。",
+          "py": "Mǎlì: Wǒ bàba shì yīshēng.",
+          "en": "Mary: My dad's a doctor."
+        },
+        {
+          "zh": "大卫：你妈妈呢？",
+          "py": "Dàwèi: Nǐ māma ne?",
+          "en": "David: What about your mother?"
+        },
+        {
+          "zh": "玛丽：我妈妈是公司的职员。",
+          "py": "Mǎlì: Wǒ māma shì gōngsī de zhíyuán.",
+          "en": "Mary: My mom is an office worker at a company."
+        },
+        {
+          "zh": "大卫：你丈夫在大学工作吗？",
+          "py": "Dàwèi: Nǐ zhàngfu zài dàxué gōngzuò ma?",
+          "en": "David: Does your husband work at a university?"
+        },
+        {
+          "zh": "玛丽：对，他在北京大学工作。",
+          "py": "Mǎlì: Duì, tā zài Běijīng Dàxué gōngzuò.",
+          "en": "Mary: Yes, he works at Peking University."
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar",
       "items": [
         {
@@ -323,6 +323,51 @@
       ]
     },
     {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "请问，你家有几口人？",
+          "py": "Qǐngwèn, nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "Excuse me, how many people are in your family?"
+        },
+        {
+          "zh": "我家有四口人：爸爸、妈妈、姐姐和我。",
+          "py": "Wǒ jiā yǒu sì kǒu rén: bàba, māma, jiějie hé wǒ.",
+          "en": "There are four of us: dad, mom, older sister, and me."
+        },
+        {
+          "zh": "你有没有儿子和女儿？",
+          "py": "Nǐ yǒu méiyǒu érzi hé nǚ'ér?",
+          "en": "Do you have a son and a daughter?"
+        },
+        {
+          "zh": "我有一个儿子，没有女儿。",
+          "py": "Wǒ yǒu yí gè érzi, méiyǒu nǚ'ér.",
+          "en": "I have one son, no daughter."
+        },
+        {
+          "zh": "你妻子做什么工作？",
+          "py": "Nǐ qīzi zuò shénme gōngzuò?",
+          "en": "What does your wife do?"
+        },
+        {
+          "zh": "我爱人在大学工作，她是老师。",
+          "py": "Wǒ àiren zài dàxué gōngzuò, tā shì lǎoshī.",
+          "en": "My spouse works at a university; she's a teacher."
+        },
+        {
+          "zh": "我爸爸和妈妈都在公司工作。",
+          "py": "Wǒ bàba hé māma dōu zài gōngsī gōngzuò.",
+          "en": "Both my father and mother work at a company."
+        },
+        {
+          "zh": "他家没有兄弟姐妹，只有一个孩子。",
+          "py": "Tā jiā méiyǒu xiōngdì jiěmèi, zhǐ yǒu yí gè háizi.",
+          "en": "Their family has no siblings — only one child."
+        }
+      ]
+    },
+    {
       "topic": "职业 · Occupations",
       "items": [
         {
@@ -374,51 +419,6 @@
           "zh": "记者",
           "py": "jìzhě",
           "en": "journalist"
-        }
-      ]
-    },
-    {
-      "topic": "练习 · Exercises",
-      "items": [
-        {
-          "zh": "请问，你家有几口人？",
-          "py": "Qǐngwèn, nǐ jiā yǒu jǐ kǒu rén?",
-          "en": "Excuse me, how many people are in your family?"
-        },
-        {
-          "zh": "我家有四口人：爸爸、妈妈、姐姐和我。",
-          "py": "Wǒ jiā yǒu sì kǒu rén: bàba, māma, jiějie hé wǒ.",
-          "en": "There are four of us: dad, mom, older sister, and me."
-        },
-        {
-          "zh": "你有没有儿子和女儿？",
-          "py": "Nǐ yǒu méiyǒu érzi hé nǚ'ér?",
-          "en": "Do you have a son and a daughter?"
-        },
-        {
-          "zh": "我有一个儿子，没有女儿。",
-          "py": "Wǒ yǒu yí gè érzi, méiyǒu nǚ'ér.",
-          "en": "I have one son, no daughter."
-        },
-        {
-          "zh": "你妻子做什么工作？",
-          "py": "Nǐ qīzi zuò shénme gōngzuò?",
-          "en": "What does your wife do?"
-        },
-        {
-          "zh": "我爱人在大学工作，她是老师。",
-          "py": "Wǒ àiren zài dàxué gōngzuò, tā shì lǎoshī.",
-          "en": "My spouse works at a university; she's a teacher."
-        },
-        {
-          "zh": "我爸爸和妈妈都在公司工作。",
-          "py": "Wǒ bàba hé māma dōu zài gōngsī gōngzuò.",
-          "en": "Both my father and mother work at a company."
-        },
-        {
-          "zh": "他家没有兄弟姐妹，只有一个孩子。",
-          "py": "Tā jiā méiyǒu xiōngdì jiěmèi, zhǐ yǒu yí gè háizi.",
-          "en": "Their family has no siblings — only one child."
         }
       ]
     }

@@ -3,6 +3,101 @@
   "subtitle": "Lesson 14 — 你换了人民币没有 · Have you exchanged RMB",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "换",
+          "py": "huàn",
+          "en": "to exchange; to change"
+        },
+        {
+          "zh": "人民币",
+          "py": "rénmínbì",
+          "en": "RMB (Chinese currency)"
+        },
+        {
+          "zh": "美元",
+          "py": "měiyuán",
+          "en": "US dollar"
+        },
+        {
+          "zh": "银行",
+          "py": "yínháng",
+          "en": "bank"
+        },
+        {
+          "zh": "汇率",
+          "py": "huìlǜ",
+          "en": "exchange rate"
+        },
+        {
+          "zh": "数",
+          "py": "shǔ",
+          "en": "to count"
+        },
+        {
+          "zh": "百",
+          "py": "bǎi",
+          "en": "hundred"
+        },
+        {
+          "zh": "千",
+          "py": "qiān",
+          "en": "thousand"
+        },
+        {
+          "zh": "次",
+          "py": "cì",
+          "en": "time (measure word for frequency)"
+        },
+        {
+          "zh": "填",
+          "py": "tián",
+          "en": "to fill in"
+        },
+        {
+          "zh": "张",
+          "py": "zhāng",
+          "en": "measure word for paper/tables"
+        },
+        {
+          "zh": "表",
+          "py": "biǎo",
+          "en": "form; table"
+        },
+        {
+          "zh": "先",
+          "py": "xiān",
+          "en": "first; before"
+        },
+        {
+          "zh": "对了",
+          "py": "duì le",
+          "en": "that's right; correct"
+        },
+        {
+          "zh": "站",
+          "py": "zhàn",
+          "en": "stop (bus stop)"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then; just (emphasis)"
+        },
+        {
+          "zh": "欧元",
+          "py": "ōuyuán",
+          "en": "euro"
+        },
+        {
+          "zh": "英镑",
+          "py": "yīngbàng",
+          "en": "British pound"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -134,101 +229,6 @@
           "zh": "大卫：银行离学校不太远，坐公共汽车三站就到了。",
           "py": "Dàwèi: Yínháng lí xuéxiào bú tài yuǎn, zuò gōnggòng qìchē sān zhàn jiù dào le.",
           "en": "David: The bank isn't too far from school, just three stops by bus."
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "换",
-          "py": "huàn",
-          "en": "to exchange; to change"
-        },
-        {
-          "zh": "人民币",
-          "py": "rénmínbì",
-          "en": "RMB (Chinese currency)"
-        },
-        {
-          "zh": "美元",
-          "py": "měiyuán",
-          "en": "US dollar"
-        },
-        {
-          "zh": "银行",
-          "py": "yínháng",
-          "en": "bank"
-        },
-        {
-          "zh": "汇率",
-          "py": "huìlǜ",
-          "en": "exchange rate"
-        },
-        {
-          "zh": "数",
-          "py": "shǔ",
-          "en": "to count"
-        },
-        {
-          "zh": "百",
-          "py": "bǎi",
-          "en": "hundred"
-        },
-        {
-          "zh": "千",
-          "py": "qiān",
-          "en": "thousand"
-        },
-        {
-          "zh": "次",
-          "py": "cì",
-          "en": "time (measure word for frequency)"
-        },
-        {
-          "zh": "填",
-          "py": "tián",
-          "en": "to fill in"
-        },
-        {
-          "zh": "张",
-          "py": "zhāng",
-          "en": "measure word for paper/tables"
-        },
-        {
-          "zh": "表",
-          "py": "biǎo",
-          "en": "form; table"
-        },
-        {
-          "zh": "先",
-          "py": "xiān",
-          "en": "first; before"
-        },
-        {
-          "zh": "对了",
-          "py": "duì le",
-          "en": "that's right; correct"
-        },
-        {
-          "zh": "站",
-          "py": "zhàn",
-          "en": "stop (bus stop)"
-        },
-        {
-          "zh": "就",
-          "py": "jiù",
-          "en": "then; just (emphasis)"
-        },
-        {
-          "zh": "欧元",
-          "py": "ōuyuán",
-          "en": "euro"
-        },
-        {
-          "zh": "英镑",
-          "py": "yīngbàng",
-          "en": "British pound"
         }
       ]
     },

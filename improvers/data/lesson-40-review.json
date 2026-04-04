@@ -3,77 +3,253 @@
   "subtitle": "Lesson 40 — 总复习 · General Review",
   "data": [
     {
+      "topic": "生词 · New Words (Review)",
+      "items": [
+        {
+          "zh": "已经",
+          "py": "yǐjīng",
+          "en": "already"
+        },
+        {
+          "zh": "学到",
+          "py": "xué dào",
+          "en": "to learn (successfully)"
+        },
+        {
+          "zh": "不但...而且...",
+          "py": "búdàn...érqiě...",
+          "en": "not only... but also..."
+        },
+        {
+          "zh": "了解",
+          "py": "liǎojiě",
+          "en": "to understand; to know about"
+        },
+        {
+          "zh": "印象",
+          "py": "yìnxiàng",
+          "en": "impression"
+        },
+        {
+          "zh": "深",
+          "py": "shēn",
+          "en": "deep; profound"
+        },
+        {
+          "zh": "希望",
+          "py": "xīwàng",
+          "en": "to hope; hope"
+        },
+        {
+          "zh": "联系",
+          "py": "liánxì",
+          "en": "to contact; to keep in touch"
+        },
+        {
+          "zh": "万事如意",
+          "py": "wànshì rúyì",
+          "en": "may all go well; best wishes"
+        },
+        {
+          "zh": "健康",
+          "py": "jiànkāng",
+          "en": "healthy; health"
+        },
+        {
+          "zh": "经历",
+          "py": "jīnglì",
+          "en": "experience"
+        },
+        {
+          "zh": "难忘",
+          "py": "nánwàng",
+          "en": "unforgettable"
+        },
+        {
+          "zh": "感谢",
+          "py": "gǎnxiè",
+          "en": "to thank; gratitude"
+        },
+        {
+          "zh": "友谊",
+          "py": "yǒuyì",
+          "en": "friendship"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Review)",
       "items": [
-        {"zh": "我来中国已经一年了。", "py": "Wǒ lái Zhōngguó yǐjīng yī nián le.", "en": "I've been in China for a year already."},
-        {"zh": "这一年我学到了很多东西。", "py": "Zhè yī nián wǒ xué dào le hěn duō dōngxi.", "en": "I've learned a lot this year."},
-        {"zh": "我不但会说汉语，而且会写汉字了。", "py": "Wǒ búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì le.", "en": "I can not only speak Chinese, but also write characters."},
-        {"zh": "虽然还有很多不会的，但是我会继续努力。", "py": "Suīrán hái yǒu hěn duō bú huì de, dànshì wǒ huì jìxù nǔlì.", "en": "Although there's still much I don't know, I'll keep working hard."},
-        {"zh": "谢谢老师和同学们的帮助。", "py": "Xièxie lǎoshī hé tóngxuémen de bāngzhù.", "en": "Thank you for the help from teachers and classmates."},
-        {"zh": "中国给我留下了很深的印象。", "py": "Zhōngguó gěi wǒ liú xià le hěn shēn de yìnxiàng.", "en": "China has left a deep impression on me."}
+        {
+          "zh": "我来中国已经一年了。",
+          "py": "Wǒ lái Zhōngguó yǐjīng yī nián le.",
+          "en": "I've been in China for a year already."
+        },
+        {
+          "zh": "这一年我学到了很多东西。",
+          "py": "Zhè yī nián wǒ xué dào le hěn duō dōngxi.",
+          "en": "I've learned a lot this year."
+        },
+        {
+          "zh": "我不但会说汉语，而且会写汉字了。",
+          "py": "Wǒ búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì le.",
+          "en": "I can not only speak Chinese, but also write characters."
+        },
+        {
+          "zh": "虽然还有很多不会的，但是我会继续努力。",
+          "py": "Suīrán hái yǒu hěn duō bú huì de, dànshì wǒ huì jìxù nǔlì.",
+          "en": "Although there's still much I don't know, I'll keep working hard."
+        },
+        {
+          "zh": "谢谢老师和同学们的帮助。",
+          "py": "Xièxie lǎoshī hé tóngxuémen de bāngzhù.",
+          "en": "Thank you for the help from teachers and classmates."
+        },
+        {
+          "zh": "中国给我留下了很深的印象。",
+          "py": "Zhōngguó gěi wǒ liú xià le hěn shēn de yìnxiàng.",
+          "en": "China has left a deep impression on me."
+        }
       ]
     },
     {
       "topic": "会话 · Dialogue (Farewell Speech)",
       "items": [
-        {"zh": "大卫：老师们，同学们，大家好！", "py": "Dàwèi: Lǎoshīmen, tóngxuémen, dàjiā hǎo!", "en": "David: Teachers, classmates, hello everyone!"},
-        {"zh": "大卫：我来中国已经一年了。时间过得真快！", "py": "Dàwèi: Wǒ lái Zhōngguó yǐjīng yī nián le. Shíjiān guò de zhēn kuài!", "en": "David: I've been in China for a year. Time flies!"},
-        {"zh": "大卫：这一年我学到了很多东西。", "py": "Dàwèi: Zhè yī nián wǒ xué dào le hěn duō dōngxi.", "en": "David: I've learned so much this year."},
-        {"zh": "大卫：我不但学会了说汉语，而且了解了中国文化。", "py": "Dàwèi: Wǒ búdàn xuéhuì le shuō Hànyǔ, érqiě liǎojiě le Zhōngguó wénhuà.", "en": "David: I've not only learned to speak Chinese but also understood Chinese culture."},
-        {"zh": "大卫：中国给我留下了很深的印象。", "py": "Dàwèi: Zhōngguó gěi wǒ liú xià le hěn shēn de yìnxiàng.", "en": "David: China has left a deep impression on me."},
-        {"zh": "大卫：我真舍不得离开这儿。", "py": "Dàwèi: Wǒ zhēn shě bu de líkāi zhèr.", "en": "David: I'm really reluctant to leave."},
-        {"zh": "大卫：谢谢老师和同学们的帮助。", "py": "Dàwèi: Xièxie lǎoshī hé tóngxuémen de bāngzhù.", "en": "David: Thank you all for your help."},
-        {"zh": "大卫：希望大家以后常联系。", "py": "Dàwèi: Xīwàng dàjiā yǐhòu cháng liánxì.", "en": "David: I hope we'll all stay in touch."},
-        {"zh": "大卫：祝大家身体健康，万事如意！", "py": "Dàwèi: Zhù dàjiā shēntǐ jiànkāng, wànshì rúyì!", "en": "David: Wishing everyone good health and all the best!"}
-      ]
-    },
-    {
-      "topic": "生词 · New Words (Review)",
-      "items": [
-        {"zh": "已经", "py": "yǐjīng", "en": "already"},
-        {"zh": "学到", "py": "xué dào", "en": "to learn (successfully)"},
-        {"zh": "不但...而且...", "py": "búdàn...érqiě...", "en": "not only... but also..."},
-        {"zh": "了解", "py": "liǎojiě", "en": "to understand; to know about"},
-        {"zh": "印象", "py": "yìnxiàng", "en": "impression"},
-        {"zh": "深", "py": "shēn", "en": "deep; profound"},
-        {"zh": "希望", "py": "xīwàng", "en": "to hope; hope"},
-        {"zh": "联系", "py": "liánxì", "en": "to contact; to keep in touch"},
-        {"zh": "万事如意", "py": "wànshì rúyì", "en": "may all go well; best wishes"},
-        {"zh": "健康", "py": "jiànkāng", "en": "healthy; health"},
-        {"zh": "经历", "py": "jīnglì", "en": "experience"},
-        {"zh": "难忘", "py": "nánwàng", "en": "unforgettable"},
-        {"zh": "感谢", "py": "gǎnxiè", "en": "to thank; gratitude"},
-        {"zh": "友谊", "py": "yǒuyì", "en": "friendship"}
+        {
+          "zh": "大卫：老师们，同学们，大家好！",
+          "py": "Dàwèi: Lǎoshīmen, tóngxuémen, dàjiā hǎo!",
+          "en": "David: Teachers, classmates, hello everyone!"
+        },
+        {
+          "zh": "大卫：我来中国已经一年了。时间过得真快！",
+          "py": "Dàwèi: Wǒ lái Zhōngguó yǐjīng yī nián le. Shíjiān guò de zhēn kuài!",
+          "en": "David: I've been in China for a year. Time flies!"
+        },
+        {
+          "zh": "大卫：这一年我学到了很多东西。",
+          "py": "Dàwèi: Zhè yī nián wǒ xué dào le hěn duō dōngxi.",
+          "en": "David: I've learned so much this year."
+        },
+        {
+          "zh": "大卫：我不但学会了说汉语，而且了解了中国文化。",
+          "py": "Dàwèi: Wǒ búdàn xuéhuì le shuō Hànyǔ, érqiě liǎojiě le Zhōngguó wénhuà.",
+          "en": "David: I've not only learned to speak Chinese but also understood Chinese culture."
+        },
+        {
+          "zh": "大卫：中国给我留下了很深的印象。",
+          "py": "Dàwèi: Zhōngguó gěi wǒ liú xià le hěn shēn de yìnxiàng.",
+          "en": "David: China has left a deep impression on me."
+        },
+        {
+          "zh": "大卫：我真舍不得离开这儿。",
+          "py": "Dàwèi: Wǒ zhēn shě bu de líkāi zhèr.",
+          "en": "David: I'm really reluctant to leave."
+        },
+        {
+          "zh": "大卫：谢谢老师和同学们的帮助。",
+          "py": "Dàwèi: Xièxie lǎoshī hé tóngxuémen de bāngzhù.",
+          "en": "David: Thank you all for your help."
+        },
+        {
+          "zh": "大卫：希望大家以后常联系。",
+          "py": "Dàwèi: Xīwàng dàjiā yǐhòu cháng liánxì.",
+          "en": "David: I hope we'll all stay in touch."
+        },
+        {
+          "zh": "大卫：祝大家身体健康，万事如意！",
+          "py": "Dàwèi: Zhù dàjiā shēntǐ jiànkāng, wànshì rúyì!",
+          "en": "David: Wishing everyone good health and all the best!"
+        }
       ]
     },
     {
       "topic": "语法 · Grammar (不但...而且...)",
       "items": [
-        {"zh": "他不但会说汉语，而且会写汉字。", "py": "Tā búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì.", "en": "He can not only speak Chinese but also write characters."},
-        {"zh": "这个菜不但好看，而且好吃。", "py": "Zhège cài búdàn hǎokàn, érqiě hǎo chī.", "en": "This dish not only looks good but also tastes good."},
-        {"zh": "他不但聪明，而且很努力。", "py": "Tā búdàn cōngming, érqiě hěn nǔlì.", "en": "He's not only smart but also hardworking."},
-        {"zh": "北京不但是中国的首都，而且是文化中心。", "py": "Běijīng búdàn shì Zhōngguó de shǒudū, érqiě shì wénhuà zhōngxīn.", "en": "Beijing is not only China's capital but also a cultural center."}
+        {
+          "zh": "他不但会说汉语，而且会写汉字。",
+          "py": "Tā búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì.",
+          "en": "He can not only speak Chinese but also write characters."
+        },
+        {
+          "zh": "这个菜不但好看，而且好吃。",
+          "py": "Zhège cài búdàn hǎokàn, érqiě hǎo chī.",
+          "en": "This dish not only looks good but also tastes good."
+        },
+        {
+          "zh": "他不但聪明，而且很努力。",
+          "py": "Tā búdàn cōngming, érqiě hěn nǔlì.",
+          "en": "He's not only smart but also hardworking."
+        },
+        {
+          "zh": "北京不但是中国的首都，而且是文化中心。",
+          "py": "Běijīng búdàn shì Zhōngguó de shǒudū, érqiě shì wénhuà zhōngxīn.",
+          "en": "Beijing is not only China's capital but also a cultural center."
+        }
       ]
     },
     {
       "topic": "替换 · Substitution Drills (Comprehensive Review)",
       "items": [
-        {"zh": "我来中国已经一年了。→ 他来北京已经半年了。", "py": "Wǒ lái Zhōngguó yǐjīng yī nián le. → Tā lái Běijīng yǐjīng bàn nián le.", "en": "I've been in China for a year. → He's been in Beijing for half a year."},
-        {"zh": "祝你一路平安！", "py": "Zhù nǐ yīlù píng'ān!", "en": "Have a safe journey!"},
-        {"zh": "祝你工作顺利！", "py": "Zhù nǐ gōngzuò shùnlì!", "en": "Wish you success at work!"},
-        {"zh": "祝大家新年快乐！", "py": "Zhù dàjiā xīnnián kuàilè!", "en": "Happy New Year to everyone!"},
-        {"zh": "中国给我留下了很深的印象。", "py": "Zhōngguó gěi wǒ liú xià le hěn shēn de yìnxiàng.", "en": "China left a deep impression on me."},
-        {"zh": "这次旅行给我留下了难忘的经历。", "py": "Zhè cì lǚxíng gěi wǒ liú xià le nánwàng de jīnglì.", "en": "This trip gave me unforgettable experiences."}
+        {
+          "zh": "我来中国已经一年了。→ 他来北京已经半年了。",
+          "py": "Wǒ lái Zhōngguó yǐjīng yī nián le. → Tā lái Běijīng yǐjīng bàn nián le.",
+          "en": "I've been in China for a year. → He's been in Beijing for half a year."
+        },
+        {
+          "zh": "祝你一路平安！",
+          "py": "Zhù nǐ yīlù píng'ān!",
+          "en": "Have a safe journey!"
+        },
+        {
+          "zh": "祝你工作顺利！",
+          "py": "Zhù nǐ gōngzuò shùnlì!",
+          "en": "Wish you success at work!"
+        },
+        {
+          "zh": "祝大家新年快乐！",
+          "py": "Zhù dàjiā xīnnián kuàilè!",
+          "en": "Happy New Year to everyone!"
+        },
+        {
+          "zh": "中国给我留下了很深的印象。",
+          "py": "Zhōngguó gěi wǒ liú xià le hěn shēn de yìnxiàng.",
+          "en": "China left a deep impression on me."
+        },
+        {
+          "zh": "这次旅行给我留下了难忘的经历。",
+          "py": "Zhè cì lǚxíng gěi wǒ liú xià le nánwàng de jīnglì.",
+          "en": "This trip gave me unforgettable experiences."
+        }
       ]
     },
     {
       "topic": "扩展 · Extension Sentences (Goodbyes)",
       "items": [
-        {"zh": "感谢大家这一年来的帮助。", "py": "Gǎnxiè dàjiā zhè yī nián lái de bāngzhù.", "en": "Thank you all for your help this year."},
-        {"zh": "我永远不会忘记在中国的时光。", "py": "Wǒ yǒngyuǎn bú huì wàngjì zài Zhōngguó de shíguāng.", "en": "I'll never forget my time in China."},
-        {"zh": "我们的友谊地久天长。", "py": "Wǒmen de yǒuyì dìjiǔ tiāncháng.", "en": "May our friendship last forever."},
-        {"zh": "后会有期！", "py": "Hòu huì yǒu qī!", "en": "Until we meet again!"},
-        {"zh": "保重！", "py": "Bǎozhòng!", "en": "Take care!"}
+        {
+          "zh": "感谢大家这一年来的帮助。",
+          "py": "Gǎnxiè dàjiā zhè yī nián lái de bāngzhù.",
+          "en": "Thank you all for your help this year."
+        },
+        {
+          "zh": "我永远不会忘记在中国的时光。",
+          "py": "Wǒ yǒngyuǎn bú huì wàngjì zài Zhōngguó de shíguāng.",
+          "en": "I'll never forget my time in China."
+        },
+        {
+          "zh": "我们的友谊地久天长。",
+          "py": "Wǒmen de yǒuyì dìjiǔ tiāncháng.",
+          "en": "May our friendship last forever."
+        },
+        {
+          "zh": "后会有期！",
+          "py": "Hòu huì yǒu qī!",
+          "en": "Until we meet again!"
+        },
+        {
+          "zh": "保重！",
+          "py": "Bǎozhòng!",
+          "en": "Take care!"
+        }
       ]
     }
   ]

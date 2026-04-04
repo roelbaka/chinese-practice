@@ -3,76 +3,248 @@
   "subtitle": "Lesson 32 — 下次我一定能考好 · Next time I'll do well",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 32)",
+      "items": [
+        {
+          "zh": "考",
+          "py": "kǎo",
+          "en": "to take an exam"
+        },
+        {
+          "zh": "能",
+          "py": "néng",
+          "en": "can; able to (ability/circumstance)"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can (learned skill); will"
+        },
+        {
+          "zh": "听力",
+          "py": "tīnglì",
+          "en": "listening (comprehension)"
+        },
+        {
+          "zh": "语法",
+          "py": "yǔfǎ",
+          "en": "grammar"
+        },
+        {
+          "zh": "担心",
+          "py": "dānxīn",
+          "en": "to worry"
+        },
+        {
+          "zh": "应该",
+          "py": "yīnggāi",
+          "en": "should; ought to"
+        },
+        {
+          "zh": "复习",
+          "py": "fùxí",
+          "en": "to review; revision"
+        },
+        {
+          "zh": "鼓励",
+          "py": "gǔlì",
+          "en": "encouragement; to encourage"
+        },
+        {
+          "zh": "开车",
+          "py": "kāi chē",
+          "en": "to drive (a car)"
+        },
+        {
+          "zh": "驾照",
+          "py": "jiàzhào",
+          "en": "driver's license"
+        },
+        {
+          "zh": "驾校",
+          "py": "jiàxiào",
+          "en": "driving school"
+        },
+        {
+          "zh": "成绩",
+          "py": "chéngjì",
+          "en": "grade; result; score"
+        },
+        {
+          "zh": "及格",
+          "py": "jígé",
+          "en": "to pass (an exam)"
+        },
+        {
+          "zh": "满分",
+          "py": "mǎnfēn",
+          "en": "full marks"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 32)",
       "items": [
-        {"zh": "下次我一定能考好。", "py": "Xià cì wǒ yīdìng néng kǎo hǎo.", "en": "Next time I'll definitely do well on the exam."},
-        {"zh": "这次考试你考得怎么样？", "py": "Zhè cì kǎoshì nǐ kǎo de zěnmeyàng?", "en": "How did you do on this exam?"},
-        {"zh": "我考得不太好。", "py": "Wǒ kǎo de bú tài hǎo.", "en": "I didn't do very well."},
-        {"zh": "你能看懂这本书吗？", "py": "Nǐ néng kàn dǒng zhè běn shū ma?", "en": "Can you understand this book?"},
-        {"zh": "你会开车吗？", "py": "Nǐ huì kāi chē ma?", "en": "Can you drive?"},
-        {"zh": "我不会，但是我想学。", "py": "Wǒ bú huì, dànshì wǒ xiǎng xué.", "en": "I can't, but I want to learn."}
+        {
+          "zh": "下次我一定能考好。",
+          "py": "Xià cì wǒ yīdìng néng kǎo hǎo.",
+          "en": "Next time I'll definitely do well on the exam."
+        },
+        {
+          "zh": "这次考试你考得怎么样？",
+          "py": "Zhè cì kǎoshì nǐ kǎo de zěnmeyàng?",
+          "en": "How did you do on this exam?"
+        },
+        {
+          "zh": "我考得不太好。",
+          "py": "Wǒ kǎo de bú tài hǎo.",
+          "en": "I didn't do very well."
+        },
+        {
+          "zh": "你能看懂这本书吗？",
+          "py": "Nǐ néng kàn dǒng zhè běn shū ma?",
+          "en": "Can you understand this book?"
+        },
+        {
+          "zh": "你会开车吗？",
+          "py": "Nǐ huì kāi chē ma?",
+          "en": "Can you drive?"
+        },
+        {
+          "zh": "我不会，但是我想学。",
+          "py": "Wǒ bú huì, dànshì wǒ xiǎng xué.",
+          "en": "I can't, but I want to learn."
+        }
       ]
     },
     {
       "topic": "会话1 · Dialogue 1 (Exam Results)",
       "items": [
-        {"zh": "刘京：这次考试你考得怎么样？", "py": "Liú Jīng: Zhè cì kǎoshì nǐ kǎo de zěnmeyàng?", "en": "Liu Jing: How did you do on this exam?"},
-        {"zh": "大卫：考得不太好。听力还可以，语法不太好。", "py": "Dàwèi: Kǎo de bú tài hǎo. Tīnglì hái kěyǐ, yǔfǎ bú tài hǎo.", "en": "David: Not very well. Listening was OK, grammar wasn't good."},
-        {"zh": "刘京：别担心，你才学了半年。", "py": "Liú Jīng: Bié dānxīn, nǐ cái xué le bàn nián.", "en": "Liu Jing: Don't worry, you've only studied for half a year."},
-        {"zh": "大卫：我应该多复习。", "py": "Dàwèi: Wǒ yīnggāi duō fùxí.", "en": "David: I should review more."},
-        {"zh": "刘京：下次你一定能考好。", "py": "Liú Jīng: Xià cì nǐ yīdìng néng kǎo hǎo.", "en": "Liu Jing: You'll definitely do well next time."},
-        {"zh": "大卫：谢谢你的鼓励。", "py": "Dàwèi: Xièxie nǐ de gǔlì.", "en": "David: Thanks for the encouragement."}
+        {
+          "zh": "刘京：这次考试你考得怎么样？",
+          "py": "Liú Jīng: Zhè cì kǎoshì nǐ kǎo de zěnmeyàng?",
+          "en": "Liu Jing: How did you do on this exam?"
+        },
+        {
+          "zh": "大卫：考得不太好。听力还可以，语法不太好。",
+          "py": "Dàwèi: Kǎo de bú tài hǎo. Tīnglì hái kěyǐ, yǔfǎ bú tài hǎo.",
+          "en": "David: Not very well. Listening was OK, grammar wasn't good."
+        },
+        {
+          "zh": "刘京：别担心，你才学了半年。",
+          "py": "Liú Jīng: Bié dānxīn, nǐ cái xué le bàn nián.",
+          "en": "Liu Jing: Don't worry, you've only studied for half a year."
+        },
+        {
+          "zh": "大卫：我应该多复习。",
+          "py": "Dàwèi: Wǒ yīnggāi duō fùxí.",
+          "en": "David: I should review more."
+        },
+        {
+          "zh": "刘京：下次你一定能考好。",
+          "py": "Liú Jīng: Xià cì nǐ yīdìng néng kǎo hǎo.",
+          "en": "Liu Jing: You'll definitely do well next time."
+        },
+        {
+          "zh": "大卫：谢谢你的鼓励。",
+          "py": "Dàwèi: Xièxie nǐ de gǔlì.",
+          "en": "David: Thanks for the encouragement."
+        }
       ]
     },
     {
       "topic": "会话2 · Dialogue 2 (能 vs 会)",
       "items": [
-        {"zh": "玛丽：和子，你会开车吗？", "py": "Mǎlì: Hézǐ, nǐ huì kāi chē ma?", "en": "Mary: Hezi, can you drive?"},
-        {"zh": "和子：会。你呢？", "py": "Hézǐ: Huì. Nǐ ne?", "en": "Hezi: Yes. You?"},
-        {"zh": "玛丽：我不会，我想学。在中国能学开车吗？", "py": "Mǎlì: Wǒ bú huì, wǒ xiǎng xué. Zài Zhōngguó néng xué kāi chē ma?", "en": "Mary: I can't, I want to learn. Can I learn to drive in China?"},
-        {"zh": "和子：能，但是考驾照很难。", "py": "Hézǐ: Néng, dànshì kǎo jiàzhào hěn nán.", "en": "Hezi: Yes, but the driving test is very hard."},
-        {"zh": "玛丽：你能教我吗？", "py": "Mǎlì: Nǐ néng jiāo wǒ ma?", "en": "Mary: Can you teach me?"},
-        {"zh": "和子：在中国我没有车，不能教你。你可以去驾校。", "py": "Hézǐ: Zài Zhōngguó wǒ méiyǒu chē, bù néng jiāo nǐ. Nǐ kěyǐ qù jiàxiào.", "en": "Hezi: I don't have a car in China, I can't teach you. You can go to a driving school."}
-      ]
-    },
-    {
-      "topic": "生词 · New Words (Lesson 32)",
-      "items": [
-        {"zh": "考", "py": "kǎo", "en": "to take an exam"},
-        {"zh": "能", "py": "néng", "en": "can; able to (ability/circumstance)"},
-        {"zh": "会", "py": "huì", "en": "can (learned skill); will"},
-        {"zh": "听力", "py": "tīnglì", "en": "listening (comprehension)"},
-        {"zh": "语法", "py": "yǔfǎ", "en": "grammar"},
-        {"zh": "担心", "py": "dānxīn", "en": "to worry"},
-        {"zh": "应该", "py": "yīnggāi", "en": "should; ought to"},
-        {"zh": "复习", "py": "fùxí", "en": "to review; revision"},
-        {"zh": "鼓励", "py": "gǔlì", "en": "encouragement; to encourage"},
-        {"zh": "开车", "py": "kāi chē", "en": "to drive (a car)"},
-        {"zh": "驾照", "py": "jiàzhào", "en": "driver's license"},
-        {"zh": "驾校", "py": "jiàxiào", "en": "driving school"},
-        {"zh": "成绩", "py": "chéngjì", "en": "grade; result; score"},
-        {"zh": "及格", "py": "jígé", "en": "to pass (an exam)"},
-        {"zh": "满分", "py": "mǎnfēn", "en": "full marks"}
+        {
+          "zh": "玛丽：和子，你会开车吗？",
+          "py": "Mǎlì: Hézǐ, nǐ huì kāi chē ma?",
+          "en": "Mary: Hezi, can you drive?"
+        },
+        {
+          "zh": "和子：会。你呢？",
+          "py": "Hézǐ: Huì. Nǐ ne?",
+          "en": "Hezi: Yes. You?"
+        },
+        {
+          "zh": "玛丽：我不会，我想学。在中国能学开车吗？",
+          "py": "Mǎlì: Wǒ bú huì, wǒ xiǎng xué. Zài Zhōngguó néng xué kāi chē ma?",
+          "en": "Mary: I can't, I want to learn. Can I learn to drive in China?"
+        },
+        {
+          "zh": "和子：能，但是考驾照很难。",
+          "py": "Hézǐ: Néng, dànshì kǎo jiàzhào hěn nán.",
+          "en": "Hezi: Yes, but the driving test is very hard."
+        },
+        {
+          "zh": "玛丽：你能教我吗？",
+          "py": "Mǎlì: Nǐ néng jiāo wǒ ma?",
+          "en": "Mary: Can you teach me?"
+        },
+        {
+          "zh": "和子：在中国我没有车，不能教你。你可以去驾校。",
+          "py": "Hézǐ: Zài Zhōngguó wǒ méiyǒu chē, bù néng jiāo nǐ. Nǐ kěyǐ qù jiàxiào.",
+          "en": "Hezi: I don't have a car in China, I can't teach you. You can go to a driving school."
+        }
       ]
     },
     {
       "topic": "语法 · Grammar (能 vs 会 vs 可以)",
       "items": [
-        {"zh": "我会开车。(learned skill)", "py": "Wǒ huì kāi chē.", "en": "I can drive. (会 = learned ability)"},
-        {"zh": "今天我不能来。(circumstance)", "py": "Jīntiān wǒ bù néng lái.", "en": "I can't come today. (能 = circumstance allows)"},
-        {"zh": "这儿可以停车。(permission)", "py": "Zhèr kěyǐ tíng chē.", "en": "You can park here. (可以 = allowed)"},
-        {"zh": "他能跑很快。(physical ability)", "py": "Tā néng pǎo hěn kuài.", "en": "He can run very fast. (能 = physical ability)"},
-        {"zh": "我不会游泳。(never learned)", "py": "Wǒ bú huì yóu yǒng.", "en": "I can't swim. (会 = never learned)"}
+        {
+          "zh": "我会开车。(learned skill)",
+          "py": "Wǒ huì kāi chē.",
+          "en": "I can drive. (会 = learned ability)"
+        },
+        {
+          "zh": "今天我不能来。(circumstance)",
+          "py": "Jīntiān wǒ bù néng lái.",
+          "en": "I can't come today. (能 = circumstance allows)"
+        },
+        {
+          "zh": "这儿可以停车。(permission)",
+          "py": "Zhèr kěyǐ tíng chē.",
+          "en": "You can park here. (可以 = allowed)"
+        },
+        {
+          "zh": "他能跑很快。(physical ability)",
+          "py": "Tā néng pǎo hěn kuài.",
+          "en": "He can run very fast. (能 = physical ability)"
+        },
+        {
+          "zh": "我不会游泳。(never learned)",
+          "py": "Wǒ bú huì yóu yǒng.",
+          "en": "I can't swim. (会 = never learned)"
+        }
       ]
     },
     {
       "topic": "替换 · Substitution Drills",
       "items": [
-        {"zh": "你考得怎么样？——考得很好。", "py": "Nǐ kǎo de zěnmeyàng? —— Kǎo de hěn hǎo.", "en": "How did you do? — Very well."},
-        {"zh": "你考得怎么样？——考得不太好。", "py": "Nǐ kǎo de zěnmeyàng? —— Kǎo de bú tài hǎo.", "en": "How did you do? — Not too well."},
-        {"zh": "你会游泳吗？——会。", "py": "Nǐ huì yóu yǒng ma? —— Huì.", "en": "Can you swim? — Yes."},
-        {"zh": "你会做中国菜吗？——不会。", "py": "Nǐ huì zuò Zhōngguó cài ma? —— Bú huì.", "en": "Can you cook Chinese food? — No."},
-        {"zh": "明天你能来吗？——能来。", "py": "Míngtiān nǐ néng lái ma? —— Néng lái.", "en": "Can you come tomorrow? — Yes."}
+        {
+          "zh": "你考得怎么样？——考得很好。",
+          "py": "Nǐ kǎo de zěnmeyàng? —— Kǎo de hěn hǎo.",
+          "en": "How did you do? — Very well."
+        },
+        {
+          "zh": "你考得怎么样？——考得不太好。",
+          "py": "Nǐ kǎo de zěnmeyàng? —— Kǎo de bú tài hǎo.",
+          "en": "How did you do? — Not too well."
+        },
+        {
+          "zh": "你会游泳吗？——会。",
+          "py": "Nǐ huì yóu yǒng ma? —— Huì.",
+          "en": "Can you swim? — Yes."
+        },
+        {
+          "zh": "你会做中国菜吗？——不会。",
+          "py": "Nǐ huì zuò Zhōngguó cài ma? —— Bú huì.",
+          "en": "Can you cook Chinese food? — No."
+        },
+        {
+          "zh": "明天你能来吗？——能来。",
+          "py": "Míngtiān nǐ néng lái ma? —— Néng lái.",
+          "en": "Can you come tomorrow? — Yes."
+        }
       ]
     }
   ]

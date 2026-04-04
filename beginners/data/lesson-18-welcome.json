@@ -3,6 +3,111 @@
   "subtitle": "Lesson 18 — 路上辛苦了 · You must be tired from the journey",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "辛苦",
+          "py": "xīnkǔ",
+          "en": "hard; tiring (polite acknowledgment)"
+        },
+        {
+          "zh": "欢迎",
+          "py": "huānyíng",
+          "en": "to welcome"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "airplane"
+        },
+        {
+          "zh": "机场",
+          "py": "jīchǎng",
+          "en": "airport"
+        },
+        {
+          "zh": "接",
+          "py": "jiē",
+          "en": "to pick up; to meet"
+        },
+        {
+          "zh": "行李",
+          "py": "xíngli",
+          "en": "luggage; baggage"
+        },
+        {
+          "zh": "箱子",
+          "py": "xiāngzi",
+          "en": "suitcase; box"
+        },
+        {
+          "zh": "拿",
+          "py": "ná",
+          "en": "to take; to carry"
+        },
+        {
+          "zh": "帮",
+          "py": "bāng",
+          "en": "to help"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "en": "room"
+        },
+        {
+          "zh": "累",
+          "py": "lèi",
+          "en": "tired"
+        },
+        {
+          "zh": "一定",
+          "py": "yīdìng",
+          "en": "certainly; must"
+        },
+        {
+          "zh": "请",
+          "py": "qǐng",
+          "en": "to invite; to treat (sb. to a meal)"
+        },
+        {
+          "zh": "添",
+          "py": "tiān",
+          "en": "to add; to cause"
+        },
+        {
+          "zh": "麻烦",
+          "py": "máfan",
+          "en": "trouble; troublesome"
+        },
+        {
+          "zh": "还好",
+          "py": "hái hǎo",
+          "en": "not bad; I'm OK"
+        },
+        {
+          "zh": "外面",
+          "py": "wàimiàn",
+          "en": "outside"
+        },
+        {
+          "zh": "火车",
+          "py": "huǒchē",
+          "en": "train"
+        },
+        {
+          "zh": "护照",
+          "py": "hùzhào",
+          "en": "passport"
+        },
+        {
+          "zh": "签证",
+          "py": "qiānzhèng",
+          "en": "visa"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -129,111 +234,6 @@
           "zh": "大卫：好的，晚上见！",
           "py": "Dàwèi: Hǎo de, wǎnshang jiàn!",
           "en": "David: OK, see you tonight!"
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "辛苦",
-          "py": "xīnkǔ",
-          "en": "hard; tiring (polite acknowledgment)"
-        },
-        {
-          "zh": "欢迎",
-          "py": "huānyíng",
-          "en": "to welcome"
-        },
-        {
-          "zh": "飞机",
-          "py": "fēijī",
-          "en": "airplane"
-        },
-        {
-          "zh": "机场",
-          "py": "jīchǎng",
-          "en": "airport"
-        },
-        {
-          "zh": "接",
-          "py": "jiē",
-          "en": "to pick up; to meet"
-        },
-        {
-          "zh": "行李",
-          "py": "xíngli",
-          "en": "luggage; baggage"
-        },
-        {
-          "zh": "箱子",
-          "py": "xiāngzi",
-          "en": "suitcase; box"
-        },
-        {
-          "zh": "拿",
-          "py": "ná",
-          "en": "to take; to carry"
-        },
-        {
-          "zh": "帮",
-          "py": "bāng",
-          "en": "to help"
-        },
-        {
-          "zh": "房间",
-          "py": "fángjiān",
-          "en": "room"
-        },
-        {
-          "zh": "累",
-          "py": "lèi",
-          "en": "tired"
-        },
-        {
-          "zh": "一定",
-          "py": "yīdìng",
-          "en": "certainly; must"
-        },
-        {
-          "zh": "请",
-          "py": "qǐng",
-          "en": "to invite; to treat (sb. to a meal)"
-        },
-        {
-          "zh": "添",
-          "py": "tiān",
-          "en": "to add; to cause"
-        },
-        {
-          "zh": "麻烦",
-          "py": "máfan",
-          "en": "trouble; troublesome"
-        },
-        {
-          "zh": "还好",
-          "py": "hái hǎo",
-          "en": "not bad; I'm OK"
-        },
-        {
-          "zh": "外面",
-          "py": "wàimiàn",
-          "en": "outside"
-        },
-        {
-          "zh": "火车",
-          "py": "huǒchē",
-          "en": "train"
-        },
-        {
-          "zh": "护照",
-          "py": "hùzhào",
-          "en": "passport"
-        },
-        {
-          "zh": "签证",
-          "py": "qiānzhèng",
-          "en": "visa"
         }
       ]
     },

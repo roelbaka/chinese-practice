@@ -3,72 +3,228 @@
   "subtitle": "Lesson 37 — 谁让你来的 · Who told you to come",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 37)",
+      "items": [
+        {
+          "zh": "让",
+          "py": "ràng",
+          "en": "to let; to make; to ask (sb to do sth)"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to ask/tell (sb to do sth)"
+        },
+        {
+          "zh": "作文",
+          "py": "zuòwén",
+          "en": "essay; composition"
+        },
+        {
+          "zh": "题目",
+          "py": "tímù",
+          "en": "topic; title"
+        },
+        {
+          "zh": "得",
+          "py": "děi",
+          "en": "must; have to"
+        },
+        {
+          "zh": "参加",
+          "py": "cānjiā",
+          "en": "to participate; to attend"
+        },
+        {
+          "zh": "生日",
+          "py": "shēngrì",
+          "en": "birthday"
+        },
+        {
+          "zh": "通知",
+          "py": "tōngzhī",
+          "en": "to notify; notice"
+        },
+        {
+          "zh": "安排",
+          "py": "ānpái",
+          "en": "to arrange"
+        },
+        {
+          "zh": "请假",
+          "py": "qǐng jià",
+          "en": "to ask for leave"
+        },
+        {
+          "zh": "同意",
+          "py": "tóngyì",
+          "en": "to agree"
+        },
+        {
+          "zh": "拒绝",
+          "py": "jùjué",
+          "en": "to refuse; to reject"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 37)",
       "items": [
-        {"zh": "谁让你来的？", "py": "Shéi ràng nǐ lái de?", "en": "Who told you to come?"},
-        {"zh": "老师让我们写一篇作文。", "py": "Lǎoshī ràng wǒmen xiě yī piān zuòwén.", "en": "The teacher asked us to write an essay."},
-        {"zh": "妈妈不让我出去玩。", "py": "Māma bù ràng wǒ chūqù wán.", "en": "Mom won't let me go out to play."},
-        {"zh": "请让我想一想。", "py": "Qǐng ràng wǒ xiǎng yi xiǎng.", "en": "Please let me think about it."},
-        {"zh": "他叫我帮他买东西。", "py": "Tā jiào wǒ bāng tā mǎi dōngxi.", "en": "He asked me to buy things for him."},
-        {"zh": "这件事让我很高兴。", "py": "Zhè jiàn shì ràng wǒ hěn gāoxìng.", "en": "This matter makes me very happy."}
+        {
+          "zh": "谁让你来的？",
+          "py": "Shéi ràng nǐ lái de?",
+          "en": "Who told you to come?"
+        },
+        {
+          "zh": "老师让我们写一篇作文。",
+          "py": "Lǎoshī ràng wǒmen xiě yī piān zuòwén.",
+          "en": "The teacher asked us to write an essay."
+        },
+        {
+          "zh": "妈妈不让我出去玩。",
+          "py": "Māma bù ràng wǒ chūqù wán.",
+          "en": "Mom won't let me go out to play."
+        },
+        {
+          "zh": "请让我想一想。",
+          "py": "Qǐng ràng wǒ xiǎng yi xiǎng.",
+          "en": "Please let me think about it."
+        },
+        {
+          "zh": "他叫我帮他买东西。",
+          "py": "Tā jiào wǒ bāng tā mǎi dōngxi.",
+          "en": "He asked me to buy things for him."
+        },
+        {
+          "zh": "这件事让我很高兴。",
+          "py": "Zhè jiàn shì ràng wǒ hěn gāoxìng.",
+          "en": "This matter makes me very happy."
+        }
       ]
     },
     {
       "topic": "会话1 · Dialogue 1 (Assignments)",
       "items": [
-        {"zh": "玛丽：大卫，你在做什么？", "py": "Mǎlì: Dàwèi, nǐ zài zuò shénme?", "en": "Mary: David, what are you doing?"},
-        {"zh": "大卫：老师让我们写一篇作文。", "py": "Dàwèi: Lǎoshī ràng wǒmen xiě yī piān zuòwén.", "en": "David: The teacher asked us to write an essay."},
-        {"zh": "玛丽：写什么题目？", "py": "Mǎlì: Xiě shénme tímù?", "en": "Mary: What topic?"},
-        {"zh": "大卫：写我们在中国的生活。", "py": "Dàwèi: Xiě wǒmen zài Zhōngguó de shēnghuó.", "en": "David: About our life in China."},
-        {"zh": "玛丽：这个题目很有意思。让我看看你写的。", "py": "Mǎlì: Zhège tímù hěn yǒu yìsi. Ràng wǒ kànkan nǐ xiě de.", "en": "Mary: Interesting topic. Let me see what you wrote."},
-        {"zh": "大卫：还没写完呢。写完了让你看。", "py": "Dàwèi: Hái méi xiě wán ne. Xiě wán le ràng nǐ kàn.", "en": "David: Not finished yet. I'll let you see when I'm done."}
+        {
+          "zh": "玛丽：大卫，你在做什么？",
+          "py": "Mǎlì: Dàwèi, nǐ zài zuò shénme?",
+          "en": "Mary: David, what are you doing?"
+        },
+        {
+          "zh": "大卫：老师让我们写一篇作文。",
+          "py": "Dàwèi: Lǎoshī ràng wǒmen xiě yī piān zuòwén.",
+          "en": "David: The teacher asked us to write an essay."
+        },
+        {
+          "zh": "玛丽：写什么题目？",
+          "py": "Mǎlì: Xiě shénme tímù?",
+          "en": "Mary: What topic?"
+        },
+        {
+          "zh": "大卫：写我们在中国的生活。",
+          "py": "Dàwèi: Xiě wǒmen zài Zhōngguó de shēnghuó.",
+          "en": "David: About our life in China."
+        },
+        {
+          "zh": "玛丽：这个题目很有意思。让我看看你写的。",
+          "py": "Mǎlì: Zhège tímù hěn yǒu yìsi. Ràng wǒ kànkan nǐ xiě de.",
+          "en": "Mary: Interesting topic. Let me see what you wrote."
+        },
+        {
+          "zh": "大卫：还没写完呢。写完了让你看。",
+          "py": "Dàwèi: Hái méi xiě wán ne. Xiě wán le ràng nǐ kàn.",
+          "en": "David: Not finished yet. I'll let you see when I'm done."
+        }
       ]
     },
     {
       "topic": "会话2 · Dialogue 2 (Permission)",
       "items": [
-        {"zh": "和子：刘京，你周末能来参加我的生日会吗？", "py": "Hézǐ: Liú Jīng, nǐ zhōumò néng lái cānjiā wǒ de shēngrì huì ma?", "en": "Hezi: Liu Jing, can you come to my birthday party this weekend?"},
-        {"zh": "刘京：我得问问我妈妈。她有时候不让我晚上出去。", "py": "Liú Jīng: Wǒ děi wènwen wǒ māma. Tā yǒu shíhou bù ràng wǒ wǎnshang chūqù.", "en": "Liu Jing: I need to ask my mom. She sometimes doesn't let me go out at night."},
-        {"zh": "和子：是下午的。", "py": "Hézǐ: Shì xiàwǔ de.", "en": "Hezi: It's in the afternoon."},
-        {"zh": "刘京：那没问题。她一定会让我去的。", "py": "Liú Jīng: Nà méi wèntí. Tā yīdìng huì ràng wǒ qù de.", "en": "Liu Jing: Then no problem. She'll definitely let me go."},
-        {"zh": "和子：太好了！谁叫你来的？——你叫我来的！哈哈", "py": "Hézǐ: Tài hǎo le! Shéi jiào nǐ lái de? —— Nǐ jiào wǒ lái de! Hāhā", "en": "Hezi: Great! Who told you to come? — You did! Haha"}
-      ]
-    },
-    {
-      "topic": "生词 · New Words (Lesson 37)",
-      "items": [
-        {"zh": "让", "py": "ràng", "en": "to let; to make; to ask (sb to do sth)"},
-        {"zh": "叫", "py": "jiào", "en": "to ask/tell (sb to do sth)"},
-        {"zh": "作文", "py": "zuòwén", "en": "essay; composition"},
-        {"zh": "题目", "py": "tímù", "en": "topic; title"},
-        {"zh": "得", "py": "děi", "en": "must; have to"},
-        {"zh": "参加", "py": "cānjiā", "en": "to participate; to attend"},
-        {"zh": "生日", "py": "shēngrì", "en": "birthday"},
-        {"zh": "通知", "py": "tōngzhī", "en": "to notify; notice"},
-        {"zh": "安排", "py": "ānpái", "en": "to arrange"},
-        {"zh": "请假", "py": "qǐng jià", "en": "to ask for leave"},
-        {"zh": "同意", "py": "tóngyì", "en": "to agree"},
-        {"zh": "拒绝", "py": "jùjué", "en": "to refuse; to reject"}
+        {
+          "zh": "和子：刘京，你周末能来参加我的生日会吗？",
+          "py": "Hézǐ: Liú Jīng, nǐ zhōumò néng lái cānjiā wǒ de shēngrì huì ma?",
+          "en": "Hezi: Liu Jing, can you come to my birthday party this weekend?"
+        },
+        {
+          "zh": "刘京：我得问问我妈妈。她有时候不让我晚上出去。",
+          "py": "Liú Jīng: Wǒ děi wènwen wǒ māma. Tā yǒu shíhou bù ràng wǒ wǎnshang chūqù.",
+          "en": "Liu Jing: I need to ask my mom. She sometimes doesn't let me go out at night."
+        },
+        {
+          "zh": "和子：是下午的。",
+          "py": "Hézǐ: Shì xiàwǔ de.",
+          "en": "Hezi: It's in the afternoon."
+        },
+        {
+          "zh": "刘京：那没问题。她一定会让我去的。",
+          "py": "Liú Jīng: Nà méi wèntí. Tā yīdìng huì ràng wǒ qù de.",
+          "en": "Liu Jing: Then no problem. She'll definitely let me go."
+        },
+        {
+          "zh": "和子：太好了！谁叫你来的？——你叫我来的！哈哈",
+          "py": "Hézǐ: Tài hǎo le! Shéi jiào nǐ lái de? —— Nǐ jiào wǒ lái de! Hāhā",
+          "en": "Hezi: Great! Who told you to come? — You did! Haha"
+        }
       ]
     },
     {
       "topic": "语法 · Grammar (让/叫 Causative)",
       "items": [
-        {"zh": "老师让我们写作文。", "py": "Lǎoshī ràng wǒmen xiě zuòwén.", "en": "让 + person + verb: The teacher has us write."},
-        {"zh": "妈妈不让我看电视。", "py": "Māma bù ràng wǒ kàn diànshì.", "en": "Mom doesn't let me watch TV."},
-        {"zh": "他叫我等一下。", "py": "Tā jiào wǒ děng yīxià.", "en": "He told me to wait a moment. (叫 = more informal)"},
-        {"zh": "这件事让人很难过。", "py": "Zhè jiàn shì ràng rén hěn nánguò.", "en": "This matter makes people sad. (让 = cause/make)"},
-        {"zh": "请让我说完。", "py": "Qǐng ràng wǒ shuō wán.", "en": "Please let me finish speaking."}
+        {
+          "zh": "老师让我们写作文。",
+          "py": "Lǎoshī ràng wǒmen xiě zuòwén.",
+          "en": "让 + person + verb: The teacher has us write."
+        },
+        {
+          "zh": "妈妈不让我看电视。",
+          "py": "Māma bù ràng wǒ kàn diànshì.",
+          "en": "Mom doesn't let me watch TV."
+        },
+        {
+          "zh": "他叫我等一下。",
+          "py": "Tā jiào wǒ děng yīxià.",
+          "en": "He told me to wait a moment. (叫 = more informal)"
+        },
+        {
+          "zh": "这件事让人很难过。",
+          "py": "Zhè jiàn shì ràng rén hěn nánguò.",
+          "en": "This matter makes people sad. (让 = cause/make)"
+        },
+        {
+          "zh": "请让我说完。",
+          "py": "Qǐng ràng wǒ shuō wán.",
+          "en": "Please let me finish speaking."
+        }
       ]
     },
     {
       "topic": "替换 · Substitution Drills",
       "items": [
-        {"zh": "老师让我们写作文。→ 老师让我们看课文。", "py": "Lǎoshī ràng wǒmen xiě zuòwén. → Lǎoshī ràng wǒmen kàn kèwén.", "en": "Teacher has us write. → Teacher has us read."},
-        {"zh": "妈妈让我早点儿回家。", "py": "Māma ràng wǒ zǎodiǎnr huí jiā.", "en": "Mom asked me to go home early."},
-        {"zh": "他不让我去。", "py": "Tā bù ràng wǒ qù.", "en": "He won't let me go."},
-        {"zh": "请让我试试。", "py": "Qǐng ràng wǒ shìshi.", "en": "Please let me try."},
-        {"zh": "谁让你来的？——老师让我来的。", "py": "Shéi ràng nǐ lái de? —— Lǎoshī ràng wǒ lái de.", "en": "Who told you to come? — The teacher."}
+        {
+          "zh": "老师让我们写作文。→ 老师让我们看课文。",
+          "py": "Lǎoshī ràng wǒmen xiě zuòwén. → Lǎoshī ràng wǒmen kàn kèwén.",
+          "en": "Teacher has us write. → Teacher has us read."
+        },
+        {
+          "zh": "妈妈让我早点儿回家。",
+          "py": "Māma ràng wǒ zǎodiǎnr huí jiā.",
+          "en": "Mom asked me to go home early."
+        },
+        {
+          "zh": "他不让我去。",
+          "py": "Tā bù ràng wǒ qù.",
+          "en": "He won't let me go."
+        },
+        {
+          "zh": "请让我试试。",
+          "py": "Qǐng ràng wǒ shìshi.",
+          "en": "Please let me try."
+        },
+        {
+          "zh": "谁让你来的？——老师让我来的。",
+          "py": "Shéi ràng nǐ lái de? —— Lǎoshī ràng wǒ lái de.",
+          "en": "Who told you to come? — The teacher."
+        }
       ]
     }
   ]

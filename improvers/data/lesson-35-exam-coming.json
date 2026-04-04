@@ -3,73 +3,233 @@
   "subtitle": "Lesson 35 — 快要考试了 · The exam is coming soon",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 35)",
+      "items": [
+        {
+          "zh": "一边...一边...",
+          "py": "yībiān...yībiān...",
+          "en": "while... at the same time..."
+        },
+        {
+          "zh": "除了...以外",
+          "py": "chúle...yǐwài",
+          "en": "besides; except"
+        },
+        {
+          "zh": "只要...就...",
+          "py": "zhǐyào...jiù...",
+          "en": "as long as... then..."
+        },
+        {
+          "zh": "虽然...但是...",
+          "py": "suīrán...dànshì...",
+          "en": "although... but..."
+        },
+        {
+          "zh": "努力",
+          "py": "nǔlì",
+          "en": "to work hard; diligent"
+        },
+        {
+          "zh": "怕",
+          "py": "pà",
+          "en": "to be afraid; to fear"
+        },
+        {
+          "zh": "确实",
+          "py": "quèshí",
+          "en": "indeed; really"
+        },
+        {
+          "zh": "效果",
+          "py": "xiàoguǒ",
+          "en": "effect; result"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòngyào",
+          "en": "important"
+        },
+        {
+          "zh": "错",
+          "py": "cuò",
+          "en": "wrong; mistake"
+        },
+        {
+          "zh": "改",
+          "py": "gǎi",
+          "en": "to correct; to change"
+        },
+        {
+          "zh": "要紧",
+          "py": "yàojǐn",
+          "en": "important; serious"
+        },
+        {
+          "zh": "比较",
+          "py": "bǐjiào",
+          "en": "relatively; comparatively"
+        },
+        {
+          "zh": "方法",
+          "py": "fāngfǎ",
+          "en": "method; way"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 35)",
       "items": [
-        {"zh": "快要考试了，你准备好了吗？", "py": "Kuài yào kǎoshì le, nǐ zhǔnbèi hǎo le ma?", "en": "The exam is coming, are you ready?"},
-        {"zh": "我一边听录音一边写。", "py": "Wǒ yībiān tīng lùyīn yībiān xiě.", "en": "I write while listening to the recording."},
-        {"zh": "除了语法以外，别的都复习了。", "py": "Chúle yǔfǎ yǐwài, bié de dōu fùxí le.", "en": "I've reviewed everything except grammar."},
-        {"zh": "只要努力就能考好。", "py": "Zhǐyào nǔlì jiù néng kǎo hǎo.", "en": "As long as you work hard, you can do well."},
-        {"zh": "虽然很难，但是我不怕。", "py": "Suīrán hěn nán, dànshì wǒ bú pà.", "en": "Although it's hard, I'm not afraid."}
+        {
+          "zh": "快要考试了，你准备好了吗？",
+          "py": "Kuài yào kǎoshì le, nǐ zhǔnbèi hǎo le ma?",
+          "en": "The exam is coming, are you ready?"
+        },
+        {
+          "zh": "我一边听录音一边写。",
+          "py": "Wǒ yībiān tīng lùyīn yībiān xiě.",
+          "en": "I write while listening to the recording."
+        },
+        {
+          "zh": "除了语法以外，别的都复习了。",
+          "py": "Chúle yǔfǎ yǐwài, bié de dōu fùxí le.",
+          "en": "I've reviewed everything except grammar."
+        },
+        {
+          "zh": "只要努力就能考好。",
+          "py": "Zhǐyào nǔlì jiù néng kǎo hǎo.",
+          "en": "As long as you work hard, you can do well."
+        },
+        {
+          "zh": "虽然很难，但是我不怕。",
+          "py": "Suīrán hěn nán, dànshì wǒ bú pà.",
+          "en": "Although it's hard, I'm not afraid."
+        }
       ]
     },
     {
       "topic": "会话1 · Dialogue 1 (Exam Preparation)",
       "items": [
-        {"zh": "和子：快要考试了，你准备好了吗？", "py": "Hézǐ: Kuài yào kǎoshì le, nǐ zhǔnbèi hǎo le ma?", "en": "Hezi: The exam is coming, are you ready?"},
-        {"zh": "大卫：还没有呢。除了语法以外，别的都复习了。", "py": "Dàwèi: Hái méiyǒu ne. Chúle yǔfǎ yǐwài, bié de dōu fùxí le.", "en": "David: Not yet. I've reviewed everything except grammar."},
-        {"zh": "和子：语法确实比较难。", "py": "Hézǐ: Yǔfǎ quèshí bǐjiào nán.", "en": "Hezi: Grammar is indeed harder."},
-        {"zh": "大卫：虽然很难，但是我不怕。只要努力就能考好。", "py": "Dàwèi: Suīrán hěn nán, dànshì wǒ bú pà. Zhǐyào nǔlì jiù néng kǎo hǎo.", "en": "David: Although it's hard, I'm not afraid. Work hard and I'll do fine."},
-        {"zh": "和子：你每天怎么复习？", "py": "Hézǐ: Nǐ měi tiān zěnme fùxí?", "en": "Hezi: How do you review every day?"},
-        {"zh": "大卫：我一边听录音一边写，效果不错。", "py": "Dàwèi: Wǒ yībiān tīng lùyīn yībiān xiě, xiàoguǒ búcuò.", "en": "David: I write while listening to recordings, it works well."}
+        {
+          "zh": "和子：快要考试了，你准备好了吗？",
+          "py": "Hézǐ: Kuài yào kǎoshì le, nǐ zhǔnbèi hǎo le ma?",
+          "en": "Hezi: The exam is coming, are you ready?"
+        },
+        {
+          "zh": "大卫：还没有呢。除了语法以外，别的都复习了。",
+          "py": "Dàwèi: Hái méiyǒu ne. Chúle yǔfǎ yǐwài, bié de dōu fùxí le.",
+          "en": "David: Not yet. I've reviewed everything except grammar."
+        },
+        {
+          "zh": "和子：语法确实比较难。",
+          "py": "Hézǐ: Yǔfǎ quèshí bǐjiào nán.",
+          "en": "Hezi: Grammar is indeed harder."
+        },
+        {
+          "zh": "大卫：虽然很难，但是我不怕。只要努力就能考好。",
+          "py": "Dàwèi: Suīrán hěn nán, dànshì wǒ bú pà. Zhǐyào nǔlì jiù néng kǎo hǎo.",
+          "en": "David: Although it's hard, I'm not afraid. Work hard and I'll do fine."
+        },
+        {
+          "zh": "和子：你每天怎么复习？",
+          "py": "Hézǐ: Nǐ měi tiān zěnme fùxí?",
+          "en": "Hezi: How do you review every day?"
+        },
+        {
+          "zh": "大卫：我一边听录音一边写，效果不错。",
+          "py": "Dàwèi: Wǒ yībiān tīng lùyīn yībiān xiě, xiàoguǒ búcuò.",
+          "en": "David: I write while listening to recordings, it works well."
+        }
       ]
     },
     {
       "topic": "会话2 · Dialogue 2 (Study Methods)",
       "items": [
-        {"zh": "玛丽：张老师，怎么才能学好汉语？", "py": "Mǎlì: Zhāng lǎoshī, zěnme cái néng xué hǎo Hànyǔ?", "en": "Mary: Teacher Zhang, how can I learn Chinese well?"},
-        {"zh": "张老师：最重要的是多说多练。", "py": "Zhāng lǎoshī: Zuì zhòngyào de shì duō shuō duō liàn.", "en": "Teacher Zhang: The most important thing is to speak and practice more."},
-        {"zh": "玛丽：可是我怕说错。", "py": "Mǎlì: Kěshì wǒ pà shuō cuò.", "en": "Mary: But I'm afraid of making mistakes."},
-        {"zh": "张老师：不要怕说错。说错了不要紧，可以慢慢改。", "py": "Zhāng lǎoshī: Bú yào pà shuō cuò. Shuō cuò le bú yàojǐn, kěyǐ mànman gǎi.", "en": "Teacher Zhang: Don't be afraid of mistakes. It's OK, you can correct them gradually."},
-        {"zh": "玛丽：除了说以外，还要做什么？", "py": "Mǎlì: Chúle shuō yǐwài, hái yào zuò shénme?", "en": "Mary: Besides speaking, what else should I do?"},
-        {"zh": "张老师：多看中文电视，多听中文歌。", "py": "Zhāng lǎoshī: Duō kàn Zhōngwén diànshì, duō tīng Zhōngwén gē.", "en": "Teacher Zhang: Watch more Chinese TV, listen to more Chinese songs."}
-      ]
-    },
-    {
-      "topic": "生词 · New Words (Lesson 35)",
-      "items": [
-        {"zh": "一边...一边...", "py": "yībiān...yībiān...", "en": "while... at the same time..."},
-        {"zh": "除了...以外", "py": "chúle...yǐwài", "en": "besides; except"},
-        {"zh": "只要...就...", "py": "zhǐyào...jiù...", "en": "as long as... then..."},
-        {"zh": "虽然...但是...", "py": "suīrán...dànshì...", "en": "although... but..."},
-        {"zh": "努力", "py": "nǔlì", "en": "to work hard; diligent"},
-        {"zh": "怕", "py": "pà", "en": "to be afraid; to fear"},
-        {"zh": "确实", "py": "quèshí", "en": "indeed; really"},
-        {"zh": "效果", "py": "xiàoguǒ", "en": "effect; result"},
-        {"zh": "重要", "py": "zhòngyào", "en": "important"},
-        {"zh": "错", "py": "cuò", "en": "wrong; mistake"},
-        {"zh": "改", "py": "gǎi", "en": "to correct; to change"},
-        {"zh": "要紧", "py": "yàojǐn", "en": "important; serious"},
-        {"zh": "比较", "py": "bǐjiào", "en": "relatively; comparatively"},
-        {"zh": "方法", "py": "fāngfǎ", "en": "method; way"}
+        {
+          "zh": "玛丽：张老师，怎么才能学好汉语？",
+          "py": "Mǎlì: Zhāng lǎoshī, zěnme cái néng xué hǎo Hànyǔ?",
+          "en": "Mary: Teacher Zhang, how can I learn Chinese well?"
+        },
+        {
+          "zh": "张老师：最重要的是多说多练。",
+          "py": "Zhāng lǎoshī: Zuì zhòngyào de shì duō shuō duō liàn.",
+          "en": "Teacher Zhang: The most important thing is to speak and practice more."
+        },
+        {
+          "zh": "玛丽：可是我怕说错。",
+          "py": "Mǎlì: Kěshì wǒ pà shuō cuò.",
+          "en": "Mary: But I'm afraid of making mistakes."
+        },
+        {
+          "zh": "张老师：不要怕说错。说错了不要紧，可以慢慢改。",
+          "py": "Zhāng lǎoshī: Bú yào pà shuō cuò. Shuō cuò le bú yàojǐn, kěyǐ mànman gǎi.",
+          "en": "Teacher Zhang: Don't be afraid of mistakes. It's OK, you can correct them gradually."
+        },
+        {
+          "zh": "玛丽：除了说以外，还要做什么？",
+          "py": "Mǎlì: Chúle shuō yǐwài, hái yào zuò shénme?",
+          "en": "Mary: Besides speaking, what else should I do?"
+        },
+        {
+          "zh": "张老师：多看中文电视，多听中文歌。",
+          "py": "Zhāng lǎoshī: Duō kàn Zhōngwén diànshì, duō tīng Zhōngwén gē.",
+          "en": "Teacher Zhang: Watch more Chinese TV, listen to more Chinese songs."
+        }
       ]
     },
     {
       "topic": "语法 · Grammar (Complex Sentences)",
       "items": [
-        {"zh": "我一边吃饭一边看报。", "py": "Wǒ yībiān chī fàn yībiān kàn bào.", "en": "I read the newspaper while eating."},
-        {"zh": "除了他以外，大家都去了。", "py": "Chúle tā yǐwài, dàjiā dōu qù le.", "en": "Everyone went except him."},
-        {"zh": "只要你努力，就能成功。", "py": "Zhǐyào nǐ nǔlì, jiù néng chénggōng.", "en": "As long as you work hard, you'll succeed."},
-        {"zh": "虽然他很忙，但是每天都锻炼。", "py": "Suīrán tā hěn máng, dànshì měi tiān dōu duànliàn.", "en": "Although he's busy, he exercises every day."}
+        {
+          "zh": "我一边吃饭一边看报。",
+          "py": "Wǒ yībiān chī fàn yībiān kàn bào.",
+          "en": "I read the newspaper while eating."
+        },
+        {
+          "zh": "除了他以外，大家都去了。",
+          "py": "Chúle tā yǐwài, dàjiā dōu qù le.",
+          "en": "Everyone went except him."
+        },
+        {
+          "zh": "只要你努力，就能成功。",
+          "py": "Zhǐyào nǐ nǔlì, jiù néng chénggōng.",
+          "en": "As long as you work hard, you'll succeed."
+        },
+        {
+          "zh": "虽然他很忙，但是每天都锻炼。",
+          "py": "Suīrán tā hěn máng, dànshì měi tiān dōu duànliàn.",
+          "en": "Although he's busy, he exercises every day."
+        }
       ]
     },
     {
       "topic": "替换 · Substitution Drills",
       "items": [
-        {"zh": "一边走一边聊。", "py": "Yībiān zǒu yībiān liáo.", "en": "Chat while walking."},
-        {"zh": "一边喝茶一边看电视。", "py": "Yībiān hē chá yībiān kàn diànshì.", "en": "Watch TV while drinking tea."},
-        {"zh": "除了汉语以外，她还会说日语。", "py": "Chúle Hànyǔ yǐwài, tā hái huì shuō Rìyǔ.", "en": "Besides Chinese, she can also speak Japanese."},
-        {"zh": "只要多练习，汉语就能说好。", "py": "Zhǐyào duō liànxí, Hànyǔ jiù néng shuō hǎo.", "en": "As long as you practice more, you'll speak Chinese well."},
-        {"zh": "虽然累，但是很高兴。", "py": "Suīrán lèi, dànshì hěn gāoxìng.", "en": "Although tired, I'm happy."}
+        {
+          "zh": "一边走一边聊。",
+          "py": "Yībiān zǒu yībiān liáo.",
+          "en": "Chat while walking."
+        },
+        {
+          "zh": "一边喝茶一边看电视。",
+          "py": "Yībiān hē chá yībiān kàn diànshì.",
+          "en": "Watch TV while drinking tea."
+        },
+        {
+          "zh": "除了汉语以外，她还会说日语。",
+          "py": "Chúle Hànyǔ yǐwài, tā hái huì shuō Rìyǔ.",
+          "en": "Besides Chinese, she can also speak Japanese."
+        },
+        {
+          "zh": "只要多练习，汉语就能说好。",
+          "py": "Zhǐyào duō liànxí, Hànyǔ jiù néng shuō hǎo.",
+          "en": "As long as you practice more, you'll speak Chinese well."
+        },
+        {
+          "zh": "虽然累，但是很高兴。",
+          "py": "Suīrán lèi, dànshì hěn gāoxìng.",
+          "en": "Although tired, I'm happy."
+        }
       ]
     }
   ]

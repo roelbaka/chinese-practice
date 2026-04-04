@@ -3,6 +3,106 @@
   "subtitle": "Lesson 4 — 你认识不认识他 · Do you know him?",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know (a person), to recognize"
+        },
+        {
+          "zh": "介绍",
+          "py": "jièshào",
+          "en": "to introduce; introduction"
+        },
+        {
+          "zh": "一下",
+          "py": "yíxià",
+          "en": "a bit, briefly (softens the verb)"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "en": "who"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called, to call"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        },
+        {
+          "zh": "先生",
+          "py": "xiānsheng",
+          "en": "Mr., sir, gentleman"
+        },
+        {
+          "zh": "小姐",
+          "py": "xiǎojiě",
+          "en": "Miss, young lady"
+        },
+        {
+          "zh": "女士",
+          "py": "nǚshì",
+          "en": "Ms., lady"
+        },
+        {
+          "zh": "贵姓",
+          "py": "guì xìng",
+          "en": "your surname (polite)"
+        },
+        {
+          "zh": "姓",
+          "py": "xìng",
+          "en": "surname; to be surnamed"
+        },
+        {
+          "zh": "名片",
+          "py": "míngpiàn",
+          "en": "business card"
+        },
+        {
+          "zh": "关照",
+          "py": "guānzhào",
+          "en": "to look after, to take care of"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "more, much, many"
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "那",
+          "py": "nà",
+          "en": "that"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(possessive particle)"
+        },
+        {
+          "zh": "教授",
+          "py": "jiàoshòu",
+          "en": "professor"
+        },
+        {
+          "zh": "宿舍",
+          "py": "sùshè",
+          "en": "dormitory"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -113,106 +213,6 @@
       ]
     },
     {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "认识",
-          "py": "rènshi",
-          "en": "to know (a person), to recognize"
-        },
-        {
-          "zh": "介绍",
-          "py": "jièshào",
-          "en": "to introduce; introduction"
-        },
-        {
-          "zh": "一下",
-          "py": "yíxià",
-          "en": "a bit, briefly (softens the verb)"
-        },
-        {
-          "zh": "谁",
-          "py": "shéi",
-          "en": "who"
-        },
-        {
-          "zh": "叫",
-          "py": "jiào",
-          "en": "to be called, to call"
-        },
-        {
-          "zh": "名字",
-          "py": "míngzi",
-          "en": "name"
-        },
-        {
-          "zh": "先生",
-          "py": "xiānsheng",
-          "en": "Mr., sir, gentleman"
-        },
-        {
-          "zh": "小姐",
-          "py": "xiǎojiě",
-          "en": "Miss, young lady"
-        },
-        {
-          "zh": "女士",
-          "py": "nǚshì",
-          "en": "Ms., lady"
-        },
-        {
-          "zh": "贵姓",
-          "py": "guì xìng",
-          "en": "your surname (polite)"
-        },
-        {
-          "zh": "姓",
-          "py": "xìng",
-          "en": "surname; to be surnamed"
-        },
-        {
-          "zh": "名片",
-          "py": "míngpiàn",
-          "en": "business card"
-        },
-        {
-          "zh": "关照",
-          "py": "guānzhào",
-          "en": "to look after, to take care of"
-        },
-        {
-          "zh": "多",
-          "py": "duō",
-          "en": "more, much, many"
-        },
-        {
-          "zh": "这",
-          "py": "zhè",
-          "en": "this"
-        },
-        {
-          "zh": "那",
-          "py": "nà",
-          "en": "that"
-        },
-        {
-          "zh": "的",
-          "py": "de",
-          "en": "(possessive particle)"
-        },
-        {
-          "zh": "教授",
-          "py": "jiàoshòu",
-          "en": "professor"
-        },
-        {
-          "zh": "宿舍",
-          "py": "sùshè",
-          "en": "dormitory"
-        }
-      ]
-    },
-    {
       "topic": "语法 · Grammar",
       "items": [
         {
@@ -288,46 +288,6 @@
       ]
     },
     {
-      "topic": "常见姓 · Common Surnames",
-      "items": [
-        {
-          "zh": "王",
-          "py": "Wáng",
-          "en": "Wang (most common Chinese surname)"
-        },
-        {
-          "zh": "李",
-          "py": "Lǐ",
-          "en": "Li"
-        },
-        {
-          "zh": "张",
-          "py": "Zhāng",
-          "en": "Zhang"
-        },
-        {
-          "zh": "刘",
-          "py": "Liú",
-          "en": "Liu"
-        },
-        {
-          "zh": "陈",
-          "py": "Chén",
-          "en": "Chen"
-        },
-        {
-          "zh": "赵",
-          "py": "Zhào",
-          "en": "Zhao"
-        },
-        {
-          "zh": "林",
-          "py": "Lín",
-          "en": "Lin"
-        }
-      ]
-    },
-    {
       "topic": "练习 · Workbook Exercises",
       "items": [
         {
@@ -369,6 +329,46 @@
           "zh": "这是他的名片。",
           "py": "Zhè shì tā de míngpiàn.",
           "en": "This is his business card."
+        }
+      ]
+    },
+    {
+      "topic": "常见姓 · Common Surnames",
+      "items": [
+        {
+          "zh": "王",
+          "py": "Wáng",
+          "en": "Wang (most common Chinese surname)"
+        },
+        {
+          "zh": "李",
+          "py": "Lǐ",
+          "en": "Li"
+        },
+        {
+          "zh": "张",
+          "py": "Zhāng",
+          "en": "Zhang"
+        },
+        {
+          "zh": "刘",
+          "py": "Liú",
+          "en": "Liu"
+        },
+        {
+          "zh": "陈",
+          "py": "Chén",
+          "en": "Chen"
+        },
+        {
+          "zh": "赵",
+          "py": "Zhào",
+          "en": "Zhao"
+        },
+        {
+          "zh": "林",
+          "py": "Lín",
+          "en": "Lin"
         }
       ]
     }

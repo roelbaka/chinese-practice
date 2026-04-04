@@ -3,6 +3,106 @@
   "subtitle": "Lesson 9 — 你住在哪儿 · Where do you live?",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "住",
+          "py": "zhù",
+          "en": "to live; to reside"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at; in (preposition)"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        },
+        {
+          "zh": "这儿",
+          "py": "zhèr",
+          "en": "here"
+        },
+        {
+          "zh": "那儿",
+          "py": "nàr",
+          "en": "there"
+        },
+        {
+          "zh": "宿舍",
+          "py": "sùshè",
+          "en": "dormitory"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "en": "room"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "en": "number (ordinal)"
+        },
+        {
+          "zh": "电话",
+          "py": "diànhuà",
+          "en": "telephone"
+        },
+        {
+          "zh": "手机",
+          "py": "shǒujī",
+          "en": "mobile phone"
+        },
+        {
+          "zh": "号码",
+          "py": "hàomǎ",
+          "en": "number (in a sequence)"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "en": "how many; how much"
+        },
+        {
+          "zh": "层",
+          "py": "céng",
+          "en": "floor; story; layer"
+        },
+        {
+          "zh": "楼",
+          "py": "lóu",
+          "en": "building; floor"
+        },
+        {
+          "zh": "知道",
+          "py": "zhīdào",
+          "en": "to know (a fact)"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give; to; for"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "en": "to make a phone call"
+        },
+        {
+          "zh": "地址",
+          "py": "dìzhǐ",
+          "en": "address"
+        },
+        {
+          "zh": "留学生",
+          "py": "liúxuéshēng",
+          "en": "international student"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -108,106 +208,6 @@
       ]
     },
     {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "住",
-          "py": "zhù",
-          "en": "to live; to reside"
-        },
-        {
-          "zh": "在",
-          "py": "zài",
-          "en": "at; in (preposition)"
-        },
-        {
-          "zh": "哪儿",
-          "py": "nǎr",
-          "en": "where"
-        },
-        {
-          "zh": "这儿",
-          "py": "zhèr",
-          "en": "here"
-        },
-        {
-          "zh": "那儿",
-          "py": "nàr",
-          "en": "there"
-        },
-        {
-          "zh": "宿舍",
-          "py": "sùshè",
-          "en": "dormitory"
-        },
-        {
-          "zh": "房间",
-          "py": "fángjiān",
-          "en": "room"
-        },
-        {
-          "zh": "号",
-          "py": "hào",
-          "en": "number (ordinal)"
-        },
-        {
-          "zh": "电话",
-          "py": "diànhuà",
-          "en": "telephone"
-        },
-        {
-          "zh": "手机",
-          "py": "shǒujī",
-          "en": "mobile phone"
-        },
-        {
-          "zh": "号码",
-          "py": "hàomǎ",
-          "en": "number (in a sequence)"
-        },
-        {
-          "zh": "多少",
-          "py": "duōshao",
-          "en": "how many; how much"
-        },
-        {
-          "zh": "层",
-          "py": "céng",
-          "en": "floor; story; layer"
-        },
-        {
-          "zh": "楼",
-          "py": "lóu",
-          "en": "building; floor"
-        },
-        {
-          "zh": "知道",
-          "py": "zhīdào",
-          "en": "to know (a fact)"
-        },
-        {
-          "zh": "给",
-          "py": "gěi",
-          "en": "to give; to; for"
-        },
-        {
-          "zh": "打电话",
-          "py": "dǎ diànhuà",
-          "en": "to make a phone call"
-        },
-        {
-          "zh": "地址",
-          "py": "dìzhǐ",
-          "en": "address"
-        },
-        {
-          "zh": "留学生",
-          "py": "liúxuéshēng",
-          "en": "international student"
-        }
-      ]
-    },
-    {
       "topic": "语法 · Grammar (在, 住在, 多少 vs 几)",
       "items": [
         {
@@ -254,6 +254,96 @@
           "zh": "你们学校有多少学生？",
           "py": "Nǐmen xuéxiào yǒu duōshao xuéshēng?",
           "en": "How many students does your school have? (多少 for large number)"
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你住在哪儿？我住在宿舍。",
+          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài sùshè.",
+          "en": "Where do you live? I live in the dorm."
+        },
+        {
+          "zh": "你住在哪儿？我住在学校。",
+          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài xuéxiào.",
+          "en": "Where do you live? I live at the school."
+        },
+        {
+          "zh": "你住在哪儿？我住在北京。",
+          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài Běijīng.",
+          "en": "Where do you live? I live in Beijing."
+        },
+        {
+          "zh": "你住在哪儿？我住在朋友家。",
+          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài péngyou jiā.",
+          "en": "Where do you live? I live at a friend's home."
+        },
+        {
+          "zh": "他住几号房间？他住三一五号。",
+          "py": "Tā zhù jǐ hào fángjiān? Tā zhù sān yāo wǔ hào.",
+          "en": "What room does he live in? Room 315."
+        },
+        {
+          "zh": "她住几层？她住四层。",
+          "py": "Tā zhù jǐ céng? Tā zhù sì céng.",
+          "en": "What floor does she live on? The fourth floor."
+        },
+        {
+          "zh": "你的电话号码是多少？我的电话号码是62753618。",
+          "py": "Nǐ de diànhuà hàomǎ shì duōshao? Wǒ de diànhuà hàomǎ shì liù èr qī wǔ sān liù yāo bā.",
+          "en": "What's your phone number? My number is 62753618."
+        },
+        {
+          "zh": "你给谁打电话？我给老师打电话。",
+          "py": "Nǐ gěi shuí dǎ diànhuà? Wǒ gěi lǎoshī dǎ diànhuà.",
+          "en": "Who are you calling? I'm calling the teacher."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "你住在哪儿？我住在留学生宿舍。",
+          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài liúxuéshēng sùshè.",
+          "en": "Where do you live? I live in the international students' dorm."
+        },
+        {
+          "zh": "你住几号房间？我住二〇八号。",
+          "py": "Nǐ zhù jǐ hào fángjiān? Wǒ zhù èr líng bā hào.",
+          "en": "What room? I live in room 208."
+        },
+        {
+          "zh": "你知道他的地址吗？不知道。",
+          "py": "Nǐ zhīdào tā de dìzhǐ ma? Bù zhīdào.",
+          "en": "Do you know his address? No, I don't."
+        },
+        {
+          "zh": "他的手机号码是多少？他的手机号码是13812345678。",
+          "py": "Tā de shǒujī hàomǎ shì duōshao? Tā de shǒujī hàomǎ shì yāo sān bā yāo èr sān sì wǔ liù qī bā.",
+          "en": "What's his mobile number? His number is 13812345678."
+        },
+        {
+          "zh": "你给谁打电话？我给朋友打电话。",
+          "py": "Nǐ gěi shuí dǎ diànhuà? Wǒ gěi péngyou dǎ diànhuà.",
+          "en": "Who are you calling? I'm calling a friend."
+        },
+        {
+          "zh": "她住在这儿吗？不，她不住在这儿，她住在那儿。",
+          "py": "Tā zhù zài zhèr ma? Bù, tā bú zhù zài zhèr, tā zhù zài nàr.",
+          "en": "Does she live here? No, she doesn't live here, she lives there."
+        },
+        {
+          "zh": "王兰住几层？王兰住五层。",
+          "py": "Wáng Lán zhù jǐ céng? Wáng Lán zhù wǔ céng.",
+          "en": "What floor does Wang Lan live on? Wang Lan lives on the fifth floor."
+        },
+        {
+          "zh": "请给我你的电话号码。好，我的号码是82654321。",
+          "py": "Qǐng gěi wǒ nǐ de diànhuà hàomǎ. Hǎo, wǒ de hàomǎ shì bā èr liù wǔ sì sān èr yāo.",
+          "en": "Please give me your phone number. OK, my number is 82654321."
         }
       ]
     },
@@ -379,96 +469,6 @@
           "zh": "一〇一",
           "py": "yāo líng yāo",
           "en": "101 (reading digits: 1-0-1, e.g. in phone numbers)"
-        }
-      ]
-    },
-    {
-      "topic": "替换 · Substitution Drills",
-      "items": [
-        {
-          "zh": "你住在哪儿？我住在宿舍。",
-          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài sùshè.",
-          "en": "Where do you live? I live in the dorm."
-        },
-        {
-          "zh": "你住在哪儿？我住在学校。",
-          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài xuéxiào.",
-          "en": "Where do you live? I live at the school."
-        },
-        {
-          "zh": "你住在哪儿？我住在北京。",
-          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài Běijīng.",
-          "en": "Where do you live? I live in Beijing."
-        },
-        {
-          "zh": "你住在哪儿？我住在朋友家。",
-          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài péngyou jiā.",
-          "en": "Where do you live? I live at a friend's home."
-        },
-        {
-          "zh": "他住几号房间？他住三一五号。",
-          "py": "Tā zhù jǐ hào fángjiān? Tā zhù sān yāo wǔ hào.",
-          "en": "What room does he live in? Room 315."
-        },
-        {
-          "zh": "她住几层？她住四层。",
-          "py": "Tā zhù jǐ céng? Tā zhù sì céng.",
-          "en": "What floor does she live on? The fourth floor."
-        },
-        {
-          "zh": "你的电话号码是多少？我的电话号码是62753618。",
-          "py": "Nǐ de diànhuà hàomǎ shì duōshao? Wǒ de diànhuà hàomǎ shì liù èr qī wǔ sān liù yāo bā.",
-          "en": "What's your phone number? My number is 62753618."
-        },
-        {
-          "zh": "你给谁打电话？我给老师打电话。",
-          "py": "Nǐ gěi shuí dǎ diànhuà? Wǒ gěi lǎoshī dǎ diànhuà.",
-          "en": "Who are you calling? I'm calling the teacher."
-        }
-      ]
-    },
-    {
-      "topic": "练习 · Exercises",
-      "items": [
-        {
-          "zh": "你住在哪儿？我住在留学生宿舍。",
-          "py": "Nǐ zhù zài nǎr? Wǒ zhù zài liúxuéshēng sùshè.",
-          "en": "Where do you live? I live in the international students' dorm."
-        },
-        {
-          "zh": "你住几号房间？我住二〇八号。",
-          "py": "Nǐ zhù jǐ hào fángjiān? Wǒ zhù èr líng bā hào.",
-          "en": "What room? I live in room 208."
-        },
-        {
-          "zh": "你知道他的地址吗？不知道。",
-          "py": "Nǐ zhīdào tā de dìzhǐ ma? Bù zhīdào.",
-          "en": "Do you know his address? No, I don't."
-        },
-        {
-          "zh": "他的手机号码是多少？他的手机号码是13812345678。",
-          "py": "Tā de shǒujī hàomǎ shì duōshao? Tā de shǒujī hàomǎ shì yāo sān bā yāo èr sān sì wǔ liù qī bā.",
-          "en": "What's his mobile number? His number is 13812345678."
-        },
-        {
-          "zh": "你给谁打电话？我给朋友打电话。",
-          "py": "Nǐ gěi shuí dǎ diànhuà? Wǒ gěi péngyou dǎ diànhuà.",
-          "en": "Who are you calling? I'm calling a friend."
-        },
-        {
-          "zh": "她住在这儿吗？不，她不住在这儿，她住在那儿。",
-          "py": "Tā zhù zài zhèr ma? Bù, tā bú zhù zài zhèr, tā zhù zài nàr.",
-          "en": "Does she live here? No, she doesn't live here, she lives there."
-        },
-        {
-          "zh": "王兰住几层？王兰住五层。",
-          "py": "Wáng Lán zhù jǐ céng? Wáng Lán zhù wǔ céng.",
-          "en": "What floor does Wang Lan live on? Wang Lan lives on the fifth floor."
-        },
-        {
-          "zh": "请给我你的电话号码。好，我的号码是82654321。",
-          "py": "Qǐng gěi wǒ nǐ de diànhuà hàomǎ. Hǎo, wǒ de hàomǎ shì bā èr liù wǔ sì sān èr yāo.",
-          "en": "Please give me your phone number. OK, my number is 82654321."
         }
       ]
     }

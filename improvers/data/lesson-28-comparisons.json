@@ -3,6 +3,161 @@
   "subtitle": "Lesson 28 — 今天比昨天冷 · It is colder today than it was yesterday",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 28)",
+      "items": [
+        {
+          "zh": "比",
+          "py": "bǐ",
+          "en": "than (for comparison)"
+        },
+        {
+          "zh": "有时候",
+          "py": "yǒu shíhou",
+          "en": "sometimes"
+        },
+        {
+          "zh": "下",
+          "py": "xià",
+          "en": "to fall (rain/snow)"
+        },
+        {
+          "zh": "雨",
+          "py": "yǔ",
+          "en": "rain"
+        },
+        {
+          "zh": "预报",
+          "py": "yùbào",
+          "en": "to forecast; forecast"
+        },
+        {
+          "zh": "气温",
+          "py": "qìwēn",
+          "en": "temperature (of the air)"
+        },
+        {
+          "zh": "度",
+          "py": "dù",
+          "en": "degree"
+        },
+        {
+          "zh": "温度",
+          "py": "wēndù",
+          "en": "temperature"
+        },
+        {
+          "zh": "低",
+          "py": "dī",
+          "en": "low"
+        },
+        {
+          "zh": "高",
+          "py": "gāo",
+          "en": "high; tall"
+        },
+        {
+          "zh": "冬天",
+          "py": "dōngtiān",
+          "en": "winter"
+        },
+        {
+          "zh": "雪",
+          "py": "xuě",
+          "en": "snow"
+        },
+        {
+          "zh": "夏天",
+          "py": "xiàtiān",
+          "en": "summer"
+        },
+        {
+          "zh": "滑",
+          "py": "huá",
+          "en": "to slide; to skate"
+        },
+        {
+          "zh": "冰",
+          "py": "bīng",
+          "en": "ice"
+        },
+        {
+          "zh": "暖和",
+          "py": "nuǎnhuo",
+          "en": "warm"
+        },
+        {
+          "zh": "旧",
+          "py": "jiù",
+          "en": "old (of things)"
+        },
+        {
+          "zh": "瘦",
+          "py": "shòu",
+          "en": "thin"
+        },
+        {
+          "zh": "凉快",
+          "py": "liángkuai",
+          "en": "cool (pleasantly)"
+        },
+        {
+          "zh": "胖",
+          "py": "pàng",
+          "en": "fat"
+        },
+        {
+          "zh": "秋天",
+          "py": "qiūtiān",
+          "en": "autumn"
+        },
+        {
+          "zh": "春天",
+          "py": "chūntiān",
+          "en": "spring"
+        },
+        {
+          "zh": "刮",
+          "py": "guā",
+          "en": "to blow (wind)"
+        },
+        {
+          "zh": "风",
+          "py": "fēng",
+          "en": "wind"
+        },
+        {
+          "zh": "冷",
+          "py": "lěng",
+          "en": "cold"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "en": "hot"
+        },
+        {
+          "zh": "感冒",
+          "py": "gǎnmào",
+          "en": "to catch a cold"
+        },
+        {
+          "zh": "穿",
+          "py": "chuān",
+          "en": "to wear; to put on"
+        },
+        {
+          "zh": "习惯",
+          "py": "xíguàn",
+          "en": "to be used to; habit"
+        },
+        {
+          "zh": "零下",
+          "py": "líng xià",
+          "en": "below zero"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 28)",
       "items": [
         {
@@ -163,157 +318,72 @@
       ]
     },
     {
-      "topic": "生词 · New Words (Lesson 28)",
+      "topic": "天气会话 · Weather Conversations (Class)",
       "items": [
         {
-          "zh": "比",
-          "py": "bǐ",
-          "en": "than (for comparison)"
+          "zh": "明天天气怎么样？",
+          "py": "Míngtiān tiānqì zěnmeyàng?",
+          "en": "What will the weather be like tomorrow?"
         },
         {
-          "zh": "有时候",
-          "py": "yǒu shíhou",
-          "en": "sometimes"
+          "zh": "天气预报说明天会下雨吗？",
+          "py": "Tiānqì yùbào shuō míngtiān huì xià yǔ ma?",
+          "en": "Does the forecast say it will rain tomorrow?"
         },
         {
-          "zh": "下",
-          "py": "xià",
-          "en": "to fall (rain/snow)"
+          "zh": "天气预报说明天会下小雨。",
+          "py": "Tiānqì yùbào shuō míngtiān huì xià xiǎo yǔ.",
+          "en": "The forecast says there will be light rain tomorrow."
         },
         {
-          "zh": "雨",
-          "py": "yǔ",
-          "en": "rain"
+          "zh": "明天会刮大风吗？",
+          "py": "Míngtiān huì guā dà fēng ma?",
+          "en": "Will there be strong winds tomorrow?"
         },
         {
-          "zh": "预报",
-          "py": "yùbào",
-          "en": "to forecast; forecast"
+          "zh": "今天天气怎么样？",
+          "py": "Jīntiān tiānqì zěnmeyàng?",
+          "en": "What's the weather like today?"
         },
         {
-          "zh": "气温",
-          "py": "qìwēn",
-          "en": "temperature (of the air)"
+          "zh": "今天是晴天。",
+          "py": "Jīntiān shì qíngtiān.",
+          "en": "Today is sunny."
         },
         {
-          "zh": "度",
-          "py": "dù",
-          "en": "degree"
+          "zh": "今天天气晴。",
+          "py": "Jīntiān tiānqì qíng.",
+          "en": "The weather is clear today."
         },
         {
-          "zh": "温度",
-          "py": "wēndù",
-          "en": "temperature"
+          "zh": "今天下雨吗？今天不下雨。",
+          "py": "Jīntiān xià yǔ ma? Jīntiān bú xià yǔ.",
+          "en": "Is it raining today? It's not raining today."
         },
         {
-          "zh": "低",
-          "py": "dī",
-          "en": "low"
+          "zh": "去年冬天荷兰下雪了吗？",
+          "py": "Qùnián dōngtiān Hélán xià xuě le ma?",
+          "en": "Did it snow in the Netherlands last winter?"
         },
         {
-          "zh": "高",
-          "py": "gāo",
-          "en": "high; tall"
+          "zh": "下大雪还是下小雪？",
+          "py": "Xià dà xuě háishi xià xiǎo xuě?",
+          "en": "Heavy snow or light snow?"
         },
         {
-          "zh": "冬天",
-          "py": "dōngtiān",
-          "en": "winter"
+          "zh": "冬天常常零下还是零上？",
+          "py": "Dōngtiān chángcháng líng xià háishi líng shàng?",
+          "en": "Is it usually below or above zero in winter?"
         },
         {
-          "zh": "雪",
-          "py": "xuě",
-          "en": "snow"
+          "zh": "现在是春天。",
+          "py": "Xiànzài shì chūntiān.",
+          "en": "It's spring now."
         },
         {
-          "zh": "夏天",
-          "py": "xiàtiān",
-          "en": "summer"
-        },
-        {
-          "zh": "滑",
-          "py": "huá",
-          "en": "to slide; to skate"
-        },
-        {
-          "zh": "冰",
-          "py": "bīng",
-          "en": "ice"
-        },
-        {
-          "zh": "暖和",
-          "py": "nuǎnhuo",
-          "en": "warm"
-        },
-        {
-          "zh": "旧",
-          "py": "jiù",
-          "en": "old (of things)"
-        },
-        {
-          "zh": "瘦",
-          "py": "shòu",
-          "en": "thin"
-        },
-        {
-          "zh": "凉快",
-          "py": "liángkuai",
-          "en": "cool (pleasantly)"
-        },
-        {
-          "zh": "胖",
-          "py": "pàng",
-          "en": "fat"
-        },
-        {
-          "zh": "秋天",
-          "py": "qiūtiān",
-          "en": "autumn"
-        },
-        {
-          "zh": "春天",
-          "py": "chūntiān",
-          "en": "spring"
-        },
-        {
-          "zh": "刮",
-          "py": "guā",
-          "en": "to blow (wind)"
-        },
-        {
-          "zh": "风",
-          "py": "fēng",
-          "en": "wind"
-        },
-        {
-          "zh": "冷",
-          "py": "lěng",
-          "en": "cold"
-        },
-        {
-          "zh": "热",
-          "py": "rè",
-          "en": "hot"
-        },
-        {
-          "zh": "感冒",
-          "py": "gǎnmào",
-          "en": "to catch a cold"
-        },
-        {
-          "zh": "穿",
-          "py": "chuān",
-          "en": "to wear; to put on"
-        },
-        {
-          "zh": "习惯",
-          "py": "xíguàn",
-          "en": "to be used to; habit"
-        },
-        {
-          "zh": "零下",
-          "py": "líng xià",
-          "en": "below zero"
+          "zh": "今年冬天还没有。",
+          "py": "Jīnnián dōngtiān hái méiyǒu.",
+          "en": "This year's winter hasn't come yet."
         }
       ]
     },
@@ -373,42 +443,72 @@
       ]
     },
     {
-      "topic": "多 · Approximate Numbers",
+      "topic": "语法笔记 · Grammar Notes (下/刮 + Nouns)",
       "items": [
         {
-          "zh": "两岁多",
-          "py": "liǎng suì duō",
-          "en": "a little over 2 years old (多 = not yet 1 more)"
+          "zh": "雨是名词，雪是名词。",
+          "py": "Yǔ shì míngcí, xuě shì míngcí.",
+          "en": "Rain is a noun, snow is a noun."
         },
         {
-          "zh": "56块多",
-          "py": "wǔshíliù kuài duō",
-          "en": "a little over 56 yuan"
+          "zh": "下是动词。",
+          "py": "Xià shì dòngcí.",
+          "en": "下 (xià) is the verb."
         },
         {
-          "zh": "378米多长",
-          "py": "sānbǎi qīshíbā mǐ duō cháng",
-          "en": "a little over 378 meters long"
+          "zh": "下雨 = 动词 + 名词",
+          "py": "xià yǔ = dòngcí + míngcí",
+          "en": "to rain = verb + noun"
         },
         {
-          "zh": "10个多月",
-          "py": "shí gè duō yuè",
-          "en": "a little over 10 months"
+          "zh": "下雪 = 动词 + 名词",
+          "py": "xià xuě = dòngcí + míngcí",
+          "en": "to snow = verb + noun"
         },
         {
-          "zh": "20多岁",
-          "py": "èrshí duō suì",
-          "en": "twenty-something years old (多 = more than 10)"
+          "zh": "下大雨",
+          "py": "xià dà yǔ",
+          "en": "to rain heavily"
         },
         {
-          "zh": "400多块钱",
-          "py": "sìbǎi duō kuài qián",
-          "en": "over 400 yuan"
+          "zh": "下小雨",
+          "py": "xià xiǎo yǔ",
+          "en": "to drizzle; light rain"
         },
         {
-          "zh": "580多人",
-          "py": "wǔbǎi bāshí duō rén",
-          "en": "over 580 people"
+          "zh": "下大雪",
+          "py": "xià dà xuě",
+          "en": "to snow heavily"
+        },
+        {
+          "zh": "下小雪",
+          "py": "xià xiǎo xuě",
+          "en": "light snow"
+        },
+        {
+          "zh": "刮风 = 动词 + 名词",
+          "py": "guā fēng = dòngcí + míngcí",
+          "en": "to be windy = verb + noun"
+        },
+        {
+          "zh": "刮大风",
+          "py": "guā dà fēng",
+          "en": "strong wind; to blow hard"
+        },
+        {
+          "zh": "做菜",
+          "py": "zuò cài",
+          "en": "to cook (dishes)"
+        },
+        {
+          "zh": "做饭",
+          "py": "zuò fàn",
+          "en": "to cook (a meal)"
+        },
+        {
+          "zh": "煮饭",
+          "py": "zhǔ fàn",
+          "en": "to cook rice / to cook"
         }
       ]
     },
@@ -488,6 +588,56 @@
       ]
     },
     {
+      "topic": "练习 · Exercises (比 Rewriting)",
+      "items": [
+        {
+          "zh": "我二十四岁，他二十岁。→ 我比他大四岁。",
+          "py": "Wǒ èrshísì suì, tā èrshí suì. → Wǒ bǐ tā dà sì suì.",
+          "en": "I'm 24, he's 20. → I'm four years older than him."
+        },
+        {
+          "zh": "昨天气温二十七度，今天二十五度。→ 今天比昨天低两度。",
+          "py": "Zuótiān qìwēn èrshíqī dù, jīntiān èrshíwǔ dù. → Jīntiān bǐ zuótiān dī liǎng dù.",
+          "en": "Yesterday 27°, today 25°. → Today is 2 degrees lower than yesterday."
+        },
+        {
+          "zh": "他的毛衣很好看，我的毛衣不好看。→ 他的毛衣比我的好看。",
+          "py": "Tā de máoyī hěn hǎokàn, wǒ de máoyī bù hǎokàn. → Tā de máoyī bǐ wǒ de hǎokàn.",
+          "en": "His sweater is nice, mine isn't. → His sweater looks better than mine."
+        },
+        {
+          "zh": "小王常常感冒，小刘很少有病。→ 小刘比小王健康。",
+          "py": "Xiǎo Wáng chángcháng gǎnmào, Xiǎo Liú hěn shǎo yǒu bìng. → Xiǎo Liú bǐ Xiǎo Wáng jiànkāng.",
+          "en": "Xiao Wang often catches colds, Xiao Liu rarely gets sick. → Xiao Liu is healthier than Xiao Wang."
+        },
+        {
+          "zh": "他的词典比我的词典新。",
+          "py": "Tā de cídiǎn bǐ wǒ de cídiǎn xīn.",
+          "en": "His dictionary is newer than mine."
+        },
+        {
+          "zh": "今天气温比昨天高四度。",
+          "py": "Jīntiān qìwēn bǐ zuótiān gāo sì dù.",
+          "en": "Today's temperature is 4 degrees higher than yesterday's."
+        },
+        {
+          "zh": "小王家比小张家少两口人。",
+          "py": "Xiǎo Wáng jiā bǐ Xiǎo Zhāng jiā shǎo liǎng kǒu rén.",
+          "en": "Xiao Wang's family has two fewer people than Xiao Zhang's."
+        },
+        {
+          "zh": "小李滑冰比小张滑得好多了。",
+          "py": "Xiǎo Lǐ huá bīng bǐ Xiǎo Zhāng huá de hǎo duō le.",
+          "en": "Xiao Li skates much better than Xiao Zhang."
+        },
+        {
+          "zh": "我做菜比我的老公做的好多了。",
+          "py": "Wǒ zuò cài bǐ wǒ de lǎogōng zuò de hǎo duō le.",
+          "en": "I cook much better than my husband."
+        }
+      ]
+    },
+    {
       "topic": "课堂练习 · Class Practice",
       "items": [
         {
@@ -544,6 +694,106 @@
           "zh": "低两度。",
           "py": "Dī liǎng dù.",
           "en": "Two degrees lower."
+        }
+      ]
+    },
+    {
+      "topic": "四季 · Four Seasons",
+      "items": [
+        {
+          "zh": "春天",
+          "py": "chūntiān",
+          "en": "spring"
+        },
+        {
+          "zh": "夏天",
+          "py": "xiàtiān",
+          "en": "summer"
+        },
+        {
+          "zh": "秋天",
+          "py": "qiūtiān",
+          "en": "autumn"
+        },
+        {
+          "zh": "冬天",
+          "py": "dōngtiān",
+          "en": "winter"
+        },
+        {
+          "zh": "春天常常刮风。",
+          "py": "Chūntiān chángcháng guā fēng.",
+          "en": "It's often windy in spring."
+        },
+        {
+          "zh": "夏天很热。",
+          "py": "Xiàtiān hěn rè.",
+          "en": "Summer is very hot."
+        },
+        {
+          "zh": "秋天天气最好。",
+          "py": "Qiūtiān tiānqì zuì hǎo.",
+          "en": "Autumn has the best weather."
+        },
+        {
+          "zh": "冬天很冷。",
+          "py": "Dōngtiān hěn lěng.",
+          "en": "Winter is very cold."
+        },
+        {
+          "zh": "下雨",
+          "py": "xià yǔ",
+          "en": "to rain"
+        },
+        {
+          "zh": "下雪",
+          "py": "xià xuě",
+          "en": "to snow"
+        },
+        {
+          "zh": "刮风",
+          "py": "guā fēng",
+          "en": "to be windy"
+        }
+      ]
+    },
+    {
+      "topic": "多 · Approximate Numbers",
+      "items": [
+        {
+          "zh": "两岁多",
+          "py": "liǎng suì duō",
+          "en": "a little over 2 years old (多 = not yet 1 more)"
+        },
+        {
+          "zh": "56块多",
+          "py": "wǔshíliù kuài duō",
+          "en": "a little over 56 yuan"
+        },
+        {
+          "zh": "378米多长",
+          "py": "sānbǎi qīshíbā mǐ duō cháng",
+          "en": "a little over 378 meters long"
+        },
+        {
+          "zh": "10个多月",
+          "py": "shí gè duō yuè",
+          "en": "a little over 10 months"
+        },
+        {
+          "zh": "20多岁",
+          "py": "èrshí duō suì",
+          "en": "twenty-something years old (多 = more than 10)"
+        },
+        {
+          "zh": "400多块钱",
+          "py": "sìbǎi duō kuài qián",
+          "en": "over 400 yuan"
+        },
+        {
+          "zh": "580多人",
+          "py": "wǔbǎi bāshí duō rén",
+          "en": "over 580 people"
         }
       ]
     },
@@ -628,196 +878,6 @@
       ]
     },
     {
-      "topic": "练习 · Exercises (比 Rewriting)",
-      "items": [
-        {
-          "zh": "我二十四岁，他二十岁。→ 我比他大四岁。",
-          "py": "Wǒ èrshísì suì, tā èrshí suì. → Wǒ bǐ tā dà sì suì.",
-          "en": "I'm 24, he's 20. → I'm four years older than him."
-        },
-        {
-          "zh": "昨天气温二十七度，今天二十五度。→ 今天比昨天低两度。",
-          "py": "Zuótiān qìwēn èrshíqī dù, jīntiān èrshíwǔ dù. → Jīntiān bǐ zuótiān dī liǎng dù.",
-          "en": "Yesterday 27°, today 25°. → Today is 2 degrees lower than yesterday."
-        },
-        {
-          "zh": "他的毛衣很好看，我的毛衣不好看。→ 他的毛衣比我的好看。",
-          "py": "Tā de máoyī hěn hǎokàn, wǒ de máoyī bù hǎokàn. → Tā de máoyī bǐ wǒ de hǎokàn.",
-          "en": "His sweater is nice, mine isn't. → His sweater looks better than mine."
-        },
-        {
-          "zh": "小王常常感冒，小刘很少有病。→ 小刘比小王健康。",
-          "py": "Xiǎo Wáng chángcháng gǎnmào, Xiǎo Liú hěn shǎo yǒu bìng. → Xiǎo Liú bǐ Xiǎo Wáng jiànkāng.",
-          "en": "Xiao Wang often catches colds, Xiao Liu rarely gets sick. → Xiao Liu is healthier than Xiao Wang."
-        },
-        {
-          "zh": "他的词典比我的词典新。",
-          "py": "Tā de cídiǎn bǐ wǒ de cídiǎn xīn.",
-          "en": "His dictionary is newer than mine."
-        },
-        {
-          "zh": "今天气温比昨天高四度。",
-          "py": "Jīntiān qìwēn bǐ zuótiān gāo sì dù.",
-          "en": "Today's temperature is 4 degrees higher than yesterday's."
-        },
-        {
-          "zh": "小王家比小张家少两口人。",
-          "py": "Xiǎo Wáng jiā bǐ Xiǎo Zhāng jiā shǎo liǎng kǒu rén.",
-          "en": "Xiao Wang's family has two fewer people than Xiao Zhang's."
-        },
-        {
-          "zh": "小李滑冰比小张滑得好多了。",
-          "py": "Xiǎo Lǐ huá bīng bǐ Xiǎo Zhāng huá de hǎo duō le.",
-          "en": "Xiao Li skates much better than Xiao Zhang."
-        },
-        {
-          "zh": "我做菜比我的老公做的好多了。",
-          "py": "Wǒ zuò cài bǐ wǒ de lǎogōng zuò de hǎo duō le.",
-          "en": "I cook much better than my husband."
-        }
-      ]
-    },
-    {
-      "topic": "天气会话 · Weather Conversations (Class)",
-      "items": [
-        {
-          "zh": "明天天气怎么样？",
-          "py": "Míngtiān tiānqì zěnmeyàng?",
-          "en": "What will the weather be like tomorrow?"
-        },
-        {
-          "zh": "天气预报说明天会下雨吗？",
-          "py": "Tiānqì yùbào shuō míngtiān huì xià yǔ ma?",
-          "en": "Does the forecast say it will rain tomorrow?"
-        },
-        {
-          "zh": "天气预报说明天会下小雨。",
-          "py": "Tiānqì yùbào shuō míngtiān huì xià xiǎo yǔ.",
-          "en": "The forecast says there will be light rain tomorrow."
-        },
-        {
-          "zh": "明天会刮大风吗？",
-          "py": "Míngtiān huì guā dà fēng ma?",
-          "en": "Will there be strong winds tomorrow?"
-        },
-        {
-          "zh": "今天天气怎么样？",
-          "py": "Jīntiān tiānqì zěnmeyàng?",
-          "en": "What's the weather like today?"
-        },
-        {
-          "zh": "今天是晴天。",
-          "py": "Jīntiān shì qíngtiān.",
-          "en": "Today is sunny."
-        },
-        {
-          "zh": "今天天气晴。",
-          "py": "Jīntiān tiānqì qíng.",
-          "en": "The weather is clear today."
-        },
-        {
-          "zh": "今天下雨吗？今天不下雨。",
-          "py": "Jīntiān xià yǔ ma? Jīntiān bú xià yǔ.",
-          "en": "Is it raining today? It's not raining today."
-        },
-        {
-          "zh": "去年冬天荷兰下雪了吗？",
-          "py": "Qùnián dōngtiān Hélán xià xuě le ma?",
-          "en": "Did it snow in the Netherlands last winter?"
-        },
-        {
-          "zh": "下大雪还是下小雪？",
-          "py": "Xià dà xuě háishi xià xiǎo xuě?",
-          "en": "Heavy snow or light snow?"
-        },
-        {
-          "zh": "冬天常常零下还是零上？",
-          "py": "Dōngtiān chángcháng líng xià háishi líng shàng?",
-          "en": "Is it usually below or above zero in winter?"
-        },
-        {
-          "zh": "现在是春天。",
-          "py": "Xiànzài shì chūntiān.",
-          "en": "It's spring now."
-        },
-        {
-          "zh": "今年冬天还没有。",
-          "py": "Jīnnián dōngtiān hái méiyǒu.",
-          "en": "This year's winter hasn't come yet."
-        }
-      ]
-    },
-    {
-      "topic": "语法笔记 · Grammar Notes (下/刮 + Nouns)",
-      "items": [
-        {
-          "zh": "雨是名词，雪是名词。",
-          "py": "Yǔ shì míngcí, xuě shì míngcí.",
-          "en": "Rain is a noun, snow is a noun."
-        },
-        {
-          "zh": "下是动词。",
-          "py": "Xià shì dòngcí.",
-          "en": "下 (xià) is the verb."
-        },
-        {
-          "zh": "下雨 = 动词 + 名词",
-          "py": "xià yǔ = dòngcí + míngcí",
-          "en": "to rain = verb + noun"
-        },
-        {
-          "zh": "下雪 = 动词 + 名词",
-          "py": "xià xuě = dòngcí + míngcí",
-          "en": "to snow = verb + noun"
-        },
-        {
-          "zh": "下大雨",
-          "py": "xià dà yǔ",
-          "en": "to rain heavily"
-        },
-        {
-          "zh": "下小雨",
-          "py": "xià xiǎo yǔ",
-          "en": "to drizzle; light rain"
-        },
-        {
-          "zh": "下大雪",
-          "py": "xià dà xuě",
-          "en": "to snow heavily"
-        },
-        {
-          "zh": "下小雪",
-          "py": "xià xiǎo xuě",
-          "en": "light snow"
-        },
-        {
-          "zh": "刮风 = 动词 + 名词",
-          "py": "guā fēng = dòngcí + míngcí",
-          "en": "to be windy = verb + noun"
-        },
-        {
-          "zh": "刮大风",
-          "py": "guā dà fēng",
-          "en": "strong wind; to blow hard"
-        },
-        {
-          "zh": "做菜",
-          "py": "zuò cài",
-          "en": "to cook (dishes)"
-        },
-        {
-          "zh": "做饭",
-          "py": "zuò fàn",
-          "en": "to cook (a meal)"
-        },
-        {
-          "zh": "煮饭",
-          "py": "zhǔ fàn",
-          "en": "to cook rice / to cook"
-        }
-      ]
-    },
-    {
       "topic": "新词 · Extra Vocabulary (Part 2)",
       "items": [
         {
@@ -889,66 +949,6 @@
           "zh": "荷兰",
           "py": "Hélán",
           "en": "the Netherlands"
-        }
-      ]
-    },
-    {
-      "topic": "四季 · Four Seasons",
-      "items": [
-        {
-          "zh": "春天",
-          "py": "chūntiān",
-          "en": "spring"
-        },
-        {
-          "zh": "夏天",
-          "py": "xiàtiān",
-          "en": "summer"
-        },
-        {
-          "zh": "秋天",
-          "py": "qiūtiān",
-          "en": "autumn"
-        },
-        {
-          "zh": "冬天",
-          "py": "dōngtiān",
-          "en": "winter"
-        },
-        {
-          "zh": "春天常常刮风。",
-          "py": "Chūntiān chángcháng guā fēng.",
-          "en": "It's often windy in spring."
-        },
-        {
-          "zh": "夏天很热。",
-          "py": "Xiàtiān hěn rè.",
-          "en": "Summer is very hot."
-        },
-        {
-          "zh": "秋天天气最好。",
-          "py": "Qiūtiān tiānqì zuì hǎo.",
-          "en": "Autumn has the best weather."
-        },
-        {
-          "zh": "冬天很冷。",
-          "py": "Dōngtiān hěn lěng.",
-          "en": "Winter is very cold."
-        },
-        {
-          "zh": "下雨",
-          "py": "xià yǔ",
-          "en": "to rain"
-        },
-        {
-          "zh": "下雪",
-          "py": "xià xuě",
-          "en": "to snow"
-        },
-        {
-          "zh": "刮风",
-          "py": "guā fēng",
-          "en": "to be windy"
         }
       ]
     }

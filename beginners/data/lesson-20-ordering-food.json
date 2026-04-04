@@ -3,6 +3,121 @@
   "subtitle": "Lesson 20 — 你要什么 · What would you like to order",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "服务员",
+          "py": "fúwùyuán",
+          "en": "waiter; waitress"
+        },
+        {
+          "zh": "菜单",
+          "py": "càidān",
+          "en": "menu"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish; vegetable"
+        },
+        {
+          "zh": "点菜",
+          "py": "diǎn cài",
+          "en": "to order food"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to bring (informal: \"I'll have...\")"
+        },
+        {
+          "zh": "鱼香肉丝",
+          "py": "yúxiāng ròusī",
+          "en": "fish-flavored shredded pork"
+        },
+        {
+          "zh": "麻婆豆腐",
+          "py": "mápó dòufu",
+          "en": "mapo tofu"
+        },
+        {
+          "zh": "宫保鸡丁",
+          "py": "gōngbǎo jīdīng",
+          "en": "kung pao chicken"
+        },
+        {
+          "zh": "辣",
+          "py": "là",
+          "en": "spicy; hot"
+        },
+        {
+          "zh": "味道",
+          "py": "wèidao",
+          "en": "flavor; taste"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎo chī",
+          "en": "delicious; tasty"
+        },
+        {
+          "zh": "啤酒",
+          "py": "píjiǔ",
+          "en": "beer"
+        },
+        {
+          "zh": "橙汁",
+          "py": "chéngzhī",
+          "en": "orange juice"
+        },
+        {
+          "zh": "汤",
+          "py": "tāng",
+          "en": "soup"
+        },
+        {
+          "zh": "够",
+          "py": "gòu",
+          "en": "enough"
+        },
+        {
+          "zh": "买单",
+          "py": "mǎi dān",
+          "en": "to pay the bill; check please"
+        },
+        {
+          "zh": "一共",
+          "py": "yīgòng",
+          "en": "in total; altogether"
+        },
+        {
+          "zh": "稍",
+          "py": "shāo",
+          "en": "a little; slightly"
+        },
+        {
+          "zh": "极了",
+          "py": "jí le",
+          "en": "extremely (complement of degree)"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "en": "cooked rice"
+        },
+        {
+          "zh": "面条",
+          "py": "miàntiáo",
+          "en": "noodles"
+        },
+        {
+          "zh": "饺子",
+          "py": "jiǎozi",
+          "en": "dumplings"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -144,121 +259,6 @@
           "zh": "服务员：一共一百五十八块。",
           "py": "Fúwùyuán: Yīgòng yībǎi wǔshíbā kuài.",
           "en": "Waiter: 158 yuan in total."
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "服务员",
-          "py": "fúwùyuán",
-          "en": "waiter; waitress"
-        },
-        {
-          "zh": "菜单",
-          "py": "càidān",
-          "en": "menu"
-        },
-        {
-          "zh": "菜",
-          "py": "cài",
-          "en": "dish; vegetable"
-        },
-        {
-          "zh": "点菜",
-          "py": "diǎn cài",
-          "en": "to order food"
-        },
-        {
-          "zh": "来",
-          "py": "lái",
-          "en": "to bring (informal: \"I'll have...\")"
-        },
-        {
-          "zh": "鱼香肉丝",
-          "py": "yúxiāng ròusī",
-          "en": "fish-flavored shredded pork"
-        },
-        {
-          "zh": "麻婆豆腐",
-          "py": "mápó dòufu",
-          "en": "mapo tofu"
-        },
-        {
-          "zh": "宫保鸡丁",
-          "py": "gōngbǎo jīdīng",
-          "en": "kung pao chicken"
-        },
-        {
-          "zh": "辣",
-          "py": "là",
-          "en": "spicy; hot"
-        },
-        {
-          "zh": "味道",
-          "py": "wèidao",
-          "en": "flavor; taste"
-        },
-        {
-          "zh": "好吃",
-          "py": "hǎo chī",
-          "en": "delicious; tasty"
-        },
-        {
-          "zh": "啤酒",
-          "py": "píjiǔ",
-          "en": "beer"
-        },
-        {
-          "zh": "橙汁",
-          "py": "chéngzhī",
-          "en": "orange juice"
-        },
-        {
-          "zh": "汤",
-          "py": "tāng",
-          "en": "soup"
-        },
-        {
-          "zh": "够",
-          "py": "gòu",
-          "en": "enough"
-        },
-        {
-          "zh": "买单",
-          "py": "mǎi dān",
-          "en": "to pay the bill; check please"
-        },
-        {
-          "zh": "一共",
-          "py": "yīgòng",
-          "en": "in total; altogether"
-        },
-        {
-          "zh": "稍",
-          "py": "shāo",
-          "en": "a little; slightly"
-        },
-        {
-          "zh": "极了",
-          "py": "jí le",
-          "en": "extremely (complement of degree)"
-        },
-        {
-          "zh": "米饭",
-          "py": "mǐfàn",
-          "en": "cooked rice"
-        },
-        {
-          "zh": "面条",
-          "py": "miàntiáo",
-          "en": "noodles"
-        },
-        {
-          "zh": "饺子",
-          "py": "jiǎozi",
-          "en": "dumplings"
         }
       ]
     },

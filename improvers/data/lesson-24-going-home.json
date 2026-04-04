@@ -3,78 +3,258 @@
   "subtitle": "Lesson 24 — 你什么时候回国 · When are you going back",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 24)",
+      "items": [
+        {
+          "zh": "回国",
+          "py": "huí guó",
+          "en": "to return to one's country"
+        },
+        {
+          "zh": "就要...了",
+          "py": "jiù yào...le",
+          "en": "about to; going to (soon)"
+        },
+        {
+          "zh": "时间",
+          "py": "shíjiān",
+          "en": "time"
+        },
+        {
+          "zh": "进步",
+          "py": "jìnbù",
+          "en": "progress; to improve"
+        },
+        {
+          "zh": "舍不得",
+          "py": "shě bu de",
+          "en": "reluctant to part with"
+        },
+        {
+          "zh": "离开",
+          "py": "líkāi",
+          "en": "to leave"
+        },
+        {
+          "zh": "继续",
+          "py": "jìxù",
+          "en": "to continue"
+        },
+        {
+          "zh": "觉得",
+          "py": "juéde",
+          "en": "to feel; to think"
+        },
+        {
+          "zh": "短",
+          "py": "duǎn",
+          "en": "short (time/length)"
+        },
+        {
+          "zh": "快",
+          "py": "kuài",
+          "en": "fast; soon; almost"
+        },
+        {
+          "zh": "毕业",
+          "py": "bìyè",
+          "en": "to graduate"
+        },
+        {
+          "zh": "经验",
+          "py": "jīngyàn",
+          "en": "experience"
+        },
+        {
+          "zh": "忘",
+          "py": "wàng",
+          "en": "to forget"
+        },
+        {
+          "zh": "联系",
+          "py": "liánxì",
+          "en": "to contact; to keep in touch"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 24)",
       "items": [
-        {"zh": "你什么时候回国？", "py": "Nǐ shénme shíhou huí guó?", "en": "When are you going back to your country?"},
-        {"zh": "我下个月就要回国了。", "py": "Wǒ xià ge yuè jiù yào huí guó le.", "en": "I'll be going home next month."},
-        {"zh": "时间过得真快！", "py": "Shíjiān guò de zhēn kuài!", "en": "Time flies!"},
-        {"zh": "你在中国学了多长时间？", "py": "Nǐ zài Zhōngguó xué le duō cháng shíjiān?", "en": "How long have you studied in China?"},
-        {"zh": "你舍不得离开吗？", "py": "Nǐ shě bu de líkāi ma?", "en": "Are you reluctant to leave?"},
-        {"zh": "我真舍不得离开这儿。", "py": "Wǒ zhēn shě bu de líkāi zhèr.", "en": "I'm really reluctant to leave here."}
+        {
+          "zh": "你什么时候回国？",
+          "py": "Nǐ shénme shíhou huí guó?",
+          "en": "When are you going back to your country?"
+        },
+        {
+          "zh": "我下个月就要回国了。",
+          "py": "Wǒ xià ge yuè jiù yào huí guó le.",
+          "en": "I'll be going home next month."
+        },
+        {
+          "zh": "时间过得真快！",
+          "py": "Shíjiān guò de zhēn kuài!",
+          "en": "Time flies!"
+        },
+        {
+          "zh": "你在中国学了多长时间？",
+          "py": "Nǐ zài Zhōngguó xué le duō cháng shíjiān?",
+          "en": "How long have you studied in China?"
+        },
+        {
+          "zh": "你舍不得离开吗？",
+          "py": "Nǐ shě bu de líkāi ma?",
+          "en": "Are you reluctant to leave?"
+        },
+        {
+          "zh": "我真舍不得离开这儿。",
+          "py": "Wǒ zhēn shě bu de líkāi zhèr.",
+          "en": "I'm really reluctant to leave here."
+        }
       ]
     },
     {
       "topic": "会话1 · Dialogue 1 (Going Home)",
       "items": [
-        {"zh": "张老师：大卫，你什么时候回国？", "py": "Zhāng lǎoshī: Dàwèi, nǐ shénme shíhou huí guó?", "en": "Teacher Zhang: David, when are you going home?"},
-        {"zh": "大卫：下个月就要回国了。", "py": "Dàwèi: Xià ge yuè jiù yào huí guó le.", "en": "David: I'll be going back next month."},
-        {"zh": "张老师：时间过得真快！你在中国学了多长时间？", "py": "Zhāng lǎoshī: Shíjiān guò de zhēn kuài! Nǐ zài Zhōngguó xué le duō cháng shíjiān?", "en": "Teacher Zhang: Time flies! How long have you studied in China?"},
-        {"zh": "大卫：快一年了。", "py": "Dàwèi: Kuài yī nián le.", "en": "David: Almost a year."},
-        {"zh": "张老师：你的汉语进步很大。", "py": "Zhāng lǎoshī: Nǐ de Hànyǔ jìnbù hěn dà.", "en": "Teacher Zhang: Your Chinese has improved a lot."},
-        {"zh": "大卫：谢谢老师。我真舍不得离开这儿。", "py": "Dàwèi: Xièxie lǎoshī. Wǒ zhēn shě bu de líkāi zhèr.", "en": "David: Thank you, teacher. I'm really reluctant to leave."},
-        {"zh": "张老师：欢迎你再来！", "py": "Zhāng lǎoshī: Huānyíng nǐ zài lái!", "en": "Teacher Zhang: You're welcome to come again!"}
+        {
+          "zh": "张老师：大卫，你什么时候回国？",
+          "py": "Zhāng lǎoshī: Dàwèi, nǐ shénme shíhou huí guó?",
+          "en": "Teacher Zhang: David, when are you going home?"
+        },
+        {
+          "zh": "大卫：下个月就要回国了。",
+          "py": "Dàwèi: Xià ge yuè jiù yào huí guó le.",
+          "en": "David: I'll be going back next month."
+        },
+        {
+          "zh": "张老师：时间过得真快！你在中国学了多长时间？",
+          "py": "Zhāng lǎoshī: Shíjiān guò de zhēn kuài! Nǐ zài Zhōngguó xué le duō cháng shíjiān?",
+          "en": "Teacher Zhang: Time flies! How long have you studied in China?"
+        },
+        {
+          "zh": "大卫：快一年了。",
+          "py": "Dàwèi: Kuài yī nián le.",
+          "en": "David: Almost a year."
+        },
+        {
+          "zh": "张老师：你的汉语进步很大。",
+          "py": "Zhāng lǎoshī: Nǐ de Hànyǔ jìnbù hěn dà.",
+          "en": "Teacher Zhang: Your Chinese has improved a lot."
+        },
+        {
+          "zh": "大卫：谢谢老师。我真舍不得离开这儿。",
+          "py": "Dàwèi: Xièxie lǎoshī. Wǒ zhēn shě bu de líkāi zhèr.",
+          "en": "David: Thank you, teacher. I'm really reluctant to leave."
+        },
+        {
+          "zh": "张老师：欢迎你再来！",
+          "py": "Zhāng lǎoshī: Huānyíng nǐ zài lái!",
+          "en": "Teacher Zhang: You're welcome to come again!"
+        }
       ]
     },
     {
       "topic": "会话2 · Dialogue 2 (Memories)",
       "items": [
-        {"zh": "玛丽：和子，你也快要回国了吧？", "py": "Mǎlì: Hézǐ, nǐ yě kuài yào huí guó le ba?", "en": "Mary: Hezi, you're also going home soon, right?"},
-        {"zh": "和子：是的，还有两个星期。", "py": "Hézǐ: Shì de, hái yǒu liǎng ge xīngqī.", "en": "Hezi: Yes, two more weeks."},
-        {"zh": "玛丽：回国以后你打算做什么？", "py": "Mǎlì: Huí guó yǐhòu nǐ dǎsuàn zuò shénme?", "en": "Mary: What do you plan to do after going back?"},
-        {"zh": "和子：我打算继续学汉语。", "py": "Hézǐ: Wǒ dǎsuàn jìxù xué Hànyǔ.", "en": "Hezi: I plan to continue studying Chinese."},
-        {"zh": "玛丽：我在中国的时间太短了。", "py": "Mǎlì: Wǒ zài Zhōngguó de shíjiān tài duǎn le.", "en": "Mary: My time in China was too short."},
-        {"zh": "和子：是啊，我也觉得时间不够用。", "py": "Hézǐ: Shì a, wǒ yě juéde shíjiān bú gòu yòng.", "en": "Hezi: Yes, I also feel there isn't enough time."},
-        {"zh": "玛丽：我一定会再来中国的。", "py": "Mǎlì: Wǒ yīdìng huì zài lái Zhōngguó de.", "en": "Mary: I'll definitely come back to China."}
-      ]
-    },
-    {
-      "topic": "生词 · New Words (Lesson 24)",
-      "items": [
-        {"zh": "回国", "py": "huí guó", "en": "to return to one's country"},
-        {"zh": "就要...了", "py": "jiù yào...le", "en": "about to; going to (soon)"},
-        {"zh": "时间", "py": "shíjiān", "en": "time"},
-        {"zh": "进步", "py": "jìnbù", "en": "progress; to improve"},
-        {"zh": "舍不得", "py": "shě bu de", "en": "reluctant to part with"},
-        {"zh": "离开", "py": "líkāi", "en": "to leave"},
-        {"zh": "继续", "py": "jìxù", "en": "to continue"},
-        {"zh": "觉得", "py": "juéde", "en": "to feel; to think"},
-        {"zh": "短", "py": "duǎn", "en": "short (time/length)"},
-        {"zh": "快", "py": "kuài", "en": "fast; soon; almost"},
-        {"zh": "毕业", "py": "bìyè", "en": "to graduate"},
-        {"zh": "经验", "py": "jīngyàn", "en": "experience"},
-        {"zh": "忘", "py": "wàng", "en": "to forget"},
-        {"zh": "联系", "py": "liánxì", "en": "to contact; to keep in touch"}
+        {
+          "zh": "玛丽：和子，你也快要回国了吧？",
+          "py": "Mǎlì: Hézǐ, nǐ yě kuài yào huí guó le ba?",
+          "en": "Mary: Hezi, you're also going home soon, right?"
+        },
+        {
+          "zh": "和子：是的，还有两个星期。",
+          "py": "Hézǐ: Shì de, hái yǒu liǎng ge xīngqī.",
+          "en": "Hezi: Yes, two more weeks."
+        },
+        {
+          "zh": "玛丽：回国以后你打算做什么？",
+          "py": "Mǎlì: Huí guó yǐhòu nǐ dǎsuàn zuò shénme?",
+          "en": "Mary: What do you plan to do after going back?"
+        },
+        {
+          "zh": "和子：我打算继续学汉语。",
+          "py": "Hézǐ: Wǒ dǎsuàn jìxù xué Hànyǔ.",
+          "en": "Hezi: I plan to continue studying Chinese."
+        },
+        {
+          "zh": "玛丽：我在中国的时间太短了。",
+          "py": "Mǎlì: Wǒ zài Zhōngguó de shíjiān tài duǎn le.",
+          "en": "Mary: My time in China was too short."
+        },
+        {
+          "zh": "和子：是啊，我也觉得时间不够用。",
+          "py": "Hézǐ: Shì a, wǒ yě juéde shíjiān bú gòu yòng.",
+          "en": "Hezi: Yes, I also feel there isn't enough time."
+        },
+        {
+          "zh": "玛丽：我一定会再来中国的。",
+          "py": "Mǎlì: Wǒ yīdìng huì zài lái Zhōngguó de.",
+          "en": "Mary: I'll definitely come back to China."
+        }
       ]
     },
     {
       "topic": "语法 · Grammar (就要/快要...了 Imminent Future)",
       "items": [
-        {"zh": "我就要回国了。", "py": "Wǒ jiù yào huí guó le.", "en": "I'm about to go home. (就要...了 = imminent)"},
-        {"zh": "快要下雨了。", "py": "Kuài yào xià yǔ le.", "en": "It's about to rain. (快要...了 = very soon)"},
-        {"zh": "他快要毕业了。", "py": "Tā kuài yào bìyè le.", "en": "He's about to graduate."},
-        {"zh": "飞机就要起飞了。", "py": "Fēijī jiù yào qǐfēi le.", "en": "The plane is about to take off."},
-        {"zh": "考试快要开始了。", "py": "Kǎoshì kuài yào kāishǐ le.", "en": "The exam is about to begin."}
+        {
+          "zh": "我就要回国了。",
+          "py": "Wǒ jiù yào huí guó le.",
+          "en": "I'm about to go home. (就要...了 = imminent)"
+        },
+        {
+          "zh": "快要下雨了。",
+          "py": "Kuài yào xià yǔ le.",
+          "en": "It's about to rain. (快要...了 = very soon)"
+        },
+        {
+          "zh": "他快要毕业了。",
+          "py": "Tā kuài yào bìyè le.",
+          "en": "He's about to graduate."
+        },
+        {
+          "zh": "飞机就要起飞了。",
+          "py": "Fēijī jiù yào qǐfēi le.",
+          "en": "The plane is about to take off."
+        },
+        {
+          "zh": "考试快要开始了。",
+          "py": "Kǎoshì kuài yào kāishǐ le.",
+          "en": "The exam is about to begin."
+        }
       ]
     },
     {
       "topic": "替换 · Substitution Drills",
       "items": [
-        {"zh": "我就要回国了。", "py": "Wǒ jiù yào huí guó le.", "en": "I'm about to go home."},
-        {"zh": "他就要毕业了。", "py": "Tā jiù yào bìyè le.", "en": "He's about to graduate."},
-        {"zh": "春节快要到了。", "py": "Chūnjié kuài yào dào le.", "en": "Spring Festival is almost here."},
-        {"zh": "电影快要开始了。", "py": "Diànyǐng kuài yào kāishǐ le.", "en": "The movie is about to start."},
-        {"zh": "回国以后你打算做什么？", "py": "Huí guó yǐhòu nǐ dǎsuàn zuò shénme?", "en": "What do you plan to do after going home?"},
-        {"zh": "毕业以后你打算做什么？", "py": "Bìyè yǐhòu nǐ dǎsuàn zuò shénme?", "en": "What do you plan to do after graduating?"}
+        {
+          "zh": "我就要回国了。",
+          "py": "Wǒ jiù yào huí guó le.",
+          "en": "I'm about to go home."
+        },
+        {
+          "zh": "他就要毕业了。",
+          "py": "Tā jiù yào bìyè le.",
+          "en": "He's about to graduate."
+        },
+        {
+          "zh": "春节快要到了。",
+          "py": "Chūnjié kuài yào dào le.",
+          "en": "Spring Festival is almost here."
+        },
+        {
+          "zh": "电影快要开始了。",
+          "py": "Diànyǐng kuài yào kāishǐ le.",
+          "en": "The movie is about to start."
+        },
+        {
+          "zh": "回国以后你打算做什么？",
+          "py": "Huí guó yǐhòu nǐ dǎsuàn zuò shénme?",
+          "en": "What do you plan to do after going home?"
+        },
+        {
+          "zh": "毕业以后你打算做什么？",
+          "py": "Bìyè yǐhòu nǐ dǎsuàn zuò shénme?",
+          "en": "What do you plan to do after graduating?"
+        }
       ]
     }
   ]

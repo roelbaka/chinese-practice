@@ -3,6 +3,116 @@
   "subtitle": "Lesson 16 — 他做什么工作 · What work does he do",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "work; job; to work"
+        },
+        {
+          "zh": "大夫",
+          "py": "dàifu",
+          "en": "doctor"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "长",
+          "py": "zhǎng",
+          "en": "to grow; to look (appearance)"
+        },
+        {
+          "zh": "个子",
+          "py": "gèzi",
+          "en": "height; stature"
+        },
+        {
+          "zh": "高",
+          "py": "gāo",
+          "en": "tall; high"
+        },
+        {
+          "zh": "矮",
+          "py": "ǎi",
+          "en": "short (height)"
+        },
+        {
+          "zh": "头发",
+          "py": "tóufa",
+          "en": "hair"
+        },
+        {
+          "zh": "穿",
+          "py": "chuān",
+          "en": "to wear; to put on"
+        },
+        {
+          "zh": "年轻",
+          "py": "niánqīng",
+          "en": "young"
+        },
+        {
+          "zh": "留学生",
+          "py": "liúxuéshēng",
+          "en": "international student"
+        },
+        {
+          "zh": "刚",
+          "py": "gāng",
+          "en": "just (a moment ago)"
+        },
+        {
+          "zh": "出去",
+          "py": "chūqù",
+          "en": "to go out"
+        },
+        {
+          "zh": "看起来",
+          "py": "kàn qǐlái",
+          "en": "to look like; to appear"
+        },
+        {
+          "zh": "律师",
+          "py": "lǜshī",
+          "en": "lawyer"
+        },
+        {
+          "zh": "工程师",
+          "py": "gōngchéngshī",
+          "en": "engineer"
+        },
+        {
+          "zh": "护士",
+          "py": "hùshi",
+          "en": "nurse"
+        },
+        {
+          "zh": "记者",
+          "py": "jìzhě",
+          "en": "journalist"
+        },
+        {
+          "zh": "胖",
+          "py": "pàng",
+          "en": "fat; plump"
+        },
+        {
+          "zh": "瘦",
+          "py": "shòu",
+          "en": "thin; slim"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "en": "pretty; beautiful"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -129,116 +239,6 @@
           "zh": "职员：她刚出去了。",
           "py": "Zhíyuán: Tā gāng chūqù le.",
           "en": "Staff: She just went out."
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "工作",
-          "py": "gōngzuò",
-          "en": "work; job; to work"
-        },
-        {
-          "zh": "大夫",
-          "py": "dàifu",
-          "en": "doctor"
-        },
-        {
-          "zh": "医院",
-          "py": "yīyuàn",
-          "en": "hospital"
-        },
-        {
-          "zh": "长",
-          "py": "zhǎng",
-          "en": "to grow; to look (appearance)"
-        },
-        {
-          "zh": "个子",
-          "py": "gèzi",
-          "en": "height; stature"
-        },
-        {
-          "zh": "高",
-          "py": "gāo",
-          "en": "tall; high"
-        },
-        {
-          "zh": "矮",
-          "py": "ǎi",
-          "en": "short (height)"
-        },
-        {
-          "zh": "头发",
-          "py": "tóufa",
-          "en": "hair"
-        },
-        {
-          "zh": "穿",
-          "py": "chuān",
-          "en": "to wear; to put on"
-        },
-        {
-          "zh": "年轻",
-          "py": "niánqīng",
-          "en": "young"
-        },
-        {
-          "zh": "留学生",
-          "py": "liúxuéshēng",
-          "en": "international student"
-        },
-        {
-          "zh": "刚",
-          "py": "gāng",
-          "en": "just (a moment ago)"
-        },
-        {
-          "zh": "出去",
-          "py": "chūqù",
-          "en": "to go out"
-        },
-        {
-          "zh": "看起来",
-          "py": "kàn qǐlái",
-          "en": "to look like; to appear"
-        },
-        {
-          "zh": "律师",
-          "py": "lǜshī",
-          "en": "lawyer"
-        },
-        {
-          "zh": "工程师",
-          "py": "gōngchéngshī",
-          "en": "engineer"
-        },
-        {
-          "zh": "护士",
-          "py": "hùshi",
-          "en": "nurse"
-        },
-        {
-          "zh": "记者",
-          "py": "jìzhě",
-          "en": "journalist"
-        },
-        {
-          "zh": "胖",
-          "py": "pàng",
-          "en": "fat; plump"
-        },
-        {
-          "zh": "瘦",
-          "py": "shòu",
-          "en": "thin; slim"
-        },
-        {
-          "zh": "漂亮",
-          "py": "piàoliang",
-          "en": "pretty; beautiful"
         }
       ]
     },

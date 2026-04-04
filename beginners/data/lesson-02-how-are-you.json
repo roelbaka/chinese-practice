@@ -3,6 +3,76 @@
   "subtitle": "Lesson 2 — 你身体好吗 · How is your health?",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "身体",
+          "py": "shēntǐ",
+          "en": "body, health"
+        },
+        {
+          "zh": "忙",
+          "py": "máng",
+          "en": "busy"
+        },
+        {
+          "zh": "太",
+          "py": "tài",
+          "en": "too, excessively"
+        },
+        {
+          "zh": "不太",
+          "py": "bú tài",
+          "en": "not too, not very"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "work, job; to work"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "father, dad"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mother, mom"
+        },
+        {
+          "zh": "哥哥",
+          "py": "gēge",
+          "en": "elder brother"
+        },
+        {
+          "zh": "弟弟",
+          "py": "dìdi",
+          "en": "younger brother"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "再见",
+          "py": "zàijiàn",
+          "en": "goodbye"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to come"
+        },
+        {
+          "zh": "您",
+          "py": "nín",
+          "en": "you (polite)"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -109,76 +179,6 @@
           "zh": "玛丽：老师再见！",
           "py": "Mǎlì: Lǎoshī zàijiàn!",
           "en": "Mary: Goodbye, teacher!"
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "身体",
-          "py": "shēntǐ",
-          "en": "body, health"
-        },
-        {
-          "zh": "忙",
-          "py": "máng",
-          "en": "busy"
-        },
-        {
-          "zh": "太",
-          "py": "tài",
-          "en": "too, excessively"
-        },
-        {
-          "zh": "不太",
-          "py": "bú tài",
-          "en": "not too, not very"
-        },
-        {
-          "zh": "工作",
-          "py": "gōngzuò",
-          "en": "work, job; to work"
-        },
-        {
-          "zh": "爸爸",
-          "py": "bàba",
-          "en": "father, dad"
-        },
-        {
-          "zh": "妈妈",
-          "py": "māma",
-          "en": "mother, mom"
-        },
-        {
-          "zh": "哥哥",
-          "py": "gēge",
-          "en": "elder brother"
-        },
-        {
-          "zh": "弟弟",
-          "py": "dìdi",
-          "en": "younger brother"
-        },
-        {
-          "zh": "老师",
-          "py": "lǎoshī",
-          "en": "teacher"
-        },
-        {
-          "zh": "再见",
-          "py": "zàijiàn",
-          "en": "goodbye"
-        },
-        {
-          "zh": "来",
-          "py": "lái",
-          "en": "to come"
-        },
-        {
-          "zh": "您",
-          "py": "nín",
-          "en": "you (polite)"
         }
       ]
     },

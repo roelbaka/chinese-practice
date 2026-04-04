@@ -3,6 +3,136 @@
   "subtitle": "Lesson 29 — 我也喜欢游泳 · I also like swimming",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 29)",
+      "items": [
+        {
+          "zh": "运动",
+          "py": "yùndòng",
+          "en": "sports; to exercise"
+        },
+        {
+          "zh": "爬",
+          "py": "pá",
+          "en": "to climb"
+        },
+        {
+          "zh": "山",
+          "py": "shān",
+          "en": "mountain"
+        },
+        {
+          "zh": "游泳",
+          "py": "yóu yǒng",
+          "en": "to swim"
+        },
+        {
+          "zh": "比赛",
+          "py": "bǐsài",
+          "en": "to compete; match"
+        },
+        {
+          "zh": "队",
+          "py": "duì",
+          "en": "team"
+        },
+        {
+          "zh": "毛笔",
+          "py": "máobǐ",
+          "en": "writing brush"
+        },
+        {
+          "zh": "踢",
+          "py": "tī",
+          "en": "to kick; to play (soccer)"
+        },
+        {
+          "zh": "足球",
+          "py": "zúqiú",
+          "en": "soccer; football"
+        },
+        {
+          "zh": "篮球",
+          "py": "lánqiú",
+          "en": "basketball"
+        },
+        {
+          "zh": "练",
+          "py": "liàn",
+          "en": "to practise"
+        },
+        {
+          "zh": "教",
+          "py": "jiāo",
+          "en": "to teach; to instruct"
+        },
+        {
+          "zh": "散步",
+          "py": "sànbù",
+          "en": "to take a walk"
+        },
+        {
+          "zh": "跑步",
+          "py": "pǎobù",
+          "en": "to jog"
+        },
+        {
+          "zh": "回答",
+          "py": "huídá",
+          "en": "to answer"
+        },
+        {
+          "zh": "画",
+          "py": "huà",
+          "en": "to draw/paint; painting"
+        },
+        {
+          "zh": "话",
+          "py": "huà",
+          "en": "dialect; speech"
+        },
+        {
+          "zh": "站",
+          "py": "zhàn",
+          "en": "to stand"
+        },
+        {
+          "zh": "躺",
+          "py": "tǎng",
+          "en": "to lie (down)"
+        },
+        {
+          "zh": "放假",
+          "py": "fàng jià",
+          "en": "to be on vacation"
+        },
+        {
+          "zh": "旅行",
+          "py": "lǚxíng",
+          "en": "to travel"
+        },
+        {
+          "zh": "太极拳",
+          "py": "tàijíquán",
+          "en": "taijiquan"
+        },
+        {
+          "zh": "钥匙",
+          "py": "yàoshi",
+          "en": "key"
+        },
+        {
+          "zh": "丢",
+          "py": "diū",
+          "en": "to lose"
+        },
+        {
+          "zh": "广东",
+          "py": "Guǎngdōng",
+          "en": "Guangdong (province)"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 29)",
       "items": [
         {
@@ -153,132 +283,47 @@
       ]
     },
     {
-      "topic": "生词 · New Words (Lesson 29)",
+      "topic": "语法 · Grammar (Duration Complement)",
       "items": [
         {
-          "zh": "运动",
-          "py": "yùndòng",
-          "en": "sports; to exercise"
+          "zh": "我们休息了十分钟。",
+          "py": "Wǒmen xiūxi le shí fēnzhōng.",
+          "en": "We rested for ten minutes."
         },
         {
-          "zh": "爬",
-          "py": "pá",
-          "en": "to climb"
+          "zh": "我教了两个星期了。",
+          "py": "Wǒ jiāo le liǎng ge xīngqī le.",
+          "en": "I've been teaching for two weeks."
         },
         {
-          "zh": "山",
-          "py": "shān",
-          "en": "mountain"
+          "zh": "玛丽病了两天，没来上课。",
+          "py": "Mǎlì bìng le liǎng tiān, méi lái shàng kè.",
+          "en": "Mary was sick for two days and didn't come to class."
         },
         {
-          "zh": "游泳",
-          "py": "yóu yǒng",
-          "en": "to swim"
+          "zh": "父亲走了一刻钟了。",
+          "py": "Fùqin zǒu le yī kèzhōng le.",
+          "en": "Father left a quarter of an hour ago."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (吧 Questions)",
+      "items": [
+        {
+          "zh": "你最近很忙吧？",
+          "py": "Nǐ zuìjìn hěn máng ba?",
+          "en": "You've been busy lately, right?"
         },
         {
-          "zh": "比赛",
-          "py": "bǐsài",
-          "en": "to compete; match"
+          "zh": "票一定很难买吧？",
+          "py": "Piào yīdìng hěn nán mǎi ba?",
+          "en": "Tickets must be hard to buy, right?"
         },
         {
-          "zh": "队",
-          "py": "duì",
-          "en": "team"
-        },
-        {
-          "zh": "毛笔",
-          "py": "máobǐ",
-          "en": "writing brush"
-        },
-        {
-          "zh": "踢",
-          "py": "tī",
-          "en": "to kick; to play (soccer)"
-        },
-        {
-          "zh": "足球",
-          "py": "zúqiú",
-          "en": "soccer; football"
-        },
-        {
-          "zh": "篮球",
-          "py": "lánqiú",
-          "en": "basketball"
-        },
-        {
-          "zh": "练",
-          "py": "liàn",
-          "en": "to practise"
-        },
-        {
-          "zh": "教",
-          "py": "jiāo",
-          "en": "to teach; to instruct"
-        },
-        {
-          "zh": "散步",
-          "py": "sànbù",
-          "en": "to take a walk"
-        },
-        {
-          "zh": "跑步",
-          "py": "pǎobù",
-          "en": "to jog"
-        },
-        {
-          "zh": "回答",
-          "py": "huídá",
-          "en": "to answer"
-        },
-        {
-          "zh": "画",
-          "py": "huà",
-          "en": "to draw/paint; painting"
-        },
-        {
-          "zh": "话",
-          "py": "huà",
-          "en": "dialect; speech"
-        },
-        {
-          "zh": "站",
-          "py": "zhàn",
-          "en": "to stand"
-        },
-        {
-          "zh": "躺",
-          "py": "tǎng",
-          "en": "to lie (down)"
-        },
-        {
-          "zh": "放假",
-          "py": "fàng jià",
-          "en": "to be on vacation"
-        },
-        {
-          "zh": "旅行",
-          "py": "lǚxíng",
-          "en": "to travel"
-        },
-        {
-          "zh": "太极拳",
-          "py": "tàijíquán",
-          "en": "taijiquan"
-        },
-        {
-          "zh": "钥匙",
-          "py": "yàoshi",
-          "en": "key"
-        },
-        {
-          "zh": "丢",
-          "py": "diū",
-          "en": "to lose"
-        },
-        {
-          "zh": "广东",
-          "py": "Guǎngdōng",
-          "en": "Guangdong (province)"
+          "zh": "你很喜欢打球吧？",
+          "py": "Nǐ hěn xǐhuan dǎ qiú ba?",
+          "en": "You like playing ball, right?"
         }
       ]
     },
@@ -309,51 +354,6 @@
           "zh": "我没有和子写得好。",
           "py": "Wǒ méiyǒu Hézǐ xiě de hǎo.",
           "en": "I don't write as well as Hezi."
-        }
-      ]
-    },
-    {
-      "topic": "语法 · Grammar (吧 Questions)",
-      "items": [
-        {
-          "zh": "你最近很忙吧？",
-          "py": "Nǐ zuìjìn hěn máng ba?",
-          "en": "You've been busy lately, right?"
-        },
-        {
-          "zh": "票一定很难买吧？",
-          "py": "Piào yīdìng hěn nán mǎi ba?",
-          "en": "Tickets must be hard to buy, right?"
-        },
-        {
-          "zh": "你很喜欢打球吧？",
-          "py": "Nǐ hěn xǐhuan dǎ qiú ba?",
-          "en": "You like playing ball, right?"
-        }
-      ]
-    },
-    {
-      "topic": "语法 · Grammar (Duration Complement)",
-      "items": [
-        {
-          "zh": "我们休息了十分钟。",
-          "py": "Wǒmen xiūxi le shí fēnzhōng.",
-          "en": "We rested for ten minutes."
-        },
-        {
-          "zh": "我教了两个星期了。",
-          "py": "Wǒ jiāo le liǎng ge xīngqī le.",
-          "en": "I've been teaching for two weeks."
-        },
-        {
-          "zh": "玛丽病了两天，没来上课。",
-          "py": "Mǎlì bìng le liǎng tiān, méi lái shàng kè.",
-          "en": "Mary was sick for two days and didn't come to class."
-        },
-        {
-          "zh": "父亲走了一刻钟了。",
-          "py": "Fùqin zǒu le yī kèzhōng le.",
-          "en": "Father left a quarter of an hour ago."
         }
       ]
     },

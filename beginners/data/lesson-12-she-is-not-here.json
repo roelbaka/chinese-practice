@@ -3,6 +3,81 @@
   "subtitle": "Lesson 12 — 她不在 · She is not here",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "喂",
+          "py": "wèi",
+          "en": "hello (on the phone)"
+        },
+        {
+          "zh": "位",
+          "py": "wèi",
+          "en": "polite measure word for people"
+        },
+        {
+          "zh": "找",
+          "py": "zhǎo",
+          "en": "to look for"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "to return"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "to wait"
+        },
+        {
+          "zh": "留",
+          "py": "liú",
+          "en": "to leave (behind)"
+        },
+        {
+          "zh": "口信",
+          "py": "kǒuxìn",
+          "en": "verbal message"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "en": "may; can (permission or possibility)"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "en": "classmate"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "en": "to make a phone call"
+        },
+        {
+          "zh": "回来",
+          "py": "huí lái",
+          "en": "to come back"
+        },
+        {
+          "zh": "告诉",
+          "py": "gàosu",
+          "en": "to tell"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "en": "evening; night"
+        },
+        {
+          "zh": "一会儿",
+          "py": "yíhuìr",
+          "en": "a moment; a little while"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -134,81 +209,6 @@
           "zh": "大卫：谢谢！",
           "py": "Dàwèi: Xièxie!",
           "en": "David: Thank you!"
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "喂",
-          "py": "wèi",
-          "en": "hello (on the phone)"
-        },
-        {
-          "zh": "位",
-          "py": "wèi",
-          "en": "polite measure word for people"
-        },
-        {
-          "zh": "找",
-          "py": "zhǎo",
-          "en": "to look for"
-        },
-        {
-          "zh": "回",
-          "py": "huí",
-          "en": "to return"
-        },
-        {
-          "zh": "等",
-          "py": "děng",
-          "en": "to wait"
-        },
-        {
-          "zh": "留",
-          "py": "liú",
-          "en": "to leave (behind)"
-        },
-        {
-          "zh": "口信",
-          "py": "kǒuxìn",
-          "en": "verbal message"
-        },
-        {
-          "zh": "可以",
-          "py": "kěyǐ",
-          "en": "may; can (permission or possibility)"
-        },
-        {
-          "zh": "同学",
-          "py": "tóngxué",
-          "en": "classmate"
-        },
-        {
-          "zh": "打电话",
-          "py": "dǎ diànhuà",
-          "en": "to make a phone call"
-        },
-        {
-          "zh": "回来",
-          "py": "huí lái",
-          "en": "to come back"
-        },
-        {
-          "zh": "告诉",
-          "py": "gàosu",
-          "en": "to tell"
-        },
-        {
-          "zh": "晚上",
-          "py": "wǎnshang",
-          "en": "evening; night"
-        },
-        {
-          "zh": "一会儿",
-          "py": "yíhuìr",
-          "en": "a moment; a little while"
         }
       ]
     },

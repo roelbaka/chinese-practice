@@ -3,6 +3,111 @@
   "subtitle": "Lesson 17 — 去动物园怎么走 · How to get to the zoo",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "动物园",
+          "py": "dòngwùyuán",
+          "en": "zoo"
+        },
+        {
+          "zh": "公共汽车",
+          "py": "gōnggòng qìchē",
+          "en": "bus"
+        },
+        {
+          "zh": "地铁",
+          "py": "dìtiě",
+          "en": "subway; metro"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzū chē",
+          "en": "taxi"
+        },
+        {
+          "zh": "路",
+          "py": "lù",
+          "en": "road; route (bus number)"
+        },
+        {
+          "zh": "车站",
+          "py": "chēzhàn",
+          "en": "bus stop; station"
+        },
+        {
+          "zh": "路口",
+          "py": "lùkǒu",
+          "en": "intersection; crossroads"
+        },
+        {
+          "zh": "十字路口",
+          "py": "shízì lùkǒu",
+          "en": "crossroads"
+        },
+        {
+          "zh": "往",
+          "py": "wǎng",
+          "en": "toward; in the direction of"
+        },
+        {
+          "zh": "前",
+          "py": "qián",
+          "en": "front; forward"
+        },
+        {
+          "zh": "右",
+          "py": "yòu",
+          "en": "right"
+        },
+        {
+          "zh": "左",
+          "py": "zuǒ",
+          "en": "left"
+        },
+        {
+          "zh": "拐",
+          "py": "guǎi",
+          "en": "to turn"
+        },
+        {
+          "zh": "下车",
+          "py": "xià chē",
+          "en": "to get off (a vehicle)"
+        },
+        {
+          "zh": "上车",
+          "py": "shàng chē",
+          "en": "to get on (a vehicle)"
+        },
+        {
+          "zh": "到",
+          "py": "dào",
+          "en": "to arrive; to reach"
+        },
+        {
+          "zh": "线",
+          "py": "xiàn",
+          "en": "line (subway line)"
+        },
+        {
+          "zh": "路人",
+          "py": "lùrén",
+          "en": "passerby"
+        },
+        {
+          "zh": "骑",
+          "py": "qí",
+          "en": "to ride (a bike)"
+        },
+        {
+          "zh": "自行车",
+          "py": "zìxíngchē",
+          "en": "bicycle"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -129,111 +234,6 @@
           "zh": "玛丽：那我还是坐地铁吧。谢谢！",
           "py": "Mǎlì: Nà wǒ háishi zuò dìtiě ba. Xièxie!",
           "en": "Mary: Then I'd better take the subway. Thanks!"
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "动物园",
-          "py": "dòngwùyuán",
-          "en": "zoo"
-        },
-        {
-          "zh": "公共汽车",
-          "py": "gōnggòng qìchē",
-          "en": "bus"
-        },
-        {
-          "zh": "地铁",
-          "py": "dìtiě",
-          "en": "subway; metro"
-        },
-        {
-          "zh": "出租车",
-          "py": "chūzū chē",
-          "en": "taxi"
-        },
-        {
-          "zh": "路",
-          "py": "lù",
-          "en": "road; route (bus number)"
-        },
-        {
-          "zh": "车站",
-          "py": "chēzhàn",
-          "en": "bus stop; station"
-        },
-        {
-          "zh": "路口",
-          "py": "lùkǒu",
-          "en": "intersection; crossroads"
-        },
-        {
-          "zh": "十字路口",
-          "py": "shízì lùkǒu",
-          "en": "crossroads"
-        },
-        {
-          "zh": "往",
-          "py": "wǎng",
-          "en": "toward; in the direction of"
-        },
-        {
-          "zh": "前",
-          "py": "qián",
-          "en": "front; forward"
-        },
-        {
-          "zh": "右",
-          "py": "yòu",
-          "en": "right"
-        },
-        {
-          "zh": "左",
-          "py": "zuǒ",
-          "en": "left"
-        },
-        {
-          "zh": "拐",
-          "py": "guǎi",
-          "en": "to turn"
-        },
-        {
-          "zh": "下车",
-          "py": "xià chē",
-          "en": "to get off (a vehicle)"
-        },
-        {
-          "zh": "上车",
-          "py": "shàng chē",
-          "en": "to get on (a vehicle)"
-        },
-        {
-          "zh": "到",
-          "py": "dào",
-          "en": "to arrive; to reach"
-        },
-        {
-          "zh": "线",
-          "py": "xiàn",
-          "en": "line (subway line)"
-        },
-        {
-          "zh": "路人",
-          "py": "lùrén",
-          "en": "passerby"
-        },
-        {
-          "zh": "骑",
-          "py": "qí",
-          "en": "to ride (a bike)"
-        },
-        {
-          "zh": "自行车",
-          "py": "zìxíngchē",
-          "en": "bicycle"
         }
       ]
     },

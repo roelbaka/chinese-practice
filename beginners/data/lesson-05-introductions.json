@@ -3,6 +3,111 @@
   "subtitle": "Lesson 5 — 我介绍一下儿 · Let Me Introduce — Introductions, 的, locations & visiting",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "谁",
+          "py": "shuí / shéi",
+          "en": "who"
+        },
+        {
+          "zh": "介绍",
+          "py": "jièshào",
+          "en": "to introduce"
+        },
+        {
+          "zh": "一下儿",
+          "py": "yíxiàr",
+          "en": "a moment; briefly (softens the verb)"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "to be at; in, at"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home; family"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(structural particle: possessive / attributive)"
+        },
+        {
+          "zh": "请",
+          "py": "qǐng",
+          "en": "please; to invite"
+        },
+        {
+          "zh": "进",
+          "py": "jìn",
+          "en": "to enter; to come in"
+        },
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop; store"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look; to watch; to read"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "en": "to listen; to hear"
+        },
+        {
+          "zh": "休息",
+          "py": "xiūxi",
+          "en": "to rest"
+        },
+        {
+          "zh": "大学",
+          "py": "dàxué",
+          "en": "university"
+        },
+        {
+          "zh": "宿舍",
+          "py": "sùshè",
+          "en": "dormitory"
+        },
+        {
+          "zh": "教室",
+          "py": "jiàoshì",
+          "en": "classroom"
+        },
+        {
+          "zh": "网吧",
+          "py": "wǎngbā",
+          "en": "internet bar"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "en": "supermarket"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "to return; to go back"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -118,186 +223,6 @@
       ]
     },
     {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "谁",
-          "py": "shuí / shéi",
-          "en": "who"
-        },
-        {
-          "zh": "介绍",
-          "py": "jièshào",
-          "en": "to introduce"
-        },
-        {
-          "zh": "一下儿",
-          "py": "yíxiàr",
-          "en": "a moment; briefly (softens the verb)"
-        },
-        {
-          "zh": "去",
-          "py": "qù",
-          "en": "to go"
-        },
-        {
-          "zh": "哪儿",
-          "py": "nǎr",
-          "en": "where"
-        },
-        {
-          "zh": "在",
-          "py": "zài",
-          "en": "to be at; in, at"
-        },
-        {
-          "zh": "家",
-          "py": "jiā",
-          "en": "home; family"
-        },
-        {
-          "zh": "的",
-          "py": "de",
-          "en": "(structural particle: possessive / attributive)"
-        },
-        {
-          "zh": "请",
-          "py": "qǐng",
-          "en": "please; to invite"
-        },
-        {
-          "zh": "进",
-          "py": "jìn",
-          "en": "to enter; to come in"
-        },
-        {
-          "zh": "商店",
-          "py": "shāngdiàn",
-          "en": "shop; store"
-        },
-        {
-          "zh": "看",
-          "py": "kàn",
-          "en": "to look; to watch; to read"
-        },
-        {
-          "zh": "听",
-          "py": "tīng",
-          "en": "to listen; to hear"
-        },
-        {
-          "zh": "休息",
-          "py": "xiūxi",
-          "en": "to rest"
-        },
-        {
-          "zh": "大学",
-          "py": "dàxué",
-          "en": "university"
-        },
-        {
-          "zh": "宿舍",
-          "py": "sùshè",
-          "en": "dormitory"
-        },
-        {
-          "zh": "教室",
-          "py": "jiàoshì",
-          "en": "classroom"
-        },
-        {
-          "zh": "网吧",
-          "py": "wǎngbā",
-          "en": "internet bar"
-        },
-        {
-          "zh": "超市",
-          "py": "chāoshì",
-          "en": "supermarket"
-        },
-        {
-          "zh": "回",
-          "py": "huí",
-          "en": "to return; to go back"
-        }
-      ]
-    },
-    {
-      "topic": "专有名词 · Proper Nouns",
-      "items": [
-        {
-          "zh": "王林",
-          "py": "Wáng Lín",
-          "en": "Wang Lin (a name)"
-        },
-        {
-          "zh": "北京大学",
-          "py": "Běijīng Dàxué",
-          "en": "Peking University"
-        },
-        {
-          "zh": "山下和子",
-          "py": "Shānxià Hézǐ",
-          "en": "Yamashita Kazuko (a name)"
-        },
-        {
-          "zh": "小英",
-          "py": "Xiǎo Yīng",
-          "en": "Xiao Ying (a name)"
-        }
-      ]
-    },
-    {
-      "topic": "替换 · Substitution Drills",
-      "items": [
-        {
-          "zh": "你去哪儿？我去商店。",
-          "py": "Nǐ qù nǎr? Wǒ qù shāngdiàn.",
-          "en": "Where are you going? I'm going to the shop."
-        },
-        {
-          "zh": "我去大学。",
-          "py": "Wǒ qù dàxué.",
-          "en": "I'm going to the university."
-        },
-        {
-          "zh": "我去教室。",
-          "py": "Wǒ qù jiàoshì.",
-          "en": "I'm going to the classroom."
-        },
-        {
-          "zh": "我去宿舍。",
-          "py": "Wǒ qù sùshè.",
-          "en": "I'm going to the dormitory."
-        },
-        {
-          "zh": "我去超市。",
-          "py": "Wǒ qù chāoshì.",
-          "en": "I'm going to the supermarket."
-        },
-        {
-          "zh": "我去网吧。",
-          "py": "Wǒ qù wǎngbā.",
-          "en": "I'm going to the internet bar."
-        },
-        {
-          "zh": "我回家。",
-          "py": "Wǒ huí jiā.",
-          "en": "I'm going home."
-        },
-        {
-          "zh": "我回宿舍。",
-          "py": "Wǒ huí sùshè.",
-          "en": "I'm going back to the dorm."
-        },
-        {
-          "zh": "我回教室。",
-          "py": "Wǒ huí jiàoshì.",
-          "en": "I'm going back to the classroom."
-        }
-      ]
-    },
-    {
       "topic": "语法 · Grammar (的 & Verb Predicate)",
       "items": [
         {
@@ -353,6 +278,91 @@
       ]
     },
     {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你去哪儿？我去商店。",
+          "py": "Nǐ qù nǎr? Wǒ qù shāngdiàn.",
+          "en": "Where are you going? I'm going to the shop."
+        },
+        {
+          "zh": "我去大学。",
+          "py": "Wǒ qù dàxué.",
+          "en": "I'm going to the university."
+        },
+        {
+          "zh": "我去教室。",
+          "py": "Wǒ qù jiàoshì.",
+          "en": "I'm going to the classroom."
+        },
+        {
+          "zh": "我去宿舍。",
+          "py": "Wǒ qù sùshè.",
+          "en": "I'm going to the dormitory."
+        },
+        {
+          "zh": "我去超市。",
+          "py": "Wǒ qù chāoshì.",
+          "en": "I'm going to the supermarket."
+        },
+        {
+          "zh": "我去网吧。",
+          "py": "Wǒ qù wǎngbā.",
+          "en": "I'm going to the internet bar."
+        },
+        {
+          "zh": "我回家。",
+          "py": "Wǒ huí jiā.",
+          "en": "I'm going home."
+        },
+        {
+          "zh": "我回宿舍。",
+          "py": "Wǒ huí sùshè.",
+          "en": "I'm going back to the dorm."
+        },
+        {
+          "zh": "我回教室。",
+          "py": "Wǒ huí jiàoshì.",
+          "en": "I'm going back to the classroom."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "他去哪儿？他去教室。",
+          "py": "Tā qù nǎr? Tā qù jiàoshì.",
+          "en": "Where is he going? He's going to the classroom."
+        },
+        {
+          "zh": "她是谁？她是我的同学。",
+          "py": "Tā shì shuí? Tā shì wǒ de tóngxué.",
+          "en": "Who is she? She is my classmate."
+        },
+        {
+          "zh": "王老师在宿舍吗？不在，他在教室。",
+          "py": "Wáng lǎoshī zài sùshè ma? Bú zài, tā zài jiàoshì.",
+          "en": "Is Teacher Wang in the dorm? No, he's in the classroom."
+        },
+        {
+          "zh": "你去超市吗？我不去超市，我回宿舍。",
+          "py": "Nǐ qù chāoshì ma? Wǒ bú qù chāoshì, wǒ huí sùshè.",
+          "en": "Are you going to the supermarket? No, I'm going back to the dorm."
+        },
+        {
+          "zh": "请介绍一下儿，他是谁？",
+          "py": "Qǐng jièshào yíxiàr, tā shì shuí?",
+          "en": "Please introduce — who is he?"
+        },
+        {
+          "zh": "这是我朋友，她叫玛丽。",
+          "py": "Zhè shì wǒ péngyou, tā jiào Mǎlì.",
+          "en": "This is my friend, her name is Mary."
+        }
+      ]
+    },
+    {
       "topic": "一下儿 · Softening with yíxiàr",
       "items": [
         {
@@ -388,57 +398,27 @@
       ]
     },
     {
-      "topic": "地方 · Places & Locations",
+      "topic": "专有名词 · Proper Nouns",
       "items": [
         {
-          "zh": "商店",
-          "py": "shāngdiàn",
-          "en": "shop; store"
+          "zh": "王林",
+          "py": "Wáng Lín",
+          "en": "Wang Lin (a name)"
         },
         {
-          "zh": "超市",
-          "py": "chāoshì",
-          "en": "supermarket"
+          "zh": "北京大学",
+          "py": "Běijīng Dàxué",
+          "en": "Peking University"
         },
         {
-          "zh": "大学",
-          "py": "dàxué",
-          "en": "university"
+          "zh": "山下和子",
+          "py": "Shānxià Hézǐ",
+          "en": "Yamashita Kazuko (a name)"
         },
         {
-          "zh": "教室",
-          "py": "jiàoshì",
-          "en": "classroom"
-        },
-        {
-          "zh": "宿舍",
-          "py": "sùshè",
-          "en": "dormitory"
-        },
-        {
-          "zh": "网吧",
-          "py": "wǎngbā",
-          "en": "internet bar"
-        },
-        {
-          "zh": "家",
-          "py": "jiā",
-          "en": "home"
-        },
-        {
-          "zh": "学校",
-          "py": "xuéxiào",
-          "en": "school"
-        },
-        {
-          "zh": "图书馆",
-          "py": "túshūguǎn",
-          "en": "library"
-        },
-        {
-          "zh": "食堂",
-          "py": "shítáng",
-          "en": "canteen; dining hall"
+          "zh": "小英",
+          "py": "Xiǎo Yīng",
+          "en": "Xiao Ying (a name)"
         }
       ]
     },
@@ -548,6 +528,61 @@
       ]
     },
     {
+      "topic": "地方 · Places & Locations",
+      "items": [
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop; store"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "en": "supermarket"
+        },
+        {
+          "zh": "大学",
+          "py": "dàxué",
+          "en": "university"
+        },
+        {
+          "zh": "教室",
+          "py": "jiàoshì",
+          "en": "classroom"
+        },
+        {
+          "zh": "宿舍",
+          "py": "sùshè",
+          "en": "dormitory"
+        },
+        {
+          "zh": "网吧",
+          "py": "wǎngbā",
+          "en": "internet bar"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "图书馆",
+          "py": "túshūguǎn",
+          "en": "library"
+        },
+        {
+          "zh": "食堂",
+          "py": "shítáng",
+          "en": "canteen; dining hall"
+        }
+      ]
+    },
+    {
       "topic": "拜访 · Visiting Someone",
       "items": [
         {
@@ -599,41 +634,6 @@
           "zh": "我找张老师。",
           "py": "Wǒ zhǎo Zhāng lǎoshī.",
           "en": "I'm looking for Teacher Zhang."
-        }
-      ]
-    },
-    {
-      "topic": "练习 · Exercises",
-      "items": [
-        {
-          "zh": "他去哪儿？他去教室。",
-          "py": "Tā qù nǎr? Tā qù jiàoshì.",
-          "en": "Where is he going? He's going to the classroom."
-        },
-        {
-          "zh": "她是谁？她是我的同学。",
-          "py": "Tā shì shuí? Tā shì wǒ de tóngxué.",
-          "en": "Who is she? She is my classmate."
-        },
-        {
-          "zh": "王老师在宿舍吗？不在，他在教室。",
-          "py": "Wáng lǎoshī zài sùshè ma? Bú zài, tā zài jiàoshì.",
-          "en": "Is Teacher Wang in the dorm? No, he's in the classroom."
-        },
-        {
-          "zh": "你去超市吗？我不去超市，我回宿舍。",
-          "py": "Nǐ qù chāoshì ma? Wǒ bú qù chāoshì, wǒ huí sùshè.",
-          "en": "Are you going to the supermarket? No, I'm going back to the dorm."
-        },
-        {
-          "zh": "请介绍一下儿，他是谁？",
-          "py": "Qǐng jièshào yíxiàr, tā shì shuí?",
-          "en": "Please introduce — who is he?"
-        },
-        {
-          "zh": "这是我朋友，她叫玛丽。",
-          "py": "Zhè shì wǒ péngyou, tā jiào Mǎlì.",
-          "en": "This is my friend, her name is Mary."
         }
       ]
     }

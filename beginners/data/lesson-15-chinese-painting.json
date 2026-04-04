@@ -3,6 +3,101 @@
   "subtitle": "Lesson 15 — 中国画很有意思 · Chinese paintings are very interesting",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "画",
+          "py": "huà",
+          "en": "to paint; painting"
+        },
+        {
+          "zh": "有意思",
+          "py": "yǒu yìsi",
+          "en": "interesting"
+        },
+        {
+          "zh": "感兴趣",
+          "py": "gǎn xìngqù",
+          "en": "to be interested in"
+        },
+        {
+          "zh": "文化",
+          "py": "wénhuà",
+          "en": "culture"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can; to be able to (learned skill)"
+        },
+        {
+          "zh": "多长时间",
+          "py": "duō cháng shíjiān",
+          "en": "how long (duration)"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "才",
+          "py": "cái",
+          "en": "only; just (emphasis: less than expected)"
+        },
+        {
+          "zh": "对",
+          "py": "duì",
+          "en": "toward; to (preposition)"
+        },
+        {
+          "zh": "教",
+          "py": "jiāo",
+          "en": "to teach"
+        },
+        {
+          "zh": "汉字",
+          "py": "Hànzì",
+          "en": "Chinese characters"
+        },
+        {
+          "zh": "难",
+          "py": "nán",
+          "en": "difficult; hard"
+        },
+        {
+          "zh": "容易",
+          "py": "róngyì",
+          "en": "easy"
+        },
+        {
+          "zh": "练习",
+          "py": "liànxí",
+          "en": "to practice; exercise"
+        },
+        {
+          "zh": "历史",
+          "py": "lìshǐ",
+          "en": "history"
+        },
+        {
+          "zh": "音乐",
+          "py": "yīnyuè",
+          "en": "music"
+        },
+        {
+          "zh": "京剧",
+          "py": "jīngjù",
+          "en": "Beijing Opera"
+        },
+        {
+          "zh": "哪里",
+          "py": "nǎli",
+          "en": "not at all (modest reply to a compliment)"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -129,101 +224,6 @@
           "zh": "和子：是的，汉字是不太容易。",
           "py": "Hézǐ: Shì de, Hànzì shì bú tài róngyì.",
           "en": "Hezi: Yes, characters are not so easy."
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "画",
-          "py": "huà",
-          "en": "to paint; painting"
-        },
-        {
-          "zh": "有意思",
-          "py": "yǒu yìsi",
-          "en": "interesting"
-        },
-        {
-          "zh": "感兴趣",
-          "py": "gǎn xìngqù",
-          "en": "to be interested in"
-        },
-        {
-          "zh": "文化",
-          "py": "wénhuà",
-          "en": "culture"
-        },
-        {
-          "zh": "会",
-          "py": "huì",
-          "en": "can; to be able to (learned skill)"
-        },
-        {
-          "zh": "多长时间",
-          "py": "duō cháng shíjiān",
-          "en": "how long (duration)"
-        },
-        {
-          "zh": "年",
-          "py": "nián",
-          "en": "year"
-        },
-        {
-          "zh": "才",
-          "py": "cái",
-          "en": "only; just (emphasis: less than expected)"
-        },
-        {
-          "zh": "对",
-          "py": "duì",
-          "en": "toward; to (preposition)"
-        },
-        {
-          "zh": "教",
-          "py": "jiāo",
-          "en": "to teach"
-        },
-        {
-          "zh": "汉字",
-          "py": "Hànzì",
-          "en": "Chinese characters"
-        },
-        {
-          "zh": "难",
-          "py": "nán",
-          "en": "difficult; hard"
-        },
-        {
-          "zh": "容易",
-          "py": "róngyì",
-          "en": "easy"
-        },
-        {
-          "zh": "练习",
-          "py": "liànxí",
-          "en": "to practice; exercise"
-        },
-        {
-          "zh": "历史",
-          "py": "lìshǐ",
-          "en": "history"
-        },
-        {
-          "zh": "音乐",
-          "py": "yīnyuè",
-          "en": "music"
-        },
-        {
-          "zh": "京剧",
-          "py": "jīngjù",
-          "en": "Beijing Opera"
-        },
-        {
-          "zh": "哪里",
-          "py": "nǎli",
-          "en": "not at all (modest reply to a compliment)"
         }
       ]
     },

@@ -3,80 +3,268 @@
   "subtitle": "Lesson 25 — 他恐怕去不了 · He probably can't go",
   "data": [
     {
+      "topic": "生词 · New Words (Lesson 25)",
+      "items": [
+        {
+          "zh": "恐怕",
+          "py": "kǒngpà",
+          "en": "probably; I'm afraid that"
+        },
+        {
+          "zh": "了 (liǎo)",
+          "py": "liǎo",
+          "en": "to finish; able to (in complements)"
+        },
+        {
+          "zh": "懂",
+          "py": "dǒng",
+          "en": "to understand"
+        },
+        {
+          "zh": "完",
+          "py": "wán",
+          "en": "to finish; complete"
+        },
+        {
+          "zh": "见",
+          "py": "jiàn",
+          "en": "to perceive (see/hear)"
+        },
+        {
+          "zh": "报纸",
+          "py": "bàozhǐ",
+          "en": "newspaper"
+        },
+        {
+          "zh": "课文",
+          "py": "kèwén",
+          "en": "text; lesson text"
+        },
+        {
+          "zh": "篇",
+          "py": "piān",
+          "en": "measure word for articles/texts"
+        },
+        {
+          "zh": "生词",
+          "py": "shēngcí",
+          "en": "new word; vocabulary"
+        },
+        {
+          "zh": "大部分",
+          "py": "dà bùfen",
+          "en": "most; the majority"
+        },
+        {
+          "zh": "舒服",
+          "py": "shūfu",
+          "en": "comfortable; well"
+        },
+        {
+          "zh": "可惜",
+          "py": "kěxī",
+          "en": "what a pity; unfortunately"
+        },
+        {
+          "zh": "声",
+          "py": "shēng",
+          "en": "sound; voice"
+        },
+        {
+          "zh": "大声",
+          "py": "dà shēng",
+          "en": "loudly"
+        },
+        {
+          "zh": "小声",
+          "py": "xiǎo shēng",
+          "en": "quietly; in a low voice"
+        },
+        {
+          "zh": "香山",
+          "py": "Xiāng Shān",
+          "en": "Fragrant Hills (park in Beijing)"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (Lesson 25)",
       "items": [
-        {"zh": "他恐怕去不了。", "py": "Tā kǒngpà qù bu liǎo.", "en": "He probably can't go."},
-        {"zh": "你看得懂中文报纸吗？", "py": "Nǐ kàn de dǒng Zhōngwén bàozhǐ ma?", "en": "Can you read Chinese newspapers?"},
-        {"zh": "我看不懂。", "py": "Wǒ kàn bu dǒng.", "en": "I can't understand (when reading)."},
-        {"zh": "这么多菜，吃得完吗？", "py": "Zhème duō cài, chī de wán ma?", "en": "So many dishes, can you finish them?"},
-        {"zh": "吃不完。", "py": "Chī bu wán.", "en": "Can't finish (eating)."},
-        {"zh": "你听得见吗？", "py": "Nǐ tīng de jiàn ma?", "en": "Can you hear it?"},
-        {"zh": "听不见，请大声一点儿。", "py": "Tīng bu jiàn, qǐng dà shēng yīdiǎnr.", "en": "I can't hear, please speak louder."}
+        {
+          "zh": "他恐怕去不了。",
+          "py": "Tā kǒngpà qù bu liǎo.",
+          "en": "He probably can't go."
+        },
+        {
+          "zh": "你看得懂中文报纸吗？",
+          "py": "Nǐ kàn de dǒng Zhōngwén bàozhǐ ma?",
+          "en": "Can you read Chinese newspapers?"
+        },
+        {
+          "zh": "我看不懂。",
+          "py": "Wǒ kàn bu dǒng.",
+          "en": "I can't understand (when reading)."
+        },
+        {
+          "zh": "这么多菜，吃得完吗？",
+          "py": "Zhème duō cài, chī de wán ma?",
+          "en": "So many dishes, can you finish them?"
+        },
+        {
+          "zh": "吃不完。",
+          "py": "Chī bu wán.",
+          "en": "Can't finish (eating)."
+        },
+        {
+          "zh": "你听得见吗？",
+          "py": "Nǐ tīng de jiàn ma?",
+          "en": "Can you hear it?"
+        },
+        {
+          "zh": "听不见，请大声一点儿。",
+          "py": "Tīng bu jiàn, qǐng dà shēng yīdiǎnr.",
+          "en": "I can't hear, please speak louder."
+        }
       ]
     },
     {
       "topic": "会话1 · Dialogue 1 (Can't Go)",
       "items": [
-        {"zh": "玛丽：明天我们去爬香山，大卫去吗？", "py": "Mǎlì: Míngtiān wǒmen qù pá Xiāng Shān, Dàwèi qù ma?", "en": "Mary: We're climbing Fragrant Hills tomorrow, is David going?"},
-        {"zh": "刘京：他恐怕去不了。", "py": "Liú Jīng: Tā kǒngpà qù bu liǎo.", "en": "Liu Jing: He probably can't go."},
-        {"zh": "玛丽：为什么？", "py": "Mǎlì: Wèi shénme?", "en": "Mary: Why?"},
-        {"zh": "刘京：他感冒了，身体不舒服。", "py": "Liú Jīng: Tā gǎnmào le, shēntǐ bù shūfu.", "en": "Liu Jing: He caught a cold, he's not feeling well."},
-        {"zh": "玛丽：那太可惜了。", "py": "Mǎlì: Nà tài kěxī le.", "en": "Mary: That's too bad."},
-        {"zh": "刘京：下次他一定去得了。", "py": "Liú Jīng: Xià cì tā yīdìng qù de liǎo.", "en": "Liu Jing: He can definitely go next time."}
+        {
+          "zh": "玛丽：明天我们去爬香山，大卫去吗？",
+          "py": "Mǎlì: Míngtiān wǒmen qù pá Xiāng Shān, Dàwèi qù ma?",
+          "en": "Mary: We're climbing Fragrant Hills tomorrow, is David going?"
+        },
+        {
+          "zh": "刘京：他恐怕去不了。",
+          "py": "Liú Jīng: Tā kǒngpà qù bu liǎo.",
+          "en": "Liu Jing: He probably can't go."
+        },
+        {
+          "zh": "玛丽：为什么？",
+          "py": "Mǎlì: Wèi shénme?",
+          "en": "Mary: Why?"
+        },
+        {
+          "zh": "刘京：他感冒了，身体不舒服。",
+          "py": "Liú Jīng: Tā gǎnmào le, shēntǐ bù shūfu.",
+          "en": "Liu Jing: He caught a cold, he's not feeling well."
+        },
+        {
+          "zh": "玛丽：那太可惜了。",
+          "py": "Mǎlì: Nà tài kěxī le.",
+          "en": "Mary: That's too bad."
+        },
+        {
+          "zh": "刘京：下次他一定去得了。",
+          "py": "Liú Jīng: Xià cì tā yīdìng qù de liǎo.",
+          "en": "Liu Jing: He can definitely go next time."
+        }
       ]
     },
     {
       "topic": "会话2 · Dialogue 2 (Potential Complements)",
       "items": [
-        {"zh": "张老师：这篇课文你看得懂吗？", "py": "Zhāng lǎoshī: Zhè piān kèwén nǐ kàn de dǒng ma?", "en": "Teacher Zhang: Can you understand this text?"},
-        {"zh": "大卫：有些生词看不懂，可是大部分看得懂。", "py": "Dàwèi: Yǒuxiē shēngcí kàn bu dǒng, kěshì dà bùfen kàn de dǒng.", "en": "David: Some new words I can't understand, but most of it I can."},
-        {"zh": "张老师：很好。这些练习你做得完吗？", "py": "Zhāng lǎoshī: Hěn hǎo. Zhèxiē liànxí nǐ zuò de wán ma?", "en": "Teacher Zhang: Good. Can you finish these exercises?"},
-        {"zh": "大卫：做得完，没问题。", "py": "Dàwèi: Zuò de wán, méi wèntí.", "en": "David: Yes, no problem."},
-        {"zh": "张老师：你听得见后面同学说话吗？", "py": "Zhāng lǎoshī: Nǐ tīng de jiàn hòumiàn tóngxué shuō huà ma?", "en": "Teacher Zhang: Can you hear the students in the back talking?"},
-        {"zh": "大卫：听不见，他们说得太小声了。", "py": "Dàwèi: Tīng bu jiàn, tāmen shuō de tài xiǎo shēng le.", "en": "David: I can't hear them, they're speaking too quietly."}
-      ]
-    },
-    {
-      "topic": "生词 · New Words (Lesson 25)",
-      "items": [
-        {"zh": "恐怕", "py": "kǒngpà", "en": "probably; I'm afraid that"},
-        {"zh": "了 (liǎo)", "py": "liǎo", "en": "to finish; able to (in complements)"},
-        {"zh": "懂", "py": "dǒng", "en": "to understand"},
-        {"zh": "完", "py": "wán", "en": "to finish; complete"},
-        {"zh": "见", "py": "jiàn", "en": "to perceive (see/hear)"},
-        {"zh": "报纸", "py": "bàozhǐ", "en": "newspaper"},
-        {"zh": "课文", "py": "kèwén", "en": "text; lesson text"},
-        {"zh": "篇", "py": "piān", "en": "measure word for articles/texts"},
-        {"zh": "生词", "py": "shēngcí", "en": "new word; vocabulary"},
-        {"zh": "大部分", "py": "dà bùfen", "en": "most; the majority"},
-        {"zh": "舒服", "py": "shūfu", "en": "comfortable; well"},
-        {"zh": "可惜", "py": "kěxī", "en": "what a pity; unfortunately"},
-        {"zh": "声", "py": "shēng", "en": "sound; voice"},
-        {"zh": "大声", "py": "dà shēng", "en": "loudly"},
-        {"zh": "小声", "py": "xiǎo shēng", "en": "quietly; in a low voice"},
-        {"zh": "香山", "py": "Xiāng Shān", "en": "Fragrant Hills (park in Beijing)"}
+        {
+          "zh": "张老师：这篇课文你看得懂吗？",
+          "py": "Zhāng lǎoshī: Zhè piān kèwén nǐ kàn de dǒng ma?",
+          "en": "Teacher Zhang: Can you understand this text?"
+        },
+        {
+          "zh": "大卫：有些生词看不懂，可是大部分看得懂。",
+          "py": "Dàwèi: Yǒuxiē shēngcí kàn bu dǒng, kěshì dà bùfen kàn de dǒng.",
+          "en": "David: Some new words I can't understand, but most of it I can."
+        },
+        {
+          "zh": "张老师：很好。这些练习你做得完吗？",
+          "py": "Zhāng lǎoshī: Hěn hǎo. Zhèxiē liànxí nǐ zuò de wán ma?",
+          "en": "Teacher Zhang: Good. Can you finish these exercises?"
+        },
+        {
+          "zh": "大卫：做得完，没问题。",
+          "py": "Dàwèi: Zuò de wán, méi wèntí.",
+          "en": "David: Yes, no problem."
+        },
+        {
+          "zh": "张老师：你听得见后面同学说话吗？",
+          "py": "Zhāng lǎoshī: Nǐ tīng de jiàn hòumiàn tóngxué shuō huà ma?",
+          "en": "Teacher Zhang: Can you hear the students in the back talking?"
+        },
+        {
+          "zh": "大卫：听不见，他们说得太小声了。",
+          "py": "Dàwèi: Tīng bu jiàn, tāmen shuō de tài xiǎo shēng le.",
+          "en": "David: I can't hear them, they're speaking too quietly."
+        }
       ]
     },
     {
       "topic": "语法 · Grammar (Potential Complement V得/不 + Result)",
       "items": [
-        {"zh": "看得懂 / 看不懂", "py": "kàn de dǒng / kàn bu dǒng", "en": "can / can't understand (reading)"},
-        {"zh": "听得见 / 听不见", "py": "tīng de jiàn / tīng bu jiàn", "en": "can / can't hear"},
-        {"zh": "吃得完 / 吃不完", "py": "chī de wán / chī bu wán", "en": "can / can't finish eating"},
-        {"zh": "去得了 / 去不了", "py": "qù de liǎo / qù bu liǎo", "en": "can / can't go"},
-        {"zh": "做得完 / 做不完", "py": "zuò de wán / zuò bu wán", "en": "can / can't finish doing"},
-        {"zh": "买得到 / 买不到", "py": "mǎi de dào / mǎi bu dào", "en": "can / can't buy (find to buy)"},
-        {"zh": "找得到 / 找不到", "py": "zhǎo de dào / zhǎo bu dào", "en": "can / can't find"}
+        {
+          "zh": "看得懂 / 看不懂",
+          "py": "kàn de dǒng / kàn bu dǒng",
+          "en": "can / can't understand (reading)"
+        },
+        {
+          "zh": "听得见 / 听不见",
+          "py": "tīng de jiàn / tīng bu jiàn",
+          "en": "can / can't hear"
+        },
+        {
+          "zh": "吃得完 / 吃不完",
+          "py": "chī de wán / chī bu wán",
+          "en": "can / can't finish eating"
+        },
+        {
+          "zh": "去得了 / 去不了",
+          "py": "qù de liǎo / qù bu liǎo",
+          "en": "can / can't go"
+        },
+        {
+          "zh": "做得完 / 做不完",
+          "py": "zuò de wán / zuò bu wán",
+          "en": "can / can't finish doing"
+        },
+        {
+          "zh": "买得到 / 买不到",
+          "py": "mǎi de dào / mǎi bu dào",
+          "en": "can / can't buy (find to buy)"
+        },
+        {
+          "zh": "找得到 / 找不到",
+          "py": "zhǎo de dào / zhǎo bu dào",
+          "en": "can / can't find"
+        }
       ]
     },
     {
       "topic": "替换 · Substitution Drills",
       "items": [
-        {"zh": "你看得懂中文报纸吗？——看得懂。", "py": "Nǐ kàn de dǒng Zhōngwén bàozhǐ ma? —— Kàn de dǒng.", "en": "Can you read Chinese newspapers? — Yes."},
-        {"zh": "你听得懂上海话吗？——听不懂。", "py": "Nǐ tīng de dǒng Shànghǎi huà ma? —— Tīng bu dǒng.", "en": "Can you understand Shanghai dialect? — No."},
-        {"zh": "这些作业你今天做得完吗？", "py": "Zhèxiē zuòyè nǐ jīntiān zuò de wán ma?", "en": "Can you finish this homework today?"},
-        {"zh": "这个字太小了，我看不见。", "py": "Zhège zì tài xiǎo le, wǒ kàn bu jiàn.", "en": "This character is too small, I can't see it."},
-        {"zh": "票买得到吗？——恐怕买不到。", "py": "Piào mǎi de dào ma? —— Kǒngpà mǎi bu dào.", "en": "Can you get tickets? — Probably not."}
+        {
+          "zh": "你看得懂中文报纸吗？——看得懂。",
+          "py": "Nǐ kàn de dǒng Zhōngwén bàozhǐ ma? —— Kàn de dǒng.",
+          "en": "Can you read Chinese newspapers? — Yes."
+        },
+        {
+          "zh": "你听得懂上海话吗？——听不懂。",
+          "py": "Nǐ tīng de dǒng Shànghǎi huà ma? —— Tīng bu dǒng.",
+          "en": "Can you understand Shanghai dialect? — No."
+        },
+        {
+          "zh": "这些作业你今天做得完吗？",
+          "py": "Zhèxiē zuòyè nǐ jīntiān zuò de wán ma?",
+          "en": "Can you finish this homework today?"
+        },
+        {
+          "zh": "这个字太小了，我看不见。",
+          "py": "Zhège zì tài xiǎo le, wǒ kàn bu jiàn.",
+          "en": "This character is too small, I can't see it."
+        },
+        {
+          "zh": "票买得到吗？——恐怕买不到。",
+          "py": "Piào mǎi de dào ma? —— Kǒngpà mǎi bu dào.",
+          "en": "Can you get tickets? — Probably not."
+        }
       ]
     }
   ]

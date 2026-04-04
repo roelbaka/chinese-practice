@@ -3,6 +3,96 @@
   "subtitle": "Lesson 19 — 一路平安 · Have a safe journey",
   "data": [
     {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "祝",
+          "py": "zhù",
+          "en": "to wish"
+        },
+        {
+          "zh": "一路平安",
+          "py": "yīlù píng'ān",
+          "en": "have a safe journey; bon voyage"
+        },
+        {
+          "zh": "准备",
+          "py": "zhǔnbèi",
+          "en": "to prepare; to get ready"
+        },
+        {
+          "zh": "送",
+          "py": "sòng",
+          "en": "to see off; to give (a gift)"
+        },
+        {
+          "zh": "礼物",
+          "py": "lǐwù",
+          "en": "gift; present"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐhòu",
+          "en": "after; afterwards"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "to miss; to think"
+        },
+        {
+          "zh": "该",
+          "py": "gāi",
+          "en": "should; ought to"
+        },
+        {
+          "zh": "帮助",
+          "py": "bāngzhù",
+          "en": "help; to help"
+        },
+        {
+          "zh": "不用",
+          "py": "bú yòng",
+          "en": "no need; don't bother"
+        },
+        {
+          "zh": "后天",
+          "py": "hòutiān",
+          "en": "the day after tomorrow"
+        },
+        {
+          "zh": "玩",
+          "py": "wán",
+          "en": "to play; to visit (for fun)"
+        },
+        {
+          "zh": "一些",
+          "py": "yīxiē",
+          "en": "some; a few"
+        },
+        {
+          "zh": "早",
+          "py": "zǎo",
+          "en": "early"
+        },
+        {
+          "zh": "进去",
+          "py": "jìnqù",
+          "en": "to go in"
+        },
+        {
+          "zh": "别",
+          "py": "bié",
+          "en": "don't (imperative)"
+        },
+        {
+          "zh": "前天",
+          "py": "qiántiān",
+          "en": "the day before yesterday"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
         {
@@ -129,96 +219,6 @@
           "zh": "大卫：再见！",
           "py": "Dàwèi: Zàijiàn!",
           "en": "David: Goodbye!"
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words",
-      "items": [
-        {
-          "zh": "祝",
-          "py": "zhù",
-          "en": "to wish"
-        },
-        {
-          "zh": "一路平安",
-          "py": "yīlù píng'ān",
-          "en": "have a safe journey; bon voyage"
-        },
-        {
-          "zh": "准备",
-          "py": "zhǔnbèi",
-          "en": "to prepare; to get ready"
-        },
-        {
-          "zh": "送",
-          "py": "sòng",
-          "en": "to see off; to give (a gift)"
-        },
-        {
-          "zh": "礼物",
-          "py": "lǐwù",
-          "en": "gift; present"
-        },
-        {
-          "zh": "以后",
-          "py": "yǐhòu",
-          "en": "after; afterwards"
-        },
-        {
-          "zh": "想",
-          "py": "xiǎng",
-          "en": "to miss; to think"
-        },
-        {
-          "zh": "该",
-          "py": "gāi",
-          "en": "should; ought to"
-        },
-        {
-          "zh": "帮助",
-          "py": "bāngzhù",
-          "en": "help; to help"
-        },
-        {
-          "zh": "不用",
-          "py": "bú yòng",
-          "en": "no need; don't bother"
-        },
-        {
-          "zh": "后天",
-          "py": "hòutiān",
-          "en": "the day after tomorrow"
-        },
-        {
-          "zh": "玩",
-          "py": "wán",
-          "en": "to play; to visit (for fun)"
-        },
-        {
-          "zh": "一些",
-          "py": "yīxiē",
-          "en": "some; a few"
-        },
-        {
-          "zh": "早",
-          "py": "zǎo",
-          "en": "early"
-        },
-        {
-          "zh": "进去",
-          "py": "jìnqù",
-          "en": "to go in"
-        },
-        {
-          "zh": "别",
-          "py": "bié",
-          "en": "don't (imperative)"
-        },
-        {
-          "zh": "前天",
-          "py": "qiántiān",
-          "en": "the day before yesterday"
         }
       ]
     },
