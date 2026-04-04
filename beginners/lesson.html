@@ -203,7 +203,7 @@ let currentMode = "browse";
 let hidePinyin = false;
 let hideEnglish = false;
 let fcItems = [], fcIndex = 0, fcRevealed = false, fcMode = "zh";
-let quizItems = [], quizIndex = 0, quizScore = 0, quizAnswered = false;
+let quizItems = [], quizIndex = 0, quizScore = 0, quizAnswered = false, quizMode = "zh";
 
 const params = new URLSearchParams(window.location.search);
 const lessonId = params.get("id");
@@ -369,18 +369,40 @@ function renderQuiz() {
 
   const item = quizItems[quizIndex];
   const allItems = getItems();
-  let wrongs = shuffle(allItems.filter(i => i.en !== item.en)).slice(0, 3);
+
+  const promptField = quizMode === "en" ? "en" : "zh";
+  const answerField = quizMode === "en" ? "zh" : "en";
+
+  let wrongs = shuffle(allItems.filter(i => i[answerField] !== item[answerField])).slice(0, 3);
   let options = shuffle([item, ...wrongs]);
 
+  let promptHtml = "";
+  if (quizMode === "zh") {
+    promptHtml = `<div class="quiz-prompt">${esc(item.zh)}</div><div class="quiz-pinyin-hint">${esc(item.py)}</div>`;
+  } else if (quizMode === "py") {
+    promptHtml = `<div class="quiz-prompt" style="color:var(--pinyin)">${esc(item.py)}</div>`;
+  } else {
+    promptHtml = `<div class="quiz-prompt" style="color:var(--english)">${esc(item.en)}</div>`;
+  }
+
   app.innerHTML = `<div class="quiz-container">
-    <div class="quiz-prompt">${esc(item.zh)}</div>
-    <div class="quiz-pinyin-hint">${esc(item.py)}</div>
+    <div class="fc-mode-bar" style="margin-bottom:1.5rem">
+      <span class="fc-mode-label">Prompt:</span>
+      <button class="${quizMode === 'py' ? 'active' : ''}" data-qmode="py">Pinyin</button>
+      <button class="${quizMode === 'zh' ? 'active' : ''}" data-qmode="zh">中文</button>
+      <button class="${quizMode === 'en' ? 'active' : ''}" data-qmode="en">English</button>
+    </div>
+    ${promptHtml}
     <div class="quiz-options">
-      ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o.en === item.en}">${esc(o.en)}</button>`).join("")}
+      ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o[answerField] === item[answerField]}">${esc(o[answerField])}</button>`).join("")}
     </div>
     <div class="quiz-score">Score: ${quizScore} / ${quizIndex}${quizIndex < quizItems.length ? '' : ' — Done!'}</div>
     ${quizAnswered ? `<button class="quiz-next" id="quizNext">${quizIndex + 1 < quizItems.length ? 'Next &rarr;' : 'Restart'}</button>` : ''}
   </div>`;
+
+  app.querySelectorAll(".fc-mode-bar button").forEach(btn => {
+    btn.addEventListener("click", () => { quizMode = btn.dataset.qmode; quizItems = []; renderQuiz(); });
+  });
 
   if (!quizAnswered) {
     app.querySelectorAll(".quiz-option").forEach(btn => {
