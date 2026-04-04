@@ -103,6 +103,18 @@
   .flashcard .hidden { opacity: 0; }
   .flashcard .hint { color: var(--text-muted); font-size: .8rem; margin-top: 1rem; }
 
+  .fc-mode-bar {
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+    margin-bottom: 1.2rem;
+  }
+  .fc-mode-bar .fc-mode-label { color: var(--text-muted); font-size: .85rem; margin-right: .3rem; }
+  .fc-mode-bar button {
+    background: var(--card); color: var(--text-muted); border: 1px solid var(--border);
+    padding: .4rem 1rem; border-radius: 6px; cursor: pointer; font-size: .85rem; transition: all .2s;
+  }
+  .fc-mode-bar button:hover { color: var(--text); border-color: var(--accent); }
+  .fc-mode-bar button.active { background: var(--accent2); color: #fff; border-color: var(--accent2); }
+
   .fc-controls { display: flex; justify-content: center; gap: .5rem; margin-top: 1.2rem; }
 
   .fc-controls button {
@@ -190,7 +202,7 @@ let currentTopic = "all";
 let currentMode = "browse";
 let hidePinyin = false;
 let hideEnglish = false;
-let fcItems = [], fcIndex = 0, fcRevealed = false;
+let fcItems = [], fcIndex = 0, fcRevealed = false, fcMode = "zh";
 let quizItems = [], quizIndex = 0, quizScore = 0, quizAnswered = false;
 
 const params = new URLSearchParams(window.location.search);
@@ -300,12 +312,25 @@ function renderFlashcard() {
     fcRevealed = false;
   }
   const item = fcItems[fcIndex];
+
+  const showZh = fcMode === "zh" || fcRevealed;
+  const showPy = fcMode === "py" || fcRevealed;
+  const showEn = fcMode === "en" || fcRevealed;
+
+  const frontLabel = fcMode === "zh" ? "汉字 Chinese" : fcMode === "py" ? "拼音 Pinyin" : "English";
+
   app.innerHTML = `<div class="flashcard-container">
+    <div class="fc-mode-bar">
+      <span class="fc-mode-label">Show:</span>
+      <button class="${fcMode === 'py' ? 'active' : ''}" data-fcmode="py">Pinyin</button>
+      <button class="${fcMode === 'zh' ? 'active' : ''}" data-fcmode="zh">中文</button>
+      <button class="${fcMode === 'en' ? 'active' : ''}" data-fcmode="en">English</button>
+    </div>
     <div class="fc-progress">${fcIndex + 1} / ${fcItems.length}</div>
     <div class="flashcard" id="fc">
-      <div class="chinese">${esc(item.zh)}</div>
-      <div class="pinyin ${fcRevealed ? '' : 'hidden'}">${esc(item.py)}</div>
-      <div class="english ${fcRevealed ? '' : 'hidden'}">${esc(item.en)}</div>
+      <div class="chinese ${showZh ? '' : 'hidden'}">${esc(item.zh)}</div>
+      <div class="pinyin ${showPy ? '' : 'hidden'}">${esc(item.py)}</div>
+      <div class="english ${showEn ? '' : 'hidden'}">${esc(item.en)}</div>
       <div class="hint">${fcRevealed ? 'Click arrows to navigate' : 'Click to reveal'}</div>
     </div>
     <div class="fc-controls">
@@ -318,6 +343,9 @@ function renderFlashcard() {
     </div>
   </div>`;
 
+  app.querySelectorAll(".fc-mode-bar button").forEach(btn => {
+    btn.addEventListener("click", () => { fcMode = btn.dataset.fcmode; fcRevealed = false; renderFlashcard(); });
+  });
   document.getElementById("fc").addEventListener("click", () => { fcRevealed = !fcRevealed; renderFlashcard(); });
   document.getElementById("fcPrev").addEventListener("click", () => { fcIndex = (fcIndex - 1 + fcItems.length) % fcItems.length; fcRevealed = false; renderFlashcard(); });
   document.getElementById("fcNext").addEventListener("click", () => { fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; renderFlashcard(); });
