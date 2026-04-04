@@ -1,0 +1,566 @@
+{
+  "title": "第十课 · 邮局在哪儿",
+  "subtitle": "Lesson 10 — 邮局在哪儿 · Where is the post office?",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "邮局在哪儿？",
+          "py": "Yóujú zài nǎr?",
+          "en": "Where is the post office?"
+        },
+        {
+          "zh": "邮局在银行旁边。",
+          "py": "Yóujú zài yínháng pángbiān.",
+          "en": "The post office is next to the bank."
+        },
+        {
+          "zh": "请问，去邮局怎么走？",
+          "py": "Qǐngwèn, qù yóujú zěnme zǒu?",
+          "en": "Excuse me, how do I get to the post office?"
+        },
+        {
+          "zh": "一直往前走。",
+          "py": "Yīzhí wǎng qián zǒu.",
+          "en": "Go straight ahead."
+        },
+        {
+          "zh": "在第一个路口往左拐。",
+          "py": "Zài dì yī gè lùkǒu wǎng zuǒ guǎi.",
+          "en": "Turn left at the first intersection."
+        },
+        {
+          "zh": "离这儿远不远？",
+          "py": "Lí zhèr yuǎn bu yuǎn?",
+          "en": "Is it far from here?"
+        },
+        {
+          "zh": "不太远。",
+          "py": "Bú tài yuǎn.",
+          "en": "Not too far."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Asking Where a Place Is)",
+      "items": [
+        {
+          "zh": "大卫：请问，邮局在哪儿？",
+          "py": "Dàwèi: Qǐngwèn, yóujú zài nǎr?",
+          "en": "David: Excuse me, where is the post office?"
+        },
+        {
+          "zh": "路人：邮局在银行旁边。",
+          "py": "Lùrén: Yóujú zài yínháng pángbiān.",
+          "en": "Passerby: The post office is next to the bank."
+        },
+        {
+          "zh": "大卫：超市呢？",
+          "py": "Dàwèi: Chāoshì ne?",
+          "en": "David: How about the supermarket?"
+        },
+        {
+          "zh": "路人：超市在邮局对面。",
+          "py": "Lùrén: Chāoshì zài yóujú duìmiàn.",
+          "en": "Passerby: The supermarket is across from the post office."
+        },
+        {
+          "zh": "大卫：图书馆在哪儿？",
+          "py": "Dàwèi: Túshūguǎn zài nǎr?",
+          "en": "David: Where is the library?"
+        },
+        {
+          "zh": "路人：在学校里边。",
+          "py": "Lùrén: Zài xuéxiào lǐbian.",
+          "en": "Passerby: It's inside the school."
+        },
+        {
+          "zh": "大卫：谢谢！",
+          "py": "Dàwèi: Xièxie!",
+          "en": "David: Thank you!"
+        },
+        {
+          "zh": "路人：不客气。",
+          "py": "Lùrén: Bú kèqi.",
+          "en": "Passerby: You're welcome."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Asking for Directions)",
+      "items": [
+        {
+          "zh": "玛丽：请问，去邮局怎么走？",
+          "py": "Mǎlì: Qǐngwèn, qù yóujú zěnme zǒu?",
+          "en": "Mary: Excuse me, how do I get to the post office?"
+        },
+        {
+          "zh": "路人：一直往前走。",
+          "py": "Lùrén: Yīzhí wǎng qián zǒu.",
+          "en": "Passerby: Go straight ahead."
+        },
+        {
+          "zh": "玛丽：然后呢？",
+          "py": "Mǎlì: Ránhòu ne?",
+          "en": "Mary: And then?"
+        },
+        {
+          "zh": "路人：在第一个路口往左拐。",
+          "py": "Lùrén: Zài dì yī gè lùkǒu wǎng zuǒ guǎi.",
+          "en": "Passerby: Turn left at the first intersection."
+        },
+        {
+          "zh": "玛丽：医院在右边吗？",
+          "py": "Mǎlì: Yīyuàn zài yòubian ma?",
+          "en": "Mary: Is the hospital on the right?"
+        },
+        {
+          "zh": "路人：对，医院在邮局后边。",
+          "py": "Lùrén: Duì, yīyuàn zài yóujú hòubian.",
+          "en": "Passerby: Yes, the hospital is behind the post office."
+        },
+        {
+          "zh": "玛丽：离这儿远不远？",
+          "py": "Mǎlì: Lí zhèr yuǎn bu yuǎn?",
+          "en": "Mary: Is it far from here?"
+        },
+        {
+          "zh": "路人：不太远，走五分钟就到。",
+          "py": "Lùrén: Bú tài yuǎn, zǒu wǔ fēnzhōng jiù dào.",
+          "en": "Passerby: Not too far — it's a five-minute walk."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "邮局",
+          "py": "yóujú",
+          "en": "post office"
+        },
+        {
+          "zh": "银行",
+          "py": "yínháng",
+          "en": "bank"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "store; shop"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "en": "supermarket"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "图书馆",
+          "py": "túshūguǎn",
+          "en": "library"
+        },
+        {
+          "zh": "食堂",
+          "py": "shítáng",
+          "en": "cafeteria; canteen"
+        },
+        {
+          "zh": "旁边",
+          "py": "pángbiān",
+          "en": "beside; next to"
+        },
+        {
+          "zh": "对面",
+          "py": "duìmiàn",
+          "en": "opposite; across from"
+        },
+        {
+          "zh": "前边",
+          "py": "qiánbian",
+          "en": "in front of"
+        },
+        {
+          "zh": "后边",
+          "py": "hòubian",
+          "en": "behind"
+        },
+        {
+          "zh": "左边",
+          "py": "zuǒbian",
+          "en": "left side"
+        },
+        {
+          "zh": "右边",
+          "py": "yòubian",
+          "en": "right side"
+        },
+        {
+          "zh": "里边",
+          "py": "lǐbian",
+          "en": "inside"
+        },
+        {
+          "zh": "外边",
+          "py": "wàibian",
+          "en": "outside"
+        },
+        {
+          "zh": "上边",
+          "py": "shàngbian",
+          "en": "above; on top"
+        },
+        {
+          "zh": "下边",
+          "py": "xiàbian",
+          "en": "below; under"
+        },
+        {
+          "zh": "东",
+          "py": "dōng",
+          "en": "east"
+        },
+        {
+          "zh": "西",
+          "py": "xī",
+          "en": "west"
+        },
+        {
+          "zh": "南",
+          "py": "nán",
+          "en": "south"
+        },
+        {
+          "zh": "北",
+          "py": "běi",
+          "en": "north"
+        },
+        {
+          "zh": "远",
+          "py": "yuǎn",
+          "en": "far"
+        },
+        {
+          "zh": "近",
+          "py": "jìn",
+          "en": "near"
+        },
+        {
+          "zh": "走",
+          "py": "zǒu",
+          "en": "to walk; to go"
+        },
+        {
+          "zh": "往",
+          "py": "wǎng",
+          "en": "towards"
+        },
+        {
+          "zh": "拐",
+          "py": "guǎi",
+          "en": "to turn"
+        },
+        {
+          "zh": "路口",
+          "py": "lùkǒu",
+          "en": "intersection"
+        },
+        {
+          "zh": "一直",
+          "py": "yīzhí",
+          "en": "straight; continuously"
+        },
+        {
+          "zh": "离",
+          "py": "lí",
+          "en": "from (distance)"
+        },
+        {
+          "zh": "怎么",
+          "py": "zěnme",
+          "en": "how"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar",
+      "items": [
+        {
+          "zh": "邮局在银行旁边。",
+          "py": "Yóujú zài yínháng pángbiān.",
+          "en": "在 indicates location: something is at / in / on a place (place + 在 + reference + 方位词)."
+        },
+        {
+          "zh": "超市在邮局对面。",
+          "py": "Chāoshì zài yóujú duìmiàn.",
+          "en": "方位词 (position words) like 旁边、对面、前边 attach to a reference noun to show where something is."
+        },
+        {
+          "zh": "离这儿远不远？",
+          "py": "Lí zhèr yuǎn bu yuǎn?",
+          "en": "离 … 远 / 近 expresses distance from a point: 离 + place + 远/近."
+        },
+        {
+          "zh": "离学校很近。",
+          "py": "Lí xuéxiào hěn jìn.",
+          "en": "It's very close to the school."
+        },
+        {
+          "zh": "往左拐 / 往前走",
+          "py": "wǎng zuǒ guǎi / wǎng qián zǒu",
+          "en": "往 + direction + verb gives directions: toward + left/right/front + turn / walk."
+        },
+        {
+          "zh": "去邮局怎么走？",
+          "py": "Qù yóujú zěnme zǒu?",
+          "en": "怎么走 asks how to get somewhere (literally \"how to walk\")."
+        }
+      ]
+    },
+    {
+      "topic": "方位词 · Position Words",
+      "items": [
+        {
+          "zh": "旁边",
+          "py": "pángbiān",
+          "en": "beside; next to"
+        },
+        {
+          "zh": "对面",
+          "py": "duìmiàn",
+          "en": "opposite; across from"
+        },
+        {
+          "zh": "前边",
+          "py": "qiánbian",
+          "en": "in front of"
+        },
+        {
+          "zh": "后边",
+          "py": "hòubian",
+          "en": "behind"
+        },
+        {
+          "zh": "左边",
+          "py": "zuǒbian",
+          "en": "left side"
+        },
+        {
+          "zh": "右边",
+          "py": "yòubian",
+          "en": "right side"
+        },
+        {
+          "zh": "里边",
+          "py": "lǐbian",
+          "en": "inside"
+        },
+        {
+          "zh": "外边",
+          "py": "wàibian",
+          "en": "outside"
+        },
+        {
+          "zh": "上边",
+          "py": "shàngbian",
+          "en": "above; on top"
+        },
+        {
+          "zh": "下边",
+          "py": "xiàbian",
+          "en": "below; under"
+        },
+        {
+          "zh": "东 / 西 / 南 / 北",
+          "py": "dōng / xī / nán / běi",
+          "en": "east / west / south / north"
+        }
+      ]
+    },
+    {
+      "topic": "地方 · Places",
+      "items": [
+        {
+          "zh": "邮局",
+          "py": "yóujú",
+          "en": "post office"
+        },
+        {
+          "zh": "银行",
+          "py": "yínháng",
+          "en": "bank"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "store; shop"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "en": "supermarket"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "图书馆",
+          "py": "túshūguǎn",
+          "en": "library"
+        },
+        {
+          "zh": "食堂",
+          "py": "shítáng",
+          "en": "cafeteria; canteen"
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "邮局在哪儿？",
+          "py": "Yóujú zài nǎr?",
+          "en": "Where is the post office?"
+        },
+        {
+          "zh": "医院在哪儿？",
+          "py": "Yīyuàn zài nǎr?",
+          "en": "Where is the hospital?"
+        },
+        {
+          "zh": "商店在哪儿？",
+          "py": "Shāngdiàn zài nǎr?",
+          "en": "Where is the shop?"
+        },
+        {
+          "zh": "图书馆在哪儿？",
+          "py": "Túshūguǎn zài nǎr?",
+          "en": "Where is the library?"
+        },
+        {
+          "zh": "食堂在学校里边。",
+          "py": "Shítáng zài xuéxiào lǐbian.",
+          "en": "The cafeteria is inside the school."
+        },
+        {
+          "zh": "银行在超市旁边。",
+          "py": "Yínháng zài chāoshì pángbiān.",
+          "en": "The bank is next to the supermarket."
+        },
+        {
+          "zh": "在第一个路口往左拐。",
+          "py": "Zài dì yī gè lùkǒu wǎng zuǒ guǎi.",
+          "en": "Turn left at the first intersection."
+        },
+        {
+          "zh": "在第二个路口往右拐。",
+          "py": "Zài dì èr gè lùkǒu wǎng yòu guǎi.",
+          "en": "Turn right at the second intersection."
+        },
+        {
+          "zh": "一直往东走。",
+          "py": "Yīzhí wǎng dōng zǒu.",
+          "en": "Go straight east."
+        },
+        {
+          "zh": "一直往前走。",
+          "py": "Yīzhí wǎng qián zǒu.",
+          "en": "Go straight ahead."
+        },
+        {
+          "zh": "去银行怎么走？",
+          "py": "Qù yínháng zěnme zǒu?",
+          "en": "How do I get to the bank?"
+        },
+        {
+          "zh": "去超市怎么走？",
+          "py": "Qù chāoshì zěnme zǒu?",
+          "en": "How do I get to the supermarket?"
+        },
+        {
+          "zh": "离学校远不远？",
+          "py": "Lí xuéxiào yuǎn bu yuǎn?",
+          "en": "Is it far from the school?"
+        },
+        {
+          "zh": "离这儿很近。",
+          "py": "Lí zhèr hěn jìn.",
+          "en": "It's very close to here."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "请问，学校在哪个方向？",
+          "py": "Qǐngwèn, xuéxiào zài nǎge fāngxiàng?",
+          "en": "Excuse me, which direction is the school?"
+        },
+        {
+          "zh": "商店在图书馆前边。",
+          "py": "Shāngdiàn zài túshūguǎn qiánbian.",
+          "en": "The shop is in front of the library."
+        },
+        {
+          "zh": "邮局在医院的右边。",
+          "py": "Yóujú zài yīyuàn de yòubian.",
+          "en": "The post office is on the right side of the hospital."
+        },
+        {
+          "zh": "超市在银行对面。",
+          "py": "Chāoshì zài yínháng duìmiàn.",
+          "en": "The supermarket is across from the bank."
+        },
+        {
+          "zh": "食堂在商店后边。",
+          "py": "Shítáng zài shāngdiàn hòubian.",
+          "en": "The cafeteria is behind the shop."
+        },
+        {
+          "zh": "图书馆在上边还是下边？",
+          "py": "Túshūguǎn zài shàngbian háishi xiàbian?",
+          "en": "Is the library upstairs or downstairs?"
+        },
+        {
+          "zh": "从这儿到医院远吗？",
+          "py": "Cóng zhèr dào yīyuàn yuǎn ma?",
+          "en": "Is it far from here to the hospital?"
+        },
+        {
+          "zh": "不太远，很近。",
+          "py": "Bú tài yuǎn, hěn jìn.",
+          "en": "Not too far — very close."
+        },
+        {
+          "zh": "往北走，就到了。",
+          "py": "Wǎng běi zǒu, jiù dào le.",
+          "en": "Walk north and you'll be there."
+        },
+        {
+          "zh": "在路口往右拐，邮局就在左边。",
+          "py": "Zài lùkǒu wǎng yòu guǎi, yóujú jiù zài zuǒbian.",
+          "en": "Turn right at the intersection; the post office is on your left."
+        }
+      ]
+    }
+  ]
+}

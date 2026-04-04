@@ -1,0 +1,531 @@
+{
+  "title": "第六课 · 你的生日是几月几号",
+  "subtitle": "Lesson 6 — 你的生日是几月几号 · When is your birthday?",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "你的生日是几月几号？",
+          "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+          "en": "When is your birthday? (lit. Your birthday is which month which date?)"
+        },
+        {
+          "zh": "我的生日是五月二十号。",
+          "py": "Wǒ de shēngrì shì wǔ yuè èrshí hào.",
+          "en": "My birthday is May 20th."
+        },
+        {
+          "zh": "今天几号？",
+          "py": "Jīntiān jǐ hào?",
+          "en": "What date is today?"
+        },
+        {
+          "zh": "今天星期几？",
+          "py": "Jīntiān xīngqī jǐ?",
+          "en": "What day of the week is today?"
+        },
+        {
+          "zh": "今年是二〇二六年。",
+          "py": "Jīnnián shì èr líng èr liù nián.",
+          "en": "This year is 2026."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1",
+      "items": [
+        {
+          "zh": "玛丽：你的生日是几月几号？",
+          "py": "Mǎlì: Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+          "en": "Mary: When is your birthday?"
+        },
+        {
+          "zh": "大卫：我的生日是八月十五号。你呢？",
+          "py": "Dàwèi: Wǒ de shēngrì shì bā yuè shíwǔ hào. Nǐ ne?",
+          "en": "David: My birthday is August 15th. How about you?"
+        },
+        {
+          "zh": "玛丽：我的生日是三月八号。",
+          "py": "Mǎlì: Wǒ de shēngrì shì sān yuè bā hào.",
+          "en": "Mary: My birthday is March 8th."
+        },
+        {
+          "zh": "大卫：你今年多大？",
+          "py": "Dàwèi: Nǐ jīnnián duō dà?",
+          "en": "David: How old are you this year?"
+        },
+        {
+          "zh": "玛丽：我二十岁。",
+          "py": "Mǎlì: Wǒ èrshí suì.",
+          "en": "Mary: I'm twenty (years old)."
+        },
+        {
+          "zh": "大卫：祝你生日快乐！",
+          "py": "Dàwèi: Zhù nǐ shēngrì kuàilè!",
+          "en": "David: Happy birthday to you!"
+        },
+        {
+          "zh": "玛丽：谢谢！",
+          "py": "Mǎlì: Xièxie!",
+          "en": "Mary: Thank you!"
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2",
+      "items": [
+        {
+          "zh": "王兰：今天几号？",
+          "py": "Wáng Lán: Jīntiān jǐ hào?",
+          "en": "Wang Lan: What's today's date?"
+        },
+        {
+          "zh": "和子：今天是四月四号，星期五。",
+          "py": "Hézǐ: Jīntiān shì sì yuè sì hào, xīngqī wǔ.",
+          "en": "Kazuko: Today is April 4th, Friday."
+        },
+        {
+          "zh": "王兰：明天是星期六，我们去商店买东西吧。",
+          "py": "Wáng Lán: Míngtiān shì xīngqī liù, wǒmen qù shāngdiàn mǎi dōngxi ba.",
+          "en": "Wang Lan: Tomorrow is Saturday — let's go to the shop to buy something."
+        },
+        {
+          "zh": "和子：好。去年十二月我很忙，今年好一点。",
+          "py": "Hézǐ: Hǎo. Qùnián shí'èr yuè wǒ hěn máng, jīnnián hǎo yìdiǎn.",
+          "en": "Kazuko: OK. Last December I was very busy; this year is a bit better."
+        },
+        {
+          "zh": "王兰：明年你去中国吗？",
+          "py": "Wáng Lán: Míngnián nǐ qù Zhōngguó ma?",
+          "en": "Wang Lan: Will you go to China next year?"
+        },
+        {
+          "zh": "和子：对，我明年一月去北京。",
+          "py": "Hézǐ: Duì, wǒ míngnián yī yuè qù Běijīng.",
+          "en": "Kazuko: Yes, I'm going to Beijing in January next year."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "生日",
+          "py": "shēngrì",
+          "en": "birthday"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "月",
+          "py": "yuè",
+          "en": "month"
+        },
+        {
+          "zh": "号 / 日",
+          "py": "hào / rì",
+          "en": "day of the month (spoken 号; formal/written 日)"
+        },
+        {
+          "zh": "星期",
+          "py": "xīngqī",
+          "en": "week"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many; which (small numbers expected)"
+        },
+        {
+          "zh": "一月",
+          "py": "yī yuè",
+          "en": "January"
+        },
+        {
+          "zh": "二月",
+          "py": "èr yuè",
+          "en": "February"
+        },
+        {
+          "zh": "三月",
+          "py": "sān yuè",
+          "en": "March"
+        },
+        {
+          "zh": "四月",
+          "py": "sì yuè",
+          "en": "April"
+        },
+        {
+          "zh": "五月",
+          "py": "wǔ yuè",
+          "en": "May"
+        },
+        {
+          "zh": "六月",
+          "py": "liù yuè",
+          "en": "June"
+        },
+        {
+          "zh": "七月",
+          "py": "qī yuè",
+          "en": "July"
+        },
+        {
+          "zh": "八月",
+          "py": "bā yuè",
+          "en": "August"
+        },
+        {
+          "zh": "九月",
+          "py": "jiǔ yuè",
+          "en": "September"
+        },
+        {
+          "zh": "十月",
+          "py": "shí yuè",
+          "en": "October"
+        },
+        {
+          "zh": "十一月",
+          "py": "shíyī yuè",
+          "en": "November"
+        },
+        {
+          "zh": "十二月",
+          "py": "shí'èr yuè",
+          "en": "December"
+        },
+        {
+          "zh": "星期一",
+          "py": "xīngqī yī",
+          "en": "Monday"
+        },
+        {
+          "zh": "星期二",
+          "py": "xīngqī èr",
+          "en": "Tuesday"
+        },
+        {
+          "zh": "星期三",
+          "py": "xīngqī sān",
+          "en": "Wednesday"
+        },
+        {
+          "zh": "星期四",
+          "py": "xīngqī sì",
+          "en": "Thursday"
+        },
+        {
+          "zh": "星期五",
+          "py": "xīngqī wǔ",
+          "en": "Friday"
+        },
+        {
+          "zh": "星期六",
+          "py": "xīngqī liù",
+          "en": "Saturday"
+        },
+        {
+          "zh": "星期日",
+          "py": "xīngqī rì",
+          "en": "Sunday"
+        },
+        {
+          "zh": "去年",
+          "py": "qùnián",
+          "en": "last year"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "明年",
+          "py": "míngnián",
+          "en": "next year"
+        },
+        {
+          "zh": "快乐",
+          "py": "kuàilè",
+          "en": "happy; joyful"
+        },
+        {
+          "zh": "祝",
+          "py": "zhù",
+          "en": "to wish (someone something)"
+        },
+        {
+          "zh": "生日快乐",
+          "py": "shēngrì kuàilè",
+          "en": "happy birthday"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old (age)"
+        },
+        {
+          "zh": "多大",
+          "py": "duō dà",
+          "en": "how old (lit. how big)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar",
+      "items": [
+        {
+          "zh": "中文日期的顺序是：年 → 月 → 日。",
+          "py": "Zhōngwén rìqī de shùnxù shì: nián → yuè → rì.",
+          "en": "Chinese date order is: year → month → day."
+        },
+        {
+          "zh": "二〇二六年四月四日",
+          "py": "èr líng èr liù nián sì yuè sì rì",
+          "en": "April 4, 2026 (formal: …年…月…日)"
+        },
+        {
+          "zh": "今天是二〇二六年四月四号。",
+          "py": "Jīntiān shì èr líng èr liù nián sì yuè sì hào.",
+          "en": "Today is April 4, 2026. (spoken dates often use 号)"
+        },
+        {
+          "zh": "你的生日是几月几号？",
+          "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+          "en": "几 asks “which” for month/day; 几月几号 = which month, which date"
+        },
+        {
+          "zh": "你们班有多少学生？",
+          "py": "Nǐmen bān yǒu duōshao xuéshēng?",
+          "en": "多少 asks “how many” when the number may be large or unknown."
+        },
+        {
+          "zh": "今天星期几？",
+          "py": "Jīntiān xīngqī jǐ?",
+          "en": "星期几 = “what day of the week?” (几 here means “which”)"
+        },
+        {
+          "zh": "明天是星期日。",
+          "py": "Míngtiān shì xīngqī rì.",
+          "en": "Tomorrow is Sunday. (星期 + number 一–六, or 日/天 for Sunday)"
+        },
+        {
+          "zh": "昨天是星期五。",
+          "py": "Zuótiān shì xīngqī wǔ.",
+          "en": "Yesterday was Friday."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你的生日是几月几号？我的生日是五月二十号。",
+          "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào? Wǒ de shēngrì shì wǔ yuè èrshí hào.",
+          "en": "When is your birthday? My birthday is May 20th."
+        },
+        {
+          "zh": "我的生日是一月一号。",
+          "py": "Wǒ de shēngrì shì yī yuè yī hào.",
+          "en": "My birthday is January 1st."
+        },
+        {
+          "zh": "我的生日是七月七号。",
+          "py": "Wǒ de shēngrì shì qī yuè qī hào.",
+          "en": "My birthday is July 7th."
+        },
+        {
+          "zh": "我的生日是十月三十一号。",
+          "py": "Wǒ de shēngrì shì shí yuè sānshíyī hào.",
+          "en": "My birthday is October 31st."
+        },
+        {
+          "zh": "我的生日是十二月二十五号。",
+          "py": "Wǒ de shēngrì shì shí'èr yuè èrshíwǔ hào.",
+          "en": "My birthday is December 25th."
+        },
+        {
+          "zh": "今天几号？今天是六月十八号。",
+          "py": "Jīntiān jǐ hào? Jīntiān shì liù yuè shíbā hào.",
+          "en": "What's today's date? Today is June 18th."
+        },
+        {
+          "zh": "今天星期几？今天星期三。",
+          "py": "Jīntiān xīngqī jǐ? Jīntiān xīngqī sān.",
+          "en": "What day is today? Today is Wednesday."
+        }
+      ]
+    },
+    {
+      "topic": "月份 · Months",
+      "items": [
+        {
+          "zh": "一月",
+          "py": "yī yuè",
+          "en": "January"
+        },
+        {
+          "zh": "二月",
+          "py": "èr yuè",
+          "en": "February"
+        },
+        {
+          "zh": "三月",
+          "py": "sān yuè",
+          "en": "March"
+        },
+        {
+          "zh": "四月",
+          "py": "sì yuè",
+          "en": "April"
+        },
+        {
+          "zh": "五月",
+          "py": "wǔ yuè",
+          "en": "May"
+        },
+        {
+          "zh": "六月",
+          "py": "liù yuè",
+          "en": "June"
+        },
+        {
+          "zh": "七月",
+          "py": "qī yuè",
+          "en": "July"
+        },
+        {
+          "zh": "八月",
+          "py": "bā yuè",
+          "en": "August"
+        },
+        {
+          "zh": "九月",
+          "py": "jiǔ yuè",
+          "en": "September"
+        },
+        {
+          "zh": "十月",
+          "py": "shí yuè",
+          "en": "October"
+        },
+        {
+          "zh": "十一月",
+          "py": "shíyī yuè",
+          "en": "November"
+        },
+        {
+          "zh": "十二月",
+          "py": "shí'èr yuè",
+          "en": "December"
+        }
+      ]
+    },
+    {
+      "topic": "星期 · Days of the Week",
+      "items": [
+        {
+          "zh": "星期一",
+          "py": "xīngqī yī",
+          "en": "Monday"
+        },
+        {
+          "zh": "星期二",
+          "py": "xīngqī èr",
+          "en": "Tuesday"
+        },
+        {
+          "zh": "星期三",
+          "py": "xīngqī sān",
+          "en": "Wednesday"
+        },
+        {
+          "zh": "星期四",
+          "py": "xīngqī sì",
+          "en": "Thursday"
+        },
+        {
+          "zh": "星期五",
+          "py": "xīngqī wǔ",
+          "en": "Friday"
+        },
+        {
+          "zh": "星期六",
+          "py": "xīngqī liù",
+          "en": "Saturday"
+        },
+        {
+          "zh": "星期日",
+          "py": "xīngqī rì",
+          "en": "Sunday"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "你的生日是几月几号？",
+          "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+          "en": "When is your birthday?"
+        },
+        {
+          "zh": "我的生日是九月十号。",
+          "py": "Wǒ de shēngrì shì jiǔ yuè shí hào.",
+          "en": "My birthday is September 10th."
+        },
+        {
+          "zh": "今天几号？明天几号？",
+          "py": "Jīntiān jǐ hào? Míngtiān jǐ hào?",
+          "en": "What's today's date? What's tomorrow's date?"
+        },
+        {
+          "zh": "今天星期几？昨天星期几？",
+          "py": "Jīntiān xīngqī jǐ? Zuótiān xīngqī jǐ?",
+          "en": "What day is today? What day was yesterday?"
+        },
+        {
+          "zh": "今年是二〇二六年，明年是二〇二七年。",
+          "py": "Jīnnián shì èr líng èr liù nián, míngnián shì èr líng èr qī nián.",
+          "en": "This year is 2026; next year is 2027."
+        },
+        {
+          "zh": "你今年多大？我二十一岁。",
+          "py": "Nǐ jīnnián duō dà? Wǒ èrshíyī suì.",
+          "en": "How old are you this year? I'm twenty-one."
+        },
+        {
+          "zh": "祝你生日快乐！谢谢！",
+          "py": "Zhù nǐ shēngrì kuàilè! Xièxie!",
+          "en": "Happy birthday! Thank you!"
+        },
+        {
+          "zh": "我们星期六去朋友家，好吗？",
+          "py": "Wǒmen xīngqī liù qù péngyou jiā, hǎo ma?",
+          "en": "Let's go to a friend's house on Saturday, OK?"
+        }
+      ]
+    }
+  ]
+}

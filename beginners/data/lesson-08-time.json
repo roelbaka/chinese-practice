@@ -1,0 +1,486 @@
+{
+  "title": "第八课 · 现在几点",
+  "subtitle": "Lesson 8 — 现在几点 · What time is it?",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "现在几点？",
+          "py": "Xiànzài jǐ diǎn?",
+          "en": "What time is it now?"
+        },
+        {
+          "zh": "现在八点十分。",
+          "py": "Xiànzài bā diǎn shí fēn.",
+          "en": "It's 8:10 now."
+        },
+        {
+          "zh": "你几点上课？",
+          "py": "Nǐ jǐ diǎn shàng kè?",
+          "en": "What time do you have class?"
+        },
+        {
+          "zh": "我上午八点上课。",
+          "py": "Wǒ shàngwǔ bā diǎn shàng kè.",
+          "en": "I have class at 8am."
+        },
+        {
+          "zh": "你每天几点起床？",
+          "py": "Nǐ měi tiān jǐ diǎn qǐ chuáng?",
+          "en": "What time do you get up every day?"
+        },
+        {
+          "zh": "下午你做什么？",
+          "py": "Xiàwǔ nǐ zuò shénme?",
+          "en": "What do you do in the afternoon?"
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Asking the Time)",
+      "items": [
+        {
+          "zh": "大卫：请问，现在几点？",
+          "py": "Dàwèi: Qǐngwèn, xiànzài jǐ diǎn?",
+          "en": "David: Excuse me, what time is it?"
+        },
+        {
+          "zh": "王兰：现在八点十分。",
+          "py": "Wáng Lán: Xiànzài bā diǎn shí fēn.",
+          "en": "Wang Lan: It's 8:10."
+        },
+        {
+          "zh": "大卫：谢谢。你几点上课？",
+          "py": "Dàwèi: Xièxie. Nǐ jǐ diǎn shàng kè?",
+          "en": "David: Thanks. What time do you have class?"
+        },
+        {
+          "zh": "王兰：我上午八点半上课。你呢？",
+          "py": "Wáng Lán: Wǒ shàngwǔ bā diǎn bàn shàng kè. Nǐ ne?",
+          "en": "Wang Lan: I have class at 8:30am. And you?"
+        },
+        {
+          "zh": "大卫：我八点一刻上课。我走了。再见！",
+          "py": "Dàwèi: Wǒ bā diǎn yí kè shàng kè. Wǒ zǒu le. Zàijiàn!",
+          "en": "David: I have class at 8:15. I'm off. Bye!"
+        },
+        {
+          "zh": "王兰：再见！",
+          "py": "Wáng Lán: Zàijiàn!",
+          "en": "Wang Lan: Goodbye!"
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Daily Routine)",
+      "items": [
+        {
+          "zh": "玛丽：你每天几点起床？",
+          "py": "Mǎlì: Nǐ měi tiān jǐ diǎn qǐ chuáng?",
+          "en": "Mary: What time do you get up every day?"
+        },
+        {
+          "zh": "和子：我每天六点半起床。",
+          "py": "Hézǐ: Wǒ měi tiān liù diǎn bàn qǐ chuáng.",
+          "en": "Kazuko: I get up at 6:30 every day."
+        },
+        {
+          "zh": "玛丽：你几点吃早饭？",
+          "py": "Mǎlì: Nǐ jǐ diǎn chī zǎofàn?",
+          "en": "Mary: What time do you eat breakfast?"
+        },
+        {
+          "zh": "和子：七点。你呢？",
+          "py": "Hézǐ: Qī diǎn. Nǐ ne?",
+          "en": "Kazuko: 7 o'clock. And you?"
+        },
+        {
+          "zh": "玛丽：我七点半吃早饭。下午你做什么？",
+          "py": "Mǎlì: Wǒ qī diǎn bàn chī zǎofàn. Xiàwǔ nǐ zuò shénme?",
+          "en": "Mary: I eat breakfast at 7:30. What do you do in the afternoon?"
+        },
+        {
+          "zh": "和子：下午我去图书馆。你下午做什么？",
+          "py": "Hézǐ: Xiàwǔ wǒ qù túshūguǎn. Nǐ xiàwǔ zuò shénme?",
+          "en": "Kazuko: In the afternoon I go to the library. What do you do in the afternoon?"
+        },
+        {
+          "zh": "玛丽：我下午两点上课，四点下课。",
+          "py": "Mǎlì: Wǒ xiàwǔ liǎng diǎn shàng kè, sì diǎn xià kè.",
+          "en": "Mary: I have class at 2pm and finish at 4pm."
+        },
+        {
+          "zh": "和子：你晚上几点睡觉？",
+          "py": "Hézǐ: Nǐ wǎnshang jǐ diǎn shuì jiào?",
+          "en": "Kazuko: What time do you go to bed at night?"
+        },
+        {
+          "zh": "玛丽：十一点。",
+          "py": "Mǎlì: Shíyī diǎn.",
+          "en": "Mary: 11 o'clock."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o'clock (hour)"
+        },
+        {
+          "zh": "分",
+          "py": "fēn",
+          "en": "minute"
+        },
+        {
+          "zh": "半",
+          "py": "bàn",
+          "en": "half"
+        },
+        {
+          "zh": "刻",
+          "py": "kè",
+          "en": "quarter (15 minutes)"
+        },
+        {
+          "zh": "差",
+          "py": "chà",
+          "en": "to lack; short of"
+        },
+        {
+          "zh": "上午",
+          "py": "shàngwǔ",
+          "en": "morning (before noon)"
+        },
+        {
+          "zh": "中午",
+          "py": "zhōngwǔ",
+          "en": "noon; midday"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "en": "evening; night"
+        },
+        {
+          "zh": "上课",
+          "py": "shàng kè",
+          "en": "to have class; to attend class"
+        },
+        {
+          "zh": "下课",
+          "py": "xià kè",
+          "en": "to finish class; class is over"
+        },
+        {
+          "zh": "起床",
+          "py": "qǐ chuáng",
+          "en": "to get up; to get out of bed"
+        },
+        {
+          "zh": "睡觉",
+          "py": "shuì jiào",
+          "en": "to sleep; to go to bed"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "饭",
+          "py": "fàn",
+          "en": "meal; cooked rice"
+        },
+        {
+          "zh": "早饭",
+          "py": "zǎofàn",
+          "en": "breakfast"
+        },
+        {
+          "zh": "午饭",
+          "py": "wǔfàn",
+          "en": "lunch"
+        },
+        {
+          "zh": "晚饭",
+          "py": "wǎnfàn",
+          "en": "dinner; supper"
+        },
+        {
+          "zh": "每天",
+          "py": "měi tiān",
+          "en": "every day"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "to return; to go back"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Time Expressions)",
+      "items": [
+        {
+          "zh": "现在几点？",
+          "py": "Xiànzài jǐ diǎn?",
+          "en": "What time is it? (几点 asks the hour)"
+        },
+        {
+          "zh": "你几点上课？",
+          "py": "Nǐ jǐ diǎn shàng kè?",
+          "en": "What time do you have class? (time before verb)"
+        },
+        {
+          "zh": "我八点上课。",
+          "py": "Wǒ bā diǎn shàng kè.",
+          "en": "I have class at 8. (time word as adverbial)"
+        },
+        {
+          "zh": "他上午学习汉语。",
+          "py": "Tā shàngwǔ xuéxí Hànyǔ.",
+          "en": "He studies Chinese in the morning. (time of day before verb)"
+        },
+        {
+          "zh": "我每天七点起床。",
+          "py": "Wǒ měi tiān qī diǎn qǐ chuáng.",
+          "en": "I get up at 7 every day. (每天 = every day, before time)"
+        },
+        {
+          "zh": "她每天下午去图书馆。",
+          "py": "Tā měi tiān xiàwǔ qù túshūguǎn.",
+          "en": "She goes to the library every afternoon. (每天 + time of day)"
+        },
+        {
+          "zh": "主语 + 时间 + 动词",
+          "py": "zhǔyǔ + shíjiān + dòngcí",
+          "en": "Word order: Subject + Time + Verb"
+        },
+        {
+          "zh": "我下午两点上课。",
+          "py": "Wǒ xiàwǔ liǎng diǎn shàng kè.",
+          "en": "I have class at 2pm. (large time unit before small)"
+        }
+      ]
+    },
+    {
+      "topic": "时间 · Telling Time",
+      "items": [
+        {
+          "zh": "一点",
+          "py": "yī diǎn",
+          "en": "1:00"
+        },
+        {
+          "zh": "两点",
+          "py": "liǎng diǎn",
+          "en": "2:00"
+        },
+        {
+          "zh": "三点",
+          "py": "sān diǎn",
+          "en": "3:00"
+        },
+        {
+          "zh": "四点",
+          "py": "sì diǎn",
+          "en": "4:00"
+        },
+        {
+          "zh": "五点",
+          "py": "wǔ diǎn",
+          "en": "5:00"
+        },
+        {
+          "zh": "六点",
+          "py": "liù diǎn",
+          "en": "6:00"
+        },
+        {
+          "zh": "七点",
+          "py": "qī diǎn",
+          "en": "7:00"
+        },
+        {
+          "zh": "八点",
+          "py": "bā diǎn",
+          "en": "8:00"
+        },
+        {
+          "zh": "九点",
+          "py": "jiǔ diǎn",
+          "en": "9:00"
+        },
+        {
+          "zh": "十点",
+          "py": "shí diǎn",
+          "en": "10:00"
+        },
+        {
+          "zh": "十一点",
+          "py": "shíyī diǎn",
+          "en": "11:00"
+        },
+        {
+          "zh": "十二点",
+          "py": "shí'èr diǎn",
+          "en": "12:00"
+        },
+        {
+          "zh": "三点十分",
+          "py": "sān diǎn shí fēn",
+          "en": "3:10"
+        },
+        {
+          "zh": "五点二十分",
+          "py": "wǔ diǎn èrshí fēn",
+          "en": "5:20"
+        },
+        {
+          "zh": "六点半",
+          "py": "liù diǎn bàn",
+          "en": "6:30 (half past six)"
+        },
+        {
+          "zh": "八点半",
+          "py": "bā diǎn bàn",
+          "en": "8:30 (half past eight)"
+        },
+        {
+          "zh": "七点一刻",
+          "py": "qī diǎn yí kè",
+          "en": "7:15 (a quarter past seven)"
+        },
+        {
+          "zh": "九点三刻",
+          "py": "jiǔ diǎn sān kè",
+          "en": "9:45 (three quarters past nine)"
+        },
+        {
+          "zh": "差五分十点",
+          "py": "chà wǔ fēn shí diǎn",
+          "en": "9:55 (five to ten)"
+        },
+        {
+          "zh": "差一刻三点",
+          "py": "chà yí kè sān diǎn",
+          "en": "2:45 (a quarter to three)"
+        },
+        {
+          "zh": "差十分八点",
+          "py": "chà shí fēn bā diǎn",
+          "en": "7:50 (ten to eight)"
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你几点上课？我八点上课。",
+          "py": "Nǐ jǐ diǎn shàng kè? Wǒ bā diǎn shàng kè.",
+          "en": "What time do you have class? I have class at 8."
+        },
+        {
+          "zh": "你几点下课？我十一点半下课。",
+          "py": "Nǐ jǐ diǎn xià kè? Wǒ shíyī diǎn bàn xià kè.",
+          "en": "What time does your class end? My class ends at 11:30."
+        },
+        {
+          "zh": "你几点吃午饭？我十二点吃午饭。",
+          "py": "Nǐ jǐ diǎn chī wǔfàn? Wǒ shí'èr diǎn chī wǔfàn.",
+          "en": "What time do you eat lunch? I eat lunch at 12."
+        },
+        {
+          "zh": "你几点吃晚饭？我六点吃晚饭。",
+          "py": "Nǐ jǐ diǎn chī wǎnfàn? Wǒ liù diǎn chī wǎnfàn.",
+          "en": "What time do you eat dinner? I eat dinner at 6."
+        },
+        {
+          "zh": "你几点起床？我七点起床。",
+          "py": "Nǐ jǐ diǎn qǐ chuáng? Wǒ qī diǎn qǐ chuáng.",
+          "en": "What time do you get up? I get up at 7."
+        },
+        {
+          "zh": "你几点睡觉？我十点半睡觉。",
+          "py": "Nǐ jǐ diǎn shuì jiào? Wǒ shí diǎn bàn shuì jiào.",
+          "en": "What time do you go to bed? I go to bed at 10:30."
+        },
+        {
+          "zh": "你几点去图书馆？我下午两点去图书馆。",
+          "py": "Nǐ jǐ diǎn qù túshūguǎn? Wǒ xiàwǔ liǎng diǎn qù túshūguǎn.",
+          "en": "What time do you go to the library? I go at 2pm."
+        },
+        {
+          "zh": "你几点回宿舍？我晚上九点回宿舍。",
+          "py": "Nǐ jǐ diǎn huí sùshè? Wǒ wǎnshang jiǔ diǎn huí sùshè.",
+          "en": "What time do you go back to the dorm? I go back at 9pm."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "现在几点？现在十点二十分。",
+          "py": "Xiànzài jǐ diǎn? Xiànzài shí diǎn èrshí fēn.",
+          "en": "What time is it? It's 10:20."
+        },
+        {
+          "zh": "你上午做什么？我上午上课。",
+          "py": "Nǐ shàngwǔ zuò shénme? Wǒ shàngwǔ shàng kè.",
+          "en": "What do you do in the morning? I have class in the morning."
+        },
+        {
+          "zh": "你中午做什么？我中午吃午饭，休息。",
+          "py": "Nǐ zhōngwǔ zuò shénme? Wǒ zhōngwǔ chī wǔfàn, xiūxi.",
+          "en": "What do you do at noon? I eat lunch and rest at noon."
+        },
+        {
+          "zh": "他每天六点半起床，七点吃早饭。",
+          "py": "Tā měi tiān liù diǎn bàn qǐ chuáng, qī diǎn chī zǎofàn.",
+          "en": "He gets up at 6:30 and eats breakfast at 7 every day."
+        },
+        {
+          "zh": "下午你去哪儿？我去图书馆。",
+          "py": "Xiàwǔ nǐ qù nǎr? Wǒ qù túshūguǎn.",
+          "en": "Where do you go in the afternoon? I go to the library."
+        },
+        {
+          "zh": "晚上你做什么？我看书，十一点睡觉。",
+          "py": "Wǎnshang nǐ zuò shénme? Wǒ kàn shū, shíyī diǎn shuì jiào.",
+          "en": "What do you do in the evening? I read, and go to bed at 11."
+        },
+        {
+          "zh": "她上午八点上课，十二点下课。",
+          "py": "Tā shàngwǔ bā diǎn shàng kè, shí'èr diǎn xià kè.",
+          "en": "She has class at 8am and finishes at 12."
+        },
+        {
+          "zh": "我们每天下午三点去商店。",
+          "py": "Wǒmen měi tiān xiàwǔ sān diǎn qù shāngdiàn.",
+          "en": "We go to the shop at 3pm every day."
+        }
+      ]
+    }
+  ]
+}
