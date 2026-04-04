@@ -1,0 +1,641 @@
+{
+  "title": "第五课 · 我介绍一下儿",
+  "subtitle": "Lesson 5 — 我介绍一下儿 · Let Me Introduce — Introductions, 的, locations & visiting",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "他是谁？",
+          "py": "Tā shì shuí?",
+          "en": "Who is he?"
+        },
+        {
+          "zh": "我介绍一下儿。",
+          "py": "Wǒ jièshào yíxiàr.",
+          "en": "Let me introduce..."
+        },
+        {
+          "zh": "你去哪儿？",
+          "py": "Nǐ qù nǎr?",
+          "en": "Where are you going?"
+        },
+        {
+          "zh": "张老师在家吗？",
+          "py": "Zhāng lǎoshī zài jiā ma?",
+          "en": "Is Teacher Zhang home?"
+        },
+        {
+          "zh": "我是张老师的学生。",
+          "py": "Wǒ shì Zhāng lǎoshī de xuéshēng.",
+          "en": "I am Teacher Zhang's student."
+        },
+        {
+          "zh": "请进！",
+          "py": "Qǐng jìn!",
+          "en": "Please come in!"
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Introduction)",
+      "items": [
+        {
+          "zh": "玛丽：王兰，他是谁？",
+          "py": "Mǎlì: Wáng Lán, tā shì shuí?",
+          "en": "Mary: Wang Lan, who is he?"
+        },
+        {
+          "zh": "王兰：玛丽，我介绍一下儿，这是我哥哥。",
+          "py": "Wáng Lán: Mǎlì, wǒ jièshào yíxiàr, zhè shì wǒ gēge.",
+          "en": "Wang Lan: Mary, let me introduce — this is my older brother."
+        },
+        {
+          "zh": "王林：我叫王林。认识你，很高兴。",
+          "py": "Wáng Lín: Wǒ jiào Wáng Lín. Rènshi nǐ, hěn gāoxìng.",
+          "en": "Wang Lin: My name is Wang Lin. Nice to meet you."
+        },
+        {
+          "zh": "玛丽：认识你，我也很高兴。",
+          "py": "Mǎlì: Rènshi nǐ, wǒ yě hěn gāoxìng.",
+          "en": "Mary: Nice to meet you too."
+        },
+        {
+          "zh": "王兰：你去哪儿？",
+          "py": "Wáng Lán: Nǐ qù nǎr?",
+          "en": "Wang Lan: Where are you going?"
+        },
+        {
+          "zh": "玛丽：我去北京大学。你们去哪儿？",
+          "py": "Mǎlì: Wǒ qù Běijīng Dàxué. Nǐmen qù nǎr?",
+          "en": "Mary: I'm going to Peking University. Where are you going?"
+        },
+        {
+          "zh": "王林：我们去商店。",
+          "py": "Wáng Lín: Wǒmen qù shāngdiàn.",
+          "en": "Wang Lin: We're going to the shop."
+        },
+        {
+          "zh": "玛丽：再见！",
+          "py": "Mǎlì: Zàijiàn!",
+          "en": "Mary: Goodbye!"
+        },
+        {
+          "zh": "王兰、王林：再见！",
+          "py": "Wáng Lán, Wáng Lín: Zàijiàn!",
+          "en": "Wang Lan & Wang Lin: Goodbye!"
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Visiting)",
+      "items": [
+        {
+          "zh": "和子：张老师在家吗？",
+          "py": "Hézǐ: Zhāng lǎoshī zài jiā ma?",
+          "en": "Kazuko: Is Teacher Zhang home?"
+        },
+        {
+          "zh": "小英：在。您是……",
+          "py": "Xiǎo Yīng: Zài. Nín shì...",
+          "en": "Xiao Ying: Yes. You are...?"
+        },
+        {
+          "zh": "和子：我是张老师的学生，我姓山下。我叫和子。你是……",
+          "py": "Hézǐ: Wǒ shì Zhāng lǎoshī de xuéshēng, wǒ xìng Shānxià. Wǒ jiào Hézǐ. Nǐ shì...",
+          "en": "Kazuko: I'm Teacher Zhang's student, my surname is Yamashita. My name is Kazuko. You are...?"
+        },
+        {
+          "zh": "小英：我叫小英。张老师是我爸爸。请进！",
+          "py": "Xiǎo Yīng: Wǒ jiào Xiǎo Yīng. Zhāng lǎoshī shì wǒ bàba. Qǐng jìn!",
+          "en": "Xiao Ying: I'm Xiao Ying. Teacher Zhang is my dad. Please come in!"
+        },
+        {
+          "zh": "和子：谢谢！",
+          "py": "Hézǐ: Xièxie!",
+          "en": "Kazuko: Thank you!"
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "谁",
+          "py": "shuí / shéi",
+          "en": "who"
+        },
+        {
+          "zh": "介绍",
+          "py": "jièshào",
+          "en": "to introduce"
+        },
+        {
+          "zh": "一下儿",
+          "py": "yíxiàr",
+          "en": "a moment; briefly (softens the verb)"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "to be at; in, at"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home; family"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(structural particle: possessive / attributive)"
+        },
+        {
+          "zh": "请",
+          "py": "qǐng",
+          "en": "please; to invite"
+        },
+        {
+          "zh": "进",
+          "py": "jìn",
+          "en": "to enter; to come in"
+        },
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop; store"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look; to watch; to read"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "en": "to listen; to hear"
+        },
+        {
+          "zh": "休息",
+          "py": "xiūxi",
+          "en": "to rest"
+        },
+        {
+          "zh": "大学",
+          "py": "dàxué",
+          "en": "university"
+        },
+        {
+          "zh": "宿舍",
+          "py": "sùshè",
+          "en": "dormitory"
+        },
+        {
+          "zh": "教室",
+          "py": "jiàoshì",
+          "en": "classroom"
+        },
+        {
+          "zh": "网吧",
+          "py": "wǎngbā",
+          "en": "internet bar"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "en": "supermarket"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "to return; to go back"
+        }
+      ]
+    },
+    {
+      "topic": "专有名词 · Proper Nouns",
+      "items": [
+        {
+          "zh": "王林",
+          "py": "Wáng Lín",
+          "en": "Wang Lin (a name)"
+        },
+        {
+          "zh": "北京大学",
+          "py": "Běijīng Dàxué",
+          "en": "Peking University"
+        },
+        {
+          "zh": "山下和子",
+          "py": "Shānxià Hézǐ",
+          "en": "Yamashita Kazuko (a name)"
+        },
+        {
+          "zh": "小英",
+          "py": "Xiǎo Yīng",
+          "en": "Xiao Ying (a name)"
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你去哪儿？我去商店。",
+          "py": "Nǐ qù nǎr? Wǒ qù shāngdiàn.",
+          "en": "Where are you going? I'm going to the shop."
+        },
+        {
+          "zh": "我去大学。",
+          "py": "Wǒ qù dàxué.",
+          "en": "I'm going to the university."
+        },
+        {
+          "zh": "我去教室。",
+          "py": "Wǒ qù jiàoshì.",
+          "en": "I'm going to the classroom."
+        },
+        {
+          "zh": "我去宿舍。",
+          "py": "Wǒ qù sùshè.",
+          "en": "I'm going to the dormitory."
+        },
+        {
+          "zh": "我去超市。",
+          "py": "Wǒ qù chāoshì.",
+          "en": "I'm going to the supermarket."
+        },
+        {
+          "zh": "我去网吧。",
+          "py": "Wǒ qù wǎngbā.",
+          "en": "I'm going to the internet bar."
+        },
+        {
+          "zh": "我回家。",
+          "py": "Wǒ huí jiā.",
+          "en": "I'm going home."
+        },
+        {
+          "zh": "我回宿舍。",
+          "py": "Wǒ huí sùshè.",
+          "en": "I'm going back to the dorm."
+        },
+        {
+          "zh": "我回教室。",
+          "py": "Wǒ huí jiàoshì.",
+          "en": "I'm going back to the classroom."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (的 & Verb Predicate)",
+      "items": [
+        {
+          "zh": "张老师的学生",
+          "py": "Zhāng lǎoshī de xuéshēng",
+          "en": "Teacher Zhang's student (的 = possessive)"
+        },
+        {
+          "zh": "我的哥哥",
+          "py": "wǒ de gēge",
+          "en": "my older brother"
+        },
+        {
+          "zh": "她的朋友",
+          "py": "tā de péngyou",
+          "en": "her friend"
+        },
+        {
+          "zh": "王兰的弟弟",
+          "py": "Wáng Lán de dìdi",
+          "en": "Wang Lan's younger brother"
+        },
+        {
+          "zh": "他的老师",
+          "py": "tā de lǎoshī",
+          "en": "his teacher"
+        },
+        {
+          "zh": "我爸爸",
+          "py": "wǒ bàba",
+          "en": "my dad (的 omitted for close family)"
+        },
+        {
+          "zh": "他妈妈",
+          "py": "tā māma",
+          "en": "his mom (的 omitted for close family)"
+        },
+        {
+          "zh": "我去商店。",
+          "py": "Wǒ qù shāngdiàn.",
+          "en": "I go to the shop. (verb predicate sentence)"
+        },
+        {
+          "zh": "他看电视。",
+          "py": "Tā kàn diànshì.",
+          "en": "He watches TV. (verb predicate sentence)"
+        },
+        {
+          "zh": "我们听音乐。",
+          "py": "Wǒmen tīng yīnyuè.",
+          "en": "We listen to music. (verb predicate sentence)"
+        }
+      ]
+    },
+    {
+      "topic": "一下儿 · Softening with yíxiàr",
+      "items": [
+        {
+          "zh": "我介绍一下儿。",
+          "py": "Wǒ jièshào yíxiàr.",
+          "en": "Let me introduce (briefly)."
+        },
+        {
+          "zh": "请看一下儿。",
+          "py": "Qǐng kàn yíxiàr.",
+          "en": "Please have a look."
+        },
+        {
+          "zh": "请等一下儿。",
+          "py": "Qǐng děng yíxiàr.",
+          "en": "Please wait a moment."
+        },
+        {
+          "zh": "我问一下儿。",
+          "py": "Wǒ wèn yíxiàr.",
+          "en": "Let me ask (briefly)."
+        },
+        {
+          "zh": "你听一下儿。",
+          "py": "Nǐ tīng yíxiàr.",
+          "en": "Have a quick listen."
+        },
+        {
+          "zh": "请坐一下儿。",
+          "py": "Qǐng zuò yíxiàr.",
+          "en": "Please sit down for a moment."
+        }
+      ]
+    },
+    {
+      "topic": "地方 · Places & Locations",
+      "items": [
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop; store"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "en": "supermarket"
+        },
+        {
+          "zh": "大学",
+          "py": "dàxué",
+          "en": "university"
+        },
+        {
+          "zh": "教室",
+          "py": "jiàoshì",
+          "en": "classroom"
+        },
+        {
+          "zh": "宿舍",
+          "py": "sùshè",
+          "en": "dormitory"
+        },
+        {
+          "zh": "网吧",
+          "py": "wǎngbā",
+          "en": "internet bar"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "图书馆",
+          "py": "túshūguǎn",
+          "en": "library"
+        },
+        {
+          "zh": "食堂",
+          "py": "shítáng",
+          "en": "canteen; dining hall"
+        }
+      ]
+    },
+    {
+      "topic": "介绍 · Introducing People",
+      "items": [
+        {
+          "zh": "这是我哥哥。",
+          "py": "Zhè shì wǒ gēge.",
+          "en": "This is my older brother."
+        },
+        {
+          "zh": "这是我朋友。",
+          "py": "Zhè shì wǒ péngyou.",
+          "en": "This is my friend."
+        },
+        {
+          "zh": "这是我同学。",
+          "py": "Zhè shì wǒ tóngxué.",
+          "en": "This is my classmate."
+        },
+        {
+          "zh": "这是我老师。",
+          "py": "Zhè shì wǒ lǎoshī.",
+          "en": "This is my teacher."
+        },
+        {
+          "zh": "认识你，很高兴。",
+          "py": "Rènshi nǐ, hěn gāoxìng.",
+          "en": "Nice to meet you."
+        },
+        {
+          "zh": "认识你，我也很高兴。",
+          "py": "Rènshi nǐ, wǒ yě hěn gāoxìng.",
+          "en": "Nice to meet you too."
+        },
+        {
+          "zh": "我姓王。",
+          "py": "Wǒ xìng Wáng.",
+          "en": "My surname is Wang."
+        },
+        {
+          "zh": "我叫王林。",
+          "py": "Wǒ jiào Wáng Lín.",
+          "en": "My name is Wang Lin."
+        },
+        {
+          "zh": "你叫什么名字？",
+          "py": "Nǐ jiào shénme míngzi?",
+          "en": "What is your name?"
+        }
+      ]
+    },
+    {
+      "topic": "做什么 · Activities & Verbs",
+      "items": [
+        {
+          "zh": "看书",
+          "py": "kàn shū",
+          "en": "to read (a book)"
+        },
+        {
+          "zh": "看电视",
+          "py": "kàn diànshì",
+          "en": "to watch TV"
+        },
+        {
+          "zh": "听音乐",
+          "py": "tīng yīnyuè",
+          "en": "to listen to music"
+        },
+        {
+          "zh": "听录音",
+          "py": "tīng lùyīn",
+          "en": "to listen to a recording"
+        },
+        {
+          "zh": "休息",
+          "py": "xiūxi",
+          "en": "to rest"
+        },
+        {
+          "zh": "去商店",
+          "py": "qù shāngdiàn",
+          "en": "to go to the shop"
+        },
+        {
+          "zh": "回家",
+          "py": "huí jiā",
+          "en": "to go home"
+        },
+        {
+          "zh": "回宿舍",
+          "py": "huí sùshè",
+          "en": "to go back to the dorm"
+        },
+        {
+          "zh": "去上课",
+          "py": "qù shàng kè",
+          "en": "to go to class"
+        },
+        {
+          "zh": "去图书馆",
+          "py": "qù túshūguǎn",
+          "en": "to go to the library"
+        }
+      ]
+    },
+    {
+      "topic": "拜访 · Visiting Someone",
+      "items": [
+        {
+          "zh": "张老师在家吗？",
+          "py": "Zhāng lǎoshī zài jiā ma?",
+          "en": "Is Teacher Zhang at home?"
+        },
+        {
+          "zh": "在。",
+          "py": "Zài.",
+          "en": "Yes (he/she is in)."
+        },
+        {
+          "zh": "不在。",
+          "py": "Bú zài.",
+          "en": "No (he/she is not in)."
+        },
+        {
+          "zh": "您是……",
+          "py": "Nín shì...",
+          "en": "You are...? (polite way to ask who someone is)"
+        },
+        {
+          "zh": "请进！",
+          "py": "Qǐng jìn!",
+          "en": "Please come in!"
+        },
+        {
+          "zh": "请坐。",
+          "py": "Qǐng zuò.",
+          "en": "Please sit down."
+        },
+        {
+          "zh": "请喝茶。",
+          "py": "Qǐng hē chá.",
+          "en": "Please have some tea."
+        },
+        {
+          "zh": "谢谢！",
+          "py": "Xièxie!",
+          "en": "Thank you!"
+        },
+        {
+          "zh": "你找谁？",
+          "py": "Nǐ zhǎo shuí?",
+          "en": "Who are you looking for?"
+        },
+        {
+          "zh": "我找张老师。",
+          "py": "Wǒ zhǎo Zhāng lǎoshī.",
+          "en": "I'm looking for Teacher Zhang."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "他去哪儿？他去教室。",
+          "py": "Tā qù nǎr? Tā qù jiàoshì.",
+          "en": "Where is he going? He's going to the classroom."
+        },
+        {
+          "zh": "她是谁？她是我的同学。",
+          "py": "Tā shì shuí? Tā shì wǒ de tóngxué.",
+          "en": "Who is she? She is my classmate."
+        },
+        {
+          "zh": "王老师在宿舍吗？不在，他在教室。",
+          "py": "Wáng lǎoshī zài sùshè ma? Bú zài, tā zài jiàoshì.",
+          "en": "Is Teacher Wang in the dorm? No, he's in the classroom."
+        },
+        {
+          "zh": "你去超市吗？我不去超市，我回宿舍。",
+          "py": "Nǐ qù chāoshì ma? Wǒ bú qù chāoshì, wǒ huí sùshè.",
+          "en": "Are you going to the supermarket? No, I'm going back to the dorm."
+        },
+        {
+          "zh": "请介绍一下儿，他是谁？",
+          "py": "Qǐng jièshào yíxiàr, tā shì shuí?",
+          "en": "Please introduce — who is he?"
+        },
+        {
+          "zh": "这是我朋友，她叫玛丽。",
+          "py": "Zhè shì wǒ péngyou, tā jiào Mǎlì.",
+          "en": "This is my friend, her name is Mary."
+        }
+      ]
+    }
+  ]
+}

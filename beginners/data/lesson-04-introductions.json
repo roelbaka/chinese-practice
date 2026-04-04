@@ -1,0 +1,376 @@
+{
+  "title": "第四课 · 你认识不认识他",
+  "subtitle": "Lesson 4 — 你认识不认识他 · Do you know him?",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "你认识不认识他？",
+          "py": "Nǐ rènshi bú rènshi tā?",
+          "en": "Do you know him (or not)?"
+        },
+        {
+          "zh": "我介绍一下。",
+          "py": "Wǒ jièshào yíxià.",
+          "en": "Let me introduce."
+        },
+        {
+          "zh": "他是谁？",
+          "py": "Tā shì shéi?",
+          "en": "Who is he?"
+        },
+        {
+          "zh": "这是我的名片。",
+          "py": "Zhè shì wǒ de míngpiàn.",
+          "en": "This is my business card."
+        },
+        {
+          "zh": "请多关照。",
+          "py": "Qǐng duō guānzhào.",
+          "en": "Please look after me. (polite)"
+        },
+        {
+          "zh": "你叫什么名字？",
+          "py": "Nǐ jiào shénme míngzi?",
+          "en": "What is your name?"
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1",
+      "items": [
+        {
+          "zh": "玛丽：你认识不认识他？",
+          "py": "Mǎlì: Nǐ rènshi bú rènshi tā?",
+          "en": "Mary: Do you know him?"
+        },
+        {
+          "zh": "大卫：认识，他是我们老师。",
+          "py": "Dàwèi: Rènshi, tā shì wǒmen lǎoshī.",
+          "en": "David: Yes, he's our teacher."
+        },
+        {
+          "zh": "玛丽：他叫什么名字？",
+          "py": "Mǎlì: Tā jiào shénme míngzi?",
+          "en": "Mary: What's his name?"
+        },
+        {
+          "zh": "大卫：他叫张华。我介绍一下。",
+          "py": "Dàwèi: Tā jiào Zhāng Huá. Wǒ jièshào yíxià.",
+          "en": "David: His name is Zhang Hua. Let me introduce you."
+        },
+        {
+          "zh": "大卫：张老师，这是我朋友玛丽。",
+          "py": "Dàwèi: Zhāng lǎoshī, zhè shì wǒ péngyou Mǎlì.",
+          "en": "David: Teacher Zhang, this is my friend Mary."
+        },
+        {
+          "zh": "张华：你好！认识你很高兴。",
+          "py": "Zhāng Huá: Nǐ hǎo! Rènshi nǐ hěn gāoxìng.",
+          "en": "Zhang Hua: Hello! Nice to meet you."
+        },
+        {
+          "zh": "玛丽：认识你我也很高兴。",
+          "py": "Mǎlì: Rènshi nǐ wǒ yě hěn gāoxìng.",
+          "en": "Mary: Nice to meet you too."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2",
+      "items": [
+        {
+          "zh": "和子：请问，您贵姓？",
+          "py": "Hézǐ: Qǐngwèn, nín guì xìng?",
+          "en": "Kazuko: May I ask your surname?"
+        },
+        {
+          "zh": "王先生：我姓王，叫王英。",
+          "py": "Wáng xiānsheng: Wǒ xìng Wáng, jiào Wáng Yīng.",
+          "en": "Mr. Wang: My surname is Wang, my name is Wang Ying."
+        },
+        {
+          "zh": "和子：这是我的名片。",
+          "py": "Hézǐ: Zhè shì wǒ de míngpiàn.",
+          "en": "Kazuko: This is my business card."
+        },
+        {
+          "zh": "王先生：谢谢。这是我的。",
+          "py": "Wáng xiānsheng: Xièxie. Zhè shì wǒ de.",
+          "en": "Mr. Wang: Thank you. Here is mine."
+        },
+        {
+          "zh": "和子：请多关照。",
+          "py": "Hézǐ: Qǐng duō guānzhào.",
+          "en": "Kazuko: Please look after me."
+        },
+        {
+          "zh": "王先生：请多关照。",
+          "py": "Wáng xiānsheng: Qǐng duō guānzhào.",
+          "en": "Mr. Wang: Please look after me."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know (a person), to recognize"
+        },
+        {
+          "zh": "介绍",
+          "py": "jièshào",
+          "en": "to introduce; introduction"
+        },
+        {
+          "zh": "一下",
+          "py": "yíxià",
+          "en": "a bit, briefly (softens the verb)"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "en": "who"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called, to call"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        },
+        {
+          "zh": "先生",
+          "py": "xiānsheng",
+          "en": "Mr., sir, gentleman"
+        },
+        {
+          "zh": "小姐",
+          "py": "xiǎojiě",
+          "en": "Miss, young lady"
+        },
+        {
+          "zh": "女士",
+          "py": "nǚshì",
+          "en": "Ms., lady"
+        },
+        {
+          "zh": "贵姓",
+          "py": "guì xìng",
+          "en": "your surname (polite)"
+        },
+        {
+          "zh": "姓",
+          "py": "xìng",
+          "en": "surname; to be surnamed"
+        },
+        {
+          "zh": "名片",
+          "py": "míngpiàn",
+          "en": "business card"
+        },
+        {
+          "zh": "关照",
+          "py": "guānzhào",
+          "en": "to look after, to take care of"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "more, much, many"
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "那",
+          "py": "nà",
+          "en": "that"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(possessive particle)"
+        },
+        {
+          "zh": "教授",
+          "py": "jiàoshòu",
+          "en": "professor"
+        },
+        {
+          "zh": "宿舍",
+          "py": "sùshè",
+          "en": "dormitory"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar",
+      "items": [
+        {
+          "zh": "你认识不认识他？",
+          "py": "Nǐ rènshi bú rènshi tā?",
+          "en": "Do you know him? (V + 不 + V question pattern)"
+        },
+        {
+          "zh": "你是不是学生？",
+          "py": "Nǐ shì bú shì xuésheng?",
+          "en": "Are you a student? (affirmative-negative question)"
+        },
+        {
+          "zh": "我的名片",
+          "py": "wǒ de míngpiàn",
+          "en": "my business card (的 = possessive 'de')"
+        },
+        {
+          "zh": "他的朋友",
+          "py": "tā de péngyou",
+          "en": "his friend (的 shows possession)"
+        },
+        {
+          "zh": "我们的老师",
+          "py": "wǒmen de lǎoshī",
+          "en": "our teacher"
+        },
+        {
+          "zh": "我介绍一下。",
+          "py": "Wǒ jièshào yíxià.",
+          "en": "Let me introduce briefly. (V + 一下 softens request)"
+        },
+        {
+          "zh": "你看一下。",
+          "py": "Nǐ kàn yíxià.",
+          "en": "Take a look. (V + 一下)"
+        },
+        {
+          "zh": "请坐一下。",
+          "py": "Qǐng zuò yíxià.",
+          "en": "Please sit for a moment. (V + 一下)"
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你认识不认识他？——认识。",
+          "py": "Nǐ rènshi bú rènshi tā? —— Rènshi.",
+          "en": "Do you know him? —— Yes."
+        },
+        {
+          "zh": "你认识不认识她？——不认识。",
+          "py": "Nǐ rènshi bú rènshi tā? —— Bú rènshi.",
+          "en": "Do you know her? —— No."
+        },
+        {
+          "zh": "他是谁？——他是张老师。",
+          "py": "Tā shì shéi? —— Tā shì Zhāng lǎoshī.",
+          "en": "Who is he? —— He's Teacher Zhang."
+        },
+        {
+          "zh": "她叫什么名字？——她叫和子。",
+          "py": "Tā jiào shénme míngzi? —— Tā jiào Hézǐ.",
+          "en": "What's her name? —— Her name is Kazuko."
+        },
+        {
+          "zh": "您贵姓？——我姓李。",
+          "py": "Nín guì xìng? —— Wǒ xìng Lǐ.",
+          "en": "What's your surname? —— My surname is Li."
+        }
+      ]
+    },
+    {
+      "topic": "常见姓 · Common Surnames",
+      "items": [
+        {
+          "zh": "王",
+          "py": "Wáng",
+          "en": "Wang (most common Chinese surname)"
+        },
+        {
+          "zh": "李",
+          "py": "Lǐ",
+          "en": "Li"
+        },
+        {
+          "zh": "张",
+          "py": "Zhāng",
+          "en": "Zhang"
+        },
+        {
+          "zh": "刘",
+          "py": "Liú",
+          "en": "Liu"
+        },
+        {
+          "zh": "陈",
+          "py": "Chén",
+          "en": "Chen"
+        },
+        {
+          "zh": "赵",
+          "py": "Zhào",
+          "en": "Zhao"
+        },
+        {
+          "zh": "林",
+          "py": "Lín",
+          "en": "Lin"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Workbook Exercises",
+      "items": [
+        {
+          "zh": "他是谁？——他是王先生。",
+          "py": "Tā shì shéi? —— Tā shì Wáng xiānsheng.",
+          "en": "Who is he? —— He's Mr. Wang."
+        },
+        {
+          "zh": "你在宿舍吗？",
+          "py": "Nǐ zài sùshè ma?",
+          "en": "Are you in the dormitory?"
+        },
+        {
+          "zh": "请进！请坐！",
+          "py": "Qǐng jìn! Qǐng zuò!",
+          "en": "Come in! Please sit down!"
+        },
+        {
+          "zh": "来教室。",
+          "py": "Lái jiàoshì.",
+          "en": "Come to the classroom."
+        },
+        {
+          "zh": "去商店。",
+          "py": "Qù shāngdiàn.",
+          "en": "Go to the store."
+        },
+        {
+          "zh": "在家休息。",
+          "py": "Zài jiā xiūxi.",
+          "en": "Rest at home."
+        },
+        {
+          "zh": "他是我们的教授。",
+          "py": "Tā shì wǒmen de jiàoshòu.",
+          "en": "He is our professor."
+        },
+        {
+          "zh": "这是他的名片。",
+          "py": "Zhè shì tā de míngpiàn.",
+          "en": "This is his business card."
+        }
+      ]
+    }
+  ]
+}

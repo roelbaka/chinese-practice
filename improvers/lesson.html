@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chinese Practice - Lesson 3: 你是哪国人</title>
+<title>Chinese Practice — Improvers</title>
 <style>
   :root {
     --bg: #0f0f0f;
@@ -149,6 +149,14 @@
     color: var(--text-muted); margin: 1.5rem 0 .8rem; padding-left: .2rem;
   }
 
+  .loading {
+    text-align: center; padding: 4rem 1rem; color: var(--text-muted); font-size: 1.1rem;
+  }
+
+  .error {
+    text-align: center; padding: 4rem 1rem; color: var(--accent); font-size: 1.1rem;
+  }
+
   @media (max-width: 600px) {
     header h1 { font-size: 1.4rem; }
     .card .chinese { font-size: 1.25rem; }
@@ -161,9 +169,9 @@
 <body>
 
 <header>
-  <a href="./" style="color:var(--text-muted);text-decoration:none;font-size:.85rem;display:inline-block;margin-bottom:.5rem;">&larr; Back to Beginners</a>
-  <h1>初级 <span>Beginners</span></h1>
-  <p>Lesson 3 — 你是哪国人 · What nationality are you?</p>
+  <a href="./" style="color:var(--text-muted);text-decoration:none;font-size:.85rem;display:inline-block;margin-bottom:.5rem;">&larr; Back to Improvers</a>
+  <h1>提高 <span>Improvers</span></h1>
+  <p id="lessonSubtitle">Loading...</p>
 </header>
 
 <nav id="topicNav"></nav>
@@ -174,117 +182,36 @@
   <button data-mode="quiz">Quiz</button>
 </div>
 
-<main id="app"></main>
+<main id="app"><div class="loading">Loading lesson data...</div></main>
 
 <script>
-const DATA = [
-  {
-    topic: "句子 · Key Sentences",
-    items: [
-      { zh: "你是哪国人？", py: "Nǐ shì nǎ guó rén?", en: "What nationality are you?" },
-      { zh: "我是荷兰人。", py: "Wǒ shì Hélán rén.", en: "I am Dutch." },
-      { zh: "你做什么工作？", py: "Nǐ zuò shénme gōngzuò?", en: "What do you do (for work)?" },
-      { zh: "我是学生。", py: "Wǒ shì xuésheng.", en: "I am a student." },
-      { zh: "认识你很高兴。", py: "Rènshi nǐ hěn gāoxìng.", en: "Nice to meet you." },
-      { zh: "请进！", py: "Qǐng jìn!", en: "Please come in!" },
-    ]
-  },
-  {
-    topic: "会话1 · Dialogue 1",
-    items: [
-      { zh: "大卫：请问，你是哪国人？", py: "Dàwèi: Qǐngwèn, nǐ shì nǎ guó rén?", en: "David: Excuse me, what nationality are you?" },
-      { zh: "玛丽：我是法国人。你呢？", py: "Mǎlì: Wǒ shì Fǎguó rén. Nǐ ne?", en: "Mary: I'm French. And you?" },
-      { zh: "大卫：我是美国人。", py: "Dàwèi: Wǒ shì Měiguó rén.", en: "David: I'm American." },
-      { zh: "玛丽：你做什么工作？", py: "Mǎlì: Nǐ zuò shénme gōngzuò?", en: "Mary: What do you do?" },
-      { zh: "大卫：我是学生。你也是学生吗？", py: "Dàwèi: Wǒ shì xuésheng. Nǐ yě shì xuésheng ma?", en: "David: I'm a student. Are you also a student?" },
-      { zh: "玛丽：不是，我是老师。", py: "Mǎlì: Bú shì, wǒ shì lǎoshī.", en: "Mary: No, I'm a teacher." },
-    ]
-  },
-  {
-    topic: "会话2 · Dialogue 2",
-    items: [
-      { zh: "和子：请进！请坐！", py: "Hézǐ: Qǐng jìn! Qǐng zuò!", en: "Kazuko: Please come in! Please sit down!" },
-      { zh: "大卫：谢谢。", py: "Dàwèi: Xièxie.", en: "David: Thank you." },
-      { zh: "和子：你是美国人吗？", py: "Hézǐ: Nǐ shì Měiguó rén ma?", en: "Kazuko: Are you American?" },
-      { zh: "大卫：是，我是美国人。你是日本人吗？", py: "Dàwèi: Shì, wǒ shì Měiguó rén. Nǐ shì Rìběn rén ma?", en: "David: Yes, I'm American. Are you Japanese?" },
-      { zh: "和子：是的。认识你很高兴。", py: "Hézǐ: Shì de. Rènshi nǐ hěn gāoxìng.", en: "Kazuko: Yes. Nice to meet you." },
-      { zh: "大卫：认识你我也很高兴。", py: "Dàwèi: Rènshi nǐ wǒ yě hěn gāoxìng.", en: "David: Nice to meet you too." },
-    ]
-  },
-  {
-    topic: "生词 · New Words",
-    items: [
-      { zh: "是", py: "shì", en: "to be (am, is, are)" },
-      { zh: "哪", py: "nǎ", en: "which" },
-      { zh: "国", py: "guó", en: "country, nation" },
-      { zh: "人", py: "rén", en: "person, people" },
-      { zh: "做", py: "zuò", en: "to do, to make" },
-      { zh: "什么", py: "shénme", en: "what" },
-      { zh: "学生", py: "xuésheng", en: "student" },
-      { zh: "请", py: "qǐng", en: "please; to invite" },
-      { zh: "请问", py: "qǐngwèn", en: "excuse me, may I ask" },
-      { zh: "进", py: "jìn", en: "to enter, to come in" },
-      { zh: "坐", py: "zuò", en: "to sit, to sit down" },
-      { zh: "认识", py: "rènshi", en: "to know (a person); to recognize" },
-      { zh: "高兴", py: "gāoxìng", en: "happy, glad, pleased" },
-      { zh: "朋友", py: "péngyou", en: "friend" },
-    ]
-  },
-  {
-    topic: "国家 · Countries",
-    items: [
-      { zh: "中国", py: "Zhōngguó", en: "China" },
-      { zh: "美国", py: "Měiguó", en: "America / USA" },
-      { zh: "英国", py: "Yīngguó", en: "England / UK" },
-      { zh: "法国", py: "Fǎguó", en: "France" },
-      { zh: "德国", py: "Déguó", en: "Germany" },
-      { zh: "日本", py: "Rìběn", en: "Japan" },
-      { zh: "韩国", py: "Hánguó", en: "South Korea" },
-      { zh: "荷兰", py: "Hélán", en: "The Netherlands" },
-      { zh: "中国人", py: "Zhōngguó rén", en: "Chinese person" },
-      { zh: "美国人", py: "Měiguó rén", en: "American person" },
-      { zh: "荷兰人", py: "Hélán rén", en: "Dutch person" },
-    ]
-  },
-  {
-    topic: "语法 · Grammar",
-    items: [
-      { zh: "我是学生。", py: "Wǒ shì xuésheng.", en: "I am a student. (是 = to be)" },
-      { zh: "我不是老师。", py: "Wǒ bú shì lǎoshī.", en: "I am not a teacher. (不是 = am not)" },
-      { zh: "你是学生吗？", py: "Nǐ shì xuésheng ma?", en: "Are you a student? (是...吗 question)" },
-      { zh: "你是不是学生？", py: "Nǐ shì bú shì xuésheng?", en: "Are you a student? (是不是 pattern)" },
-      { zh: "他做什么工作？", py: "Tā zuò shénme gōngzuò?", en: "What does he do? (什么 = what)" },
-      { zh: "你是哪国人？", py: "Nǐ shì nǎ guó rén?", en: "Which country are you from? (哪 = which)" },
-    ]
-  },
-  {
-    topic: "替换 · Substitution Drills",
-    items: [
-      { zh: "你是哪国人？——我是中国人。", py: "Nǐ shì nǎ guó rén? —— Wǒ shì Zhōngguó rén.", en: "What's your nationality? —— I'm Chinese." },
-      { zh: "他是哪国人？——他是美国人。", py: "Tā shì nǎ guó rén? —— Tā shì Měiguó rén.", en: "What's his nationality? —— He's American." },
-      { zh: "她做什么工作？——她是老师。", py: "Tā zuò shénme gōngzuò? —— Tā shì lǎoshī.", en: "What does she do? —— She's a teacher." },
-      { zh: "他做什么工作？——他是学生。", py: "Tā zuò shénme gōngzuò? —— Tā shì xuésheng.", en: "What does he do? —— He's a student." },
-    ]
-  },
-  {
-    topic: "练习 · Workbook Exercises",
-    items: [
-      { zh: "请问，你是哪国人？", py: "Qǐngwèn, nǐ shì nǎ guó rén?", en: "Excuse me, what nationality are you?" },
-      { zh: "她也是法国人吗？", py: "Tā yě shì Fǎguó rén ma?", en: "Is she also French?" },
-      { zh: "他不是学生，他是老师。", py: "Tā bú shì xuésheng, tā shì lǎoshī.", en: "He's not a student, he's a teacher." },
-      { zh: "认识你很高兴！", py: "Rènshi nǐ hěn gāoxìng!", en: "Nice to meet you!" },
-      { zh: "你的朋友是哪国人？", py: "Nǐ de péngyou shì nǎ guó rén?", en: "What nationality is your friend?" },
-      { zh: "我的朋友是荷兰人。", py: "Wǒ de péngyou shì Hélán rén.", en: "My friend is Dutch." },
-    ]
-  },
-];
-
+let DATA = [];
 let currentTopic = "all";
 let currentMode = "browse";
 let hidePinyin = false;
 let hideEnglish = false;
 let fcItems = [], fcIndex = 0, fcRevealed = false;
 let quizItems = [], quizIndex = 0, quizScore = 0, quizAnswered = false;
+
+const params = new URLSearchParams(window.location.search);
+const lessonId = params.get("id");
+
+if (!lessonId) {
+  document.getElementById("app").innerHTML = '<div class="error">No lesson specified. <a href="./" style="color:var(--accent)">Back to overview</a></div>';
+} else {
+  fetch(`data/${lessonId}.json`)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(json => {
+      document.title = `Chinese Practice — ${json.title}`;
+      document.getElementById("lessonSubtitle").textContent = json.subtitle;
+      DATA = json.data;
+      renderNav();
+      render();
+    })
+    .catch(err => {
+      document.getElementById("app").innerHTML = `<div class="error">Could not load lesson "${lessonId}". <a href="./" style="color:var(--accent)">Back to overview</a></div>`;
+    });
+}
 
 function getItems() {
   if (currentTopic === "all") return DATA.flatMap(t => t.items);
@@ -500,9 +427,6 @@ document.addEventListener("keydown", e => {
     if (e.key === " ") { e.preventDefault(); fcRevealed = !fcRevealed; renderFlashcard(); }
   }
 });
-
-renderNav();
-render();
 </script>
 </body>
 </html>
