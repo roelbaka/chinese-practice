@@ -1,0 +1,78 @@
+{
+  "title": "第36课 · 自行车被人骑走了",
+  "subtitle": "Lesson 36 — 自行车被人骑走了 · The bike was ridden away by someone",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 36)",
+      "items": [
+        {"zh": "自行车被人骑走了。", "py": "Zìxíngchē bèi rén qí zǒu le.", "en": "The bike was ridden away by someone."},
+        {"zh": "我的杯子被他打碎了。", "py": "Wǒ de bēizi bèi tā dǎ suì le.", "en": "My cup was broken by him."},
+        {"zh": "那本书被他借走了。", "py": "Nà běn shū bèi tā jiè zǒu le.", "en": "That book was borrowed by him."},
+        {"zh": "信被风吹走了。", "py": "Xìn bèi fēng chuī zǒu le.", "en": "The letter was blown away by the wind."},
+        {"zh": "蛋糕被孩子们吃完了。", "py": "Dàngāo bèi háizimen chī wán le.", "en": "The cake was eaten up by the children."}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Missing Bike)",
+      "items": [
+        {"zh": "大卫：我的自行车不见了！", "py": "Dàwèi: Wǒ de zìxíngchē bú jiàn le!", "en": "David: My bike is gone!"},
+        {"zh": "刘京：你放在哪儿了？", "py": "Liú Jīng: Nǐ fàng zài nǎr le?", "en": "Liu Jing: Where did you put it?"},
+        {"zh": "大卫：就放在楼下。可能被人骑走了。", "py": "Dàwèi: Jiù fàng zài lóu xià. Kěnéng bèi rén qí zǒu le.", "en": "David: Right downstairs. Maybe someone rode it away."},
+        {"zh": "刘京：你锁了没有？", "py": "Liú Jīng: Nǐ suǒ le méiyǒu?", "en": "Liu Jing: Did you lock it?"},
+        {"zh": "大卫：没有。我忘了锁。", "py": "Dàwèi: Méiyǒu. Wǒ wàng le suǒ.", "en": "David: No. I forgot to lock it."},
+        {"zh": "刘京：以后一定要锁好车。", "py": "Liú Jīng: Yǐhòu yīdìng yào suǒ hǎo chē.", "en": "Liu Jing: You must lock the bike from now on."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Passive Events)",
+      "items": [
+        {"zh": "玛丽：你怎么了？手怎么了？", "py": "Mǎlì: Nǐ zěnme le? Shǒu zěnme le?", "en": "Mary: What happened? What's wrong with your hand?"},
+        {"zh": "和子：被门夹了一下。", "py": "Hézǐ: Bèi mén jiā le yīxià.", "en": "Hezi: It got caught in the door."},
+        {"zh": "玛丽：疼不疼？", "py": "Mǎlì: Téng bu téng?", "en": "Mary: Does it hurt?"},
+        {"zh": "和子：有点儿疼。没关系，不严重。", "py": "Hézǐ: Yǒudiǎnr téng. Méi guānxi, bù yánzhòng.", "en": "Hezi: A little. It's OK, not serious."},
+        {"zh": "玛丽：你的作业呢？", "py": "Mǎlì: Nǐ de zuòyè ne?", "en": "Mary: Where's your homework?"},
+        {"zh": "和子：被我弄湿了。我重新写吧。", "py": "Hézǐ: Bèi wǒ nòng shī le. Wǒ chóngxīn xiě ba.", "en": "Hezi: I got it wet. I'll rewrite it."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 36)",
+      "items": [
+        {"zh": "被", "py": "bèi", "en": "by (passive marker)"},
+        {"zh": "骑", "py": "qí", "en": "to ride (bike/horse)"},
+        {"zh": "碎", "py": "suì", "en": "broken; shattered"},
+        {"zh": "借", "py": "jiè", "en": "to borrow; to lend"},
+        {"zh": "吹", "py": "chuī", "en": "to blow"},
+        {"zh": "锁", "py": "suǒ", "en": "to lock; lock"},
+        {"zh": "夹", "py": "jiā", "en": "to clamp; to pinch"},
+        {"zh": "疼", "py": "téng", "en": "painful; to ache"},
+        {"zh": "严重", "py": "yánzhòng", "en": "serious; severe"},
+        {"zh": "弄", "py": "nòng", "en": "to make; to do (colloquial)"},
+        {"zh": "湿", "py": "shī", "en": "wet"},
+        {"zh": "重新", "py": "chóngxīn", "en": "again; anew"},
+        {"zh": "不见了", "py": "bú jiàn le", "en": "gone; disappeared"},
+        {"zh": "楼下", "py": "lóu xià", "en": "downstairs"},
+        {"zh": "蛋糕", "py": "dàngāo", "en": "cake"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (被 Passive Construction)",
+      "items": [
+        {"zh": "自行车被人骑走了。", "py": "Zìxíngchē bèi rén qí zǒu le.", "en": "被 + agent + verb + result: bike was ridden away"},
+        {"zh": "杯子被他打碎了。", "py": "Bēizi bèi tā dǎ suì le.", "en": "The cup was broken by him."},
+        {"zh": "书被借走了。", "py": "Shū bèi jiè zǒu le.", "en": "The book was borrowed. (agent omitted)"},
+        {"zh": "衣服被雨淋湿了。", "py": "Yīfu bèi yǔ lín shī le.", "en": "The clothes got wet from the rain."},
+        {"zh": "钱被他花完了。", "py": "Qián bèi tā huā wán le.", "en": "The money was spent by him."}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "书被借走了。→ 钱被花完了。", "py": "Shū bèi jiè zǒu le. → Qián bèi huā wán le.", "en": "Book was borrowed. → Money was spent."},
+        {"zh": "蛋糕被吃完了。", "py": "Dàngāo bèi chī wán le.", "en": "The cake was eaten up."},
+        {"zh": "窗户被风吹开了。", "py": "Chuānghu bèi fēng chuī kāi le.", "en": "The window was blown open by the wind."},
+        {"zh": "他的手机被偷了。", "py": "Tā de shǒujī bèi tōu le.", "en": "His phone was stolen."},
+        {"zh": "门被关上了。", "py": "Mén bèi guān shang le.", "en": "The door was closed."}
+      ]
+    }
+  ]
+}

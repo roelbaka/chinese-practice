@@ -1,0 +1,361 @@
+{
+  "title": "第十四课 · 你换了人民币没有",
+  "subtitle": "Lesson 14 — 你换了人民币没有 · Have you exchanged RMB",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "你换了人民币没有？",
+          "py": "Nǐ huàn le rénmínbì méiyǒu?",
+          "en": "Have you exchanged RMB?"
+        },
+        {
+          "zh": "还没有呢。",
+          "py": "Hái méiyǒu ne.",
+          "en": "Not yet."
+        },
+        {
+          "zh": "今天的汇率是多少？",
+          "py": "Jīntiān de huìlǜ shì duōshao?",
+          "en": "What is today's exchange rate?"
+        },
+        {
+          "zh": "我要换五百美元。",
+          "py": "Wǒ yào huàn wǔbǎi měiyuán.",
+          "en": "I want to exchange 500 US dollars."
+        },
+        {
+          "zh": "请你数一数。",
+          "py": "Qǐng nǐ shǔ yi shǔ.",
+          "en": "Please count it."
+        },
+        {
+          "zh": "你在哪儿换的？",
+          "py": "Nǐ zài nǎr huàn de?",
+          "en": "Where did you exchange it?"
+        },
+        {
+          "zh": "在中国银行换的。",
+          "py": "Zài Zhōngguó Yínháng huàn de.",
+          "en": "I exchanged it at the Bank of China."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (At the Bank)",
+      "items": [
+        {
+          "zh": "大卫：请问，这儿可以换钱吗？",
+          "py": "Dàwèi: Qǐngwèn, zhèr kěyǐ huàn qián ma?",
+          "en": "David: Excuse me, can I exchange money here?"
+        },
+        {
+          "zh": "职员：可以。您要换什么？",
+          "py": "Zhíyuán: Kěyǐ. Nín yào huàn shénme?",
+          "en": "Staff: Yes. What do you want to exchange?"
+        },
+        {
+          "zh": "大卫：我要换人民币。",
+          "py": "Dàwèi: Wǒ yào huàn rénmínbì.",
+          "en": "David: I want to exchange for RMB."
+        },
+        {
+          "zh": "职员：换多少？",
+          "py": "Zhíyuán: Huàn duōshao?",
+          "en": "Staff: How much?"
+        },
+        {
+          "zh": "大卫：五百美元。今天的汇率是多少？",
+          "py": "Dàwèi: Wǔbǎi měiyuán. Jīntiān de huìlǜ shì duōshao?",
+          "en": "David: 500 US dollars. What's today's exchange rate?"
+        },
+        {
+          "zh": "职员：一美元换七块二。请先填一下这张表。",
+          "py": "Zhíyuán: Yī měiyuán huàn qī kuài èr. Qǐng xiān tián yīxià zhè zhāng biǎo.",
+          "en": "Staff: One dollar exchanges for 7.20 yuan. Please fill in this form first."
+        },
+        {
+          "zh": "大卫：好的。填好了。",
+          "py": "Dàwèi: Hǎo de. Tián hǎo le.",
+          "en": "David: OK. Done."
+        },
+        {
+          "zh": "职员：这是三千六百块。请你数一数。",
+          "py": "Zhíyuán: Zhè shì sānqiān liùbǎi kuài. Qǐng nǐ shǔ yi shǔ.",
+          "en": "Staff: Here is 3,600 yuan. Please count it."
+        },
+        {
+          "zh": "大卫：对了。谢谢！",
+          "py": "Dàwèi: Duì le. Xièxie!",
+          "en": "David: That's right. Thanks!"
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Have you exchanged?)",
+      "items": [
+        {
+          "zh": "玛丽：大卫，你换了人民币没有？",
+          "py": "Mǎlì: Dàwèi, nǐ huàn le rénmínbì méiyǒu?",
+          "en": "Mary: David, have you exchanged RMB?"
+        },
+        {
+          "zh": "大卫：换了。",
+          "py": "Dàwèi: Huàn le.",
+          "en": "David: Yes, I have."
+        },
+        {
+          "zh": "玛丽：你在哪儿换的？",
+          "py": "Mǎlì: Nǐ zài nǎr huàn de?",
+          "en": "Mary: Where did you exchange it?"
+        },
+        {
+          "zh": "大卫：在中国银行换的。",
+          "py": "Dàwèi: Zài Zhōngguó Yínháng huàn de.",
+          "en": "David: At the Bank of China."
+        },
+        {
+          "zh": "玛丽：我也想去换。你去了几次？",
+          "py": "Mǎlì: Wǒ yě xiǎng qù huàn. Nǐ qù le jǐ cì?",
+          "en": "Mary: I also want to go exchange. How many times have you been?"
+        },
+        {
+          "zh": "大卫：我去了一次。你还没有换呢？",
+          "py": "Dàwèi: Wǒ qù le yī cì. Nǐ hái méiyǒu huàn ne?",
+          "en": "David: I went once. You haven't exchanged yet?"
+        },
+        {
+          "zh": "玛丽：还没有呢。我明天去。",
+          "py": "Mǎlì: Hái méiyǒu ne. Wǒ míngtiān qù.",
+          "en": "Mary: Not yet. I'll go tomorrow."
+        },
+        {
+          "zh": "大卫：银行离学校不太远，坐公共汽车三站就到了。",
+          "py": "Dàwèi: Yínháng lí xuéxiào bú tài yuǎn, zuò gōnggòng qìchē sān zhàn jiù dào le.",
+          "en": "David: The bank isn't too far from school, just three stops by bus."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "换",
+          "py": "huàn",
+          "en": "to exchange; to change"
+        },
+        {
+          "zh": "人民币",
+          "py": "rénmínbì",
+          "en": "RMB (Chinese currency)"
+        },
+        {
+          "zh": "美元",
+          "py": "měiyuán",
+          "en": "US dollar"
+        },
+        {
+          "zh": "银行",
+          "py": "yínháng",
+          "en": "bank"
+        },
+        {
+          "zh": "汇率",
+          "py": "huìlǜ",
+          "en": "exchange rate"
+        },
+        {
+          "zh": "数",
+          "py": "shǔ",
+          "en": "to count"
+        },
+        {
+          "zh": "百",
+          "py": "bǎi",
+          "en": "hundred"
+        },
+        {
+          "zh": "千",
+          "py": "qiān",
+          "en": "thousand"
+        },
+        {
+          "zh": "次",
+          "py": "cì",
+          "en": "time (measure word for frequency)"
+        },
+        {
+          "zh": "填",
+          "py": "tián",
+          "en": "to fill in"
+        },
+        {
+          "zh": "张",
+          "py": "zhāng",
+          "en": "measure word for paper/tables"
+        },
+        {
+          "zh": "表",
+          "py": "biǎo",
+          "en": "form; table"
+        },
+        {
+          "zh": "先",
+          "py": "xiān",
+          "en": "first; before"
+        },
+        {
+          "zh": "对了",
+          "py": "duì le",
+          "en": "that's right; correct"
+        },
+        {
+          "zh": "站",
+          "py": "zhàn",
+          "en": "stop (bus stop)"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then; just (emphasis)"
+        },
+        {
+          "zh": "欧元",
+          "py": "ōuyuán",
+          "en": "euro"
+        },
+        {
+          "zh": "英镑",
+          "py": "yīngbàng",
+          "en": "British pound"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (V + 了...没有)",
+      "items": [
+        {
+          "zh": "你换了人民币没有？——换了。",
+          "py": "Nǐ huàn le rénmínbì méiyǒu? —— Huàn le.",
+          "en": "Have you exchanged RMB? — Yes."
+        },
+        {
+          "zh": "你吃了饭没有？——还没有呢。",
+          "py": "Nǐ chī le fàn méiyǒu? —— Hái méiyǒu ne.",
+          "en": "Have you eaten? — Not yet."
+        },
+        {
+          "zh": "他买了书没有？——买了。",
+          "py": "Tā mǎi le shū méiyǒu? —— Mǎi le.",
+          "en": "Has he bought the book? — Yes."
+        },
+        {
+          "zh": "你看了那个电影没有？",
+          "py": "Nǐ kàn le nàge diànyǐng méiyǒu?",
+          "en": "Have you seen that movie?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (是...的 Construction)",
+      "items": [
+        {
+          "zh": "你在哪儿换的？——在银行换的。",
+          "py": "Nǐ zài nǎr huàn de? —— Zài yínháng huàn de.",
+          "en": "Where did you exchange it? — At the bank."
+        },
+        {
+          "zh": "你在哪儿买的？——在商店买的。",
+          "py": "Nǐ zài nǎr mǎi de? —— Zài shāngdiàn mǎi de.",
+          "en": "Where did you buy it? — At the shop."
+        },
+        {
+          "zh": "你是什么时候来的？——昨天来的。",
+          "py": "Nǐ shì shénme shíhou lái de? —— Zuótiān lái de.",
+          "en": "When did you come? — Yesterday."
+        },
+        {
+          "zh": "他是怎么去的？——坐飞机去的。",
+          "py": "Tā shì zěnme qù de? —— Zuò fēijī qù de.",
+          "en": "How did he go? — By plane."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你换了人民币没有？",
+          "py": "Nǐ huàn le rénmínbì méiyǒu?",
+          "en": "Have you exchanged RMB?"
+        },
+        {
+          "zh": "你吃了早饭没有？",
+          "py": "Nǐ chī le zǎofàn méiyǒu?",
+          "en": "Have you had breakfast?"
+        },
+        {
+          "zh": "你做了作业没有？",
+          "py": "Nǐ zuò le zuòyè méiyǒu?",
+          "en": "Have you done your homework?"
+        },
+        {
+          "zh": "你买了票没有？",
+          "py": "Nǐ mǎi le piào méiyǒu?",
+          "en": "Have you bought the tickets?"
+        },
+        {
+          "zh": "你写了信没有？",
+          "py": "Nǐ xiě le xìn méiyǒu?",
+          "en": "Have you written the letter?"
+        },
+        {
+          "zh": "他是在北京学的汉语。",
+          "py": "Tā shì zài Běijīng xué de Hànyǔ.",
+          "en": "He studied Chinese in Beijing."
+        },
+        {
+          "zh": "她是坐飞机来的。",
+          "py": "Tā shì zuò fēijī lái de.",
+          "en": "She came by plane."
+        },
+        {
+          "zh": "我是去年来中国的。",
+          "py": "Wǒ shì qùnián lái Zhōngguó de.",
+          "en": "I came to China last year."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension Sentences",
+      "items": [
+        {
+          "zh": "这儿附近有银行吗？",
+          "py": "Zhèr fùjìn yǒu yínháng ma?",
+          "en": "Is there a bank nearby?"
+        },
+        {
+          "zh": "我要换一千欧元。",
+          "py": "Wǒ yào huàn yīqiān ōuyuán.",
+          "en": "I want to exchange 1,000 euros."
+        },
+        {
+          "zh": "今天的汇率比昨天好一点儿。",
+          "py": "Jīntiān de huìlǜ bǐ zuótiān hǎo yīdiǎnr.",
+          "en": "Today's exchange rate is a bit better than yesterday's."
+        },
+        {
+          "zh": "请问银行几点开门？",
+          "py": "Qǐngwèn yínháng jǐ diǎn kāi mén?",
+          "en": "What time does the bank open?"
+        },
+        {
+          "zh": "银行九点开门，五点关门。",
+          "py": "Yínháng jiǔ diǎn kāi mén, wǔ diǎn guān mén.",
+          "en": "The bank opens at 9 and closes at 5."
+        }
+      ]
+    }
+  ]
+}

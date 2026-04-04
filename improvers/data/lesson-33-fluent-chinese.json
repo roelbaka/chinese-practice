@@ -1,0 +1,80 @@
+{
+  "title": "第33课 · 他汉语说得很流利",
+  "subtitle": "Lesson 33 — 他汉语说得很流利 · He speaks Chinese very fluently",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 33)",
+      "items": [
+        {"zh": "他汉语说得很流利。", "py": "Tā Hànyǔ shuō de hěn liúlì.", "en": "He speaks Chinese very fluently."},
+        {"zh": "她唱歌唱得非常好。", "py": "Tā chàng gē chàng de fēicháng hǎo.", "en": "She sings very well."},
+        {"zh": "你跑得快不快？", "py": "Nǐ pǎo de kuài bu kuài?", "en": "Do you run fast?"},
+        {"zh": "他写汉字写得很漂亮。", "py": "Tā xiě Hànzì xiě de hěn piàoliang.", "en": "He writes Chinese characters beautifully."},
+        {"zh": "你睡得好不好？", "py": "Nǐ shuì de hǎo bu hǎo?", "en": "Did you sleep well?"},
+        {"zh": "我睡得不太好。", "py": "Wǒ shuì de bú tài hǎo.", "en": "I didn't sleep very well."}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Language Skills)",
+      "items": [
+        {"zh": "玛丽：大卫的汉语说得真流利。", "py": "Mǎlì: Dàwèi de Hànyǔ shuō de zhēn liúlì.", "en": "Mary: David speaks Chinese really fluently."},
+        {"zh": "和子：是啊，他的发音也很标准。", "py": "Hézǐ: Shì a, tā de fāyīn yě hěn biāozhǔn.", "en": "Hezi: Yes, his pronunciation is very standard too."},
+        {"zh": "玛丽：他每天都练习说汉语。", "py": "Mǎlì: Tā měi tiān dōu liànxí shuō Hànyǔ.", "en": "Mary: He practices speaking Chinese every day."},
+        {"zh": "和子：怪不得他说得那么好。你呢？", "py": "Hézǐ: Guàibude tā shuō de nàme hǎo. Nǐ ne?", "en": "Hezi: No wonder he speaks so well. And you?"},
+        {"zh": "玛丽：我说得不太好，可是写得还可以。", "py": "Mǎlì: Wǒ shuō de bú tài hǎo, kěshì xiě de hái kěyǐ.", "en": "Mary: I don't speak well, but I write OK."},
+        {"zh": "和子：我的听力不错，但是写汉字写得不好。", "py": "Hézǐ: Wǒ de tīnglì búcuò, dànshì xiě Hànzì xiě de bù hǎo.", "en": "Hezi: My listening is good, but I don't write characters well."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Daily Life)",
+      "items": [
+        {"zh": "刘京：大卫，你昨天睡得好不好？", "py": "Liú Jīng: Dàwèi, nǐ zuótiān shuì de hǎo bu hǎo?", "en": "Liu Jing: David, did you sleep well yesterday?"},
+        {"zh": "大卫：睡得不太好，邻居放音乐放得太大声了。", "py": "Dàwèi: Shuì de bú tài hǎo, línjū fàng yīnyuè fàng de tài dà shēng le.", "en": "David: Not well, my neighbor played music too loudly."},
+        {"zh": "刘京：那你今天一定很累。", "py": "Liú Jīng: Nà nǐ jīntiān yīdìng hěn lèi.", "en": "Liu Jing: You must be tired today then."},
+        {"zh": "大卫：是啊。我今天早上来得也很晚。", "py": "Dàwèi: Shì a. Wǒ jīntiān zǎoshang lái de yě hěn wǎn.", "en": "David: Yes. I also came very late this morning."},
+        {"zh": "刘京：你吃早饭了吗？", "py": "Liú Jīng: Nǐ chī zǎofàn le ma?", "en": "Liu Jing: Did you have breakfast?"},
+        {"zh": "大卫：没有，起得太晚了。", "py": "Dàwèi: Méiyǒu, qǐ de tài wǎn le.", "en": "David: No, I got up too late."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 33)",
+      "items": [
+        {"zh": "流利", "py": "liúlì", "en": "fluent; fluently"},
+        {"zh": "发音", "py": "fāyīn", "en": "pronunciation"},
+        {"zh": "标准", "py": "biāozhǔn", "en": "standard; correct"},
+        {"zh": "唱歌", "py": "chàng gē", "en": "to sing"},
+        {"zh": "跑", "py": "pǎo", "en": "to run"},
+        {"zh": "快", "py": "kuài", "en": "fast; quick"},
+        {"zh": "慢", "py": "màn", "en": "slow"},
+        {"zh": "清楚", "py": "qīngchu", "en": "clear; clearly"},
+        {"zh": "怪不得", "py": "guàibude", "en": "no wonder"},
+        {"zh": "邻居", "py": "línjū", "en": "neighbor"},
+        {"zh": "起", "py": "qǐ", "en": "to get up; to rise"},
+        {"zh": "睡觉", "py": "shuì jiào", "en": "to sleep"},
+        {"zh": "跳舞", "py": "tiào wǔ", "en": "to dance"},
+        {"zh": "弹钢琴", "py": "tán gāngqín", "en": "to play piano"},
+        {"zh": "那么", "py": "nàme", "en": "so; that (degree)"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Degree Complement: V得 + Adj)",
+      "items": [
+        {"zh": "他说得很流利。", "py": "Tā shuō de hěn liúlì.", "en": "He speaks very fluently. (V + 得 + adj)"},
+        {"zh": "她跳舞跳得很好。", "py": "Tā tiào wǔ tiào de hěn hǎo.", "en": "She dances very well. (VO + V + 得 + adj)"},
+        {"zh": "他说得不清楚。", "py": "Tā shuō de bù qīngchu.", "en": "He doesn't speak clearly. (negative)"},
+        {"zh": "你来得早不早？", "py": "Nǐ lái de zǎo bu zǎo?", "en": "Did you come early? (question)"},
+        {"zh": "他汉字写得怎么样？", "py": "Tā Hànzì xiě de zěnmeyàng?", "en": "How does he write characters?"}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "他汉语说得很流利。", "py": "Tā Hànyǔ shuō de hěn liúlì.", "en": "He speaks Chinese very fluently."},
+        {"zh": "她歌唱得很好。", "py": "Tā gē chàng de hěn hǎo.", "en": "She sings very well."},
+        {"zh": "他钢琴弹得不错。", "py": "Tā gāngqín tán de búcuò.", "en": "He plays piano quite well."},
+        {"zh": "她字写得很漂亮。", "py": "Tā zì xiě de hěn piàoliang.", "en": "She writes characters beautifully."},
+        {"zh": "你跑得快不快？——跑得很快。", "py": "Nǐ pǎo de kuài bu kuài? —— Pǎo de hěn kuài.", "en": "Do you run fast? — Very fast."},
+        {"zh": "你起得早不早？——起得很早。", "py": "Nǐ qǐ de zǎo bu zǎo? —— Qǐ de hěn zǎo.", "en": "Do you get up early? — Very early."}
+      ]
+    }
+  ]
+}

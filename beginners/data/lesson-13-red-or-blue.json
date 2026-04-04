@@ -1,0 +1,391 @@
+{
+  "title": "第十三课 · 要红的还是要蓝的",
+  "subtitle": "Lesson 13 — 要红的还是要蓝的 · Do you want the red one or the blue one",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "你要红的还是要蓝的？",
+          "py": "Nǐ yào hóng de háishi yào lán de?",
+          "en": "Do you want the red one or the blue one?"
+        },
+        {
+          "zh": "我试试可以吗？",
+          "py": "Wǒ shìshi kěyǐ ma?",
+          "en": "Can I try it on?"
+        },
+        {
+          "zh": "大了一点儿。",
+          "py": "Dà le yīdiǎnr.",
+          "en": "It's a bit too big."
+        },
+        {
+          "zh": "这件太小了。",
+          "py": "Zhè jiàn tài xiǎo le.",
+          "en": "This one is too small."
+        },
+        {
+          "zh": "有没有别的颜色？",
+          "py": "Yǒu méiyǒu bié de yánsè?",
+          "en": "Are there any other colors?"
+        },
+        {
+          "zh": "多少钱一件？",
+          "py": "Duōshao qián yī jiàn?",
+          "en": "How much per piece?"
+        },
+        {
+          "zh": "这件很合适。",
+          "py": "Zhè jiàn hěn héshì.",
+          "en": "This one fits well."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Buying a Sweater)",
+      "items": [
+        {
+          "zh": "玛丽：我想买件毛衣。",
+          "py": "Mǎlì: Wǒ xiǎng mǎi jiàn máoyī.",
+          "en": "Mary: I'd like to buy a sweater."
+        },
+        {
+          "zh": "售货员：您看看这件，颜色很好。",
+          "py": "Shòuhuòyuán: Nín kànkan zhè jiàn, yánsè hěn hǎo.",
+          "en": "Shop assistant: Take a look at this one, the color is nice."
+        },
+        {
+          "zh": "玛丽：我试试可以吗？",
+          "py": "Mǎlì: Wǒ shìshi kěyǐ ma?",
+          "en": "Mary: Can I try it on?"
+        },
+        {
+          "zh": "售货员：当然可以。",
+          "py": "Shòuhuòyuán: Dāngrán kěyǐ.",
+          "en": "Shop assistant: Of course."
+        },
+        {
+          "zh": "玛丽：大了一点儿。有没有小一号的？",
+          "py": "Mǎlì: Dà le yīdiǎnr. Yǒu méiyǒu xiǎo yī hào de?",
+          "en": "Mary: It's a bit too big. Is there one size smaller?"
+        },
+        {
+          "zh": "售货员：有。您再试试这件。",
+          "py": "Shòuhuòyuán: Yǒu. Nín zài shìshi zhè jiàn.",
+          "en": "Shop assistant: Yes. Try this one."
+        },
+        {
+          "zh": "玛丽：这件很合适。多少钱？",
+          "py": "Mǎlì: Zhè jiàn hěn héshì. Duōshao qián?",
+          "en": "Mary: This one fits well. How much?"
+        },
+        {
+          "zh": "售货员：一百二十块。",
+          "py": "Shòuhuòyuán: Yībǎi èrshí kuài.",
+          "en": "Shop assistant: 120 yuan."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Choosing Colors)",
+      "items": [
+        {
+          "zh": "大卫：我想买一件衬衫。",
+          "py": "Dàwèi: Wǒ xiǎng mǎi yī jiàn chènshān.",
+          "en": "David: I'd like to buy a shirt."
+        },
+        {
+          "zh": "售货员：您要什么颜色的？",
+          "py": "Shòuhuòyuán: Nín yào shénme yánsè de?",
+          "en": "Shop assistant: What color would you like?"
+        },
+        {
+          "zh": "大卫：有白的吗？",
+          "py": "Dàwèi: Yǒu bái de ma?",
+          "en": "David: Do you have white?"
+        },
+        {
+          "zh": "售货员：有。您看，这件白的怎么样？",
+          "py": "Shòuhuòyuán: Yǒu. Nín kàn, zhè jiàn bái de zěnmeyàng?",
+          "en": "Shop assistant: Yes. Look, how about this white one?"
+        },
+        {
+          "zh": "大卫：这件太小了。有大一号的吗？",
+          "py": "Dàwèi: Zhè jiàn tài xiǎo le. Yǒu dà yī hào de ma?",
+          "en": "David: This one is too small. Is there one size bigger?"
+        },
+        {
+          "zh": "售货员：白的没有了。要红的还是要蓝的？",
+          "py": "Shòuhuòyuán: Bái de méiyǒu le. Yào hóng de háishi yào lán de?",
+          "en": "Shop assistant: No more white ones. Red or blue?"
+        },
+        {
+          "zh": "大卫：我要蓝的。多少钱一件？",
+          "py": "Dàwèi: Wǒ yào lán de. Duōshao qián yī jiàn?",
+          "en": "David: I'll take the blue one. How much each?"
+        },
+        {
+          "zh": "售货员：八十五块。",
+          "py": "Shòuhuòyuán: Bāshíwǔ kuài.",
+          "en": "Shop assistant: 85 yuan."
+        },
+        {
+          "zh": "大卫：好，我买这件。",
+          "py": "Dàwèi: Hǎo, wǒ mǎi zhè jiàn.",
+          "en": "David: OK, I'll take this one."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "件",
+          "py": "jiàn",
+          "en": "measure word for clothes/items"
+        },
+        {
+          "zh": "毛衣",
+          "py": "máoyī",
+          "en": "sweater"
+        },
+        {
+          "zh": "衬衫",
+          "py": "chènshān",
+          "en": "shirt"
+        },
+        {
+          "zh": "试",
+          "py": "shì",
+          "en": "to try; to try on"
+        },
+        {
+          "zh": "合适",
+          "py": "héshì",
+          "en": "suitable; to fit"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "en": "size; number"
+        },
+        {
+          "zh": "颜色",
+          "py": "yánsè",
+          "en": "color"
+        },
+        {
+          "zh": "红",
+          "py": "hóng",
+          "en": "red"
+        },
+        {
+          "zh": "蓝",
+          "py": "lán",
+          "en": "blue"
+        },
+        {
+          "zh": "白",
+          "py": "bái",
+          "en": "white"
+        },
+        {
+          "zh": "黑",
+          "py": "hēi",
+          "en": "black"
+        },
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or (in questions)"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yīdiǎnr",
+          "en": "a little bit"
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "en": "again; once more"
+        },
+        {
+          "zh": "当然",
+          "py": "dāngrán",
+          "en": "of course; certainly"
+        },
+        {
+          "zh": "条",
+          "py": "tiáo",
+          "en": "measure word for trousers/scarves"
+        },
+        {
+          "zh": "裤子",
+          "py": "kùzi",
+          "en": "trousers; pants"
+        },
+        {
+          "zh": "鞋",
+          "py": "xié",
+          "en": "shoes"
+        },
+        {
+          "zh": "双",
+          "py": "shuāng",
+          "en": "pair (measure word)"
+        },
+        {
+          "zh": "长",
+          "py": "cháng",
+          "en": "long"
+        },
+        {
+          "zh": "短",
+          "py": "duǎn",
+          "en": "short (length)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (还是 Questions)",
+      "items": [
+        {
+          "zh": "你要红的还是蓝的？",
+          "py": "Nǐ yào hóng de háishi lán de?",
+          "en": "Do you want red or blue? (A 还是 B)"
+        },
+        {
+          "zh": "你喝咖啡还是茶？",
+          "py": "Nǐ hē kāfēi háishi chá?",
+          "en": "Do you drink coffee or tea?"
+        },
+        {
+          "zh": "他是老师还是学生？",
+          "py": "Tā shì lǎoshī háishi xuéshēng?",
+          "en": "Is he a teacher or a student?"
+        },
+        {
+          "zh": "你去还是不去？",
+          "py": "Nǐ qù háishi bú qù?",
+          "en": "Are you going or not?"
+        },
+        {
+          "zh": "你买大的还是小的？",
+          "py": "Nǐ mǎi dà de háishi xiǎo de?",
+          "en": "Are you buying a big one or a small one?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (太...了 & Adj + 了一点儿)",
+      "items": [
+        {
+          "zh": "这件太大了。",
+          "py": "Zhè jiàn tài dà le.",
+          "en": "This one is too big. (太 + adj + 了)"
+        },
+        {
+          "zh": "太贵了。",
+          "py": "Tài guì le.",
+          "en": "Too expensive."
+        },
+        {
+          "zh": "太小了。",
+          "py": "Tài xiǎo le.",
+          "en": "Too small."
+        },
+        {
+          "zh": "大了一点儿。",
+          "py": "Dà le yīdiǎnr.",
+          "en": "A bit too big. (adj + 了一点儿 = slightly too much)"
+        },
+        {
+          "zh": "长了一点儿。",
+          "py": "Cháng le yīdiǎnr.",
+          "en": "A bit too long."
+        },
+        {
+          "zh": "贵了一点儿。",
+          "py": "Guì le yīdiǎnr.",
+          "en": "A bit too expensive."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你要红的还是蓝的？",
+          "py": "Nǐ yào hóng de háishi lán de?",
+          "en": "Red or blue?"
+        },
+        {
+          "zh": "你要大的还是小的？",
+          "py": "Nǐ yào dà de háishi xiǎo de?",
+          "en": "Big or small?"
+        },
+        {
+          "zh": "你要长的还是短的？",
+          "py": "Nǐ yào cháng de háishi duǎn de?",
+          "en": "Long or short?"
+        },
+        {
+          "zh": "你要这件还是那件？",
+          "py": "Nǐ yào zhè jiàn háishi nà jiàn?",
+          "en": "This one or that one?"
+        },
+        {
+          "zh": "我想买件毛衣。",
+          "py": "Wǒ xiǎng mǎi jiàn máoyī.",
+          "en": "I'd like to buy a sweater."
+        },
+        {
+          "zh": "我想买条裤子。",
+          "py": "Wǒ xiǎng mǎi tiáo kùzi.",
+          "en": "I'd like to buy a pair of trousers."
+        },
+        {
+          "zh": "我想买双鞋。",
+          "py": "Wǒ xiǎng mǎi shuāng xié.",
+          "en": "I'd like to buy a pair of shoes."
+        },
+        {
+          "zh": "我想买件衬衫。",
+          "py": "Wǒ xiǎng mǎi jiàn chènshān.",
+          "en": "I'd like to buy a shirt."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension Sentences",
+      "items": [
+        {
+          "zh": "这件衣服的颜色很好看。",
+          "py": "Zhè jiàn yīfu de yánsè hěn hǎokàn.",
+          "en": "The color of this clothing is very nice."
+        },
+        {
+          "zh": "你穿多大号的？",
+          "py": "Nǐ chuān duō dà hào de?",
+          "en": "What size do you wear?"
+        },
+        {
+          "zh": "我穿中号的。",
+          "py": "Wǒ chuān zhōng hào de.",
+          "en": "I wear a medium."
+        },
+        {
+          "zh": "大号、中号、小号",
+          "py": "dà hào, zhōng hào, xiǎo hào",
+          "en": "large, medium, small"
+        },
+        {
+          "zh": "这件毛衣真漂亮！",
+          "py": "Zhè jiàn máoyī zhēn piàoliang!",
+          "en": "This sweater is really beautiful!"
+        }
+      ]
+    }
+  ]
+}

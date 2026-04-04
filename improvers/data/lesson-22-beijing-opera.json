@@ -1,0 +1,82 @@
+{
+  "title": "第22课 · 你看过京剧吗",
+  "subtitle": "Lesson 22 — 你看过京剧吗 · Have you seen Beijing Opera",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 22)",
+      "items": [
+        {"zh": "你看过京剧吗？", "py": "Nǐ kàn guo jīngjù ma?", "en": "Have you ever seen Beijing Opera?"},
+        {"zh": "我看过一次。", "py": "Wǒ kàn guo yī cì.", "en": "I've seen it once."},
+        {"zh": "我没去过长城。", "py": "Wǒ méi qù guo Chángchéng.", "en": "I've never been to the Great Wall."},
+        {"zh": "你吃过北京烤鸭吗？", "py": "Nǐ chī guo Běijīng kǎoyā ma?", "en": "Have you ever had Peking duck?"},
+        {"zh": "你听过中国音乐吗？", "py": "Nǐ tīng guo Zhōngguó yīnyuè ma?", "en": "Have you ever listened to Chinese music?"},
+        {"zh": "我从来没看过。", "py": "Wǒ cónglái méi kàn guo.", "en": "I've never seen it."}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Beijing Opera)",
+      "items": [
+        {"zh": "刘京：大卫，你看过京剧吗？", "py": "Liú Jīng: Dàwèi, nǐ kàn guo jīngjù ma?", "en": "Liu Jing: David, have you ever seen Beijing Opera?"},
+        {"zh": "大卫：没看过。听说很有意思。", "py": "Dàwèi: Méi kàn guo. Tīng shuō hěn yǒu yìsi.", "en": "David: No. I've heard it's very interesting."},
+        {"zh": "刘京：今天晚上有京剧表演，我们一起去看吧。", "py": "Liú Jīng: Jīntiān wǎnshang yǒu jīngjù biǎoyǎn, wǒmen yīqǐ qù kàn ba.", "en": "Liu Jing: There's a performance tonight, let's go watch."},
+        {"zh": "大卫：太好了！在哪儿？", "py": "Dàwèi: Tài hǎo le! Zài nǎr?", "en": "David: Great! Where?"},
+        {"zh": "刘京：在长安大戏院。你去过那儿吗？", "py": "Liú Jīng: Zài Cháng'ān Dà Xìyuàn. Nǐ qù guo nàr ma?", "en": "Liu Jing: At Chang'an Grand Theatre. Have you been there?"},
+        {"zh": "大卫：没去过。离这儿远吗？", "py": "Dàwèi: Méi qù guo. Lí zhèr yuǎn ma?", "en": "David: No. Is it far from here?"},
+        {"zh": "刘京：不远。我们坐地铁去吧。", "py": "Liú Jīng: Bù yuǎn. Wǒmen zuò dìtiě qù ba.", "en": "Liu Jing: Not far. Let's take the subway."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Peking Duck)",
+      "items": [
+        {"zh": "玛丽：和子，你吃过北京烤鸭吗？", "py": "Mǎlì: Hézǐ, nǐ chī guo Běijīng kǎoyā ma?", "en": "Mary: Hezi, have you ever had Peking duck?"},
+        {"zh": "和子：吃过。非常好吃。你呢？", "py": "Hézǐ: Chī guo. Fēicháng hǎo chī. Nǐ ne?", "en": "Hezi: Yes. It's delicious. You?"},
+        {"zh": "玛丽：我还没吃过呢。", "py": "Mǎlì: Wǒ hái méi chī guo ne.", "en": "Mary: I haven't had it yet."},
+        {"zh": "和子：那我们去全聚德吃吧！", "py": "Hézǐ: Nà wǒmen qù Quánjùdé chī ba!", "en": "Hezi: Let's go to Quanjude then!"},
+        {"zh": "玛丽：全聚德？我听说过那个饭馆儿。", "py": "Mǎlì: Quánjùdé? Wǒ tīng shuō guo nàge fànguǎnr.", "en": "Mary: Quanjude? I've heard of that restaurant."},
+        {"zh": "和子：是的，很有名。你去过长城吗？", "py": "Hézǐ: Shì de, hěn yǒumíng. Nǐ qù guo Chángchéng ma?", "en": "Hezi: Yes, it's famous. Have you been to the Great Wall?"},
+        {"zh": "玛丽：去过两次了。", "py": "Mǎlì: Qù guo liǎng cì le.", "en": "Mary: I've been twice."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 22)",
+      "items": [
+        {"zh": "过", "py": "guo", "en": "experiential aspect marker (ever)"},
+        {"zh": "京剧", "py": "jīngjù", "en": "Beijing Opera"},
+        {"zh": "表演", "py": "biǎoyǎn", "en": "performance; to perform"},
+        {"zh": "长城", "py": "Chángchéng", "en": "the Great Wall"},
+        {"zh": "北京烤鸭", "py": "Běijīng kǎoyā", "en": "Peking roast duck"},
+        {"zh": "听说", "py": "tīng shuō", "en": "to hear (that); it is said"},
+        {"zh": "有名", "py": "yǒumíng", "en": "famous"},
+        {"zh": "从来", "py": "cónglái", "en": "always; never (with 没)"},
+        {"zh": "饭馆儿", "py": "fànguǎnr", "en": "restaurant"},
+        {"zh": "戏院", "py": "xìyuàn", "en": "theatre"},
+        {"zh": "故宫", "py": "Gùgōng", "en": "the Forbidden City"},
+        {"zh": "颐和园", "py": "Yíhéyuán", "en": "the Summer Palace"},
+        {"zh": "天坛", "py": "Tiāntán", "en": "Temple of Heaven"},
+        {"zh": "功夫", "py": "gōngfu", "en": "kung fu; martial arts"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (过 Experience)",
+      "items": [
+        {"zh": "我去过中国。", "py": "Wǒ qù guo Zhōngguó.", "en": "I've been to China. (过 = at some time in the past)"},
+        {"zh": "我没去过日本。", "py": "Wǒ méi qù guo Rìběn.", "en": "I've never been to Japan. (没 + V + 过)"},
+        {"zh": "你看过这个电影吗？——看过。", "py": "Nǐ kàn guo zhège diànyǐng ma? —— Kàn guo.", "en": "Have you seen this movie? — Yes."},
+        {"zh": "他从来没喝过白酒。", "py": "Tā cónglái méi hē guo báijiǔ.", "en": "He has never drunk baijiu. (从来没...过)"},
+        {"zh": "你来过几次？——来过三次。", "py": "Nǐ lái guo jǐ cì? —— Lái guo sān cì.", "en": "How many times have you been here? — Three times."}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "你去过长城吗？——去过。", "py": "Nǐ qù guo Chángchéng ma? —— Qù guo.", "en": "Have you been to the Great Wall? — Yes."},
+        {"zh": "你去过故宫吗？——没去过。", "py": "Nǐ qù guo Gùgōng ma? —— Méi qù guo.", "en": "Have you been to the Forbidden City? — No."},
+        {"zh": "你去过颐和园吗？", "py": "Nǐ qù guo Yíhéyuán ma?", "en": "Have you been to the Summer Palace?"},
+        {"zh": "你去过天坛吗？", "py": "Nǐ qù guo Tiāntán ma?", "en": "Have you been to the Temple of Heaven?"},
+        {"zh": "你吃过饺子吗？——吃过。", "py": "Nǐ chī guo jiǎozi ma? —— Chī guo.", "en": "Have you eaten dumplings? — Yes."},
+        {"zh": "你学过太极拳吗？", "py": "Nǐ xué guo tàijíquán ma?", "en": "Have you studied tai chi?"},
+        {"zh": "你看过中国功夫电影吗？", "py": "Nǐ kàn guo Zhōngguó gōngfu diànyǐng ma?", "en": "Have you seen Chinese kung fu movies?"}
+      ]
+    }
+  ]
+}

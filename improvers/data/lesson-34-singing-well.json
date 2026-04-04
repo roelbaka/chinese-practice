@@ -1,0 +1,76 @@
+{
+  "title": "第34课 · 听说她唱得不错",
+  "subtitle": "Lesson 34 — 听说她唱得不错 · I heard she sings well",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 34)",
+      "items": [
+        {"zh": "听说她唱得不错。", "py": "Tīng shuō tā chàng de búcuò.", "en": "I heard she sings well."},
+        {"zh": "听说他要结婚了。", "py": "Tīng shuō tā yào jiéhūn le.", "en": "I heard he's getting married."},
+        {"zh": "据说那个地方很美。", "py": "Jù shuō nàge dìfang hěn měi.", "en": "It's said that place is very beautiful."},
+        {"zh": "大家都说这个老师教得好。", "py": "Dàjiā dōu shuō zhège lǎoshī jiāo de hǎo.", "en": "Everyone says this teacher teaches well."},
+        {"zh": "我听朋友说那个电影很好看。", "py": "Wǒ tīng péngyou shuō nàge diànyǐng hěn hǎokàn.", "en": "My friend told me that movie is very good."},
+        {"zh": "晚会什么时候开始？", "py": "Wǎnhuì shénme shíhou kāishǐ?", "en": "When does the party start?"}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Party)",
+      "items": [
+        {"zh": "刘京：周末有联欢会，你去吗？", "py": "Liú Jīng: Zhōumò yǒu liánhuānhuì, nǐ qù ma?", "en": "Liu Jing: There's a party this weekend, are you going?"},
+        {"zh": "大卫：什么联欢会？", "py": "Dàwèi: Shénme liánhuānhuì?", "en": "David: What party?"},
+        {"zh": "刘京：留学生联欢会。听说玛丽要唱歌。", "py": "Liú Jīng: Liúxuéshēng liánhuānhuì. Tīng shuō Mǎlì yào chàng gē.", "en": "Liu Jing: Exchange student party. I heard Mary is going to sing."},
+        {"zh": "大卫：听说她唱得不错。", "py": "Dàwèi: Tīng shuō tā chàng de búcuò.", "en": "David: I heard she sings well."},
+        {"zh": "刘京：和子也要跳舞呢。", "py": "Liú Jīng: Hézǐ yě yào tiào wǔ ne.", "en": "Liu Jing: Hezi is going to dance too."},
+        {"zh": "大卫：那一定很精彩。我一定去。", "py": "Dàwèi: Nà yīdìng hěn jīngcǎi. Wǒ yīdìng qù.", "en": "David: It must be wonderful. I'll definitely go."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Hearsay)",
+      "items": [
+        {"zh": "玛丽：听说张老师要去美国了？", "py": "Mǎlì: Tīng shuō Zhāng lǎoshī yào qù Měiguó le?", "en": "Mary: I heard Teacher Zhang is going to America?"},
+        {"zh": "和子：是的，听说她去做访问学者。", "py": "Hézǐ: Shì de, tīng shuō tā qù zuò fǎngwèn xuézhě.", "en": "Hezi: Yes, I heard she's going as a visiting scholar."},
+        {"zh": "玛丽：去多长时间？", "py": "Mǎlì: Qù duō cháng shíjiān?", "en": "Mary: How long?"},
+        {"zh": "和子：据说要去一年。", "py": "Hézǐ: Jù shuō yào qù yī nián.", "en": "Hezi: It's said she'll go for a year."},
+        {"zh": "玛丽：那我们应该去送送她。", "py": "Mǎlì: Nà wǒmen yīnggāi qù sòngsong tā.", "en": "Mary: Then we should go see her off."},
+        {"zh": "和子：好主意！我们送她一个礼物吧。", "py": "Hézǐ: Hǎo zhǔyi! Wǒmen sòng tā yī ge lǐwù ba.", "en": "Hezi: Good idea! Let's give her a gift."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 34)",
+      "items": [
+        {"zh": "听说", "py": "tīng shuō", "en": "I heard that; it's said"},
+        {"zh": "据说", "py": "jù shuō", "en": "it's said; reportedly"},
+        {"zh": "大家", "py": "dàjiā", "en": "everyone; everybody"},
+        {"zh": "联欢会", "py": "liánhuānhuì", "en": "party; get-together"},
+        {"zh": "晚会", "py": "wǎnhuì", "en": "evening party; gala"},
+        {"zh": "精彩", "py": "jīngcǎi", "en": "wonderful; brilliant"},
+        {"zh": "结婚", "py": "jiéhūn", "en": "to get married"},
+        {"zh": "访问学者", "py": "fǎngwèn xuézhě", "en": "visiting scholar"},
+        {"zh": "主意", "py": "zhǔyi", "en": "idea"},
+        {"zh": "节目", "py": "jiémù", "en": "program; show"},
+        {"zh": "表演", "py": "biǎoyǎn", "en": "to perform; performance"},
+        {"zh": "参加", "py": "cānjiā", "en": "to participate; to attend"},
+        {"zh": "周末", "py": "zhōumò", "en": "weekend"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (听说 / 据说 Hearsay)",
+      "items": [
+        {"zh": "听说他汉语说得很好。", "py": "Tīng shuō tā Hànyǔ shuō de hěn hǎo.", "en": "I heard he speaks Chinese well."},
+        {"zh": "据说那个饭馆儿很好吃。", "py": "Jù shuō nàge fànguǎnr hěn hǎo chī.", "en": "It's said that restaurant is delicious."},
+        {"zh": "我听同学说明天不上课。", "py": "Wǒ tīng tóngxué shuō míngtiān bú shàng kè.", "en": "A classmate told me no class tomorrow."},
+        {"zh": "听说明年他还要来中国。", "py": "Tīng shuō míngnián tā hái yào lái Zhōngguó.", "en": "I heard he'll come to China again next year."}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "听说她唱得不错。→听说他跳得很好。", "py": "Tīng shuō tā chàng de búcuò. → Tīng shuō tā tiào de hěn hǎo.", "en": "She sings well. → He dances well."},
+        {"zh": "听说明天有考试。", "py": "Tīng shuō míngtiān yǒu kǎoshì.", "en": "I heard there's an exam tomorrow."},
+        {"zh": "听说那个地方很美。", "py": "Tīng shuō nàge dìfang hěn měi.", "en": "I heard that place is beautiful."},
+        {"zh": "据说中国的高铁很快。", "py": "Jù shuō Zhōngguó de gāotiě hěn kuài.", "en": "It's said China's high-speed trains are very fast."},
+        {"zh": "据说这本小说写得很好。", "py": "Jù shuō zhè běn xiǎoshuō xiě de hěn hǎo.", "en": "It's said this novel is well-written."}
+      ]
+    }
+  ]
+}

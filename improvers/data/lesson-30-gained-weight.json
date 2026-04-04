@@ -1,0 +1,88 @@
+{
+  "title": "第30课 · 他胖了",
+  "subtitle": "Lesson 30 — 他胖了 · He's gained weight",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 30)",
+      "items": [
+        {"zh": "他胖了。", "py": "Tā pàng le.", "en": "He's gained weight."},
+        {"zh": "你的汉语水平提高了。", "py": "Nǐ de Hànyǔ shuǐpíng tígāo le.", "en": "Your Chinese level has improved."},
+        {"zh": "天气越来越暖和了。", "py": "Tiānqì yuè lái yuè nuǎnhuo le.", "en": "The weather is getting warmer and warmer."},
+        {"zh": "他瘦了很多。", "py": "Tā shòu le hěn duō.", "en": "He's lost a lot of weight."},
+        {"zh": "北京的变化真大。", "py": "Běijīng de biànhuà zhēn dà.", "en": "Beijing has changed so much."},
+        {"zh": "生活越来越好了。", "py": "Shēnghuó yuè lái yuè hǎo le.", "en": "Life is getting better and better."}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Changes)",
+      "items": [
+        {"zh": "刘京：大卫，好久不见！你胖了！", "py": "Liú Jīng: Dàwèi, hǎo jiǔ bú jiàn! Nǐ pàng le!", "en": "Liu Jing: David, long time no see! You've gained weight!"},
+        {"zh": "大卫：是吗？中国菜太好吃了。", "py": "Dàwèi: Shì ma? Zhōngguó cài tài hǎo chī le.", "en": "David: Really? Chinese food is too delicious."},
+        {"zh": "刘京：你的汉语也进步了很多。", "py": "Liú Jīng: Nǐ de Hànyǔ yě jìnbù le hěn duō.", "en": "Liu Jing: Your Chinese has also improved a lot."},
+        {"zh": "大卫：谢谢。你也变了，个子好像高了。", "py": "Dàwèi: Xièxie. Nǐ yě biàn le, gèzi hǎoxiàng gāo le.", "en": "David: Thanks. You've changed too, you seem taller."},
+        {"zh": "刘京：哈哈，我没长高，可能是你的错觉。", "py": "Liú Jīng: Hāhā, wǒ méi zhǎng gāo, kěnéng shì nǐ de cuòjué.", "en": "Liu Jing: Haha, I haven't grown, maybe it's your imagination."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Beijing Changes)",
+      "items": [
+        {"zh": "玛丽：和子，你觉得北京怎么样？", "py": "Mǎlì: Hézǐ, nǐ juéde Běijīng zěnmeyàng?", "en": "Mary: Hezi, what do you think of Beijing?"},
+        {"zh": "和子：北京的变化真大。", "py": "Hézǐ: Běijīng de biànhuà zhēn dà.", "en": "Hezi: Beijing has changed so much."},
+        {"zh": "玛丽：你上次来是什么时候？", "py": "Mǎlì: Nǐ shàng cì lái shì shénme shíhou?", "en": "Mary: When was the last time you came?"},
+        {"zh": "和子：三年前。那时候地铁线路没有这么多。", "py": "Hézǐ: Sān nián qián. Nà shíhou dìtiě xiànlù méiyǒu zhème duō.", "en": "Hezi: Three years ago. There weren't so many subway lines then."},
+        {"zh": "玛丽：现在越来越方便了。", "py": "Mǎlì: Xiànzài yuè lái yuè fāngbiàn le.", "en": "Mary: It's getting more and more convenient."},
+        {"zh": "和子：是的，生活越来越好了。", "py": "Hézǐ: Shì de, shēnghuó yuè lái yuè hǎo le.", "en": "Hezi: Yes, life is getting better and better."},
+        {"zh": "玛丽：天气也越来越暖和了。", "py": "Mǎlì: Tiānqì yě yuè lái yuè nuǎnhuo le.", "en": "Mary: The weather is also getting warmer and warmer."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 30)",
+      "items": [
+        {"zh": "胖", "py": "pàng", "en": "fat; to gain weight"},
+        {"zh": "瘦", "py": "shòu", "en": "thin; to lose weight"},
+        {"zh": "变", "py": "biàn", "en": "to change; to become"},
+        {"zh": "变化", "py": "biànhuà", "en": "change; transformation"},
+        {"zh": "越来越", "py": "yuè lái yuè", "en": "more and more"},
+        {"zh": "水平", "py": "shuǐpíng", "en": "level; standard"},
+        {"zh": "提高", "py": "tígāo", "en": "to improve; to raise"},
+        {"zh": "生活", "py": "shēnghuó", "en": "life; to live"},
+        {"zh": "方便", "py": "fāngbiàn", "en": "convenient"},
+        {"zh": "好久", "py": "hǎo jiǔ", "en": "a long time"},
+        {"zh": "好像", "py": "hǎoxiàng", "en": "to seem; it seems like"},
+        {"zh": "可能", "py": "kěnéng", "en": "maybe; possibly"},
+        {"zh": "上次", "py": "shàng cì", "en": "last time"},
+        {"zh": "以前", "py": "yǐqián", "en": "before; in the past"},
+        {"zh": "现在", "py": "xiànzài", "en": "now; at present"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (越来越 + Adj)",
+      "items": [
+        {"zh": "天气越来越冷了。", "py": "Tiānqì yuè lái yuè lěng le.", "en": "The weather is getting colder and colder."},
+        {"zh": "他的汉语越来越好了。", "py": "Tā de Hànyǔ yuè lái yuè hǎo le.", "en": "His Chinese is getting better and better."},
+        {"zh": "东西越来越贵了。", "py": "Dōngxi yuè lái yuè guì le.", "en": "Things are getting more and more expensive."},
+        {"zh": "她越来越漂亮了。", "py": "Tā yuè lái yuè piàoliang le.", "en": "She's getting prettier and prettier."},
+        {"zh": "路上的车越来越多了。", "py": "Lù shang de chē yuè lái yuè duō le.", "en": "There are more and more cars on the road."}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Adj + 了 Change of State)",
+      "items": [
+        {"zh": "他胖了。", "py": "Tā pàng le.", "en": "He's gotten fat. (了 = new situation)"},
+        {"zh": "天黑了。", "py": "Tiān hēi le.", "en": "It's gotten dark."},
+        {"zh": "我好了。", "py": "Wǒ hǎo le.", "en": "I'm better now."},
+        {"zh": "他的汉语进步了。", "py": "Tā de Hànyǔ jìnbù le.", "en": "His Chinese has improved. (changed state)"}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "他胖了。→ 他瘦了。", "py": "Tā pàng le. → Tā shòu le.", "en": "He got fat. → He got thin."},
+        {"zh": "天气暖和了。→ 天气冷了。", "py": "Tiānqì nuǎnhuo le. → Tiānqì lěng le.", "en": "It got warm. → It got cold."},
+        {"zh": "汉语越来越好了。", "py": "Hànyǔ yuè lái yuè hǎo le.", "en": "Chinese getting better and better."},
+        {"zh": "生活越来越方便了。", "py": "Shēnghuó yuè lái yuè fāngbiàn le.", "en": "Life getting more convenient."},
+        {"zh": "交通越来越方便了。", "py": "Jiāotōng yuè lái yuè fāngbiàn le.", "en": "Transportation getting more convenient."}
+      ]
+    }
+  ]
+}

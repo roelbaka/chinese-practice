@@ -382,7 +382,7 @@ function renderQuizControls() {
   const btn = document.createElement("button");
   btn.className = "quiz-next";
   btn.id = "quizNext";
-  btn.textContent = quizIndex + 1 < quizItems.length ? "Next →" : "Restart";
+  btn.textContent = quizIndex + 1 < quizItems.length ? "Next \u2192" : "Restart";
   container.appendChild(btn);
 
   btn.addEventListener("click", () => {

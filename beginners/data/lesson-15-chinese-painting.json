@@ -1,0 +1,361 @@
+{
+  "title": "第十五课 · 中国画很有意思",
+  "subtitle": "Lesson 15 — 中国画很有意思 · Chinese paintings are very interesting",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "中国画很有意思。",
+          "py": "Zhōngguó huà hěn yǒu yìsi.",
+          "en": "Chinese paintings are very interesting."
+        },
+        {
+          "zh": "你学了多长时间了？",
+          "py": "Nǐ xué le duō cháng shíjiān le?",
+          "en": "How long have you been studying?"
+        },
+        {
+          "zh": "她学了一年了。",
+          "py": "Tā xué le yī nián le.",
+          "en": "She has been studying for a year."
+        },
+        {
+          "zh": "你对什么感兴趣？",
+          "py": "Nǐ duì shénme gǎn xìngqù?",
+          "en": "What are you interested in?"
+        },
+        {
+          "zh": "我对中国文化很感兴趣。",
+          "py": "Wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.",
+          "en": "I'm very interested in Chinese culture."
+        },
+        {
+          "zh": "你会不会画中国画？",
+          "py": "Nǐ huì bu huì huà Zhōngguó huà?",
+          "en": "Can you paint Chinese paintings?"
+        },
+        {
+          "zh": "一点儿也不会。",
+          "py": "Yīdiǎnr yě bú huì.",
+          "en": "Not at all."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Chinese Culture)",
+      "items": [
+        {
+          "zh": "张老师：大卫，你对什么感兴趣？",
+          "py": "Zhāng lǎoshī: Dàwèi, nǐ duì shénme gǎn xìngqù?",
+          "en": "Teacher Zhang: David, what are you interested in?"
+        },
+        {
+          "zh": "大卫：我对中国文化很感兴趣。",
+          "py": "Dàwèi: Wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.",
+          "en": "David: I'm very interested in Chinese culture."
+        },
+        {
+          "zh": "张老师：你喜欢中国画吗？",
+          "py": "Zhāng lǎoshī: Nǐ xǐhuan Zhōngguó huà ma?",
+          "en": "Teacher Zhang: Do you like Chinese paintings?"
+        },
+        {
+          "zh": "大卫：很喜欢。中国画很有意思。",
+          "py": "Dàwèi: Hěn xǐhuan. Zhōngguó huà hěn yǒu yìsi.",
+          "en": "David: Very much. Chinese paintings are very interesting."
+        },
+        {
+          "zh": "张老师：你会不会画中国画？",
+          "py": "Zhāng lǎoshī: Nǐ huì bu huì huà Zhōngguó huà?",
+          "en": "Teacher Zhang: Can you paint Chinese paintings?"
+        },
+        {
+          "zh": "大卫：一点儿也不会。我想学。",
+          "py": "Dàwèi: Yīdiǎnr yě bú huì. Wǒ xiǎng xué.",
+          "en": "David: Not at all. I'd like to learn."
+        },
+        {
+          "zh": "张老师：我可以教你。",
+          "py": "Zhāng lǎoshī: Wǒ kěyǐ jiāo nǐ.",
+          "en": "Teacher Zhang: I can teach you."
+        },
+        {
+          "zh": "大卫：太好了！谢谢张老师。",
+          "py": "Dàwèi: Tài hǎo le! Xièxie Zhāng lǎoshī.",
+          "en": "David: Great! Thank you, Teacher Zhang."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (How long?)",
+      "items": [
+        {
+          "zh": "大卫：和子，你学汉语学了多长时间了？",
+          "py": "Dàwèi: Hézǐ, nǐ xué Hànyǔ xué le duō cháng shíjiān le?",
+          "en": "David: Hezi, how long have you been studying Chinese?"
+        },
+        {
+          "zh": "和子：我学了一年了。",
+          "py": "Hézǐ: Wǒ xué le yī nián le.",
+          "en": "Hezi: I've been studying for a year."
+        },
+        {
+          "zh": "大卫：你的汉语说得很好。",
+          "py": "Dàwèi: Nǐ de Hànyǔ shuō de hěn hǎo.",
+          "en": "David: You speak Chinese very well."
+        },
+        {
+          "zh": "和子：哪里，说得不太好。你也学了一年吗？",
+          "py": "Hézǐ: Nǎli, shuō de bú tài hǎo. Nǐ yě xué le yī nián ma?",
+          "en": "Hezi: Not really, I don't speak well. Have you also studied for a year?"
+        },
+        {
+          "zh": "大卫：没有，我才学了半年。",
+          "py": "Dàwèi: Méiyǒu, wǒ cái xué le bàn nián.",
+          "en": "David: No, I've only studied for half a year."
+        },
+        {
+          "zh": "和子：是吗？你的汉语也不错啊。",
+          "py": "Hézǐ: Shì ma? Nǐ de Hànyǔ yě búcuò a.",
+          "en": "Hezi: Really? Your Chinese is also good."
+        },
+        {
+          "zh": "大卫：我每天都练习，可是汉字太难了。",
+          "py": "Dàwèi: Wǒ měi tiān dōu liànxí, kěshì Hànzì tài nán le.",
+          "en": "David: I practice every day, but Chinese characters are too hard."
+        },
+        {
+          "zh": "和子：是的，汉字是不太容易。",
+          "py": "Hézǐ: Shì de, Hànzì shì bú tài róngyì.",
+          "en": "Hezi: Yes, characters are not so easy."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "画",
+          "py": "huà",
+          "en": "to paint; painting"
+        },
+        {
+          "zh": "有意思",
+          "py": "yǒu yìsi",
+          "en": "interesting"
+        },
+        {
+          "zh": "感兴趣",
+          "py": "gǎn xìngqù",
+          "en": "to be interested in"
+        },
+        {
+          "zh": "文化",
+          "py": "wénhuà",
+          "en": "culture"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can; to be able to (learned skill)"
+        },
+        {
+          "zh": "多长时间",
+          "py": "duō cháng shíjiān",
+          "en": "how long (duration)"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "才",
+          "py": "cái",
+          "en": "only; just (emphasis: less than expected)"
+        },
+        {
+          "zh": "对",
+          "py": "duì",
+          "en": "toward; to (preposition)"
+        },
+        {
+          "zh": "教",
+          "py": "jiāo",
+          "en": "to teach"
+        },
+        {
+          "zh": "汉字",
+          "py": "Hànzì",
+          "en": "Chinese characters"
+        },
+        {
+          "zh": "难",
+          "py": "nán",
+          "en": "difficult; hard"
+        },
+        {
+          "zh": "容易",
+          "py": "róngyì",
+          "en": "easy"
+        },
+        {
+          "zh": "练习",
+          "py": "liànxí",
+          "en": "to practice; exercise"
+        },
+        {
+          "zh": "历史",
+          "py": "lìshǐ",
+          "en": "history"
+        },
+        {
+          "zh": "音乐",
+          "py": "yīnyuè",
+          "en": "music"
+        },
+        {
+          "zh": "京剧",
+          "py": "jīngjù",
+          "en": "Beijing Opera"
+        },
+        {
+          "zh": "哪里",
+          "py": "nǎli",
+          "en": "not at all (modest reply to a compliment)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Duration: V + 了 + duration + 了)",
+      "items": [
+        {
+          "zh": "她学了一年了。",
+          "py": "Tā xué le yī nián le.",
+          "en": "She has been studying for a year. (still going on)"
+        },
+        {
+          "zh": "我来了三个月了。",
+          "py": "Wǒ lái le sān ge yuè le.",
+          "en": "I've been here for three months."
+        },
+        {
+          "zh": "他工作了两年了。",
+          "py": "Tā gōngzuò le liǎng nián le.",
+          "en": "He has been working for two years."
+        },
+        {
+          "zh": "我等了半个小时了。",
+          "py": "Wǒ děng le bàn ge xiǎoshí le.",
+          "en": "I've been waiting for half an hour."
+        },
+        {
+          "zh": "他学了多长时间了？——学了两年了。",
+          "py": "Tā xué le duō cháng shíjiān le? —— Xué le liǎng nián le.",
+          "en": "How long has he been studying? — Two years."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (一点儿也不/没...)",
+      "items": [
+        {
+          "zh": "一点儿也不会。",
+          "py": "Yīdiǎnr yě bú huì.",
+          "en": "Not at all (can't do it at all)."
+        },
+        {
+          "zh": "一点儿也不难。",
+          "py": "Yīdiǎnr yě bù nán.",
+          "en": "Not difficult at all."
+        },
+        {
+          "zh": "他一点儿也不累。",
+          "py": "Tā yīdiǎnr yě bú lèi.",
+          "en": "He's not tired at all."
+        },
+        {
+          "zh": "我一点儿也不饿。",
+          "py": "Wǒ yīdiǎnr yě bú è.",
+          "en": "I'm not hungry at all."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你对什么感兴趣？",
+          "py": "Nǐ duì shénme gǎn xìngqù?",
+          "en": "What are you interested in?"
+        },
+        {
+          "zh": "我对中国历史感兴趣。",
+          "py": "Wǒ duì Zhōngguó lìshǐ gǎn xìngqù.",
+          "en": "I'm interested in Chinese history."
+        },
+        {
+          "zh": "我对中国音乐感兴趣。",
+          "py": "Wǒ duì Zhōngguó yīnyuè gǎn xìngqù.",
+          "en": "I'm interested in Chinese music."
+        },
+        {
+          "zh": "我对京剧感兴趣。",
+          "py": "Wǒ duì jīngjù gǎn xìngqù.",
+          "en": "I'm interested in Beijing Opera."
+        },
+        {
+          "zh": "她学了一年了。",
+          "py": "Tā xué le yī nián le.",
+          "en": "She's been studying for a year."
+        },
+        {
+          "zh": "她学了半年了。",
+          "py": "Tā xué le bàn nián le.",
+          "en": "She's been studying for half a year."
+        },
+        {
+          "zh": "她学了两个月了。",
+          "py": "Tā xué le liǎng ge yuè le.",
+          "en": "She's been studying for two months."
+        },
+        {
+          "zh": "她学了三个星期了。",
+          "py": "Tā xué le sān ge xīngqī le.",
+          "en": "She's been studying for three weeks."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension Sentences",
+      "items": [
+        {
+          "zh": "你来中国多长时间了？",
+          "py": "Nǐ lái Zhōngguó duō cháng shíjiān le?",
+          "en": "How long have you been in China?"
+        },
+        {
+          "zh": "中国功夫你感兴趣吗？",
+          "py": "Zhōngguó gōngfu nǐ gǎn xìngqù ma?",
+          "en": "Are you interested in Chinese kung fu?"
+        },
+        {
+          "zh": "这本书很有意思，你看看吧。",
+          "py": "Zhè běn shū hěn yǒu yìsi, nǐ kànkan ba.",
+          "en": "This book is very interesting, have a look."
+        },
+        {
+          "zh": "没意思。",
+          "py": "Méi yìsi.",
+          "en": "Boring. / Not interesting."
+        },
+        {
+          "zh": "学汉语难不难？——不太难，可是汉字很难。",
+          "py": "Xué Hànyǔ nán bu nán? —— Bú tài nán, kěshì Hànzì hěn nán.",
+          "en": "Is learning Chinese hard? — Not too hard, but characters are hard."
+        }
+      ]
+    }
+  ]
+}

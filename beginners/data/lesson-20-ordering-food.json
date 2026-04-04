@@ -1,0 +1,501 @@
+{
+  "title": "第二十课 · 你要什么",
+  "subtitle": "Lesson 20 — 你要什么 · What would you like to order",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "你要什么？",
+          "py": "Nǐ yào shénme?",
+          "en": "What would you like (to order)?"
+        },
+        {
+          "zh": "来一个鱼香肉丝。",
+          "py": "Lái yī gè yúxiāng ròusī.",
+          "en": "I'll have a fish-flavored shredded pork."
+        },
+        {
+          "zh": "你们想喝点儿什么？",
+          "py": "Nǐmen xiǎng hē diǎnr shénme?",
+          "en": "What would you like to drink?"
+        },
+        {
+          "zh": "来两瓶啤酒。",
+          "py": "Lái liǎng píng píjiǔ.",
+          "en": "Two bottles of beer, please."
+        },
+        {
+          "zh": "菜够了吗？",
+          "py": "Cài gòu le ma?",
+          "en": "Is that enough dishes?"
+        },
+        {
+          "zh": "买单！",
+          "py": "Mǎi dān!",
+          "en": "Check, please!"
+        },
+        {
+          "zh": "味道怎么样？",
+          "py": "Wèidao zěnmeyàng?",
+          "en": "How does it taste?"
+        },
+        {
+          "zh": "好吃极了！",
+          "py": "Hǎo chī jí le!",
+          "en": "Extremely delicious!"
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (At the Restaurant)",
+      "items": [
+        {
+          "zh": "服务员：几位？",
+          "py": "Fúwùyuán: Jǐ wèi?",
+          "en": "Waiter: How many?"
+        },
+        {
+          "zh": "刘京：三位。",
+          "py": "Liú Jīng: Sān wèi.",
+          "en": "Liu Jing: Three."
+        },
+        {
+          "zh": "服务员：请坐。这是菜单。你们要什么？",
+          "py": "Fúwùyuán: Qǐng zuò. Zhè shì càidān. Nǐmen yào shénme?",
+          "en": "Waiter: Please sit down. Here's the menu. What would you like?"
+        },
+        {
+          "zh": "刘京：大卫，你想吃什么？",
+          "py": "Liú Jīng: Dàwèi, nǐ xiǎng chī shénme?",
+          "en": "Liu Jing: David, what would you like to eat?"
+        },
+        {
+          "zh": "大卫：我不太会点菜，你帮我点吧。",
+          "py": "Dàwèi: Wǒ bú tài huì diǎn cài, nǐ bāng wǒ diǎn ba.",
+          "en": "David: I can't really order, please help me."
+        },
+        {
+          "zh": "刘京：来一个鱼香肉丝、一个麻婆豆腐、一个宫保鸡丁。",
+          "py": "Liú Jīng: Lái yī gè yúxiāng ròusī, yī gè mápó dòufu, yī gè gōngbǎo jīdīng.",
+          "en": "Liu Jing: Fish-flavored pork, mapo tofu, and kung pao chicken."
+        },
+        {
+          "zh": "服务员：好的。你们想喝点儿什么？",
+          "py": "Fúwùyuán: Hǎo de. Nǐmen xiǎng hē diǎnr shénme?",
+          "en": "Waiter: OK. What would you like to drink?"
+        },
+        {
+          "zh": "刘京：来两瓶啤酒，一杯橙汁。",
+          "py": "Liú Jīng: Lái liǎng píng píjiǔ, yī bēi chéngzhī.",
+          "en": "Liu Jing: Two bottles of beer, and one orange juice."
+        },
+        {
+          "zh": "服务员：好的，请稍等。",
+          "py": "Fúwùyuán: Hǎo de, qǐng shāo děng.",
+          "en": "Waiter: OK, one moment please."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (During the Meal)",
+      "items": [
+        {
+          "zh": "刘京：大卫，尝尝这个菜。味道怎么样？",
+          "py": "Liú Jīng: Dàwèi, chángchang zhège cài. Wèidao zěnmeyàng?",
+          "en": "Liu Jing: David, try this dish. How does it taste?"
+        },
+        {
+          "zh": "大卫：好吃极了！",
+          "py": "Dàwèi: Hǎo chī jí le!",
+          "en": "David: Extremely delicious!"
+        },
+        {
+          "zh": "玛丽：这个麻婆豆腐太辣了。",
+          "py": "Mǎlì: Zhège mápó dòufu tài là le.",
+          "en": "Mary: This mapo tofu is too spicy."
+        },
+        {
+          "zh": "刘京：那你尝尝这个，不辣。",
+          "py": "Liú Jīng: Nà nǐ chángchang zhège, bú là.",
+          "en": "Liu Jing: Then try this one, it's not spicy."
+        },
+        {
+          "zh": "玛丽：嗯，这个不错。",
+          "py": "Mǎlì: Ǹg, zhège búcuò.",
+          "en": "Mary: Mm, this one is good."
+        },
+        {
+          "zh": "刘京：菜够了吗？再来一个汤吧。",
+          "py": "Liú Jīng: Cài gòu le ma? Zài lái yī gè tāng ba.",
+          "en": "Liu Jing: Enough dishes? Let's get a soup too."
+        },
+        {
+          "zh": "大卫：够了够了，太多了。",
+          "py": "Dàwèi: Gòu le gòu le, tài duō le.",
+          "en": "David: Enough, that's too much."
+        },
+        {
+          "zh": "刘京：服务员，买单！",
+          "py": "Liú Jīng: Fúwùyuán, mǎi dān!",
+          "en": "Liu Jing: Waiter, check please!"
+        },
+        {
+          "zh": "服务员：一共一百五十八块。",
+          "py": "Fúwùyuán: Yīgòng yībǎi wǔshíbā kuài.",
+          "en": "Waiter: 158 yuan in total."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "服务员",
+          "py": "fúwùyuán",
+          "en": "waiter; waitress"
+        },
+        {
+          "zh": "菜单",
+          "py": "càidān",
+          "en": "menu"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish; vegetable"
+        },
+        {
+          "zh": "点菜",
+          "py": "diǎn cài",
+          "en": "to order food"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to bring (informal: \"I'll have...\")"
+        },
+        {
+          "zh": "鱼香肉丝",
+          "py": "yúxiāng ròusī",
+          "en": "fish-flavored shredded pork"
+        },
+        {
+          "zh": "麻婆豆腐",
+          "py": "mápó dòufu",
+          "en": "mapo tofu"
+        },
+        {
+          "zh": "宫保鸡丁",
+          "py": "gōngbǎo jīdīng",
+          "en": "kung pao chicken"
+        },
+        {
+          "zh": "辣",
+          "py": "là",
+          "en": "spicy; hot"
+        },
+        {
+          "zh": "味道",
+          "py": "wèidao",
+          "en": "flavor; taste"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎo chī",
+          "en": "delicious; tasty"
+        },
+        {
+          "zh": "啤酒",
+          "py": "píjiǔ",
+          "en": "beer"
+        },
+        {
+          "zh": "橙汁",
+          "py": "chéngzhī",
+          "en": "orange juice"
+        },
+        {
+          "zh": "汤",
+          "py": "tāng",
+          "en": "soup"
+        },
+        {
+          "zh": "够",
+          "py": "gòu",
+          "en": "enough"
+        },
+        {
+          "zh": "买单",
+          "py": "mǎi dān",
+          "en": "to pay the bill; check please"
+        },
+        {
+          "zh": "一共",
+          "py": "yīgòng",
+          "en": "in total; altogether"
+        },
+        {
+          "zh": "稍",
+          "py": "shāo",
+          "en": "a little; slightly"
+        },
+        {
+          "zh": "极了",
+          "py": "jí le",
+          "en": "extremely (complement of degree)"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "en": "cooked rice"
+        },
+        {
+          "zh": "面条",
+          "py": "miàntiáo",
+          "en": "noodles"
+        },
+        {
+          "zh": "饺子",
+          "py": "jiǎozi",
+          "en": "dumplings"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (来 for Ordering)",
+      "items": [
+        {
+          "zh": "来一个鱼香肉丝。",
+          "py": "Lái yī gè yúxiāng ròusī.",
+          "en": "I'll have fish-flavored pork. (来 = informal \"bring\")"
+        },
+        {
+          "zh": "来两瓶啤酒。",
+          "py": "Lái liǎng píng píjiǔ.",
+          "en": "Two beers, please."
+        },
+        {
+          "zh": "再来一碗米饭。",
+          "py": "Zài lái yī wǎn mǐfàn.",
+          "en": "Another bowl of rice, please."
+        },
+        {
+          "zh": "来一碗面条。",
+          "py": "Lái yī wǎn miàntiáo.",
+          "en": "A bowl of noodles, please."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (极了 Complement)",
+      "items": [
+        {
+          "zh": "好吃极了！",
+          "py": "Hǎo chī jí le!",
+          "en": "Extremely delicious! (adj + 极了)"
+        },
+        {
+          "zh": "好看极了！",
+          "py": "Hǎokàn jí le!",
+          "en": "Extremely beautiful!"
+        },
+        {
+          "zh": "高兴极了！",
+          "py": "Gāoxìng jí le!",
+          "en": "Extremely happy!"
+        },
+        {
+          "zh": "热极了！",
+          "py": "Rè jí le!",
+          "en": "Extremely hot!"
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "来一个鱼香肉丝。",
+          "py": "Lái yī gè yúxiāng ròusī.",
+          "en": "I'll have fish-flavored pork."
+        },
+        {
+          "zh": "来一个麻婆豆腐。",
+          "py": "Lái yī gè mápó dòufu.",
+          "en": "I'll have mapo tofu."
+        },
+        {
+          "zh": "来一盘饺子。",
+          "py": "Lái yī pán jiǎozi.",
+          "en": "I'll have a plate of dumplings."
+        },
+        {
+          "zh": "来两碗米饭。",
+          "py": "Lái liǎng wǎn mǐfàn.",
+          "en": "Two bowls of rice, please."
+        },
+        {
+          "zh": "味道怎么样？——好吃极了！",
+          "py": "Wèidao zěnmeyàng? —— Hǎo chī jí le!",
+          "en": "How does it taste? — Extremely delicious!"
+        },
+        {
+          "zh": "味道怎么样？——太辣了。",
+          "py": "Wèidao zěnmeyàng? —— Tài là le.",
+          "en": "How does it taste? — Too spicy."
+        },
+        {
+          "zh": "味道怎么样？——不错。",
+          "py": "Wèidao zěnmeyàng? —— Búcuò.",
+          "en": "How does it taste? — Not bad."
+        },
+        {
+          "zh": "味道怎么样？——有点儿咸。",
+          "py": "Wèidao zěnmeyàng? —— Yǒudiǎnr xián.",
+          "en": "How does it taste? — A bit salty."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension Sentences",
+      "items": [
+        {
+          "zh": "你能吃辣的吗？",
+          "py": "Nǐ néng chī là de ma?",
+          "en": "Can you eat spicy food?"
+        },
+        {
+          "zh": "不要放味精。",
+          "py": "Bú yào fàng wèijīng.",
+          "en": "No MSG, please."
+        },
+        {
+          "zh": "这个菜是甜的还是咸的？",
+          "py": "Zhège cài shì tián de háishi xián de?",
+          "en": "Is this dish sweet or salty?"
+        },
+        {
+          "zh": "我请客。",
+          "py": "Wǒ qǐng kè.",
+          "en": "It's my treat."
+        },
+        {
+          "zh": "我们AA吧。",
+          "py": "Wǒmen AA ba.",
+          "en": "Let's split the bill."
+        }
+      ]
+    },
+    {
+      "topic": "中国菜 · Chinese Dishes",
+      "items": [
+        {
+          "zh": "糖醋排骨",
+          "py": "tángcù páigǔ",
+          "en": "sweet and sour spare ribs"
+        },
+        {
+          "zh": "红烧肉",
+          "py": "hóngshāo ròu",
+          "en": "braised pork belly"
+        },
+        {
+          "zh": "炒饭",
+          "py": "chǎo fàn",
+          "en": "fried rice"
+        },
+        {
+          "zh": "炒面",
+          "py": "chǎo miàn",
+          "en": "fried noodles"
+        },
+        {
+          "zh": "酸辣汤",
+          "py": "suānlà tāng",
+          "en": "hot and sour soup"
+        },
+        {
+          "zh": "青菜",
+          "py": "qīngcài",
+          "en": "green vegetables"
+        },
+        {
+          "zh": "鸡蛋",
+          "py": "jīdàn",
+          "en": "egg"
+        },
+        {
+          "zh": "牛肉",
+          "py": "niúròu",
+          "en": "beef"
+        },
+        {
+          "zh": "猪肉",
+          "py": "zhūròu",
+          "en": "pork"
+        },
+        {
+          "zh": "鸡肉",
+          "py": "jīròu",
+          "en": "chicken"
+        },
+        {
+          "zh": "鱼",
+          "py": "yú",
+          "en": "fish"
+        },
+        {
+          "zh": "豆腐",
+          "py": "dòufu",
+          "en": "tofu"
+        }
+      ]
+    },
+    {
+      "topic": "味道 · Flavors",
+      "items": [
+        {
+          "zh": "甜",
+          "py": "tián",
+          "en": "sweet"
+        },
+        {
+          "zh": "咸",
+          "py": "xián",
+          "en": "salty"
+        },
+        {
+          "zh": "酸",
+          "py": "suān",
+          "en": "sour"
+        },
+        {
+          "zh": "辣",
+          "py": "là",
+          "en": "spicy"
+        },
+        {
+          "zh": "苦",
+          "py": "kǔ",
+          "en": "bitter"
+        },
+        {
+          "zh": "淡",
+          "py": "dàn",
+          "en": "bland; light"
+        },
+        {
+          "zh": "油腻",
+          "py": "yóunì",
+          "en": "oily; greasy"
+        },
+        {
+          "zh": "清淡",
+          "py": "qīngdàn",
+          "en": "light (flavor)"
+        }
+      ]
+    }
+  ]
+}

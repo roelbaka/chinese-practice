@@ -1,0 +1,79 @@
+{
+  "title": "第27课 · 你在找什么呢",
+  "subtitle": "Lesson 27 — 你在找什么呢 · What are you looking for",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 27)",
+      "items": [
+        {"zh": "你在找什么呢？", "py": "Nǐ zài zhǎo shénme ne?", "en": "What are you looking for?"},
+        {"zh": "我在找我的钥匙。", "py": "Wǒ zài zhǎo wǒ de yàoshi.", "en": "I'm looking for my keys."},
+        {"zh": "他正在打电话呢。", "py": "Tā zhèngzài dǎ diànhuà ne.", "en": "He's on the phone right now."},
+        {"zh": "你在做什么呢？", "py": "Nǐ zài zuò shénme ne?", "en": "What are you doing?"},
+        {"zh": "我正在看书呢。", "py": "Wǒ zhèngzài kàn shū ne.", "en": "I'm reading right now."},
+        {"zh": "外面正在下雨呢。", "py": "Wàimiàn zhèngzài xià yǔ ne.", "en": "It's raining outside right now."}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Lost Keys)",
+      "items": [
+        {"zh": "刘京：大卫，你在找什么呢？", "py": "Liú Jīng: Dàwèi, nǐ zài zhǎo shénme ne?", "en": "Liu Jing: David, what are you looking for?"},
+        {"zh": "大卫：我在找我的钥匙。", "py": "Dàwèi: Wǒ zài zhǎo wǒ de yàoshi.", "en": "David: I'm looking for my keys."},
+        {"zh": "刘京：你的钥匙丢了？", "py": "Liú Jīng: Nǐ de yàoshi diū le?", "en": "Liu Jing: You lost your keys?"},
+        {"zh": "大卫：不知道放在哪儿了。", "py": "Dàwèi: Bù zhīdào fàng zài nǎr le.", "en": "David: I don't know where I put them."},
+        {"zh": "刘京：是不是在书包里？", "py": "Liú Jīng: Shì bu shì zài shūbāo lǐ?", "en": "Liu Jing: Could they be in your backpack?"},
+        {"zh": "大卫：让我看看。找到了！谢谢你！", "py": "Dàwèi: Ràng wǒ kànkan. Zhǎodào le! Xièxie nǐ!", "en": "David: Let me check. Found them! Thanks!"}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (What are you doing?)",
+      "items": [
+        {"zh": "玛丽：和子在吗？", "py": "Mǎlì: Hézǐ zài ma?", "en": "Mary: Is Hezi here?"},
+        {"zh": "同学：在。她正在看书呢。", "py": "Tóngxué: Zài. Tā zhèngzài kàn shū ne.", "en": "Classmate: Yes. She's reading right now."},
+        {"zh": "玛丽：和子，我们出去散步吧。", "py": "Mǎlì: Hézǐ, wǒmen chūqù sànbù ba.", "en": "Mary: Hezi, let's go for a walk."},
+        {"zh": "和子：现在不行，外面正在下雨呢。", "py": "Hézǐ: Xiànzài bù xíng, wàimiàn zhèngzài xià yǔ ne.", "en": "Hezi: Not now, it's raining outside."},
+        {"zh": "玛丽：那我们在宿舍聊天儿吧。", "py": "Mǎlì: Nà wǒmen zài sùshè liáotiānr ba.", "en": "Mary: Then let's chat in the dorm."},
+        {"zh": "和子：好啊。你在学什么呢？", "py": "Hézǐ: Hǎo a. Nǐ zài xué shénme ne?", "en": "Hezi: Sure. What are you studying?"},
+        {"zh": "玛丽：我在准备明天的考试。", "py": "Mǎlì: Wǒ zài zhǔnbèi míngtiān de kǎoshì.", "en": "Mary: I'm preparing for tomorrow's exam."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 27)",
+      "items": [
+        {"zh": "正在", "py": "zhèngzài", "en": "in the process of; right now doing"},
+        {"zh": "呢", "py": "ne", "en": "particle indicating ongoing action"},
+        {"zh": "钥匙", "py": "yàoshi", "en": "key"},
+        {"zh": "丢", "py": "diū", "en": "to lose"},
+        {"zh": "放", "py": "fàng", "en": "to put; to place"},
+        {"zh": "找到", "py": "zhǎodào", "en": "to find (successfully)"},
+        {"zh": "书包", "py": "shūbāo", "en": "schoolbag; backpack"},
+        {"zh": "行", "py": "xíng", "en": "OK; will do; feasible"},
+        {"zh": "聊天儿", "py": "liáotiānr", "en": "to chat"},
+        {"zh": "考试", "py": "kǎoshì", "en": "exam; test"},
+        {"zh": "知道", "py": "zhīdào", "en": "to know"},
+        {"zh": "手机", "py": "shǒujī", "en": "mobile phone"},
+        {"zh": "钱包", "py": "qiánbāo", "en": "wallet"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (正在/在...呢 Progressive)",
+      "items": [
+        {"zh": "他正在吃饭呢。", "py": "Tā zhèngzài chī fàn ne.", "en": "He's eating right now. (正在...呢 = in progress)"},
+        {"zh": "我在看电视。", "py": "Wǒ zài kàn diànshì.", "en": "I'm watching TV. (在 alone = ongoing)"},
+        {"zh": "他们正在上课呢。", "py": "Tāmen zhèngzài shàng kè ne.", "en": "They're in class right now."},
+        {"zh": "外面下雨呢。", "py": "Wàimiàn xià yǔ ne.", "en": "It's raining outside. (呢 alone = ongoing)"},
+        {"zh": "你在做什么呢？——我在写作业呢。", "py": "Nǐ zài zuò shénme ne? —— Wǒ zài xiě zuòyè ne.", "en": "What are you doing? — I'm doing homework."}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "你在做什么呢？——我在看书呢。", "py": "Nǐ zài zuò shénme ne? —— Wǒ zài kàn shū ne.", "en": "What are you doing? — I'm reading."},
+        {"zh": "你在做什么呢？——我在听音乐呢。", "py": "Nǐ zài zuò shénme ne? —— Wǒ zài tīng yīnyuè ne.", "en": "— I'm listening to music."},
+        {"zh": "你在做什么呢？——我在写信呢。", "py": "Nǐ zài zuò shénme ne? —— Wǒ zài xiě xìn ne.", "en": "— I'm writing a letter."},
+        {"zh": "我在找我的钥匙。", "py": "Wǒ zài zhǎo wǒ de yàoshi.", "en": "I'm looking for my keys."},
+        {"zh": "我在找我的手机。", "py": "Wǒ zài zhǎo wǒ de shǒujī.", "en": "I'm looking for my phone."},
+        {"zh": "我在找我的钱包。", "py": "Wǒ zài zhǎo wǒ de qiánbāo.", "en": "I'm looking for my wallet."}
+      ]
+    }
+  ]
+}

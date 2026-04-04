@@ -1,0 +1,84 @@
+{
+  "title": "第21课 · 你去哪儿了",
+  "subtitle": "Lesson 21 — 你去哪儿了 · Where did you go",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 21)",
+      "items": [
+        {"zh": "你昨天去哪儿了？", "py": "Nǐ zuótiān qù nǎr le?", "en": "Where did you go yesterday?"},
+        {"zh": "我去书店买书了。", "py": "Wǒ qù shūdiàn mǎi shū le.", "en": "I went to the bookstore to buy books."},
+        {"zh": "你买了什么？", "py": "Nǐ mǎi le shénme?", "en": "What did you buy?"},
+        {"zh": "我买了一本词典和两本小说。", "py": "Wǒ mǎi le yī běn cídiǎn hé liǎng běn xiǎoshuō.", "en": "I bought a dictionary and two novels."},
+        {"zh": "星期天你做了什么？", "py": "Xīngqītiān nǐ zuò le shénme?", "en": "What did you do on Sunday?"},
+        {"zh": "我跟朋友一起去公园了。", "py": "Wǒ gēn péngyou yīqǐ qù gōngyuán le.", "en": "I went to the park with friends."},
+        {"zh": "你在北京住了多长时间？", "py": "Nǐ zài Běijīng zhù le duō cháng shíjiān?", "en": "How long did you live in Beijing?"}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Weekend)",
+      "items": [
+        {"zh": "刘京：大卫，昨天你去哪儿了？我给你打电话，你不在。", "py": "Liú Jīng: Dàwèi, zuótiān nǐ qù nǎr le? Wǒ gěi nǐ dǎ diànhuà, nǐ bú zài.", "en": "Liu Jing: David, where did you go yesterday? I called, you weren't in."},
+        {"zh": "大卫：我去书店买书了。", "py": "Dàwèi: Wǒ qù shūdiàn mǎi shū le.", "en": "David: I went to the bookstore."},
+        {"zh": "刘京：你买了什么？", "py": "Liú Jīng: Nǐ mǎi le shénme?", "en": "Liu Jing: What did you buy?"},
+        {"zh": "大卫：我买了一本词典和两本小说。", "py": "Dàwèi: Wǒ mǎi le yī běn cídiǎn hé liǎng běn xiǎoshuō.", "en": "David: A dictionary and two novels."},
+        {"zh": "刘京：什么小说？", "py": "Liú Jīng: Shénme xiǎoshuō?", "en": "Liu Jing: What novels?"},
+        {"zh": "大卫：一本中文的，一本英文的。中文的太难了，我看不懂。", "py": "Dàwèi: Yī běn Zhōngwén de, yī běn Yīngwén de. Zhōngwén de tài nán le, wǒ kàn bu dǒng.", "en": "David: One Chinese, one English. The Chinese one is too hard, I can't understand it."},
+        {"zh": "刘京：慢慢看，别着急。", "py": "Liú Jīng: Mànman kàn, bié zhāojí.", "en": "Liu Jing: Read slowly, don't rush."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Sunday)",
+      "items": [
+        {"zh": "和子：星期天你做了什么？", "py": "Hézǐ: Xīngqītiān nǐ zuò le shénme?", "en": "Hezi: What did you do on Sunday?"},
+        {"zh": "玛丽：我跟朋友一起去公园了。", "py": "Mǎlì: Wǒ gēn péngyou yīqǐ qù gōngyuán le.", "en": "Mary: I went to the park with friends."},
+        {"zh": "和子：你们在那儿做了什么？", "py": "Hézǐ: Nǐmen zài nàr zuò le shénme?", "en": "Hezi: What did you do there?"},
+        {"zh": "玛丽：我们照了很多照片，还划了船。", "py": "Mǎlì: Wǒmen zhào le hěn duō zhàopiàn, hái huá le chuán.", "en": "Mary: We took lots of photos and went boating."},
+        {"zh": "和子：听起来很有意思。", "py": "Hézǐ: Tīng qǐlái hěn yǒu yìsi.", "en": "Hezi: Sounds very interesting."},
+        {"zh": "玛丽：是啊，你星期天做了什么？", "py": "Mǎlì: Shì a, nǐ xīngqītiān zuò le shénme?", "en": "Mary: Yes, what did you do on Sunday?"},
+        {"zh": "和子：我在宿舍看了一天的书。", "py": "Hézǐ: Wǒ zài sùshè kàn le yī tiān de shū.", "en": "Hezi: I spent the whole day reading in the dorm."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 21)",
+      "items": [
+        {"zh": "书店", "py": "shūdiàn", "en": "bookstore"},
+        {"zh": "词典", "py": "cídiǎn", "en": "dictionary"},
+        {"zh": "小说", "py": "xiǎoshuō", "en": "novel"},
+        {"zh": "公园", "py": "gōngyuán", "en": "park"},
+        {"zh": "照片", "py": "zhàopiàn", "en": "photo; photograph"},
+        {"zh": "照相", "py": "zhào xiàng", "en": "to take a photo"},
+        {"zh": "划船", "py": "huá chuán", "en": "to go boating"},
+        {"zh": "慢慢", "py": "mànman", "en": "slowly"},
+        {"zh": "着急", "py": "zhāojí", "en": "to worry; anxious"},
+        {"zh": "懂", "py": "dǒng", "en": "to understand"},
+        {"zh": "宿舍", "py": "sùshè", "en": "dormitory"},
+        {"zh": "一起", "py": "yīqǐ", "en": "together"},
+        {"zh": "跟", "py": "gēn", "en": "with; and"},
+        {"zh": "超市", "py": "chāoshì", "en": "supermarket"},
+        {"zh": "逛", "py": "guàng", "en": "to stroll; to window-shop"},
+        {"zh": "上网", "py": "shàng wǎng", "en": "to go online"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (了 Completed Action)",
+      "items": [
+        {"zh": "我买了一本书。", "py": "Wǒ mǎi le yī běn shū.", "en": "I bought a book. (了 after verb = completed)"},
+        {"zh": "他吃了早饭就走了。", "py": "Tā chī le zǎofàn jiù zǒu le.", "en": "He left after eating breakfast."},
+        {"zh": "我没有买词典。", "py": "Wǒ méiyǒu mǎi cídiǎn.", "en": "I didn't buy a dictionary. (没有, no 了)"},
+        {"zh": "你去了没有？——没去。", "py": "Nǐ qù le méiyǒu? —— Méi qù.", "en": "Did you go? — No."},
+        {"zh": "昨天下了一天的雨。", "py": "Zuótiān xià le yī tiān de yǔ.", "en": "It rained all day yesterday."}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "你昨天去哪儿了？——我去书店了。", "py": "Nǐ zuótiān qù nǎr le? —— Wǒ qù shūdiàn le.", "en": "Where did you go? — To the bookstore."},
+        {"zh": "你昨天去哪儿了？——我去超市了。", "py": "Nǐ zuótiān qù nǎr le? —— Wǒ qù chāoshì le.", "en": "Where did you go? — To the supermarket."},
+        {"zh": "你昨天去哪儿了？——我去朋友家了。", "py": "Nǐ zuótiān qù nǎr le? —— Wǒ qù péngyou jiā le.", "en": "Where did you go? — To a friend's house."},
+        {"zh": "星期天你做了什么？——我逛商店了。", "py": "Xīngqītiān nǐ zuò le shénme? —— Wǒ guàng shāngdiàn le.", "en": "What did you do Sunday? — I went shopping."},
+        {"zh": "星期天你做了什么？——我看电影了。", "py": "Xīngqītiān nǐ zuò le shénme? —— Wǒ kàn diànyǐng le.", "en": "What did you do Sunday? — I watched a movie."},
+        {"zh": "星期天你做了什么？——我上网了。", "py": "Xīngqītiān nǐ zuò le shénme? —— Wǒ shàng wǎng le.", "en": "What did you do Sunday? — I went online."}
+      ]
+    }
+  ]
+}

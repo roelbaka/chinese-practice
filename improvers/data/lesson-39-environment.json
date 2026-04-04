@@ -1,0 +1,77 @@
+{
+  "title": "第39课 · 我们应该保护环境",
+  "subtitle": "Lesson 39 — 我们应该保护环境 · We should protect the environment",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 39)",
+      "items": [
+        {"zh": "我们应该保护环境。", "py": "Wǒmen yīnggāi bǎohù huánjìng.", "en": "We should protect the environment."},
+        {"zh": "这里的空气不太好。", "py": "Zhèlǐ de kōngqì bú tài hǎo.", "en": "The air here is not very good."},
+        {"zh": "不要浪费水。", "py": "Bú yào làngfèi shuǐ.", "en": "Don't waste water."},
+        {"zh": "现在越来越多的人骑自行车上班。", "py": "Xiànzài yuè lái yuè duō de rén qí zìxíngchē shàng bān.", "en": "More and more people ride bikes to work."},
+        {"zh": "大家都应该少用塑料袋。", "py": "Dàjiā dōu yīnggāi shǎo yòng sùliào dài.", "en": "Everyone should use fewer plastic bags."},
+        {"zh": "垃圾要分类。", "py": "Lājī yào fēnlèi.", "en": "Trash should be sorted."}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Environment)",
+      "items": [
+        {"zh": "玛丽：今天天气不错，可是空气不太好。", "py": "Mǎlì: Jīntiān tiānqì búcuò, kěshì kōngqì bú tài hǎo.", "en": "Mary: The weather is nice today, but the air quality isn't great."},
+        {"zh": "和子：是的。我们应该保护环境。", "py": "Hézǐ: Shì de. Wǒmen yīnggāi bǎohù huánjìng.", "en": "Hezi: Yes. We should protect the environment."},
+        {"zh": "玛丽：你觉得怎样才能保护环境？", "py": "Mǎlì: Nǐ juéde zěnyàng cái néng bǎohù huánjìng?", "en": "Mary: How do you think we can protect the environment?"},
+        {"zh": "和子：少开车，多坐公共汽车或者骑自行车。", "py": "Hézǐ: Shǎo kāi chē, duō zuò gōnggòng qìchē huòzhě qí zìxíngchē.", "en": "Hezi: Drive less, take buses or ride bikes more."},
+        {"zh": "玛丽：对，还应该少用塑料袋。", "py": "Mǎlì: Duì, hái yīnggāi shǎo yòng sùliào dài.", "en": "Mary: Right, and use fewer plastic bags."},
+        {"zh": "和子：在日本，垃圾分类做得很好。", "py": "Hézǐ: Zài Rìběn, lājī fēnlèi zuò de hěn hǎo.", "en": "Hezi: In Japan, trash sorting is done very well."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Social Topics)",
+      "items": [
+        {"zh": "张老师：你们觉得中国最大的问题是什么？", "py": "Zhāng lǎoshī: Nǐmen juéde Zhōngguó zuì dà de wèntí shì shénme?", "en": "Teacher Zhang: What do you think China's biggest issue is?"},
+        {"zh": "大卫：我觉得交通问题很严重。", "py": "Dàwèi: Wǒ juéde jiāotōng wèntí hěn yánzhòng.", "en": "David: I think the traffic problem is serious."},
+        {"zh": "玛丽：环境污染也是一个大问题。", "py": "Mǎlì: Huánjìng wūrǎn yě shì yī gè dà wèntí.", "en": "Mary: Environmental pollution is also a big problem."},
+        {"zh": "张老师：你们说得都有道理。", "py": "Zhāng lǎoshī: Nǐmen shuō de dōu yǒu dàolǐ.", "en": "Teacher Zhang: You both make good points."},
+        {"zh": "和子：不过中国这几年进步很大。", "py": "Hézǐ: Búguò Zhōngguó zhè jǐ nián jìnbù hěn dà.", "en": "Hezi: However, China has made great progress these years."},
+        {"zh": "张老师：是的，大家都在努力。", "py": "Zhāng lǎoshī: Shì de, dàjiā dōu zài nǔlì.", "en": "Teacher Zhang: Yes, everyone is working hard."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 39)",
+      "items": [
+        {"zh": "保护", "py": "bǎohù", "en": "to protect"},
+        {"zh": "环境", "py": "huánjìng", "en": "environment"},
+        {"zh": "空气", "py": "kōngqì", "en": "air"},
+        {"zh": "浪费", "py": "làngfèi", "en": "to waste"},
+        {"zh": "塑料袋", "py": "sùliào dài", "en": "plastic bag"},
+        {"zh": "垃圾", "py": "lājī", "en": "trash; rubbish"},
+        {"zh": "分类", "py": "fēnlèi", "en": "to sort; to classify"},
+        {"zh": "污染", "py": "wūrǎn", "en": "pollution; to pollute"},
+        {"zh": "交通", "py": "jiāotōng", "en": "traffic; transportation"},
+        {"zh": "道理", "py": "dàolǐ", "en": "reason; logic"},
+        {"zh": "不过", "py": "búguò", "en": "however; but"},
+        {"zh": "或者", "py": "huòzhě", "en": "or (in statements)"},
+        {"zh": "节约", "py": "jiéyuē", "en": "to save; to economize"},
+        {"zh": "上班", "py": "shàng bān", "en": "to go to work"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (应该 Should / 或者 Or)",
+      "items": [
+        {"zh": "我们应该保护环境。", "py": "Wǒmen yīnggāi bǎohù huánjìng.", "en": "应该: should/ought to"},
+        {"zh": "你不应该浪费水。", "py": "Nǐ bù yīnggāi làngfèi shuǐ.", "en": "You shouldn't waste water."},
+        {"zh": "坐公共汽车或者骑自行车。", "py": "Zuò gōnggòng qìchē huòzhě qí zìxíngchē.", "en": "或者: or (in statements, not questions)"},
+        {"zh": "你喝咖啡还是茶？", "py": "Nǐ hē kāfēi háishi chá?", "en": "还是: or (in questions) — compare with 或者"}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "我们应该保护环境。", "py": "Wǒmen yīnggāi bǎohù huánjìng.", "en": "We should protect the environment."},
+        {"zh": "我们应该节约用水。", "py": "Wǒmen yīnggāi jiéyuē yòng shuǐ.", "en": "We should conserve water."},
+        {"zh": "我们应该多运动。", "py": "Wǒmen yīnggāi duō yùndòng.", "en": "We should exercise more."},
+        {"zh": "你可以坐地铁或者坐公共汽车。", "py": "Nǐ kěyǐ zuò dìtiě huòzhě zuò gōnggòng qìchē.", "en": "You can take the subway or bus."},
+        {"zh": "我们可以去公园或者去博物馆。", "py": "Wǒmen kěyǐ qù gōngyuán huòzhě qù bówùguǎn.", "en": "We can go to the park or the museum."}
+      ]
+    }
+  ]
+}

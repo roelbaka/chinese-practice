@@ -1,0 +1,82 @@
+{
+  "title": "第26课 · 这里可以照相吗",
+  "subtitle": "Lesson 26 — 这里可以照相吗 · Can we take photos here",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 26)",
+      "items": [
+        {"zh": "这里可以照相吗？", "py": "Zhèlǐ kěyǐ zhào xiàng ma?", "en": "Can we take photos here?"},
+        {"zh": "请你帮我照一张相。", "py": "Qǐng nǐ bāng wǒ zhào yī zhāng xiàng.", "en": "Please take a photo of me."},
+        {"zh": "故宫真壮观！", "py": "Gùgōng zhēn zhuàngguān!", "en": "The Forbidden City is magnificent!"},
+        {"zh": "我们在这儿照一张吧。", "py": "Wǒmen zài zhèr zhào yī zhāng ba.", "en": "Let's take a photo here."},
+        {"zh": "准备好了吗？笑一笑！", "py": "Zhǔnbèi hǎo le ma? Xiào yī xiào!", "en": "Ready? Smile!"},
+        {"zh": "这个地方非常漂亮。", "py": "Zhège dìfang fēicháng piàoliang.", "en": "This place is very beautiful."}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (At the Forbidden City)",
+      "items": [
+        {"zh": "大卫：故宫真壮观！我们在这儿照一张吧。", "py": "Dàwèi: Gùgōng zhēn zhuàngguān! Wǒmen zài zhèr zhào yī zhāng ba.", "en": "David: The Forbidden City is magnificent! Let's take a photo here."},
+        {"zh": "玛丽：好的。请问，这里可以照相吗？", "py": "Mǎlì: Hǎo de. Qǐngwèn, zhèlǐ kěyǐ zhào xiàng ma?", "en": "Mary: OK. Excuse me, can we take photos here?"},
+        {"zh": "工作人员：可以，但是不可以用闪光灯。", "py": "Gōngzuò rényuán: Kěyǐ, dànshì bù kěyǐ yòng shǎnguāngdēng.", "en": "Staff: Yes, but no flash photography."},
+        {"zh": "玛丽：好的，谢谢。大卫，你站在那儿。", "py": "Mǎlì: Hǎo de, xièxie. Dàwèi, nǐ zhàn zài nàr.", "en": "Mary: OK, thanks. David, stand over there."},
+        {"zh": "大卫：这样可以吗？", "py": "Dàwèi: Zhèyàng kěyǐ ma?", "en": "David: Is this OK?"},
+        {"zh": "玛丽：可以。准备好了吗？笑一笑！", "py": "Mǎlì: Kěyǐ. Zhǔnbèi hǎo le ma? Xiào yī xiào!", "en": "Mary: Yes. Ready? Smile!"},
+        {"zh": "大卫：再照一张！这次我们一起照。", "py": "Dàwèi: Zài zhào yī zhāng! Zhè cì wǒmen yīqǐ zhào.", "en": "David: Take another! This time we'll be in it together."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Sightseeing)",
+      "items": [
+        {"zh": "和子：这个地方非常漂亮。", "py": "Hézǐ: Zhège dìfang fēicháng piàoliang.", "en": "Hezi: This place is very beautiful."},
+        {"zh": "刘京：是啊，颐和园是北京最有名的公园。", "py": "Liú Jīng: Shì a, Yíhéyuán shì Běijīng zuì yǒumíng de gōngyuán.", "en": "Liu Jing: Yes, the Summer Palace is Beijing's most famous park."},
+        {"zh": "和子：请你帮我照一张相，好吗？", "py": "Hézǐ: Qǐng nǐ bāng wǒ zhào yī zhāng xiàng, hǎo ma?", "en": "Hezi: Please take a photo of me, OK?"},
+        {"zh": "刘京：没问题。你往左边站一点儿。", "py": "Liú Jīng: Méi wèntí. Nǐ wǎng zuǒbiān zhàn yīdiǎnr.", "en": "Liu Jing: No problem. Move a bit to the left."},
+        {"zh": "和子：这样好吗？", "py": "Hézǐ: Zhèyàng hǎo ma?", "en": "Hezi: Like this?"},
+        {"zh": "刘京：好，一、二、三，好了！", "py": "Liú Jīng: Hǎo, yī, èr, sān, hǎo le!", "en": "Liu Jing: Good, one, two, three, done!"},
+        {"zh": "和子：让我看看。照得真好！谢谢你。", "py": "Hézǐ: Ràng wǒ kànkan. Zhào de zhēn hǎo! Xièxie nǐ.", "en": "Hezi: Let me see. Great photo! Thank you."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 26)",
+      "items": [
+        {"zh": "照相", "py": "zhào xiàng", "en": "to take a photo"},
+        {"zh": "照片", "py": "zhàopiàn", "en": "photograph"},
+        {"zh": "壮观", "py": "zhuàngguān", "en": "magnificent; grand"},
+        {"zh": "笑", "py": "xiào", "en": "to smile; to laugh"},
+        {"zh": "地方", "py": "dìfang", "en": "place"},
+        {"zh": "闪光灯", "py": "shǎnguāngdēng", "en": "flash (photography)"},
+        {"zh": "但是", "py": "dànshì", "en": "but; however"},
+        {"zh": "用", "py": "yòng", "en": "to use"},
+        {"zh": "站", "py": "zhàn", "en": "to stand"},
+        {"zh": "这样", "py": "zhèyàng", "en": "like this; this way"},
+        {"zh": "让", "py": "ràng", "en": "to let; to allow"},
+        {"zh": "风景", "py": "fēngjǐng", "en": "scenery"},
+        {"zh": "名胜古迹", "py": "míngshèng gǔjì", "en": "scenic spots and historical sites"},
+        {"zh": "导游", "py": "dǎoyóu", "en": "tour guide"},
+        {"zh": "门票", "py": "ménpiào", "en": "entrance ticket"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (帮 + sb + V)",
+      "items": [
+        {"zh": "请你帮我照一张相。", "py": "Qǐng nǐ bāng wǒ zhào yī zhāng xiàng.", "en": "Please take a photo for me. (帮 + person + verb)"},
+        {"zh": "我帮你拿行李。", "py": "Wǒ bāng nǐ ná xíngli.", "en": "I'll carry your luggage for you."},
+        {"zh": "请帮我买一张票。", "py": "Qǐng bāng wǒ mǎi yī zhāng piào.", "en": "Please buy me a ticket."},
+        {"zh": "他帮我翻译了这篇文章。", "py": "Tā bāng wǒ fānyì le zhè piān wénzhāng.", "en": "He helped me translate this article."}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "这里可以照相吗？——可以。", "py": "Zhèlǐ kěyǐ zhào xiàng ma? —— Kěyǐ.", "en": "Can we take photos here? — Yes."},
+        {"zh": "这里可以抽烟吗？——不可以。", "py": "Zhèlǐ kěyǐ chōuyān ma? —— Bù kěyǐ.", "en": "Can we smoke here? — No."},
+        {"zh": "这里可以停车吗？", "py": "Zhèlǐ kěyǐ tíng chē ma?", "en": "Can we park here?"},
+        {"zh": "这里可以游泳吗？", "py": "Zhèlǐ kěyǐ yóu yǒng ma?", "en": "Can we swim here?"},
+        {"zh": "故宫真壮观！", "py": "Gùgōng zhēn zhuàngguān!", "en": "The Forbidden City is magnificent!"},
+        {"zh": "长城真壮观！", "py": "Chángchéng zhēn zhuàngguān!", "en": "The Great Wall is magnificent!"},
+        {"zh": "这个风景真漂亮！", "py": "Zhège fēngjǐng zhēn piàoliang!", "en": "This scenery is really beautiful!"}
+      ]
+    }
+  ]
+}

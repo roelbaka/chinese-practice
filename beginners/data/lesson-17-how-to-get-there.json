@@ -1,0 +1,336 @@
+{
+  "title": "第十七课 · 去动物园怎么走",
+  "subtitle": "Lesson 17 — 去动物园怎么走 · How to get to the zoo",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "去动物园怎么走？",
+          "py": "Qù dòngwùyuán zěnme zǒu?",
+          "en": "How do I get to the zoo?"
+        },
+        {
+          "zh": "坐公共汽车去。",
+          "py": "Zuò gōnggòng qìchē qù.",
+          "en": "Take the bus."
+        },
+        {
+          "zh": "先坐地铁，再换公共汽车。",
+          "py": "Xiān zuò dìtiě, zài huàn gōnggòng qìchē.",
+          "en": "First take the subway, then transfer to a bus."
+        },
+        {
+          "zh": "离这儿远不远？",
+          "py": "Lí zhèr yuǎn bu yuǎn?",
+          "en": "Is it far from here?"
+        },
+        {
+          "zh": "不太远，坐车二十分钟就到了。",
+          "py": "Bú tài yuǎn, zuò chē èrshí fēnzhōng jiù dào le.",
+          "en": "Not too far, 20 minutes by bus."
+        },
+        {
+          "zh": "你坐几路车？",
+          "py": "Nǐ zuò jǐ lù chē?",
+          "en": "Which bus number do you take?"
+        },
+        {
+          "zh": "到了，请下车。",
+          "py": "Dào le, qǐng xià chē.",
+          "en": "We're here, please get off."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Going to the Zoo)",
+      "items": [
+        {
+          "zh": "大卫：请问，去动物园怎么走？",
+          "py": "Dàwèi: Qǐngwèn, qù dòngwùyuán zěnme zǒu?",
+          "en": "David: Excuse me, how do I get to the zoo?"
+        },
+        {
+          "zh": "路人：你可以坐公共汽车去。",
+          "py": "Lùrén: Nǐ kěyǐ zuò gōnggòng qìchē qù.",
+          "en": "Passerby: You can take the bus."
+        },
+        {
+          "zh": "大卫：坐几路车？",
+          "py": "Dàwèi: Zuò jǐ lù chē?",
+          "en": "David: Which bus number?"
+        },
+        {
+          "zh": "路人：坐332路。",
+          "py": "Lùrén: Zuò sān-sān-èr lù.",
+          "en": "Passerby: Take the 332."
+        },
+        {
+          "zh": "大卫：离这儿远不远？",
+          "py": "Dàwèi: Lí zhèr yuǎn bu yuǎn?",
+          "en": "David: Is it far from here?"
+        },
+        {
+          "zh": "路人：不太远，坐车二十分钟就到了。",
+          "py": "Lùrén: Bú tài yuǎn, zuò chē èrshí fēnzhōng jiù dào le.",
+          "en": "Passerby: Not too far, 20 minutes by bus."
+        },
+        {
+          "zh": "大卫：车站在哪儿？",
+          "py": "Dàwèi: Chēzhàn zài nǎr?",
+          "en": "David: Where is the bus stop?"
+        },
+        {
+          "zh": "路人：往前走，到十字路口往右拐就是。",
+          "py": "Lùrén: Wǎng qián zǒu, dào shízì lùkǒu wǎng yòu guǎi jiù shì.",
+          "en": "Passerby: Go straight ahead, turn right at the crossroads."
+        },
+        {
+          "zh": "大卫：谢谢！",
+          "py": "Dàwèi: Xièxie!",
+          "en": "David: Thanks!"
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Taking the Subway)",
+      "items": [
+        {
+          "zh": "玛丽：请问，去天安门怎么走？",
+          "py": "Mǎlì: Qǐngwèn, qù Tiān'ānmén zěnme zǒu?",
+          "en": "Mary: Excuse me, how do I get to Tiananmen?"
+        },
+        {
+          "zh": "路人：你先坐地铁到西直门，再换二号线。",
+          "py": "Lùrén: Nǐ xiān zuò dìtiě dào Xīzhímén, zài huàn èr hào xiàn.",
+          "en": "Passerby: First take the subway to Xizhimen, then transfer to Line 2."
+        },
+        {
+          "zh": "玛丽：地铁站在哪儿？",
+          "py": "Mǎlì: Dìtiě zhàn zài nǎr?",
+          "en": "Mary: Where is the subway station?"
+        },
+        {
+          "zh": "路人：往前走五分钟就到了。",
+          "py": "Lùrén: Wǎng qián zǒu wǔ fēnzhōng jiù dào le.",
+          "en": "Passerby: Walk forward for 5 minutes and you'll be there."
+        },
+        {
+          "zh": "玛丽：也可以坐出租车去吗？",
+          "py": "Mǎlì: Yě kěyǐ zuò chūzū chē qù ma?",
+          "en": "Mary: Can I also take a taxi?"
+        },
+        {
+          "zh": "路人：可以，可是现在路上车太多了。",
+          "py": "Lùrén: Kěyǐ, kěshì xiànzài lù shang chē tài duō le.",
+          "en": "Passerby: Yes, but there's too much traffic right now."
+        },
+        {
+          "zh": "玛丽：那我还是坐地铁吧。谢谢！",
+          "py": "Mǎlì: Nà wǒ háishi zuò dìtiě ba. Xièxie!",
+          "en": "Mary: Then I'd better take the subway. Thanks!"
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "动物园",
+          "py": "dòngwùyuán",
+          "en": "zoo"
+        },
+        {
+          "zh": "公共汽车",
+          "py": "gōnggòng qìchē",
+          "en": "bus"
+        },
+        {
+          "zh": "地铁",
+          "py": "dìtiě",
+          "en": "subway; metro"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzū chē",
+          "en": "taxi"
+        },
+        {
+          "zh": "路",
+          "py": "lù",
+          "en": "road; route (bus number)"
+        },
+        {
+          "zh": "车站",
+          "py": "chēzhàn",
+          "en": "bus stop; station"
+        },
+        {
+          "zh": "路口",
+          "py": "lùkǒu",
+          "en": "intersection; crossroads"
+        },
+        {
+          "zh": "十字路口",
+          "py": "shízì lùkǒu",
+          "en": "crossroads"
+        },
+        {
+          "zh": "往",
+          "py": "wǎng",
+          "en": "toward; in the direction of"
+        },
+        {
+          "zh": "前",
+          "py": "qián",
+          "en": "front; forward"
+        },
+        {
+          "zh": "右",
+          "py": "yòu",
+          "en": "right"
+        },
+        {
+          "zh": "左",
+          "py": "zuǒ",
+          "en": "left"
+        },
+        {
+          "zh": "拐",
+          "py": "guǎi",
+          "en": "to turn"
+        },
+        {
+          "zh": "下车",
+          "py": "xià chē",
+          "en": "to get off (a vehicle)"
+        },
+        {
+          "zh": "上车",
+          "py": "shàng chē",
+          "en": "to get on (a vehicle)"
+        },
+        {
+          "zh": "到",
+          "py": "dào",
+          "en": "to arrive; to reach"
+        },
+        {
+          "zh": "线",
+          "py": "xiàn",
+          "en": "line (subway line)"
+        },
+        {
+          "zh": "路人",
+          "py": "lùrén",
+          "en": "passerby"
+        },
+        {
+          "zh": "骑",
+          "py": "qí",
+          "en": "to ride (a bike)"
+        },
+        {
+          "zh": "自行车",
+          "py": "zìxíngchē",
+          "en": "bicycle"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (先...再... / 先...然后...)",
+      "items": [
+        {
+          "zh": "先坐地铁，再换公共汽车。",
+          "py": "Xiān zuò dìtiě, zài huàn gōnggòng qìchē.",
+          "en": "First take the subway, then transfer to a bus."
+        },
+        {
+          "zh": "先往前走，再往右拐。",
+          "py": "Xiān wǎng qián zǒu, zài wǎng yòu guǎi.",
+          "en": "First go straight, then turn right."
+        },
+        {
+          "zh": "先吃饭，然后去上课。",
+          "py": "Xiān chī fàn, ránhòu qù shàng kè.",
+          "en": "First eat, then go to class."
+        },
+        {
+          "zh": "先写作业，再看电视。",
+          "py": "Xiān xiě zuòyè, zài kàn diànshì.",
+          "en": "First do homework, then watch TV."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "去动物园怎么走？",
+          "py": "Qù dòngwùyuán zěnme zǒu?",
+          "en": "How to get to the zoo?"
+        },
+        {
+          "zh": "去天安门怎么走？",
+          "py": "Qù Tiān'ānmén zěnme zǒu?",
+          "en": "How to get to Tiananmen?"
+        },
+        {
+          "zh": "去火车站怎么走？",
+          "py": "Qù huǒchē zhàn zěnme zǒu?",
+          "en": "How to get to the train station?"
+        },
+        {
+          "zh": "去医院怎么走？",
+          "py": "Qù yīyuàn zěnme zǒu?",
+          "en": "How to get to the hospital?"
+        },
+        {
+          "zh": "你坐公共汽车去。",
+          "py": "Nǐ zuò gōnggòng qìchē qù.",
+          "en": "Take the bus."
+        },
+        {
+          "zh": "你坐地铁去。",
+          "py": "Nǐ zuò dìtiě qù.",
+          "en": "Take the subway."
+        },
+        {
+          "zh": "你骑自行车去。",
+          "py": "Nǐ qí zìxíngchē qù.",
+          "en": "Go by bike."
+        },
+        {
+          "zh": "你坐出租车去。",
+          "py": "Nǐ zuò chūzū chē qù.",
+          "en": "Take a taxi."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension Sentences",
+      "items": [
+        {
+          "zh": "我每天骑自行车上学。",
+          "py": "Wǒ měi tiān qí zìxíngchē shàng xué.",
+          "en": "I ride a bicycle to school every day."
+        },
+        {
+          "zh": "从这儿到学校坐车要多长时间？",
+          "py": "Cóng zhèr dào xuéxiào zuò chē yào duō cháng shíjiān?",
+          "en": "How long does it take by bus from here to school?"
+        },
+        {
+          "zh": "大概要四十分钟。",
+          "py": "Dàgài yào sìshí fēnzhōng.",
+          "en": "About 40 minutes."
+        },
+        {
+          "zh": "走路去太远了。",
+          "py": "Zǒu lù qù tài yuǎn le.",
+          "en": "It's too far to walk."
+        }
+      ]
+    }
+  ]
+}

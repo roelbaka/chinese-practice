@@ -1,0 +1,346 @@
+{
+  "title": "第十六课 · 他做什么工作",
+  "subtitle": "Lesson 16 — 他做什么工作 · What work does he do",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "他做什么工作？",
+          "py": "Tā zuò shénme gōngzuò?",
+          "en": "What work does he do?"
+        },
+        {
+          "zh": "他是大夫。",
+          "py": "Tā shì dàifu.",
+          "en": "He is a doctor."
+        },
+        {
+          "zh": "她长得怎么样？",
+          "py": "Tā zhǎng de zěnmeyàng?",
+          "en": "What does she look like?"
+        },
+        {
+          "zh": "她个子不高也不矮。",
+          "py": "Tā gèzi bù gāo yě bù ǎi.",
+          "en": "She is neither tall nor short."
+        },
+        {
+          "zh": "她穿什么衣服？",
+          "py": "Tā chuān shénme yīfu?",
+          "en": "What is she wearing?"
+        },
+        {
+          "zh": "他看起来很年轻。",
+          "py": "Tā kàn qǐlái hěn niánqīng.",
+          "en": "He looks very young."
+        },
+        {
+          "zh": "他今年三十五岁。",
+          "py": "Tā jīnnián sānshíwǔ suì.",
+          "en": "He is thirty-five this year."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Describing Someone)",
+      "items": [
+        {
+          "zh": "玛丽：你认识那个人吗？",
+          "py": "Mǎlì: Nǐ rènshi nàge rén ma?",
+          "en": "Mary: Do you know that person?"
+        },
+        {
+          "zh": "大卫：哪个人？",
+          "py": "Dàwèi: Nǎge rén?",
+          "en": "David: Which person?"
+        },
+        {
+          "zh": "玛丽：穿白衬衫的那个人。",
+          "py": "Mǎlì: Chuān bái chènshān de nàge rén.",
+          "en": "Mary: The one wearing a white shirt."
+        },
+        {
+          "zh": "大卫：认识，他是我的朋友。",
+          "py": "Dàwèi: Rènshi, tā shì wǒ de péngyou.",
+          "en": "David: Yes, he's my friend."
+        },
+        {
+          "zh": "玛丽：他做什么工作？",
+          "py": "Mǎlì: Tā zuò shénme gōngzuò?",
+          "en": "Mary: What does he do?"
+        },
+        {
+          "zh": "大卫：他是大夫，在医院工作。",
+          "py": "Dàwèi: Tā shì dàifu, zài yīyuàn gōngzuò.",
+          "en": "David: He's a doctor; he works at a hospital."
+        },
+        {
+          "zh": "玛丽：他看起来很年轻。今年多大了？",
+          "py": "Mǎlì: Tā kàn qǐlái hěn niánqīng. Jīnnián duō dà le?",
+          "en": "Mary: He looks very young. How old is he?"
+        },
+        {
+          "zh": "大卫：他今年三十五岁。",
+          "py": "Dàwèi: Tā jīnnián sānshíwǔ suì.",
+          "en": "David: He's thirty-five this year."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (What does she look like?)",
+      "items": [
+        {
+          "zh": "大卫：请问，和子在吗？",
+          "py": "Dàwèi: Qǐngwèn, Hézǐ zài ma?",
+          "en": "David: Excuse me, is Hezi here?"
+        },
+        {
+          "zh": "职员：和子？她长得怎么样？",
+          "py": "Zhíyuán: Hézǐ? Tā zhǎng de zěnmeyàng?",
+          "en": "Staff: Hezi? What does she look like?"
+        },
+        {
+          "zh": "大卫：她个子不高也不矮，头发不太长。",
+          "py": "Dàwèi: Tā gèzi bù gāo yě bù ǎi, tóufa bú tài cháng.",
+          "en": "David: She's neither tall nor short, with not very long hair."
+        },
+        {
+          "zh": "职员：她今天穿什么衣服？",
+          "py": "Zhíyuán: Tā jīntiān chuān shénme yīfu?",
+          "en": "Staff: What is she wearing today?"
+        },
+        {
+          "zh": "大卫：她穿一件红毛衣。",
+          "py": "Dàwèi: Tā chuān yī jiàn hóng máoyī.",
+          "en": "David: She's wearing a red sweater."
+        },
+        {
+          "zh": "职员：哦，是不是那个日本留学生？",
+          "py": "Zhíyuán: Ó, shì bu shì nàge Rìběn liúxuéshēng?",
+          "en": "Staff: Oh, is it that Japanese exchange student?"
+        },
+        {
+          "zh": "大卫：对，就是她。",
+          "py": "Dàwèi: Duì, jiù shì tā.",
+          "en": "David: Yes, that's her."
+        },
+        {
+          "zh": "职员：她刚出去了。",
+          "py": "Zhíyuán: Tā gāng chūqù le.",
+          "en": "Staff: She just went out."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "work; job; to work"
+        },
+        {
+          "zh": "大夫",
+          "py": "dàifu",
+          "en": "doctor"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "长",
+          "py": "zhǎng",
+          "en": "to grow; to look (appearance)"
+        },
+        {
+          "zh": "个子",
+          "py": "gèzi",
+          "en": "height; stature"
+        },
+        {
+          "zh": "高",
+          "py": "gāo",
+          "en": "tall; high"
+        },
+        {
+          "zh": "矮",
+          "py": "ǎi",
+          "en": "short (height)"
+        },
+        {
+          "zh": "头发",
+          "py": "tóufa",
+          "en": "hair"
+        },
+        {
+          "zh": "穿",
+          "py": "chuān",
+          "en": "to wear; to put on"
+        },
+        {
+          "zh": "年轻",
+          "py": "niánqīng",
+          "en": "young"
+        },
+        {
+          "zh": "留学生",
+          "py": "liúxuéshēng",
+          "en": "international student"
+        },
+        {
+          "zh": "刚",
+          "py": "gāng",
+          "en": "just (a moment ago)"
+        },
+        {
+          "zh": "出去",
+          "py": "chūqù",
+          "en": "to go out"
+        },
+        {
+          "zh": "看起来",
+          "py": "kàn qǐlái",
+          "en": "to look like; to appear"
+        },
+        {
+          "zh": "律师",
+          "py": "lǜshī",
+          "en": "lawyer"
+        },
+        {
+          "zh": "工程师",
+          "py": "gōngchéngshī",
+          "en": "engineer"
+        },
+        {
+          "zh": "护士",
+          "py": "hùshi",
+          "en": "nurse"
+        },
+        {
+          "zh": "记者",
+          "py": "jìzhě",
+          "en": "journalist"
+        },
+        {
+          "zh": "胖",
+          "py": "pàng",
+          "en": "fat; plump"
+        },
+        {
+          "zh": "瘦",
+          "py": "shòu",
+          "en": "thin; slim"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "en": "pretty; beautiful"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (长得 + Description)",
+      "items": [
+        {
+          "zh": "她长得很漂亮。",
+          "py": "Tā zhǎng de hěn piàoliang.",
+          "en": "She looks very pretty."
+        },
+        {
+          "zh": "他长得很高。",
+          "py": "Tā zhǎng de hěn gāo.",
+          "en": "He is very tall."
+        },
+        {
+          "zh": "她长得怎么样？",
+          "py": "Tā zhǎng de zěnmeyàng?",
+          "en": "What does she look like?"
+        },
+        {
+          "zh": "他不高也不矮。",
+          "py": "Tā bù gāo yě bù ǎi.",
+          "en": "He's neither tall nor short. (不...也不... pattern)"
+        },
+        {
+          "zh": "她不胖也不瘦。",
+          "py": "Tā bú pàng yě bú shòu.",
+          "en": "She's neither fat nor thin."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "他做什么工作？——他是大夫。",
+          "py": "Tā zuò shénme gōngzuò? —— Tā shì dàifu.",
+          "en": "What does he do? — He's a doctor."
+        },
+        {
+          "zh": "她做什么工作？——她是律师。",
+          "py": "Tā zuò shénme gōngzuò? —— Tā shì lǜshī.",
+          "en": "What does she do? — She's a lawyer."
+        },
+        {
+          "zh": "你爸爸做什么工作？——他是工程师。",
+          "py": "Nǐ bàba zuò shénme gōngzuò? —— Tā shì gōngchéngshī.",
+          "en": "What does your father do? — He's an engineer."
+        },
+        {
+          "zh": "穿白衬衫的那个人。",
+          "py": "Chuān bái chènshān de nàge rén.",
+          "en": "The person wearing a white shirt."
+        },
+        {
+          "zh": "穿红毛衣的那个人。",
+          "py": "Chuān hóng máoyī de nàge rén.",
+          "en": "The person wearing a red sweater."
+        },
+        {
+          "zh": "穿黑裤子的那个人。",
+          "py": "Chuān hēi kùzi de nàge rén.",
+          "en": "The person wearing black trousers."
+        },
+        {
+          "zh": "她长得很高。",
+          "py": "Tā zhǎng de hěn gāo.",
+          "en": "She is very tall."
+        },
+        {
+          "zh": "他长得很瘦。",
+          "py": "Tā zhǎng de hěn shòu.",
+          "en": "He is very thin."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension Sentences",
+      "items": [
+        {
+          "zh": "他在哪个公司工作？",
+          "py": "Tā zài nǎge gōngsī gōngzuò?",
+          "en": "Which company does he work at?"
+        },
+        {
+          "zh": "那个戴眼镜的人是谁？",
+          "py": "Nàge dài yǎnjìng de rén shì shéi?",
+          "en": "Who is the person wearing glasses?"
+        },
+        {
+          "zh": "她是一个很好的护士。",
+          "py": "Tā shì yī gè hěn hǎo de hùshi.",
+          "en": "She is a very good nurse."
+        },
+        {
+          "zh": "他长得像他爸爸。",
+          "py": "Tā zhǎng de xiàng tā bàba.",
+          "en": "He looks like his father."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "title": "第十二课 · 她不在",
+  "subtitle": "Lesson 12 — 她不在 · She is not here",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "喂，请问王兰在吗？",
+          "py": "Wèi, qǐngwèn Wáng Lán zài ma?",
+          "en": "Hello, is Wang Lan there, please?"
+        },
+        {
+          "zh": "她不在。",
+          "py": "Tā bú zài.",
+          "en": "She's not here."
+        },
+        {
+          "zh": "请她给我回电话。",
+          "py": "Qǐng tā gěi wǒ huí diànhuà.",
+          "en": "Please ask her to call me back."
+        },
+        {
+          "zh": "您是哪位？",
+          "py": "Nín shì nǎ wèi?",
+          "en": "May I ask who is calling?"
+        },
+        {
+          "zh": "我是她同学。",
+          "py": "Wǒ shì tā tóngxué.",
+          "en": "I'm her classmate."
+        },
+        {
+          "zh": "请问您找谁？",
+          "py": "Qǐngwèn nín zhǎo shéi?",
+          "en": "Who are you looking for, please?"
+        },
+        {
+          "zh": "我可以留个口信吗？",
+          "py": "Wǒ kěyǐ liú ge kǒuxìn ma?",
+          "en": "May I leave a message?"
+        },
+        {
+          "zh": "她晚上回来。",
+          "py": "Tā wǎnshang huí lái.",
+          "en": "She'll come back this evening."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1",
+      "items": [
+        {
+          "zh": "玛丽：喂，请问王兰在吗？",
+          "py": "Mǎlì: Wèi, qǐngwèn Wáng Lán zài ma?",
+          "en": "Mary: Hello, is Wang Lan there, please?"
+        },
+        {
+          "zh": "王兰的妈妈：她不在。请问您是哪位？",
+          "py": "Wáng Lán de māma: Tā bú zài. Qǐngwèn nín shì nǎ wèi?",
+          "en": "Wang Lan's mother: She's not in. May I ask who is calling?"
+        },
+        {
+          "zh": "玛丽：我是她同学玛丽。",
+          "py": "Mǎlì: Wǒ shì tā tóngxué Mǎlì.",
+          "en": "Mary: I'm her classmate Mary."
+        },
+        {
+          "zh": "王兰的妈妈：您找她有事吗？",
+          "py": "Wáng Lán de māma: Nín zhǎo tā yǒu shì ma?",
+          "en": "Wang Lan's mother: Are you looking for her about something?"
+        },
+        {
+          "zh": "玛丽：对。请她给我回电话，好吗？",
+          "py": "Mǎlì: Duì. Qǐng tā gěi wǒ huí diànhuà, hǎo ma?",
+          "en": "Mary: Yes. Please ask her to call me back, OK?"
+        },
+        {
+          "zh": "王兰的妈妈：好的。她晚上回来，我告诉她。",
+          "py": "Wáng Lán de māma: Hǎo de. Tā wǎnshang huí lái, wǒ gàosu tā.",
+          "en": "Wang Lan's mother: All right. She'll be back this evening; I'll tell her."
+        },
+        {
+          "zh": "玛丽：谢谢！",
+          "py": "Mǎlì: Xièxie!",
+          "en": "Mary: Thank you!"
+        },
+        {
+          "zh": "王兰的妈妈：不客气。",
+          "py": "Wáng Lán de māma: Bú kèqi.",
+          "en": "Wang Lan's mother: You're welcome."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2",
+      "items": [
+        {
+          "zh": "职员：喂，您好！请问您找谁？",
+          "py": "Zhíyuán: Wèi, nín hǎo! Qǐngwèn nín zhǎo shéi?",
+          "en": "Staff: Hello! Who are you looking for, please?"
+        },
+        {
+          "zh": "大卫：请问李老师办公室的电话是多少？我想找李老师。",
+          "py": "Dàwèi: Qǐngwèn Lǐ lǎoshī bàngōngshì de diànhuà shì duōshao? Wǒ xiǎng zhǎo Lǐ lǎoshī.",
+          "en": "David: What's the phone number for Teacher Li's office? I'd like to reach Teacher Li."
+        },
+        {
+          "zh": "职员：李老师不在，他出去一会儿。",
+          "py": "Zhíyuán: Lǐ lǎoshī bú zài, tā chūqù yíhuìr.",
+          "en": "Staff: Teacher Li isn't in; he stepped out for a moment."
+        },
+        {
+          "zh": "大卫：我可以留个口信吗？",
+          "py": "Dàwèi: Wǒ kěyǐ liú ge kǒuxìn ma?",
+          "en": "David: May I leave a message?"
+        },
+        {
+          "zh": "职员：可以。请说。",
+          "py": "Zhíyuán: Kěyǐ. Qǐng shuō.",
+          "en": "Staff: Yes, go ahead."
+        },
+        {
+          "zh": "大卫：请告诉他给我回电话。我叫大卫。",
+          "py": "Dàwèi: Qǐng gàosu tā gěi wǒ huí diànhuà. Wǒ jiào Dàwèi.",
+          "en": "David: Please tell him to call me back. My name is David."
+        },
+        {
+          "zh": "职员：好的，我等李老师回来告诉他。",
+          "py": "Zhíyuán: Hǎo de, wǒ děng Lǐ lǎoshī huí lái gàosu tā.",
+          "en": "Staff: OK, I'll tell him when Teacher Li comes back."
+        },
+        {
+          "zh": "大卫：谢谢！",
+          "py": "Dàwèi: Xièxie!",
+          "en": "David: Thank you!"
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "喂",
+          "py": "wèi",
+          "en": "hello (on the phone)"
+        },
+        {
+          "zh": "位",
+          "py": "wèi",
+          "en": "polite measure word for people"
+        },
+        {
+          "zh": "找",
+          "py": "zhǎo",
+          "en": "to look for"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "to return"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "to wait"
+        },
+        {
+          "zh": "留",
+          "py": "liú",
+          "en": "to leave (behind)"
+        },
+        {
+          "zh": "口信",
+          "py": "kǒuxìn",
+          "en": "verbal message"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "en": "may; can (permission or possibility)"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "en": "classmate"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "en": "to make a phone call"
+        },
+        {
+          "zh": "回来",
+          "py": "huí lái",
+          "en": "to come back"
+        },
+        {
+          "zh": "告诉",
+          "py": "gàosu",
+          "en": "to tell"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "en": "evening; night"
+        },
+        {
+          "zh": "一会儿",
+          "py": "yíhuìr",
+          "en": "a moment; a little while"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar",
+      "items": [
+        {
+          "zh": "请她给我回电话。",
+          "py": "Qǐng tā gěi wǒ huí diànhuà.",
+          "en": "给 as preposition \"for / to\": ask her to return the call to me."
+        },
+        {
+          "zh": "我给她一本书。",
+          "py": "Wǒ gěi tā yī běn shū.",
+          "en": "I give her a book. (给 = to, toward the recipient)"
+        },
+        {
+          "zh": "妈妈给我做饭。",
+          "py": "Māma gěi wǒ zuò fàn.",
+          "en": "Mom cooks for me."
+        },
+        {
+          "zh": "他晚上回来。",
+          "py": "Tā wǎnshang huí lái.",
+          "en": "Directional complement 回来: \"return\" toward the speaker's place (come back)."
+        },
+        {
+          "zh": "我回学校去。",
+          "py": "Wǒ huí xuéxiào qù.",
+          "en": "I go back to school. (回去 = go back away from speaker)"
+        },
+        {
+          "zh": "请进来。",
+          "py": "Qǐng jìnlái.",
+          "en": "Please come in. (进来 = enter toward here)"
+        },
+        {
+          "zh": "我可以进来吗？",
+          "py": "Wǒ kěyǐ jìnlái ma?",
+          "en": "May I come in? (可以 = permission)"
+        },
+        {
+          "zh": "这儿不可以抽烟。",
+          "py": "Zhèr bù kěyǐ chōuyān.",
+          "en": "You can't smoke here."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "喂，请问王兰在吗？→喂，请问李老师在吗？",
+          "py": "Wèi, qǐngwèn Wáng Lán zài ma? → Wèi, qǐngwèn Lǐ lǎoshī zài ma?",
+          "en": "Is Wang Lan there? → Is Teacher Li there?"
+        },
+        {
+          "zh": "请问您找谁？→请问您找王兰吗？",
+          "py": "Qǐngwèn nín zhǎo shéi? → Qǐngwèn nín zhǎo Wáng Lán ma?",
+          "en": "Who are you looking for? → Are you looking for Wang Lan?"
+        },
+        {
+          "zh": "我是她同学。→我是她朋友。",
+          "py": "Wǒ shì tā tóngxué. → Wǒ shì tā péngyou.",
+          "en": "I'm her classmate. → I'm her friend."
+        },
+        {
+          "zh": "请她给我回电话。→请他给我回电话。",
+          "py": "Qǐng tā gěi wǒ huí diànhuà. → Qǐng tā gěi wǒ huí diànhuà.",
+          "en": "Ask her to call me back. → Ask him to call me back."
+        },
+        {
+          "zh": "她不在。→他在。",
+          "py": "Tā bú zài. → Tā zài.",
+          "en": "She's not in. → He is in."
+        },
+        {
+          "zh": "我可以留个口信吗？→我可以等一下吗？",
+          "py": "Wǒ kěyǐ liú ge kǒuxìn ma? → Wǒ kěyǐ děng yíxià ma?",
+          "en": "May I leave a message? → May I wait a moment?"
+        },
+        {
+          "zh": "我告诉她。→我告诉他。",
+          "py": "Wǒ gàosu tā. → Wǒ gàosu tā.",
+          "en": "I'll tell her. → I'll tell him."
+        },
+        {
+          "zh": "她晚上回来。→她一会儿回来。",
+          "py": "Tā wǎnshang huí lái. → Tā yíhuìr huí lái.",
+          "en": "She'll be back this evening. → She'll be back in a moment."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "喂，请问张老师在家吗？",
+          "py": "Wèi, qǐngwèn Zhāng lǎoshī zài jiā ma?",
+          "en": "Hello, is Teacher Zhang home, please?"
+        },
+        {
+          "zh": "他不在，请问您是哪位？",
+          "py": "Tā bú zài, qǐngwèn nín shì nǎ wèi?",
+          "en": "He's not in. May I ask who is calling?"
+        },
+        {
+          "zh": "请给我妈妈打个电话。",
+          "py": "Qǐng gěi wǒ māma dǎ ge diànhuà.",
+          "en": "Please call my mom for me."
+        },
+        {
+          "zh": "王老师不在办公室，您可以留个口信。",
+          "py": "Wáng lǎoshī bú zài bàngōngshì, nín kěyǐ liú ge kǒuxìn.",
+          "en": "Teacher Wang isn't in the office; you may leave a message."
+        },
+        {
+          "zh": "我等她回来。",
+          "py": "Wǒ děng tā huí lái.",
+          "en": "I'll wait until she comes back."
+        },
+        {
+          "zh": "您可以告诉他明天上课吗？",
+          "py": "Nín kěyǐ gàosu tā míngtiān shàng kè ma?",
+          "en": "Could you tell him there's class tomorrow?"
+        },
+        {
+          "zh": "请问您找谁？我找玛丽。",
+          "py": "Qǐngwèn nín zhǎo shéi? Wǒ zhǎo Mǎlì.",
+          "en": "Who are you looking for? I'm looking for Mary."
+        },
+        {
+          "zh": "晚上我给你打电话。",
+          "py": "Wǎnshang wǒ gěi nǐ dǎ diànhuà.",
+          "en": "I'll call you this evening."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "title": "第十八课 · 路上辛苦了",
+  "subtitle": "Lesson 18 — 路上辛苦了 · You must be tired from the journey",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences",
+      "items": [
+        {
+          "zh": "路上辛苦了！",
+          "py": "Lù shang xīnkǔ le!",
+          "en": "You must be tired from the journey!"
+        },
+        {
+          "zh": "欢迎你来中国！",
+          "py": "Huānyíng nǐ lái Zhōngguó!",
+          "en": "Welcome to China!"
+        },
+        {
+          "zh": "飞机几点到？",
+          "py": "Fēijī jǐ diǎn dào?",
+          "en": "What time does the plane arrive?"
+        },
+        {
+          "zh": "我去机场接你。",
+          "py": "Wǒ qù jīchǎng jiē nǐ.",
+          "en": "I'll pick you up at the airport."
+        },
+        {
+          "zh": "坐了十几个小时的飞机。",
+          "py": "Zuò le shí jǐ ge xiǎoshí de fēijī.",
+          "en": "I was on the plane for over ten hours."
+        },
+        {
+          "zh": "请先休息一下吧。",
+          "py": "Qǐng xiān xiūxi yīxià ba.",
+          "en": "Please rest a bit first."
+        },
+        {
+          "zh": "给您添麻烦了。",
+          "py": "Gěi nín tiān máfan le.",
+          "en": "Sorry for the trouble."
+        }
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (At the Airport)",
+      "items": [
+        {
+          "zh": "刘京：你好！你是大卫吧？",
+          "py": "Liú Jīng: Nǐ hǎo! Nǐ shì Dàwèi ba?",
+          "en": "Liu Jing: Hello! You must be David?"
+        },
+        {
+          "zh": "大卫：是的。你是刘京吗？",
+          "py": "Dàwèi: Shì de. Nǐ shì Liú Jīng ma?",
+          "en": "David: Yes. Are you Liu Jing?"
+        },
+        {
+          "zh": "刘京：对，我是刘京。欢迎你来中国！路上辛苦了！",
+          "py": "Liú Jīng: Duì, wǒ shì Liú Jīng. Huānyíng nǐ lái Zhōngguó! Lù shang xīnkǔ le!",
+          "en": "Liu Jing: Yes, I'm Liu Jing. Welcome to China! You must be tired!"
+        },
+        {
+          "zh": "大卫：不辛苦。谢谢你来接我。",
+          "py": "Dàwèi: Bù xīnkǔ. Xièxie nǐ lái jiē wǒ.",
+          "en": "David: Not at all. Thanks for picking me up."
+        },
+        {
+          "zh": "刘京：不客气。你的行李都拿了吗？",
+          "py": "Liú Jīng: Bú kèqi. Nǐ de xíngli dōu ná le ma?",
+          "en": "Liu Jing: You're welcome. Have you got all your luggage?"
+        },
+        {
+          "zh": "大卫：拿了。就这两个箱子。",
+          "py": "Dàwèi: Ná le. Jiù zhè liǎng ge xiāngzi.",
+          "en": "David: Yes. Just these two suitcases."
+        },
+        {
+          "zh": "刘京：我来帮你拿吧。车在外面。",
+          "py": "Liú Jīng: Wǒ lái bāng nǐ ná ba. Chē zài wàimiàn.",
+          "en": "Liu Jing: Let me help you carry them. The car is outside."
+        },
+        {
+          "zh": "大卫：太谢谢了！给你添麻烦了。",
+          "py": "Dàwèi: Tài xièxie le! Gěi nǐ tiān máfan le.",
+          "en": "David: Thank you so much! Sorry for the trouble."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Arriving at the Hotel)",
+      "items": [
+        {
+          "zh": "刘京：这是你的房间。你坐了十几个小时的飞机，一定很累了。",
+          "py": "Liú Jīng: Zhè shì nǐ de fángjiān. Nǐ zuò le shí jǐ ge xiǎoshí de fēijī, yīdìng hěn lèi le.",
+          "en": "Liu Jing: This is your room. You flew for over 10 hours, you must be very tired."
+        },
+        {
+          "zh": "大卫：还好。这个房间很好。",
+          "py": "Dàwèi: Hái hǎo. Zhège fángjiān hěn hǎo.",
+          "en": "David: I'm OK. This room is very nice."
+        },
+        {
+          "zh": "刘京：你先休息一下吧。晚上我请你吃饭。",
+          "py": "Liú Jīng: Nǐ xiān xiūxi yīxià ba. Wǎnshang wǒ qǐng nǐ chī fàn.",
+          "en": "Liu Jing: Rest a bit first. I'll treat you to dinner this evening."
+        },
+        {
+          "zh": "大卫：太好了！谢谢你。",
+          "py": "Dàwèi: Tài hǎo le! Xièxie nǐ.",
+          "en": "David: Great! Thank you."
+        },
+        {
+          "zh": "刘京：有什么事，你给我打电话。",
+          "py": "Liú Jīng: Yǒu shénme shì, nǐ gěi wǒ dǎ diànhuà.",
+          "en": "Liu Jing: If you need anything, give me a call."
+        },
+        {
+          "zh": "大卫：好的。",
+          "py": "Dàwèi: Hǎo de.",
+          "en": "David: OK."
+        },
+        {
+          "zh": "刘京：那你休息吧，我先走了。",
+          "py": "Liú Jīng: Nà nǐ xiūxi ba, wǒ xiān zǒu le.",
+          "en": "Liu Jing: Well, get some rest. I'll go now."
+        },
+        {
+          "zh": "大卫：好的，晚上见！",
+          "py": "Dàwèi: Hǎo de, wǎnshang jiàn!",
+          "en": "David: OK, see you tonight!"
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words",
+      "items": [
+        {
+          "zh": "辛苦",
+          "py": "xīnkǔ",
+          "en": "hard; tiring (polite acknowledgment)"
+        },
+        {
+          "zh": "欢迎",
+          "py": "huānyíng",
+          "en": "to welcome"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "airplane"
+        },
+        {
+          "zh": "机场",
+          "py": "jīchǎng",
+          "en": "airport"
+        },
+        {
+          "zh": "接",
+          "py": "jiē",
+          "en": "to pick up; to meet"
+        },
+        {
+          "zh": "行李",
+          "py": "xíngli",
+          "en": "luggage; baggage"
+        },
+        {
+          "zh": "箱子",
+          "py": "xiāngzi",
+          "en": "suitcase; box"
+        },
+        {
+          "zh": "拿",
+          "py": "ná",
+          "en": "to take; to carry"
+        },
+        {
+          "zh": "帮",
+          "py": "bāng",
+          "en": "to help"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "en": "room"
+        },
+        {
+          "zh": "累",
+          "py": "lèi",
+          "en": "tired"
+        },
+        {
+          "zh": "一定",
+          "py": "yīdìng",
+          "en": "certainly; must"
+        },
+        {
+          "zh": "请",
+          "py": "qǐng",
+          "en": "to invite; to treat (sb. to a meal)"
+        },
+        {
+          "zh": "添",
+          "py": "tiān",
+          "en": "to add; to cause"
+        },
+        {
+          "zh": "麻烦",
+          "py": "máfan",
+          "en": "trouble; troublesome"
+        },
+        {
+          "zh": "还好",
+          "py": "hái hǎo",
+          "en": "not bad; I'm OK"
+        },
+        {
+          "zh": "外面",
+          "py": "wàimiàn",
+          "en": "outside"
+        },
+        {
+          "zh": "火车",
+          "py": "huǒchē",
+          "en": "train"
+        },
+        {
+          "zh": "护照",
+          "py": "hùzhào",
+          "en": "passport"
+        },
+        {
+          "zh": "签证",
+          "py": "qiānzhèng",
+          "en": "visa"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (十几 / 几十 Approximate Numbers)",
+      "items": [
+        {
+          "zh": "十几个小时",
+          "py": "shí jǐ ge xiǎoshí",
+          "en": "over ten hours (10+)"
+        },
+        {
+          "zh": "二十几个人",
+          "py": "èrshí jǐ ge rén",
+          "en": "twenty-something people (20+)"
+        },
+        {
+          "zh": "几十个学生",
+          "py": "jǐ shí ge xuéshēng",
+          "en": "dozens of students (tens of)"
+        },
+        {
+          "zh": "几百块钱",
+          "py": "jǐ bǎi kuài qián",
+          "en": "several hundred yuan"
+        },
+        {
+          "zh": "十几本书",
+          "py": "shí jǐ běn shū",
+          "en": "more than ten books"
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "欢迎你来中国！",
+          "py": "Huānyíng nǐ lái Zhōngguó!",
+          "en": "Welcome to China!"
+        },
+        {
+          "zh": "欢迎你来北京！",
+          "py": "Huānyíng nǐ lái Běijīng!",
+          "en": "Welcome to Beijing!"
+        },
+        {
+          "zh": "欢迎你来我家！",
+          "py": "Huānyíng nǐ lái wǒ jiā!",
+          "en": "Welcome to my home!"
+        },
+        {
+          "zh": "欢迎你来我们学校！",
+          "py": "Huānyíng nǐ lái wǒmen xuéxiào!",
+          "en": "Welcome to our school!"
+        },
+        {
+          "zh": "我去机场接你。",
+          "py": "Wǒ qù jīchǎng jiē nǐ.",
+          "en": "I'll pick you up at the airport."
+        },
+        {
+          "zh": "我去火车站接你。",
+          "py": "Wǒ qù huǒchē zhàn jiē nǐ.",
+          "en": "I'll pick you up at the train station."
+        },
+        {
+          "zh": "给你添麻烦了。",
+          "py": "Gěi nǐ tiān máfan le.",
+          "en": "Sorry for the trouble."
+        },
+        {
+          "zh": "没关系，不麻烦。",
+          "py": "Méi guānxi, bù máfan.",
+          "en": "It's fine, no trouble at all."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension Sentences",
+      "items": [
+        {
+          "zh": "你的飞机是几点的？",
+          "py": "Nǐ de fēijī shì jǐ diǎn de?",
+          "en": "What time is your flight?"
+        },
+        {
+          "zh": "航班号是多少？",
+          "py": "Hángbān hào shì duōshao?",
+          "en": "What is the flight number?"
+        },
+        {
+          "zh": "飞机晚点了。",
+          "py": "Fēijī wǎndiǎn le.",
+          "en": "The flight is delayed."
+        },
+        {
+          "zh": "请你帮我拿一下行李。",
+          "py": "Qǐng nǐ bāng wǒ ná yīxià xíngli.",
+          "en": "Please help me with my luggage."
+        },
+        {
+          "zh": "你的护照和签证带了吗？",
+          "py": "Nǐ de hùzhào hé qiānzhèng dài le ma?",
+          "en": "Have you brought your passport and visa?"
+        }
+      ]
+    }
+  ]
+}

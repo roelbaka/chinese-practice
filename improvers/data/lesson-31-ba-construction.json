@@ -1,0 +1,81 @@
+{
+  "title": "第31课 · 我把行李忘在车上了",
+  "subtitle": "Lesson 31 — 我把行李忘在车上了 · I left my luggage in the car",
+  "data": [
+    {
+      "topic": "句子 · Key Sentences (Lesson 31)",
+      "items": [
+        {"zh": "我把行李忘在车上了。", "py": "Wǒ bǎ xíngli wàng zài chē shang le.", "en": "I left my luggage in the car."},
+        {"zh": "请把窗户打开。", "py": "Qǐng bǎ chuānghu dǎkāi.", "en": "Please open the window."},
+        {"zh": "你把书放在桌子上了吗？", "py": "Nǐ bǎ shū fàng zài zhuōzi shang le ma?", "en": "Did you put the book on the table?"},
+        {"zh": "请把门关上。", "py": "Qǐng bǎ mén guān shang.", "en": "Please close the door."},
+        {"zh": "我把作业做完了。", "py": "Wǒ bǎ zuòyè zuò wán le.", "en": "I've finished my homework."},
+        {"zh": "他把杯子打碎了。", "py": "Tā bǎ bēizi dǎ suì le.", "en": "He broke the cup."}
+      ]
+    },
+    {
+      "topic": "会话1 · Dialogue 1 (Forgotten Luggage)",
+      "items": [
+        {"zh": "大卫：糟糕！我把行李忘在出租车上了。", "py": "Dàwèi: Zāogāo! Wǒ bǎ xíngli wàng zài chūzū chē shang le.", "en": "David: Oh no! I left my luggage in the taxi."},
+        {"zh": "刘京：你记得出租车的号码吗？", "py": "Liú Jīng: Nǐ jìde chūzū chē de hàomǎ ma?", "en": "Liu Jing: Do you remember the taxi number?"},
+        {"zh": "大卫：不记得了。怎么办？", "py": "Dàwèi: Bú jìde le. Zěnme bàn?", "en": "David: I don't remember. What should I do?"},
+        {"zh": "刘京：你有没有发票？", "py": "Liú Jīng: Nǐ yǒu méiyǒu fāpiào?", "en": "Liu Jing: Do you have a receipt?"},
+        {"zh": "大卫：有！发票上有号码。", "py": "Dàwèi: Yǒu! Fāpiào shang yǒu hàomǎ.", "en": "David: Yes! The receipt has the number."},
+        {"zh": "刘京：那我帮你打电话问问。", "py": "Liú Jīng: Nà wǒ bāng nǐ dǎ diànhuà wènwen.", "en": "Liu Jing: Then I'll call and ask for you."}
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Tidy Up)",
+      "items": [
+        {"zh": "张老师：请把书打开，翻到第三十一课。", "py": "Zhāng lǎoshī: Qǐng bǎ shū dǎkāi, fān dào dì sānshíyī kè.", "en": "Teacher Zhang: Please open your book to Lesson 31."},
+        {"zh": "张老师：大卫，请把窗户打开，太热了。", "py": "Zhāng lǎoshī: Dàwèi, qǐng bǎ chuānghu dǎkāi, tài rè le.", "en": "Teacher Zhang: David, please open the window, it's too hot."},
+        {"zh": "大卫：好的。", "py": "Dàwèi: Hǎo de.", "en": "David: OK."},
+        {"zh": "张老师：下课了。请把作业交给我。", "py": "Zhāng lǎoshī: Xià kè le. Qǐng bǎ zuòyè jiāo gěi wǒ.", "en": "Teacher Zhang: Class is over. Please hand in your homework."},
+        {"zh": "玛丽：老师，我把作业忘在宿舍了。", "py": "Mǎlì: Lǎoshī, wǒ bǎ zuòyè wàng zài sùshè le.", "en": "Mary: Teacher, I left my homework in the dorm."},
+        {"zh": "张老师：那请你明天把作业带来。", "py": "Zhāng lǎoshī: Nà qǐng nǐ míngtiān bǎ zuòyè dài lái.", "en": "Teacher Zhang: Then please bring it tomorrow."}
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 31)",
+      "items": [
+        {"zh": "把", "py": "bǎ", "en": "preposition for 把-construction (disposal)"},
+        {"zh": "忘", "py": "wàng", "en": "to forget"},
+        {"zh": "窗户", "py": "chuānghu", "en": "window"},
+        {"zh": "打开", "py": "dǎkāi", "en": "to open"},
+        {"zh": "关", "py": "guān", "en": "to close; to shut"},
+        {"zh": "碎", "py": "suì", "en": "to break; broken (into pieces)"},
+        {"zh": "杯子", "py": "bēizi", "en": "cup; glass"},
+        {"zh": "记得", "py": "jìde", "en": "to remember"},
+        {"zh": "号码", "py": "hàomǎ", "en": "number"},
+        {"zh": "发票", "py": "fāpiào", "en": "receipt; invoice"},
+        {"zh": "怎么办", "py": "zěnme bàn", "en": "what to do"},
+        {"zh": "翻", "py": "fān", "en": "to turn (pages)"},
+        {"zh": "交", "py": "jiāo", "en": "to hand over; to submit"},
+        {"zh": "带", "py": "dài", "en": "to bring; to carry"},
+        {"zh": "糟糕", "py": "zāogāo", "en": "oh no; terrible"}
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (把 Construction)",
+      "items": [
+        {"zh": "请把门关上。", "py": "Qǐng bǎ mén guān shang.", "en": "把 + object + verb + result: Close the door."},
+        {"zh": "我把书放在桌子上了。", "py": "Wǒ bǎ shū fàng zài zhuōzi shang le.", "en": "I put the book on the table."},
+        {"zh": "他把咖啡喝完了。", "py": "Tā bǎ kāfēi hē wán le.", "en": "He finished the coffee."},
+        {"zh": "请把名字写在这儿。", "py": "Qǐng bǎ míngzi xiě zài zhèr.", "en": "Please write your name here."},
+        {"zh": "她把房间打扫干净了。", "py": "Tā bǎ fángjiān dǎsǎo gānjìng le.", "en": "She cleaned the room."},
+        {"zh": "不能说：他把书看了。✗", "py": "Bù néng shuō: Tā bǎ shū kàn le. ✗", "en": "WRONG: 把 needs a result/direction, not bare 了."}
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {"zh": "请把窗户打开。→ 请把门打开。", "py": "Qǐng bǎ chuānghu dǎkāi. → Qǐng bǎ mén dǎkāi.", "en": "Open the window. → Open the door."},
+        {"zh": "请把灯关上。", "py": "Qǐng bǎ dēng guān shang.", "en": "Please turn off the light."},
+        {"zh": "请把电视关上。", "py": "Qǐng bǎ diànshì guān shang.", "en": "Please turn off the TV."},
+        {"zh": "我把作业做完了。", "py": "Wǒ bǎ zuòyè zuò wán le.", "en": "I've finished my homework."},
+        {"zh": "他把饭吃完了。", "py": "Tā bǎ fàn chī wán le.", "en": "He finished eating."},
+        {"zh": "请把这个字写一遍。", "py": "Qǐng bǎ zhège zì xiě yī biàn.", "en": "Please write this character once."}
+      ]
+    }
+  ]
+}
