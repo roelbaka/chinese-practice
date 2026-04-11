@@ -951,6 +951,173 @@
           "en": "the Netherlands"
         }
       ]
+    },
+    {
+      "topic": "课上要点 · Class notes (interpretation, not verbatim)",
+      "classNotesFirst": true,
+      "browseOnly": true,
+      "items": [
+        {
+          "zh": "总览 · What this session was about",
+          "py": "",
+          "en": "Lesson 28 (今天比昨天冷 / comparisons & weather). In class we corrected 比 homework, practised forecast-based conversation, sorted out winter vocabulary and below/above freezing, reviewed 下雨/下雪, and did a short locative game. Side talk is omitted below."
+        },
+        {
+          "zh": "讨论小结 · Session summary — what we discussed",
+          "py": "",
+          "en": "We started by checking written answers to 比-pattern exercises in order. For the dictionary line, we noted that 他的词典比我的词典 must finish with a result (e.g. 新). For temperature, people said things like 今天比昨天高四度; the teacher accepted that but also modelled fuller lines with 气温 and 度 (今天气温比昨天高四度). For family size, both 小王家的人口比小张家的少两口人 and the shorter 小王家比小张家少两口人 were fine. For skating, we stressed keeping the subject: 小李滑冰比小张…, not *滑冰比小张…*. We contrasted 滑得好 with 滑得好多了 and tied that to other “much more” lines (做菜、茄子比西兰花贵多了) and why ×比…很贵 is a bad fit after 比. We briefly separated 做饭 (cooking in general) from 煮饭 (often “cook rice”).\n\nLater we asked whether anyone had listened to the 天气预报 and built questions around 明天: rain or light rain (小雨), strong wind (大风), and whether today is 晴 or 多云. We untangled 去年冬天 vs 今年冬天 when talking about snow in the Netherlands, and where “this winter” vs “last winter” applies depending on the season. We asked about 零下 versus 零上 in winter.\n\nToward the end we clarified that 雨 and 雪 are nouns while the natural verbs are 下雨 and 下雪 (下 as “fall”). In another segment of the same block we had reviewed place words: on/under the chair, 书包里边, 宝贝在书包里边, and answering 你们现在在哪儿？ with 在教室里边. Dutch digressions, recording gadgets, and unrelated banter are not summarised here."
+        },
+        {
+          "zh": "──────── Part 1 · 比 — homework patterns",
+          "py": "",
+          "en": "Teacher went through answers in order. Full sentences repeat A 比 B + result; temperature often adds 气温 and 度; 多了 after 好 marks “much more” for verbs (滑得好多了、做得好多了)."
+        },
+        {
+          "zh": "重复主题 · 词典",
+          "py": "",
+          "en": "Incomplete: 他的词典比我的词典 needs a result adjective, e.g. 新."
+        },
+        {
+          "zh": "他的词典比我的词典新。",
+          "py": "Tā de cídiǎn bǐ wǒ de cídiǎn xīn.",
+          "en": "His dictionary is newer than mine."
+        },
+        {
+          "zh": "重复主题 · 气温与度",
+          "py": "",
+          "en": "短句 今天比昨天高四度 works in context; fuller and textbook-style: 今天气温比昨天高四度 or 今天的气温比昨天高四度."
+        },
+        {
+          "zh": "今天气温比昨天高四度。",
+          "py": "Jīntiān qìwēn bǐ zuótiān gāo sì dù.",
+          "en": "Today's temperature is 4 degrees higher than yesterday's."
+        },
+        {
+          "zh": "重复主题 · 人口",
+          "py": "",
+          "en": "两种说法：带 人口，或省略（家 比 家 少几口人）."
+        },
+        {
+          "zh": "小王家比小张家少两口人。",
+          "py": "Xiǎo Wáng jiā bǐ Xiǎo Zhāng jiā shǎo liǎng kǒu rén.",
+          "en": "Xiao Wang's household has two fewer people than Xiao Zhang's."
+        },
+        {
+          "zh": "重复主题 · 滑冰 — 主语不能丢",
+          "py": "",
+          "en": "比较的是谁滑冰：要说 小李滑冰比小张……，不能只说 滑冰比小张……（谁滑？不清楚）."
+        },
+        {
+          "zh": "小李滑冰比小张滑得好多了。",
+          "py": "Xiǎo Lǐ huá bīng bǐ Xiǎo Zhāng huá de hǎo duō le.",
+          "en": "Xiao Li skates much better than Xiao Zhang."
+        },
+        {
+          "zh": "重复主题 · 贵 vs 贵多了",
+          "py": "",
+          "en": "比 后面用形容词结果；强调差很多用 贵多了 / 便宜多了，不说 ×茄子比西兰花很贵（结构不对）."
+        },
+        {
+          "zh": "茄子比西兰花贵多了。",
+          "py": "Qiézi bǐ xīlánhuā guì duō le.",
+          "en": "Eggplant is much more expensive than broccoli."
+        },
+        {
+          "zh": "重复主题 · 做饭 vs 煮饭",
+          "py": "",
+          "en": "做饭 = cook (meals in general); 煮饭 often means “cook rice” literally — teacher corrected nuance after the 老公 sentence."
+        },
+        {
+          "zh": "我做菜比我的老公做的好多了。",
+          "py": "Wǒ zuò cài bǐ wǒ de lǎogōng zuò de hǎo duō le.",
+          "en": "I cook (dishes) much better than my husband does."
+        },
+        {
+          "zh": "──────── Part 2 · 天气预报",
+          "py": "",
+          "en": "Warm-up: Did you listen to the forecast? Then chain questions about 明天、下雨、小雨、大风."
+        },
+        {
+          "zh": "你们听天气预报了吗？",
+          "py": "Nǐmen tīng tiānqì yùbào le ma?",
+          "en": "Did you all listen to the weather forecast?"
+        },
+        {
+          "zh": "天气预报说明天会下小雨吗？",
+          "py": "Tiānqì yùbào shuō míngtiān huì xià xiǎoyǔ ma?",
+          "en": "Does the forecast say it'll drizzle tomorrow?"
+        },
+        {
+          "zh": "明天会刮大风吗？",
+          "py": "Míngtiān huì guā dàfēng ma?",
+          "en": "Will there be strong wind tomorrow?"
+        },
+        {
+          "zh": "今天天气晴吗？",
+          "py": "Jīntiān tiānqì qíng ma?",
+          "en": "Is the weather clear today?"
+        },
+        {
+          "zh": "今天多云吗？",
+          "py": "Jīntiān duōyún ma?",
+          "en": "Is it cloudy today? (Note: 多云 “cloudy,” not 多雨.)"
+        },
+        {
+          "zh": "──────── Part 3 · 去年 / 今年 · 冷暖和零度",
+          "py": "",
+          "en": "Class mixed up 去年冬天 and 今年冬天: 今年冬天 can mean “this winter” (season we're in or coming); if it's already spring, 去年冬天 is last winter. 零下 / 零上 with 度 for below/above freezing."
+        },
+        {
+          "zh": "去年冬天荷兰下雪了吗？",
+          "py": "Qùnián dōngtiān Hélán xià xuě le ma?",
+          "en": "Did it snow in the Netherlands last winter?"
+        },
+        {
+          "zh": "今年冬天还没有，现在是春天。",
+          "py": "Jīnnián dōngtiān hái méiyǒu, xiànzài shì chūntiān.",
+          "en": "This winter hasn't happened yet (or we're past it)—now it's spring. (example line from class clarification)"
+        },
+        {
+          "zh": "冬天常常零下还是零上？",
+          "py": "Dōngtiān chángcháng líng xià háishi líng shàng?",
+          "en": "In winter, is it usually below or above zero?"
+        },
+        {
+          "zh": "──────── Part 4 · 雨、雪 → 下雨、下雪",
+          "py": "",
+          "en": "雨 and 雪 are nouns (rain, snow). The verbs are 下雨 “to rain” and 下雪 “to snow,” with 下 like “to fall.”"
+        },
+        {
+          "zh": "今天下雨吗？",
+          "py": "Jīntiān xià yǔ ma?",
+          "en": "Is it raining today?"
+        },
+        {
+          "zh": "昨天下了大雪。",
+          "py": "Zuótiān xià le dà xuě.",
+          "en": "Yesterday there was heavy snow. (下 + 雪)"
+        },
+        {
+          "zh": "──────── Part 5 · Locative game (review)",
+          "py": "",
+          "en": "Short hiding game in class: place words on chair above/below, things 在 书包 里边, then 宝贝 in the bag — same 在…里/上边 patterns as nearby lessons."
+        },
+        {
+          "zh": "书在椅子上面。",
+          "py": "Shū zài yǐzi shàngmian.",
+          "en": "The book is on the chair."
+        },
+        {
+          "zh": "宝贝在书包里边，你们现在在哪儿？",
+          "py": "Bǎobèi zài shūbāo lǐbian, nǐmen xiànzài zài nǎr?",
+          "en": "The ‘treasure’ is inside the schoolbag—where are you (all) now?"
+        },
+        {
+          "zh": "我们在教室里边。",
+          "py": "Wǒmen zài jiàoshì lǐbian.",
+          "en": "We're inside the classroom."
+        }
+      ]
     }
   ]
 }
