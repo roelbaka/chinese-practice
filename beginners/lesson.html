@@ -200,6 +200,16 @@
 let DATA = [];
 let currentTopic = "all";
 let currentMode = "browse";
+
+/** Move class-notes block to front; optional JSON flag classNotesFirst on a section. */
+function prepareLessonData(raw) {
+  if (!Array.isArray(raw) || !raw.length) return [];
+  const data = [...raw];
+  const i = data.findIndex((s) => s.classNotesFirst === true);
+  if (i <= 0) return data;
+  const [block] = data.splice(i, 1);
+  return [block, ...data];
+}
 let hidePinyin = false;
 let hideEnglish = false;
 let fcItems = [], fcIndex = 0, fcRevealed = false, fcMode = "zh";
@@ -216,7 +226,9 @@ if (!lessonId) {
     .then(json => {
       document.title = `Chinese Practice — ${json.title}`;
       document.getElementById("lessonSubtitle").textContent = json.subtitle;
-      DATA = json.data;
+      DATA = prepareLessonData(json.data);
+      const notesSec = DATA.find((s) => s.classNotesFirst === true);
+      if (notesSec) currentTopic = notesSec.topic;
       renderNav();
       render();
     })

@@ -719,6 +719,7 @@
     },
     {
       "topic": "课上要点 · Class notes (interpretation, not verbatim)",
+      "classNotesFirst": true,
       "browseOnly": true,
       "items": [
         {
