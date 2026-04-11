@@ -758,6 +758,41 @@
       ]
     },
     {
+      "topic": "听力 · Listen & choose — 今天天气怎么样？",
+      "items": [
+        {
+          "zh": "今天天气怎么样？（听录音，选对应的天气）",
+          "py": "Jīntiān tiānqì zěnmeyàng? (tīng lùyīn, xuǎn duìyìng de tiānqì)",
+          "en": "Worksheet-style drill (e.g. Coolong / Liveworksheets): match what you hear to the weather. Emoji map: ☀️ clear / sunny · 🌬️ windy · 🌧️ rain · 🌨️ snow · ☁️ grey overcast (阴天)."
+        },
+        {
+          "zh": "今天是晴天。",
+          "py": "Jīntiān shì qíngtiān.",
+          "en": "☀️ Today is a sunny day (晴天 = clear sky, sun out)."
+        },
+        {
+          "zh": "今天刮风。",
+          "py": "Jīntiān guā fēng.",
+          "en": "🌬️ Today the wind is blowing (刮风 = wind “scrapes” past — blustery)."
+        },
+        {
+          "zh": "今天下雨。",
+          "py": "Jīntiān xià yǔ.",
+          "en": "🌧️ Today it’s raining (下雨 = rain is falling; 雨 is the noun “rain”)."
+        },
+        {
+          "zh": "今天下雪。",
+          "py": "Jīntiān xià xuě.",
+          "en": "🌨️ Today it’s snowing (下雪 = snow is falling; 雪 is the noun “snow”)."
+        },
+        {
+          "zh": "今天是阴天。",
+          "py": "Jīntiān shì yīntiān.",
+          "en": "☁️ Today is overcast (阴天 = dull grey sky, sun hidden — not the same as 多云 “partly cloudy”)."
+        }
+      ]
+    },
+    {
       "topic": "多 · Approximate Numbers",
       "items": [
         {
@@ -891,6 +926,11 @@
           "en": "clear; sunny"
         },
         {
+          "zh": "阴天",
+          "py": "yīntiān",
+          "en": "overcast day (grey sky, no sun — worksheet “listen & choose”)"
+        },
+        {
           "zh": "词典",
           "py": "cídiǎn",
           "en": "dictionary"
@@ -949,6 +989,86 @@
           "zh": "荷兰",
           "py": "Hélán",
           "en": "the Netherlands"
+        },
+        {
+          "zh": "人口",
+          "py": "rénkǒu",
+          "en": "population (人口 in 小王家的人口比…)"
+        },
+        {
+          "zh": "多云",
+          "py": "duōyún",
+          "en": "cloudy (many clouds — not 多雨 “much rain”)"
+        },
+        {
+          "zh": "宝贝",
+          "py": "bǎobèi",
+          "en": "“treasure” / darling (class hiding game: 宝贝在书包里边)"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yīdiǎnr",
+          "en": "a little bit (…高一点儿 = slightly higher)"
+        }
+      ]
+    },
+    {
+      "topic": "课上扩展 · Class extras (besproken + geoefend)",
+      "items": [
+        {
+          "zh": "今天天气怎么样？",
+          "py": "Jīntiān tiānqì zěnmeyàng?",
+          "en": "How’s the weather today? (title of the listen-and-choose sheet — see 听力)"
+        },
+        {
+          "zh": "今天是晴天吗？",
+          "py": "Jīntiān shì qíngtiān ma?",
+          "en": "Is today a sunny day? (follow-up in class)"
+        },
+        {
+          "zh": "今天是秋天吗？",
+          "py": "Jīntiān shì qiūtiān ma?",
+          "en": "Is it autumn today? (learner question in class)"
+        },
+        {
+          "zh": "上个星期天天气怎么样？",
+          "py": "Shàng ge xīngqītiān tiānqì zěnmeyàng?",
+          "en": "How was the weather last Sunday?"
+        },
+        {
+          "zh": "今天比昨天高四度。",
+          "py": "Jīntiān bǐ zuótiān gāo sì dù.",
+          "en": "Today is 4 degrees higher than yesterday. (short oral line; fuller: add 气温 — see 课堂练习)"
+        },
+        {
+          "zh": "今天比昨天气温高还是低？",
+          "py": "Jīntiān bǐ zuótiān qìwēn gāo háishi dī?",
+          "en": "Compared to yesterday, is today’s temperature higher or lower?"
+        },
+        {
+          "zh": "小刘比小王健康。",
+          "py": "Xiǎo Liú bǐ Xiǎo Wáng jiànkāng.",
+          "en": "Xiao Liu is healthier than Xiao Wang. (oral drill — textbook rewrite flipped 小王 / 小刘)"
+        },
+        {
+          "zh": "现在是十四度，今天十五度。",
+          "py": "Xiànzài shì shísì dù, jīntiān shíwǔ dù.",
+          "en": "It’s 14° now, today 15°. (numbers from oral practice)"
+        },
+        {
+          "zh": "今天冷还是昨天冷？",
+          "py": "Jīntiān lěng háishi zuótiān lěng?",
+          "en": "Is it colder today or was it colder yesterday?"
+        },
+        {
+          "zh": "有没有问题？",
+          "py": "Yǒu méiyǒu wèntí?",
+          "en": "Any questions?"
+        },
+        {
+          "zh": "没有问题。",
+          "py": "Méiyǒu wèntí.",
+          "en": "No questions / no problem."
         }
       ]
     },
@@ -960,12 +1080,17 @@
         {
           "zh": "总览 · What this session was about",
           "py": "",
-          "en": "Lesson 28 (今天比昨天冷 / comparisons & weather). In class we corrected 比 homework, practised forecast-based conversation, sorted out winter vocabulary and below/above freezing, reviewed 下雨/下雪, and did a short locative game. Side talk is omitted below."
+          "en": "Lesson 28 (今天比昨天冷): 比 homework, weather & 天气预报, seasons and 零下/零上, 下雨/下雪, locative 宝贝 game, listen-and-match sheet “今天天气怎么样？” (five weather lines — emoji in 听力), extra oral lines in 课上扩展, and wordlets 人口·多云·宝贝·一点儿 in 新词. Casual side chat omitted below."
         },
         {
           "zh": "讨论小结 · Session summary — what we discussed",
           "py": "",
-          "en": "We started by checking written answers to 比-pattern exercises in order. For the dictionary line, we noted that 他的词典比我的词典 must finish with a result (e.g. 新). For temperature, people said things like 今天比昨天高四度; the teacher accepted that but also modelled fuller lines with 气温 and 度 (今天气温比昨天高四度). For family size, both 小王家的人口比小张家的少两口人 and the shorter 小王家比小张家少两口人 were fine. For skating, we stressed keeping the subject: 小李滑冰比小张…, not *滑冰比小张…*. We contrasted 滑得好 with 滑得好多了 and tied that to other “much more” lines (做菜、茄子比西兰花贵多了) and why ×比…很贵 is a bad fit after 比. We briefly separated 做饭 (cooking in general) from 煮饭 (often “cook rice”).\n\nLater we asked whether anyone had listened to the 天气预报 and built questions around 明天: rain or light rain (小雨), strong wind (大风), and whether today is 晴 or 多云. We untangled 去年冬天 vs 今年冬天 when talking about snow in the Netherlands, and where “this winter” vs “last winter” applies depending on the season. We asked about 零下 versus 零上 in winter.\n\nToward the end we clarified that 雨 and 雪 are nouns while the natural verbs are 下雨 and 下雪 (下 as “fall”). In another segment of the same block we had reviewed place words: on/under the chair, 书包里边, 宝贝在书包里边, and answering 你们现在在哪儿？ with 在教室里边. Dutch digressions, recording gadgets, and unrelated banter are not summarised here."
+          "en": "We started by checking written answers to 比-pattern exercises in order. For the dictionary line, we noted that 他的词典比我的词典 must finish with a result (e.g. 新). For temperature, people said things like 今天比昨天高四度; the teacher accepted that but also modelled fuller lines with 气温 and 度 (今天气温比昨天高四度). For family size, both 小王家的人口比小张家的少两口人 and the shorter 小王家比小张家少两口人 were fine. For skating, we stressed keeping the subject: 小李滑冰比小张…, not *滑冰比小张…*. We contrasted 滑得好 with 滑得好多了 and tied that to other “much more” lines (做菜、茄子比西兰花贵多了) and why ×比…很贵 is a bad fit after 比. We briefly separated 做饭 (cooking in general) from 煮饭 (often “cook rice”).\n\nLater we asked whether anyone had listened to the 天气预报 and built questions around 明天: rain or light rain (小雨), strong wind (大风), and whether today is 晴 or 多云. We untangled 去年冬天 vs 今年冬天 when talking about snow in the Netherlands, and where “this winter” vs “last winter” applies depending on the season. We asked about 零下 versus 零上 in winter.\n\nToward the end we clarified that 雨 and 雪 are nouns while the natural verbs are 下雨 and 下雪 (下 as “fall”). In another segment of the same block we had reviewed place words: on/under the chair, 书包里边, 宝贝在书包里边, and answering 你们现在在哪儿？ with 在教室里边. Dutch digressions, recording gadgets, and unrelated banter are not summarised here.\n\nWe also used a listen-and-choose handout titled “今天天气怎么样？”: five patterns (晴天 / 刮风 / 下雨 / 下雪 / 阴天) with picture or emoji recall — see topic 听力 in this lesson file. The teacher contrasted a small temperature gap (…高一点, 一点儿) with a large one (…高多了), sometimes picking between two full sentences for naturalness. Follow-up lines from real oral practice (e.g. 上个星期天…, short 高四度, 小刘比小王健康, class wrap-up 有没有问题) are listed under 课上扩展; compact vocabulary 人口 · 多云 · 宝贝 · 一点儿 was added under 新词."
+        },
+        {
+          "zh": "Samenvatting · Nederlands",
+          "py": "",
+          "en": "We hebben het huiswerk met 比 doorgenomen: woordenboek (einde zin met resultaat, bv. 新), temperatuur met of zonder 气温/度, gezinsgrootte, schaatsen (onderwerp niet weglaten!), koken versus rijst koken. Daarna het weerbericht: morgen, miezerregen, harde wind, helder of bewolkt. Uitleg over vorige winter / deze winter en sneeuw in Nederland; onder en boven nul. Grammatica: 雨 en 雪 zijn zelfstandige naamwoorden; “regenen” en “sneeuwen” is 下雨 en 下雪. Plaatsbepaling: op/onder de stoel, in de rugzak, spelletje met 宝贝. Werkblad: luisteren en vijf weertypes koppelen (zie 听力 + emoji’s). Extra oefenzinnen staan onder 课上扩展; nieuwe woordjes onder 新词."
         },
         {
           "zh": "──────── Part 1 · 比 — homework patterns",
@@ -1061,6 +1186,11 @@
           "zh": "今天多云吗？",
           "py": "Jīntiān duōyún ma?",
           "en": "Is it cloudy today? (Note: 多云 “cloudy,” not 多雨.)"
+        },
+        {
+          "zh": "──────── Part 2b · 听力工作纸 “今天天气怎么样？”",
+          "py": "",
+          "en": "Five-line listen-and-choose: 晴天、刮风、下雨、下雪、阴天 — emoji hints and full sentences live in the main-deck topic 听力 (same lesson JSON)."
         },
         {
           "zh": "──────── Part 3 · 去年 / 今年 · 冷暖和零度",
