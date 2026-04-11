@@ -728,39 +728,144 @@
           "en": "Warm-up and extension tied to Lesson 12 (shopping / clothes, 我想买…): textbook-style Mandarin (where things are, towel vs scarf, measure words and radicals) plus real-life wardrobe vocabulary—layers of clothing, “outer” vs “inner,” and colloquial garment terms that rarely appear in chapter 12 alone. Summary below sticks to Chinese-learning threads only."
         },
         {
-          "zh": "重复主题 · “Where is it?”",
+          "zh": "重复主题 · “Where is it?”（说明）",
           "py": "",
-          "en": "Came back several times: locating the scarf (围巾) inside the coat (外套), using 里边 / 里面 / 在衣服里面. Same idea as textbook “describe position,” but applied to something you were actually wearing in class."
+          "en": "Locating things inside other things: 围巾 in 外套, using 里边 / 里面 / 在……里面. Pattern: 在 + container + 里面 = “inside …”"
         },
         {
-          "zh": "重复主题 · 毛巾 vs 小毛巾",
-          "py": "",
-          "en": "Repeated contrast: 毛巾 (bath/hand towel, big) vs a small cloth for the face (often discussed as 洗脸巾 in modern usage). Also touched 浴巾 for after-shower / beach. Learners kept mixing this with Dutch handdoek—takeaway: size and purpose matter in Chinese, not one English word for all towels."
+          "zh": "我的围巾在外套里边。",
+          "py": "Wǒ de wéijīn zài wàitào lǐbian.",
+          "en": "My scarf is inside the coat. (的 possession; 在 + place + 里边)"
         },
         {
-          "zh": "重复主题 · 外套 = generic “outer layer”",
+          "zh": "围巾在衣服里面。",
+          "py": "Wéijīn zài yīfu lǐmiàn.",
+          "en": "The scarf is inside the clothing. (里面 ≈ 里边 in many contexts)"
+        },
+        {
+          "zh": "重复主题 · 毛巾 vs 小毛巾（说明）",
+          "py": "",
+          "en": "毛巾 = towel (often larger: bath / hand). For a small face cloth people often say 洗脸巾. 浴巾 = bath towel (after shower / beach). One English word “towel” maps to several Chinese words—pick by size and use."
+        },
+        {
+          "zh": "请给我一条毛巾。",
+          "py": "Qǐng gěi wǒ yī tiáo máojīn.",
+          "en": "Please give me a towel. (请; 给 + person + object; 条)"
+        },
+        {
+          "zh": "洗脸以后用洗脸巾擦一擦。",
+          "py": "Xǐliǎn yǐhòu yòng xǐliǎnjīn cā yi cā.",
+          "en": "After washing your face, use a face cloth to dab. (以后; 用 + tool; 擦一擦 reduplication = “wipe a bit”)"
+        },
+        {
+          "zh": "重复主题 · 外套 = generic “outer layer”（说明）",
           "py": "wàitào",
-          "en": "This was the most persistent thread: 外套 is a broad “something you put over indoor clothes when you go out,” not one cut like “jacket” in English. A zip hoodie, casual jacket, or bomber can still be 外套; you then narrow down (夹克, 帽衫, 羽绒服). Analogy used: like “dog” vs “poodle”—hypernym vs specific breed."
+          "en": "外套 = any outer layer you put on over indoor clothes before going out—not only “jacket” in English. Narrow with 夹克、帽衫、羽绒服等. Hypernym vs specific type (like “dog” vs “poodle”)."
         },
         {
-          "zh": "重复主题 · 内衣 / 内裤 / 睡衣 / 家居服",
+          "zh": "出门以前要穿外套。",
+          "py": "Chūmén yǐqián yào chuān wàitào.",
+          "en": "Before going out you should put on a coat. (出门; 以前; 要 + verb; 穿 + garment)"
+        },
+        {
+          "zh": "这件外套很暖和。",
+          "py": "Zhè jiàn wàitào hěn nuǎnhuo.",
+          "en": "This coat is very warm. (暖和 for clothing / weather comfort)"
+        },
+        {
+          "zh": "重复主题 · 内衣 / 睡衣 / 家居服（说明）",
           "py": "",
-          "en": "Underwear and “house clothes” came up again and again (register and gender: 内衣 vs 内裤, 睡衣 vs 家居服, generational words like 文胸). Takeaway: wrong collocations get noticed; these words are useful in real life but are sensitive—study with a teacher or trusted materials, not random slang lists."
+          "en": "These words name layers and situations, not one English word “underwear.” 内衣 often means women’s bras (also 文胸); 内裤 is underpants for anyone. 睡衣 is sleepwear; 家居服 is relaxed clothes at home (not necessarily the same as 睡衣). 外衣 is “outer garment” in a broad sense; 外套 is the usual word for a coat/jacket layer. Wrong pairing (wrong register or body part) sounds odd—learn whole phrases, not isolated glosses."
+        },
+        {
+          "zh": "我回家就换睡衣。",
+          "py": "Wǒ huí jiā jiù huàn shuìyī.",
+          "en": "As soon as I get home I change into pyjamas. (就 = then / right away; 换 = change into)"
+        },
+        {
+          "zh": "睡觉以前要换睡衣。",
+          "py": "Shuìjiào yǐqián yào huàn shuìyī.",
+          "en": "Before bed you need to change into pyjamas. (以前 = before; 要 = should / need to)"
+        },
+        {
+          "zh": "夏天在家我喜欢穿家居服。",
+          "py": "Xiàtiān zài jiā wǒ xǐhuan chuān jiājūfú.",
+          "en": "In summer at home I like wearing loungewear. (在 + place; 喜欢 + verb phrase 穿…)"
+        },
+        {
+          "zh": "这件是内衣，那件是外套。",
+          "py": "Zhè jiàn shì nèiyī, nà jiàn shì wàitào.",
+          "en": "This one is underwear, that one is a coat. (这件 / 那件 + 是 … 对比 inner vs outer)"
+        },
+        {
+          "zh": "内裤和内衣不一样，别用混了。",
+          "py": "Nèikù hé nèiyī bù yīyàng, bié yòng hùn le.",
+          "en": "Underpants and (other) underwear are not the same—don’t mix them up. (不一样; 别 + verb; 用混了 = use them in a mixed-up way)"
         },
         {
           "zh": "重复主题 · 我想买…",
           "py": "Wǒ xiǎng mǎi…",
-          "en": "Drill pattern repeated: 我想买 T恤 / 裤子 / 牛仔裤—same structure as the lesson title 我想买毛衣, swapping the object. Good bridge from textbook sentence to spontaneous production."
+          "en": "Same frame as the textbook title 我想买毛衣: 想 + verb of intent, 买 + object. Swap the object to drill clothes vocabulary."
         },
         {
-          "zh": "重复主题 · 衣旁 & 体恤",
+          "zh": "我想买一件毛衣。",
+          "py": "Wǒ xiǎng mǎi yī jiàn máoyī.",
+          "en": "I want to buy a sweater. (textbook line; 件 for upper-body garments / “matters”)"
+        },
+        {
+          "zh": "我想买一条牛仔裤。",
+          "py": "Wǒ xiǎng mǎi yī tiáo niúzǎikù.",
+          "en": "I want to buy a pair of jeans. (条 for long things: pants, rivers, etc.)"
+        },
+        {
+          "zh": "重复主题 · 衣旁 & 体恤（说明）",
           "py": "",
-          "en": "Character teaching returned twice: the clothing radical (衣 / ⻂) on many garment characters; 恤 in 体恤 / T恤 as a loanword shape where the English “T” stands in for part of the word—why you do not “see” a radical the way you do in 裙 or 裤."
+          "en": "Many clothing characters use the form ⻂ (衣字旁): it hints “something worn.” 裙、裤、衬、袜 are built that way. 体恤 / T恤 is different: it is a phonetic loan—English “T” replaces part of the sound—so you do not look for a semantic radical the same way. Compare: 裙 “skirt” shows 衣旁 + 君; T恤 is mainly sound-matching."
         },
         {
-          "zh": "重复主题 · 羽绒服",
+          "zh": "我想买一件T恤。",
+          "py": "Wǒ xiǎng mǎi yī jiàn T xù.",
+          "en": "I want to buy a T-shirt. (体恤／T恤; 一件 + 体恤)"
+        },
+        {
+          "zh": "这件T恤多少钱？",
+          "py": "Zhè jiàn T xù duōshao qián?",
+          "en": "How much is this T-shirt? (same shopping pattern as lesson 11: 这件 … 多少钱)"
+        },
+        {
+          "zh": "这条裙子很漂亮。",
+          "py": "Zhè tiáo qúnzi hěn piàoliang.",
+          "en": "This skirt is very pretty. (裙子 + 衣旁 on 裙)"
+        },
+        {
+          "zh": "那条裤子太长了。",
+          "py": "Nà tiáo kùzi tài cháng le.",
+          "en": "Those trousers are too long. (裤子; 太 + adj + 了)"
+        },
+        {
+          "zh": "他穿了一件白衬衫。",
+          "py": "Tā chuān le yī jiàn bái chènshān.",
+          "en": "He put on a white shirt. (穿 + 了 = completed change; 衬衫 with 巾)"
+        },
+        {
+          "zh": "衣字旁的字常常跟穿的衣服有关。",
+          "py": "Yīzìpáng de zì chángcháng gēn chuān de yīfu yǒuguān.",
+          "en": "Characters with the clothing radical often relate to clothes you wear. (…的字; 跟…有关)"
+        },
+        {
+          "zh": "重复主题 · 羽绒服（说明）",
           "py": "yǔróngfú",
-          "en": "Explained more than once: 羽绒 = down (feather + down), 羽绒服 = down jacket—vocabulary tied to describing what people wear in cold weather."
+          "en": "羽绒 = down (feather filling); 羽绒服 = down jacket / puffer. Often used where European learners would say “winter jacket” without specifying filling."
+        },
+        {
+          "zh": "冬天出门我喜欢穿羽绒服。",
+          "py": "Dōngtiān chūmén wǒ xǐhuan chuān yǔróngfú.",
+          "en": "In winter when I go out I like wearing a down jacket. (冬天; 出门; 喜欢 + 穿)"
+        },
+        {
+          "zh": "这件羽绒服又轻又暖和。",
+          "py": "Zhè jiàn yǔróngfú yòu qīng yòu nuǎnhuo.",
+          "en": "This down jacket is light and warm at the same time. (又…又… parallel qualities)"
         },
         {
           "zh": "尾声 · 万 / 一万",
