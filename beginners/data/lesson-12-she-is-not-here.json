@@ -871,6 +871,156 @@
           "zh": "尾声 · 万 / 一万",
           "py": "wàn / yī wàn",
           "en": "Session ended on learner confusion between sounds (e.g. 一万 and similar syllables in fast speech). Worth a short targeted listen-and-repeat, not more vocabulary in that moment."
+        },
+        {
+          "zh": "──────── 后半堂 · Part 2（词语与句型）",
+          "py": "",
+          "en": "Second half opened with listening to Lesson 12 words (听第十二课的词语) and a quick 一到十 run-through, then: register for 小姐 vs 服务员, long/short clothes and 袖子, measure words (件、顶、双), 太…了 vs …极了, 穿 vs 戴, 你想… chains, 怎么样, 下课以后, 一分钱一分货. Side chat (shops abroad, gender in other languages, silly food jokes) omitted."
+        },
+        {
+          "zh": "重复主题 · 小姐 & 服务员（说明）",
+          "py": "",
+          "en": "In Lesson 12, 小姐 often means “Miss” (shop assistant). In many real restaurants Mainland Chinese prefer 服务员 (“server”)—clearer and neutral. Context matters: 小姐 alone can sound odd or dated depending on region and tone."
+        },
+        {
+          "zh": "服务员，请过来一下。",
+          "py": "Fúwùyuán, qǐng guòlai yīxià.",
+          "en": "Waiter / waitress, please come here a moment. (safe address in dining)"
+        },
+        {
+          "zh": "在餐厅里可以叫“服务员”。",
+          "py": "Zài cāntīng lǐ kěyǐ jiào “fúwùyuán”.",
+          "en": "In a restaurant you can call “server.” (在 + place + 里; 可以 + verb)"
+        },
+        {
+          "zh": "重复主题 · 长 / 短 / 袖子（说明）",
+          "py": "",
+          "en": "长 cháng = long; 短 duǎn = short. 短裤 / 长裤; 短袖 / 长袖 (袖子 xiēzi = sleeve). Pattern: 穿 + garment; 不要 / 不可以 + 穿 for advice."
+        },
+        {
+          "zh": "今天很冷，穿长袖吧，不要穿短袖。",
+          "py": "Jīntiān hěn lěng, chuān chángxiù ba, bú yào chuān duǎnxiù.",
+          "en": "It’s cold today—wear long sleeves, don’t wear short sleeves. (吧 softens advice; 不要)"
+        },
+        {
+          "zh": "他夏天喜欢穿短裤。",
+          "py": "Tā xiàtiān xǐhuan chuān duǎnkù.",
+          "en": "In summer he likes wearing shorts. (喜欢 + 穿 + object)"
+        },
+        {
+          "zh": "重复主题 · 太…了 vs …极了（说明）",
+          "py": "",
+          "en": "太 + adjective + 了 = “too …” (often excessive). …极了 = “extremely …” (strong but not always “too much”). 好极了 = great; 漂亮极了 = stunning; 贵极了 = extremely expensive. Not the same slot as 极乐 (Buddhist bliss)—listen for 极了."
+        },
+        {
+          "zh": "这件毛衣太漂亮了！",
+          "py": "Zhè jiàn máoyī tài piàoliang le!",
+          "en": "This sweater is so beautiful! (太 + adj + 了 — can be praise or “too much” by context)"
+        },
+        {
+          "zh": "这家日本餐厅的寿司贵极了。",
+          "py": "Zhè jiā Rìběn cāntīng de shòusī guì jí le.",
+          "en": "This Japanese restaurant’s sushi is extremely expensive. (…极了; 的 links restaurant to sushi)"
+        },
+        {
+          "zh": "好极了！",
+          "py": "Hǎo jí le!",
+          "en": "Wonderful! (极了 after positive adjective)"
+        },
+        {
+          "zh": "重复主题 · 件 / 顶 / 双（说明）",
+          "py": "",
+          "en": "件 jiàn: many upper-body garments (一件毛衣、一件外套). 顶 dǐng: hats (一顶帽子). Informally some people say 一个帽子; textbook style prefers 顶. 双 shuāng: natural pairs—一双手套、一双袜子."
+        },
+        {
+          "zh": "我想买一顶帽子。",
+          "py": "Wǒ xiǎng mǎi yī dǐng màozi.",
+          "en": "I want to buy a hat. (顶 for hats)"
+        },
+        {
+          "zh": "请给我一双袜子。",
+          "py": "Qǐng gěi wǒ yī shuāng wàzi.",
+          "en": "Please give me a pair of socks. (双 = pair; same for 手套)"
+        },
+        {
+          "zh": "重复主题 · 穿 vs 戴（说明）",
+          "py": "",
+          "en": "穿 chuān: put on / wear clothes on the body. 戴 dài: wear on head, face, wrist, neck—帽子、眼镜、手表、耳环、项链."
+        },
+        {
+          "zh": "他戴着帽子，穿着大衣。",
+          "py": "Tā dài zhe màozi, chuān zhe dàyī.",
+          "en": "He’s wearing a hat (on) and wearing an overcoat. (戴着 / 穿着 ongoing state)"
+        },
+        {
+          "zh": "我戴眼镜，不戴隐形眼镜。",
+          "py": "Wǒ dài yǎnjìng, bú dài yǐnxíng yǎnjìng.",
+          "en": "I wear glasses, not contact lenses. (眼镜 “glasses,” not 眼睛 “eyes”)"
+        },
+        {
+          "zh": "重复主题 · 你想…（说明）",
+          "py": "",
+          "en": "Chain questions from class: 你想 + verb phrase (买什么 / 吃什么 / 喝什么 / 去哪儿 / 做什么). Answer with 我想… Same pattern as textbook shopping, applied to plans and preferences."
+        },
+        {
+          "zh": "你想买什么衣服？",
+          "py": "Nǐ xiǎng mǎi shénme yīfu?",
+          "en": "What clothes do you want to buy?"
+        },
+        {
+          "zh": "我想买长裤。",
+          "py": "Wǒ xiǎng mǎi chángkù.",
+          "en": "I want to buy long trousers. (contrast 短裤)"
+        },
+        {
+          "zh": "你想买短裤还是长裤？",
+          "py": "Nǐ xiǎng mǎi duǎnkù háishi chángkù?",
+          "en": "Do you want to buy shorts or long pants? (还是 alternative question)"
+        },
+        {
+          "zh": "你想喝什么？我想喝茶。",
+          "py": "Nǐ xiǎng hē shénme? Wǒ xiǎng hē chá.",
+          "en": "What do you want to drink? I want to drink tea."
+        },
+        {
+          "zh": "你想去哪儿旅行？",
+          "py": "Nǐ xiǎng qù nǎr lǚxíng?",
+          "en": "Where do you want to go travelling?"
+        },
+        {
+          "zh": "下课以后你想做什么？",
+          "py": "Xià kè yǐhòu nǐ xiǎng zuò shénme?",
+          "en": "After class what do you want to do? (下课以后 = after class)"
+        },
+        {
+          "zh": "重复主题 · 怎么样（说明）",
+          "py": "zěnmeyàng",
+          "en": "怎么样 asks “how about …?” for suggestions or evaluation. 这家餐厅怎么样？下课以后我们去吃寿司，怎么样？Another use: 你最近怎么样？= “How have you been lately?”"
+        },
+        {
+          "zh": "下课以后我们去吃寿司，怎么样？",
+          "py": "Xià kè yǐhòu wǒmen qù chī shòusī, zěnmeyàng?",
+          "en": "After class let’s go eat sushi—how about it? (我们 + 去 + verb; 怎么样 at end)"
+        },
+        {
+          "zh": "这家餐厅的寿司怎么样？",
+          "py": "Zhè jiā cāntīng de shòusī zěnmeyàng?",
+          "en": "How is the sushi at this restaurant?"
+        },
+        {
+          "zh": "一分钱一分货。",
+          "py": "Yī fēn qián yī fēn huò.",
+          "en": "You get what you pay for. (proverb: price matches quality)"
+        },
+        {
+          "zh": "又好又便宜的东西不多。",
+          "py": "Yòu hǎo yòu piányi de dōngxi bù duō.",
+          "en": "Things that are both good and cheap are rare. (又…又…)"
+        },
+        {
+          "zh": "我喜欢喝水，对身体好。",
+          "py": "Wǒ xǐhuan hē shuǐ, duì shēntǐ hǎo.",
+          "en": "I like drinking water; it’s good for the body. (对 + noun + 好)"
         }
       ]
     }
