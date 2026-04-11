@@ -84,6 +84,8 @@
     position: absolute; top: 1rem; right: 1rem; background: none; border: 1px solid var(--border);
     color: var(--text-muted); width: 32px; height: 32px; border-radius: 50%; cursor: pointer;
     font-size: .75rem; display: flex; align-items: center; justify-content: center; transition: all .2s;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .card .speaker-icon:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
@@ -172,6 +174,7 @@
   @media (max-width: 600px) {
     header h1 { font-size: 1.4rem; }
     .card .chinese { font-size: 1.25rem; }
+    .card .speaker-icon { width: 44px; height: 44px; font-size: .85rem; }
     .flashcard .chinese { font-size: 1.7rem; }
     nav { gap: .3rem; }
     nav button { font-size: .75rem; padding: .35rem .7rem; }
@@ -248,10 +251,54 @@ function getItems() {
 function shuffle(arr) { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
 function speak(text) {
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = "zh-CN";
-  u.rate = 0.85;
-  speechSynthesis.speak(u);
+  const raw = (text || "").trim();
+  if (!raw || typeof window.speechSynthesis === "undefined") return;
+
+  let started = false;
+  const run = () => {
+    if (started) return;
+    started = true;
+    try {
+      window.speechSynthesis.cancel();
+      if (window.speechSynthesis.paused) window.speechSynthesis.resume();
+    } catch (e) {}
+    const u = new SpeechSynthesisUtterance(raw);
+    u.lang = "zh-CN";
+    u.rate = 0.85;
+    let voices = [];
+    try {
+      voices = window.speechSynthesis.getVoices() || [];
+    } catch (e) {}
+    const norm = (s) => (s || "").toLowerCase().replace(/_/g, "-");
+    const zhVoice =
+      voices.find((v) => norm(v.lang) === "zh-cn") ||
+      voices.find((v) => /^zh(-|$|;)/i.test(v.lang || ""));
+    if (zhVoice) u.voice = zhVoice;
+    window.speechSynthesis.speak(u);
+  };
+
+  let list = [];
+  try {
+    list = window.speechSynthesis.getVoices() || [];
+  } catch (e) {}
+  if (list.length) {
+    run();
+    return;
+  }
+
+  const onVoices = () => {
+    window.speechSynthesis.removeEventListener("voiceschanged", onVoices);
+    clearTimeout(fallbackTimer);
+    run();
+  };
+  window.speechSynthesis.addEventListener("voiceschanged", onVoices);
+  try {
+    window.speechSynthesis.getVoices();
+  } catch (e) {}
+  const fallbackTimer = setTimeout(() => {
+    window.speechSynthesis.removeEventListener("voiceschanged", onVoices);
+    run();
+  }, 800);
 }
 
 function renderNav() {
@@ -285,7 +332,7 @@ function renderBrowse() {
           <div class="chinese">${esc(item.zh)}</div>
           <div class="pinyin">${esc(item.py)}</div>
           <div class="english">${esc(item.en)}</div>
-          <button class="speaker-icon" title="Listen">&#9654;</button>
+          <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
         </div>`;
       });
       html += `</div>`;
@@ -300,7 +347,7 @@ function renderBrowse() {
         <div class="chinese">${esc(item.zh)}</div>
         <div class="pinyin">${esc(item.py)}</div>
         <div class="english">${esc(item.en)}</div>
-        <button class="speaker-icon" title="Listen">&#9654;</button>
+        <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
       </div>`;
     });
     html += `</div>`;
@@ -316,7 +363,11 @@ function renderBrowse() {
       if (e.target.closest(".speaker-icon")) return;
       card.classList.toggle("reveal");
     });
-    card.querySelector(".speaker-icon").addEventListener("click", () => speak(card.dataset.zh));
+    card.querySelector(".speaker-icon").addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      speak(card.dataset.zh);
+    });
   });
 }
 
@@ -354,12 +405,12 @@ function renderFlashcard() {
       <div class="hint">${fcRevealed ? 'Click arrows to navigate' : 'Click to reveal'}</div>
     </div>
     <div class="fc-controls">
-      <button id="fcPrev">&larr; Prev</button>
-      <button id="fcSpeak">&#9654; Listen</button>
-      <button id="fcNext">Next &rarr;</button>
+      <button type="button" id="fcPrev">&larr; Prev</button>
+      <button type="button" id="fcSpeak">&#9654; Listen</button>
+      <button type="button" id="fcNext">Next &rarr;</button>
     </div>
     <div class="fc-controls">
-      <button id="fcShuffle">Shuffle</button>
+      <button type="button" id="fcShuffle">Shuffle</button>
     </div>
   </div>`;
 
@@ -369,7 +420,7 @@ function renderFlashcard() {
   document.getElementById("fc").addEventListener("click", () => { fcRevealed = !fcRevealed; renderFlashcard(); });
   document.getElementById("fcPrev").addEventListener("click", () => { fcIndex = (fcIndex - 1 + fcItems.length) % fcItems.length; fcRevealed = false; renderFlashcard(); });
   document.getElementById("fcNext").addEventListener("click", () => { fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; renderFlashcard(); });
-  document.getElementById("fcSpeak").addEventListener("click", () => speak(item.zh));
+  document.getElementById("fcSpeak").addEventListener("click", (e) => { e.preventDefault(); speak(item.zh); });
   document.getElementById("fcShuffle").addEventListener("click", () => { fcItems = shuffle(getItems()); fcIndex = 0; fcRevealed = false; renderFlashcard(); });
 }
 
