@@ -1,10 +1,125 @@
 {
-  "title": "第十九课 · 一路平安",
-  "subtitle": "Lesson 19 — 一路平安 · Have a safe journey",
+  "title": "第十九课 · 欢迎你",
+  "subtitle": "Lesson 19 — 欢迎你 · You are welcome",
   "data": [
     {
       "topic": "生词 · New Words",
       "items": [
+        {
+          "zh": "别",
+          "py": "bié",
+          "en": "don't (imperative)"
+        },
+        {
+          "zh": "客气",
+          "py": "kèqi",
+          "en": "polite, courteous"
+        },
+        {
+          "zh": "累",
+          "py": "lèi",
+          "en": "tired"
+        },
+        {
+          "zh": "第",
+          "py": "dì",
+          "en": "(prefix for ordinal numbers)"
+        },
+        {
+          "zh": "次",
+          "py": "cì",
+          "en": "time (measure word for frequency)"
+        },
+        {
+          "zh": "以前",
+          "py": "yǐqián",
+          "en": "before, previously"
+        },
+        {
+          "zh": "经理",
+          "py": "jīnglǐ",
+          "en": "manager"
+        },
+        {
+          "zh": "信",
+          "py": "xìn",
+          "en": "letter"
+        },
+        {
+          "zh": "问……好",
+          "py": "wèn...hǎo",
+          "en": "to send regards to"
+        },
+        {
+          "zh": "麻烦",
+          "py": "máfan",
+          "en": "trouble; troublesome; to bother"
+        },
+        {
+          "zh": "顺利",
+          "py": "shùnlì",
+          "en": "smooth, without a hitch"
+        },
+        {
+          "zh": "汽车",
+          "py": "qìchē",
+          "en": "car, automobile"
+        },
+        {
+          "zh": "外边",
+          "py": "wàibian",
+          "en": "outside"
+        },
+        {
+          "zh": "翻译",
+          "py": "fānyì",
+          "en": "translator; to translate"
+        },
+        {
+          "zh": "饭店",
+          "py": "fàndiàn",
+          "en": "hotel; restaurant"
+        },
+        {
+          "zh": "打车",
+          "py": "dǎ chē",
+          "en": "to take a taxi"
+        },
+        {
+          "zh": "好意思",
+          "py": "hǎo yìsi",
+          "en": "to have the nerve; (不好意思 = embarrassed)"
+        },
+        {
+          "zh": "时间",
+          "py": "shíjiān",
+          "en": "time"
+        },
+        {
+          "zh": "花",
+          "py": "huā",
+          "en": "flower"
+        },
+        {
+          "zh": "明信片",
+          "py": "míngxìnpiàn",
+          "en": "postcard"
+        },
+        {
+          "zh": "笔",
+          "py": "bǐ",
+          "en": "pen"
+        },
+        {
+          "zh": "寄",
+          "py": "jì",
+          "en": "to mail, to send (by post)"
+        },
+        {
+          "zh": "收到",
+          "py": "shōu dào",
+          "en": "to receive"
+        },
         {
           "zh": "祝",
           "py": "zhù",
@@ -23,7 +138,7 @@
         {
           "zh": "送",
           "py": "sòng",
-          "en": "to see off; to give (a gift)"
+          "en": "to see off; to give (a gift); to escort"
         },
         {
           "zh": "礼物",
@@ -81,11 +196,6 @@
           "en": "to go in"
         },
         {
-          "zh": "别",
-          "py": "bié",
-          "en": "don't (imperative)"
-        },
-        {
           "zh": "前天",
           "py": "qiántiān",
           "en": "the day before yesterday"
@@ -93,8 +203,63 @@
       ]
     },
     {
+      "topic": "专名 · Proper Nouns",
+      "items": [
+        {
+          "zh": "北京饭店",
+          "py": "Běijīng Fàndiàn",
+          "en": "Beijing Hotel"
+        },
+        {
+          "zh": "王大年",
+          "py": "Wáng Dànián",
+          "en": "Wang Danian (name of a person)"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
+        {
+          "zh": "别客气。",
+          "py": "Bié kèqi.",
+          "en": "Don't be polite. / You're welcome."
+        },
+        {
+          "zh": "一点儿也不累。",
+          "py": "Yīdiǎnr yě bú lèi.",
+          "en": "Not tired at all."
+        },
+        {
+          "zh": "您第一次来中国吗？",
+          "py": "Nín dì yī cì lái Zhōngguó ma?",
+          "en": "Is this your first visit to China?"
+        },
+        {
+          "zh": "我以前来过（中国）两次。",
+          "py": "Wǒ yǐqián lái guò (Zhōngguó) liǎng cì.",
+          "en": "I have been to China twice before."
+        },
+        {
+          "zh": "这是我们经理给您的信。",
+          "py": "Zhè shì wǒmen jīnglǐ gěi nín de xìn.",
+          "en": "Here is a letter for you from our manager."
+        },
+        {
+          "zh": "他问您好。",
+          "py": "Tā wèn nín hǎo.",
+          "en": "He sends his regards to you."
+        },
+        {
+          "zh": "我们在北京饭店请您吃晚饭。",
+          "py": "Wǒmen zài Běijīng Fàndiàn qǐng nín chī wǎnfàn.",
+          "en": "We invite you to dinner at Beijing Hotel."
+        },
+        {
+          "zh": "我从朋友那儿去饭店。",
+          "py": "Wǒ cóng péngyou nàr qù fàndiàn.",
+          "en": "I'll go to the hotel from my friend's place."
+        },
         {
           "zh": "祝你一路平安！",
           "py": "Zhù nǐ yīlù píng'ān!",
@@ -133,7 +298,117 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1 (Seeing Off)",
+      "topic": "会话1 · Dialogue 1 (Welcoming at the Airport)",
+      "items": [
+        {
+          "zh": "王大年：您好，李先生！我是王大年，公司的翻译。",
+          "py": "Wáng Dànián: Nín hǎo, Lǐ xiānsheng! Wǒ shì Wáng Dànián, gōngsī de fānyì.",
+          "en": "Wang Danian: Hello, Mr. Li! I'm Wang Danian, the company translator."
+        },
+        {
+          "zh": "李：谢谢您来接我。",
+          "py": "Lǐ: Xièxie nín lái jiē wǒ.",
+          "en": "Li: Thank you for coming to pick me up."
+        },
+        {
+          "zh": "王大年：别客气。路上辛苦了。累了吧？",
+          "py": "Wáng Dànián: Bié kèqi. Lù shang xīnkǔ le. Lèi le ba?",
+          "en": "Wang Danian: Don't mention it. You must be tired from the journey. Are you tired?"
+        },
+        {
+          "zh": "李：一点儿也不累，很顺利。",
+          "py": "Lǐ: Yīdiǎnr yě bú lèi, hěn shùnlì.",
+          "en": "Li: Not tired at all; the trip was smooth."
+        },
+        {
+          "zh": "王大年：汽车在外边，我们送您去饭店。",
+          "py": "Wáng Dànián: Qìchē zài wàibian, wǒmen sòng nín qù fàndiàn.",
+          "en": "Wang Danian: The car is outside. We'll take you to the hotel."
+        },
+        {
+          "zh": "李：我还有两个朋友。",
+          "py": "Lǐ: Wǒ hái yǒu liǎng ge péngyou.",
+          "en": "Li: I have two more friends (with me)."
+        },
+        {
+          "zh": "王大年：那一起走吧。",
+          "py": "Wáng Dànián: Nà yìqǐ zǒu ba.",
+          "en": "Wang Danian: Then let's all go together."
+        },
+        {
+          "zh": "李：谢谢！",
+          "py": "Lǐ: Xièxie!",
+          "en": "Li: Thank you!"
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Dinner Invitation)",
+      "items": [
+        {
+          "zh": "经理：欢迎您，李先生！",
+          "py": "Jīnglǐ: Huānyíng nín, Lǐ xiānsheng!",
+          "en": "Manager: Welcome, Mr. Li!"
+        },
+        {
+          "zh": "李：谢谢！",
+          "py": "Lǐ: Xièxie!",
+          "en": "Li: Thank you!"
+        },
+        {
+          "zh": "经理：您第一次来中国吗？",
+          "py": "Jīnglǐ: Nín dì yī cì lái Zhōngguó ma?",
+          "en": "Manager: Is this your first visit to China?"
+        },
+        {
+          "zh": "李：不，我以前来过两次。这是我们经理给您的信。",
+          "py": "Lǐ: Bù, wǒ yǐqián lái guò liǎng cì. Zhè shì wǒmen jīnglǐ gěi nín de xìn.",
+          "en": "Li: No, I've been here twice before. Here is a letter from our manager."
+        },
+        {
+          "zh": "经理：麻烦您了。",
+          "py": "Jīnglǐ: Máfan nín le.",
+          "en": "Manager: Sorry for the trouble."
+        },
+        {
+          "zh": "李：他问您好。",
+          "py": "Lǐ: Tā wèn nín hǎo.",
+          "en": "Li: He sends his regards."
+        },
+        {
+          "zh": "经理：谢谢。今天我们在北京饭店请您吃晚饭。",
+          "py": "Jīnglǐ: Xièxie. Jīntiān wǒmen zài Běijīng Fàndiàn qǐng nín chī wǎnfàn.",
+          "en": "Manager: Thank you. Today we'll invite you to dinner at Beijing Hotel."
+        },
+        {
+          "zh": "李：您太客气了，真不好意思。",
+          "py": "Lǐ: Nín tài kèqi le, zhēn bù hǎo yìsi.",
+          "en": "Li: You're too kind, I'm really embarrassed."
+        },
+        {
+          "zh": "经理：您有时间吗？",
+          "py": "Jīnglǐ: Nín yǒu shíjiān ma?",
+          "en": "Manager: Do you have time?"
+        },
+        {
+          "zh": "李：下午我去朋友那儿，晚上没有事。",
+          "py": "Lǐ: Xiàwǔ wǒ qù péngyou nàr, wǎnshang méi yǒu shì.",
+          "en": "Li: I'm visiting a friend in the afternoon, but I'm free in the evening."
+        },
+        {
+          "zh": "经理：我们去接您。",
+          "py": "Jīnglǐ: Wǒmen qù jiē nín.",
+          "en": "Manager: We'll come pick you up."
+        },
+        {
+          "zh": "李：不用了，我可以打车从朋友那儿去。",
+          "py": "Lǐ: Bú yòng le, wǒ kěyǐ dǎ chē cóng péngyou nàr qù.",
+          "en": "Li: No need. I can take a taxi from my friend's place."
+        }
+      ]
+    },
+    {
+      "topic": "会话3 · Dialogue 3 (Seeing Off)",
       "items": [
         {
           "zh": "刘京：你什么时候走？",
@@ -178,7 +453,7 @@
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2 (At the Airport)",
+      "topic": "会话4 · Dialogue 4 (At the Airport — Farewell)",
       "items": [
         {
           "zh": "刘京：时间不早了，你该进去了。",
@@ -219,6 +494,201 @@
           "zh": "大卫：再见！",
           "py": "Dàwèi: Zàijiàn!",
           "en": "David: Goodbye!"
+        }
+      ]
+    },
+    {
+      "topic": "替换与扩展 · Substitution and Extension",
+      "items": [
+        {
+          "zh": "一点儿也不累。——一点儿也不冷。",
+          "py": "Yīdiǎnr yě bú lèi. —— Yīdiǎnr yě bù lěng.",
+          "en": "Not tired at all. — Not cold at all."
+        },
+        {
+          "zh": "一分钟也不能等。",
+          "py": "Yī fēnzhōng yě bù néng děng.",
+          "en": "Can't wait even a minute."
+        },
+        {
+          "zh": "这是我们经理给您的信。——这是我姐姐给你的笔。",
+          "py": "Zhè shì wǒmen jīnglǐ gěi nín de xìn. —— Zhè shì wǒ jiějie gěi nǐ de bǐ.",
+          "en": "This is a letter from our manager. — This is a pen from my sister."
+        },
+        {
+          "zh": "这是他哥哥送你的花。",
+          "py": "Zhè shì tā gēge sòng nǐ de huā.",
+          "en": "These are flowers from his brother for you."
+        },
+        {
+          "zh": "这是我朋友给我的明信片。",
+          "py": "Zhè shì wǒ péngyou gěi wǒ de míngxìnpiàn.",
+          "en": "This is a postcard from my friend."
+        },
+        {
+          "zh": "您第一次来中国吗？——您第一次吃烤鸭吗？",
+          "py": "Nín dì yī cì lái Zhōngguó ma? —— Nín dì yī cì chī kǎoyā ma?",
+          "en": "First time in China? — First time eating roast duck?"
+        },
+        {
+          "zh": "您第一次看京剧吗？",
+          "py": "Nín dì yī cì kàn jīngjù ma?",
+          "en": "Is this your first time seeing Beijing opera?"
+        },
+        {
+          "zh": "不，我以前来过两次。——不，我以前来过我们学校两次。",
+          "py": "Bù, wǒ yǐqián lái guò liǎng cì. —— Bù, wǒ yǐqián lái guò wǒmen xuéxiào liǎng cì.",
+          "en": "No, I've been here twice. — No, I've been to our school twice."
+        },
+        {
+          "zh": "从北京到大同很顺利。",
+          "py": "Cóng Běijīng dào Dàtóng hěn shùnlì.",
+          "en": "The trip from Beijing to Datong was smooth."
+        },
+        {
+          "zh": "我寄给你的信收到了吗？",
+          "py": "Wǒ jì gěi nǐ de xìn shōu dào le ma?",
+          "en": "Did you receive the letter I sent you?"
+        },
+        {
+          "zh": "我来中国的时候汉语一句也不会说。",
+          "py": "Wǒ lái Zhōngguó de shíhou Hànyǔ yī jù yě bú huì shuō.",
+          "en": "When I came to China I couldn't speak a word of Chinese."
+        },
+        {
+          "zh": "你什么时候走？——后天。",
+          "py": "Nǐ shénme shíhou zǒu? —— Hòutiān.",
+          "en": "When do you leave? — Day after tomorrow."
+        },
+        {
+          "zh": "你什么时候走？——下个星期。",
+          "py": "Nǐ shénme shíhou zǒu? —— Xià ge xīngqī.",
+          "en": "When do you leave? — Next week."
+        },
+        {
+          "zh": "你什么时候走？——明天下午。",
+          "py": "Nǐ shénme shíhou zǒu? —— Míngtiān xiàwǔ.",
+          "en": "When do you leave? — Tomorrow afternoon."
+        },
+        {
+          "zh": "我去送你。——不用了。",
+          "py": "Wǒ qù sòng nǐ. —— Bú yòng le.",
+          "en": "I'll see you off. — No need."
+        },
+        {
+          "zh": "到了以后给我打电话。",
+          "py": "Dào le yǐhòu gěi wǒ dǎ diànhuà.",
+          "en": "Call me after you arrive."
+        },
+        {
+          "zh": "到了以后给我发短信。",
+          "py": "Dào le yǐhòu gěi wǒ fā duǎnxìn.",
+          "en": "Text me after you arrive."
+        },
+        {
+          "zh": "到了以后给我发微信。",
+          "py": "Dào le yǐhòu gěi wǒ fā Wēixìn.",
+          "en": "Send me a WeChat message after you arrive."
+        },
+        {
+          "zh": "你回国以后还学汉语吗？",
+          "py": "Nǐ huí guó yǐhòu hái xué Hànyǔ ma?",
+          "en": "Will you continue studying Chinese after returning home?"
+        },
+        {
+          "zh": "我送你一件小礼物。",
+          "py": "Wǒ sòng nǐ yī jiàn xiǎo lǐwù.",
+          "en": "I'm giving you a small gift."
+        },
+        {
+          "zh": "你太客气了！",
+          "py": "Nǐ tài kèqi le!",
+          "en": "You're too kind!"
+        },
+        {
+          "zh": "希望你再来中国。",
+          "py": "Xīwàng nǐ zài lái Zhōngguó.",
+          "en": "I hope you'll come to China again."
+        },
+        {
+          "zh": "我一定再来。",
+          "py": "Wǒ yīdìng zài lái.",
+          "en": "I'll definitely come again."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (从/在的宾语与这儿/那儿 · Objects of 从/在 with 这儿/那儿)",
+      "items": [
+        {
+          "zh": "他从我这儿去书店。",
+          "py": "Tā cóng wǒ zhèr qù shūdiàn.",
+          "en": "He goes to the bookstore from my place."
+        },
+        {
+          "zh": "我从张大夫那儿来。",
+          "py": "Wǒ cóng Zhāng dàifu nàr lái.",
+          "en": "I came from Dr. Zhang's place."
+        },
+        {
+          "zh": "我妹妹在玛丽那儿玩儿。",
+          "py": "Wǒ mèimei zài Mǎlì nàr wánr.",
+          "en": "My younger sister is playing at Mary's place."
+        },
+        {
+          "zh": "我的笔在他那儿。",
+          "py": "Wǒ de bǐ zài tā nàr.",
+          "en": "My pen is at his place."
+        },
+        {
+          "zh": "我可以打车从朋友那儿去。",
+          "py": "Wǒ kěyǐ dǎ chē cóng péngyou nàr qù.",
+          "en": "I can take a taxi from my friend's place."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (动量补语 · Complement of Frequency)",
+      "items": [
+        {
+          "zh": "我以前来过两次。",
+          "py": "Wǒ yǐqián lái guò liǎng cì.",
+          "en": "I've been here twice before."
+        },
+        {
+          "zh": "这本书我看了三遍。",
+          "py": "Zhè běn shū wǒ kàn le sān biàn.",
+          "en": "I've read this book three times."
+        },
+        {
+          "zh": "请你帮我看一下儿。",
+          "py": "Qǐng nǐ bāng wǒ kàn yīxiàr.",
+          "en": "Please take a look for me. (一下儿 = brief action)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (动词/短语作定语 · Verb/VP as Attributive with 的)",
+      "items": [
+        {
+          "zh": "来的人很多。",
+          "py": "Lái de rén hěn duō.",
+          "en": "There are many people coming."
+        },
+        {
+          "zh": "学习汉语的学生不少。",
+          "py": "Xuéxí Hànyǔ de xuéshēng bù shǎo.",
+          "en": "There are quite a few students studying Chinese."
+        },
+        {
+          "zh": "这是经理给您的信。",
+          "py": "Zhè shì jīnglǐ gěi nín de xìn.",
+          "en": "This is a letter from the manager for you."
+        },
+        {
+          "zh": "从东京来的飞机下午到。",
+          "py": "Cóng Dōngjīng lái de fēijī xiàwǔ dào.",
+          "en": "The flight from Tokyo arrives in the afternoon."
         }
       ]
     },
@@ -283,72 +753,62 @@
       ]
     },
     {
-      "topic": "替换 · Substitution Drills",
+      "topic": "练习 · Exercises",
       "items": [
         {
-          "zh": "你什么时候走？——后天。",
-          "py": "Nǐ shénme shíhou zǒu? —— Hòutiān.",
-          "en": "When do you leave? — Day after tomorrow."
+          "zh": "我坐过三路汽车。",
+          "py": "Wǒ zuò guò sān lù qìchē.",
+          "en": "I've taken the No. 3 bus. (insert 三次)"
         },
         {
-          "zh": "你什么时候走？——下个星期。",
-          "py": "Nǐ shénme shíhou zǒu? —— Xià ge xīngqī.",
-          "en": "When do you leave? — Next week."
+          "zh": "她去过上海三次。",
+          "py": "Tā qù guò Shànghǎi sān cì.",
+          "en": "She has been to Shanghai three times."
         },
         {
-          "zh": "你什么时候走？——明天下午。",
-          "py": "Nǐ shénme shíhou zǒu? —— Míngtiān xiàwǔ.",
-          "en": "When do you leave? — Tomorrow afternoon."
+          "zh": "动物园我去过两次。",
+          "py": "Dòngwùyuán wǒ qù guò liǎng cì.",
+          "en": "I've been to the zoo twice."
         },
         {
-          "zh": "我去送你。——不用了。",
-          "py": "Wǒ qù sòng nǐ. —— Bú yòng le.",
-          "en": "I'll see you off. — No need."
+          "zh": "今天我一瓶啤酒也没喝。",
+          "py": "Jīntiān wǒ yī píng píjiǔ yě méi hē.",
+          "en": "I haven't had a single bottle of beer today. (一...也没... pattern)"
         },
         {
-          "zh": "到了以后给我打电话。",
-          "py": "Dào le yǐhòu gěi wǒ dǎ diànhuà.",
-          "en": "Call me after you arrive."
+          "zh": "我一次也没去过动物园。",
+          "py": "Wǒ yī cì yě méi qù guò dòngwùyuán.",
+          "en": "I have never been to the zoo, not even once."
         },
         {
-          "zh": "到了以后给我发短信。",
-          "py": "Dào le yǐhòu gěi wǒ fā duǎnxìn.",
-          "en": "Text me after you arrive."
+          "zh": "在北京他一次也没骑过自行车。",
+          "py": "Zài Běijīng tā yī cì yě méi qí guò zìxíngchē.",
+          "en": "He has never ridden a bicycle in Beijing."
         },
         {
-          "zh": "到了以后给我发微信。",
-          "py": "Dào le yǐhòu gěi wǒ fā Wēixìn.",
-          "en": "Send me a WeChat message after you arrive."
-        }
-      ]
-    },
-    {
-      "topic": "扩展 · Extension Sentences",
-      "items": [
-        {
-          "zh": "你回国以后还学汉语吗？",
-          "py": "Nǐ huí guó yǐhòu hái xué Hànyǔ ma?",
-          "en": "Will you continue studying Chinese after returning home?"
+          "zh": "今天我一分钱也没带。",
+          "py": "Jīntiān wǒ yī fēn qián yě méi dài.",
+          "en": "I haven't brought a single cent today."
         },
         {
-          "zh": "我送你一件小礼物。",
-          "py": "Wǒ sòng nǐ yī jiàn xiǎo lǐwù.",
-          "en": "I'm giving you a small gift."
+          "zh": "他一个汉字也不认识。",
+          "py": "Tā yī gè Hànzì yě bú rènshi.",
+          "en": "He doesn't know a single Chinese character."
         },
         {
-          "zh": "你太客气了！",
-          "py": "Nǐ tài kèqi le!",
-          "en": "You're too kind!"
+          "zh": "你来过中国吗？现在是第几次来？",
+          "py": "Nǐ lái guò Zhōngguó ma? Xiànzài shì dì jǐ cì lái?",
+          "en": "Have you been to China before? Which visit is this?"
         },
         {
-          "zh": "希望你再来中国。",
-          "py": "Xīwàng nǐ zài lái Zhōngguó.",
-          "en": "I hope you'll come to China again."
+          "zh": "上星期五我去大同了。我是坐火车去的，今天早上回来的。",
+          "py": "Shàng xīngqīwǔ wǒ qù Dàtóng le. Wǒ shì zuò huǒchē qù de, jīntiān zǎoshang huílái de.",
+          "en": "(Retelling) Last Friday I went to Datong. I went by train and came back this morning."
         },
         {
-          "zh": "我一定再来。",
-          "py": "Wǒ yīdìng zài lái.",
-          "en": "I'll definitely come again."
+          "zh": "从北京到大同很近。坐火车去大概要七个小时。",
+          "py": "Cóng Běijīng dào Dàtóng hěn jìn. Zuò huǒchē qù dàgài yào qī ge xiǎoshí.",
+          "en": "(Retelling) Beijing to Datong is close. It takes about 7 hours by train."
         }
       ]
     }

@@ -41,6 +41,16 @@
           "en": "sisters"
         },
         {
+          "zh": "哥哥",
+          "py": "gēge",
+          "en": "older brother"
+        },
+        {
+          "zh": "弟弟",
+          "py": "dìdi",
+          "en": "younger brother"
+        },
+        {
           "zh": "姐姐",
           "py": "jiějie",
           "en": "older sister"
@@ -58,7 +68,7 @@
         {
           "zh": "孩子",
           "py": "háizi",
-          "en": "child"
+          "en": "child; children"
         },
         {
           "zh": "儿子",
@@ -86,6 +96,11 @@
           "en": "doctor"
         },
         {
+          "zh": "大夫",
+          "py": "dàifu",
+          "en": "doctor (colloquial)"
+        },
+        {
           "zh": "公司",
           "py": "gōngsī",
           "en": "company"
@@ -93,7 +108,7 @@
         {
           "zh": "职员",
           "py": "zhíyuán",
-          "en": "staff; employee"
+          "en": "staff; employee; clerk"
         },
         {
           "zh": "两",
@@ -114,6 +129,41 @@
           "zh": "大学",
           "py": "dàxué",
           "en": "university"
+        },
+        {
+          "zh": "结婚",
+          "py": "jiéhūn",
+          "en": "to marry; to get married"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "particle indicating completed action or change of state"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "en": "to study; to learn"
+        },
+        {
+          "zh": "英语",
+          "py": "Yīngyǔ",
+          "en": "English (language)"
+        },
+        {
+          "zh": "银行",
+          "py": "yínháng",
+          "en": "bank"
+        },
+        {
+          "zh": "护士",
+          "py": "hùshi",
+          "en": "nurse"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work; work; job"
         }
       ]
     },
@@ -144,6 +194,31 @@
           "zh": "我爸爸是医生。",
           "py": "Wǒ bàba shì yīshēng.",
           "en": "My father is a doctor."
+        },
+        {
+          "zh": "你妈妈做什么工作？",
+          "py": "Nǐ māma zuò shénme gōngzuò?",
+          "en": "What does your mother do (for work)?"
+        },
+        {
+          "zh": "她在大学工作。",
+          "py": "Tā zài dàxué gōngzuò.",
+          "en": "She works at a university."
+        },
+        {
+          "zh": "我家有爸爸、妈妈和一个弟弟。",
+          "py": "Wǒ jiā yǒu bàba, māma hé yí gè dìdi.",
+          "en": "My family has dad, mom, and a younger brother."
+        },
+        {
+          "zh": "哥哥结婚了。",
+          "py": "Gēge jiéhūn le.",
+          "en": "My elder brother is married."
+        },
+        {
+          "zh": "他们还没有孩子。",
+          "py": "Tāmen hái méiyǒu háizi.",
+          "en": "They don't have children yet."
         }
       ]
     },
@@ -228,52 +303,117 @@
       ]
     },
     {
-      "topic": "语法 · Grammar",
+      "topic": "会话 · Textbook Dialogue 1 (大卫 & 刘京)",
       "items": [
         {
-          "zh": "我家有三口人。",
-          "py": "Wǒ jiā yǒu sān kǒu rén.",
-          "en": "有 expresses possession or existence (\"have\" / \"there are\")."
+          "zh": "大卫：刘京，你家有几口人？",
+          "py": "Dàwèi: Liú Jīng, nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "David: Liu Jing, how many people are in your family?"
         },
         {
-          "zh": "我有一个姐姐。",
-          "py": "Wǒ yǒu yí gè jiějie.",
-          "en": "有 + object: to have something."
+          "zh": "刘京：四口人。你家呢？",
+          "py": "Liú Jīng: Sì kǒu rén. Nǐ jiā ne?",
+          "en": "Liu Jing: Four. And yours?"
         },
         {
-          "zh": "我没有哥哥。",
-          "py": "Wǒ méiyǒu gēge.",
-          "en": "Negate with 没有, not 不有."
+          "zh": "大卫：两口人，妈妈和我。",
+          "py": "Dàwèi: Liǎng kǒu rén, māma hé wǒ.",
+          "en": "David: Two — mom and me."
         },
         {
-          "zh": "你家有没有孩子？",
-          "py": "Nǐ jiā yǒu méiyǒu háizi?",
-          "en": "有没有 pattern for yes/no questions about having something."
+          "zh": "刘京：你妈妈做什么工作？",
+          "py": "Liú Jīng: Nǐ māma zuò shénme gōngzuò?",
+          "en": "Liu Jing: What does your mom do?"
         },
         {
-          "zh": "你家有几口人？",
-          "py": "Nǐ jiā yǒu jǐ kǒu rén?",
-          "en": "几 asks \"how many\" for small expected numbers (family size, etc.)."
+          "zh": "大卫：她是老师。她在大学工作。",
+          "py": "Dàwèi: Tā shì lǎoshī. Tā zài dàxué gōngzuò.",
+          "en": "David: She's a teacher. She works at a university."
+        }
+      ]
+    },
+    {
+      "topic": "会话 · Textbook Dialogue 2 (大卫 & 和子)",
+      "items": [
+        {
+          "zh": "大卫：和子，你家有什么人？",
+          "py": "Dàwèi: Hézǐ, nǐ jiā yǒu shénme rén?",
+          "en": "David: Kazuko, who is in your family?"
         },
         {
-          "zh": "你们学校有多少学生？",
-          "py": "Nǐmen xuéxiào yǒu duōshao xuéshēng?",
-          "en": "多少 is used for larger or open-ended quantities."
+          "zh": "和子：爸爸、妈妈和一个弟弟。",
+          "py": "Hézǐ: Bàba, māma hé yí gè dìdi.",
+          "en": "Kazuko: Dad, mom, and a younger brother."
         },
         {
-          "zh": "五口人 · 三个孩子",
-          "py": "wǔ kǒu rén · sān gè háizi",
-          "en": "口 counts family members; 个 is the general measure word."
+          "zh": "大卫：你弟弟是学生吗？",
+          "py": "Dàwèi: Nǐ dìdi shì xuéshēng ma?",
+          "en": "David: Is your younger brother a student?"
         },
         {
-          "zh": "我有两个孩子。",
-          "py": "Wǒ yǒu liǎng gè háizi.",
-          "en": "Use 两 before measure words, not 二 (二口人 is wrong)."
+          "zh": "和子：是，他学习英语。",
+          "py": "Hézǐ: Shì, tā xuéxí Yīngyǔ.",
+          "en": "Kazuko: Yes, he studies English."
         },
         {
-          "zh": "我家有两个人。",
-          "py": "Wǒ jiā yǒu liǎng gè rén.",
-          "en": "两 + 个 + 人 is fine; 口 is specifically for family headcount."
+          "zh": "大卫：你妈妈工作吗？",
+          "py": "Dàwèi: Nǐ māma gōngzuò ma?",
+          "en": "David: Does your mom work?"
+        },
+        {
+          "zh": "和子：她不工作。",
+          "py": "Hézǐ: Tā bù gōngzuò.",
+          "en": "Kazuko: She doesn't work."
+        }
+      ]
+    },
+    {
+      "topic": "会话 · Textbook Dialogue 3 (王兰 & 玛丽)",
+      "items": [
+        {
+          "zh": "王兰：你家有谁？",
+          "py": "Wáng Lán: Nǐ jiā yǒu shéi?",
+          "en": "Wang Lan: Who is in your family?"
+        },
+        {
+          "zh": "玛丽：爸爸、妈妈和姐姐。",
+          "py": "Mǎlì: Bàba, māma hé jiějie.",
+          "en": "Mary: Dad, mom, and my older sister."
+        },
+        {
+          "zh": "王兰：你姐姐工作吗？",
+          "py": "Wáng Lán: Nǐ jiějie gōngzuò ma?",
+          "en": "Wang Lan: Does your older sister work?"
+        },
+        {
+          "zh": "玛丽：工作。她是职员，在银行工作。你哥哥做什么工作？",
+          "py": "Mǎlì: Gōngzuò. Tā shì zhíyuán, zài yínháng gōngzuò. Nǐ gēge zuò shénme gōngzuò?",
+          "en": "Mary: Yes. She's a clerk and works at a bank. What does your older brother do?"
+        },
+        {
+          "zh": "王兰：他是大夫。",
+          "py": "Wáng Lán: Tā shì dàifu.",
+          "en": "Wang Lan: He's a doctor."
+        },
+        {
+          "zh": "玛丽：他结婚了吗？",
+          "py": "Mǎlì: Tā jiéhūn le ma?",
+          "en": "Mary: Is he married?"
+        },
+        {
+          "zh": "王兰：结婚了。他爱人是护士。",
+          "py": "Wáng Lán: Jiéhūn le. Tā àiren shì hùshi.",
+          "en": "Wang Lan: Yes. His wife is a nurse."
+        },
+        {
+          "zh": "玛丽：他们有孩子吗？",
+          "py": "Mǎlì: Tāmen yǒu háizi ma?",
+          "en": "Mary: Do they have children?"
+        },
+        {
+          "zh": "王兰：没有。",
+          "py": "Wáng Lán: Méiyǒu.",
+          "en": "Wang Lan: No."
         }
       ]
     },
@@ -323,6 +463,86 @@
       ]
     },
     {
+      "topic": "替换与扩展 · Substitution & Extension (textbook)",
+      "items": [
+        {
+          "zh": "我在北京语言大学学习汉语。",
+          "py": "Wǒ zài Běijīng Yǔyán Dàxué xuéxí Hànyǔ.",
+          "en": "I study Chinese at Beijing Language and Culture University."
+        },
+        {
+          "zh": "今天有汉语课，明天没有汉语课。",
+          "py": "Jīntiān yǒu Hànyǔ kè, míngtiān méiyǒu Hànyǔ kè.",
+          "en": "Today there's a Chinese class; tomorrow there isn't."
+        },
+        {
+          "zh": "下课了，我回宿舍休息。",
+          "py": "Xià kè le, wǒ huí sùshè xiūxi.",
+          "en": "Class is over — I'm going back to the dorm to rest."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar",
+      "items": [
+        {
+          "zh": "我家有三口人。",
+          "py": "Wǒ jiā yǒu sān kǒu rén.",
+          "en": "有 expresses possession or existence (\"have\" / \"there are\")."
+        },
+        {
+          "zh": "我有一个姐姐。",
+          "py": "Wǒ yǒu yí gè jiějie.",
+          "en": "有 + object: to have something."
+        },
+        {
+          "zh": "我没有哥哥。",
+          "py": "Wǒ méiyǒu gēge.",
+          "en": "Negate with 没有, not 不有."
+        },
+        {
+          "zh": "你家有没有孩子？",
+          "py": "Nǐ jiā yǒu méiyǒu háizi?",
+          "en": "有没有 pattern for yes/no questions about having something."
+        },
+        {
+          "zh": "你家有几口人？",
+          "py": "Nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "几 asks \"how many\" for small expected numbers (family size, etc.)."
+        },
+        {
+          "zh": "你们学校有多少学生？",
+          "py": "Nǐmen xuéxiào yǒu duōshao xuéshēng?",
+          "en": "多少 is used for larger or open-ended quantities."
+        },
+        {
+          "zh": "五口人 · 三个孩子",
+          "py": "wǔ kǒu rén · sān gè háizi",
+          "en": "口 counts family members; 个 is the general measure word."
+        },
+        {
+          "zh": "我有两个孩子。",
+          "py": "Wǒ yǒu liǎng gè háizi.",
+          "en": "Use 两 before measure words, not 二 (二口人 is wrong)."
+        },
+        {
+          "zh": "我家有两个人。",
+          "py": "Wǒ jiā yǒu liǎng gè rén.",
+          "en": "两 + 个 + 人 is fine; 口 is specifically for family headcount."
+        },
+        {
+          "zh": "她在大学工作。",
+          "py": "Tā zài dàxué gōngzuò.",
+          "en": "在 + place + verb: prepositional construction indicating where an action takes place."
+        },
+        {
+          "zh": "她是职员，在银行工作。",
+          "py": "Tā shì zhíyuán, zài yínháng gōngzuò.",
+          "en": "在 + place precedes the verb to show location of work."
+        }
+      ]
+    },
+    {
       "topic": "练习 · Exercises",
       "items": [
         {
@@ -364,6 +584,21 @@
           "zh": "他家没有兄弟姐妹，只有一个孩子。",
           "py": "Tā jiā méiyǒu xiōngdì jiěmèi, zhǐ yǒu yí gè háizi.",
           "en": "Their family has no siblings — only one child."
+        },
+        {
+          "zh": "他有一个孩子。",
+          "py": "Tā yǒu yí gè háizi.",
+          "en": "He has one child."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Listen and Retell (textbook)",
+      "items": [
+        {
+          "zh": "大卫有一个哥哥，哥哥是学生。爸爸、妈妈都工作。小大卫说，他家有五口人。那一个是谁？是他的猫。",
+          "py": "Dàwèi yǒu yí gè gēge, gēge shì xuéshēng. Bàba, māma dōu gōngzuò. Xiǎo Dàwèi shuō, tā jiā yǒu wǔ kǒu rén. Nà yí gè shì shéi? Shì tā de māo.",
+          "en": "David has an older brother who is a student. Dad and mom both work. Little David says his family has five members. Who is the other one? It's his cat."
         }
       ]
     },
@@ -374,6 +609,11 @@
           "zh": "医生",
           "py": "yīshēng",
           "en": "doctor"
+        },
+        {
+          "zh": "大夫",
+          "py": "dàifu",
+          "en": "doctor (colloquial)"
         },
         {
           "zh": "护士",
@@ -393,7 +633,7 @@
         {
           "zh": "职员",
           "py": "zhíyuán",
-          "en": "office worker; staff"
+          "en": "office worker; staff; clerk"
         },
         {
           "zh": "工程师",

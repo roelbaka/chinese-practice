@@ -1,9 +1,119 @@
 {
-  "title": "第十三课 · 要红的还是要蓝的",
-  "subtitle": "Lesson 13 — 要红的还是要蓝的 · Do you want the red one or the blue one",
+  "title": "第十三课 · 要换车",
+  "subtitle": "Lesson 13 — 要换车 · You Have to Change Buses",
   "data": [
     {
-      "topic": "生词 · New Words",
+      "topic": "生词 · New Words (Textbook: 要换车)",
+      "items": [
+        {
+          "zh": "路",
+          "py": "lù",
+          "en": "route; road (measure word for bus routes)"
+        },
+        {
+          "zh": "车",
+          "py": "chē",
+          "en": "vehicle; bus; car"
+        },
+        {
+          "zh": "到",
+          "py": "dào",
+          "en": "to arrive; to reach; to (destination)"
+        },
+        {
+          "zh": "上（车）",
+          "py": "shàng (chē)",
+          "en": "to get on (a vehicle)"
+        },
+        {
+          "zh": "票",
+          "py": "piào",
+          "en": "ticket"
+        },
+        {
+          "zh": "张",
+          "py": "zhāng",
+          "en": "measure word for tickets, paper, tables"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give; for"
+        },
+        {
+          "zh": "找（钱）",
+          "py": "zhǎo (qián)",
+          "en": "to give change"
+        },
+        {
+          "zh": "站",
+          "py": "zhàn",
+          "en": "stop; station"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can (learned ability)"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak; to say"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yīdiǎnr",
+          "en": "a little bit"
+        },
+        {
+          "zh": "懂",
+          "py": "dǒng",
+          "en": "to understand"
+        },
+        {
+          "zh": "下（车）",
+          "py": "xià (chē)",
+          "en": "to get off (a vehicle)"
+        },
+        {
+          "zh": "换",
+          "py": "huàn",
+          "en": "to change; to transfer"
+        },
+        {
+          "zh": "售票员",
+          "py": "shòupiàoyuán",
+          "en": "ticket seller; conductor"
+        },
+        {
+          "zh": "天安门",
+          "py": "Tiān'ānmén",
+          "en": "Tian'anmen (Gate of Heavenly Peace)"
+        },
+        {
+          "zh": "语言大学",
+          "py": "Yǔyán Dàxué",
+          "en": "Language and Culture University"
+        },
+        {
+          "zh": "北京师范大学",
+          "py": "Běijīng Shīfàn Dàxué",
+          "en": "Beijing Normal University"
+        },
+        {
+          "zh": "法国",
+          "py": "Fǎguó",
+          "en": "France"
+        },
+        {
+          "zh": "美国",
+          "py": "Měiguó",
+          "en": "America; USA"
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (要红的还是要蓝的)",
       "items": [
         {
           "zh": "件",
@@ -113,7 +223,52 @@
       ]
     },
     {
-      "topic": "句子 · Key Sentences",
+      "topic": "句子 · Key Sentences (Textbook: 要换车)",
+      "items": [
+        {
+          "zh": "这路车到天安门吗？",
+          "py": "Zhè lù chē dào Tiān'ānmén ma?",
+          "en": "Does this bus go to Tian'anmen?"
+        },
+        {
+          "zh": "我买两张票。",
+          "py": "Wǒ mǎi liǎng zhāng piào.",
+          "en": "I want two tickets."
+        },
+        {
+          "zh": "给你五块钱。",
+          "py": "Gěi nǐ wǔ kuài qián.",
+          "en": "Here's five yuan."
+        },
+        {
+          "zh": "到天安门还有几站？",
+          "py": "Dào Tiān'ānmén hái yǒu jǐ zhàn?",
+          "en": "How many more stops to Tian'anmen?"
+        },
+        {
+          "zh": "我会说一点儿汉语。",
+          "py": "Wǒ huì shuō yīdiǎnr Hànyǔ.",
+          "en": "I can speak a little Chinese."
+        },
+        {
+          "zh": "天安门到了。",
+          "py": "Tiān'ānmén dào le.",
+          "en": "Here we are at Tian'anmen."
+        },
+        {
+          "zh": "去语言大学要换车吗？",
+          "py": "Qù Yǔyán Dàxué yào huàn chē ma?",
+          "en": "Do I need to change buses to the Language University?"
+        },
+        {
+          "zh": "换几路车？",
+          "py": "Huàn jǐ lù chē?",
+          "en": "Which bus do I change to?"
+        }
+      ]
+    },
+    {
+      "topic": "句子 · Key Sentences (要红的还是要蓝的)",
       "items": [
         {
           "zh": "你要红的还是要蓝的？",
@@ -153,7 +308,127 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1 (Buying a Sweater)",
+      "topic": "会话1 · Dialogue 1 (Textbook: On the Bus to Tian'anmen)",
+      "items": [
+        {
+          "zh": "玛丽：请问，这路车到天安门吗？",
+          "py": "Mǎlì: Qǐngwèn, zhè lù chē dào Tiān'ānmén ma?",
+          "en": "Mary: Excuse me, does this bus go to Tian'anmen?"
+        },
+        {
+          "zh": "售票员：到。上车吧。",
+          "py": "Shòupiàoyuán: Dào. Shàng chē ba.",
+          "en": "Conductor: Yes. Get on."
+        },
+        {
+          "zh": "大卫：买两张票。多少钱一张？",
+          "py": "Dàwèi: Mǎi liǎng zhāng piào. Duōshao qián yī zhāng?",
+          "en": "David: Two tickets please. How much each?"
+        },
+        {
+          "zh": "售票员：两块。",
+          "py": "Shòupiàoyuán: Liǎng kuài.",
+          "en": "Conductor: Two yuan."
+        },
+        {
+          "zh": "大卫：给你五块钱。",
+          "py": "Dàwèi: Gěi nǐ wǔ kuài qián.",
+          "en": "David: Here's five yuan."
+        },
+        {
+          "zh": "售票员：找你一块。",
+          "py": "Shòupiàoyuán: Zhǎo nǐ yī kuài.",
+          "en": "Conductor: Here's one yuan change."
+        },
+        {
+          "zh": "玛丽：请问，到天安门还有几站？",
+          "py": "Mǎlì: Qǐngwèn, dào Tiān'ānmén hái yǒu jǐ zhàn?",
+          "en": "Mary: Excuse me, how many more stops to Tian'anmen?"
+        },
+        {
+          "zh": "售票员：三站。你们会说汉语？",
+          "py": "Shòupiàoyuán: Sān zhàn. Nǐmen huì shuō Hànyǔ?",
+          "en": "Conductor: Three stops. You speak Chinese?"
+        },
+        {
+          "zh": "大卫：会说一点儿。",
+          "py": "Dàwèi: Huì shuō yīdiǎnr.",
+          "en": "David: A little."
+        },
+        {
+          "zh": "玛丽：我说汉语，你懂吗？",
+          "py": "Mǎlì: Wǒ shuō Hànyǔ, nǐ dǒng ma?",
+          "en": "Mary: Can you understand when I speak Chinese?"
+        },
+        {
+          "zh": "售票员：懂。你们是哪国人？",
+          "py": "Shòupiàoyuán: Dǒng. Nǐmen shì nǎ guó rén?",
+          "en": "Conductor: Yes. What nationality are you?"
+        },
+        {
+          "zh": "大卫：我是法国人。",
+          "py": "Dàwèi: Wǒ shì Fǎguó rén.",
+          "en": "David: I'm French."
+        },
+        {
+          "zh": "玛丽：我是美国人。",
+          "py": "Mǎlì: Wǒ shì Měiguó rén.",
+          "en": "Mary: I'm American."
+        },
+        {
+          "zh": "售票员：天安门到了，请下车。",
+          "py": "Shòupiàoyuán: Tiān'ānmén dào le, qǐng xià chē.",
+          "en": "Conductor: Tian'anmen — we've arrived. Please get off."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Textbook: Changing Buses)",
+      "items": [
+        {
+          "zh": "大卫：我买一张票。",
+          "py": "Dàwèi: Wǒ mǎi yī zhāng piào.",
+          "en": "David: One ticket please."
+        },
+        {
+          "zh": "售票员：去哪儿？",
+          "py": "Shòupiàoyuán: Qù nǎr?",
+          "en": "Conductor: Where to?"
+        },
+        {
+          "zh": "大卫：去语言大学。要换车吗？",
+          "py": "Dàwèi: Qù Yǔyán Dàxué. Yào huàn chē ma?",
+          "en": "David: To the Language University. Do I need to change?"
+        },
+        {
+          "zh": "售票员：要换车。",
+          "py": "Shòupiàoyuán: Yào huàn chē.",
+          "en": "Conductor: Yes, you need to change."
+        },
+        {
+          "zh": "大卫：在哪儿换车？",
+          "py": "Dàwèi: Zài nǎr huàn chē?",
+          "en": "David: Where do I change?"
+        },
+        {
+          "zh": "售票员：北京师范大学。",
+          "py": "Shòupiàoyuán: Běijīng Shīfàn Dàxué.",
+          "en": "Conductor: At Beijing Normal University."
+        },
+        {
+          "zh": "大卫：换几路车？",
+          "py": "Dàwèi: Huàn jǐ lù chē?",
+          "en": "David: Which bus do I change to?"
+        },
+        {
+          "zh": "售票员：换331路。",
+          "py": "Shòupiàoyuán: Huàn sān-sān-yāo lù.",
+          "en": "Conductor: Change to bus 331."
+        }
+      ]
+    },
+    {
+      "topic": "会话3 · Dialogue 3 (Buying a Sweater)",
       "items": [
         {
           "zh": "玛丽：我想买件毛衣。",
@@ -198,7 +473,7 @@
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2 (Choosing Colors)",
+      "topic": "会话4 · Dialogue 4 (Choosing Colors)",
       "items": [
         {
           "zh": "大卫：我想买一件衬衫。",
@@ -248,72 +523,37 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (太...了 & Adj + 了一点儿)",
+      "topic": "替换 · Substitution Drills (Textbook: 要换车)",
       "items": [
         {
-          "zh": "这件太大了。",
-          "py": "Zhè jiàn tài dà le.",
-          "en": "This one is too big. (太 + adj + 了)"
+          "zh": "这路车到天安门吗？→ 这路车到北京大学吗？",
+          "py": "Zhè lù chē dào Tiān'ānmén ma? → Zhè lù chē dào Běijīng Dàxué ma?",
+          "en": "Does this bus go to Tian'anmen? → Does this bus go to Peking University?"
         },
         {
-          "zh": "太贵了。",
-          "py": "Tài guì le.",
-          "en": "Too expensive."
+          "zh": "到天安门还有几站？→ 到语言大学还有几站？",
+          "py": "Dào Tiān'ānmén hái yǒu jǐ zhàn? → Dào Yǔyán Dàxué hái yǒu jǐ zhàn?",
+          "en": "How many stops to Tian'anmen? → How many stops to Language University?"
         },
         {
-          "zh": "太小了。",
-          "py": "Tài xiǎo le.",
-          "en": "Too small."
+          "zh": "我会说一点儿汉语。→ 我会写一点儿汉字。",
+          "py": "Wǒ huì shuō yīdiǎnr Hànyǔ. → Wǒ huì xiě yīdiǎnr Hànzì.",
+          "en": "I can speak a little Chinese. → I can write a few characters."
         },
         {
-          "zh": "大了一点儿。",
-          "py": "Dà le yīdiǎnr.",
-          "en": "A bit too big. (adj + 了一点儿 = slightly too much)"
+          "zh": "去语言大学要换车吗？→ 去天安门要换车吗？",
+          "py": "Qù Yǔyán Dàxué yào huàn chē ma? → Qù Tiān'ānmén yào huàn chē ma?",
+          "en": "Do I need to change for Language University? → Do I need to change for Tian'anmen?"
         },
         {
-          "zh": "长了一点儿。",
-          "py": "Cháng le yīdiǎnr.",
-          "en": "A bit too long."
-        },
-        {
-          "zh": "贵了一点儿。",
-          "py": "Guì le yīdiǎnr.",
-          "en": "A bit too expensive."
+          "zh": "换几路车？→ 换几路？",
+          "py": "Huàn jǐ lù chē? → Huàn jǐ lù?",
+          "en": "Which bus do I change to?"
         }
       ]
     },
     {
-      "topic": "语法 · Grammar (还是 Questions)",
-      "items": [
-        {
-          "zh": "你要红的还是蓝的？",
-          "py": "Nǐ yào hóng de háishi lán de?",
-          "en": "Do you want red or blue? (A 还是 B)"
-        },
-        {
-          "zh": "你喝咖啡还是茶？",
-          "py": "Nǐ hē kāfēi háishi chá?",
-          "en": "Do you drink coffee or tea?"
-        },
-        {
-          "zh": "他是老师还是学生？",
-          "py": "Tā shì lǎoshī háishi xuéshēng?",
-          "en": "Is he a teacher or a student?"
-        },
-        {
-          "zh": "你去还是不去？",
-          "py": "Nǐ qù háishi bú qù?",
-          "en": "Are you going or not?"
-        },
-        {
-          "zh": "你买大的还是小的？",
-          "py": "Nǐ mǎi dà de háishi xiǎo de?",
-          "en": "Are you buying a big one or a small one?"
-        }
-      ]
-    },
-    {
-      "topic": "替换 · Substitution Drills",
+      "topic": "替换 · Substitution Drills (要红的还是要蓝的)",
       "items": [
         {
           "zh": "你要红的还是蓝的？",
@@ -384,6 +624,136 @@
           "zh": "这件毛衣真漂亮！",
           "py": "Zhè jiàn máoyī zhēn piàoliang!",
           "en": "This sweater is really beautiful!"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Textbook: 会 & 到)",
+      "items": [
+        {
+          "zh": "你们会说汉语吗？——会说一点儿。",
+          "py": "Nǐmen huì shuō Hànyǔ ma? —— Huì shuō yīdiǎnr.",
+          "en": "Can you speak Chinese? — A little. (会 = learned ability)"
+        },
+        {
+          "zh": "她会不会游泳？——不会。",
+          "py": "Tā huì bu huì yóuyǒng? —— Bú huì.",
+          "en": "Can she swim? — No. (会 in affirmative-negative question)"
+        },
+        {
+          "zh": "天安门到了。",
+          "py": "Tiān'ānmén dào le.",
+          "en": "到 + 了 = has arrived. (到 as complement of result)"
+        },
+        {
+          "zh": "你们是哪国人？——我是法国人。",
+          "py": "Nǐmen shì nǎ guó rén? —— Wǒ shì Fǎguó rén.",
+          "en": "What nationality are you? — I'm French."
+        },
+        {
+          "zh": "请上车。/ 请下车。",
+          "py": "Qǐng shàng chē. / Qǐng xià chē.",
+          "en": "Please get on. / Please get off. (上/下 with vehicles)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (太…了 & Adj + 了一点儿)",
+      "items": [
+        {
+          "zh": "这件太大了。",
+          "py": "Zhè jiàn tài dà le.",
+          "en": "This one is too big. (太 + adj + 了)"
+        },
+        {
+          "zh": "太贵了。",
+          "py": "Tài guì le.",
+          "en": "Too expensive."
+        },
+        {
+          "zh": "太小了。",
+          "py": "Tài xiǎo le.",
+          "en": "Too small."
+        },
+        {
+          "zh": "大了一点儿。",
+          "py": "Dà le yīdiǎnr.",
+          "en": "A bit too big. (adj + 了一点儿 = slightly too much)"
+        },
+        {
+          "zh": "长了一点儿。",
+          "py": "Cháng le yīdiǎnr.",
+          "en": "A bit too long."
+        },
+        {
+          "zh": "贵了一点儿。",
+          "py": "Guì le yīdiǎnr.",
+          "en": "A bit too expensive."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (还是 Questions)",
+      "items": [
+        {
+          "zh": "你要红的还是蓝的？",
+          "py": "Nǐ yào hóng de háishi lán de?",
+          "en": "Do you want red or blue? (A 还是 B)"
+        },
+        {
+          "zh": "你喝咖啡还是茶？",
+          "py": "Nǐ hē kāfēi háishi chá?",
+          "en": "Do you drink coffee or tea?"
+        },
+        {
+          "zh": "他是老师还是学生？",
+          "py": "Tā shì lǎoshī háishi xuéshēng?",
+          "en": "Is he a teacher or a student?"
+        },
+        {
+          "zh": "你去还是不去？",
+          "py": "Nǐ qù háishi bú qù?",
+          "en": "Are you going or not?"
+        },
+        {
+          "zh": "你买大的还是小的？",
+          "py": "Nǐ mǎi dà de háishi xiǎo de?",
+          "en": "Are you buying a big one or a small one?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "请问，去天安门坐几路车？",
+          "py": "Qǐngwèn, qù Tiān'ānmén zuò jǐ lù chē?",
+          "en": "Excuse me, which bus goes to Tian'anmen?"
+        },
+        {
+          "zh": "到北京大学要换车。在师范大学换车。",
+          "py": "Dào Běijīng Dàxué yào huàn chē. Zài Shīfàn Dàxué huàn chē.",
+          "en": "You need to change buses to Peking University. Change at Normal University."
+        },
+        {
+          "zh": "你会说法语吗？——会说一点儿。",
+          "py": "Nǐ huì shuō Fǎyǔ ma? —— Huì shuō yīdiǎnr.",
+          "en": "Can you speak French? — A little."
+        },
+        {
+          "zh": "我说汉语，你懂不懂？——懂。",
+          "py": "Wǒ shuō Hànyǔ, nǐ dǒng bu dǒng? —— Dǒng.",
+          "en": "Can you understand my Chinese? — Yes."
+        },
+        {
+          "zh": "你要红的还是蓝的？——我要蓝的。",
+          "py": "Nǐ yào hóng de háishi lán de? —— Wǒ yào lán de.",
+          "en": "Red or blue? — I want blue."
+        },
+        {
+          "zh": "这件衬衫大了一点儿，有没有小一号的？",
+          "py": "Zhè jiàn chènshān dà le yīdiǎnr, yǒu méiyǒu xiǎo yī hào de?",
+          "en": "This shirt is a bit big, is there one size smaller?"
         }
       ]
     }

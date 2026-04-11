@@ -28,6 +28,15 @@
       ]
     },
     {
+      "topic": "专有名词 · Proper Nouns (textbook L1)",
+      "items": [
+        { "zh": "大卫", "py": "Dàwèi", "en": "David (name)" },
+        { "zh": "玛丽", "py": "Mǎlì", "en": "Mary (name)" },
+        { "zh": "王兰", "py": "Wáng Lán", "en": "Wang Lan (name)" },
+        { "zh": "刘京", "py": "Liú Jīng", "en": "Liu Jing (name)" }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences (textbook)",
       "items": [
         { "zh": "你好！", "py": "Nǐ hǎo!", "en": "Hello!" },
@@ -47,18 +56,18 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1",
+      "topic": "会话1 · Dialogue 1 (textbook)",
       "items": [
-        { "zh": "大卫：你好！", "py": "Dàwèi: Nǐ hǎo!", "en": "David: Hello!" },
-        { "zh": "和子：你好！", "py": "Hézǐ: Nǐ hǎo!", "en": "Kazuko: Hello!" }
+        { "zh": "大卫：玛丽，你好！", "py": "Dàwèi: Mǎlì, nǐ hǎo!", "en": "David: Mary, hello!" },
+        { "zh": "玛丽：你好，大卫！", "py": "Mǎlì: Nǐ hǎo, Dàwèi!", "en": "Mary: Hello, David!" }
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2",
+      "topic": "会话2 · Dialogue 2 (textbook)",
       "items": [
-        { "zh": "玛丽：你好吗？", "py": "Mǎlì: Nǐ hǎo ma?", "en": "Mary: How are you?" },
-        { "zh": "和子：很好，谢谢。你呢？", "py": "Hézǐ: Hěn hǎo, xièxie. Nǐ ne?", "en": "Kazuko: Very well, thanks. And you?" },
-        { "zh": "玛丽：我也很好。", "py": "Mǎlì: Wǒ yě hěn hǎo.", "en": "Mary: I'm fine too." }
+        { "zh": "王兰：你好吗？", "py": "Wáng Lán: Nǐ hǎo ma?", "en": "Wang Lan: How are you?" },
+        { "zh": "刘京：我很好。你好吗？", "py": "Liú Jīng: Wǒ hěn hǎo. Nǐ hǎo ma?", "en": "Liu Jing: I'm fine. How are you?" },
+        { "zh": "王兰：我也很好。", "py": "Wáng Lán: Wǒ yě hěn hǎo.", "en": "Wang Lan: I'm also fine." }
       ]
     },
     {
@@ -91,6 +100,13 @@
         { "zh": "你好吗？", "py": "Nǐ hǎo ma?", "en": "Are you well? (吗 turns a statement into a question)" },
         { "zh": "你呢？", "py": "Nǐ ne?", "en": "And you? (呢 asks 'what about...?')" },
         { "zh": "我不好。", "py": "Wǒ bù hǎo.", "en": "I'm not good. (不 negates adjectives)" }
+      ]
+    },
+    {
+      "topic": "注释 · Notes (textbook)",
+      "items": [
+        { "zh": "你好", "py": "Nǐ hǎo", "en": "Hello! / Hi! — An everyday greeting used at any time, on any occasion, by anyone. The reply is also '你好'." },
+        { "zh": "你好吗？", "py": "Nǐ hǎo ma?", "en": "How are you? — A common greeting between acquaintances. The usual reply is '我很好' (I'm fine)." }
       ]
     },
     {

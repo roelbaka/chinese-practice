@@ -159,6 +159,76 @@
           "zh": "怎么",
           "py": "zěnme",
           "en": "how"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "just; right (emphatic adverb)"
+        },
+        {
+          "zh": "请问",
+          "py": "qǐngwèn",
+          "en": "excuse me; may I ask"
+        },
+        {
+          "zh": "地方",
+          "py": "dìfang",
+          "en": "place; location"
+        },
+        {
+          "zh": "百货大楼",
+          "py": "Bǎihuò Dàlóu",
+          "en": "department store"
+        },
+        {
+          "zh": "公共汽车",
+          "py": "gōnggòng qìchē",
+          "en": "bus; public bus"
+        },
+        {
+          "zh": "站",
+          "py": "zhàn",
+          "en": "station; stop"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit; to take (transportation)"
+        },
+        {
+          "zh": "坐车",
+          "py": "zuò chē",
+          "en": "to take a vehicle; to ride"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look; to see"
+        },
+        {
+          "zh": "东边",
+          "py": "dōngbian",
+          "en": "east side"
+        },
+        {
+          "zh": "南边",
+          "py": "nánbian",
+          "en": "south side"
+        },
+        {
+          "zh": "西边",
+          "py": "xībian",
+          "en": "west side"
+        },
+        {
+          "zh": "北边",
+          "py": "běibian",
+          "en": "north side"
+        },
+        {
+          "zh": "操场",
+          "py": "cāochǎng",
+          "en": "sports ground; playground"
         }
       ]
     },
@@ -199,6 +269,41 @@
           "zh": "不太远。",
           "py": "Bú tài yuǎn.",
           "en": "Not too far."
+        },
+        {
+          "zh": "八号楼在邮局旁边。",
+          "py": "Bā hào lóu zài yóujú pángbiān.",
+          "en": "Building 8 is next to the post office."
+        },
+        {
+          "zh": "去八号楼怎么走？",
+          "py": "Qù bā hào lóu zěnme zǒu?",
+          "en": "How do I get to Building 8?"
+        },
+        {
+          "zh": "那个楼就是八号楼。",
+          "py": "Nà ge lóu jiù shì bā hào lóu.",
+          "en": "That building right there is Building 8."
+        },
+        {
+          "zh": "往前走就是邮局。",
+          "py": "Wǎng qián zǒu jiù shì yóujú.",
+          "en": "Walk forward and it's the post office."
+        },
+        {
+          "zh": "邮局离这儿远不远？",
+          "py": "Yóujú lí zhèr yuǎn bu yuǎn?",
+          "en": "Is the post office far from here?"
+        },
+        {
+          "zh": "百货大楼在什么地方？",
+          "py": "Bǎihuò Dàlóu zài shénme dìfang?",
+          "en": "Where is the department store?"
+        },
+        {
+          "zh": "公共汽车站在哪儿？",
+          "py": "Gōnggòng qìchē zhàn zài nǎr?",
+          "en": "Where is the bus stop?"
         }
       ]
     },
@@ -293,37 +398,92 @@
       ]
     },
     {
-      "topic": "语法 · Grammar",
+      "topic": "会话 · Textbook Dialogue 1 (大卫 & 刘京)",
       "items": [
         {
-          "zh": "邮局在银行旁边。",
-          "py": "Yóujú zài yínháng pángbiān.",
-          "en": "在 indicates location: something is at / in / on a place (place + 在 + reference + 方位词)."
+          "zh": "大卫：请问，八号楼在哪儿？",
+          "py": "Dàwèi: Qǐngwèn, bā hào lóu zài nǎr?",
+          "en": "David: Excuse me, where is Building 8?"
         },
         {
-          "zh": "超市在邮局对面。",
-          "py": "Chāoshì zài yóujú duìmiàn.",
-          "en": "方位词 (position words) like 旁边、对面、前边 attach to a reference noun to show where something is."
+          "zh": "刘京：在邮局旁边。",
+          "py": "Liú Jīng: Zài yóujú pángbiān.",
+          "en": "Liu Jing: Next to the post office."
         },
         {
-          "zh": "离这儿远不远？",
-          "py": "Lí zhèr yuǎn bu yuǎn?",
-          "en": "离 … 远 / 近 expresses distance from a point: 离 + place + 远/近."
+          "zh": "大卫：去八号楼怎么走？",
+          "py": "Dàwèi: Qù bā hào lóu zěnme zǒu?",
+          "en": "David: How do I get to Building 8?"
         },
         {
-          "zh": "离学校很近。",
-          "py": "Lí xuéxiào hěn jìn.",
-          "en": "It's very close to the school."
+          "zh": "刘京：你看，那个楼就是。",
+          "py": "Liú Jīng: Nǐ kàn, nà ge lóu jiù shì.",
+          "en": "Liu Jing: Look, that building right there is it."
+        }
+      ]
+    },
+    {
+      "topic": "会话 · Textbook Dialogue 2 (和子 & 路人)",
+      "items": [
+        {
+          "zh": "和子：请问，邮局在哪儿？",
+          "py": "Hézǐ: Qǐngwèn, yóujú zài nǎr?",
+          "en": "Kazuko: Excuse me, where is the post office?"
         },
         {
-          "zh": "往左拐 / 往前走",
-          "py": "wǎng zuǒ guǎi / wǎng qián zǒu",
-          "en": "往 + direction + verb gives directions: toward + left/right/front + turn / walk."
+          "zh": "路人：往前走就是邮局。",
+          "py": "Lùrén: Wǎng qián zǒu jiù shì yóujú.",
+          "en": "Passerby: Walk forward and it's the post office."
         },
         {
-          "zh": "去邮局怎么走？",
-          "py": "Qù yóujú zěnme zǒu?",
-          "en": "怎么走 asks how to get somewhere (literally \"how to walk\")."
+          "zh": "和子：离这儿远不远？",
+          "py": "Hézǐ: Lí zhèr yuǎn bu yuǎn?",
+          "en": "Kazuko: Is it far from here?"
+        },
+        {
+          "zh": "路人：不太远。就在银行前边。",
+          "py": "Lùrén: Bú tài yuǎn. Jiù zài yínháng qiánbian.",
+          "en": "Passerby: Not too far. It's right in front of the bank."
+        }
+      ]
+    },
+    {
+      "topic": "会话 · Textbook Dialogue 3 (玛丽 & 路人)",
+      "items": [
+        {
+          "zh": "玛丽：请问，百货大楼在什么地方？",
+          "py": "Mǎlì: Qǐngwèn, Bǎihuò Dàlóu zài shénme dìfang?",
+          "en": "Mary: Excuse me, where is the department store?"
+        },
+        {
+          "zh": "路人：在王府井。",
+          "py": "Lùrén: Zài Wángfǔjǐng.",
+          "en": "Passerby: In Wangfujing."
+        },
+        {
+          "zh": "玛丽：离天安门远不远？",
+          "py": "Mǎlì: Lí Tiān'ānmén yuǎn bu yuǎn?",
+          "en": "Mary: Is it far from Tiananmen?"
+        },
+        {
+          "zh": "路人：不远。您怎么去？",
+          "py": "Lùrén: Bù yuǎn. Nín zěnme qù?",
+          "en": "Passerby: Not far. How will you get there?"
+        },
+        {
+          "zh": "玛丽：坐公共汽车。请问在哪儿坐车？",
+          "py": "Mǎlì: Zuò gōnggòng qìchē. Qǐngwèn zài nǎr zuò chē?",
+          "en": "Mary: By bus. Excuse me, where do I catch the bus?"
+        },
+        {
+          "zh": "路人：就在那儿。",
+          "py": "Lùrén: Jiù zài nàr.",
+          "en": "Passerby: Right over there."
+        },
+        {
+          "zh": "玛丽：谢谢！",
+          "py": "Mǎlì: Xièxie!",
+          "en": "Mary: Thank you!"
         }
       ]
     },
@@ -403,6 +563,91 @@
       ]
     },
     {
+      "topic": "替换与扩展 · Substitution & Extension (textbook)",
+      "items": [
+        {
+          "zh": "A: 八号楼在哪儿？ 替换：那个楼南边 / 操场东边 / 他家——北京语言大学",
+          "py": "A: Bā hào lóu zài nǎr? Tìhuàn: nà ge lóu nánbian / cāochǎng dōngbian / tā jiā — Běijīng Yǔyán Dàxué",
+          "en": "A: Where is Building 8? (Substitute: south of that building / east of the sports ground / his home — BLCU)"
+        },
+        {
+          "zh": "邮局离这儿远不远？ 替换：北京饭店——这儿",
+          "py": "Yóujú lí zhèr yuǎn bu yuǎn? Tìhuàn: Běijīng Fàndiàn — zhèr",
+          "en": "Is the post office far from here? (Substitute: Beijing Hotel — here)"
+        },
+        {
+          "zh": "在哪儿坐车？ 替换：吃饭 / 休息 / 买电脑",
+          "py": "Zài nǎr zuò chē? Tìhuàn: chī fàn / xiūxi / mǎi diànnǎo",
+          "en": "Where do I catch the bus? (Substitute: eat / rest / buy a computer)"
+        },
+        {
+          "zh": "他爸爸在商店工作。那个商店离他家很近。他爸爸早上七点半去工作，下午五点半回家。",
+          "py": "Tā bàba zài shāngdiàn gōngzuò. Nà ge shāngdiàn lí tā jiā hěn jìn. Tā bàba zǎoshang qī diǎn bàn qù gōngzuò, xiàwǔ wǔ diǎn bàn huí jiā.",
+          "en": "His father works at a shop. That shop is very close to his home. His father goes to work at 7:30am and comes home at 5:30pm."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar",
+      "items": [
+        {
+          "zh": "邮局在银行旁边。",
+          "py": "Yóujú zài yínháng pángbiān.",
+          "en": "在 indicates location: something is at / in / on a place (place + 在 + reference + 方位词)."
+        },
+        {
+          "zh": "超市在邮局对面。",
+          "py": "Chāoshì zài yóujú duìmiàn.",
+          "en": "方位词 (position words) like 旁边、对面、前边 attach to a reference noun to show where something is."
+        },
+        {
+          "zh": "离这儿远不远？",
+          "py": "Lí zhèr yuǎn bu yuǎn?",
+          "en": "离 … 远 / 近 expresses distance from a point: 离 + place + 远/近."
+        },
+        {
+          "zh": "离学校很近。",
+          "py": "Lí xuéxiào hěn jìn.",
+          "en": "It's very close to the school."
+        },
+        {
+          "zh": "往左拐 / 往前走",
+          "py": "wǎng zuǒ guǎi / wǎng qián zǒu",
+          "en": "往 + direction + verb gives directions: toward + left/right/front + turn / walk."
+        },
+        {
+          "zh": "去邮局怎么走？",
+          "py": "Qù yóujú zěnme zǒu?",
+          "en": "怎么走 asks how to get somewhere (literally \"how to walk\")."
+        },
+        {
+          "zh": "那个楼就是八号楼。",
+          "py": "Nà ge lóu jiù shì bā hào lóu.",
+          "en": "就 heightens the positive tone — \"that building is right there\" / \"exactly that one\"."
+        },
+        {
+          "zh": "就在银行前边。",
+          "py": "Jiù zài yínháng qiánbian.",
+          "en": "就 emphasizes certainty: \"right in front of the bank\"."
+        },
+        {
+          "zh": "就在那儿。",
+          "py": "Jiù zài nàr.",
+          "en": "Right over there. (就 reinforces \"right there\")"
+        },
+        {
+          "zh": "请问，邮局在哪儿？",
+          "py": "Qǐngwèn, yóujú zài nǎr?",
+          "en": "请问 is a polite formula placed before a question when asking strangers."
+        },
+        {
+          "zh": "邮局离这儿远不远？",
+          "py": "Yóujú lí zhèr yuǎn bu yuǎn?",
+          "en": "Affirmative-negative question: 远不远 (far or not far) — no 吗 needed."
+        }
+      ]
+    },
+    {
       "topic": "练习 · Exercises",
       "items": [
         {
@@ -454,6 +699,41 @@
           "zh": "在路口往右拐，邮局就在左边。",
           "py": "Zài lùkǒu wǎng yòu guǎi, yóujú jiù zài zuǒbian.",
           "en": "Turn right at the intersection; the post office is on your left."
+        },
+        {
+          "zh": "邮局离九号楼不太远。",
+          "py": "Yóujú lí jiǔ hào lóu bú tài yuǎn.",
+          "en": "The post office is not too far from Building 9."
+        },
+        {
+          "zh": "食堂在宿舍旁边。",
+          "py": "Shítáng zài sùshè pángbiān.",
+          "en": "The canteen is next to the dorm."
+        },
+        {
+          "zh": "邮局很近，往前走就是。",
+          "py": "Yóujú hěn jìn, wǎng qián zǒu jiù shì.",
+          "en": "The post office is very close — walk forward and it's there."
+        },
+        {
+          "zh": "今天晚上我不学习，回家看电视。",
+          "py": "Jīntiān wǎnshang wǒ bù xuéxí, huí jiā kàn diànshì.",
+          "en": "Tonight I won't study — I'll go home and watch TV."
+        },
+        {
+          "zh": "我们回宿舍休息一下儿吧。",
+          "py": "Wǒmen huí sùshè xiūxi yīxiàr ba.",
+          "en": "Let's go back to the dorm and rest a bit."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Listen and Retell (textbook)",
+      "items": [
+        {
+          "zh": "邮局离银行不远，我常去那儿买邮票、寄信。书店在银行旁边。那个书店很大，书很多，我常去那儿买书。",
+          "py": "Yóujú lí yínháng bù yuǎn, wǒ cháng qù nàr mǎi yóupiào, jì xìn. Shūdiàn zài yínháng pángbiān. Nà ge shūdiàn hěn dà, shū hěn duō, wǒ cháng qù nàr mǎi shū.",
+          "en": "The post office is not far from the bank — I often go there to buy stamps and mail letters. The bookstore is next to the bank. That bookstore is very big with lots of books; I often go there to buy books."
         }
       ]
     },
@@ -499,6 +779,26 @@
           "zh": "食堂",
           "py": "shítáng",
           "en": "cafeteria; canteen"
+        },
+        {
+          "zh": "百货大楼",
+          "py": "Bǎihuò Dàlóu",
+          "en": "department store"
+        },
+        {
+          "zh": "书店",
+          "py": "shūdiàn",
+          "en": "bookstore"
+        },
+        {
+          "zh": "王府井",
+          "py": "Wángfǔjǐng",
+          "en": "Wangfujing (famous shopping street in Beijing)"
+        },
+        {
+          "zh": "天安门",
+          "py": "Tiān'ānmén",
+          "en": "Tiananmen (Gate of Heavenly Peace)"
         }
       ]
     },
@@ -554,6 +854,26 @@
           "zh": "下边",
           "py": "xiàbian",
           "en": "below; under"
+        },
+        {
+          "zh": "东边",
+          "py": "dōngbian",
+          "en": "east side"
+        },
+        {
+          "zh": "西边",
+          "py": "xībian",
+          "en": "west side"
+        },
+        {
+          "zh": "南边",
+          "py": "nánbian",
+          "en": "south side"
+        },
+        {
+          "zh": "北边",
+          "py": "běibian",
+          "en": "north side"
         },
         {
           "zh": "东 / 西 / 南 / 北",

@@ -1,10 +1,115 @@
 {
-  "title": "第二十课 · 你要什么",
-  "subtitle": "Lesson 20 — 你要什么 · What would you like to order",
+  "title": "第二十课 · 为我们的友谊干杯",
+  "subtitle": "Lesson 20 — 为我们的友谊干杯 · Let's have a toast to our friendship",
   "data": [
     {
       "topic": "生词 · New Words",
       "items": [
+        {
+          "zh": "过",
+          "py": "guò",
+          "en": "to spend, to pass (time)"
+        },
+        {
+          "zh": "得",
+          "py": "de",
+          "en": "(structural particle for complement of state)"
+        },
+        {
+          "zh": "愉快",
+          "py": "yúkuài",
+          "en": "enjoyable, happy, pleasant"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "to like, to enjoy"
+        },
+        {
+          "zh": "干杯",
+          "py": "gānbēi",
+          "en": "to have a toast; cheers; bottoms up"
+        },
+        {
+          "zh": "友谊",
+          "py": "yǒuyì",
+          "en": "friendship"
+        },
+        {
+          "zh": "鱼",
+          "py": "yú",
+          "en": "fish"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎochī",
+          "en": "delicious, tasty"
+        },
+        {
+          "zh": "像",
+          "py": "xiàng",
+          "en": "to resemble, to be like"
+        },
+        {
+          "zh": "一样",
+          "py": "yíyàng",
+          "en": "same, similar"
+        },
+        {
+          "zh": "大家",
+          "py": "dàjiā",
+          "en": "everybody, everyone"
+        },
+        {
+          "zh": "健康",
+          "py": "jiànkāng",
+          "en": "healthy, health"
+        },
+        {
+          "zh": "饺子",
+          "py": "jiǎozi",
+          "en": "dumpling"
+        },
+        {
+          "zh": "饱",
+          "py": "bǎo",
+          "en": "full (after eating)"
+        },
+        {
+          "zh": "生活",
+          "py": "shēnghuó",
+          "en": "life; to live"
+        },
+        {
+          "zh": "睡",
+          "py": "shuì",
+          "en": "to sleep"
+        },
+        {
+          "zh": "晚",
+          "py": "wǎn",
+          "en": "late"
+        },
+        {
+          "zh": "洗",
+          "py": "xǐ",
+          "en": "to wash"
+        },
+        {
+          "zh": "干净",
+          "py": "gānjìng",
+          "en": "clean"
+        },
+        {
+          "zh": "照片",
+          "py": "zhàopiàn",
+          "en": "photo, photograph"
+        },
+        {
+          "zh": "辆",
+          "py": "liàng",
+          "en": "(measure word for vehicles)"
+        },
         {
           "zh": "服务员",
           "py": "fúwùyuán",
@@ -54,11 +159,6 @@
           "zh": "味道",
           "py": "wèidao",
           "en": "flavor; taste"
-        },
-        {
-          "zh": "好吃",
-          "py": "hǎo chī",
-          "en": "delicious; tasty"
         },
         {
           "zh": "啤酒",
@@ -111,15 +211,55 @@
           "en": "noodles"
         },
         {
-          "zh": "饺子",
-          "py": "jiǎozi",
-          "en": "dumplings"
+          "zh": "慢",
+          "py": "màn",
+          "en": "slow, slowly"
         }
       ]
     },
     {
       "topic": "句子 · Key Sentences",
       "items": [
+        {
+          "zh": "请这儿坐。",
+          "py": "Qǐng zhèr zuò.",
+          "en": "Please take a seat here."
+        },
+        {
+          "zh": "这两天过得很愉快。",
+          "py": "Zhè liǎng tiān guò de hěn yúkuài.",
+          "en": "These two days have been very enjoyable."
+        },
+        {
+          "zh": "为我们的友谊干杯！",
+          "py": "Wèi wǒmen de yǒuyì gānbēi!",
+          "en": "Let's toast to our friendship!"
+        },
+        {
+          "zh": "这个鱼做得真好吃。",
+          "py": "Zhè ge yú zuò de zhēn hǎochī.",
+          "en": "This fish is really delicious."
+        },
+        {
+          "zh": "你们别客气，像在家一样。",
+          "py": "Nǐmen bié kèqi, xiàng zài jiā yíyàng.",
+          "en": "Don't be polite, make yourselves at home."
+        },
+        {
+          "zh": "我做菜做得不好。",
+          "py": "Wǒ zuò cài zuò de bù hǎo.",
+          "en": "I'm not good at cooking."
+        },
+        {
+          "zh": "你怎么不吃了？",
+          "py": "Nǐ zěnme bù chī le?",
+          "en": "Why did you stop eating?"
+        },
+        {
+          "zh": "吃饱了。你们慢慢吃。",
+          "py": "Chī bǎo le. Nǐmen mànman chī.",
+          "en": "I'm full. Take your time eating."
+        },
         {
           "zh": "你要什么？",
           "py": "Nǐ yào shénme?",
@@ -157,13 +297,138 @@
         },
         {
           "zh": "好吃极了！",
-          "py": "Hǎo chī jí le!",
+          "py": "Hǎochī jí le!",
           "en": "Extremely delicious!"
         }
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1 (At the Restaurant)",
+      "topic": "会话1 · Dialogue 1 (Formal Dinner with Business Guest)",
+      "items": [
+        {
+          "zh": "翻译：李先生，请这儿坐。",
+          "py": "Fānyì: Lǐ xiānsheng, qǐng zhèr zuò.",
+          "en": "Translator: Mr. Li, please take a seat here."
+        },
+        {
+          "zh": "李：谢谢！",
+          "py": "Lǐ: Xièxie!",
+          "en": "Li: Thank you!"
+        },
+        {
+          "zh": "经理：这两天过得怎么样？",
+          "py": "Jīnglǐ: Zhè liǎng tiān guò de zěnmeyàng?",
+          "en": "Manager: How have these past couple of days been?"
+        },
+        {
+          "zh": "李：过得很愉快。",
+          "py": "Lǐ: Guò de hěn yúkuài.",
+          "en": "Li: Very enjoyable."
+        },
+        {
+          "zh": "翻译：您喜欢喝什么酒？",
+          "py": "Fānyì: Nín xǐhuan hē shénme jiǔ?",
+          "en": "Translator: What would you like to drink?"
+        },
+        {
+          "zh": "李：啤酒吧。",
+          "py": "Lǐ: Píjiǔ ba.",
+          "en": "Li: Beer, please."
+        },
+        {
+          "zh": "经理：您尝尝这个菜怎么样。",
+          "py": "Jīnglǐ: Nín chángchang zhè ge cài zěnmeyàng.",
+          "en": "Manager: Please try this dish."
+        },
+        {
+          "zh": "李：很好吃。",
+          "py": "Lǐ: Hěn hǎochī.",
+          "en": "Li: Very delicious."
+        },
+        {
+          "zh": "经理：吃啊，别客气。",
+          "py": "Jīnglǐ: Chī a, bié kèqi.",
+          "en": "Manager: Please eat, don't be polite."
+        },
+        {
+          "zh": "李：不客气。",
+          "py": "Lǐ: Bú kèqi.",
+          "en": "Li: I won't."
+        },
+        {
+          "zh": "经理：来，为我们的友谊干杯！",
+          "py": "Jīnglǐ: Lái, wèi wǒmen de yǒuyì gānbēi!",
+          "en": "Manager: Come, let's toast to our friendship!"
+        },
+        {
+          "zh": "李：为大家的健康干杯！",
+          "py": "Lǐ: Wèi dàjiā de jiànkāng gānbēi!",
+          "en": "Li: A toast to everyone's health!"
+        },
+        {
+          "zh": "翻译：干杯！",
+          "py": "Fānyì: Gānbēi!",
+          "en": "Translator: Cheers!"
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Dinner at Liu Jing's Home)",
+      "items": [
+        {
+          "zh": "刘京：我们先喝酒吧。",
+          "py": "Liú Jīng: Wǒmen xiān hē jiǔ ba.",
+          "en": "Liu Jing: Let's have some drinks first."
+        },
+        {
+          "zh": "李成日：这个鱼做得真好吃。",
+          "py": "Lǐ Chéngrì: Zhè ge yú zuò de zhēn hǎochī.",
+          "en": "Li Chengri: This fish is really delicious."
+        },
+        {
+          "zh": "刘京妈妈：你们别客气，像在家一样。",
+          "py": "Liú Jīng māma: Nǐmen bié kèqi, xiàng zài jiā yíyàng.",
+          "en": "Liu Jing's mother: Don't be polite, make yourselves at home."
+        },
+        {
+          "zh": "李成日：我们不客气。",
+          "py": "Lǐ Chéngrì: Wǒmen bú kèqi.",
+          "en": "Li Chengri: We won't."
+        },
+        {
+          "zh": "刘京妈妈：吃饺子吧。",
+          "py": "Liú Jīng māma: Chī jiǎozi ba.",
+          "en": "Liu Jing's mother: Have some dumplings."
+        },
+        {
+          "zh": "和子：我最喜欢吃饺子了。",
+          "py": "Hézǐ: Wǒ zuì xǐhuan chī jiǎozi le.",
+          "en": "Hezi: I love dumplings the most."
+        },
+        {
+          "zh": "刘京：听说你在日本很会做日本菜。",
+          "py": "Liú Jīng: Tīngshuō nǐ zài Rìběn hěn huì zuò Rìběn cài.",
+          "en": "Liu Jing: I heard you're a great Japanese cook in Japan."
+        },
+        {
+          "zh": "李成日：哪儿啊，我做得不好。",
+          "py": "Lǐ Chéngrì: Nǎr a, wǒ zuò de bù hǎo.",
+          "en": "Li Chengri: Not at all, I'm not good at it."
+        },
+        {
+          "zh": "和子：你怎么不吃了？",
+          "py": "Hézǐ: Nǐ zěnme bù chī le?",
+          "en": "Hezi: Why did you stop eating?"
+        },
+        {
+          "zh": "李成日：吃饱了。你们慢慢吃。",
+          "py": "Lǐ Chéngrì: Chī bǎo le. Nǐmen mànman chī.",
+          "en": "Li Chengri: I'm full. Take your time."
+        }
+      ]
+    },
+    {
+      "topic": "会话3 · Dialogue 3 (At the Restaurant — Ordering)",
       "items": [
         {
           "zh": "服务员：几位？",
@@ -213,7 +478,7 @@
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2 (During the Meal)",
+      "topic": "会话4 · Dialogue 4 (During the Meal)",
       "items": [
         {
           "zh": "刘京：大卫，尝尝这个菜。味道怎么样？",
@@ -222,7 +487,7 @@
         },
         {
           "zh": "大卫：好吃极了！",
-          "py": "Dàwèi: Hǎo chī jí le!",
+          "py": "Dàwèi: Hǎochī jí le!",
           "en": "David: Extremely delicious!"
         },
         {
@@ -263,6 +528,156 @@
       ]
     },
     {
+      "topic": "替换与扩展 · Substitution and Extension",
+      "items": [
+        {
+          "zh": "这两天过得怎么样？——过得很愉快。",
+          "py": "Zhè liǎng tiān guò de zěnmeyàng? —— Guò de hěn yúkuài.",
+          "en": "How have things been? — Very enjoyable."
+        },
+        {
+          "zh": "这个鱼做得真好吃。——这个菜做得不好吃。",
+          "py": "Zhè ge yú zuò de zhēn hǎochī. —— Zhè ge cài zuò de bù hǎochī.",
+          "en": "This fish is delicious. — This dish is not good."
+        },
+        {
+          "zh": "我做菜做得不好。——翻译生词念得很好。",
+          "py": "Wǒ zuò cài zuò de bù hǎo. —— Fānyì shēngcí niàn de hěn hǎo.",
+          "en": "I'm not good at cooking. — The translator reads vocabulary very well."
+        },
+        {
+          "zh": "他汉语说得真好，像中国人一样。",
+          "py": "Tā Hànyǔ shuō de zhēn hǎo, xiàng Zhōngguó rén yíyàng.",
+          "en": "His Chinese is excellent, just like a Chinese person."
+        },
+        {
+          "zh": "你说得太快，我没听懂，请你说得慢一点儿。",
+          "py": "Nǐ shuō de tài kuài, wǒ méi tīng dǒng, qǐng nǐ shuō de màn yīdiǎnr.",
+          "en": "You spoke too fast, I didn't understand. Please speak more slowly."
+        },
+        {
+          "zh": "来一个鱼香肉丝。",
+          "py": "Lái yī gè yúxiāng ròusī.",
+          "en": "I'll have fish-flavored pork."
+        },
+        {
+          "zh": "来一个麻婆豆腐。",
+          "py": "Lái yī gè mápó dòufu.",
+          "en": "I'll have mapo tofu."
+        },
+        {
+          "zh": "来一盘饺子。",
+          "py": "Lái yī pán jiǎozi.",
+          "en": "I'll have a plate of dumplings."
+        },
+        {
+          "zh": "来两碗米饭。",
+          "py": "Lái liǎng wǎn mǐfàn.",
+          "en": "Two bowls of rice, please."
+        },
+        {
+          "zh": "味道怎么样？——好吃极了！",
+          "py": "Wèidao zěnmeyàng? —— Hǎochī jí le!",
+          "en": "How does it taste? — Extremely delicious!"
+        },
+        {
+          "zh": "味道怎么样？——太辣了。",
+          "py": "Wèidao zěnmeyàng? —— Tài là le.",
+          "en": "How does it taste? — Too spicy."
+        },
+        {
+          "zh": "味道怎么样？——不错。",
+          "py": "Wèidao zěnmeyàng? —— Búcuò.",
+          "en": "How does it taste? — Not bad."
+        },
+        {
+          "zh": "味道怎么样？——有点儿咸。",
+          "py": "Wèidao zěnmeyàng? —— Yǒudiǎnr xián.",
+          "en": "How does it taste? — A bit salty."
+        },
+        {
+          "zh": "你能吃辣的吗？",
+          "py": "Nǐ néng chī là de ma?",
+          "en": "Can you eat spicy food?"
+        },
+        {
+          "zh": "不要放味精。",
+          "py": "Bú yào fàng wèijīng.",
+          "en": "No MSG, please."
+        },
+        {
+          "zh": "这个菜是甜的还是咸的？",
+          "py": "Zhège cài shì tián de háishi xián de?",
+          "en": "Is this dish sweet or salty?"
+        },
+        {
+          "zh": "我请客。",
+          "py": "Wǒ qǐng kè.",
+          "en": "It's my treat."
+        },
+        {
+          "zh": "我们AA吧。",
+          "py": "Wǒmen AA ba.",
+          "en": "Let's split the bill."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (状态补语 · Complement of State)",
+      "items": [
+        {
+          "zh": "我们休息得很好。",
+          "py": "Wǒmen xiūxi de hěn hǎo.",
+          "en": "We rested well. (V + 得 + adj)"
+        },
+        {
+          "zh": "这两天过得很愉快。",
+          "py": "Zhè liǎng tiān guò de hěn yúkuài.",
+          "en": "These days have been very enjoyable."
+        },
+        {
+          "zh": "他写得不好。",
+          "py": "Tā xiě de bù hǎo.",
+          "en": "He doesn't write well. (negative: 得 + 不 + adj)"
+        },
+        {
+          "zh": "她睡得很晚。",
+          "py": "Tā shuì de hěn wǎn.",
+          "en": "She goes to sleep very late."
+        },
+        {
+          "zh": "这件衣服洗得很干净。",
+          "py": "Zhè jiàn yīfu xǐ de hěn gānjìng.",
+          "en": "This piece of clothing was washed very clean."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (带宾语的状态补语 · Complement of State with Object)",
+      "items": [
+        {
+          "zh": "我做菜做得不好。",
+          "py": "Wǒ zuò cài zuò de bù hǎo.",
+          "en": "I'm not good at cooking. (repeat verb when object is present)"
+        },
+        {
+          "zh": "这个鱼做得真好吃。",
+          "py": "Zhè ge yú zuò de zhēn hǎochī.",
+          "en": "This fish is cooked really well. (object as topic)"
+        },
+        {
+          "zh": "他汉语说得很好。",
+          "py": "Tā Hànyǔ shuō de hěn hǎo.",
+          "en": "He speaks Chinese very well. (object before verb)"
+        },
+        {
+          "zh": "她照片照得很好。",
+          "py": "Tā zhàopiàn zhào de hěn hǎo.",
+          "en": "She takes photos very well."
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (来 for Ordering)",
       "items": [
         {
@@ -288,11 +703,11 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (极了 Complement)",
+      "topic": "语法 · Grammar (极了 · Complement of Extreme Degree)",
       "items": [
         {
           "zh": "好吃极了！",
-          "py": "Hǎo chī jí le!",
+          "py": "Hǎochī jí le!",
           "en": "Extremely delicious! (adj + 极了)"
         },
         {
@@ -313,77 +728,17 @@
       ]
     },
     {
-      "topic": "替换 · Substitution Drills",
+      "topic": "语法 · Grammar (像……一样 · As...as / Like)",
       "items": [
         {
-          "zh": "来一个鱼香肉丝。",
-          "py": "Lái yī gè yúxiāng ròusī.",
-          "en": "I'll have fish-flavored pork."
+          "zh": "像在家一样。",
+          "py": "Xiàng zài jiā yíyàng.",
+          "en": "Just like at home."
         },
         {
-          "zh": "来一个麻婆豆腐。",
-          "py": "Lái yī gè mápó dòufu.",
-          "en": "I'll have mapo tofu."
-        },
-        {
-          "zh": "来一盘饺子。",
-          "py": "Lái yī pán jiǎozi.",
-          "en": "I'll have a plate of dumplings."
-        },
-        {
-          "zh": "来两碗米饭。",
-          "py": "Lái liǎng wǎn mǐfàn.",
-          "en": "Two bowls of rice, please."
-        },
-        {
-          "zh": "味道怎么样？——好吃极了！",
-          "py": "Wèidao zěnmeyàng? —— Hǎo chī jí le!",
-          "en": "How does it taste? — Extremely delicious!"
-        },
-        {
-          "zh": "味道怎么样？——太辣了。",
-          "py": "Wèidao zěnmeyàng? —— Tài là le.",
-          "en": "How does it taste? — Too spicy."
-        },
-        {
-          "zh": "味道怎么样？——不错。",
-          "py": "Wèidao zěnmeyàng? —— Búcuò.",
-          "en": "How does it taste? — Not bad."
-        },
-        {
-          "zh": "味道怎么样？——有点儿咸。",
-          "py": "Wèidao zěnmeyàng? —— Yǒudiǎnr xián.",
-          "en": "How does it taste? — A bit salty."
-        }
-      ]
-    },
-    {
-      "topic": "扩展 · Extension Sentences",
-      "items": [
-        {
-          "zh": "你能吃辣的吗？",
-          "py": "Nǐ néng chī là de ma?",
-          "en": "Can you eat spicy food?"
-        },
-        {
-          "zh": "不要放味精。",
-          "py": "Bú yào fàng wèijīng.",
-          "en": "No MSG, please."
-        },
-        {
-          "zh": "这个菜是甜的还是咸的？",
-          "py": "Zhège cài shì tián de háishi xián de?",
-          "en": "Is this dish sweet or salty?"
-        },
-        {
-          "zh": "我请客。",
-          "py": "Wǒ qǐng kè.",
-          "en": "It's my treat."
-        },
-        {
-          "zh": "我们AA吧。",
-          "py": "Wǒmen AA ba.",
-          "en": "Let's split the bill."
+          "zh": "他说汉语像中国人一样。",
+          "py": "Tā shuō Hànyǔ xiàng Zhōngguó rén yíyàng.",
+          "en": "He speaks Chinese like a Chinese person."
         }
       ]
     },
@@ -441,11 +796,6 @@
           "en": "chicken"
         },
         {
-          "zh": "鱼",
-          "py": "yú",
-          "en": "fish"
-        },
-        {
           "zh": "豆腐",
           "py": "dòufu",
           "en": "tofu"
@@ -494,6 +844,46 @@
           "zh": "清淡",
           "py": "qīngdàn",
           "en": "light (flavor)"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "你喜欢吃鱼吗？——这个鱼做得很好吃。",
+          "py": "Nǐ xǐhuan chī yú ma? —— Zhè ge yú zuò de hěn hǎochī.",
+          "en": "Do you like fish? — This fish is cooked very well. (complement of state practice)"
+        },
+        {
+          "zh": "今天的京剧演得怎么样？——演得很好。",
+          "py": "Jīntiān de jīngjù yǎn de zěnmeyàng? —— Yǎn de hěn hǎo.",
+          "en": "How was today's Beijing opera? — Very well performed."
+        },
+        {
+          "zh": "昨天晚上你几点睡的？——十二点。睡得太晚了。",
+          "py": "Zuótiān wǎnshang nǐ jǐ diǎn shuì de? —— Shí'èr diǎn. Shuì de tài wǎn le.",
+          "en": "What time did you sleep last night? — 12 o'clock. Too late."
+        },
+        {
+          "zh": "王兰、和子都在语言大学学习，她们是好朋友，像姐姐和妹妹一样。",
+          "py": "Wáng Lán, Hézǐ dōu zài Yǔyán Dàxué xuéxí, tāmen shì hǎo péngyou, xiàng jiějie hé mèimei yíyàng.",
+          "en": "(Fill-in) Wang Lan and Hezi both study at Language University; they are good friends, like sisters."
+        },
+        {
+          "zh": "我给她们照相，照得很多，都照得很好。那天我们玩儿得很高兴。",
+          "py": "Wǒ gěi tāmen zhào xiàng, zhào de hěn duō, dōu zhào de hěn hǎo. Nà tiān wǒmen wánr de hěn gāoxìng.",
+          "en": "(Fill-in) I took photos of them, took many, all turned out well. We had a great time that day."
+        },
+        {
+          "zh": "昨天我和几个小朋友去划船了。孩子们很喜欢划船，他们划得很好。",
+          "py": "Zuótiān wǒ hé jǐ ge xiǎo péngyou qù huá chuán le. Háizimen hěn xǐhuan huá chuán, tāmen huá de hěn hǎo.",
+          "en": "(Retelling) Yesterday I went boating with some children. They love boating and are good at it."
+        },
+        {
+          "zh": "我坐在船上高兴极了，也像孩子一样玩儿。这一天过得真有意思！",
+          "py": "Wǒ zuò zài chuán shang gāoxìng jí le, yě xiàng háizi yíyàng wánr. Zhè yī tiān guò de zhēn yǒu yìsi!",
+          "en": "(Retelling) Sitting in the boat I was extremely happy, playing like a child. What a wonderful day!"
         }
       ]
     }

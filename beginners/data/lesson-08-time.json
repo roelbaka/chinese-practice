@@ -114,6 +114,46 @@
           "zh": "回",
           "py": "huí",
           "en": "to return; to go back"
+        },
+        {
+          "zh": "时候",
+          "py": "shíhou",
+          "en": "time; moment"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "en": "morning; early morning"
+        },
+        {
+          "zh": "早",
+          "py": "zǎo",
+          "en": "early"
+        },
+        {
+          "zh": "吧",
+          "py": "ba",
+          "en": "modal particle (suggestion, soliciting agreement)"
+        },
+        {
+          "zh": "教室",
+          "py": "jiàoshì",
+          "en": "classroom"
+        },
+        {
+          "zh": "食堂",
+          "py": "shítáng",
+          "en": "dining hall; canteen"
+        },
+        {
+          "zh": "花（儿）",
+          "py": "huā(r)",
+          "en": "flower"
+        },
+        {
+          "zh": "长城",
+          "py": "Chángchéng",
+          "en": "the Great Wall"
         }
       ]
     },
@@ -149,6 +189,31 @@
           "zh": "下午你做什么？",
           "py": "Xiàwǔ nǐ zuò shénme?",
           "en": "What do you do in the afternoon?"
+        },
+        {
+          "zh": "现在七点二十五分。",
+          "py": "Xiànzài qī diǎn èrshíwǔ fēn.",
+          "en": "It's 7:25 now."
+        },
+        {
+          "zh": "差一刻八点。",
+          "py": "Chà yí kè bā diǎn.",
+          "en": "It's a quarter to eight (7:45)."
+        },
+        {
+          "zh": "我去吃饭。",
+          "py": "Wǒ qù chī fàn.",
+          "en": "I'm going to eat."
+        },
+        {
+          "zh": "我们什么时候去？",
+          "py": "Wǒmen shénme shíhou qù?",
+          "en": "When shall we go?"
+        },
+        {
+          "zh": "太早了。",
+          "py": "Tài zǎo le.",
+          "en": "It's too early."
         }
       ]
     },
@@ -238,47 +303,82 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (Time Expressions)",
+      "topic": "会话 · Textbook Dialogue 1 (玛丽 & 王兰)",
       "items": [
         {
-          "zh": "现在几点？",
-          "py": "Xiànzài jǐ diǎn?",
-          "en": "What time is it? (几点 asks the hour)"
+          "zh": "玛丽：现在几点？",
+          "py": "Mǎlì: Xiànzài jǐ diǎn?",
+          "en": "Mary: What time is it?"
         },
         {
-          "zh": "你几点上课？",
-          "py": "Nǐ jǐ diǎn shàng kè?",
-          "en": "What time do you have class? (time before verb)"
+          "zh": "王兰：现在七点二十五分。",
+          "py": "Wáng Lán: Xiànzài qī diǎn èrshíwǔ fēn.",
+          "en": "Wang Lan: It's 7:25."
         },
         {
-          "zh": "我八点上课。",
-          "py": "Wǒ bā diǎn shàng kè.",
-          "en": "I have class at 8. (time word as adverbial)"
+          "zh": "玛丽：你几点上课？",
+          "py": "Mǎlì: Nǐ jǐ diǎn shàng kè?",
+          "en": "Mary: What time do you have class?"
         },
         {
-          "zh": "他上午学习汉语。",
-          "py": "Tā shàngwǔ xuéxí Hànyǔ.",
-          "en": "He studies Chinese in the morning. (time of day before verb)"
+          "zh": "王兰：八点。",
+          "py": "Wáng Lán: Bā diǎn.",
+          "en": "Wang Lan: Eight o'clock."
         },
         {
-          "zh": "我每天七点起床。",
-          "py": "Wǒ měi tiān qī diǎn qǐ chuáng.",
-          "en": "I get up at 7 every day. (每天 = every day, before time)"
+          "zh": "玛丽：你什么时候去教室？",
+          "py": "Mǎlì: Nǐ shénme shíhou qù jiàoshì?",
+          "en": "Mary: When will you go to the classroom?"
         },
         {
-          "zh": "她每天下午去图书馆。",
-          "py": "Tā měi tiān xiàwǔ qù túshūguǎn.",
-          "en": "She goes to the library every afternoon. (每天 + time of day)"
+          "zh": "王兰：差一刻八点去。",
+          "py": "Wáng Lán: Chà yí kè bā diǎn qù.",
+          "en": "Wang Lan: I'll go at a quarter to eight."
         },
         {
-          "zh": "主语 + 时间 + 动词",
-          "py": "zhǔyǔ + shíjiān + dòngcí",
-          "en": "Word order: Subject + Time + Verb"
+          "zh": "玛丽：现在你去教室吗？",
+          "py": "Mǎlì: Xiànzài nǐ qù jiàoshì ma?",
+          "en": "Mary: Are you going to the classroom now?"
         },
         {
-          "zh": "我下午两点上课。",
-          "py": "Wǒ xiàwǔ liǎng diǎn shàng kè.",
-          "en": "I have class at 2pm. (large time unit before small)"
+          "zh": "王兰：不去，我去吃饭。",
+          "py": "Wáng Lán: Bú qù, wǒ qù chī fàn.",
+          "en": "Wang Lan: No, I'm going to eat."
+        }
+      ]
+    },
+    {
+      "topic": "会话 · Textbook Dialogue 2 (刘京 & 大卫)",
+      "items": [
+        {
+          "zh": "刘京：明天去长城，好吗？",
+          "py": "Liú Jīng: Míngtiān qù Chángchéng, hǎo ma?",
+          "en": "Liu Jing: Let's go to the Great Wall tomorrow, OK?"
+        },
+        {
+          "zh": "大卫：好，什么时候去？",
+          "py": "Dàwèi: Hǎo, shénme shíhou qù?",
+          "en": "David: OK, when shall we go?"
+        },
+        {
+          "zh": "刘京：早上七点。",
+          "py": "Liú Jīng: Zǎoshang qī diǎn.",
+          "en": "Liu Jing: 7am."
+        },
+        {
+          "zh": "大卫：太早了，七点半吧。你几点起床？",
+          "py": "Dàwèi: Tài zǎo le, qī diǎn bàn ba. Nǐ jǐ diǎn qǐ chuáng?",
+          "en": "David: That's too early — how about 7:30? What time do you get up?"
+        },
+        {
+          "zh": "刘京：六点半，你呢？",
+          "py": "Liú Jīng: Liù diǎn bàn, nǐ ne?",
+          "en": "Liu Jing: 6:30. And you?"
+        },
+        {
+          "zh": "大卫：我也六点半起床。",
+          "py": "Dàwèi: Wǒ yě liù diǎn bàn qǐ chuáng.",
+          "en": "David: I also get up at 6:30."
         }
       ]
     },
@@ -328,6 +428,86 @@
       ]
     },
     {
+      "topic": "替换与扩展 · Substitution & Extension (textbook)",
+      "items": [
+        {
+          "zh": "A: 现在几点？ B: 现在七点二十五分。",
+          "py": "A: Xiànzài jǐ diǎn? B: Xiànzài qī diǎn èrshíwǔ fēn.",
+          "en": "A: What time is it? B: It's 7:25. (Substitute: 10:15, 3:45, 11:35, 12:10 / 2:30, 8:15, 2:55, 5:20)"
+        },
+        {
+          "zh": "A: 你什么时候来我的宿舍？ B: 四点来。",
+          "py": "A: Nǐ shénme shíhou lái wǒ de sùshè? B: Sì diǎn lái.",
+          "en": "A: When will you come to my dorm? B: At 4. (Substitute: 去食堂 11:55去 / 去上海 7月28号去 / 去日本 1月25号去)"
+        },
+        {
+          "zh": "现在两点零五分，我去大卫的宿舍看他。",
+          "py": "Xiànzài liǎng diǎn líng wǔ fēn, wǒ qù Dàwèi de sùshè kàn tā.",
+          "en": "It's 2:05 now — I'm going to David's dorm to see him."
+        },
+        {
+          "zh": "早上七点一刻吃早饭。",
+          "py": "Zǎoshang qī diǎn yí kè chī zǎofàn.",
+          "en": "Eat breakfast at 7:15 in the morning."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Time Expressions)",
+      "items": [
+        {
+          "zh": "现在几点？",
+          "py": "Xiànzài jǐ diǎn?",
+          "en": "What time is it? (几点 asks the hour)"
+        },
+        {
+          "zh": "你几点上课？",
+          "py": "Nǐ jǐ diǎn shàng kè?",
+          "en": "What time do you have class? (time before verb)"
+        },
+        {
+          "zh": "我八点上课。",
+          "py": "Wǒ bā diǎn shàng kè.",
+          "en": "I have class at 8. (time word as adverbial)"
+        },
+        {
+          "zh": "他上午学习汉语。",
+          "py": "Tā shàngwǔ xuéxí Hànyǔ.",
+          "en": "He studies Chinese in the morning. (time of day before verb)"
+        },
+        {
+          "zh": "我每天七点起床。",
+          "py": "Wǒ měi tiān qī diǎn qǐ chuáng.",
+          "en": "I get up at 7 every day. (每天 = every day, before time)"
+        },
+        {
+          "zh": "她每天下午去图书馆。",
+          "py": "Tā měi tiān xiàwǔ qù túshūguǎn.",
+          "en": "She goes to the library every afternoon. (每天 + time of day)"
+        },
+        {
+          "zh": "主语 + 时间 + 动词",
+          "py": "zhǔyǔ + shíjiān + dòngcí",
+          "en": "Word order: Subject + Time + Verb"
+        },
+        {
+          "zh": "我下午两点上课。",
+          "py": "Wǒ xiàwǔ liǎng diǎn shàng kè.",
+          "en": "I have class at 2pm. (large time unit before small)"
+        },
+        {
+          "zh": "你什么时候去？",
+          "py": "Nǐ shénme shíhou qù?",
+          "en": "什么时候 asks 'when' — placed before the verb like other time words."
+        },
+        {
+          "zh": "七点半吧。",
+          "py": "Qī diǎn bàn ba.",
+          "en": "How about 7:30? (吧 softens a suggestion or proposal)"
+        }
+      ]
+    },
+    {
       "topic": "练习 · Exercises",
       "items": [
         {
@@ -369,6 +549,36 @@
           "zh": "我们每天下午三点去商店。",
           "py": "Wǒmen měi tiān xiàwǔ sān diǎn qù shāngdiàn.",
           "en": "We go to the shop at 3pm every day."
+        },
+        {
+          "zh": "你们几点上课？",
+          "py": "Nǐmen jǐ diǎn shàng kè?",
+          "en": "What time do you all have class?"
+        },
+        {
+          "zh": "你几点去教室？",
+          "py": "Nǐ jǐ diǎn qù jiàoshì?",
+          "en": "What time do you go to the classroom?"
+        },
+        {
+          "zh": "十二点半吃午饭。",
+          "py": "Shí'èr diǎn bàn chī wǔfàn.",
+          "en": "Eat lunch at 12:30."
+        },
+        {
+          "zh": "我十二点十分去食堂。",
+          "py": "Wǒ shí'èr diǎn shí fēn qù shítáng.",
+          "en": "I go to the canteen at 12:10."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Listen and Retell (textbook)",
+      "items": [
+        {
+          "zh": "今天星期六，我们不上课。小王说下午五点看电影，他和我一起去看，我很高兴。下午六点我去食堂吃饭，六点半去小王的宿舍，七点我们去看电影。",
+          "py": "Jīntiān xīngqī liù, wǒmen bú shàng kè. Xiǎo Wáng shuō xiàwǔ wǔ diǎn kàn diànyǐng, tā hé wǒ yīqǐ qù kàn, wǒ hěn gāoxìng. Xiàwǔ liù diǎn wǒ qù shítáng chī fàn, liù diǎn bàn qù Xiǎo Wáng de sùshè, qī diǎn wǒmen qù kàn diànyǐng.",
+          "en": "Today is Saturday — we don't have class. Xiao Wang said there's a movie at 5pm and he'll go with me; I'm happy. At 6pm I go to the canteen to eat, at 6:30 I go to Xiao Wang's dorm, and at 7 we go to the movie."
         }
       ]
     },
@@ -479,6 +689,11 @@
           "zh": "差十分八点",
           "py": "chà shí fēn bā diǎn",
           "en": "7:50 (ten to eight)"
+        },
+        {
+          "zh": "两点零五分",
+          "py": "liǎng diǎn líng wǔ fēn",
+          "en": "2:05 (零 is used for minutes 1–9)"
         }
       ]
     }

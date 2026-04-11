@@ -1,24 +1,119 @@
 {
-  "title": "第十七课 · 去动物园怎么走",
-  "subtitle": "Lesson 17 — 去动物园怎么走 · How to get to the zoo",
+  "title": "第十七课 · 去动物园",
+  "subtitle": "Lesson 17 — 去动物园 · Going to the Zoo",
   "data": [
     {
       "topic": "生词 · New Words",
       "items": [
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "en": "weather"
+        },
+        {
+          "zh": "出去",
+          "py": "chūqù",
+          "en": "to go out"
+        },
+        {
+          "zh": "划",
+          "py": "huá",
+          "en": "to row (a boat)"
+        },
+        {
+          "zh": "船",
+          "py": "chuán",
+          "en": "boat"
+        },
+        {
+          "zh": "骑",
+          "py": "qí",
+          "en": "to ride (a bike, horse)"
+        },
+        {
+          "zh": "自行车",
+          "py": "zìxíngchē",
+          "en": "bicycle"
+        },
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "(exclamation of admiration)"
+        },
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or (in alternative questions)"
+        },
+        {
+          "zh": "跟",
+          "py": "gēn",
+          "en": "and, with; to follow"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "last; on, above, over"
+        },
         {
           "zh": "动物园",
           "py": "dòngwùyuán",
           "en": "zoo"
         },
         {
-          "zh": "公共汽车",
-          "py": "gōnggòng qìchē",
-          "en": "bus"
+          "zh": "大熊猫",
+          "py": "dàxióngmāo",
+          "en": "giant panda"
+        },
+        {
+          "zh": "去年",
+          "py": "qùnián",
+          "en": "last year"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "to study, to learn"
+        },
+        {
+          "zh": "机场",
+          "py": "jīchǎng",
+          "en": "airport"
+        },
+        {
+          "zh": "接",
+          "py": "jiē",
+          "en": "to meet, to pick up"
+        },
+        {
+          "zh": "考试",
+          "py": "kǎoshì",
+          "en": "exam; to take an exam"
         },
         {
           "zh": "地铁",
           "py": "dìtiě",
           "en": "subway; metro"
+        },
+        {
+          "zh": "下",
+          "py": "xià",
+          "en": "next; under, below"
+        },
+        {
+          "zh": "条",
+          "py": "tiáo",
+          "en": "(measure word for long, thin things)"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "公共汽车",
+          "py": "gōnggòng qìchē",
+          "en": "bus"
         },
         {
           "zh": "出租车",
@@ -94,22 +189,62 @@
           "zh": "路人",
           "py": "lùrén",
           "en": "passerby"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns",
+      "items": [
+        {
+          "zh": "北海公园",
+          "py": "Běihǎi Gōngyuán",
+          "en": "Beihai Park"
         },
         {
-          "zh": "骑",
-          "py": "qí",
-          "en": "to ride (a bike)"
-        },
-        {
-          "zh": "自行车",
-          "py": "zìxíngchē",
-          "en": "bicycle"
+          "zh": "李成日",
+          "py": "Lǐ Chéngrì",
+          "en": "Li Chengri (name of a person)"
         }
       ]
     },
     {
       "topic": "句子 · Key Sentences",
       "items": [
+        {
+          "zh": "这两天天气很好。",
+          "py": "Zhè liǎng tiān tiānqì hěn hǎo.",
+          "en": "The weather has been fine in the last two days."
+        },
+        {
+          "zh": "我们出去玩儿玩儿吧。",
+          "py": "Wǒmen chūqù wánr wánr ba.",
+          "en": "Let's go for an outing."
+        },
+        {
+          "zh": "去哪儿玩儿好呢？",
+          "py": "Qù nǎr wánr hǎo ne?",
+          "en": "Where shall we go for fun?"
+        },
+        {
+          "zh": "去北海公园看看花儿，划划船。",
+          "py": "Qù Běihǎi Gōngyuán kànkan huār, huáhua chuán.",
+          "en": "Let's go to Beihai Park to see the flowers and go boating."
+        },
+        {
+          "zh": "骑自行车去吧。",
+          "py": "Qí zìxíngchē qù ba.",
+          "en": "Let's go by bike."
+        },
+        {
+          "zh": "今天天气多好啊！",
+          "py": "Jīntiān tiānqì duō hǎo a!",
+          "en": "What a fine day today!"
+        },
+        {
+          "zh": "他上午到还是下午到？",
+          "py": "Tā shàngwǔ dào háishi xiàwǔ dào?",
+          "en": "Will he arrive in the morning or in the afternoon?"
+        },
         {
           "zh": "去动物园怎么走？",
           "py": "Qù dòngwùyuán zěnme zǒu?",
@@ -148,7 +283,102 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1 (Going to the Zoo)",
+      "topic": "会话1 · Dialogue 1 (Planning an Outing)",
+      "items": [
+        {
+          "zh": "张丽英：这两天天气很好。我们出去玩儿玩儿吧。",
+          "py": "Zhāng Lìyīng: Zhè liǎng tiān tiānqì hěn hǎo. Wǒmen chūqù wánr wánr ba.",
+          "en": "Zhang Liying: The weather has been great these last couple of days. Let's go for an outing."
+        },
+        {
+          "zh": "和子：去哪儿玩儿好呢？",
+          "py": "Hézǐ: Qù nǎr wánr hǎo ne?",
+          "en": "Hezi: Where shall we go?"
+        },
+        {
+          "zh": "张丽英：去北海公园，看看花儿，划划船，多好啊！",
+          "py": "Zhāng Lìyīng: Qù Běihǎi Gōngyuán, kànkan huār, huáhua chuán, duō hǎo a!",
+          "en": "Zhang Liying: Let's go to Beihai Park, see the flowers and go boating. How lovely!"
+        },
+        {
+          "zh": "和子：上星期我去过了，去别的地方吧。",
+          "py": "Hézǐ: Shàng xīngqī wǒ qù guò le, qù bié de dìfang ba.",
+          "en": "Hezi: I went there last week. Let's go somewhere else."
+        },
+        {
+          "zh": "张丽英：去动物园怎么样？",
+          "py": "Zhāng Lìyīng: Qù dòngwùyuán zěnmeyàng?",
+          "en": "Zhang Liying: How about the zoo?"
+        },
+        {
+          "zh": "和子：行，还可以看看大熊猫呢。",
+          "py": "Hézǐ: Xíng, hái kěyǐ kànkan dàxióngmāo ne.",
+          "en": "Hezi: Sure, we can also see the pandas."
+        },
+        {
+          "zh": "张丽英：我们怎么去？",
+          "py": "Zhāng Lìyīng: Wǒmen zěnme qù?",
+          "en": "Zhang Liying: How shall we get there?"
+        },
+        {
+          "zh": "和子：骑自行车去吧。",
+          "py": "Hézǐ: Qí zìxíngchē qù ba.",
+          "en": "Hezi: Let's go by bike."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Picking Up Li Chengri)",
+      "items": [
+        {
+          "zh": "和子：你认识李成日吗？",
+          "py": "Hézǐ: Nǐ rènshi Lǐ Chéngrì ma?",
+          "en": "Hezi: Do you know Li Chengri?"
+        },
+        {
+          "zh": "刘京：当然认识。去年他在这儿学过汉语。",
+          "py": "Liú Jīng: Dāngrán rènshi. Qùnián tā zài zhèr xué guò Hànyǔ.",
+          "en": "Liu Jing: Of course. He studied Chinese here last year."
+        },
+        {
+          "zh": "和子：你知道吗？明天他来北京。",
+          "py": "Hézǐ: Nǐ zhīdào ma? Míngtiān tā lái Běijīng.",
+          "en": "Hezi: Did you know? He's coming to Beijing tomorrow."
+        },
+        {
+          "zh": "刘京：不知道。他上午到还是下午到？",
+          "py": "Liú Jīng: Bù zhīdào. Tā shàngwǔ dào háishi xiàwǔ dào?",
+          "en": "Liu Jing: No, I didn't. Is he arriving in the morning or the afternoon?"
+        },
+        {
+          "zh": "和子：下午两点，我去机场接他。",
+          "py": "Hézǐ: Xiàwǔ liǎng diǎn, wǒ qù jīchǎng jiē tā.",
+          "en": "Hezi: 2 PM. I'm going to the airport to pick him up."
+        },
+        {
+          "zh": "刘京：明天下午没有课，我跟你一起去。",
+          "py": "Liú Jīng: Míngtiān xiàwǔ méi yǒu kè, wǒ gēn nǐ yìqǐ qù.",
+          "en": "Liu Jing: I don't have class tomorrow afternoon. I'll go with you."
+        },
+        {
+          "zh": "和子：好的。",
+          "py": "Hézǐ: Hǎo de.",
+          "en": "Hezi: Great."
+        },
+        {
+          "zh": "刘京：什么时候去？",
+          "py": "Liú Jīng: Shénme shíhou qù?",
+          "en": "Liu Jing: When shall we leave?"
+        },
+        {
+          "zh": "和子：一点吧。",
+          "py": "Hézǐ: Yī diǎn ba.",
+          "en": "Hezi: 1 o'clock."
+        }
+      ]
+    },
+    {
+      "topic": "会话3 · Dialogue 3 (Asking Directions to the Zoo)",
       "items": [
         {
           "zh": "大卫：请问，去动物园怎么走？",
@@ -198,7 +428,7 @@
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2 (Taking the Subway)",
+      "topic": "会话4 · Dialogue 4 (Taking the Subway)",
       "items": [
         {
           "zh": "玛丽：请问，去天安门怎么走？",
@@ -238,33 +468,43 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (先...再... / 先...然后...)",
+      "topic": "替换与扩展 · Substitution and Extension",
       "items": [
         {
-          "zh": "先坐地铁，再换公共汽车。",
-          "py": "Xiān zuò dìtiě, zài huàn gōnggòng qìchē.",
-          "en": "First take the subway, then transfer to a bus."
+          "zh": "这两天天气很好。——这两天小王身体不好。",
+          "py": "Zhè liǎng tiān tiānqì hěn hǎo. —— Zhè liǎng tiān Xiǎo Wáng shēntǐ bù hǎo.",
+          "en": "The weather has been fine. — Xiao Wang hasn't been well recently."
         },
         {
-          "zh": "先往前走，再往右拐。",
-          "py": "Xiān wǎng qián zǒu, zài wǎng yòu guǎi.",
-          "en": "First go straight, then turn right."
+          "zh": "这两天他们有考试。",
+          "py": "Zhè liǎng tiān tāmen yǒu kǎoshì.",
+          "en": "They have exams these days."
         },
         {
-          "zh": "先吃饭，然后去上课。",
-          "py": "Xiān chī fàn, ránhòu qù shàng kè.",
-          "en": "First eat, then go to class."
+          "zh": "这两天坐地铁的人很多。",
+          "py": "Zhè liǎng tiān zuò dìtiě de rén hěn duō.",
+          "en": "There have been a lot of people taking the subway recently."
         },
         {
-          "zh": "先写作业，再看电视。",
-          "py": "Xiān xiě zuòyè, zài kàn diànshì.",
-          "en": "First do homework, then watch TV."
-        }
-      ]
-    },
-    {
-      "topic": "替换 · Substitution Drills",
-      "items": [
+          "zh": "看看花儿，划划船，多好啊！",
+          "py": "Kànkan huār, huáhua chuán, duō hǎo a!",
+          "en": "See the flowers and go boating, how lovely!"
+        },
+        {
+          "zh": "他上午到还是下午到？——你去机场还是他去机场？",
+          "py": "Tā shàngwǔ dào háishi xiàwǔ dào? —— Nǐ qù jīchǎng háishi tā qù jīchǎng?",
+          "en": "Morning or afternoon arrival? — Are you going to the airport or is he?"
+        },
+        {
+          "zh": "下星期走还是下下星期走？",
+          "py": "Xià xīngqī zǒu háishi xià xià xīngqī zǒu?",
+          "en": "Leaving next week or the week after?"
+        },
+        {
+          "zh": "今年回国还是明年回国？",
+          "py": "Jīnnián huí guó háishi míngnián huí guó?",
+          "en": "Going home this year or next year?"
+        },
         {
           "zh": "去动物园怎么走？",
           "py": "Qù dòngwùyuán zěnme zǒu?",
@@ -304,12 +544,7 @@
           "zh": "你坐出租车去。",
           "py": "Nǐ zuò chūzū chē qù.",
           "en": "Take a taxi."
-        }
-      ]
-    },
-    {
-      "topic": "扩展 · Extension Sentences",
-      "items": [
+        },
         {
           "zh": "我每天骑自行车上学。",
           "py": "Wǒ měi tiān qí zìxíngchē shàng xué.",
@@ -329,6 +564,131 @@
           "zh": "走路去太远了。",
           "py": "Zǒu lù qù tài yuǎn le.",
           "en": "It's too far to walk."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (选择疑问句 · Alternative Questions with 还是)",
+      "items": [
+        {
+          "zh": "他上午到还是下午到？",
+          "py": "Tā shàngwǔ dào háishi xiàwǔ dào?",
+          "en": "Is he arriving in the morning or the afternoon?"
+        },
+        {
+          "zh": "你上午去还是下午去？",
+          "py": "Nǐ shàngwǔ qù háishi xiàwǔ qù?",
+          "en": "Are you going in the morning or the afternoon?"
+        },
+        {
+          "zh": "你喝咖啡还是喝茶？",
+          "py": "Nǐ hē kāfēi háishi hē chá?",
+          "en": "Do you want coffee or tea?"
+        },
+        {
+          "zh": "你一个人去还是跟朋友一起去？",
+          "py": "Nǐ yī gè rén qù háishi gēn péngyou yìqǐ qù?",
+          "en": "Are you going alone or with friends?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (连动句 · Serial Verb Constructions for Manner)",
+      "items": [
+        {
+          "zh": "骑自行车去。",
+          "py": "Qí zìxíngchē qù.",
+          "en": "Go by bike. (first verb shows manner of second verb)"
+        },
+        {
+          "zh": "坐公共汽车去。",
+          "py": "Zuò gōnggòng qìchē qù.",
+          "en": "Go by bus."
+        },
+        {
+          "zh": "坐飞机来。",
+          "py": "Zuò fēijī lái.",
+          "en": "Come by plane."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (趋向补语 · Complement of Direction with 来/去)",
+      "items": [
+        {
+          "zh": "上课了，快进来吧。",
+          "py": "Shàng kè le, kuài jìnlái ba.",
+          "en": "Class is starting, come in quickly. (speaker is inside)"
+        },
+        {
+          "zh": "他不在家，出去了。",
+          "py": "Tā bú zài jiā, chūqù le.",
+          "en": "He's not home, he went out. (speaker is at home)"
+        },
+        {
+          "zh": "玛丽，快下来！",
+          "py": "Mǎlì, kuài xiàlái!",
+          "en": "Mary, come down quickly! (speaker is downstairs)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (先...再... / 先...然后...)",
+      "items": [
+        {
+          "zh": "先坐地铁，再换公共汽车。",
+          "py": "Xiān zuò dìtiě, zài huàn gōnggòng qìchē.",
+          "en": "First take the subway, then transfer to a bus."
+        },
+        {
+          "zh": "先往前走，再往右拐。",
+          "py": "Xiān wǎng qián zǒu, zài wǎng yòu guǎi.",
+          "en": "First go straight, then turn right."
+        },
+        {
+          "zh": "先吃饭，然后去上课。",
+          "py": "Xiān chī fàn, ránhòu qù shàng kè.",
+          "en": "First eat, then go to class."
+        },
+        {
+          "zh": "先写作业，再看电视。",
+          "py": "Xiān xiě zuòyè, zài kàn diànshì.",
+          "en": "First do homework, then watch TV."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "你六点半起床还是七点起床？",
+          "py": "Nǐ liù diǎn bàn qǐchuáng háishi qī diǎn qǐchuáng?",
+          "en": "Do you get up at 6:30 or 7:00? (practice with 还是)"
+        },
+        {
+          "zh": "你去机场还是他去机场？",
+          "py": "Nǐ qù jīchǎng háishi tā qù jīchǎng?",
+          "en": "Are you going to the airport or is he?"
+        },
+        {
+          "zh": "今年回国还是明年回国？",
+          "py": "Jīnnián huí guó háishi míngnián huí guó?",
+          "en": "Are you going home this year or next year?"
+        },
+        {
+          "zh": "大卫说：「进来。」",
+          "py": "Dàwèi shuō: 'Jìnlái.'",
+          "en": "David says: 'Come in.' (directional complement practice)"
+        },
+        {
+          "zh": "王兰告诉我，离我们学校不远有一个果园，那儿有很多水果，可以看，可以吃，也可以买。",
+          "py": "Wáng Lán gàosu wǒ, lí wǒmen xuéxiào bù yuǎn yǒu yī gè guǒyuán, nàr yǒu hěn duō shuǐguǒ, kěyǐ kàn, kěyǐ chī, yě kěyǐ mǎi.",
+          "en": "(Retelling) Wang Lan told me there's an orchard not far from our school, with lots of fruit you can see, eat, and buy."
+        },
+        {
+          "zh": "我们应该去看看。我们想星期天去。我们骑自行车去。",
+          "py": "Wǒmen yīnggāi qù kànkan. Wǒmen xiǎng xīngqītiān qù. Wǒmen qí zìxíngchē qù.",
+          "en": "(Retelling) We should go have a look. We're thinking of going on Sunday. We'll go by bike."
         }
       ]
     }

@@ -1,9 +1,129 @@
 {
-  "title": "第十二课 · 她不在",
-  "subtitle": "Lesson 12 — 她不在 · She is not here",
+  "title": "第十二课 · 我想买毛衣",
+  "subtitle": "Lesson 12 — 我想买毛衣 · I Want to Buy a Sweater",
   "data": [
     {
-      "topic": "生词 · New Words",
+      "topic": "生词 · New Words (Textbook: 我想买毛衣)",
+      "items": [
+        {
+          "zh": "冷",
+          "py": "lěng",
+          "en": "cold"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "to want to; to think; to miss"
+        },
+        {
+          "zh": "件",
+          "py": "jiàn",
+          "en": "measure word for clothes/matters"
+        },
+        {
+          "zh": "毛衣",
+          "py": "máoyī",
+          "en": "sweater; wool sweater"
+        },
+        {
+          "zh": "东西",
+          "py": "dōngxi",
+          "en": "things; stuff"
+        },
+        {
+          "zh": "什么时候",
+          "py": "shénme shíhou",
+          "en": "when; what time"
+        },
+        {
+          "zh": "怎么样",
+          "py": "zěnmeyàng",
+          "en": "how about; how is it"
+        },
+        {
+          "zh": "太…了",
+          "py": "tài…le",
+          "en": "too…; excessively…"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "小姐",
+          "py": "xiǎojie",
+          "en": "miss; young lady"
+        },
+        {
+          "zh": "试",
+          "py": "shì",
+          "en": "to try; to try on"
+        },
+        {
+          "zh": "当然",
+          "py": "dāngrán",
+          "en": "of course; certainly"
+        },
+        {
+          "zh": "合适",
+          "py": "héshì",
+          "en": "suitable; fitting; just right"
+        },
+        {
+          "zh": "颜色",
+          "py": "yánsè",
+          "en": "color"
+        },
+        {
+          "zh": "好看",
+          "py": "hǎokàn",
+          "en": "good-looking; attractive"
+        },
+        {
+          "zh": "真",
+          "py": "zhēn",
+          "en": "really; truly"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "en": "pretty; beautiful"
+        },
+        {
+          "zh": "极",
+          "py": "jí",
+          "en": "extremely (used with 了)"
+        },
+        {
+          "zh": "短信",
+          "py": "duǎnxìn",
+          "en": "text message"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        },
+        {
+          "zh": "累",
+          "py": "lèi",
+          "en": "tired"
+        },
+        {
+          "zh": "电影",
+          "py": "diànyǐng",
+          "en": "movie; film"
+        },
+        {
+          "zh": "介绍",
+          "py": "jièshào",
+          "en": "to introduce"
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (她不在)",
       "items": [
         {
           "zh": "喂",
@@ -78,7 +198,52 @@
       ]
     },
     {
-      "topic": "句子 · Key Sentences",
+      "topic": "句子 · Key Sentences (Textbook: 我想买毛衣)",
+      "items": [
+        {
+          "zh": "天冷了。",
+          "py": "Tiān lěng le.",
+          "en": "It's getting cold."
+        },
+        {
+          "zh": "我想买件毛衣。",
+          "py": "Wǒ xiǎng mǎi jiàn máoyī.",
+          "en": "I want to buy a sweater."
+        },
+        {
+          "zh": "星期天去，怎么样？",
+          "py": "Xīngqītiān qù, zěnmeyàng?",
+          "en": "What about going on Sunday?"
+        },
+        {
+          "zh": "星期天人太多。",
+          "py": "Xīngqītiān rén tài duō.",
+          "en": "It's too crowded on Sunday."
+        },
+        {
+          "zh": "我看看那件毛衣。",
+          "py": "Wǒ kànkan nà jiàn máoyī.",
+          "en": "I want to have a look at that sweater."
+        },
+        {
+          "zh": "这件毛衣我可以试试吗？",
+          "py": "Zhè jiàn máoyī wǒ kěyǐ shìshi ma?",
+          "en": "Can I try on this sweater?"
+        },
+        {
+          "zh": "这件毛衣不大也不小。",
+          "py": "Zhè jiàn máoyī bú dà yě bù xiǎo.",
+          "en": "This sweater is neither too big nor too small."
+        },
+        {
+          "zh": "太好了！",
+          "py": "Tài hǎo le!",
+          "en": "Wonderful! / Great!"
+        }
+      ]
+    },
+    {
+      "topic": "句子 · Key Sentences (她不在)",
       "items": [
         {
           "zh": "喂，请问王兰在吗？",
@@ -123,7 +288,92 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1",
+      "topic": "会话1 · Dialogue 1 (Textbook: Planning to Go Shopping)",
+      "items": [
+        {
+          "zh": "大卫：天冷了。我想买件毛衣。",
+          "py": "Dàwèi: Tiān lěng le. Wǒ xiǎng mǎi jiàn máoyī.",
+          "en": "David: It's getting cold. I want to buy a sweater."
+        },
+        {
+          "zh": "玛丽：我也要买东西。我们什么时候去？",
+          "py": "Mǎlì: Wǒ yě yào mǎi dōngxi. Wǒmen shénme shíhou qù?",
+          "en": "Mary: I want to buy things too. When shall we go?"
+        },
+        {
+          "zh": "大卫：星期天去，怎么样？",
+          "py": "Dàwèi: Xīngqītiān qù, zěnmeyàng?",
+          "en": "David: How about Sunday?"
+        },
+        {
+          "zh": "玛丽：星期天人太多。",
+          "py": "Mǎlì: Xīngqītiān rén tài duō.",
+          "en": "Mary: Too many people on Sunday."
+        },
+        {
+          "zh": "大卫：那明天下午去吧。",
+          "py": "Dàwèi: Nà míngtiān xiàwǔ qù ba.",
+          "en": "David: Then let's go tomorrow afternoon."
+        },
+        {
+          "zh": "玛丽：好。",
+          "py": "Mǎlì: Hǎo.",
+          "en": "Mary: OK."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Textbook: At the Store)",
+      "items": [
+        {
+          "zh": "大卫：小姐，我看看那件毛衣。",
+          "py": "Dàwèi: Xiǎojie, wǒ kànkan nà jiàn máoyī.",
+          "en": "David: Miss, I'd like to look at that sweater."
+        },
+        {
+          "zh": "售货员：好，给您。",
+          "py": "Shòuhuòyuán: Hǎo, gěi nín.",
+          "en": "Shop assistant: Here you are."
+        },
+        {
+          "zh": "大卫：这件毛衣我可以试试吗？",
+          "py": "Dàwèi: Zhè jiàn máoyī wǒ kěyǐ shìshi ma?",
+          "en": "David: Can I try on this sweater?"
+        },
+        {
+          "zh": "售货员：当然可以。",
+          "py": "Shòuhuòyuán: Dāngrán kěyǐ.",
+          "en": "Shop assistant: Of course."
+        },
+        {
+          "zh": "大卫：这件毛衣不大也不小，很合适。",
+          "py": "Dàwèi: Zhè jiàn máoyī bú dà yě bù xiǎo, hěn héshì.",
+          "en": "David: This sweater is neither too big nor too small, it fits well."
+        },
+        {
+          "zh": "售货员：颜色也很好看。",
+          "py": "Shòuhuòyuán: Yánsè yě hěn hǎokàn.",
+          "en": "Shop assistant: The color is also nice."
+        },
+        {
+          "zh": "玛丽：真漂亮！太好了！",
+          "py": "Mǎlì: Zhēn piàoliang! Tài hǎo le!",
+          "en": "Mary: Really beautiful! Wonderful!"
+        },
+        {
+          "zh": "大卫：多少钱一件？",
+          "py": "Dàwèi: Duōshao qián yī jiàn?",
+          "en": "David: How much per piece?"
+        },
+        {
+          "zh": "售货员：二百六十块。",
+          "py": "Shòuhuòyuán: Èrbǎi liùshí kuài.",
+          "en": "Shop assistant: 260 yuan."
+        }
+      ]
+    },
+    {
+      "topic": "会话3 · Dialogue 3 (Phone Call — Wang Lan)",
       "items": [
         {
           "zh": "玛丽：喂，请问王兰在吗？",
@@ -168,7 +418,7 @@
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2",
+      "topic": "会话4 · Dialogue 4 (Phone Call — Teacher Li)",
       "items": [
         {
           "zh": "职员：喂，您好！请问您找谁？",
@@ -213,52 +463,77 @@
       ]
     },
     {
-      "topic": "语法 · Grammar",
+      "topic": "替换 · Substitution Drills (Textbook: 我想买毛衣)",
       "items": [
         {
-          "zh": "请她给我回电话。",
-          "py": "Qǐng tā gěi wǒ huí diànhuà.",
-          "en": "给 as preposition \"for / to\": ask her to return the call to me."
+          "zh": "我想买件毛衣。→ 我想发短信。",
+          "py": "Wǒ xiǎng mǎi jiàn máoyī. → Wǒ xiǎng fā duǎnxìn.",
+          "en": "I want to buy a sweater. → I want to send a text."
         },
         {
-          "zh": "我给她一本书。",
-          "py": "Wǒ gěi tā yī běn shū.",
-          "en": "I give her a book. (给 = to, toward the recipient)"
+          "zh": "我想喝水。",
+          "py": "Wǒ xiǎng hē shuǐ.",
+          "en": "I want to drink water."
         },
         {
-          "zh": "妈妈给我做饭。",
-          "py": "Māma gěi wǒ zuò fàn.",
-          "en": "Mom cooks for me."
+          "zh": "我想上课。",
+          "py": "Wǒ xiǎng shàng kè.",
+          "en": "I want to go to class."
         },
         {
-          "zh": "他晚上回来。",
-          "py": "Tā wǎnshang huí lái.",
-          "en": "Directional complement 回来: \"return\" toward the speaker's place (come back)."
+          "zh": "我想看电影。",
+          "py": "Wǒ xiǎng kàn diànyǐng.",
+          "en": "I want to watch a movie."
         },
         {
-          "zh": "我回学校去。",
-          "py": "Wǒ huí xuéxiào qù.",
-          "en": "I go back to school. (回去 = go back away from speaker)"
+          "zh": "我看看那件毛衣。→ 我看看那本书。",
+          "py": "Wǒ kànkan nà jiàn máoyī. → Wǒ kànkan nà běn shū.",
+          "en": "I'd like to look at that sweater. → that book."
         },
         {
-          "zh": "请进来。",
-          "py": "Qǐng jìnlái.",
-          "en": "Please come in. (进来 = enter toward here)"
+          "zh": "我看看那件衬衫。",
+          "py": "Wǒ kànkan nà jiàn chènshān.",
+          "en": "I'd like to look at that shirt."
         },
         {
-          "zh": "我可以进来吗？",
-          "py": "Wǒ kěyǐ jìnlái ma?",
-          "en": "May I come in? (可以 = permission)"
+          "zh": "我看看那条裤子。",
+          "py": "Wǒ kànkan nà tiáo kùzi.",
+          "en": "I'd like to look at those trousers."
         },
         {
-          "zh": "这儿不可以抽烟。",
-          "py": "Zhèr bù kěyǐ chōuyān.",
-          "en": "You can't smoke here."
+          "zh": "这件毛衣不大也不小。→ 这条裤子不长也不短。",
+          "py": "Zhè jiàn máoyī bú dà yě bù xiǎo. → Zhè tiáo kùzi bù cháng yě bù duǎn.",
+          "en": "This sweater is neither too big nor too small. → These trousers are neither too long nor too short."
+        },
+        {
+          "zh": "这件衬衫不贵也不便宜。",
+          "py": "Zhè jiàn chènshān bú guì yě bù piányi.",
+          "en": "This shirt is neither too expensive nor too cheap."
         }
       ]
     },
     {
-      "topic": "替换 · Substitution Drills",
+      "topic": "扩展 · Extension Sentences (Textbook)",
+      "items": [
+        {
+          "zh": "今天的工作很多，我累极了。",
+          "py": "Jīntiān de gōngzuò hěn duō, wǒ lèi jí le.",
+          "en": "There's a lot of work today, I'm extremely tired."
+        },
+        {
+          "zh": "那个电影不太好，我不想看。",
+          "py": "Nàge diànyǐng bú tài hǎo, wǒ bù xiǎng kàn.",
+          "en": "That movie isn't very good, I don't want to watch it."
+        },
+        {
+          "zh": "请你介绍介绍北京吧。",
+          "py": "Qǐng nǐ jièshào jièshào Běijīng ba.",
+          "en": "Please tell me a bit about Beijing."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills (她不在)",
       "items": [
         {
           "zh": "喂，请问王兰在吗？→喂，请问李老师在吗？",
@@ -299,6 +574,101 @@
           "zh": "她晚上回来。→她一会儿回来。",
           "py": "Tā wǎnshang huí lái. → Tā yíhuìr huí lái.",
           "en": "She'll be back this evening. → She'll be back in a moment."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Textbook: 主谓谓语句 & 能愿动词)",
+      "items": [
+        {
+          "zh": "主谓谓语句：星期天人太多。",
+          "py": "Zhǔ-wèi wèiyǔ jù: Xīngqītiān rén tài duō.",
+          "en": "S-P predicate sentence: Sunday — people are too many."
+        },
+        {
+          "zh": "这件毛衣颜色很好看。",
+          "py": "Zhè jiàn máoyī yánsè hěn hǎokàn.",
+          "en": "This sweater — the color is nice. (S-P predicate: subject has a subject-predicate phrase as its predicate)"
+        },
+        {
+          "zh": "那种苹果价钱很便宜。",
+          "py": "Nà zhǒng píngguǒ jiàqian hěn piányi.",
+          "en": "That kind of apple — the price is cheap."
+        },
+        {
+          "zh": "能愿动词：我想买件毛衣。",
+          "py": "Néng yuàn dòngcí: Wǒ xiǎng mǎi jiàn máoyī.",
+          "en": "Modal verb: I want to buy a sweater. (想 = want to)"
+        },
+        {
+          "zh": "我可以试试吗？",
+          "py": "Wǒ kěyǐ shìshi ma?",
+          "en": "Can I try it on? (可以 = may, permission)"
+        },
+        {
+          "zh": "他会说汉语。",
+          "py": "Tā huì shuō Hànyǔ.",
+          "en": "He can speak Chinese. (会 = learned ability)"
+        },
+        {
+          "zh": "我要去商店。",
+          "py": "Wǒ yào qù shāngdiàn.",
+          "en": "I want to go to the store. (要 = want/will)"
+        },
+        {
+          "zh": "你能来吗？",
+          "py": "Nǐ néng lái ma?",
+          "en": "Can you come? (能 = can, ability/possibility)"
+        },
+        {
+          "zh": "否定形式：不想、不能、不可以、不会、不要",
+          "py": "Fǒudìng xíngshì: bù xiǎng, bù néng, bù kěyǐ, bú huì, bú yào",
+          "en": "Negative forms: don't want to, cannot, may not, unable to, don't want"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (给 & Directional Complements)",
+      "items": [
+        {
+          "zh": "请她给我回电话。",
+          "py": "Qǐng tā gěi wǒ huí diànhuà.",
+          "en": "给 as preposition \"for / to\": ask her to return the call to me."
+        },
+        {
+          "zh": "我给她一本书。",
+          "py": "Wǒ gěi tā yī běn shū.",
+          "en": "I give her a book. (给 = to, toward the recipient)"
+        },
+        {
+          "zh": "妈妈给我做饭。",
+          "py": "Māma gěi wǒ zuò fàn.",
+          "en": "Mom cooks for me."
+        },
+        {
+          "zh": "他晚上回来。",
+          "py": "Tā wǎnshang huí lái.",
+          "en": "Directional complement 回来: \"return\" toward the speaker's place (come back)."
+        },
+        {
+          "zh": "我回学校去。",
+          "py": "Wǒ huí xuéxiào qù.",
+          "en": "I go back to school. (回去 = go back away from speaker)"
+        },
+        {
+          "zh": "请进来。",
+          "py": "Qǐng jìnlái.",
+          "en": "Please come in. (进来 = enter toward here)"
+        },
+        {
+          "zh": "我可以进来吗？",
+          "py": "Wǒ kěyǐ jìnlái ma?",
+          "en": "May I come in? (可以 = permission)"
+        },
+        {
+          "zh": "这儿不可以抽烟。",
+          "py": "Zhèr bù kěyǐ chōuyān.",
+          "en": "You can't smoke here."
         }
       ]
     },

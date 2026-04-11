@@ -144,6 +144,21 @@
           "zh": "东西",
           "py": "dōngxi",
           "en": "thing(s); stuff"
+        },
+        {
+          "zh": "电影",
+          "py": "diànyǐng",
+          "en": "movie; film"
+        },
+        {
+          "zh": "酒吧",
+          "py": "jiǔbā",
+          "en": "bar; pub"
+        },
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "en": "Sunday (alt. 星期日)"
         }
       ]
     },
@@ -174,6 +189,26 @@
           "zh": "今年是二〇二六年。",
           "py": "Jīnnián shì èr líng èr liù nián.",
           "en": "This year is 2026."
+        },
+        {
+          "zh": "今天八号。",
+          "py": "Jīntiān bā hào.",
+          "en": "Today is the 8th."
+        },
+        {
+          "zh": "今天不是星期四，昨天星期四。",
+          "py": "Jīntiān bú shì xīngqī sì, zuótiān xīngqī sì.",
+          "en": "Today is not Thursday — yesterday was Thursday."
+        },
+        {
+          "zh": "晚上你做什么？",
+          "py": "Wǎnshang nǐ zuò shénme?",
+          "en": "What will you do this evening?"
+        },
+        {
+          "zh": "我们上午去她家，好吗？",
+          "py": "Wǒmen shàngwǔ qù tā jiā, hǎo ma?",
+          "en": "We'll go to her home in the morning, OK?"
         }
       ]
     },
@@ -253,6 +288,146 @@
       ]
     },
     {
+      "topic": "会话 · Textbook Dialogue 1 (Dates & Days)",
+      "items": [
+        {
+          "zh": "玛丽：今天几号？",
+          "py": "Mǎlì: Jīntiān jǐ hào?",
+          "en": "Mary: What date is today?"
+        },
+        {
+          "zh": "大卫：今天八号。",
+          "py": "Dàwèi: Jīntiān bā hào.",
+          "en": "David: Today is the 8th."
+        },
+        {
+          "zh": "玛丽：今天星期四吗？",
+          "py": "Mǎlì: Jīntiān xīngqī sì ma?",
+          "en": "Mary: Is today Thursday?"
+        },
+        {
+          "zh": "大卫：今天不是星期四，昨天星期四。",
+          "py": "Dàwèi: Jīntiān bú shì xīngqī sì, zuótiān xīngqī sì.",
+          "en": "David: Today is not Thursday — yesterday was Thursday."
+        },
+        {
+          "zh": "玛丽：明天星期六，晚上你做什么？",
+          "py": "Mǎlì: Míngtiān xīngqī liù, wǎnshang nǐ zuò shénme?",
+          "en": "Mary: Tomorrow is Saturday — what will you do in the evening?"
+        },
+        {
+          "zh": "大卫：我看电影，你呢？",
+          "py": "Dàwèi: Wǒ kàn diànyǐng, nǐ ne?",
+          "en": "David: I'll watch a movie. And you?"
+        },
+        {
+          "zh": "玛丽：我去酒吧。",
+          "py": "Mǎlì: Wǒ qù jiǔbā.",
+          "en": "Mary: I'll go to a bar."
+        }
+      ]
+    },
+    {
+      "topic": "会话 · Textbook Dialogue 2 (Birthdays)",
+      "items": [
+        {
+          "zh": "玛丽：你的生日是几月几号？",
+          "py": "Mǎlì: Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+          "en": "Mary: When is your birthday?"
+        },
+        {
+          "zh": "王兰：三月十七号。你呢？",
+          "py": "Wáng Lán: Sān yuè shíqī hào. Nǐ ne?",
+          "en": "Wang Lan: March 17th. And you?"
+        },
+        {
+          "zh": "玛丽：五月九号。",
+          "py": "Mǎlì: Wǔ yuè jiǔ hào.",
+          "en": "Mary: May 9th."
+        },
+        {
+          "zh": "王兰：四号是张丽英的生日。我们上午去她家，好吗？",
+          "py": "Wáng Lán: Sì hào shì Zhāng Lìyīng de shēngrì. Wǒmen shàngwǔ qù tā jiā, hǎo ma?",
+          "en": "Wang Lan: The 4th is Zhang Liying's birthday. Let's go to her home in the morning, OK?"
+        },
+        {
+          "zh": "玛丽：好。",
+          "py": "Mǎlì: Hǎo.",
+          "en": "Mary: OK."
+        }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution Drills",
+      "items": [
+        {
+          "zh": "你的生日是几月几号？我的生日是五月二十号。",
+          "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào? Wǒ de shēngrì shì wǔ yuè èrshí hào.",
+          "en": "When is your birthday? My birthday is May 20th."
+        },
+        {
+          "zh": "我的生日是一月一号。",
+          "py": "Wǒ de shēngrì shì yī yuè yī hào.",
+          "en": "My birthday is January 1st."
+        },
+        {
+          "zh": "我的生日是七月七号。",
+          "py": "Wǒ de shēngrì shì qī yuè qī hào.",
+          "en": "My birthday is July 7th."
+        },
+        {
+          "zh": "我的生日是十月三十一号。",
+          "py": "Wǒ de shēngrì shì shí yuè sānshíyī hào.",
+          "en": "My birthday is October 31st."
+        },
+        {
+          "zh": "我的生日是十二月二十五号。",
+          "py": "Wǒ de shēngrì shì shí'èr yuè èrshíwǔ hào.",
+          "en": "My birthday is December 25th."
+        },
+        {
+          "zh": "今天几号？今天是六月十八号。",
+          "py": "Jīntiān jǐ hào? Jīntiān shì liù yuè shíbā hào.",
+          "en": "What's today's date? Today is June 18th."
+        },
+        {
+          "zh": "今天星期几？今天星期三。",
+          "py": "Jīntiān xīngqī jǐ? Jīntiān xīngqī sān.",
+          "en": "What day is today? Today is Wednesday."
+        }
+      ]
+    },
+    {
+      "topic": "替换与扩展 · Substitution & Extension (textbook)",
+      "items": [
+        {
+          "zh": "这个星期五是我朋友的生日。",
+          "py": "Zhè ge xīngqīwǔ shì wǒ péngyou de shēngrì.",
+          "en": "This Friday is my friend's birthday."
+        },
+        {
+          "zh": "明天是几月几号，星期几？",
+          "py": "Míngtiān shì jǐ yuè jǐ hào, xīngqī jǐ?",
+          "en": "What is the date and day tomorrow?"
+        },
+        {
+          "zh": "十一月二十八号，星期日。",
+          "py": "Shíyī yuè èrshíbā hào, xīngqīrì.",
+          "en": "November 28th, Sunday."
+        },
+        {
+          "zh": "他今年二十岁。",
+          "py": "Tā jīnnián èrshí suì.",
+          "en": "He is twenty years old this year."
+        },
+        {
+          "zh": "下午我去他家看他。",
+          "py": "Xiàwǔ wǒ qù tā jiā kàn tā.",
+          "en": "In the afternoon I'll go to his home to see him."
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar",
       "items": [
         {
@@ -294,46 +469,21 @@
           "zh": "昨天是星期五。",
           "py": "Zuótiān shì xīngqī wǔ.",
           "en": "Yesterday was Friday."
-        }
-      ]
-    },
-    {
-      "topic": "替换 · Substitution Drills",
-      "items": [
-        {
-          "zh": "你的生日是几月几号？我的生日是五月二十号。",
-          "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào? Wǒ de shēngrì shì wǔ yuè èrshí hào.",
-          "en": "When is your birthday? My birthday is May 20th."
         },
         {
-          "zh": "我的生日是一月一号。",
-          "py": "Wǒ de shēngrì shì yī yuè yī hào.",
-          "en": "My birthday is January 1st."
+          "zh": "今天八号。",
+          "py": "Jīntiān bā hào.",
+          "en": "Nominal predicate: no 是 needed when stating a date or day. (今天八号 = Today is the 8th.)"
         },
         {
-          "zh": "我的生日是七月七号。",
-          "py": "Wǒ de shēngrì shì qī yuè qī hào.",
-          "en": "My birthday is July 7th."
+          "zh": "今天星期四。",
+          "py": "Jīntiān xīngqī sì.",
+          "en": "Today is Thursday. (nominal predicate — subject directly followed by a noun/date)"
         },
         {
-          "zh": "我的生日是十月三十一号。",
-          "py": "Wǒ de shēngrì shì shí yuè sānshíyī hào.",
-          "en": "My birthday is October 31st."
-        },
-        {
-          "zh": "我的生日是十二月二十五号。",
-          "py": "Wǒ de shēngrì shì shí'èr yuè èrshíwǔ hào.",
-          "en": "My birthday is December 25th."
-        },
-        {
-          "zh": "今天几号？今天是六月十八号。",
-          "py": "Jīntiān jǐ hào? Jīntiān shì liù yuè shíbā hào.",
-          "en": "What's today's date? Today is June 18th."
-        },
-        {
-          "zh": "今天星期几？今天星期三。",
-          "py": "Jīntiān xīngqī jǐ? Jīntiān xīngqī sān.",
-          "en": "What day is today? Today is Wednesday."
+          "zh": "我们去她家，好吗？",
+          "py": "Wǒmen qù tā jiā, hǎo ma?",
+          "en": "好吗 at the end of a statement turns it into a suggestion seeking agreement."
         }
       ]
     },
@@ -379,6 +529,26 @@
           "zh": "我们星期六去朋友家，好吗？",
           "py": "Wǒmen xīngqī liù qù péngyou jiā, hǎo ma?",
           "en": "Let's go to a friend's house on Saturday, OK?"
+        },
+        {
+          "zh": "这个星期天上午你做什么？",
+          "py": "Zhè ge xīngqītiān shàngwǔ nǐ zuò shénme?",
+          "en": "What will you do this Sunday morning?"
+        },
+        {
+          "zh": "这个星期天晚上你做什么？",
+          "py": "Zhè ge xīngqītiān wǎnshang nǐ zuò shénme?",
+          "en": "What will you do this Sunday evening?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Listen and Retell (textbook)",
+      "items": [
+        {
+          "zh": "今天星期天，我不学习。上午我看书，下午我去看朋友，晚上我写信。",
+          "py": "Jīntiān xīngqītiān, wǒ bù xuéxí. Shàngwǔ wǒ kàn shū, xiàwǔ wǒ qù kàn péngyou, wǎnshang wǒ xiě xìn.",
+          "en": "Today is Sunday — I'm not studying. In the morning I read; in the afternoon I go visit friends; in the evening I write letters."
         }
       ]
     },

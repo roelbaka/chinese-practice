@@ -1,10 +1,115 @@
 {
-  "title": "第十六课 · 他做什么工作",
-  "subtitle": "Lesson 16 — 他做什么工作 · What work does he do",
+  "title": "第十六课 · 你看过京剧吗",
+  "subtitle": "Lesson 16 — 你看过京剧吗 · Have you ever seen a Beijing opera",
   "data": [
     {
       "topic": "生词 · New Words",
       "items": [
+        {
+          "zh": "过",
+          "py": "guò",
+          "en": "(aspect particle) indicating past experience"
+        },
+        {
+          "zh": "京剧",
+          "py": "jīngjù",
+          "en": "Beijing opera"
+        },
+        {
+          "zh": "演",
+          "py": "yǎn",
+          "en": "to perform, to put on (a show)"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐhòu",
+          "en": "later, afterwards"
+        },
+        {
+          "zh": "告诉",
+          "py": "gàosu",
+          "en": "to tell, to inform"
+        },
+        {
+          "zh": "烤鸭",
+          "py": "kǎoyā",
+          "en": "roast duck"
+        },
+        {
+          "zh": "应该",
+          "py": "yīnggāi",
+          "en": "ought to, should"
+        },
+        {
+          "zh": "行",
+          "py": "xíng",
+          "en": "it's OK; feasible; capable"
+        },
+        {
+          "zh": "有意思",
+          "py": "yǒu yìsi",
+          "en": "interesting"
+        },
+        {
+          "zh": "当然",
+          "py": "dāngrán",
+          "en": "of course, certainly"
+        },
+        {
+          "zh": "名菜",
+          "py": "míngcài",
+          "en": "famous dish"
+        },
+        {
+          "zh": "事",
+          "py": "shì",
+          "en": "matter, affair, thing"
+        },
+        {
+          "zh": "酒",
+          "py": "jiǔ",
+          "en": "alcoholic beverage, wine"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish, cuisine; vegetable"
+        },
+        {
+          "zh": "价钱",
+          "py": "jiàqian",
+          "en": "price"
+        },
+        {
+          "zh": "收",
+          "py": "shōu",
+          "en": "to receive"
+        },
+        {
+          "zh": "词典",
+          "py": "cídiǎn",
+          "en": "dictionary"
+        },
+        {
+          "zh": "咖啡",
+          "py": "kāfēi",
+          "en": "coffee"
+        },
+        {
+          "zh": "杂技",
+          "py": "zájì",
+          "en": "acrobatics"
+        },
+        {
+          "zh": "练习",
+          "py": "liànxí",
+          "en": "exercise; to exercise, to practise"
+        },
         {
           "zh": "工作",
           "py": "gōngzuò",
@@ -113,8 +218,53 @@
       ]
     },
     {
+      "topic": "专名 · Proper Nouns",
+      "items": [
+        {
+          "zh": "人民剧场",
+          "py": "Rénmín Jùchǎng",
+          "en": "People's Theatre"
+        }
+      ]
+    },
+    {
       "topic": "句子 · Key Sentences",
       "items": [
+        {
+          "zh": "我没看过京剧。",
+          "py": "Wǒ méi kàn guò jīngjù.",
+          "en": "I haven't seen a Beijing opera."
+        },
+        {
+          "zh": "你知道哪儿演京剧吗？",
+          "py": "Nǐ zhīdào nǎr yǎn jīngjù ma?",
+          "en": "Do you know where Beijing opera is performed?"
+        },
+        {
+          "zh": "你买到票以后告诉我。",
+          "py": "Nǐ mǎi dào piào yǐhòu gàosu wǒ.",
+          "en": "Let me know after you get the tickets."
+        },
+        {
+          "zh": "我还没吃过北京烤鸭呢！",
+          "py": "Wǒ hái méi chī guò Běijīng kǎoyā ne!",
+          "en": "I haven't had any Beijing roast duck yet!"
+        },
+        {
+          "zh": "我们应该去尝一尝。",
+          "py": "Wǒmen yīnggāi qù cháng yī cháng.",
+          "en": "We should go and have a taste of it."
+        },
+        {
+          "zh": "不行。",
+          "py": "Bù xíng.",
+          "en": "No, I can't. (It's not possible.)"
+        },
+        {
+          "zh": "有朋友来看我。",
+          "py": "Yǒu péngyou lái kàn wǒ.",
+          "en": "A friend of mine will come to see me."
+        },
         {
           "zh": "他做什么工作？",
           "py": "Tā zuò shénme gōngzuò?",
@@ -153,7 +303,102 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1 (Describing Someone)",
+      "topic": "会话1 · Dialogue 1 (Beijing Opera)",
+      "items": [
+        {
+          "zh": "玛丽：你看过京剧吗？",
+          "py": "Mǎlì: Nǐ kàn guò jīngjù ma?",
+          "en": "Mary: Have you ever seen a Beijing opera?"
+        },
+        {
+          "zh": "大卫：没看过。",
+          "py": "Dàwèi: Méi kàn guò.",
+          "en": "David: No, I haven't."
+        },
+        {
+          "zh": "玛丽：听说很有意思。",
+          "py": "Mǎlì: Tīngshuō hěn yǒu yìsi.",
+          "en": "Mary: I've heard it's very interesting."
+        },
+        {
+          "zh": "大卫：我很想看，你呢？",
+          "py": "Dàwèi: Wǒ hěn xiǎng kàn, nǐ ne?",
+          "en": "David: I'd love to see one. How about you?"
+        },
+        {
+          "zh": "玛丽：我也很想看。你知道哪儿演吗？",
+          "py": "Mǎlì: Wǒ yě hěn xiǎng kàn. Nǐ zhīdào nǎr yǎn ma?",
+          "en": "Mary: Me too. Do you know where they perform?"
+        },
+        {
+          "zh": "大卫：人民剧场常演。",
+          "py": "Dàwèi: Rénmín Jùchǎng cháng yǎn.",
+          "en": "David: They often perform at the People's Theatre."
+        },
+        {
+          "zh": "玛丽：那我们星期六去看，好不好？",
+          "py": "Mǎlì: Nà wǒmen xīngqīliù qù kàn, hǎo bu hǎo?",
+          "en": "Mary: Then let's go on Saturday, OK?"
+        },
+        {
+          "zh": "大卫：当然好。明天我去买票。",
+          "py": "Dàwèi: Dāngrán hǎo. Míngtiān wǒ qù mǎi piào.",
+          "en": "David: Of course. I'll go buy tickets tomorrow."
+        },
+        {
+          "zh": "玛丽：买到票以后告诉我。",
+          "py": "Mǎlì: Mǎi dào piào yǐhòu gàosu wǒ.",
+          "en": "Mary: Let me know after you get the tickets."
+        },
+        {
+          "zh": "大卫：好。",
+          "py": "Dàwèi: Hǎo.",
+          "en": "David: OK."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (Roast Duck)",
+      "items": [
+        {
+          "zh": "和子：听说烤鸭是北京的名菜。",
+          "py": "Hézǐ: Tīngshuō kǎoyā shì Běijīng de míngcài.",
+          "en": "Hezi: I've heard roast duck is a famous Beijing dish."
+        },
+        {
+          "zh": "玛丽：我还没吃过呢！",
+          "py": "Mǎlì: Wǒ hái méi chī guò ne!",
+          "en": "Mary: I haven't tried it yet!"
+        },
+        {
+          "zh": "和子：我们应该去尝一尝。",
+          "py": "Hézǐ: Wǒmen yīnggāi qù cháng yī cháng.",
+          "en": "Hezi: We should go and have a taste."
+        },
+        {
+          "zh": "玛丽：二十八号晚上我没事。",
+          "py": "Mǎlì: Èrshíbā hào wǎnshang wǒ méi shì.",
+          "en": "Mary: I'm free on the evening of the 28th."
+        },
+        {
+          "zh": "和子：不行，有朋友来看我。",
+          "py": "Hézǐ: Bù xíng, yǒu péngyou lái kàn wǒ.",
+          "en": "Hezi: That won't work, a friend is coming to see me."
+        },
+        {
+          "zh": "玛丽：三十号晚上怎么样？",
+          "py": "Mǎlì: Sānshí hào wǎnshang zěnmeyàng?",
+          "en": "Mary: How about the evening of the 30th?"
+        },
+        {
+          "zh": "和子：可以。",
+          "py": "Hézǐ: Kěyǐ.",
+          "en": "Hezi: Sure."
+        }
+      ]
+    },
+    {
+      "topic": "会话3 · Dialogue 3 (Describing Someone)",
       "items": [
         {
           "zh": "玛丽：你认识那个人吗？",
@@ -198,7 +443,7 @@
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2 (What does she look like?)",
+      "topic": "会话4 · Dialogue 4 (What does she look like?)",
       "items": [
         {
           "zh": "大卫：请问，和子在吗？",
@@ -243,38 +488,58 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (长得 + Description)",
+      "topic": "替换与扩展 · Substitution and Extension",
       "items": [
         {
-          "zh": "她长得很漂亮。",
-          "py": "Tā zhǎng de hěn piàoliang.",
-          "en": "She looks very pretty."
+          "zh": "你看过京剧吗？——你喝过那种茶吗？",
+          "py": "Nǐ kàn guò jīngjù ma? —— Nǐ hē guò nà zhǒng chá ma?",
+          "en": "Have you seen Beijing opera? — Have you tried that kind of tea?"
         },
         {
-          "zh": "他长得很高。",
-          "py": "Tā zhǎng de hěn gāo.",
-          "en": "He is very tall."
+          "zh": "你看过京剧吗？——你去过那个公园吗？",
+          "py": "Nǐ kàn guò jīngjù ma? —— Nǐ qù guò nàge gōngyuán ma?",
+          "en": "Have you seen Beijing opera? — Have you been to that park?"
         },
         {
-          "zh": "她长得怎么样？",
-          "py": "Tā zhǎng de zěnmeyàng?",
-          "en": "What does she look like?"
+          "zh": "你看过京剧吗？——你问过价钱吗？",
+          "py": "Nǐ kàn guò jīngjù ma? —— Nǐ wèn guò jiàqian ma?",
+          "en": "Have you seen Beijing opera? — Have you asked about the price?"
         },
         {
-          "zh": "他不高也不矮。",
-          "py": "Tā bù gāo yě bù ǎi.",
-          "en": "He's neither tall nor short. (不...也不... pattern)"
+          "zh": "我们应该去尝一尝。——我们应该去吃一吃烤鸭。",
+          "py": "Wǒmen yīnggāi qù cháng yī cháng. —— Wǒmen yīnggāi qù chī yī chī kǎoyā.",
+          "en": "We should go have a taste. — We should go try the roast duck."
         },
         {
-          "zh": "她不胖也不瘦。",
-          "py": "Tā bú pàng yě bú shòu.",
-          "en": "She's neither fat nor thin."
-        }
-      ]
-    },
-    {
-      "topic": "替换 · Substitution Drills",
-      "items": [
+          "zh": "我们应该去看一看京剧。",
+          "py": "Wǒmen yīnggāi qù kàn yī kàn jīngjù.",
+          "en": "We should go see a Beijing opera."
+        },
+        {
+          "zh": "我们应该去听一听音乐。",
+          "py": "Wǒmen yīnggāi qù tīng yī tīng yīnyuè.",
+          "en": "We should go listen to some music."
+        },
+        {
+          "zh": "我们应该去找一找老师。",
+          "py": "Wǒmen yīnggāi qù zhǎo yī zhǎo lǎoshī.",
+          "en": "We should go look for the teacher."
+        },
+        {
+          "zh": "买到票以后告诉我。——找到老师以后告诉玛丽。",
+          "py": "Mǎi dào piào yǐhòu gàosu wǒ. —— Zhǎo dào lǎoshī yǐhòu gàosu Mǎlì.",
+          "en": "Tell me after you get tickets. — Tell Mary after you find the teacher."
+        },
+        {
+          "zh": "玛丽，快来，有人找你。",
+          "py": "Mǎlì, kuài lái, yǒu rén zhǎo nǐ.",
+          "en": "Mary, come quick, someone is looking for you."
+        },
+        {
+          "zh": "你看杂技吗？——不看。昨天的练习我还没做呢。",
+          "py": "Nǐ kàn zájì ma? —— Bù kàn. Zuótiān de liànxí wǒ hái méi zuò ne.",
+          "en": "Are you going to see the acrobatics? — No. I haven't done yesterday's exercises yet."
+        },
         {
           "zh": "他做什么工作？——他是大夫。",
           "py": "Tā zuò shénme gōngzuò? —— Tā shì dàifu.",
@@ -314,12 +579,7 @@
           "zh": "他长得很瘦。",
           "py": "Tā zhǎng de hěn shòu.",
           "en": "He is very thin."
-        }
-      ]
-    },
-    {
-      "topic": "扩展 · Extension Sentences",
-      "items": [
+        },
         {
           "zh": "他在哪个公司工作？",
           "py": "Tā zài nǎge gōngsī gōngzuò?",
@@ -339,6 +599,156 @@
           "zh": "他长得像他爸爸。",
           "py": "Tā zhǎng de xiàng tā bàba.",
           "en": "He looks like his father."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (动态助词「过」 · Aspect Particle 过)",
+      "items": [
+        {
+          "zh": "我去过长城。",
+          "py": "Wǒ qù guò Chángchéng.",
+          "en": "I have been to the Great Wall. (past experience)"
+        },
+        {
+          "zh": "我学过汉语。",
+          "py": "Wǒ xué guò Hànyǔ.",
+          "en": "I have studied Chinese. (past experience)"
+        },
+        {
+          "zh": "他看过那个电影。",
+          "py": "Tā kàn guò nàge diànyǐng.",
+          "en": "He has seen that movie."
+        },
+        {
+          "zh": "你去过美国没有？",
+          "py": "Nǐ qù guò Měiguó méiyǒu?",
+          "en": "Have you been to America? (V+过+没有 question form)"
+        },
+        {
+          "zh": "你吃过烤鸭没有？",
+          "py": "Nǐ chī guò kǎoyā méiyǒu?",
+          "en": "Have you tried roast duck?"
+        },
+        {
+          "zh": "我没去过那个书店。",
+          "py": "Wǒ méi qù guò nàge shūdiàn.",
+          "en": "I've never been to that bookstore. (negative: 没+V+过)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (无主句 · Subjectless Sentences)",
+      "items": [
+        {
+          "zh": "下雨了。",
+          "py": "Xià yǔ le.",
+          "en": "It's raining. (no subject needed)"
+        },
+        {
+          "zh": "刮风了。",
+          "py": "Guā fēng le.",
+          "en": "The wind is blowing."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (还没有……呢 · Not Yet)",
+      "items": [
+        {
+          "zh": "他还没（有）来呢。",
+          "py": "Tā hái méi (yǒu) lái ne.",
+          "en": "He hasn't come yet."
+        },
+        {
+          "zh": "这件事我还不知道呢。",
+          "py": "Zhè jiàn shì wǒ hái bù zhīdào ne.",
+          "en": "I still don't know about this matter."
+        },
+        {
+          "zh": "我还没吃过烤鸭呢。",
+          "py": "Wǒ hái méi chī guò kǎoyā ne.",
+          "en": "I haven't had roast duck yet."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (长得 + Description)",
+      "items": [
+        {
+          "zh": "她长得很漂亮。",
+          "py": "Tā zhǎng de hěn piàoliang.",
+          "en": "She looks very pretty."
+        },
+        {
+          "zh": "他长得很高。",
+          "py": "Tā zhǎng de hěn gāo.",
+          "en": "He is very tall."
+        },
+        {
+          "zh": "她长得怎么样？",
+          "py": "Tā zhǎng de zěnmeyàng?",
+          "en": "What does she look like?"
+        },
+        {
+          "zh": "他不高也不矮。",
+          "py": "Tā bù gāo yě bù ǎi.",
+          "en": "He's neither tall nor short. (不...也不... pattern)"
+        },
+        {
+          "zh": "她不胖也不瘦。",
+          "py": "Tā bú pàng yě bú shòu.",
+          "en": "She's neither fat nor thin."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "听说中国的杂技很有意思，我还____。",
+          "py": "Tīngshuō Zhōngguó de zájì hěn yǒu yìsi, wǒ hái ____.",
+          "en": "(Fill in 没看过呢) I've heard Chinese acrobatics are interesting, I still..."
+        },
+        {
+          "zh": "你来过中国吗？来中国以后，你去过什么地方？",
+          "py": "Nǐ lái guò Zhōngguó ma? Lái Zhōngguó yǐhòu, nǐ qù guò shénme dìfang?",
+          "en": "Have you been to China? What places have you visited since coming?"
+        },
+        {
+          "zh": "来中国以后，你给家里打过电话吗？",
+          "py": "Lái Zhōngguó yǐhòu, nǐ gěi jiālǐ dǎ guò diànhuà ma?",
+          "en": "Have you called home since coming to China?"
+        },
+        {
+          "zh": "昨天晚上你做什么了？看电视了吗？",
+          "py": "Zuótiān wǎnshang nǐ zuò shénme le? Kàn diànshì le ma?",
+          "en": "What did you do last night? Did you watch TV?"
+        },
+        {
+          "zh": "你看过京剧没有？",
+          "py": "Nǐ kàn guò jīngjù méiyǒu?",
+          "en": "Have you seen Beijing opera? (correct V+过+没有 form)"
+        },
+        {
+          "zh": "玛丽没去过那个书店。",
+          "py": "Mǎlì méi qù guò nàge shūdiàn.",
+          "en": "Mary has never been to that bookstore. (correct negative form)"
+        },
+        {
+          "zh": "我还没吃过午饭呢。",
+          "py": "Wǒ hái méi chī guò wǔfàn ne.",
+          "en": "I haven't had lunch yet."
+        },
+        {
+          "zh": "以前我没看过中国的杂技，昨天晚上我看了。中国杂技很有意思，以后我还想看。",
+          "py": "Yǐqián wǒ méi kàn guò Zhōngguó de zájì, zuótiān wǎnshang wǒ kàn le. Zhōngguó zájì hěn yǒu yìsi, yǐhòu wǒ hái xiǎng kàn.",
+          "en": "(Retelling) Before I had never seen Chinese acrobatics; last night I saw them. They were very interesting; I want to see them again."
+        },
+        {
+          "zh": "我也没吃过中国菜。小王说他会做中国菜，星期六请我吃。",
+          "py": "Wǒ yě méi chī guò Zhōngguó cài. Xiǎo Wáng shuō tā huì zuò Zhōngguó cài, xīngqīliù qǐng wǒ chī.",
+          "en": "(Retelling) I haven't tried Chinese food either. Xiao Wang says he can cook Chinese food and will treat me on Saturday."
         }
       ]
     }

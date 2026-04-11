@@ -1,290 +1,100 @@
 {
   "title": "第二课 · 你身体好吗",
-  "subtitle": "Lesson 2 — 你身体好吗 · How is your health?",
+  "subtitle": "Lesson 2 — 你身体好吗 · How is your health? (textbook + workbook)",
   "data": [
     {
       "topic": "生词 · New Words",
       "items": [
-        {
-          "zh": "身体",
-          "py": "shēntǐ",
-          "en": "body, health"
-        },
-        {
-          "zh": "忙",
-          "py": "máng",
-          "en": "busy"
-        },
-        {
-          "zh": "太",
-          "py": "tài",
-          "en": "too, excessively"
-        },
-        {
-          "zh": "不太",
-          "py": "bú tài",
-          "en": "not too, not very"
-        },
-        {
-          "zh": "工作",
-          "py": "gōngzuò",
-          "en": "work, job; to work"
-        },
-        {
-          "zh": "爸爸",
-          "py": "bàba",
-          "en": "father, dad"
-        },
-        {
-          "zh": "妈妈",
-          "py": "māma",
-          "en": "mother, mom"
-        },
-        {
-          "zh": "哥哥",
-          "py": "gēge",
-          "en": "elder brother"
-        },
-        {
-          "zh": "弟弟",
-          "py": "dìdi",
-          "en": "younger brother"
-        },
-        {
-          "zh": "老师",
-          "py": "lǎoshī",
-          "en": "teacher"
-        },
-        {
-          "zh": "再见",
-          "py": "zàijiàn",
-          "en": "goodbye"
-        },
-        {
-          "zh": "来",
-          "py": "lái",
-          "en": "to come"
-        },
-        {
-          "zh": "您",
-          "py": "nín",
-          "en": "you (polite)"
-        }
+        { "zh": "身体", "py": "shēntǐ", "en": "body, health" },
+        { "zh": "忙", "py": "máng", "en": "busy" },
+        { "zh": "太", "py": "tài", "en": "too, excessively" },
+        { "zh": "不太", "py": "bú tài", "en": "not too, not very" },
+        { "zh": "工作", "py": "gōngzuò", "en": "work, job; to work" },
+        { "zh": "爸爸", "py": "bàba", "en": "father, dad" },
+        { "zh": "妈妈", "py": "māma", "en": "mother, mom" },
+        { "zh": "哥哥", "py": "gēge", "en": "elder brother" },
+        { "zh": "弟弟", "py": "dìdi", "en": "younger brother" },
+        { "zh": "老师", "py": "lǎoshī", "en": "teacher" },
+        { "zh": "再见", "py": "zàijiàn", "en": "goodbye" },
+        { "zh": "来", "py": "lái", "en": "to come" },
+        { "zh": "您", "py": "nín", "en": "you (polite)" },
+        { "zh": "早", "py": "zǎo", "en": "early; (greeting) good morning" }
       ]
     },
     {
       "topic": "句子 · Key Sentences",
       "items": [
-        {
-          "zh": "你身体好吗？",
-          "py": "Nǐ shēntǐ hǎo ma?",
-          "en": "How is your health?"
-        },
-        {
-          "zh": "很好，谢谢。",
-          "py": "Hěn hǎo, xièxie.",
-          "en": "Very well, thanks."
-        },
-        {
-          "zh": "你忙不忙？",
-          "py": "Nǐ máng bù máng?",
-          "en": "Are you busy (or not)?"
-        },
-        {
-          "zh": "不太忙。",
-          "py": "Bú tài máng.",
-          "en": "Not too busy."
-        },
-        {
-          "zh": "你工作忙吗？",
-          "py": "Nǐ gōngzuò máng ma?",
-          "en": "Is your work busy?"
-        },
-        {
-          "zh": "你爸爸、妈妈好吗？",
-          "py": "Nǐ bàba, māma hǎo ma?",
-          "en": "How are your father and mother?"
-        },
-        {
-          "zh": "他们都很好。",
-          "py": "Tāmen dōu hěn hǎo.",
-          "en": "They are all fine."
-        },
-        {
-          "zh": "再见！",
-          "py": "Zàijiàn!",
-          "en": "Goodbye!"
-        }
+        { "zh": "你早！", "py": "Nǐ zǎo!", "en": "Good morning!" },
+        { "zh": "你身体好吗？", "py": "Nǐ shēntǐ hǎo ma?", "en": "How is your health?" },
+        { "zh": "很好，谢谢。", "py": "Hěn hǎo, xièxie.", "en": "Very well, thanks." },
+        { "zh": "你忙不忙？", "py": "Nǐ máng bù máng?", "en": "Are you busy (or not)?" },
+        { "zh": "不太忙。", "py": "Bú tài máng.", "en": "Not too busy." },
+        { "zh": "你工作忙吗？", "py": "Nǐ gōngzuò máng ma?", "en": "Is your work busy?" },
+        { "zh": "你爸爸、妈妈好吗？", "py": "Nǐ bàba, māma hǎo ma?", "en": "How are your father and mother?" },
+        { "zh": "他们都很好。", "py": "Tāmen dōu hěn hǎo.", "en": "They are all fine." },
+        { "zh": "再见！", "py": "Zàijiàn!", "en": "Goodbye!" }
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1",
+      "topic": "会话1 · Dialogue 1 (textbook)",
       "items": [
-        {
-          "zh": "和子：大卫，你身体好吗？",
-          "py": "Hézǐ: Dàwèi, nǐ shēntǐ hǎo ma?",
-          "en": "Kazuko: David, how is your health?"
-        },
-        {
-          "zh": "大卫：很好，谢谢。你呢？",
-          "py": "Dàwèi: Hěn hǎo, xièxie. Nǐ ne?",
-          "en": "David: Very well, thanks. And you?"
-        },
-        {
-          "zh": "和子：也很好。你忙不忙？",
-          "py": "Hézǐ: Yě hěn hǎo. Nǐ máng bù máng?",
-          "en": "Kazuko: Also fine. Are you busy?"
-        },
-        {
-          "zh": "大卫：不太忙。",
-          "py": "Dàwèi: Bú tài máng.",
-          "en": "David: Not too busy."
-        }
+        { "zh": "学生：李老师，您早！", "py": "Xuésheng: Lǐ lǎoshī, nín zǎo!", "en": "Student: Good morning, Teacher Li!" },
+        { "zh": "李老师：你早！你身体好吗？", "py": "Lǐ lǎoshī: Nǐ zǎo! Nǐ shēntǐ hǎo ma?", "en": "Teacher Li: Morning! How is your health?" },
+        { "zh": "学生：很好，谢谢。您呢？", "py": "Xuésheng: Hěn hǎo, xièxie. Nín ne?", "en": "Student: Very well, thanks. And you?" },
+        { "zh": "李老师：也很好。你忙不忙？", "py": "Lǐ lǎoshī: Yě hěn hǎo. Nǐ máng bù máng?", "en": "Teacher Li: Also fine. Are you busy?" },
+        { "zh": "学生：不太忙。", "py": "Xuésheng: Bú tài máng.", "en": "Student: Not too busy." }
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2",
+      "topic": "会话2 · Dialogue 2 (textbook)",
       "items": [
-        {
-          "zh": "玛丽：老师好！",
-          "py": "Mǎlì: Lǎoshī hǎo!",
-          "en": "Mary: Hello, teacher!"
-        },
-        {
-          "zh": "老师：你好！你爸爸、妈妈好吗？",
-          "py": "Lǎoshī: Nǐ hǎo! Nǐ bàba, māma hǎo ma?",
-          "en": "Teacher: Hello! How are your parents?"
-        },
-        {
-          "zh": "玛丽：他们都很好，谢谢。",
-          "py": "Mǎlì: Tāmen dōu hěn hǎo, xièxie.",
-          "en": "Mary: They are all fine, thanks."
-        },
-        {
-          "zh": "老师：你哥哥、弟弟好吗？",
-          "py": "Lǎoshī: Nǐ gēge, dìdi hǎo ma?",
-          "en": "Teacher: How are your brothers?"
-        },
-        {
-          "zh": "玛丽：他们也都很好。",
-          "py": "Mǎlì: Tāmen yě dōu hěn hǎo.",
-          "en": "Mary: They are also all fine."
-        },
-        {
-          "zh": "老师：再见！",
-          "py": "Lǎoshī: Zàijiàn!",
-          "en": "Teacher: Goodbye!"
-        },
-        {
-          "zh": "玛丽：老师再见！",
-          "py": "Mǎlì: Lǎoshī zàijiàn!",
-          "en": "Mary: Goodbye, teacher!"
-        }
+        { "zh": "玛丽：老师好！", "py": "Mǎlì: Lǎoshī hǎo!", "en": "Mary: Hello, teacher!" },
+        { "zh": "老师：你好！你爸爸、妈妈好吗？", "py": "Lǎoshī: Nǐ hǎo! Nǐ bàba, māma hǎo ma?", "en": "Teacher: Hello! How are your parents?" },
+        { "zh": "玛丽：他们都很好，谢谢。", "py": "Mǎlì: Tāmen dōu hěn hǎo, xièxie.", "en": "Mary: They are all fine, thanks." },
+        { "zh": "老师：你哥哥、弟弟好吗？", "py": "Lǎoshī: Nǐ gēge, dìdi hǎo ma?", "en": "Teacher: How are your brothers?" },
+        { "zh": "玛丽：他们也都很好。", "py": "Mǎlì: Tāmen yě dōu hěn hǎo.", "en": "Mary: They are also all fine." },
+        { "zh": "老师：再见！", "py": "Lǎoshī: Zàijiàn!", "en": "Teacher: Goodbye!" },
+        { "zh": "玛丽：老师再见！", "py": "Mǎlì: Lǎoshī zàijiàn!", "en": "Mary: Goodbye, teacher!" }
+      ]
+    },
+    {
+      "topic": "注释 · Notes (textbook)",
+      "items": [
+        { "zh": "你早", "py": "Nǐ zǎo", "en": "Good morning! — A greeting used specifically in the morning. Short for 你早上好." },
+        { "zh": "再见", "py": "Zàijiàn", "en": "Goodbye! — Literally 'see again'. Used as a parting greeting in any situation." }
       ]
     },
     {
       "topic": "语法 · Grammar",
       "items": [
-        {
-          "zh": "你忙不忙？",
-          "py": "Nǐ máng bù máng?",
-          "en": "Are you busy? (affirmative-negative question: adj + 不 + adj)"
-        },
-        {
-          "zh": "你好不好？",
-          "py": "Nǐ hǎo bù hǎo?",
-          "en": "Are you well? (positive-negative question pattern)"
-        },
-        {
-          "zh": "他来不来？",
-          "py": "Tā lái bù lái?",
-          "en": "Is he coming? (verb + 不 + verb question)"
-        },
-        {
-          "zh": "不太忙。",
-          "py": "Bú tài máng.",
-          "en": "Not too busy. (不太 = not very)"
-        },
-        {
-          "zh": "我也不忙。",
-          "py": "Wǒ yě bù máng.",
-          "en": "I'm not busy either. (也 + 不 = not...either)"
-        },
-        {
-          "zh": "他们都不忙。",
-          "py": "Tāmen dōu bù máng.",
-          "en": "None of them are busy. (都 + 不 = none)"
-        }
+        { "zh": "你忙不忙？", "py": "Nǐ máng bù máng?", "en": "Are you busy? (affirmative-negative question: adj + 不 + adj)" },
+        { "zh": "你好不好？", "py": "Nǐ hǎo bù hǎo?", "en": "Are you well? (positive-negative question pattern)" },
+        { "zh": "他来不来？", "py": "Tā lái bù lái?", "en": "Is he coming? (verb + 不 + verb question)" },
+        { "zh": "不太忙。", "py": "Bú tài máng.", "en": "Not too busy. (不太 = not very)" },
+        { "zh": "我也不忙。", "py": "Wǒ yě bù máng.", "en": "I'm not busy either. (也 + 不 = not...either)" },
+        { "zh": "他们都不忙。", "py": "Tāmen dōu bù máng.", "en": "None of them are busy. (都 + 不 = none)" }
       ]
     },
     {
       "topic": "替换 · Substitution Drills",
       "items": [
-        {
-          "zh": "你身体好吗？——很好。",
-          "py": "Nǐ shēntǐ hǎo ma? —— Hěn hǎo.",
-          "en": "How's your health? —— Very good."
-        },
-        {
-          "zh": "你工作忙不忙？——不太忙。",
-          "py": "Nǐ gōngzuò máng bù máng? —— Bú tài máng.",
-          "en": "Is work busy? —— Not too busy."
-        },
-        {
-          "zh": "你爸爸忙不忙？——他很忙。",
-          "py": "Nǐ bàba máng bù máng? —— Tā hěn máng.",
-          "en": "Is your father busy? —— He's very busy."
-        },
-        {
-          "zh": "你妈妈好吗？——她很好。",
-          "py": "Nǐ māma hǎo ma? —— Tā hěn hǎo.",
-          "en": "How is your mother? —— She's very well."
-        },
-        {
-          "zh": "老师忙不忙？——老师不太忙。",
-          "py": "Lǎoshī máng bù máng? —— Lǎoshī bú tài máng.",
-          "en": "Is teacher busy? —— Teacher is not too busy."
-        }
+        { "zh": "你身体好吗？——很好。", "py": "Nǐ shēntǐ hǎo ma? —— Hěn hǎo.", "en": "How's your health? —— Very good." },
+        { "zh": "你工作忙不忙？——不太忙。", "py": "Nǐ gōngzuò máng bù máng? —— Bú tài máng.", "en": "Is work busy? —— Not too busy." },
+        { "zh": "你爸爸忙不忙？——他很忙。", "py": "Nǐ bàba máng bù máng? —— Tā hěn máng.", "en": "Is your father busy? —— He's very busy." },
+        { "zh": "你妈妈好吗？——她很好。", "py": "Nǐ māma hǎo ma? —— Tā hěn hǎo.", "en": "How is your mother? —— She's very well." },
+        { "zh": "老师忙不忙？——老师不太忙。", "py": "Lǎoshī máng bù máng? —— Lǎoshī bú tài máng.", "en": "Is teacher busy? —— Teacher is not too busy." }
       ]
     },
     {
       "topic": "练习 · Workbook Exercises",
       "items": [
-        {
-          "zh": "你好吗？——我很好。",
-          "py": "Nǐ hǎo ma? —— Wǒ hěn hǎo.",
-          "en": "How are you? —— I'm fine."
-        },
-        {
-          "zh": "老师，您好！",
-          "py": "Lǎoshī, nín hǎo!",
-          "en": "Hello, teacher! (polite)"
-        },
-        {
-          "zh": "谢谢你们！",
-          "py": "Xièxie nǐmen!",
-          "en": "Thank you all!"
-        },
-        {
-          "zh": "身体很好。",
-          "py": "Shēntǐ hěn hǎo.",
-          "en": "Health is very good."
-        },
-        {
-          "zh": "爸爸、妈妈再见！",
-          "py": "Bàba, māma zàijiàn!",
-          "en": "Goodbye, Dad and Mom!"
-        },
-        {
-          "zh": "我哥哥、弟弟明年都来。",
-          "py": "Wǒ gēge, dìdi míngnián dōu lái.",
-          "en": "My brothers are all coming next year."
-        },
-        {
-          "zh": "他爸爸、妈妈身体不太好。",
-          "py": "Tā bàba, māma shēntǐ bú tài hǎo.",
-          "en": "His parents' health is not so good."
-        }
+        { "zh": "你好吗？——我很好。", "py": "Nǐ hǎo ma? —— Wǒ hěn hǎo.", "en": "How are you? —— I'm fine." },
+        { "zh": "老师，您好！", "py": "Lǎoshī, nín hǎo!", "en": "Hello, teacher! (polite)" },
+        { "zh": "谢谢你们！", "py": "Xièxie nǐmen!", "en": "Thank you all!" },
+        { "zh": "身体很好。", "py": "Shēntǐ hěn hǎo.", "en": "Health is very good." },
+        { "zh": "爸爸、妈妈再见！", "py": "Bàba, māma zàijiàn!", "en": "Goodbye, Dad and Mom!" },
+        { "zh": "我哥哥、弟弟明年都来。", "py": "Wǒ gēge, dìdi míngnián dōu lái.", "en": "My brothers are all coming next year." },
+        { "zh": "他爸爸、妈妈身体不太好。", "py": "Tā bàba, māma shēntǐ bú tài hǎo.", "en": "His parents' health is not so good." }
       ]
     }
   ]

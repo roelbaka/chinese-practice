@@ -439,6 +439,16 @@
           "zh": "一瓶可乐三块五毛钱。",
           "py": "Yī píng kělè sān kuài wǔ máo qián.",
           "en": "One bottle of cola is 3.50 yuan."
+        },
+        {
+          "zh": "A: 您要买什么？ B: 一斤苹果多少钱？ A: 您要多少？ B: 来一斤橘子多少钱？ A: 还要别的吗？ B: 不要了。",
+          "py": "A: Nín yào mǎi shénme? B: Yī jīn píngguǒ duōshao qián? A: Nín yào duōshao? B: Lái yī jīn júzi duōshao qián? A: Hái yào bié de ma? B: Bú yào le.",
+          "en": "Complete conversation: shopping for fruit (Exercise 4)"
+        },
+        {
+          "zh": "听后复述：我的中国朋友说，北京有一家很大的书店，叫新华书店，那儿的书很多。明天下午我去看看。",
+          "py": "Tīng hòu fùshù: Wǒ de Zhōngguó péngyou shuō, Běijīng yǒu yī jiā hěn dà de shūdiàn, jiào Xīnhuá Shūdiàn, nàr de shū hěn duō. Míngtiān xiàwǔ wǒ qù kànkan.",
+          "en": "Listen and retell: My Chinese friend says Beijing has a large bookstore called Xinhua Bookstore with lots of books. I'll go have a look tomorrow afternoon."
         }
       ]
     },

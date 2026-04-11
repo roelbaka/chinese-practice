@@ -1,24 +1,114 @@
 {
   "title": "第十八课 · 路上辛苦了",
-  "subtitle": "Lesson 18 — 路上辛苦了 · You must be tired from the journey",
+  "subtitle": "Lesson 18 — 路上辛苦了 · Did you have a tiring trip",
   "data": [
     {
       "topic": "生词 · New Words",
       "items": [
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "from"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "airplane"
+        },
+        {
+          "zh": "晚点",
+          "py": "wǎndiǎn",
+          "en": "to be late, to be behind schedule"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "to be about to, to be going to"
+        },
+        {
+          "zh": "起飞",
+          "py": "qǐfēi",
+          "en": "to take off (of a plane)"
+        },
+        {
+          "zh": "大概",
+          "py": "dàgài",
+          "en": "around, about, approximately"
+        },
+        {
+          "zh": "先",
+          "py": "xiān",
+          "en": "first"
+        },
         {
           "zh": "辛苦",
           "py": "xīnkǔ",
           "en": "hard; tiring (polite acknowledgment)"
         },
         {
+          "zh": "服务员",
+          "py": "fúwùyuán",
+          "en": "attendant, service person"
+        },
+        {
+          "zh": "为什么",
+          "py": "wèi shénme",
+          "en": "why"
+        },
+        {
+          "zh": "一会儿",
+          "py": "yīhuìr",
+          "en": "in a moment, a little while"
+        },
+        {
+          "zh": "感谢",
+          "py": "gǎnxiè",
+          "en": "to thank, to be grateful"
+        },
+        {
+          "zh": "贸易",
+          "py": "màoyì",
+          "en": "trade"
+        },
+        {
+          "zh": "公司",
+          "py": "gōngsī",
+          "en": "company"
+        },
+        {
+          "zh": "毕业",
+          "py": "bìyè",
+          "en": "to graduate"
+        },
+        {
+          "zh": "饮料",
+          "py": "yǐnliào",
+          "en": "drink, beverage"
+        },
+        {
+          "zh": "啤酒",
+          "py": "píjiǔ",
+          "en": "beer"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzūchē",
+          "en": "taxi"
+        },
+        {
+          "zh": "火车",
+          "py": "huǒchē",
+          "en": "train"
+        },
+        {
+          "zh": "开",
+          "py": "kāi",
+          "en": "to drive; to start; to open"
+        },
+        {
           "zh": "欢迎",
           "py": "huānyíng",
           "en": "to welcome"
-        },
-        {
-          "zh": "飞机",
-          "py": "fēijī",
-          "en": "airplane"
         },
         {
           "zh": "机场",
@@ -91,11 +181,6 @@
           "en": "outside"
         },
         {
-          "zh": "火车",
-          "py": "huǒchē",
-          "en": "train"
-        },
-        {
           "zh": "护照",
           "py": "hùzhào",
           "en": "passport"
@@ -111,9 +196,29 @@
       "topic": "句子 · Key Sentences",
       "items": [
         {
-          "zh": "路上辛苦了！",
-          "py": "Lù shang xīnkǔ le!",
-          "en": "You must be tired from the journey!"
+          "zh": "大概三点半能到。",
+          "py": "Dàgài sān diǎn bàn néng dào.",
+          "en": "We can probably arrive around 3:30."
+        },
+        {
+          "zh": "我们先去喝点儿咖啡，一会儿再来这儿吧。",
+          "py": "Wǒmen xiān qù hē diǎnr kāfēi, yīhuìr zài lái zhèr ba.",
+          "en": "Let's have some coffee first and come back here later."
+        },
+        {
+          "zh": "路上辛苦了。",
+          "py": "Lù shang xīnkǔ le.",
+          "en": "You must have had a tiring trip."
+        },
+        {
+          "zh": "你怎么知道我要来？",
+          "py": "Nǐ zěnme zhīdào wǒ yào lái?",
+          "en": "How did you know I would come?"
+        },
+        {
+          "zh": "是和子告诉我的。",
+          "py": "Shì Hézǐ gàosu wǒ de.",
+          "en": "Hezi told me. (是...的 emphasis)"
         },
         {
           "zh": "欢迎你来中国！",
@@ -148,7 +253,102 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1 (At the Airport)",
+      "topic": "会话1 · Dialogue 1 (At the Airport — Waiting)",
+      "items": [
+        {
+          "zh": "和子：从东京来的飞机到了吗？",
+          "py": "Hézǐ: Cóng Dōngjīng lái de fēijī dào le ma?",
+          "en": "Hezi: Has the flight from Tokyo arrived?"
+        },
+        {
+          "zh": "服务员：还没到。",
+          "py": "Fúwùyuán: Hái méi dào.",
+          "en": "Attendant: Not yet."
+        },
+        {
+          "zh": "和子：为什么？",
+          "py": "Hézǐ: Wèi shénme?",
+          "en": "Hezi: Why?"
+        },
+        {
+          "zh": "服务员：晚点了。飞机现在在上海。",
+          "py": "Fúwùyuán: Wǎndiǎn le. Fēijī xiànzài zài Shànghǎi.",
+          "en": "Attendant: It's delayed. The plane is currently in Shanghai."
+        },
+        {
+          "zh": "和子：起飞了吗？",
+          "py": "Hézǐ: Qǐfēi le ma?",
+          "en": "Hezi: Has it taken off?"
+        },
+        {
+          "zh": "服务员：快要起飞了。",
+          "py": "Fúwùyuán: Kuài yào qǐfēi le.",
+          "en": "Attendant: It's about to take off."
+        },
+        {
+          "zh": "和子：什么时候能到？",
+          "py": "Hézǐ: Shénme shíhou néng dào?",
+          "en": "Hezi: When will it arrive?"
+        },
+        {
+          "zh": "服务员：大概三点半能到。",
+          "py": "Fúwùyuán: Dàgài sān diǎn bàn néng dào.",
+          "en": "Attendant: Probably around 3:30."
+        },
+        {
+          "zh": "和子：刘京，我们先去喝点儿咖啡，一会儿再来这儿吧。",
+          "py": "Hézǐ: Liú Jīng, wǒmen xiān qù hē diǎnr kāfēi, yīhuìr zài lái zhèr ba.",
+          "en": "Hezi: Liu Jing, let's go have some coffee first and come back later."
+        }
+      ]
+    },
+    {
+      "topic": "会话2 · Dialogue 2 (At the Airport — Meeting Li Chengri)",
+      "items": [
+        {
+          "zh": "和子：你看，李成日来了。",
+          "py": "Hézǐ: Nǐ kàn, Lǐ Chéngrì lái le.",
+          "en": "Hezi: Look, Li Chengri is here."
+        },
+        {
+          "zh": "刘京：你好！路上辛苦了。",
+          "py": "Liú Jīng: Nǐ hǎo! Lù shang xīnkǔ le.",
+          "en": "Liu Jing: Hello! Did you have a tiring trip?"
+        },
+        {
+          "zh": "李成日：你们好！刘京，你怎么知道我要来？",
+          "py": "Lǐ Chéngrì: Nǐmen hǎo! Liú Jīng, nǐ zěnme zhīdào wǒ yào lái?",
+          "en": "Li Chengri: Hello! Liu Jing, how did you know I was coming?"
+        },
+        {
+          "zh": "刘京：是和子告诉我的。",
+          "py": "Liú Jīng: Shì Hézǐ gàosu wǒ de.",
+          "en": "Liu Jing: Hezi told me."
+        },
+        {
+          "zh": "李成日：感谢你们来接我。",
+          "py": "Lǐ Chéngrì: Gǎnxiè nǐmen lái jiē wǒ.",
+          "en": "Li Chengri: Thank you for coming to pick me up."
+        },
+        {
+          "zh": "和子：我们出去吧！",
+          "py": "Hézǐ: Wǒmen chūqù ba!",
+          "en": "Hezi: Let's go!"
+        },
+        {
+          "zh": "李成日：等一等，还有贸易公司的人接我呢。",
+          "py": "Lǐ Chéngrì: Děng yī děng, hái yǒu màoyì gōngsī de rén jiē wǒ ne.",
+          "en": "Li Chengri: Wait a moment, someone from the trading company is also here to meet me."
+        },
+        {
+          "zh": "刘京：好，我们在这儿等你。",
+          "py": "Liú Jīng: Hǎo, wǒmen zài zhèr děng nǐ.",
+          "en": "Liu Jing: OK, we'll wait for you here."
+        }
+      ]
+    },
+    {
+      "topic": "会话3 · Dialogue 3 (At the Airport — Picking Up David)",
       "items": [
         {
           "zh": "刘京：你好！你是大卫吧？",
@@ -193,7 +393,7 @@
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2 (Arriving at the Hotel)",
+      "topic": "会话4 · Dialogue 4 (Arriving at the Hotel)",
       "items": [
         {
           "zh": "刘京：这是你的房间。你坐了十几个小时的飞机，一定很累了。",
@@ -238,38 +438,43 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (十几 / 几十 Approximate Numbers)",
+      "topic": "替换与扩展 · Substitution and Extension",
       "items": [
         {
-          "zh": "十几个小时",
-          "py": "shí jǐ ge xiǎoshí",
-          "en": "over ten hours (10+)"
+          "zh": "我们先去喝点儿咖啡，一会儿再来这儿吧。——先去吃点儿东西。",
+          "py": "Wǒmen xiān qù hē diǎnr kāfēi, yīhuìr zài lái zhèr ba. —— Xiān qù chī diǎnr dōngxi.",
+          "en": "Let's go have some coffee first... — First go eat something."
         },
         {
-          "zh": "二十几个人",
-          "py": "èrshí jǐ ge rén",
-          "en": "twenty-something people (20+)"
+          "zh": "先去照相。",
+          "py": "Xiān qù zhào xiàng.",
+          "en": "Go take a photo first."
         },
         {
-          "zh": "几十个学生",
-          "py": "jǐ shí ge xuéshēng",
-          "en": "dozens of students (tens of)"
+          "zh": "先去喝啤酒。",
+          "py": "Xiān qù hē píjiǔ.",
+          "en": "Go have a beer first."
         },
         {
-          "zh": "几百块钱",
-          "py": "jǐ bǎi kuài qián",
-          "en": "several hundred yuan"
+          "zh": "先去看电影。",
+          "py": "Xiān qù kàn diànyǐng.",
+          "en": "Go see a movie first."
         },
         {
-          "zh": "十几本书",
-          "py": "shí jǐ běn shū",
-          "en": "more than ten books"
-        }
-      ]
-    },
-    {
-      "topic": "替换 · Substitution Drills",
-      "items": [
+          "zh": "是和子告诉我的。——是玛丽告诉我的。",
+          "py": "Shì Hézǐ gàosu wǒ de. —— Shì Mǎlì gàosu wǒ de.",
+          "en": "Hezi told me. — Mary told me."
+        },
+        {
+          "zh": "是电视上说的。",
+          "py": "Shì diànshì shang shuō de.",
+          "en": "I heard it on TV."
+        },
+        {
+          "zh": "火车要开了，快上车吧。",
+          "py": "Huǒchē yào kāi le, kuài shàng chē ba.",
+          "en": "The train is about to leave, hurry and get on."
+        },
         {
           "zh": "欢迎你来中国！",
           "py": "Huānyíng nǐ lái Zhōngguó!",
@@ -301,20 +506,10 @@
           "en": "I'll pick you up at the train station."
         },
         {
-          "zh": "给你添麻烦了。",
-          "py": "Gěi nǐ tiān máfan le.",
-          "en": "Sorry for the trouble."
+          "zh": "给你添麻烦了。——没关系，不麻烦。",
+          "py": "Gěi nǐ tiān máfan le. —— Méi guānxi, bù máfan.",
+          "en": "Sorry for the trouble. — It's fine, no trouble at all."
         },
-        {
-          "zh": "没关系，不麻烦。",
-          "py": "Méi guānxi, bù máfan.",
-          "en": "It's fine, no trouble at all."
-        }
-      ]
-    },
-    {
-      "topic": "扩展 · Extension Sentences",
-      "items": [
         {
           "zh": "你的飞机是几点的？",
           "py": "Nǐ de fēijī shì jǐ diǎn de?",
@@ -339,6 +534,146 @@
           "zh": "你的护照和签证带了吗？",
           "py": "Nǐ de hùzhào hé qiānzhèng dài le ma?",
           "en": "Have you brought your passport and visa?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (要……了 · About to Happen)",
+      "items": [
+        {
+          "zh": "火车要开了。",
+          "py": "Huǒchē yào kāi le.",
+          "en": "The train is about to leave."
+        },
+        {
+          "zh": "他就要来了。",
+          "py": "Tā jiù yào lái le.",
+          "en": "He is about to come."
+        },
+        {
+          "zh": "快要到北京了。",
+          "py": "Kuài yào dào Běijīng le.",
+          "en": "We'll arrive in Beijing soon."
+        },
+        {
+          "zh": "快要起飞了。",
+          "py": "Kuài yào qǐfēi le.",
+          "en": "It's about to take off."
+        },
+        {
+          "zh": "他明天就要走了。",
+          "py": "Tā míngtiān jiù yào zǒu le.",
+          "en": "He is leaving tomorrow. (time word + 就要...了)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (是……的 · Emphasizing Details of Past Actions)",
+      "items": [
+        {
+          "zh": "他（是）昨天来的。",
+          "py": "Tā (shì) zuótiān lái de.",
+          "en": "He came yesterday. (emphasizing when)"
+        },
+        {
+          "zh": "你（是）在哪儿买的？",
+          "py": "Nǐ (shì) zài nǎr mǎi de?",
+          "en": "Where did you buy it? (emphasizing where)"
+        },
+        {
+          "zh": "我（是）坐飞机来的。",
+          "py": "Wǒ (shì) zuò fēijī lái de.",
+          "en": "I came by plane. (emphasizing how)"
+        },
+        {
+          "zh": "是和子告诉我的。",
+          "py": "Shì Hézǐ gàosu wǒ de.",
+          "en": "It was Hezi who told me. (emphasizing who)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (十几 / 几十 Approximate Numbers)",
+      "items": [
+        {
+          "zh": "十几个小时",
+          "py": "shí jǐ ge xiǎoshí",
+          "en": "over ten hours (10+)"
+        },
+        {
+          "zh": "二十几个人",
+          "py": "èrshí jǐ ge rén",
+          "en": "twenty-something people (20+)"
+        },
+        {
+          "zh": "几十个学生",
+          "py": "jǐ shí ge xuéshēng",
+          "en": "dozens of students (tens of)"
+        },
+        {
+          "zh": "几百块钱",
+          "py": "jǐ bǎi kuài qián",
+          "en": "several hundred yuan"
+        },
+        {
+          "zh": "十几本书",
+          "py": "shí jǐ běn shū",
+          "en": "more than ten books"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises",
+      "items": [
+        {
+          "zh": "八点上课，现在七点五十二了，我们快走吧。→ 要上课了，我们快走吧。",
+          "py": "Bā diǎn shàng kè, xiànzài qī diǎn wǔshí'èr le, wǒmen kuài zǒu ba. → Yào shàng kè le, wǒmen kuài zǒu ba.",
+          "en": "(Rewrite with 要...了) Class at 8, it's 7:52 now → Class is about to start, let's hurry."
+        },
+        {
+          "zh": "你再等等，他很快就来。→ 他就要来了，你再等等。",
+          "py": "Nǐ zài děngdeng, tā hěn kuài jiù lái. → Tā jiù yào lái le, nǐ zài děngdeng.",
+          "en": "(Rewrite with 就要...了) Wait a bit, he'll come soon → He's about to come, wait a bit."
+        },
+        {
+          "zh": "李成日明天回国，我们去看看他吧。→ 李成日明天就要回国了。",
+          "py": "Lǐ Chéngrì míngtiān huí guó, wǒmen qù kànkan tā ba. → Lǐ Chéngrì míngtiān jiù yào huí guó le.",
+          "en": "(Rewrite) Li Chengri returns home tomorrow → He's about to go home tomorrow."
+        },
+        {
+          "zh": "饭很快就做好了，你们在这儿吃吧。→ 饭快要做好了/就要做好了，你们在这儿吃吧。",
+          "py": "Fàn hěn kuài jiù zuò hǎo le, nǐmen zài zhèr chī ba. → Fàn kuài yào zuò hǎo le / jiù yào zuò hǎo le, nǐmen zài zhèr chī ba.",
+          "en": "(Rewrite with 快要...了) Food will be ready soon → Food is about to be ready, eat here."
+        },
+        {
+          "zh": "这种橘子真好吃，在哪儿买的？——是在旁边的商店买的。",
+          "py": "Zhè zhǒng júzi zhēn hǎochī, zài nǎr mǎi de? —— Shì zài pángbiān de shāngdiàn mǎi de.",
+          "en": "These oranges are delicious, where did you buy them? — At the shop next door. (是...的 practice)"
+        },
+        {
+          "zh": "A: 你给玛丽打电话了吗？B: 打了。A: 她知道开车的时间了吗？B: 她昨天上午就知道了。A: 谁告诉她的？B: 是刘京告诉她的。",
+          "py": "A: Nǐ gěi Mǎlì dǎ diànhuà le ma? B: Dǎ le. A: Tā zhīdào kāi chē de shíjiān le ma? B: Tā zuótiān shàngwǔ jiù zhīdào le. A: Shéi gàosu tā de? B: Shì Liú Jīng gàosu tā de.",
+          "en": "(是...的 practice) A: Did you call Mary? B: Yes. A: Does she know the departure time? B: She knew yesterday morning. A: Who told her? B: Liu Jing told her."
+        },
+        {
+          "zh": "你从哪儿来？你是怎么来的？",
+          "py": "Nǐ cóng nǎr lái? Nǐ shì zěnme lái de?",
+          "en": "Where are you from? How did you get here?"
+        },
+        {
+          "zh": "你为什么来中国？",
+          "py": "Nǐ wèi shénme lái Zhōngguó?",
+          "en": "Why did you come to China?"
+        },
+        {
+          "zh": "我从法国来，我是坐飞机来的。我在北京语言大学学习汉语。",
+          "py": "Wǒ cóng Fǎguó lái, wǒ shì zuò fēijī lái de. Wǒ zài Běijīng Yǔyán Dàxué xuéxí Hànyǔ.",
+          "en": "(Retelling) I'm from France, I came by plane. I study Chinese at Beijing Language University."
+        },
+        {
+          "zh": "在法国我没学过汉语，我不会说汉语，也不会写汉字。现在我会说一点儿了，我很高兴。",
+          "py": "Zài Fǎguó wǒ méi xué guò Hànyǔ, wǒ bú huì shuō Hànyǔ, yě bú huì xiě Hànzì. Xiànzài wǒ huì shuō yīdiǎnr le, wǒ hěn gāoxìng.",
+          "en": "(Retelling) In France I hadn't studied Chinese; I couldn't speak or write it. Now I can speak a little, and I'm very happy."
         }
       ]
     }
