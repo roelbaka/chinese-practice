@@ -1,280 +1,120 @@
 {
   "title": "第一课 · 你好",
-  "subtitle": "Lesson 1 — 你好 · Hello",
+  "subtitle": "Lesson 1 — 你好 · Hello (textbook + workbook)",
   "data": [
     {
-      "topic": "生词 · New Words",
+      "topic": "生词 · New Words (textbook order)",
       "items": [
-        {
-          "zh": "你",
-          "py": "nǐ",
-          "en": "you"
-        },
-        {
-          "zh": "好",
-          "py": "hǎo",
-          "en": "good, well, fine"
-        },
-        {
-          "zh": "们",
-          "py": "men",
-          "en": "(plural suffix for pronouns)"
-        },
-        {
-          "zh": "你们",
-          "py": "nǐmen",
-          "en": "you (plural)"
-        },
-        {
-          "zh": "我",
-          "py": "wǒ",
-          "en": "I, me"
-        },
-        {
-          "zh": "我们",
-          "py": "wǒmen",
-          "en": "we, us"
-        },
-        {
-          "zh": "他",
-          "py": "tā",
-          "en": "he, him"
-        },
-        {
-          "zh": "她",
-          "py": "tā",
-          "en": "she, her"
-        },
-        {
-          "zh": "他们",
-          "py": "tāmen",
-          "en": "they, them"
-        },
-        {
-          "zh": "也",
-          "py": "yě",
-          "en": "also, too"
-        },
-        {
-          "zh": "都",
-          "py": "dōu",
-          "en": "all, both"
-        },
-        {
-          "zh": "吗",
-          "py": "ma",
-          "en": "(question particle)"
-        },
-        {
-          "zh": "呢",
-          "py": "ne",
-          "en": "(question particle: 'and...?')"
-        },
-        {
-          "zh": "很",
-          "py": "hěn",
-          "en": "very"
-        },
-        {
-          "zh": "不",
-          "py": "bù",
-          "en": "not, no"
-        },
-        {
-          "zh": "谢谢",
-          "py": "xièxie",
-          "en": "thank you"
-        },
-        {
-          "zh": "客气",
-          "py": "kèqi",
-          "en": "polite, courteous"
-        },
-        {
-          "zh": "不客气",
-          "py": "bú kèqi",
-          "en": "you're welcome"
-        }
+        { "zh": "你", "py": "nǐ", "en": "you" },
+        { "zh": "好", "py": "hǎo", "en": "good, well, fine" },
+        { "zh": "吗", "py": "ma", "en": "(question particle)" },
+        { "zh": "很", "py": "hěn", "en": "very" },
+        { "zh": "谢谢", "py": "xièxie", "en": "thank you" },
+        { "zh": "不客气", "py": "bú kèqi", "en": "you're welcome" },
+        { "zh": "客气", "py": "kèqi", "en": "polite, courteous" },
+        { "zh": "呢", "py": "ne", "en": "(question particle: 'and...?')" },
+        { "zh": "也", "py": "yě", "en": "also, too" },
+        { "zh": "都", "py": "dōu", "en": "all, both" },
+        { "zh": "们", "py": "men", "en": "(plural suffix for pronouns)" },
+        { "zh": "你们", "py": "nǐmen", "en": "you (plural)" },
+        { "zh": "我", "py": "wǒ", "en": "I, me" },
+        { "zh": "我们", "py": "wǒmen", "en": "we, us" },
+        { "zh": "他", "py": "tā", "en": "he, him" },
+        { "zh": "她", "py": "tā", "en": "she, her" },
+        { "zh": "他们", "py": "tāmen", "en": "they, them" },
+        { "zh": "不", "py": "bù", "en": "not, no" },
+        { "zh": "老师", "py": "lǎoshī", "en": "teacher" },
+        { "zh": "学生", "py": "xuésheng", "en": "student" }
       ]
     },
     {
-      "topic": "句子 · Key Sentences",
+      "topic": "句子 · Key Sentences (textbook)",
       "items": [
-        {
-          "zh": "你好！",
-          "py": "Nǐ hǎo!",
-          "en": "Hello!"
-        },
-        {
-          "zh": "你们好！",
-          "py": "Nǐmen hǎo!",
-          "en": "Hello everyone!"
-        },
-        {
-          "zh": "你好吗？",
-          "py": "Nǐ hǎo ma?",
-          "en": "How are you?"
-        },
-        {
-          "zh": "很好，谢谢。",
-          "py": "Hěn hǎo, xièxie.",
-          "en": "Very well, thank you."
-        },
-        {
-          "zh": "你呢？",
-          "py": "Nǐ ne?",
-          "en": "And you?"
-        },
-        {
-          "zh": "我也很好。",
-          "py": "Wǒ yě hěn hǎo.",
-          "en": "I'm fine too."
-        },
-        {
-          "zh": "他们都很好。",
-          "py": "Tāmen dōu hěn hǎo.",
-          "en": "They are all fine."
-        },
-        {
-          "zh": "不客气。",
-          "py": "Bú kèqi.",
-          "en": "You're welcome."
-        }
+        { "zh": "你好！", "py": "Nǐ hǎo!", "en": "Hello!" },
+        { "zh": "你们好！", "py": "Nǐmen hǎo!", "en": "Hello everyone!" },
+        { "zh": "你好吗？", "py": "Nǐ hǎo ma?", "en": "How are you?" },
+        { "zh": "很好，谢谢。", "py": "Hěn hǎo, xièxie.", "en": "Very well, thank you." },
+        { "zh": "你呢？", "py": "Nǐ ne?", "en": "And you?" },
+        { "zh": "我也很好。", "py": "Wǒ yě hěn hǎo.", "en": "I'm fine too." },
+        { "zh": "他们都很好。", "py": "Tāmen dōu hěn hǎo.", "en": "They are all fine." },
+        { "zh": "不客气。", "py": "Bú kèqi.", "en": "You're welcome." },
+        { "zh": "你们都好吗？", "py": "Nǐmen dōu hǎo ma?", "en": "Are you all well?" },
+        { "zh": "我们都很好。", "py": "Wǒmen dōu hěn hǎo.", "en": "We are all very well." },
+        { "zh": "老师好！", "py": "Lǎoshī hǎo!", "en": "Hello teacher!" },
+        { "zh": "我很好。", "py": "Wǒ hěn hǎo.", "en": "I'm fine." },
+        { "zh": "他很好。", "py": "Tā hěn hǎo.", "en": "He is fine." },
+        { "zh": "她很好。", "py": "Tā hěn hǎo.", "en": "She is fine." }
       ]
     },
     {
       "topic": "会话1 · Dialogue 1",
       "items": [
-        {
-          "zh": "大卫：你好！",
-          "py": "Dàwèi: Nǐ hǎo!",
-          "en": "David: Hello!"
-        },
-        {
-          "zh": "和子：你好！",
-          "py": "Hézǐ: Nǐ hǎo!",
-          "en": "Kazuko: Hello!"
-        }
+        { "zh": "大卫：你好！", "py": "Dàwèi: Nǐ hǎo!", "en": "David: Hello!" },
+        { "zh": "和子：你好！", "py": "Hézǐ: Nǐ hǎo!", "en": "Kazuko: Hello!" }
       ]
     },
     {
       "topic": "会话2 · Dialogue 2",
       "items": [
-        {
-          "zh": "玛丽：你好吗？",
-          "py": "Mǎlì: Nǐ hǎo ma?",
-          "en": "Mary: How are you?"
-        },
-        {
-          "zh": "和子：很好，谢谢。你呢？",
-          "py": "Hézǐ: Hěn hǎo, xièxie. Nǐ ne?",
-          "en": "Kazuko: Very well, thanks. And you?"
-        },
-        {
-          "zh": "玛丽：我也很好。",
-          "py": "Mǎlì: Wǒ yě hěn hǎo.",
-          "en": "Mary: I'm fine too."
-        }
+        { "zh": "玛丽：你好吗？", "py": "Mǎlì: Nǐ hǎo ma?", "en": "Mary: How are you?" },
+        { "zh": "和子：很好，谢谢。你呢？", "py": "Hézǐ: Hěn hǎo, xièxie. Nǐ ne?", "en": "Kazuko: Very well, thanks. And you?" },
+        { "zh": "玛丽：我也很好。", "py": "Mǎlì: Wǒ yě hěn hǎo.", "en": "Mary: I'm fine too." }
       ]
     },
     {
       "topic": "会话3 · Dialogue 3",
       "items": [
-        {
-          "zh": "老师：你们好！",
-          "py": "Lǎoshī: Nǐmen hǎo!",
-          "en": "Teacher: Hello everyone!"
-        },
-        {
-          "zh": "学生们：老师好！",
-          "py": "Xuéshengmen: Lǎoshī hǎo!",
-          "en": "Students: Hello teacher!"
-        },
-        {
-          "zh": "老师：他们好吗？",
-          "py": "Lǎoshī: Tāmen hǎo ma?",
-          "en": "Teacher: How are they?"
-        },
-        {
-          "zh": "学生们：他们都很好。",
-          "py": "Xuéshengmen: Tāmen dōu hěn hǎo.",
-          "en": "Students: They are all fine."
-        }
+        { "zh": "老师：你们好！", "py": "Lǎoshī: Nǐmen hǎo!", "en": "Teacher: Hello everyone!" },
+        { "zh": "学生们：老师好！", "py": "Xuéshengmen: Lǎoshī hǎo!", "en": "Students: Hello teacher!" },
+        { "zh": "老师：他们好吗？", "py": "Lǎoshī: Tāmen hǎo ma?", "en": "Teacher: How are they?" },
+        { "zh": "学生们：他们都很好。", "py": "Xuéshengmen: Tāmen dōu hěn hǎo.", "en": "Students: They are all fine." }
+      ]
+    },
+    {
+      "topic": "替换 · Substitution (textbook)",
+      "items": [
+        { "zh": "你好吗？他好吗？她好吗？你们好吗？", "py": "Nǐ hǎo ma? Tā hǎo ma? Tā hǎo ma? Nǐmen hǎo ma?", "en": "How are you? How is he? How is she? How are you all?" },
+        { "zh": "我很好。他很好。她很好。我们都很好。", "py": "Wǒ hěn hǎo. Tā hěn hǎo. Tā hěn hǎo. Wǒmen dōu hěn hǎo.", "en": "I'm fine. He's fine. She's fine. We're all fine." },
+        { "zh": "你好！你们好！老师好！", "py": "Nǐ hǎo! Nǐmen hǎo! Lǎoshī hǎo!", "en": "Hello! Hello everyone! Hello teacher!" },
+        { "zh": "谢谢！不客气！", "py": "Xièxie! Bú kèqi!", "en": "Thanks! You're welcome!" },
+        { "zh": "我很好，谢谢。", "py": "Wǒ hěn hǎo, xièxie.", "en": "I'm very well, thank you." },
+        { "zh": "他也很好。", "py": "Tā yě hěn hǎo.", "en": "He is fine too." },
+        { "zh": "她也很好。", "py": "Tā yě hěn hǎo.", "en": "She is fine too." }
       ]
     },
     {
       "topic": "语法 · Grammar",
       "items": [
-        {
-          "zh": "我很好。",
-          "py": "Wǒ hěn hǎo.",
-          "en": "I am fine. (很 + adjective = 'am/is' + adj)"
-        },
-        {
-          "zh": "他也很好。",
-          "py": "Tā yě hěn hǎo.",
-          "en": "He is fine too. (也 = also, before the verb)"
-        },
-        {
-          "zh": "他们都很好。",
-          "py": "Tāmen dōu hěn hǎo.",
-          "en": "They are all fine. (都 = all, before the verb)"
-        },
-        {
-          "zh": "你好吗？",
-          "py": "Nǐ hǎo ma?",
-          "en": "Are you well? (吗 turns a statement into a question)"
-        },
-        {
-          "zh": "你呢？",
-          "py": "Nǐ ne?",
-          "en": "And you? (呢 asks 'what about...?')"
-        },
-        {
-          "zh": "我不好。",
-          "py": "Wǒ bù hǎo.",
-          "en": "I'm not good. (不 negates adjectives/verbs)"
-        }
+        { "zh": "我很好。", "py": "Wǒ hěn hǎo.", "en": "I am fine. (很 + adjective)" },
+        { "zh": "他也很好。", "py": "Tā yě hěn hǎo.", "en": "He is fine too. (也 before the verb)" },
+        { "zh": "他们都很好。", "py": "Tāmen dōu hěn hǎo.", "en": "They are all fine. (都 before the verb)" },
+        { "zh": "你好吗？", "py": "Nǐ hǎo ma?", "en": "Are you well? (吗 turns a statement into a question)" },
+        { "zh": "你呢？", "py": "Nǐ ne?", "en": "And you? (呢 asks 'what about...?')" },
+        { "zh": "我不好。", "py": "Wǒ bù hǎo.", "en": "I'm not good. (不 negates adjectives)" }
       ]
     },
     {
-      "topic": "练习 · Workbook Exercises",
+      "topic": "教材 · Textbook practice (上册)",
       "items": [
-        {
-          "zh": "爸爸好吗？",
-          "py": "Bàba hǎo ma?",
-          "en": "How is Dad?"
-        },
-        {
-          "zh": "爸爸也好。",
-          "py": "Bàba yě hǎo.",
-          "en": "Dad is fine too."
-        },
-        {
-          "zh": "妈妈好吗？",
-          "py": "Māma hǎo ma?",
-          "en": "How is Mom?"
-        },
-        {
-          "zh": "妈妈也好。",
-          "py": "Māma yě hǎo.",
-          "en": "Mom is fine too."
-        },
-        {
-          "zh": "我们都来了。",
-          "py": "Wǒmen dōu lái le.",
-          "en": "We all came."
-        },
-        {
-          "zh": "他们都很好。",
-          "py": "Tāmen dōu hěn hǎo.",
-          "en": "They are all fine."
-        },
-        {
-          "zh": "你也来吗？",
-          "py": "Nǐ yě lái ma?",
-          "en": "Are you also coming?"
-        }
+        { "zh": "你好！你好吗？", "py": "Nǐ hǎo! Nǐ hǎo ma?", "en": "Hello! How are you?" },
+        { "zh": "很好。谢谢。", "py": "Hěn hǎo. Xièxie.", "en": "Very well. Thanks." },
+        { "zh": "我很好，你呢？", "py": "Wǒ hěn hǎo, nǐ ne?", "en": "I'm fine, and you?" },
+        { "zh": "我们都很好，谢谢。", "py": "Wǒmen dōu hěn hǎo, xièxie.", "en": "We're all very well, thanks." },
+        { "zh": "学生们好！", "py": "Xuéshengmen hǎo!", "en": "Hello students!" },
+        { "zh": "老师好！你们好！", "py": "Lǎoshī hǎo! Nǐmen hǎo!", "en": "Hello teacher! Hello everyone!" },
+        { "zh": "谢谢！不客气！", "py": "Xièxie! Bú kèqi!", "en": "Thanks! You're welcome!" }
+      ]
+    },
+    {
+      "topic": "练习册 · Workbook",
+      "items": [
+        { "zh": "爸爸好吗？", "py": "Bàba hǎo ma?", "en": "How is Dad?" },
+        { "zh": "爸爸也好。", "py": "Bàba yě hǎo.", "en": "Dad is fine too." },
+        { "zh": "妈妈好吗？", "py": "Māma hǎo ma?", "en": "How is Mom?" },
+        { "zh": "妈妈也好。", "py": "Māma yě hǎo.", "en": "Mom is fine too." },
+        { "zh": "我们都来了。", "py": "Wǒmen dōu lái le.", "en": "We all came." },
+        { "zh": "他们都很好。", "py": "Tāmen dōu hěn hǎo.", "en": "They are all fine." },
+        { "zh": "你也来吗？", "py": "Nǐ yě lái ma?", "en": "Are you also coming?" }
       ]
     }
   ]
