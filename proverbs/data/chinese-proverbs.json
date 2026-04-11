@@ -1,0 +1,70 @@
+{
+  "title": "成语谚语 · Chinese Proverbs",
+  "subtitle": "22 Chinese proverbs & sayings with example sentences",
+  "data": [
+    {
+      "topic": "成语 · Proverbs (1–11)",
+      "items": [
+        { "zh": "树大招风", "py": "shù dà zhāo fēng", "en": "A prominent person attracts trouble (lit. a tall tree catches the wind)" },
+        { "zh": "入乡随俗", "py": "rù xiāng suí sú", "en": "When in Rome, do as the Romans do (lit. enter village, follow customs)" },
+        { "zh": "一分价钱一分货", "py": "yì fēn jià qián yì fēn huò", "en": "You get what you pay for" },
+        { "zh": "塞翁失马", "py": "sài wēng shī mǎ", "en": "A loss may turn out to be a gain (lit. the old man lost his horse)" },
+        { "zh": "画蛇添足", "py": "huà shé tiān zú", "en": "Ruin something by overdoing it (lit. draw a snake and add feet)" },
+        { "zh": "对牛弹琴", "py": "duì niú tán qín", "en": "Speak to the wrong audience (lit. play the lute to a cow)" },
+        { "zh": "爱屋及乌", "py": "ài wū jí wū", "en": "Love everything about someone (lit. love the house and its crows)" },
+        { "zh": "井底之蛙", "py": "jǐng dǐ zhī wā", "en": "A person with a limited view (lit. a frog at the bottom of a well)" },
+        { "zh": "三思而后行", "py": "sān sī ér hòu xíng", "en": "Think before acting (lit. think three times, then act)" },
+        { "zh": "有志者事竟成", "py": "yǒu zhì zhě shì jìng chéng", "en": "Where there is a will, there is a way" },
+        { "zh": "早起的鸟儿有虫吃", "py": "zǎo qǐ de niǎo ér yǒu chóng chī", "en": "The early bird catches the worm" }
+      ]
+    },
+    {
+      "topic": "成语 · Proverbs (12–22)",
+      "items": [
+        { "zh": "熟能生巧", "py": "shú néng shēng qiǎo", "en": "Practice makes perfect (lit. familiarity breeds skill)" },
+        { "zh": "冰冻三尺，非一日之寒", "py": "bīng dòng sān chǐ, fēi yī rì zhī hán", "en": "Problems take time to develop (lit. three feet of ice is not formed in a single day)" },
+        { "zh": "一石二鸟", "py": "yī shí èr niǎo", "en": "Kill two birds with one stone" },
+        { "zh": "百闻不如一见", "py": "bǎi wén bù rú yī jiàn", "en": "Seeing is believing (lit. hearing 100 times is not as good as seeing once)" },
+        { "zh": "亡羊补牢", "py": "wáng yáng bǔ láo", "en": "Better late than never (lit. mend the pen after losing sheep)" },
+        { "zh": "知足常乐", "py": "zhī zú cháng lè", "en": "Contentment brings happiness" },
+        { "zh": "一举两得", "py": "yī jǔ liǎng dé", "en": "Achieve two goals at once (lit. one action, two gains)" },
+        { "zh": "失败是成功之母", "py": "shī bài shì chéng gōng zhī mǔ", "en": "Failure is the mother of success" },
+        { "zh": "时间就是金钱", "py": "shí jiān jiù shì jīn qián", "en": "Time is money" },
+        { "zh": "说曹操，曹操到", "py": "shuō Cáo Cāo, Cáo Cāo dào", "en": "Speak of the devil (lit. speak of Cao Cao and Cao Cao arrives)" },
+        { "zh": "有钱能使鬼推磨", "py": "yǒu qián néng shǐ guǐ tuī mò", "en": "Money makes things happen (lit. money can make ghosts push a millstone)" }
+      ]
+    },
+    {
+      "topic": "例句 · Example Sentences (1–11)",
+      "items": [
+        { "zh": "他现在很有名，但树大招风。", "py": "Tā xiànzài hěn yǒumíng, dàn shù dà zhāo fēng.", "en": "He is very famous now, but a tall tree catches the wind." },
+        { "zh": "在中国生活，要入乡随俗。", "py": "Zài Zhōngguó shēnghuó, yào rù xiāng suí sú.", "en": "Living in China, you should do as the locals do." },
+        { "zh": "这个很贵，但一分价钱一分货。", "py": "Zhège hěn guì, dàn yì fēn jià qián yì fēn huò.", "en": "This is expensive, but you get what you pay for." },
+        { "zh": "这次失败，也许是塞翁失马。", "py": "Zhè cì shībài, yěxǔ shì sài wēng shī mǎ.", "en": "This failure might turn out to be a blessing in disguise." },
+        { "zh": "不要再改了，会画蛇添足。", "py": "Bú yào zài gǎi le, huì huà shé tiān zú.", "en": "Don't change it any more, you'll ruin it by overdoing it." },
+        { "zh": "跟他解释太难，就像对牛弹琴。", "py": "Gēn tā jiěshì tài nán, jiù xiàng duì niú tán qín.", "en": "Explaining to him is too difficult, it's like playing the lute to a cow." },
+        { "zh": "我喜欢他，也爱屋及乌喜欢他的朋友。", "py": "Wǒ xǐhuan tā, yě ài wū jí wū xǐhuan tā de péngyou.", "en": "I like him, and by extension also like his friends." },
+        { "zh": "不学习新东西，会变成井底之蛙。", "py": "Bù xuéxí xīn dōngxi, huì biànchéng jǐng dǐ zhī wā.", "en": "If you don't learn new things, you'll become a frog in a well." },
+        { "zh": "做决定前要三思而后行。", "py": "Zuò juédìng qián yào sān sī ér hòu xíng.", "en": "Before making a decision, think it through carefully." },
+        { "zh": "努力学习，有志者事竟成。", "py": "Nǔlì xuéxí, yǒu zhì zhě shì jìng chéng.", "en": "Study hard — where there is a will, there is a way." },
+        { "zh": "如果你想成功，就要努力，早起的鸟儿有虫吃。", "py": "Rúguǒ nǐ xiǎng chénggōng, jiù yào nǔlì, zǎo qǐ de niǎo ér yǒu chóng chī.", "en": "If you want to succeed, you must work hard — the early bird catches the worm." }
+      ]
+    },
+    {
+      "topic": "例句 · Example Sentences (12–22)",
+      "items": [
+        { "zh": "汉语说得不好没关系，熟能生巧。", "py": "Hànyǔ shuō de bù hǎo méi guānxi, shú néng shēng qiǎo.", "en": "It doesn't matter if your Chinese isn't good yet — practice makes perfect." },
+        { "zh": "他的压力不是一天来的，冰冻三尺，非一日之寒。", "py": "Tā de yālì bú shì yī tiān lái de, bīng dòng sān chǐ, fēi yī rì zhī hán.", "en": "His stress didn't come overnight — Rome wasn't built in a day." },
+        { "zh": "这次旅行既学习又放松，真是一石二鸟。", "py": "Zhè cì lǚxíng jì xuéxí yòu fàngsōng, zhēn shì yī shí èr niǎo.", "en": "This trip combines studying and relaxing — truly killing two birds with one stone." },
+        { "zh": "你自己去看看吧，百闻不如一见。", "py": "Nǐ zìjǐ qù kànkan ba, bǎi wén bù rú yī jiàn.", "en": "Go see for yourself — seeing is believing." },
+        { "zh": "现在开始学习也不晚，亡羊补牢。", "py": "Xiànzài kāishǐ xuéxí yě bù wǎn, wáng yáng bǔ láo.", "en": "It's not too late to start studying now — better late than never." },
+        { "zh": "他生活简单，但知足常乐。", "py": "Tā shēnghuó jiǎndān, dàn zhī zú cháng lè.", "en": "His life is simple, but contentment brings happiness." },
+        { "zh": "运动可以减肥又健康，一举两得。", "py": "Yùndòng kěyǐ jiǎnféi yòu jiànkāng, yī jǔ liǎng dé.", "en": "Exercise helps you lose weight and stay healthy — two goals at once." },
+        { "zh": "不要怕失败，失败是成功之母。", "py": "Bú yào pà shībài, shī bài shì chéng gōng zhī mǔ.", "en": "Don't be afraid of failure — failure is the mother of success." },
+        { "zh": "我们要珍惜时间，时间就是金钱。", "py": "Wǒmen yào zhēnxī shíjiān, shí jiān jiù shì jīn qián.", "en": "We should treasure time — time is money." },
+        { "zh": "我们刚说他，他就来了，真是说曹操，曹操到。", "py": "Wǒmen gāng shuō tā, tā jiù lái le, zhēn shì shuō Cáo Cāo, Cáo Cāo dào.", "en": "We just mentioned him and he showed up — speak of the devil!" },
+        { "zh": "在有些地方，有钱能使鬼推磨。", "py": "Zài yǒuxiē dìfang, yǒu qián néng shǐ guǐ tuī mò.", "en": "In some places, money can make anything happen." }
+      ]
+    }
+  ]
+}
