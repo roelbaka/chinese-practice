@@ -916,6 +916,213 @@
           "en": "five kinds of colors"
         }
       ]
+    },
+    {
+      "topic": "课上要点 · Class notes (interpretation)",
+      "classNotesFirst": true,
+      "browseOnly": true,
+      "items": [
+        {
+          "zh": "总览 · What this session was about",
+          "py": "",
+          "en": "Main focus: Lesson 11 (买东西 / 我要买橘子 patterns). Class used a shop role-play with 巧克力蛋 instead of fruit, drilling 要/买/颜色/几个/多少钱/斤/块/还要别的吗, then textbook grammar on verb reduplication (看看、尝尝、休息休息、问问), then mixed review sentences. Teacher previewed Lesson 14 (换钱) and announced Lesson 12 for next week. Side talk (travel plans, TV clips, many languages) is omitted here."
+        },
+        {
+          "zh": "──────── Part 1 · Shopping & classroom game",
+          "py": "",
+          "en": "Same structures as the book, different object: counting people, choosing colours for 巧克力蛋, asking price in 人民币, and “anything else?”"
+        },
+        {
+          "zh": "重复主题 · 你要买什么 / 我要买…",
+          "py": "",
+          "en": "Core shop question + answer. 要 vs 想 appears in book; class drilled 买 + object + colour follow-up."
+        },
+        {
+          "zh": "你要买什么？",
+          "py": "Nǐ yào mǎi shénme?",
+          "en": "What do you want to buy? (shop assistant style)"
+        },
+        {
+          "zh": "我要买一个巧克力蛋。",
+          "py": "Wǒ yào mǎi yī gè qiǎokèlì dàn.",
+          "en": "I want to buy one chocolate egg. (个 for eggs; class used this instead of 橘子)"
+        },
+        {
+          "zh": "你要买什么颜色的？",
+          "py": "Nǐ yào mǎi shénme yánsè de?",
+          "en": "What colour do you want (to buy)? (的 after colour in this pattern)"
+        },
+        {
+          "zh": "你要几个？",
+          "py": "Nǐ yào jǐ gè?",
+          "en": "How many do you want? (几个 — small expected number)"
+        },
+        {
+          "zh": "重复主题 · 还要别的吗 / 有没有问题",
+          "py": "",
+          "en": "Lesson 11 checkout phrases. 还要…吗 asks “still want more items?” 有没有问题 closes a step: “Any questions?” 三分钟够不够 checks time."
+        },
+        {
+          "zh": "你还要别的吗？",
+          "py": "Nǐ hái yào bié de ma?",
+          "en": "Do you want anything else?"
+        },
+        {
+          "zh": "有没有问题？",
+          "py": "Yǒu méiyǒu wèntí?",
+          "en": "Any questions? (affirmative–negative question)"
+        },
+        {
+          "zh": "三分钟够不够？",
+          "py": "Sān fēnzhōng gòu bú gòu?",
+          "en": "Is three minutes enough? (够 = enough; A-not-A pattern)"
+        },
+        {
+          "zh": "没有问题。",
+          "py": "Méiyǒu wèntí.",
+          "en": "No problem. / No questions."
+        },
+        {
+          "zh": "重复主题 · 多少钱 / 太贵了 / 人民币",
+          "py": "",
+          "en": "Price questions and reactions. 太贵了 = too expensive; 不太贵 = not too expensive (less extreme than 不贵). 人民币 names the currency."
+        },
+        {
+          "zh": "这个多少钱？",
+          "py": "Zhège duōshao qián?",
+          "en": "How much is this?"
+        },
+        {
+          "zh": "八千人民币。",
+          "py": "Bāqiān rénmínbì.",
+          "en": "Eight thousand RMB. (千 + 人民币)"
+        },
+        {
+          "zh": "太贵了！不太贵。",
+          "py": "Tài guì le! Bú tài guì.",
+          "en": "Too expensive! / Not too expensive. (contrast 太 vs 不太)"
+        },
+        {
+          "zh": "重复主题 · 斤 / 块（价钱）",
+          "py": "",
+          "en": "斤 jīn is a weight unit (~500 g) used in shops; price per 斤 is very common for fruit. 块 is spoken “yuan.”"
+        },
+        {
+          "zh": "苹果三块钱一斤。",
+          "py": "Píngguǒ sān kuài qián yī jīn.",
+          "en": "Apples are three yuan per jin. (classic Lesson 11 line)"
+        },
+        {
+          "zh": "我要一斤苹果。",
+          "py": "Wǒ yào yī jīn píngguǒ.",
+          "en": "I want one jin of apples. (要 + quantity + noun)"
+        },
+        {
+          "zh": "这个苹果太贵了。",
+          "py": "Zhège píngguǒ tài guì le.",
+          "en": "These apples are too expensive. (这个 + noun)"
+        },
+        {
+          "zh": "重复主题 · 双 / 瓶 / 杯",
+          "py": "",
+          "en": "双 shuāng: pairs (gloves, socks). 瓶 píng: bottles. 杯 bēi: cups. Class combined 一瓶 and 一杯咖啡 with 和."
+        },
+        {
+          "zh": "请给我一双袜子。",
+          "py": "Qǐng gěi wǒ yī shuāng wàzi.",
+          "en": "Please give me a pair of socks."
+        },
+        {
+          "zh": "我要两瓶水和一杯咖啡。",
+          "py": "Wǒ yào liǎng píng shuǐ hé yī bēi kāfēi.",
+          "en": "I want two bottles of water and one cup of coffee. (和 links two orders)"
+        },
+        {
+          "zh": "重复主题 · 多少 + 种",
+          "py": "",
+          "en": "多少种 asks “how many kinds?” — 种 classifies types (颜色、水果)."
+        },
+        {
+          "zh": "你们有多少种颜色？",
+          "py": "Nǐmen yǒu duōshao zhǒng yánsè?",
+          "en": "How many colours do you (all) have?"
+        },
+        {
+          "zh": "有很多种水果。",
+          "py": "Yǒu hěn duō zhǒng shuǐguǒ.",
+          "en": "There are many kinds of fruit. (有 + 很多 + 种)"
+        },
+        {
+          "zh": "──────── Part 2 · 动词重叠（本课语法）",
+          "py": "",
+          "en": "Teacher reviewed: monosyllabic verbs can reduplicate (AA) for short, light actions—trying, tasting, resting. Disyllabic verbs use ABAB (e.g. 休息休息). This matches the textbook grammar block on 了(1) + reduplication."
+        },
+        {
+          "zh": "重复主题 · 看看 / 听听 / 尝尝",
+          "py": "",
+          "en": "看看 = have a look; 听听 = listen a bit; 尝尝 = taste (try) — same rhythm as lesson examples."
+        },
+        {
+          "zh": "我们去颐和园看看吧。",
+          "py": "Wǒmen qù Yíhéyuán kànkan ba.",
+          "en": "Let’s go to the Summer Palace and have a look. (吧 softens suggestion)"
+        },
+        {
+          "zh": "这些音乐很好听，你听听。",
+          "py": "Zhèxiē yīnyuè hěn hǎotīng, nǐ tīngting.",
+          "en": "This music sounds great—have a listen. (听听 after comment)"
+        },
+        {
+          "zh": "你太累了，你休息休息。",
+          "py": "Nǐ tài lèi le, nǐ xiūxi xiūxi.",
+          "en": "You’re too tired—rest a bit. (ABAB with 休息)"
+        },
+        {
+          "zh": "这是我做的中文菜，你尝尝。",
+          "py": "Zhè shì wǒ zuò de Zhōngwén cài, nǐ chángchang.",
+          "en": "This is Chinese food I made—have a taste. (尝尝 polite to guest)"
+        },
+        {
+          "zh": "你问问大卫，他明天去不去长城。",
+          "py": "Nǐ wènwen Dàwèi, tā míngtiān qù bu qù Chángchéng.",
+          "en": "Go ask David whether he’s going to the Great Wall tomorrow. (问问; embedded A-not-A question)"
+        },
+        {
+          "zh": "尝尝 vs 吃吃（说明）",
+          "py": "",
+          "en": "吃吃 is possible but 尝尝 is politer for “try my cooking.” Teacher noted both can appear with 都可以."
+        },
+        {
+          "zh": "──────── Part 3 · Bridge to next lessons",
+          "py": "",
+          "en": "Short forward references from class audio—useful to know what comes next in the book."
+        },
+        {
+          "zh": "第十四课会学换钱。",
+          "py": "Dì shísì kè huì xué huànqián.",
+          "en": "Lesson 14 will cover exchanging money. (teacher preview in class)"
+        },
+        {
+          "zh": "下个星期我们学习第十二课。",
+          "py": "Xià ge xīngqī wǒmen xuéxí dì shí'èr kè.",
+          "en": "Next week we study Lesson 12. (announcement at end of session)"
+        },
+        {
+          "zh": "重复主题 · 方位（复习扩展）",
+          "py": "",
+          "en": "Later activity used 上面 / 下面 / 前边 + 走 / 拐 to hide and find things—same direction words as nearby lessons; good oral review."
+        },
+        {
+          "zh": "笔记本在桌子上面。",
+          "py": "Bǐjìběn zài zhuōzi shàngmian.",
+          "en": "The notebook is on the desk. (在 + reference + 上面)"
+        },
+        {
+          "zh": "往前走，往右拐。",
+          "py": "Wǎng qián zǒu, wǎng yòu guǎi.",
+          "en": "Walk straight ahead, turn right. (往 + direction + verb)"
+        }
+      ]
     }
   ]
 }
