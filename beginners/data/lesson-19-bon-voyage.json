@@ -6,14 +6,9 @@
       "topic": "生词 · New Words",
       "items": [
         {
-          "zh": "别",
-          "py": "bié",
-          "en": "don't (imperative)"
-        },
-        {
           "zh": "客气",
           "py": "kèqi",
-          "en": "polite, courteous"
+          "en": "polite; courteous"
         },
         {
           "zh": "累",
@@ -23,7 +18,7 @@
         {
           "zh": "第",
           "py": "dì",
-          "en": "(prefix for ordinal numbers)"
+          "en": "ordinal prefix (first, second...)"
         },
         {
           "zh": "次",
@@ -33,7 +28,7 @@
         {
           "zh": "以前",
           "py": "yǐqián",
-          "en": "before, previously"
+          "en": "before; previously"
         },
         {
           "zh": "经理",
@@ -48,32 +43,12 @@
         {
           "zh": "问……好",
           "py": "wèn...hǎo",
-          "en": "to send regards to"
+          "en": "to send regards to; to say hello to"
         },
         {
-          "zh": "麻烦",
-          "py": "máfan",
-          "en": "trouble; troublesome; to bother"
-        },
-        {
-          "zh": "顺利",
-          "py": "shùnlì",
-          "en": "smooth, without a hitch"
-        },
-        {
-          "zh": "汽车",
-          "py": "qìchē",
-          "en": "car, automobile"
-        },
-        {
-          "zh": "外边",
-          "py": "wàibian",
-          "en": "outside"
-        },
-        {
-          "zh": "翻译",
-          "py": "fānyì",
-          "en": "translator; to translate"
+          "zh": "晚饭",
+          "py": "wǎnfàn",
+          "en": "dinner; supper"
         },
         {
           "zh": "饭店",
@@ -81,29 +56,54 @@
           "en": "hotel; restaurant"
         },
         {
+          "zh": "翻译",
+          "py": "fānyì",
+          "en": "interpreter; translator; to translate"
+        },
+        {
+          "zh": "顺利",
+          "py": "shùnlì",
+          "en": "smooth; successful"
+        },
+        {
+          "zh": "汽车",
+          "py": "qìchē",
+          "en": "car; automobile"
+        },
+        {
+          "zh": "外边",
+          "py": "wàibian",
+          "en": "outside"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "en": "together"
+        },
+        {
+          "zh": "不好意思",
+          "py": "bù hǎoyìsi",
+          "en": "embarrassed; sorry"
+        },
+        {
           "zh": "打车",
           "py": "dǎ chē",
           "en": "to take a taxi"
         },
         {
-          "zh": "好意思",
-          "py": "hǎo yìsi",
-          "en": "to have the nerve; (不好意思 = embarrassed)"
-        },
-        {
-          "zh": "时间",
-          "py": "shíjiān",
-          "en": "time"
-        },
-        {
-          "zh": "花",
-          "py": "huā",
-          "en": "flower"
+          "zh": "麻烦",
+          "py": "máfan",
+          "en": "trouble; to trouble"
         },
         {
           "zh": "明信片",
           "py": "míngxìnpiàn",
           "en": "postcard"
+        },
+        {
+          "zh": "花",
+          "py": "huā",
+          "en": "flower"
         },
         {
           "zh": "笔",
@@ -113,12 +113,17 @@
         {
           "zh": "寄",
           "py": "jì",
-          "en": "to mail, to send (by post)"
+          "en": "to mail; to send"
         },
         {
           "zh": "收到",
           "py": "shōu dào",
           "en": "to receive"
+        },
+        {
+          "zh": "句",
+          "py": "jù",
+          "en": "sentence (measure word)"
         },
         {
           "zh": "祝",
@@ -138,7 +143,7 @@
         {
           "zh": "送",
           "py": "sòng",
-          "en": "to see off; to give (a gift); to escort"
+          "en": "to see off; to give (a gift)"
         },
         {
           "zh": "礼物",
@@ -196,24 +201,14 @@
           "en": "to go in"
         },
         {
+          "zh": "别",
+          "py": "bié",
+          "en": "don't (imperative)"
+        },
+        {
           "zh": "前天",
           "py": "qiántiān",
           "en": "the day before yesterday"
-        }
-      ]
-    },
-    {
-      "topic": "专名 · Proper Nouns",
-      "items": [
-        {
-          "zh": "北京饭店",
-          "py": "Běijīng Fàndiàn",
-          "en": "Beijing Hotel"
-        },
-        {
-          "zh": "王大年",
-          "py": "Wáng Dànián",
-          "en": "Wang Danian (name of a person)"
         }
       ]
     },
@@ -227,7 +222,7 @@
         },
         {
           "zh": "一点儿也不累。",
-          "py": "Yīdiǎnr yě bú lèi.",
+          "py": "Yīdiǎnr yě bù lèi.",
           "en": "Not tired at all."
         },
         {
@@ -236,14 +231,14 @@
           "en": "Is this your first visit to China?"
         },
         {
-          "zh": "我以前来过（中国）两次。",
-          "py": "Wǒ yǐqián lái guò (Zhōngguó) liǎng cì.",
-          "en": "I have been to China twice before."
+          "zh": "我以前来过两次。",
+          "py": "Wǒ yǐqián lái guo liǎng cì.",
+          "en": "I've been here twice before."
         },
         {
           "zh": "这是我们经理给您的信。",
           "py": "Zhè shì wǒmen jīnglǐ gěi nín de xìn.",
-          "en": "Here is a letter for you from our manager."
+          "en": "Here is a letter from our manager."
         },
         {
           "zh": "他问您好。",
@@ -253,7 +248,7 @@
         {
           "zh": "我们在北京饭店请您吃晚饭。",
           "py": "Wǒmen zài Běijīng Fàndiàn qǐng nín chī wǎnfàn.",
-          "en": "We invite you to dinner at Beijing Hotel."
+          "en": "We'll treat you to dinner at Beijing Hotel."
         },
         {
           "zh": "我从朋友那儿去饭店。",
@@ -298,12 +293,12 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1 (Welcoming at the Airport)",
+      "topic": "会话1 · Dialogue 1 (Meeting Mr. Li at the Airport)",
       "items": [
         {
           "zh": "王大年：您好，李先生！我是王大年，公司的翻译。",
           "py": "Wáng Dànián: Nín hǎo, Lǐ xiānsheng! Wǒ shì Wáng Dànián, gōngsī de fānyì.",
-          "en": "Wang Danian: Hello, Mr. Li! I'm Wang Danian, the company translator."
+          "en": "Wang Danian: Hello, Mr. Li! I'm Wang Danian, the company's interpreter."
         },
         {
           "zh": "李：谢谢您来接我。",
@@ -313,12 +308,12 @@
         {
           "zh": "王大年：别客气。路上辛苦了。累了吧？",
           "py": "Wáng Dànián: Bié kèqi. Lù shang xīnkǔ le. Lèi le ba?",
-          "en": "Wang Danian: Don't mention it. You must be tired from the journey. Are you tired?"
+          "en": "Wang Danian: You're welcome. You must be tired from the trip. Tired?"
         },
         {
           "zh": "李：一点儿也不累，很顺利。",
-          "py": "Lǐ: Yīdiǎnr yě bú lèi, hěn shùnlì.",
-          "en": "Li: Not tired at all; the trip was smooth."
+          "py": "Lǐ: Yīdiǎnr yě bù lèi, hěn shùnlì.",
+          "en": "Li: Not tired at all, the trip was smooth."
         },
         {
           "zh": "王大年：汽车在外边，我们送您去饭店。",
@@ -328,7 +323,7 @@
         {
           "zh": "李：我还有两个朋友。",
           "py": "Lǐ: Wǒ hái yǒu liǎng ge péngyou.",
-          "en": "Li: I have two more friends (with me)."
+          "en": "Li: I have two more friends with me."
         },
         {
           "zh": "王大年：那一起走吧。",
@@ -343,7 +338,7 @@
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2 (Dinner Invitation)",
+      "topic": "会话2 · Dialogue 2 (Manager Welcomes Mr. Li)",
       "items": [
         {
           "zh": "经理：欢迎您，李先生！",
@@ -358,11 +353,11 @@
         {
           "zh": "经理：您第一次来中国吗？",
           "py": "Jīnglǐ: Nín dì yī cì lái Zhōngguó ma?",
-          "en": "Manager: Is this your first visit to China?"
+          "en": "Manager: Is this your first time in China?"
         },
         {
           "zh": "李：不，我以前来过两次。这是我们经理给您的信。",
-          "py": "Lǐ: Bù, wǒ yǐqián lái guò liǎng cì. Zhè shì wǒmen jīnglǐ gěi nín de xìn.",
+          "py": "Lǐ: Bù, wǒ yǐqián lái guo liǎng cì. Zhè shì wǒmen jīnglǐ gěi nín de xìn.",
           "en": "Li: No, I've been here twice before. Here is a letter from our manager."
         },
         {
@@ -378,11 +373,11 @@
         {
           "zh": "经理：谢谢。今天我们在北京饭店请您吃晚饭。",
           "py": "Jīnglǐ: Xièxie. Jīntiān wǒmen zài Běijīng Fàndiàn qǐng nín chī wǎnfàn.",
-          "en": "Manager: Thank you. Today we'll invite you to dinner at Beijing Hotel."
+          "en": "Manager: Thank you. Today we'll treat you to dinner at Beijing Hotel."
         },
         {
           "zh": "李：您太客气了，真不好意思。",
-          "py": "Lǐ: Nín tài kèqi le, zhēn bù hǎo yìsi.",
+          "py": "Lǐ: Nín tài kèqi le, zhēn bù hǎoyìsi.",
           "en": "Li: You're too kind, I'm really embarrassed."
         },
         {
@@ -393,17 +388,17 @@
         {
           "zh": "李：下午我去朋友那儿，晚上没有事。",
           "py": "Lǐ: Xiàwǔ wǒ qù péngyou nàr, wǎnshang méi yǒu shì.",
-          "en": "Li: I'm visiting a friend in the afternoon, but I'm free in the evening."
+          "en": "Li: In the afternoon I'll visit my friend, but I'm free in the evening."
         },
         {
           "zh": "经理：我们去接您。",
           "py": "Jīnglǐ: Wǒmen qù jiē nín.",
-          "en": "Manager: We'll come pick you up."
+          "en": "Manager: We'll pick you up."
         },
         {
           "zh": "李：不用了，我可以打车从朋友那儿去。",
           "py": "Lǐ: Bú yòng le, wǒ kěyǐ dǎ chē cóng péngyou nàr qù.",
-          "en": "Li: No need. I can take a taxi from my friend's place."
+          "en": "Li: No need, I can take a taxi from my friend's place."
         }
       ]
     },
@@ -502,23 +497,28 @@
       "items": [
         {
           "zh": "一点儿也不累。——一点儿也不冷。",
-          "py": "Yīdiǎnr yě bú lèi. —— Yīdiǎnr yě bù lěng.",
+          "py": "Yīdiǎnr yě bù lèi. —— Yīdiǎnr yě bù lěng.",
           "en": "Not tired at all. — Not cold at all."
         },
         {
-          "zh": "一分钟也不能等。",
-          "py": "Yī fēnzhōng yě bù néng děng.",
-          "en": "Can't wait even a minute."
+          "zh": "一点儿也不热。",
+          "py": "Yīdiǎnr yě bù rè.",
+          "en": "Not hot at all."
+        },
+        {
+          "zh": "一分钟也没休息。",
+          "py": "Yī fēnzhōng yě méi xiūxi.",
+          "en": "Didn't rest for even one minute."
         },
         {
           "zh": "这是我们经理给您的信。——这是我姐姐给你的笔。",
           "py": "Zhè shì wǒmen jīnglǐ gěi nín de xìn. —— Zhè shì wǒ jiějie gěi nǐ de bǐ.",
-          "en": "This is a letter from our manager. — This is a pen from my sister."
+          "en": "Here is a letter from our manager. — Here is a pen from my sister."
         },
         {
-          "zh": "这是他哥哥送你的花。",
-          "py": "Zhè shì tā gēge sòng nǐ de huā.",
-          "en": "These are flowers from his brother for you."
+          "zh": "这是我哥哥送你的花。",
+          "py": "Zhè shì wǒ gēge sòng nǐ de huā.",
+          "en": "These are flowers from my brother for you."
         },
         {
           "zh": "这是我朋友给我的明信片。",
@@ -526,24 +526,19 @@
           "en": "This is a postcard from my friend."
         },
         {
-          "zh": "您第一次来中国吗？——您第一次吃烤鸭吗？",
-          "py": "Nín dì yī cì lái Zhōngguó ma? —— Nín dì yī cì chī kǎoyā ma?",
-          "en": "First time in China? — First time eating roast duck?"
+          "zh": "A: 您第一次来中国吗？B: 不，我以前来过两次。——第一次吃北京烤鸭 / 来过三次。",
+          "py": "A: Nín dì yī cì lái Zhōngguó ma? B: Bù, wǒ yǐqián lái guo liǎng cì. —— Dì yī cì chī Běijīng kǎoyā / lái guo sān cì.",
+          "en": "A: Is this your first time in China? B: No, I've been here twice. — First time eating Peking duck / been three times."
         },
         {
-          "zh": "您第一次看京剧吗？",
-          "py": "Nín dì yī cì kàn jīngjù ma?",
-          "en": "Is this your first time seeing Beijing opera?"
+          "zh": "第一次来我们学校吗？——不，以前来过一次。",
+          "py": "Dì yī cì lái wǒmen xuéxiào ma? —— Bù, yǐqián lái guo yī cì.",
+          "en": "First time at our school? — No, I've been here once before."
         },
         {
-          "zh": "不，我以前来过两次。——不，我以前来过我们学校两次。",
-          "py": "Bù, wǒ yǐqián lái guò liǎng cì. —— Bù, wǒ yǐqián lái guò wǒmen xuéxiào liǎng cì.",
-          "en": "No, I've been here twice. — No, I've been to our school twice."
-        },
-        {
-          "zh": "从北京到大同很顺利。",
-          "py": "Cóng Běijīng dào Dàtóng hěn shùnlì.",
-          "en": "The trip from Beijing to Datong was smooth."
+          "zh": "我到北京来很顺利。",
+          "py": "Wǒ dào Běijīng lái hěn shùnlì.",
+          "en": "My trip to Beijing went smoothly."
         },
         {
           "zh": "我寄给你的信收到了吗？",
@@ -552,8 +547,8 @@
         },
         {
           "zh": "我来中国的时候汉语一句也不会说。",
-          "py": "Wǒ lái Zhōngguó de shíhou Hànyǔ yī jù yě bú huì shuō.",
-          "en": "When I came to China I couldn't speak a word of Chinese."
+          "py": "Wǒ lái Zhōngguó de shíhou Hànyǔ yī jù yě bù huì shuō.",
+          "en": "When I came to China I couldn't speak a single sentence of Chinese."
         },
         {
           "zh": "你什么时候走？——后天。",
@@ -618,12 +613,12 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (从/在的宾语与这儿/那儿 · Objects of 从/在 with 这儿/那儿)",
+      "topic": "语法 · Grammar (从/在 + Person + 这儿/那儿)",
       "items": [
         {
           "zh": "他从我这儿去书店。",
           "py": "Tā cóng wǒ zhèr qù shūdiàn.",
-          "en": "He goes to the bookstore from my place."
+          "en": "He went to the bookstore from my place."
         },
         {
           "zh": "我从张大夫那儿来。",
@@ -633,7 +628,7 @@
         {
           "zh": "我妹妹在玛丽那儿玩儿。",
           "py": "Wǒ mèimei zài Mǎlì nàr wánr.",
-          "en": "My younger sister is playing at Mary's place."
+          "en": "My younger sister is at Mary's place having fun."
         },
         {
           "zh": "我的笔在他那儿。",
@@ -641,9 +636,9 @@
           "en": "My pen is at his place."
         },
         {
-          "zh": "我可以打车从朋友那儿去。",
-          "py": "Wǒ kěyǐ dǎ chē cóng péngyou nàr qù.",
-          "en": "I can take a taxi from my friend's place."
+          "zh": "我从朋友那儿去饭店。",
+          "py": "Wǒ cóng péngyou nàr qù fàndiàn.",
+          "en": "I'll go to the hotel from my friend's place."
         }
       ]
     },
@@ -651,29 +646,44 @@
       "topic": "语法 · Grammar (动量补语 · Complement of Frequency)",
       "items": [
         {
-          "zh": "我以前来过两次。",
-          "py": "Wǒ yǐqián lái guò liǎng cì.",
-          "en": "I've been here twice before."
+          "zh": "我去过两次。",
+          "py": "Wǒ qù guo liǎng cì.",
+          "en": "I've been there twice."
         },
         {
-          "zh": "这本书我看了三遍。",
-          "py": "Zhè běn shū wǒ kàn le sān biàn.",
+          "zh": "这本书我看过三次。",
+          "py": "Zhè běn shū wǒ kàn guo sān cì.",
           "en": "I've read this book three times."
         },
         {
-          "zh": "请你帮我看一下儿。",
-          "py": "Qǐng nǐ bāng wǒ kàn yīxiàr.",
-          "en": "Please take a look for me. (一下儿 = brief action)"
+          "zh": "我以前来过两次。",
+          "py": "Wǒ yǐqián lái guo liǎng cì.",
+          "en": "I've been here twice before."
+        },
+        {
+          "zh": "请你再说一次。",
+          "py": "Qǐng nǐ zài shuō yī cì.",
+          "en": "Please say it one more time."
+        },
+        {
+          "zh": "你帮我看一下儿。",
+          "py": "Nǐ bāng wǒ kàn yīxiàr.",
+          "en": "Help me take a look. (一下儿 = short duration, casual)"
+        },
+        {
+          "zh": "我去过一次上海。",
+          "py": "Wǒ qù guo yī cì Shànghǎi.",
+          "en": "I've been to Shanghai once."
         }
       ]
     },
     {
-      "topic": "语法 · Grammar (动词/短语作定语 · Verb/VP as Attributive with 的)",
+      "topic": "语法 · Grammar (动词/动词短语作定语 · Verb/VP as Attributive)",
       "items": [
         {
-          "zh": "来的人很多。",
-          "py": "Lái de rén hěn duō.",
-          "en": "There are many people coming."
+          "zh": "回来的人很多。",
+          "py": "Huílái de rén hěn duō.",
+          "en": "There are many people who came back."
         },
         {
           "zh": "学习汉语的学生不少。",
@@ -683,7 +693,7 @@
         {
           "zh": "这是经理给您的信。",
           "py": "Zhè shì jīnglǐ gěi nín de xìn.",
-          "en": "This is a letter from the manager for you."
+          "en": "This is the letter from the manager for you."
         },
         {
           "zh": "从东京来的飞机下午到。",
@@ -756,59 +766,74 @@
       "topic": "练习 · Exercises",
       "items": [
         {
-          "zh": "我坐过三路汽车。",
-          "py": "Wǒ zuò guò sān lù qìchē.",
-          "en": "I've taken the No. 3 bus. (insert 三次)"
+          "zh": "我坐过两次五路汽车。",
+          "py": "Wǒ zuò guo liǎng cì wǔ lù qìchē.",
+          "en": "(Insert frequency) I've taken bus No. 5 twice."
         },
         {
-          "zh": "她去过上海三次。",
-          "py": "Tā qù guò Shànghǎi sān cì.",
-          "en": "She has been to Shanghai three times."
+          "zh": "她去过三次上海。",
+          "py": "Tā qù guo sān cì Shànghǎi.",
+          "en": "(Insert frequency) She's been to Shanghai three times."
         },
         {
           "zh": "动物园我去过两次。",
-          "py": "Dòngwùyuán wǒ qù guò liǎng cì.",
-          "en": "I've been to the zoo twice."
+          "py": "Dòngwùyuán wǒ qù guo liǎng cì.",
+          "en": "(Insert frequency) I've been to the zoo twice."
         },
         {
-          "zh": "今天我一瓶啤酒也没喝。",
+          "zh": "我哥哥的孩子吃过一次烤鸭。",
+          "py": "Wǒ gēge de háizi chī guo yī cì kǎoyā.",
+          "en": "(Insert frequency) My brother's child has had roast duck once."
+        },
+        {
+          "zh": "你帮我看一下儿。",
+          "py": "Nǐ bāng wǒ kàn yīxiàr.",
+          "en": "(Insert 一下儿) Help me take a quick look."
+        },
+        {
+          "zh": "今天我一瓶啤酒也没喝。→ 今天我一瓶啤酒也没喝。",
           "py": "Jīntiān wǒ yī píng píjiǔ yě méi hē.",
-          "en": "I haven't had a single bottle of beer today. (一...也没... pattern)"
+          "en": "(Rewrite with 一…也没…) I didn't drink a single bottle of beer today."
         },
         {
           "zh": "我一次也没去过动物园。",
-          "py": "Wǒ yī cì yě méi qù guò dòngwùyuán.",
-          "en": "I have never been to the zoo, not even once."
+          "py": "Wǒ yī cì yě méi qù guo dòngwùyuán.",
+          "en": "(Rewrite with 一…也没…) I haven't been to the zoo even once."
         },
         {
           "zh": "在北京他一次也没骑过自行车。",
-          "py": "Zài Běijīng tā yī cì yě méi qí guò zìxíngchē.",
-          "en": "He has never ridden a bicycle in Beijing."
+          "py": "Zài Běijīng tā yī cì yě méi qí guo zìxíngchē.",
+          "en": "(Rewrite with 一…也没…) He hasn't ridden a bicycle even once in Beijing."
         },
         {
           "zh": "今天我一分钱也没带。",
           "py": "Jīntiān wǒ yī fēn qián yě méi dài.",
-          "en": "I haven't brought a single cent today."
+          "en": "(Rewrite with 一…也没…) I didn't bring a single cent today."
         },
         {
           "zh": "他一个汉字也不认识。",
-          "py": "Tā yī gè Hànzì yě bú rènshi.",
-          "en": "He doesn't know a single Chinese character."
+          "py": "Tā yī ge Hànzì yě bù rènshi.",
+          "en": "(Rewrite with 一…也不…) He doesn't know a single Chinese character."
         },
         {
           "zh": "你来过中国吗？现在是第几次来？",
-          "py": "Nǐ lái guò Zhōngguó ma? Xiànzài shì dì jǐ cì lái?",
-          "en": "Have you been to China before? Which visit is this?"
+          "py": "Nǐ lái guo Zhōngguó ma? Xiànzài shì dì jǐ cì lái?",
+          "en": "(Questions) Have you been to China before? Which visit is this?"
         },
         {
-          "zh": "上星期五我去大同了。我是坐火车去的，今天早上回来的。",
-          "py": "Shàng xīngqīwǔ wǒ qù Dàtóng le. Wǒ shì zuò huǒchē qù de, jīntiān zǎoshang huílái de.",
-          "en": "(Retelling) Last Friday I went to Datong. I went by train and came back this morning."
+          "zh": "这本书有多少课？这是第几课？",
+          "py": "Zhè běn shū yǒu duōshao kè? Zhè shì dì jǐ kè?",
+          "en": "(Questions) How many lessons does this book have? Which lesson is this?"
         },
         {
-          "zh": "从北京到大同很近。坐火车去大概要七个小时。",
-          "py": "Cóng Běijīng dào Dàtóng hěn jìn. Zuò huǒchē qù dàgài yào qī ge xiǎoshí.",
-          "en": "(Retelling) Beijing to Datong is close. It takes about 7 hours by train."
+          "zh": "上星期五我去大同了。我是坐火车去的，今天早上回来的。我第一次去大同。我很喜欢这个地方。",
+          "py": "Shàng xīngqīwǔ wǒ qù Dàtóng le. Wǒ shì zuò huǒchē qù de, jīntiān zǎoshang huílái de. Wǒ dì yī cì qù Dàtóng. Wǒ hěn xǐhuan zhège dìfang.",
+          "en": "(Retelling) Last Friday I went to Datong. I went by train and came back this morning. It was my first time there. I really like this place."
+        },
+        {
+          "zh": "从北京到大同很近。坐火车去大概要七个小时。现在去，不冷也不热。下星期你也去吧。",
+          "py": "Cóng Běijīng dào Dàtóng hěn jìn. Zuò huǒchē qù dàgài yào qī ge xiǎoshí. Xiànzài qù, bù lěng yě bù rè. Xià xīngqī nǐ yě qù ba.",
+          "en": "(Retelling) Datong is close to Beijing. It takes about 7 hours by train. Now is a good time to go — not too cold or hot. You should go next week too."
         }
       ]
     }

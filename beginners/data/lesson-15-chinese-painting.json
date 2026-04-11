@@ -1,124 +1,9 @@
 {
   "title": "第十五课 · 我要照张相",
-  "subtitle": "Lesson 15 — 我要照张相 · I Want to Take a Picture",
+  "subtitle": "Lesson 15 — 我要照张相 · I Want to Take a Photo",
   "data": [
     {
-      "topic": "生词 · New Words (Textbook: 我要照张相)",
-      "items": [
-        {
-          "zh": "照相",
-          "py": "zhàoxiàng",
-          "en": "to take a photo"
-        },
-        {
-          "zh": "张",
-          "py": "zhāng",
-          "en": "measure word for photos/paper"
-        },
-        {
-          "zh": "相",
-          "py": "xiàng",
-          "en": "photo; appearance"
-        },
-        {
-          "zh": "明信片",
-          "py": "míngxìnpiàn",
-          "en": "postcard"
-        },
-        {
-          "zh": "新",
-          "py": "xīn",
-          "en": "new"
-        },
-        {
-          "zh": "出",
-          "py": "chū",
-          "en": "to come out; to publish; to produce"
-        },
-        {
-          "zh": "好看",
-          "py": "hǎokàn",
-          "en": "good-looking; attractive; nice"
-        },
-        {
-          "zh": "帮",
-          "py": "bāng",
-          "en": "to help"
-        },
-        {
-          "zh": "挑",
-          "py": "tiāo",
-          "en": "to pick; to choose; to select"
-        },
-        {
-          "zh": "种",
-          "py": "zhǒng",
-          "en": "kind; sort; type"
-        },
-        {
-          "zh": "套",
-          "py": "tào",
-          "en": "set (measure word)"
-        },
-        {
-          "zh": "公园",
-          "py": "gōngyuán",
-          "en": "park"
-        },
-        {
-          "zh": "花儿",
-          "py": "huār",
-          "en": "flower"
-        },
-        {
-          "zh": "叫",
-          "py": "jiào",
-          "en": "to call; to ask (someone to do something)"
-        },
-        {
-          "zh": "哎呀",
-          "py": "āiyā",
-          "en": "oh no; oh dear (exclamation)"
-        },
-        {
-          "zh": "手机",
-          "py": "shǒujī",
-          "en": "mobile phone; cellphone"
-        },
-        {
-          "zh": "电",
-          "py": "diàn",
-          "en": "electricity; battery"
-        },
-        {
-          "zh": "饮料",
-          "py": "yǐnliào",
-          "en": "drink; beverage"
-        },
-        {
-          "zh": "打通",
-          "py": "dǎtōng",
-          "en": "to get through (on the phone)"
-        },
-        {
-          "zh": "关机",
-          "py": "guānjī",
-          "en": "to turn off (phone); phone is off"
-        },
-        {
-          "zh": "不错",
-          "py": "búcuò",
-          "en": "not bad; pretty good"
-        },
-        {
-          "zh": "邓京",
-          "py": "Dèngjīng",
-          "en": "Dengjing (proper noun — person's name)"
-        }
-      ]
-    },
-    {
-      "topic": "生词 · New Words (中国画很有意思)",
+      "topic": "生词 · New Words",
       "items": [
         {
           "zh": "画",
@@ -213,37 +98,132 @@
       ]
     },
     {
-      "topic": "句子 · Key Sentences (Textbook: 我要照张相)",
+      "topic": "生词 · New Words (Textbook: 我要照张相)",
       "items": [
         {
-          "zh": "这是新出的明信片。",
-          "py": "Zhè shì xīn chū de míngxìnpiàn.",
-          "en": "These are newly released postcards."
+          "zh": "照相",
+          "py": "zhào xiàng",
+          "en": "to take a photo"
         },
         {
-          "zh": "还有好看的吗？",
-          "py": "Hái yǒu hǎokàn de ma?",
-          "en": "Are there any other nice ones?"
+          "zh": "出",
+          "py": "chū",
+          "en": "to come out; to produce; to publish"
         },
         {
-          "zh": "请你帮我挑几种。",
-          "py": "Qǐng nǐ bāng wǒ tiāo jǐ zhǒng.",
-          "en": "Please help me pick some."
+          "zh": "明信片",
+          "py": "míngxìnpiàn",
+          "en": "postcard"
         },
         {
-          "zh": "一种买一套吧。",
-          "py": "Yī zhǒng mǎi yī tào ba.",
-          "en": "Give me a set of each."
+          "zh": "好看",
+          "py": "hǎokàn",
+          "en": "good-looking; nice"
         },
         {
-          "zh": "手机没电了。",
-          "py": "Shǒujī méi diàn le.",
-          "en": "The mobile phone has no battery."
+          "zh": "帮",
+          "py": "bāng",
+          "en": "to help"
+        },
+        {
+          "zh": "挑",
+          "py": "tiāo",
+          "en": "to choose; to pick; to select"
+        },
+        {
+          "zh": "种",
+          "py": "zhǒng",
+          "en": "kind; type (measure word)"
+        },
+        {
+          "zh": "套",
+          "py": "tào",
+          "en": "set (measure word)"
+        },
+        {
+          "zh": "别的",
+          "py": "bié de",
+          "en": "other; else"
+        },
+        {
+          "zh": "公园",
+          "py": "gōngyuán",
+          "en": "park"
+        },
+        {
+          "zh": "不错",
+          "py": "búcuò",
+          "en": "not bad; pretty good"
+        },
+        {
+          "zh": "花儿",
+          "py": "huār",
+          "en": "flower"
+        },
+        {
+          "zh": "真",
+          "py": "zhēn",
+          "en": "really; truly"
+        },
+        {
+          "zh": "照",
+          "py": "zhào",
+          "en": "to photograph; to take (a photo)"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give; for (preposition)"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "en": "to make a phone call"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to call; to ask (someone to do something)"
+        },
+        {
+          "zh": "哎呀",
+          "py": "āiyā",
+          "en": "oh no; oh dear (exclamation)"
+        },
+        {
+          "zh": "手机",
+          "py": "shǒujī",
+          "en": "mobile phone; cell phone"
+        },
+        {
+          "zh": "电",
+          "py": "diàn",
+          "en": "electricity; power"
+        },
+        {
+          "zh": "饮料",
+          "py": "yǐnliào",
+          "en": "drink; beverage"
+        },
+        {
+          "zh": "打通",
+          "py": "dǎ tōng",
+          "en": "to get through (phone call)"
+        },
+        {
+          "zh": "关机",
+          "py": "guān jī",
+          "en": "to turn off (the phone)"
+        },
+        {
+          "zh": "邓经理",
+          "py": "Dèng jīnglǐ",
+          "en": "Manager Deng (proper noun)"
         }
       ]
     },
     {
-      "topic": "句子 · Key Sentences (中国画很有意思)",
+      "topic": "句子 · Key Sentences",
       "items": [
         {
           "zh": "中国画很有意思。",
@@ -283,102 +263,37 @@
       ]
     },
     {
-      "topic": "会话1 · Dialogue 1 (Textbook: At the Post Office)",
+      "topic": "句子 · Key Sentences (Textbook: 我要照张相)",
       "items": [
         {
-          "zh": "和子：有明信片吗？",
-          "py": "Hézǐ: Yǒu míngxìnpiàn ma?",
-          "en": "Hezi: Do you have postcards?"
+          "zh": "这是新出的明信片。",
+          "py": "Zhè shì xīn chū de míngxìnpiàn.",
+          "en": "These are newly published postcards."
         },
         {
-          "zh": "营业员：有，这是新出的。",
-          "py": "Yíngyèyuán: Yǒu, zhè shì xīn chū de.",
-          "en": "Clerk: Yes, these are newly released."
+          "zh": "还有好看的吗？",
+          "py": "Hái yǒu hǎokàn de ma?",
+          "en": "Are there any other nice-looking ones?"
         },
         {
-          "zh": "和子：还有好看的吗？",
-          "py": "Hézǐ: Hái yǒu hǎokàn de ma?",
-          "en": "Hezi: Are there any other nice ones?"
+          "zh": "请你帮我挑几种。",
+          "py": "Qǐng nǐ bāng wǒ tiāo jǐ zhǒng.",
+          "en": "Please help me pick a few kinds."
         },
         {
-          "zh": "营业员：你看看，这几种怎么样？",
-          "py": "Yíngyèyuán: Nǐ kànkan, zhè jǐ zhǒng zěnmeyàng?",
-          "en": "Clerk: Have a look, how about these few kinds?"
+          "zh": "一种买一套吧。",
+          "py": "Yī zhǒng mǎi yī tào ba.",
+          "en": "Buy a set of each kind."
         },
         {
-          "zh": "和子：请你帮我挑几种。",
-          "py": "Hézǐ: Qǐng nǐ bāng wǒ tiāo jǐ zhǒng.",
-          "en": "Hezi: Please help me pick some."
-        },
-        {
-          "zh": "营业员：我看这四种都很好。",
-          "py": "Yíngyèyuán: Wǒ kàn zhè sì zhǒng dōu hěn hǎo.",
-          "en": "Clerk: I think all four kinds are nice."
-        },
-        {
-          "zh": "和子：那一种买一套吧。",
-          "py": "Hézǐ: Nà yī zhǒng mǎi yī tào ba.",
-          "en": "Hezi: Then give me a set of each."
-        },
-        {
-          "zh": "营业员：还买别的吗？",
-          "py": "Yíngyèyuán: Hái mǎi bié de ma?",
-          "en": "Clerk: Anything else?"
-        },
-        {
-          "zh": "和子：不买了。",
-          "py": "Hézǐ: Bù mǎi le.",
-          "en": "Hezi: No, that's all."
+          "zh": "手机没电了。",
+          "py": "Shǒujī méi diàn le.",
+          "en": "The mobile phone is out of battery."
         }
       ]
     },
     {
-      "topic": "会话2 · Dialogue 2 (Textbook: In the Park)",
-      "items": [
-        {
-          "zh": "和子：这个公园不错。",
-          "py": "Hézǐ: Zhège gōngyuán búcuò.",
-          "en": "Hezi: This park is quite nice."
-        },
-        {
-          "zh": "张丽英：那种花儿真好看，我要照张相。",
-          "py": "Zhāng Lìyīng: Nà zhǒng huār zhēn hǎokàn, wǒ yào zhào zhāng xiàng.",
-          "en": "Zhang Liying: Those flowers are really beautiful, I want to take a photo."
-        },
-        {
-          "zh": "和子：给玛丽打个电话，叫她也来吧。",
-          "py": "Hézǐ: Gěi Mǎlì dǎ ge diànhuà, jiào tā yě lái ba.",
-          "en": "Hezi: Call Mary, ask her to come too."
-        },
-        {
-          "zh": "张丽英：哎呀，我的手机没电了。",
-          "py": "Zhāng Lìyīng: Āiyā, wǒ de shǒujī méi diàn le.",
-          "en": "Zhang Liying: Oh no, my phone has no battery."
-        },
-        {
-          "zh": "和子：我打吧。",
-          "py": "Hézǐ: Wǒ dǎ ba.",
-          "en": "Hezi: I'll call."
-        },
-        {
-          "zh": "张丽英：好。我去买点儿饮料。",
-          "py": "Zhāng Lìyīng: Hǎo. Wǒ qù mǎi diǎnr yǐnliào.",
-          "en": "Zhang Liying: OK. I'll go buy some drinks."
-        },
-        {
-          "zh": "张丽英：你打通电话了吗？",
-          "py": "Zhāng Lìyīng: Nǐ dǎtōng diànhuà le ma?",
-          "en": "Zhang Liying: Did you get through?"
-        },
-        {
-          "zh": "和子：没打通，她关机了。",
-          "py": "Hézǐ: Méi dǎtōng, tā guānjī le.",
-          "en": "Hezi: No, her phone is off."
-        }
-      ]
-    },
-    {
-      "topic": "会话3 · Dialogue 3 (Chinese Culture)",
+      "topic": "会话1 · Dialogue 1 (Chinese Culture)",
       "items": [
         {
           "zh": "张老师：大卫，你对什么感兴趣？",
@@ -423,7 +338,7 @@
       ]
     },
     {
-      "topic": "会话4 · Dialogue 4 (How Long?)",
+      "topic": "会话2 · Dialogue 2 (How long?)",
       "items": [
         {
           "zh": "大卫：和子，你学汉语学了多长时间了？",
@@ -468,72 +383,102 @@
       ]
     },
     {
-      "topic": "替换 · Substitution Drills (Textbook: 我要照张相)",
+      "topic": "会话3 · Dialogue 3 (Textbook: At the Post Office)",
       "items": [
         {
-          "zh": "这是新出的明信片。→ 这是新出的电影。",
-          "py": "Zhè shì xīn chū de míngxìnpiàn. → Zhè shì xīn chū de diànyǐng.",
-          "en": "These are new postcards. → This is a new movie."
+          "zh": "和子：有明信片吗？",
+          "py": "Hézǐ: Yǒu míngxìnpiàn ma?",
+          "en": "Hezi: Do you have postcards?"
         },
         {
-          "zh": "这是新出的书。",
-          "py": "Zhè shì xīn chū de shū.",
-          "en": "This is a newly released book."
+          "zh": "营业员：有，这是新出的。",
+          "py": "Yíngyèyuán: Yǒu, zhè shì xīn chū de.",
+          "en": "Clerk: Yes, these are newly published ones."
         },
         {
-          "zh": "这是新出的光盘。",
-          "py": "Zhè shì xīn chū de guāngpán.",
-          "en": "This is a newly released CD/DVD."
+          "zh": "和子：还有好看的吗？",
+          "py": "Hézǐ: Hái yǒu hǎokàn de ma?",
+          "en": "Hezi: Are there any other nice-looking ones?"
         },
         {
-          "zh": "请你帮我挑几种明信片。→ 请你帮我买东西。",
-          "py": "Qǐng nǐ bāng wǒ tiāo jǐ zhǒng míngxìnpiàn. → Qǐng nǐ bāng wǒ mǎi dōngxi.",
-          "en": "Help me pick some postcards. → Help me buy some things."
+          "zh": "营业员：你看看，这几种怎么样？",
+          "py": "Yíngyèyuán: Nǐ kànkan, zhè jǐ zhǒng zěnmeyàng?",
+          "en": "Clerk: Have a look, how about these few kinds?"
         },
         {
-          "zh": "请你帮我找人。",
-          "py": "Qǐng nǐ bāng wǒ zhǎo rén.",
-          "en": "Please help me find someone."
+          "zh": "和子：请你帮我挑几种。",
+          "py": "Hézǐ: Qǐng nǐ bāng wǒ tiāo jǐ zhǒng.",
+          "en": "Hezi: Please help me pick a few kinds."
         },
         {
-          "zh": "请你帮我看看画。",
-          "py": "Qǐng nǐ bāng wǒ kànkan huà.",
-          "en": "Please help me look at the paintings."
+          "zh": "营业员：我看这四种都很好。",
+          "py": "Yíngyèyuán: Wǒ kàn zhè sì zhǒng dōu hěn hǎo.",
+          "en": "Clerk: I think all four kinds are nice."
         },
         {
-          "zh": "你打通电话了吗？→ 你找到他了吗？",
-          "py": "Nǐ dǎtōng diànhuà le ma? → Nǐ zhǎodào tā le ma?",
-          "en": "Did you get through? → Did you find him?"
+          "zh": "和子：那一种买一套吧。",
+          "py": "Hézǐ: Nà yī zhǒng mǎi yī tào ba.",
+          "en": "Hezi: Then I'll buy a set of each kind."
         },
         {
-          "zh": "你看到她了吗？",
-          "py": "Nǐ kàndào tā le ma?",
-          "en": "Did you see her?"
+          "zh": "营业员：还买别的吗？",
+          "py": "Yíngyèyuán: Hái mǎi bié de ma?",
+          "en": "Clerk: Anything else?"
         },
         {
-          "zh": "你买到电脑了吗？",
-          "py": "Nǐ mǎidào diànnǎo le ma?",
-          "en": "Did you manage to buy the computer?"
+          "zh": "和子：不买了。",
+          "py": "Hézǐ: Bú mǎi le.",
+          "en": "Hezi: No, that's all."
         }
       ]
     },
     {
-      "topic": "扩展 · Extension Sentences (Textbook)",
+      "topic": "会话4 · Dialogue 4 (Textbook: At the Park)",
       "items": [
         {
-          "zh": "我给他发电子邮件。",
-          "py": "Wǒ gěi tā fā diànzǐ yóujiàn.",
-          "en": "I send him an email."
+          "zh": "和子：这个公园不错。",
+          "py": "Hézǐ: Zhège gōngyuán búcuò.",
+          "en": "Hezi: This park is nice."
         },
         {
-          "zh": "我给邓京打电话。我说汉语，她不懂；说英语，她听懂了。",
-          "py": "Wǒ gěi Dèngjīng dǎ diànhuà. Wǒ shuō Hànyǔ, tā bù dǒng; shuō Yīngyǔ, tā tīng dǒng le.",
-          "en": "I called Dengjing. I spoke Chinese, she didn't understand; I spoke English, she understood."
+          "zh": "张丽英：那种花儿真好看，我要照张相。",
+          "py": "Zhāng Lìyīng: Nà zhǒng huār zhēn hǎokàn, wǒ yào zhào zhāng xiàng.",
+          "en": "Zhang Liying: Those flowers are really pretty, I want to take a photo."
+        },
+        {
+          "zh": "和子：给玛丽打个电话，叫她也来吧。",
+          "py": "Hézǐ: Gěi Mǎlì dǎ ge diànhuà, jiào tā yě lái ba.",
+          "en": "Hezi: Give Mary a call and ask her to come too."
+        },
+        {
+          "zh": "张丽英：哎呀，我的手机没电了。",
+          "py": "Zhāng Lìyīng: Āiyā, wǒ de shǒujī méi diàn le.",
+          "en": "Zhang Liying: Oh no, my phone is out of battery."
+        },
+        {
+          "zh": "和子：我打吧。",
+          "py": "Hézǐ: Wǒ dǎ ba.",
+          "en": "Hezi: I'll call."
+        },
+        {
+          "zh": "张丽英：好。我去买点儿饮料。",
+          "py": "Zhāng Lìyīng: Hǎo. Wǒ qù mǎi diǎnr yǐnliào.",
+          "en": "Zhang Liying: OK. I'll go buy some drinks."
+        },
+        {
+          "zh": "张丽英：你打通电话了吗？",
+          "py": "Zhāng Lìyīng: Nǐ dǎ tōng diànhuà le ma?",
+          "en": "Zhang Liying: Did you get through?"
+        },
+        {
+          "zh": "和子：没打通，她关机了。",
+          "py": "Hézǐ: Méi dǎ tōng, tā guān jī le.",
+          "en": "Hezi: No, her phone is turned off."
         }
       ]
     },
     {
-      "topic": "替换 · Substitution Drills (中国画很有意思)",
+      "topic": "替换 · Substitution Drills",
       "items": [
         {
           "zh": "你对什么感兴趣？",
@@ -578,7 +523,52 @@
       ]
     },
     {
-      "topic": "扩展 · Extension Sentences (中国画很有意思)",
+      "topic": "替换与扩展 · Substitution & Extension (Textbook: 我要照张相)",
+      "items": [
+        {
+          "zh": "这是新出的明信片。→ 这是新出的报纸。",
+          "py": "Zhè shì xīn chū de míngxìnpiàn. → Zhè shì xīn chū de bàozhǐ.",
+          "en": "These are newly published postcards. → newspapers."
+        },
+        {
+          "zh": "这是新出的书。",
+          "py": "Zhè shì xīn chū de shū.",
+          "en": "These are newly published books."
+        },
+        {
+          "zh": "请你帮我挑几种明信片。→ 请你帮我挑几件衣服。",
+          "py": "Qǐng nǐ bāng wǒ tiāo jǐ zhǒng míngxìnpiàn. → Qǐng nǐ bāng wǒ tiāo jǐ jiàn yīfu.",
+          "en": "Help me pick some postcards. → some clothes."
+        },
+        {
+          "zh": "请你帮我挑几样东西。",
+          "py": "Qǐng nǐ bāng wǒ tiāo jǐ yàng dōngxi.",
+          "en": "Please help me pick a few things."
+        },
+        {
+          "zh": "你打通电话了吗？→ 你找到图书馆了吗？",
+          "py": "Nǐ dǎ tōng diànhuà le ma? → Nǐ zhǎo dào túshūguǎn le ma?",
+          "en": "Did you get through? → Did you find the library?"
+        },
+        {
+          "zh": "你买到电脑了吗？",
+          "py": "Nǐ mǎi dào diànnǎo le ma?",
+          "en": "Did you manage to buy a computer?"
+        },
+        {
+          "zh": "我给他发电子邮件。",
+          "py": "Wǒ gěi tā fā diànzǐ yóujiàn.",
+          "en": "I send him an email."
+        },
+        {
+          "zh": "我给邓经理打电话。我说汉语，他不懂；说英语，他听懂了。",
+          "py": "Wǒ gěi Dèng jīnglǐ dǎ diànhuà. Wǒ shuō Hànyǔ, tā bù dǒng; shuō Yīngyǔ, tā tīng dǒng le.",
+          "en": "I called Manager Deng. I spoke Chinese, he didn't understand; I spoke English, he understood."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension Sentences",
       "items": [
         {
           "zh": "你来中国多长时间了？",
@@ -604,56 +594,6 @@
           "zh": "学汉语难不难？——不太难，可是汉字很难。",
           "py": "Xué Hànyǔ nán bu nán? —— Bú tài nán, kěshì Hànzì hěn nán.",
           "en": "Is learning Chinese hard? — Not too hard, but characters are hard."
-        }
-      ]
-    },
-    {
-      "topic": "语法 · Grammar (Textbook: \"是\"字句(2) & 结果补语)",
-      "items": [
-        {
-          "zh": "这是新出的。",
-          "py": "Zhè shì xīn chū de.",
-          "en": "\"的\" construction with 是: These are newly released ones."
-        },
-        {
-          "zh": "这件毛衣不是玛丽的。",
-          "py": "Zhè jiàn máoyī bú shì Mǎlì de.",
-          "en": "This sweater isn't Mary's. (是...的 for possession/attribution)"
-        },
-        {
-          "zh": "这个照相机是大卫新买的。",
-          "py": "Zhège zhàoxiàngjī shì Dàwèi xīn mǎi de.",
-          "en": "This camera was newly bought by David."
-        },
-        {
-          "zh": "结果补语：打通",
-          "py": "Jiéguǒ bǔyǔ: dǎtōng",
-          "en": "Complement of result: 打通 = to get through (result of calling)"
-        },
-        {
-          "zh": "你打通电话了吗？——没打通。",
-          "py": "Nǐ dǎtōng diànhuà le ma? —— Méi dǎtōng.",
-          "en": "Did you get through? — No."
-        },
-        {
-          "zh": "他回到北京了。",
-          "py": "Tā huí dào Běijīng le.",
-          "en": "He has returned to Beijing. (到 as complement of result: reached the destination)"
-        },
-        {
-          "zh": "我们学到第十五课了。",
-          "py": "Wǒmen xué dào dì shíwǔ kè le.",
-          "en": "We've studied up to Lesson 15. (到 = up to a certain point)"
-        },
-        {
-          "zh": "她昨天晚上工作到十点。",
-          "py": "Tā zuótiān wǎnshang gōngzuò dào shí diǎn.",
-          "en": "She worked until 10 o'clock last night."
-        },
-        {
-          "zh": "这样写，对不对？——写对了。",
-          "py": "Zhèyàng xiě, duì bu duì? —— Xiě duì le.",
-          "en": "Is this written correctly? — Yes, it's written correctly. (对 as complement)"
         }
       ]
     },
@@ -688,7 +628,7 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (一点儿也不/没…)",
+      "topic": "语法 · Grammar (一点儿也不/没...)",
       "items": [
         {
           "zh": "一点儿也不会。",
@@ -713,32 +653,122 @@
       ]
     },
     {
-      "topic": "练习 · Exercises",
+      "topic": "语法 · Grammar (Textbook: 「是」字句(2) — 「的」字结构)",
       "items": [
         {
-          "zh": "请你帮我照张相。",
-          "py": "Qǐng nǐ bāng wǒ zhào zhāng xiàng.",
-          "en": "Please help me take a photo."
+          "zh": "「的」字结构：名词/代词/形容词 + 的 = 名词性短语",
+          "py": "\"de\" zì jiégòu: míngcí/dàicí/xíngróngcí + de = míngcí xìng duǎnyǔ",
+          "en": "The '的' construction: noun/pronoun/adjective + 的 functions as a noun phrase."
         },
         {
-          "zh": "你找到他了吗？——找到了。",
-          "py": "Nǐ zhǎodào tā le ma? —— Zhǎodào le.",
-          "en": "Did you find him? — Yes."
+          "zh": "这是新出的。",
+          "py": "Zhè shì xīn chū de.",
+          "en": "These are newly published ones. (的 replaces the noun)"
         },
         {
-          "zh": "我给他打电话了，可是没打通。",
-          "py": "Wǒ gěi tā dǎ diànhuà le, kěshì méi dǎtōng.",
-          "en": "I called him, but couldn't get through."
+          "zh": "还有好看的吗？",
+          "py": "Hái yǒu hǎokàn de ma?",
+          "en": "Are there nice-looking ones? (好看的 = nice-looking ones)"
         },
         {
-          "zh": "这个公园的花儿真好看！",
-          "py": "Zhège gōngyuán de huār zhēn hǎokàn!",
-          "en": "The flowers in this park are really beautiful!"
+          "zh": "这件毛衣不是玛丽的。",
+          "py": "Zhè jiàn máoyī bú shì Mǎlì de.",
+          "en": "This sweater is not Mary's. (玛丽的 = Mary's one)"
         },
         {
-          "zh": "听后复述：这个照相机是大卫新买的。昨天北京大学的两个中国学生来玩儿，我们一起照相了。北京大学的朋友说，星期天请我们去玩儿。他们在东门等我们。我们去的时候，先给他们打电话。",
-          "py": "Tīng hòu fùshù: Zhège zhàoxiàngjī shì Dàwèi xīn mǎi de. Zuótiān Běijīng Dàxué de liǎng ge Zhōngguó xuéshēng lái wánr, wǒmen yīqǐ zhàoxiàng le. Běijīng Dàxué de péngyou shuō, xīngqītiān qǐng wǒmen qù wánr. Tāmen zài dōngmén děng wǒmen. Wǒmen qù de shíhou, xiān gěi tāmen dǎ diànhuà.",
-          "en": "Listen & retell: This camera was newly bought by David. Yesterday two Chinese students from Peking University came to hang out, and we took photos together. Our friends at PKU said they'd invite us to hang out on Sunday. They'll wait for us at the east gate. We should call them first when we go."
+          "zh": "这个照相机是大卫新买的。",
+          "py": "Zhège zhàoxiàngjī shì Dàwèi xīn mǎi de.",
+          "en": "This camera is the one David just bought."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Textbook: 结果补语 Complement of Result)",
+      "items": [
+        {
+          "zh": "结果补语由动词或形容词充任，表示动作的结果。",
+          "py": "Jiéguǒ bǔyǔ yóu dòngcí huò xíngróngcí chōngrèn, biǎoshì dòngzuò de jiéguǒ.",
+          "en": "A complement of result is a verb or adjective showing the outcome of an action."
+        },
+        {
+          "zh": "打通：你打通电话了吗？——没打通。",
+          "py": "dǎ tōng: Nǐ dǎ tōng diànhuà le ma? —— Méi dǎ tōng.",
+          "en": "dǎ tōng (get through): Did you get through? — No."
+        },
+        {
+          "zh": "写对：这样写，对不对？——写对了。",
+          "py": "xiě duì: Zhèyàng xiě, duì bu duì? —— Xiě duì le.",
+          "en": "xiě duì (write correctly): Is this right? — Yes, it's correct."
+        },
+        {
+          "zh": "听懂：说英语，他听懂了。",
+          "py": "tīng dǒng: Shuō Yīngyǔ, tā tīng dǒng le.",
+          "en": "tīng dǒng (understand by listening): Speaking English, he understood."
+        },
+        {
+          "zh": "找到：你们怎么找到这儿的？",
+          "py": "zhǎo dào: Nǐmen zěnme zhǎo dào zhèr de?",
+          "en": "zhǎo dào (find): How did you find this place?"
+        },
+        {
+          "zh": "「到」作结果补语：他回到北京了。",
+          "py": "\"dào\" zuò jiéguǒ bǔyǔ: Tā huí dào Běijīng le.",
+          "en": "'到' as complement: He has returned to Beijing."
+        },
+        {
+          "zh": "我们学到第十五课了。",
+          "py": "Wǒmen xué dào dì shíwǔ kè le.",
+          "en": "We've studied up to Lesson 15."
+        },
+        {
+          "zh": "她昨天晚上工作到十点。",
+          "py": "Tā zuótiān wǎnshang gōngzuò dào shí diǎn.",
+          "en": "She worked until 10 o'clock last night."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Exercises (Textbook: 我要照张相)",
+      "items": [
+        {
+          "zh": "这个照相机是大卫新买的。",
+          "py": "Zhège zhàoxiàngjī shì Dàwèi xīn mǎi de.",
+          "en": "This camera is the one David just bought."
+        },
+        {
+          "zh": "昨天北京大学的两个中国学生来玩儿，我们一起照相了。",
+          "py": "Zuótiān Běijīng Dàxué de liǎng ge Zhōngguó xuésheng lái wánr, wǒmen yīqǐ zhào xiàng le.",
+          "en": "Yesterday two Chinese students from Peking University came to visit; we took photos together."
+        },
+        {
+          "zh": "北京大学的朋友说，星期天请我们去玩儿。",
+          "py": "Běijīng Dàxué de péngyou shuō, xīngqītiān qǐng wǒmen qù wánr.",
+          "en": "Our Peking University friends said they'd invite us over on Sunday."
+        },
+        {
+          "zh": "他们在北大东门等我们。",
+          "py": "Tāmen zài Běidà dōngmén děng wǒmen.",
+          "en": "They'll wait for us at Peking University's east gate."
+        },
+        {
+          "zh": "我们去的时候，先给他们打电话。",
+          "py": "Wǒmen qù de shíhou, xiān gěi tāmen dǎ diànhuà.",
+          "en": "When we go, we'll call them first."
+        },
+        {
+          "zh": "你们怎么找到这儿的？——小马带我们来的。",
+          "py": "Nǐmen zěnme zhǎo dào zhèr de? —— Xiǎo Mǎ dài wǒmen lái de.",
+          "en": "How did you find this place? — Xiao Ma brought us."
+        },
+        {
+          "zh": "我们下车以后很快就找到了这个楼。",
+          "py": "Wǒmen xià chē yǐhòu hěn kuài jiù zhǎo dào le zhège lóu.",
+          "en": "After getting off the bus we quickly found this building."
+        },
+        {
+          "zh": "不远，坐18路车就可以到那儿。",
+          "py": "Bù yuǎn, zuò shíbā lù chē jiù kěyǐ dào nàr.",
+          "en": "Not far, you can get there by taking bus No. 18."
         }
       ]
     }

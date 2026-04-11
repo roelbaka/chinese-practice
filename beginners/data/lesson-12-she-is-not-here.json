@@ -716,6 +716,62 @@
           "en": "I'll call you this evening."
         }
       ]
+    },
+    {
+      "topic": "课上要点 · Class notes (interpretation, not verbatim)",
+      "browseOnly": true,
+      "items": [
+        {
+          "zh": "总览 · What this session was about",
+          "py": "",
+          "en": "Warm-up and extension tied to Lesson 12 (shopping / clothes, 我想买…). The hour mixed textbook-style Mandarin (where things are, towel vs scarf, measure words and radicals) with a long digression into real-life wardrobe vocabulary in Chinese—layers of clothing, what counts as “outer” vs “inner,” and colloquial terms learners rarely meet in chapter 12 alone. Dutch, German, and English were used for jokes and logistics; only the Mandarin-relevant threads are summarized below."
+        },
+        {
+          "zh": "重复主题 · “Where is it?”",
+          "py": "",
+          "en": "Came back several times: locating the scarf (围巾) inside the coat (外套), using 里边 / 里面 / 在衣服里面. Same idea as textbook “describe position,” but applied to something you were actually wearing in class."
+        },
+        {
+          "zh": "重复主题 · 毛巾 vs 小毛巾",
+          "py": "",
+          "en": "Repeated contrast: 毛巾 (bath/hand towel, big) vs a small cloth for the face (often discussed as 洗脸巾 in modern usage). Also touched 浴巾 for after-shower / beach. Learners kept mixing this with Dutch handdoek—takeaway: size and purpose matter in Chinese, not one English word for all towels."
+        },
+        {
+          "zh": "重复主题 · 外套 = generic “outer layer”",
+          "py": "wàitào",
+          "en": "This was the most persistent thread: 外套 is a broad “something you put over indoor clothes when you go out,” not one cut like “jacket” in English. A zip hoodie, casual jacket, or bomber can still be 外套; you then narrow down (夹克, 帽衫, 羽绒服). Analogy used: like “dog” vs “poodle”—hypernym vs specific breed."
+        },
+        {
+          "zh": "重复主题 · 内衣 / 内裤 / 睡衣 / 家居服",
+          "py": "",
+          "en": "Underwear and “house clothes” came up again and again (register and gender: 内衣 vs 内裤, 睡衣 vs 家居服, generational words like 文胸). Takeaway: wrong collocations get noticed; these words are useful in real life but are sensitive—study with a teacher or trusted materials, not random slang lists."
+        },
+        {
+          "zh": "重复主题 · 我想买…",
+          "py": "Wǒ xiǎng mǎi…",
+          "en": "Drill pattern repeated: 我想买 T恤 / 裤子 / 牛仔裤—same structure as the lesson title 我想买毛衣, swapping the object. Good bridge from textbook sentence to spontaneous production."
+        },
+        {
+          "zh": "重复主题 · 衣旁 & 体恤",
+          "py": "",
+          "en": "Character teaching returned twice: the clothing radical (衣 / ⻂) on many garment characters; 恤 in 体恤 / T恤 as a loanword shape where the English “T” stands in for part of the word—why you do not “see” a radical the way you do in 裙 or 裤."
+        },
+        {
+          "zh": "重复主题 · 羽绒服",
+          "py": "yǔróngfú",
+          "en": "Explained more than once: 羽绒 = down (feather + down), 羽绒服 = down jacket. Side note on fashion in Europe vs China—memorable but not exam content."
+        },
+        {
+          "zh": "一次性的后勤 · Logistics (mentioned, not core Mandarin)",
+          "py": "",
+          "en": "PDF / textbook link, spilled coffee on books, iPad vs paper, website and download folder (“Mijn bestanden” / audio files)—practical for the group, not part of the linguistic curriculum."
+        },
+        {
+          "zh": "尾声 · 万 / 一万",
+          "py": "wàn / yī wàn",
+          "en": "Session ended on learner confusion between sounds (e.g. 一万 and similar syllables in fast speech). Worth a short targeted listen-and-repeat, not more vocabulary in that moment."
+        }
+      ]
     }
   ]
 }

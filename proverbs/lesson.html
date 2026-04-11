@@ -209,8 +209,12 @@ if (!lessonId) {
 }
 
 function getItems() {
-  if (currentTopic === "all") return DATA.flatMap(t => t.items);
-  return DATA.find(t => t.topic === currentTopic)?.items || [];
+  if (currentTopic === "all") {
+    return DATA.flatMap(t => (t.browseOnly ? [] : t.items));
+  }
+  const sec = DATA.find(t => t.topic === currentTopic);
+  if (!sec || sec.browseOnly) return [];
+  return sec.items;
 }
 
 function shuffle(arr) { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
@@ -259,7 +263,8 @@ function renderBrowse() {
       html += `</div>`;
     });
   } else {
-    const items = getItems();
+    const sec = DATA.find(t => t.topic === currentTopic);
+    const items = sec?.items || [];
     html += `<div class="card-grid">`;
     items.forEach(item => {
       const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : ""].filter(Boolean).join(" ");
@@ -293,6 +298,10 @@ function renderFlashcard() {
     fcItems = shuffle(getItems());
     fcIndex = 0;
     fcRevealed = false;
+  }
+  if (!fcItems.length) {
+    app.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:2rem;">No flashcards in this topic. Try another section or “All”.</p>`;
+    return;
   }
   const item = fcItems[fcIndex];
   app.innerHTML = `<div class="flashcard-container">

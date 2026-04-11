@@ -598,12 +598,12 @@
       ]
     },
     {
-      "topic": "语法 · Grammar (Textbook: 语气助词"了"(2))",
+      "topic": "语法 · Grammar (Textbook: 语气助词「了」(2))",
       "items": [
         {
-          "zh": "语气助词"了"表示某件事或某种情况已经发生。",
-          "py": "Yǔqì zhùcí \"le\" biǎoshì mǒu jiàn shì huò mǒu zhǒng qíngkuàng yǐjīng fāshēng.",
-          "en": "The modal particle 了 indicates that an event or situation has already occurred."
+          "zh": "语气助词「了」表示某件事或某种情况已经发生。",
+          "py": "Yǔqì zhùcí 'le' biǎoshì mǒu jiàn shì huò mǒu zhǒng qíngkuàng yǐjīng fāshēng.",
+          "en": "The modal particle 了(le) indicates that an event or situation has already occurred."
         },
         {
           "zh": "你去哪儿？→ 你去哪儿了？",
@@ -626,7 +626,7 @@
           "en": "I buy apples. → I bought apples."
         },
         {
-          "zh": "否定形式：他没去商店。（没 + V，去掉"了"）",
+          "zh": "否定形式：他没去商店。（没 + V，去掉「了」）",
           "py": "Fǒudìng xíngshì: Tā méi qù shāngdiàn. (méi + V, qùdiào \"le\")",
           "en": "Negative: He didn't go to the store. (没 + V, drop 了)"
         },
