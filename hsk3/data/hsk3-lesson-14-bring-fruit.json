@@ -218,6 +218,106 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 14)",
+      "items": [
+        {
+          "zh": "扫",
+          "py": "sǎo",
+          "en": "to sweep (as in dǎsǎo – to clean)"
+        },
+        {
+          "zh": "干",
+          "py": "gān",
+          "en": "dry; clean (as in gānjìng – clean)"
+        },
+        {
+          "zh": "净",
+          "py": "jìng",
+          "en": "clean (as in gānjìng – clean)"
+        },
+        {
+          "zh": "冰",
+          "py": "bīng",
+          "en": "ice (as in bīngxiāng – refrigerator)"
+        },
+        {
+          "zh": "澡",
+          "py": "zǎo",
+          "en": "bath (as in xǐ zǎo – to take a bath/shower)"
+        },
+        {
+          "zh": "目",
+          "py": "mù",
+          "en": "eye; item (as in jiémù – programme)"
+        },
+        {
+          "zh": "像",
+          "py": "xiàng",
+          "en": "to resemble; like"
+        },
+        {
+          "zh": "盘",
+          "py": "pán",
+          "en": "plate; dish (as in pánzi – plate)"
+        },
+        {
+          "zh": "刮",
+          "py": "guā",
+          "en": "to blow (wind); to scrape (as in guā fēng – to be windy)"
+        },
+        {
+          "zh": "风",
+          "py": "fēng",
+          "en": "wind (as in guā fēng – to be windy)"
+        },
+        {
+          "zh": "叔",
+          "py": "shū",
+          "en": "uncle (as in shūshu – uncle)"
+        },
+        {
+          "zh": "阿",
+          "py": "ā",
+          "en": "(prefix for names/kinship) (as in āyí – aunt)"
+        },
+        {
+          "zh": "姨",
+          "py": "yí",
+          "en": "aunt (as in āyí – aunt)"
+        },
+        {
+          "zh": "故",
+          "py": "gù",
+          "en": "old; reason; story (as in gùshi – story)"
+        },
+        {
+          "zh": "声",
+          "py": "shēng",
+          "en": "sound; voice (as in shēngyīn – sound)"
+        },
+        {
+          "zh": "单",
+          "py": "dān",
+          "en": "single; list (as in càidān – menu)"
+        },
+        {
+          "zh": "简",
+          "py": "jiǎn",
+          "en": "simple (as in jiǎndān – simple)"
+        },
+        {
+          "zh": "香",
+          "py": "xiāng",
+          "en": "fragrant (as in xiāngjiāo – banana)"
+        },
+        {
+          "zh": "蕉",
+          "py": "jiāo",
+          "en": "banana; plantain (as in xiāngjiāo – banana)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (把字句 A把B + V + 结果/趋向补语)",
       "items": [
         {

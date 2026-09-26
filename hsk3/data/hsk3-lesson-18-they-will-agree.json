@@ -208,6 +208,61 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 18)",
+      "items": [
+        {
+          "zh": "向",
+          "py": "xiàng",
+          "en": "towards"
+        },
+        {
+          "zh": "万",
+          "py": "wàn",
+          "en": "ten thousand"
+        },
+        {
+          "zh": "嘴",
+          "py": "zuǐ",
+          "en": "mouth"
+        },
+        {
+          "zh": "动",
+          "py": "dòng",
+          "en": "to move (as in dòngwù – animal)"
+        },
+        {
+          "zh": "段",
+          "py": "duàn",
+          "en": "section; paragraph"
+        },
+        {
+          "zh": "相",
+          "py": "xiāng",
+          "en": "each other (as in xiāngxìn – to believe)"
+        },
+        {
+          "zh": "信",
+          "py": "xìn",
+          "en": "to believe; letter (as in xiāngxìn – to believe)"
+        },
+        {
+          "zh": "种",
+          "py": "zhǒng",
+          "en": "kind; type"
+        },
+        {
+          "zh": "奇",
+          "py": "qí",
+          "en": "strange; rare (as in qíguài – strange)"
+        },
+        {
+          "zh": "怪",
+          "py": "guài",
+          "en": "strange; odd (as in qíguài – strange)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (只要……就……)",
       "items": [
         {

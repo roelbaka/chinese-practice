@@ -208,6 +208,51 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 9)",
+      "items": [
+        {
+          "zh": "班",
+          "py": "bān",
+          "en": "class; shift"
+        },
+        {
+          "zh": "定",
+          "py": "dìng",
+          "en": "to fix; certain (as in yídìng – definitely)"
+        },
+        {
+          "zh": "担",
+          "py": "dān",
+          "en": "to carry; to take on (as in dān xīn – to worry)"
+        },
+        {
+          "zh": "较",
+          "py": "jiào",
+          "en": "comparatively (as in bǐjiào – fairly)"
+        },
+        {
+          "zh": "解",
+          "py": "jiě",
+          "en": "to untie; to understand (as in liǎojiě – to know)"
+        },
+        {
+          "zh": "参",
+          "py": "cān",
+          "en": "to take part (as in cānjiā – to participate)"
+        },
+        {
+          "zh": "加",
+          "py": "jiā",
+          "en": "to add (as in cānjiā – to participate)"
+        },
+        {
+          "zh": "响",
+          "py": "xiǎng",
+          "en": "sound; to ring (as in yǐngxiǎng – influence)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (越A越B)",
       "items": [
         {

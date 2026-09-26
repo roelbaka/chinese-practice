@@ -208,6 +208,101 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 5)",
+      "items": [
+        {
+          "zh": "发",
+          "py": "fā",
+          "en": "to send out; to emit (as in fā shāo – to have a fever)"
+        },
+        {
+          "zh": "烧",
+          "py": "shāo",
+          "en": "to burn; fever (as in fā shāo – to have a fever)"
+        },
+        {
+          "zh": "为",
+          "py": "wèi",
+          "en": "for; because of"
+        },
+        {
+          "zh": "顾",
+          "py": "gù",
+          "en": "to look after; to attend to (as in zhàogù – to take care of)"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "to use"
+        },
+        {
+          "zh": "感",
+          "py": "gǎn",
+          "en": "to feel; sense (as in gǎnmào – to catch a cold)"
+        },
+        {
+          "zh": "冒",
+          "py": "mào",
+          "en": "to emit; to risk (as in gǎnmào – to catch a cold)"
+        },
+        {
+          "zh": "季",
+          "py": "jì",
+          "en": "season (as in jìjié – season)"
+        },
+        {
+          "zh": "节",
+          "py": "jié",
+          "en": "festival; section; joint (as in jìjié – season)"
+        },
+        {
+          "zh": "当",
+          "py": "dāng",
+          "en": "should; to serve as (as in dāngrán – of course)"
+        },
+        {
+          "zh": "然",
+          "py": "rán",
+          "en": "so; like that (as in dāngrán – of course)"
+        },
+        {
+          "zh": "春",
+          "py": "chūn",
+          "en": "spring (as in chūn (tiān) – spring)"
+        },
+        {
+          "zh": "草",
+          "py": "cǎo",
+          "en": "grass"
+        },
+        {
+          "zh": "夏",
+          "py": "xià",
+          "en": "summer (as in xià (tiān) – summer)"
+        },
+        {
+          "zh": "裙",
+          "py": "qún",
+          "en": "skirt (as in qúnzi – dress)"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most (as in zuìjìn – lately)"
+        },
+        {
+          "zh": "近",
+          "py": "jìn",
+          "en": "near; recent (as in zuìjìn – lately)"
+        },
+        {
+          "zh": "越",
+          "py": "yuè",
+          "en": "to exceed; the more…"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (“了” indicating a change)",
       "items": [
         {

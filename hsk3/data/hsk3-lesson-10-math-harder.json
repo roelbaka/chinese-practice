@@ -218,6 +218,91 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 10)",
+      "items": [
+        {
+          "zh": "矮",
+          "py": "ǎi",
+          "en": "short (height)"
+        },
+        {
+          "zh": "历",
+          "py": "lì",
+          "en": "to go through; history (as in lìshǐ – history)"
+        },
+        {
+          "zh": "史",
+          "py": "shǐ",
+          "en": "history (as in lìshǐ – history)"
+        },
+        {
+          "zh": "体",
+          "py": "tǐ",
+          "en": "body (as in tǐyù – P.E.)"
+        },
+        {
+          "zh": "育",
+          "py": "yù",
+          "en": "to educate; to raise (as in tǐyù – P.E.)"
+        },
+        {
+          "zh": "数",
+          "py": "shù",
+          "en": "number (as in shùxué – maths)"
+        },
+        {
+          "zh": "便",
+          "py": "biàn",
+          "en": "convenient (as in fāngbiàn – convenient)"
+        },
+        {
+          "zh": "自",
+          "py": "zì",
+          "en": "self; from (as in zìxíngchē – bicycle)"
+        },
+        {
+          "zh": "骑",
+          "py": "qí",
+          "en": "to ride"
+        },
+        {
+          "zh": "旧",
+          "py": "jiù",
+          "en": "old; used"
+        },
+        {
+          "zh": "换",
+          "py": "huàn",
+          "en": "to change; to exchange"
+        },
+        {
+          "zh": "介",
+          "py": "jiè",
+          "en": "to lie between; agency (as in zhōngjiè – intermediary)"
+        },
+        {
+          "zh": "主",
+          "py": "zhǔ",
+          "en": "main; master (as in zhǔyào – main)"
+        },
+        {
+          "zh": "环",
+          "py": "huán",
+          "en": "ring; to surround (as in huánjìng – environment)"
+        },
+        {
+          "zh": "境",
+          "py": "jìng",
+          "en": "border; area; condition (as in huánjìng – environment)"
+        },
+        {
+          "zh": "附",
+          "py": "fù",
+          "en": "to attach; nearby (as in fùjìn – nearby)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (A比B + Adj + 一点儿/一些/得多/多了)",
       "items": [
         {

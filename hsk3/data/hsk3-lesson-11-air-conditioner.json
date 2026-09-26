@@ -223,6 +223,111 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 11)",
+      "items": [
+        {
+          "zh": "馆",
+          "py": "guǎn",
+          "en": "building; hall (as in túshūguǎn – library)"
+        },
+        {
+          "zh": "借",
+          "py": "jiè",
+          "en": "to borrow; to lend"
+        },
+        {
+          "zh": "词",
+          "py": "cí",
+          "en": "word (as in cídiǎn – dictionary)"
+        },
+        {
+          "zh": "典",
+          "py": "diǎn",
+          "en": "standard; classic (as in cídiǎn – dictionary)"
+        },
+        {
+          "zh": "灯",
+          "py": "dēng",
+          "en": "lamp; light"
+        },
+        {
+          "zh": "议",
+          "py": "yì",
+          "en": "to discuss; opinion (as in huìyì – meeting)"
+        },
+        {
+          "zh": "束",
+          "py": "shù",
+          "en": "to bind; bundle (as in jiéshù – to end)"
+        },
+        {
+          "zh": "忘",
+          "py": "wàng",
+          "en": "to forget (as in wàngjì – to forget)"
+        },
+        {
+          "zh": "空",
+          "py": "kōng",
+          "en": "empty; air (as in kōngtiáo – air conditioner)"
+        },
+        {
+          "zh": "调",
+          "py": "tiáo",
+          "en": "to adjust (as in kōngtiáo – air conditioner)"
+        },
+        {
+          "zh": "铁",
+          "py": "tiě",
+          "en": "iron (as in dìtiě – subway)"
+        },
+        {
+          "zh": "双",
+          "py": "shuāng",
+          "en": "pair; double"
+        },
+        {
+          "zh": "筷",
+          "py": "kuài",
+          "en": "chopsticks (as in kuàizi – chopsticks)"
+        },
+        {
+          "zh": "啤",
+          "py": "pí",
+          "en": "beer (as in píjiǔ – beer)"
+        },
+        {
+          "zh": "酒",
+          "py": "jiǔ",
+          "en": "alcohol; wine (as in píjiǔ – beer)"
+        },
+        {
+          "zh": "口",
+          "py": "kǒu",
+          "en": "mouth; (measure word)"
+        },
+        {
+          "zh": "瓶",
+          "py": "píng",
+          "en": "bottle (as in píngzi – bottle)"
+        },
+        {
+          "zh": "邮",
+          "py": "yóu",
+          "en": "post; mail (as in diànzǐ yóujiàn – e-mail)"
+        },
+        {
+          "zh": "件",
+          "py": "jiàn",
+          "en": "(measure word for items, matters) (as in diànzǐ yóujiàn – e-mail)"
+        },
+        {
+          "zh": "惯",
+          "py": "guàn",
+          "en": "habit; used to (as in xíguàn – to be used to)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (把字句1：A把B+V+……)",
       "items": [
         {

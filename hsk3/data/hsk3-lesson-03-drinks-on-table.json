@@ -223,6 +223,126 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 3)",
+      "items": [
+        {
+          "zh": "还",
+          "py": "hái",
+          "en": "still; also (as in háishi – or)"
+        },
+        {
+          "zh": "爬",
+          "py": "pá",
+          "en": "to climb; to crawl (as in pá shān – to climb a mountain)"
+        },
+        {
+          "zh": "山",
+          "py": "shān",
+          "en": "mountain (as in pá shān – to climb a mountain)"
+        },
+        {
+          "zh": "心",
+          "py": "xīn",
+          "en": "heart; mind (as in xiǎoxīn – careful)"
+        },
+        {
+          "zh": "条",
+          "py": "tiáo",
+          "en": "(measure word for long things); strip"
+        },
+        {
+          "zh": "裤",
+          "py": "kù",
+          "en": "trousers (as in kùzi – pants)"
+        },
+        {
+          "zh": "记",
+          "py": "jì",
+          "en": "to remember; to record (as in jìde – to remember)"
+        },
+        {
+          "zh": "得",
+          "py": "dé",
+          "en": "to get; to obtain (as in jìde – to remember)"
+        },
+        {
+          "zh": "衬",
+          "py": "chèn",
+          "en": "lining; to set off (as in chènshān – shirt)"
+        },
+        {
+          "zh": "衫",
+          "py": "shān",
+          "en": "shirt; unlined garment (as in chènshān – shirt)"
+        },
+        {
+          "zh": "元",
+          "py": "yuán",
+          "en": "yuan (currency); first"
+        },
+        {
+          "zh": "新",
+          "py": "xīn",
+          "en": "new (as in xīnxiān – fresh)"
+        },
+        {
+          "zh": "鲜",
+          "py": "xiān",
+          "en": "fresh (as in xīnxiān – fresh)"
+        },
+        {
+          "zh": "甜",
+          "py": "tián",
+          "en": "sweet"
+        },
+        {
+          "zh": "只",
+          "py": "zhǐ",
+          "en": "only"
+        },
+        {
+          "zh": "放",
+          "py": "fàng",
+          "en": "to put; to release"
+        },
+        {
+          "zh": "饮",
+          "py": "yǐn",
+          "en": "to drink (as in yǐnliào – drink)"
+        },
+        {
+          "zh": "料",
+          "py": "liào",
+          "en": "material; stuff (as in yǐnliào – drink)"
+        },
+        {
+          "zh": "或",
+          "py": "huò",
+          "en": "or; perhaps (as in huòzhě – or)"
+        },
+        {
+          "zh": "者",
+          "py": "zhě",
+          "en": "(suffix: -er, person who) (as in huòzhě – or)"
+        },
+        {
+          "zh": "舒",
+          "py": "shū",
+          "en": "to stretch; relaxed (as in shūfu – comfortable)"
+        },
+        {
+          "zh": "花",
+          "py": "huā",
+          "en": "flower; to spend"
+        },
+        {
+          "zh": "绿",
+          "py": "lǜ",
+          "en": "green"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (“还是”和“或者”)",
       "items": [
         {

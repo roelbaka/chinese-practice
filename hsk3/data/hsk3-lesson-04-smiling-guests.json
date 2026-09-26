@@ -238,6 +238,106 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 4)",
+      "items": [
+        {
+          "zh": "比",
+          "py": "bǐ",
+          "en": "to compare; than (as in bǐsài – match)"
+        },
+        {
+          "zh": "赛",
+          "py": "sài",
+          "en": "competition; match (as in bǐsài – match)"
+        },
+        {
+          "zh": "照",
+          "py": "zhào",
+          "en": "to shine; photo; to take (a photo) (as in zhàopiàn – photo)"
+        },
+        {
+          "zh": "片",
+          "py": "piàn",
+          "en": "slice; piece; film (as in zhàopiàn – photo)"
+        },
+        {
+          "zh": "级",
+          "py": "jí",
+          "en": "grade; level (as in niánjí – grade)"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "again; both…and"
+        },
+        {
+          "zh": "聪",
+          "py": "cōng",
+          "en": "clever; acute hearing (as in cōngming – clever)"
+        },
+        {
+          "zh": "情",
+          "py": "qíng",
+          "en": "feeling; emotion (as in rèqíng – warm)"
+        },
+        {
+          "zh": "努",
+          "py": "nǔ",
+          "en": "to exert; to strive (as in nǔlì – hard-working)"
+        },
+        {
+          "zh": "力",
+          "py": "lì",
+          "en": "strength; power (as in nǔlì – hard-working)"
+        },
+        {
+          "zh": "总",
+          "py": "zǒng",
+          "en": "always; total (as in zǒngshì – always)"
+        },
+        {
+          "zh": "答",
+          "py": "dá",
+          "en": "to answer (as in huídá – to answer)"
+        },
+        {
+          "zh": "饿",
+          "py": "è",
+          "en": "hungry"
+        },
+        {
+          "zh": "超",
+          "py": "chāo",
+          "en": "to exceed; super- (as in chāoshì – supermarket)"
+        },
+        {
+          "zh": "市",
+          "py": "shì",
+          "en": "market; city (as in chāoshì – supermarket)"
+        },
+        {
+          "zh": "蛋",
+          "py": "dàn",
+          "en": "egg (as in dàngāo – cake)"
+        },
+        {
+          "zh": "糕",
+          "py": "gāo",
+          "en": "cake (as in dàngāo – cake)"
+        },
+        {
+          "zh": "轻",
+          "py": "qīng",
+          "en": "light; young (as in niánqīng – young)"
+        },
+        {
+          "zh": "真",
+          "py": "zhēn",
+          "en": "real; truly (as in rènzhēn – serious)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (又 + Adj₁ + 又 + Adj₂)",
       "items": [
         {

@@ -233,6 +233,116 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 8)",
+      "items": [
+        {
+          "zh": "满",
+          "py": "mǎn",
+          "en": "full; satisfied (as in mǎnyì – to be satisfied)"
+        },
+        {
+          "zh": "意",
+          "py": "yì",
+          "en": "meaning; wish (as in mǎnyì – to be satisfied)"
+        },
+        {
+          "zh": "梯",
+          "py": "tī",
+          "en": "ladder; stairs (as in diàntī – elevator)"
+        },
+        {
+          "zh": "层",
+          "py": "céng",
+          "en": "floor; layer"
+        },
+        {
+          "zh": "害",
+          "py": "hài",
+          "en": "harm; to cause (as in hài pà – to be afraid)"
+        },
+        {
+          "zh": "怕",
+          "py": "pà",
+          "en": "to fear (as in hài pà – to be afraid)"
+        },
+        {
+          "zh": "熊",
+          "py": "xióng",
+          "en": "bear (as in xióngmāo – panda)"
+        },
+        {
+          "zh": "安",
+          "py": "ān",
+          "en": "safe; peaceful (as in ānjìng – quiet)"
+        },
+        {
+          "zh": "静",
+          "py": "jìng",
+          "en": "quiet (as in ānjìng – quiet)"
+        },
+        {
+          "zh": "可",
+          "py": "kě",
+          "en": "can; may (as in kělè – cola)"
+        },
+        {
+          "zh": "马",
+          "py": "mǎ",
+          "en": "horse (as in mǎshàng – immediately)"
+        },
+        {
+          "zh": "洗",
+          "py": "xǐ",
+          "en": "to wash (as in xǐshǒujiān – bathroom)"
+        },
+        {
+          "zh": "手",
+          "py": "shǒu",
+          "en": "hand (as in xǐshǒujiān – bathroom)"
+        },
+        {
+          "zh": "间",
+          "py": "jiān",
+          "en": "room; between (as in xǐshǒujiān – bathroom)"
+        },
+        {
+          "zh": "乎",
+          "py": "hū",
+          "en": "(classical particle) (as in jīhū – almost)"
+        },
+        {
+          "zh": "变",
+          "py": "biàn",
+          "en": "to change (as in biànhuà – to change)"
+        },
+        {
+          "zh": "化",
+          "py": "huà",
+          "en": "to change; -ize (as in biànhuà – to change)"
+        },
+        {
+          "zh": "健",
+          "py": "jiàn",
+          "en": "healthy; strong (as in jiànkāng – healthy)"
+        },
+        {
+          "zh": "康",
+          "py": "kāng",
+          "en": "healthy (as in jiànkāng – healthy)"
+        },
+        {
+          "zh": "重",
+          "py": "zhòng",
+          "en": "heavy; important (as in zhòngyào – important)"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "to want; important (as in zhòngyào – important)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (又 vs 再)",
       "items": [
         {

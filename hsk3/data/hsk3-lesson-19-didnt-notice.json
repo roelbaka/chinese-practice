@@ -198,6 +198,66 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 19)",
+      "items": [
+        {
+          "zh": "耳",
+          "py": "ěr",
+          "en": "ear (as in ěrduo – ear)"
+        },
+        {
+          "zh": "朵",
+          "py": "duo",
+          "en": "(in 耳朵; measure word for flowers) (as in ěrduo – ear)"
+        },
+        {
+          "zh": "脸",
+          "py": "liǎn",
+          "en": "face"
+        },
+        {
+          "zh": "短",
+          "py": "duǎn",
+          "en": "short"
+        },
+        {
+          "zh": "张",
+          "py": "zhāng",
+          "en": "(measure word for flat things); to open"
+        },
+        {
+          "zh": "位",
+          "py": "wèi",
+          "en": "(polite measure word for people); position"
+        },
+        {
+          "zh": "蓝",
+          "py": "lán",
+          "en": "blue"
+        },
+        {
+          "zh": "秋",
+          "py": "qiū",
+          "en": "autumn (as in qiū (tiān) – autumn)"
+        },
+        {
+          "zh": "鸟",
+          "py": "niǎo",
+          "en": "bird"
+        },
+        {
+          "zh": "哭",
+          "py": "kū",
+          "en": "to cry"
+        },
+        {
+          "zh": "船",
+          "py": "chuán",
+          "en": "boat; ship"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (V + 出来: something new emerges)",
       "items": [
         {

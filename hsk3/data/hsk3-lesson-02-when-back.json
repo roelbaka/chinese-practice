@@ -233,6 +233,121 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 2)",
+      "items": [
+        {
+          "zh": "腿",
+          "py": "tuǐ",
+          "en": "leg"
+        },
+        {
+          "zh": "疼",
+          "py": "téng",
+          "en": "to ache; painful"
+        },
+        {
+          "zh": "脚",
+          "py": "jiǎo",
+          "en": "foot"
+        },
+        {
+          "zh": "树",
+          "py": "shù",
+          "en": "tree"
+        },
+        {
+          "zh": "容",
+          "py": "róng",
+          "en": "to hold; appearance (as in róngyì – easy)"
+        },
+        {
+          "zh": "易",
+          "py": "yì",
+          "en": "easy; to change (as in róngyì – easy)"
+        },
+        {
+          "zh": "难",
+          "py": "nán",
+          "en": "difficult"
+        },
+        {
+          "zh": "秘",
+          "py": "mì",
+          "en": "secret (as in mìshū – secretary)"
+        },
+        {
+          "zh": "经",
+          "py": "jīng",
+          "en": "to pass through; to manage (as in jīnglǐ – manager)"
+        },
+        {
+          "zh": "理",
+          "py": "lǐ",
+          "en": "reason; to manage (as in jīnglǐ – manager)"
+        },
+        {
+          "zh": "办",
+          "py": "bàn",
+          "en": "to do; to handle (as in bàngōngshì – office)"
+        },
+        {
+          "zh": "公",
+          "py": "gōng",
+          "en": "public; official (as in bàngōngshì – office)"
+        },
+        {
+          "zh": "室",
+          "py": "shì",
+          "en": "room (as in bàngōngshì – office)"
+        },
+        {
+          "zh": "辆",
+          "py": "liàng",
+          "en": "(measure word for vehicles)"
+        },
+        {
+          "zh": "楼",
+          "py": "lóu",
+          "en": "building; floor"
+        },
+        {
+          "zh": "拿",
+          "py": "ná",
+          "en": "to take; to hold"
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "to hold; (把 construction; measure word)"
+        },
+        {
+          "zh": "伞",
+          "py": "sǎn",
+          "en": "umbrella"
+        },
+        {
+          "zh": "胖",
+          "py": "pàng",
+          "en": "fat"
+        },
+        {
+          "zh": "其",
+          "py": "qí",
+          "en": "its; that; other (as in qíshí – actually)"
+        },
+        {
+          "zh": "实",
+          "py": "shí",
+          "en": "real; true; solid (as in qíshí – actually)"
+        },
+        {
+          "zh": "瘦",
+          "py": "shòu",
+          "en": "thin; slim"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (简单趋向补语 V + 来/去)",
       "items": [
         {

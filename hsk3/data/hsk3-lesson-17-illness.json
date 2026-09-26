@@ -223,6 +223,91 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 17)",
+      "items": [
+        {
+          "zh": "假",
+          "py": "jià",
+          "en": "leave; holiday (as in qǐng jià – to ask for leave)"
+        },
+        {
+          "zh": "共",
+          "py": "gòng",
+          "en": "together; common (as in yígòng – in total)"
+        },
+        {
+          "zh": "邻",
+          "py": "lín",
+          "en": "neighbour (as in línjū – neighbour)"
+        },
+        {
+          "zh": "居",
+          "py": "jū",
+          "en": "to reside (as in línjū – neighbour)"
+        },
+        {
+          "zh": "法",
+          "py": "fǎ",
+          "en": "method; law (as in bànfǎ – way)"
+        },
+        {
+          "zh": "饱",
+          "py": "bǎo",
+          "en": "full (after eating)"
+        },
+        {
+          "zh": "决",
+          "py": "jué",
+          "en": "to decide (as in juédìng – to decide)"
+        },
+        {
+          "zh": "选",
+          "py": "xuǎn",
+          "en": "to choose (as in xuǎnzé – to choose)"
+        },
+        {
+          "zh": "择",
+          "py": "zé",
+          "en": "to select (as in xuǎnzé – to choose)"
+        },
+        {
+          "zh": "冬",
+          "py": "dōng",
+          "en": "winter (as in dōng (tiān) – winter)"
+        },
+        {
+          "zh": "必",
+          "py": "bì",
+          "en": "must; certainly (as in bìxū – must)"
+        },
+        {
+          "zh": "须",
+          "py": "xū",
+          "en": "must; to have to (as in bìxū – must)"
+        },
+        {
+          "zh": "根",
+          "py": "gēn",
+          "en": "root (as in gēnjù – according to)"
+        },
+        {
+          "zh": "据",
+          "py": "jù",
+          "en": "according to (as in gēnjù – according to)"
+        },
+        {
+          "zh": "况",
+          "py": "kuàng",
+          "en": "situation (as in qíngkuàng – condition)"
+        },
+        {
+          "zh": "渴",
+          "py": "kě",
+          "en": "thirsty"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (双音节动词重叠 ABAB)",
       "items": [
         {

@@ -193,6 +193,71 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 16)",
+      "items": [
+        {
+          "zh": "城",
+          "py": "chéng",
+          "en": "city; city wall (as in chéngshì – city)"
+        },
+        {
+          "zh": "如",
+          "py": "rú",
+          "en": "if; like (as in rúguǒ – if)"
+        },
+        {
+          "zh": "皮",
+          "py": "pí",
+          "en": "skin; leather (as in píxié – leather shoes)"
+        },
+        {
+          "zh": "鞋",
+          "py": "xié",
+          "en": "shoe (as in píxié – leather shoes)"
+        },
+        {
+          "zh": "帽",
+          "py": "mào",
+          "en": "hat (as in màozi – hat)"
+        },
+        {
+          "zh": "斤",
+          "py": "jīn",
+          "en": "jin (½ kg) (as in gōngjīn – kilogramme)"
+        },
+        {
+          "zh": "鼻",
+          "py": "bí",
+          "en": "nose (as in bízi – nose)"
+        },
+        {
+          "zh": "头",
+          "py": "tóu",
+          "en": "head (as in tóufa – hair)"
+        },
+        {
+          "zh": "检",
+          "py": "jiǎn",
+          "en": "to inspect (as in jiǎnchá – to check)"
+        },
+        {
+          "zh": "查",
+          "py": "chá",
+          "en": "to check (as in jiǎnchá – to check)"
+        },
+        {
+          "zh": "刷",
+          "py": "shuā",
+          "en": "to brush (as in shuā yá – to brush the teeth)"
+        },
+        {
+          "zh": "牙",
+          "py": "yá",
+          "en": "tooth (as in shuā yá – to brush the teeth)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (如果……（的话），（S）就……)",
       "items": [
         {

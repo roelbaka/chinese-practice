@@ -208,6 +208,41 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 20)",
+      "items": [
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "by (passive marker); quilt"
+        },
+        {
+          "zh": "卡",
+          "py": "kǎ",
+          "en": "card (as in xìnyòngkǎ – credit card)"
+        },
+        {
+          "zh": "绩",
+          "py": "jì",
+          "en": "achievement (as in chéngjì – grade)"
+        },
+        {
+          "zh": "碗",
+          "py": "wǎn",
+          "en": "bowl"
+        },
+        {
+          "zh": "试",
+          "py": "shì",
+          "en": "to try; exam"
+        },
+        {
+          "zh": "正",
+          "py": "zhèng",
+          "en": "straight; just; correct (as in zhēnzhèng – really)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (被字句: S + 被/叫/让 + O + V + 其他)",
       "items": [
         {

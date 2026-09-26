@@ -188,6 +188,66 @@
       ]
     },
     {
+      "topic": "汉字 · New Characters (Lesson 12)",
+      "items": [
+        {
+          "zh": "阳",
+          "py": "yáng",
+          "en": "sun; sunshine (as in tàiyáng – sun)"
+        },
+        {
+          "zh": "李",
+          "py": "lǐ",
+          "en": "plum; (surname) (as in xínglixiāng – luggage)"
+        },
+        {
+          "zh": "箱",
+          "py": "xiāng",
+          "en": "box; case (as in xínglixiāng – luggage)"
+        },
+        {
+          "zh": "己",
+          "py": "jǐ",
+          "en": "oneself (as in zìjǐ – self)"
+        },
+        {
+          "zh": "护",
+          "py": "hù",
+          "en": "to protect (as in hùzhào – passport)"
+        },
+        {
+          "zh": "司",
+          "py": "sī",
+          "en": "to manage (as in sījī – driver)"
+        },
+        {
+          "zh": "教",
+          "py": "jiāo",
+          "en": "to teach"
+        },
+        {
+          "zh": "画",
+          "py": "huà",
+          "en": "to draw; painting"
+        },
+        {
+          "zh": "需",
+          "py": "xū",
+          "en": "to need (as in xūyào – to need)"
+        },
+        {
+          "zh": "黑",
+          "py": "hēi",
+          "en": "black (as in hēibǎn – blackboard)"
+        },
+        {
+          "zh": "板",
+          "py": "bǎn",
+          "en": "board; plank (as in hēibǎn – blackboard)"
+        }
+      ]
+    },
+    {
       "topic": "语法 · Grammar (就：早、快、顺利)",
       "items": [
         {
