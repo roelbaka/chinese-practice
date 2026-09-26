@@ -424,6 +424,12 @@ function renderFlashcard() {
   document.getElementById("fcShuffle").addEventListener("click", () => { fcItems = shuffle(getItems()); fcIndex = 0; fcRevealed = false; renderFlashcard(); });
 }
 
+function itemKind(item) {
+  const zh = (item.zh || "").trim();
+  if (/[，。？！：；、,.?!:;]/.test(zh) || zh.length > 6) return "sentence";
+  return [...zh].length === 1 ? "char" : "word";
+}
+
 function renderQuiz() {
   const app = document.getElementById("app");
   if (!quizItems.length) {
@@ -444,7 +450,10 @@ function renderQuiz() {
   const promptField = quizMode === "en" ? "en" : "zh";
   const answerField = quizMode === "en" ? "zh" : "en";
 
-  let wrongs = shuffle(allItems.filter(i => i[answerField] !== item[answerField])).slice(0, 3);
+  // Keep options comparable: single characters vs. words vs. sentences
+  const candidates = allItems.filter(i => i[answerField] !== item[answerField] && i.zh !== item.zh);
+  const sameKind = candidates.filter(i => itemKind(i) === itemKind(item));
+  let wrongs = shuffle(sameKind.length >= 3 ? sameKind : candidates).slice(0, 3);
   let options = shuffle([item, ...wrongs]);
 
   let promptHtml = "";
