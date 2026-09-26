@@ -127,6 +127,25 @@
   .fc-controls button:hover { background: var(--accent); border-color: var(--accent); }
   .fc-progress { color: var(--text-muted); font-size: .85rem; margin-bottom: 1rem; }
 
+  .fc-type { max-width: 500px; margin: 1.2rem auto 0; display: flex; gap: .5rem; }
+  .fc-type input {
+    flex: 1; min-width: 0; background: var(--card); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: .6rem .9rem; font-size: 1.1rem; font-family: inherit;
+  }
+  .fc-type input:focus { outline: none; border-color: var(--accent); }
+  .fc-type input.correct { border-color: var(--success); }
+  .fc-type input.wrong { border-color: #f44336; }
+  .fc-type button {
+    background: var(--accent2); color: #fff; border: 1px solid var(--accent2);
+    padding: .5rem 1.1rem; border-radius: 8px; cursor: pointer; font-size: .9rem;
+  }
+  .fc-feedback { max-width: 500px; margin: .7rem auto 0; font-size: 1rem; min-height: 1.4em; }
+  .fc-feedback.correct { color: var(--success); }
+  .fc-feedback.wrong { color: #f44336; }
+  .fc-feedback .ok { color: var(--success); }
+  .fc-feedback .bad { color: #f44336; text-decoration: underline; }
+  .fc-feedback .answer { font-size: 1.3rem; margin-top: .3rem; }
+
   .quiz-container { max-width: 600px; margin: 0 auto; text-align: center; }
   .quiz-prompt { font-size: 2rem; margin: 1.5rem 0 .5rem; }
   .quiz-pinyin-hint { color: var(--pinyin); font-size: 1rem; margin-bottom: 1.5rem; }
@@ -215,6 +234,29 @@ function prepareLessonData(raw) {
 let hidePinyin = false;
 let hideEnglish = false;
 let fcItems = [], fcIndex = 0, fcRevealed = false, fcMode = "zh";
+let fcTypeItem = null, fcTyped = "", fcTypeResult = null, fcTypeFocus = false;
+
+/** Compare typed Chinese with the answer, ignoring punctuation, spaces and a "Speaker：" prefix. */
+function normZh(s) {
+  return (s || "").replace(/[\s，。？！：；、“”‘’「」《》（）()…—,.?!:;"'·\-]/g, "");
+}
+function answerVariants(zh) {
+  const noSpeaker = zh.replace(/^[^：:]{1,6}[：:]/, "");
+  const variants = [zh, noSpeaker];
+  // "南（方）" → accept both 南 and 南方
+  [zh, noSpeaker].forEach(v => variants.push(v.replace(/（[^）]*）|\([^)]*\)/g, "")));
+  return [...new Set(variants.map(normZh))].filter(Boolean);
+}
+function checkTyped(typed, zh) {
+  const t = normZh(typed);
+  const variants = answerVariants(zh);
+  if (variants.includes(t)) return { ok: true };
+  // Character-by-character comparison against the closest variant
+  const target = variants.reduce((a, b) => Math.abs(b.length - t.length) < Math.abs(a.length - t.length) ? b : a);
+  const tc = [...t];
+  const diff = [...target].map((c, i) => `<span class="${tc[i] === c ? "ok" : "bad"}">${esc(c)}</span>`).join("");
+  return { ok: false, diff };
+}
 let quizItems = [], quizIndex = 0, quizScore = 0, quizAnswered = false, quizMode = "zh";
 
 const params = new URLSearchParams(window.location.search);
@@ -383,6 +425,7 @@ function renderFlashcard() {
     return;
   }
   const item = fcItems[fcIndex];
+  if (fcTypeItem !== item) { fcTypeItem = item; fcTyped = ""; fcTypeResult = null; }
 
   const showZh = fcMode === "zh" || fcRevealed;
   const showPy = fcMode === "py" || fcRevealed;
@@ -404,6 +447,15 @@ function renderFlashcard() {
       <div class="english ${showEn ? '' : 'hidden'}">${esc(item.en)}</div>
       <div class="hint">${fcRevealed ? 'Click arrows to navigate' : 'Click to reveal'}</div>
     </div>
+    <div class="fc-type">
+      <input type="text" id="fcTypeInput" placeholder="Type het karakter…" lang="zh-CN" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" value="${esc(fcTyped)}" class="${fcTypeResult ? (fcTypeResult.ok ? "correct" : "wrong") : ""}">
+      <button type="button" id="fcCheck">Check</button>
+    </div>
+    <div class="fc-feedback ${fcTypeResult ? (fcTypeResult.ok ? "correct" : "wrong") : ""}">${
+      !fcTypeResult ? "" :
+      fcTypeResult.ok ? "✓ Goed!" :
+      `✗ Niet helemaal — juiste antwoord:<div class="answer">${fcTypeResult.diff}</div>`
+    }</div>
     <div class="fc-controls">
       <button type="button" id="fcPrev">&larr; Prev</button>
       <button type="button" id="fcSpeak">&#9654; Listen</button>
@@ -422,6 +474,30 @@ function renderFlashcard() {
   document.getElementById("fcNext").addEventListener("click", () => { fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; renderFlashcard(); });
   document.getElementById("fcSpeak").addEventListener("click", (e) => { e.preventDefault(); speak(item.zh); });
   document.getElementById("fcShuffle").addEventListener("click", () => { fcItems = shuffle(getItems()); fcIndex = 0; fcRevealed = false; renderFlashcard(); });
+
+  const typeInput = document.getElementById("fcTypeInput");
+  const doCheck = () => {
+    fcTyped = typeInput.value;
+    if (!normZh(fcTyped)) return;
+    fcTypeResult = checkTyped(fcTyped, item.zh);
+    fcRevealed = true;
+    fcTypeFocus = true;
+    renderFlashcard();
+  };
+  typeInput.addEventListener("input", () => { fcTyped = typeInput.value; });
+  typeInput.addEventListener("keydown", e => {
+    e.stopPropagation();
+    if (e.key !== "Enter" || e.isComposing || e.keyCode === 229) return;
+    e.preventDefault();
+    // Enter after a correct answer moves on to the next card
+    if (fcTypeResult && fcTypeResult.ok && typeInput.value === fcTyped) {
+      fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; fcTypeFocus = true; renderFlashcard();
+    } else {
+      doCheck();
+    }
+  });
+  document.getElementById("fcCheck").addEventListener("click", doCheck);
+  if (fcTypeFocus) typeInput.focus({ preventScroll: true });
 }
 
 function itemKind(item) {
@@ -552,6 +628,7 @@ document.querySelectorAll(".mode-bar button").forEach(btn => {
 
 document.addEventListener("keydown", e => {
   if (currentMode === "flashcard") {
+    if (e.target.closest && e.target.closest("input, textarea")) return;
     if (e.key === "ArrowRight") { fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; renderFlashcard(); }
     if (e.key === "ArrowLeft") { fcIndex = (fcIndex - 1 + fcItems.length) % fcItems.length; fcRevealed = false; renderFlashcard(); }
     if (e.key === " ") { e.preventDefault(); fcRevealed = !fcRevealed; renderFlashcard(); }
