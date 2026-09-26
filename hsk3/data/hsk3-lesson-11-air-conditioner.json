@@ -1,0 +1,316 @@
+{
+  "title": "第11课 · 别忘了把空调关了",
+  "subtitle": "HSK 3 · Lesson 11 — 别忘了把空调关了 · Don't forget to turn off the air conditioner",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "图书馆",
+          "py": "túshūguǎn",
+          "en": "library"
+        },
+        {
+          "zh": "借",
+          "py": "jiè",
+          "en": "to borrow, to lend"
+        },
+        {
+          "zh": "词典",
+          "py": "cídiǎn",
+          "en": "dictionary"
+        },
+        {
+          "zh": "还",
+          "py": "huán",
+          "en": "to return"
+        },
+        {
+          "zh": "灯",
+          "py": "dēng",
+          "en": "light, lamp"
+        },
+        {
+          "zh": "小明：我先走了。",
+          "py": "Xiǎomíng: Wǒ xiān zǒu le.",
+          "en": "Xiaoming: I'm off."
+        },
+        {
+          "zh": "同学：你去哪儿？",
+          "py": "Tóngxué: Nǐ qù nǎr?",
+          "en": "Classmate: Where are you going?"
+        },
+        {
+          "zh": "小明：我去图书馆借本书。",
+          "py": "Xiǎomíng: Wǒ qù túshūguǎn jiè běn shū.",
+          "en": "Xiaoming: I'm going to the library to borrow a book."
+        },
+        {
+          "zh": "同学：帮我把这本词典还了吧。",
+          "py": "Tóngxué: Bāng wǒ bǎ zhè běn cídiǎn huánle ba.",
+          "en": "Classmate: Please return this dictionary for me."
+        },
+        {
+          "zh": "小明：好，等一会儿你离开教室的时候，记得把灯关了。",
+          "py": "Xiǎomíng: Hǎo, děng yīhuìr nǐ líkāi jiàoshì de shíhou, jìde bǎ dēng guānle.",
+          "en": "Xiaoming: OK. In a while, when you leave the classroom, remember to turn off the lights."
+        },
+        {
+          "zh": "同学：好的，放心吧。",
+          "py": "Tóngxué: Hǎo de, fàng xīn ba.",
+          "en": "Classmate: Sure, don't worry."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在会议室 — In the conference room",
+      "items": [
+        {
+          "zh": "会议",
+          "py": "huìyì",
+          "en": "meeting, conference"
+        },
+        {
+          "zh": "结束",
+          "py": "jiéshù",
+          "en": "to end, to finish"
+        },
+        {
+          "zh": "忘记",
+          "py": "wàngjì",
+          "en": "to forget"
+        },
+        {
+          "zh": "空调",
+          "py": "kōngtiáo",
+          "en": "air conditioner"
+        },
+        {
+          "zh": "关",
+          "py": "guān",
+          "en": "to turn off, to close"
+        },
+        {
+          "zh": "地铁",
+          "py": "dìtiě",
+          "en": "subway"
+        },
+        {
+          "zh": "周明：会议结束后，别忘记把空调关了。",
+          "py": "Zhōu Míng: Huìyì jiéshù hòu, bié wàngjì bǎ kōngtiáo guānle.",
+          "en": "Zhou Ming: After the meeting, don't forget to turn off the air conditioner."
+        },
+        {
+          "zh": "小丽：好的。王经理两点左右来了个电话。",
+          "py": "Xiǎolì: Hǎo de. Wáng jīnglǐ liǎng diǎn zuǒyòu láile ge diànhuà.",
+          "en": "Xiaoli: OK. Manager Wang called at around two o'clock."
+        },
+        {
+          "zh": "周明：他已经到北京了？",
+          "py": "Zhōu Míng: Tā yǐjīng dào Běijīng le?",
+          "en": "Zhou Ming: Has he already arrived in Beijing?"
+        },
+        {
+          "zh": "小丽：是的，他正坐地铁来我们公司呢。",
+          "py": "Xiǎolì: Shì de, tā zhèng zuò dìtiě lái wǒmen gōngsī ne.",
+          "en": "Xiaoli: Yes, he's taking the subway to our company right now."
+        },
+        {
+          "zh": "周明：等他到了就告诉我。",
+          "py": "Zhōu Míng: Děng tā dàole jiù gàosu wǒ.",
+          "en": "Zhou Ming: Tell me as soon as he arrives."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在客厅 — In the living room",
+      "items": [
+        {
+          "zh": "双",
+          "py": "shuāng",
+          "en": "pair"
+        },
+        {
+          "zh": "筷子",
+          "py": "kuàizi",
+          "en": "chopsticks"
+        },
+        {
+          "zh": "啤酒",
+          "py": "píjiǔ",
+          "en": "beer"
+        },
+        {
+          "zh": "口",
+          "py": "kǒu",
+          "en": "mouthful"
+        },
+        {
+          "zh": "瓶子",
+          "py": "píngzi",
+          "en": "bottle"
+        },
+        {
+          "zh": "妈妈：还差一双筷子，你去拿一下。",
+          "py": "Māma: Hái chà yī shuāng kuàizi, nǐ qù ná yīxià.",
+          "en": "Mom: We're still one pair of chopsticks short. Go and get them."
+        },
+        {
+          "zh": "儿子：今天怎么做了这么多菜？",
+          "py": "Érzi: Jīntiān zěnme zuòle zhème duō cài?",
+          "en": "Son: Why did you make so many dishes today?"
+        },
+        {
+          "zh": "妈妈：今天是你爸爸的生日。",
+          "py": "Māma: Jīntiān shì nǐ bàba de shēngrì.",
+          "en": "Mom: Today is your dad's birthday."
+        },
+        {
+          "zh": "儿子：真的啊？我把爸爸的生日忘了。那我们今天喝点儿啤酒吧。",
+          "py": "Érzi: Zhēn de a? Wǒ bǎ bàba de shēngrì wàng le. Nà wǒmen jīntiān hē diǎnr píjiǔ ba.",
+          "en": "Son: Really? I forgot Dad's birthday. Then let's have some beer today."
+        },
+        {
+          "zh": "妈妈：医生说你爸爸一口酒都不能喝，别让他看见酒瓶子。",
+          "py": "Māma: Yīshēng shuō nǐ bàba yī kǒu jiǔ dōu bù néng hē, bié ràng tā kànjiàn jiǔ píngzi.",
+          "en": "Mom: The doctor said your dad can't drink even a sip of alcohol. Don't let him see any bottles."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 短文 — My laptop",
+      "items": [
+        {
+          "zh": "笔记本（电脑）",
+          "py": "bǐjìběn (diànnǎo)",
+          "en": "notebook, laptop"
+        },
+        {
+          "zh": "电子邮件",
+          "py": "diànzǐ yóujiàn",
+          "en": "e-mail"
+        },
+        {
+          "zh": "习惯",
+          "py": "xíguàn",
+          "en": "to be used to; habit"
+        },
+        {
+          "zh": "这个笔记本电脑我去年买的时候要五千块左右，现在便宜多了。",
+          "py": "Zhège bǐjìběn diànnǎo wǒ qùnián mǎi de shíhou yào wǔ qiān kuài zuǒyòu, xiànzài piányi duō le.",
+          "en": "When I bought this laptop last year it cost about five thousand yuan; now it's much cheaper."
+        },
+        {
+          "zh": "我想把这个电脑卖了，再买一个更好的。",
+          "py": "Wǒ xiǎng bǎ zhège diànnǎo mài le, zài mǎi yī ge gèng hǎo de.",
+          "en": "I want to sell this computer and buy a better one."
+        },
+        {
+          "zh": "现在我每天起床后的第一件事就是打开电脑，看电子邮件。",
+          "py": "Xiànzài wǒ měi tiān qǐ chuáng hòu de dì-yī jiàn shì jiù shì dǎkāi diànnǎo, kàn diànzǐ yóujiàn.",
+          "en": "Now the first thing I do every day after getting up is turn on my computer and check my e-mail."
+        },
+        {
+          "zh": "我已经很少写信，也很少用笔写字，已经习惯用电脑来学习和工作了。",
+          "py": "Wǒ yǐjīng hěn shǎo xiě xìn, yě hěn shǎo yòng bǐ xiě zì, yǐjīng xíguàn yòng diànnǎo lái xuéxí hé gōngzuò le.",
+          "en": "I rarely write letters or write with a pen any more; I've got used to studying and working on the computer."
+        },
+        {
+          "zh": "哪一天突然没有了电脑，我们怎么办呢？",
+          "py": "Nǎ yī tiān tūrán méiyǒule diànnǎo, wǒmen zěnme bàn ne?",
+          "en": "If one day we suddenly had no computers, what would we do?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (把字句1：A把B+V+……)",
+      "items": [
+        {
+          "zh": "请你把衣服洗了。",
+          "py": "Qǐng nǐ bǎ yīfu xǐ le.",
+          "en": "Please wash the clothes."
+        },
+        {
+          "zh": "帮我把这本词典还了。",
+          "py": "Bāng wǒ bǎ zhè běn cídiǎn huán le.",
+          "en": "Please return this dictionary for me."
+        },
+        {
+          "zh": "你把灯关了吧。",
+          "py": "Nǐ bǎ dēng guān le ba.",
+          "en": "Turn off the light, please."
+        },
+        {
+          "zh": "我把爸爸的生日忘了。",
+          "py": "Wǒ bǎ bàba de shēngrì wàng le.",
+          "en": "I forgot Dad's birthday."
+        },
+        {
+          "zh": "你没把书给我。",
+          "py": "Nǐ méi bǎ shū gěi wǒ.",
+          "en": "You didn't give me the book."
+        },
+        {
+          "zh": "你别把手机忘了。",
+          "py": "Nǐ bié bǎ shǒujī wàng le.",
+          "en": "Don't forget your mobile phone."
+        },
+        {
+          "zh": "我不能把电脑给你。",
+          "py": "Wǒ bù néng bǎ diànnǎo gěi nǐ.",
+          "en": "I can't give you the computer."
+        },
+        {
+          "zh": "你可以把空调关了吗？",
+          "py": "Nǐ kěyǐ bǎ kōngtiáo guān le ma?",
+          "en": "Could you turn off the air conditioner?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (概数：左右)",
+      "items": [
+        {
+          "zh": "周末我一般十点左右起床。",
+          "py": "Zhōumò wǒ yībān shí diǎn zuǒyòu qǐ chuáng.",
+          "en": "At weekends I usually get up around ten o'clock."
+        },
+        {
+          "zh": "我们公司有五百人左右。",
+          "py": "Wǒmen gōngsī yǒu wǔbǎi rén zuǒyòu.",
+          "en": "Our company has about five hundred people."
+        },
+        {
+          "zh": "王经理两点左右来了个电话。",
+          "py": "Wáng jīnglǐ liǎng diǎn zuǒyòu láile ge diànhuà.",
+          "en": "Manager Wang called at around two o'clock."
+        },
+        {
+          "zh": "这个笔记本电脑我去年买的时候要五千块左右。",
+          "py": "Zhège bǐjìběn diànnǎo wǒ qùnián mǎi de shíhou yào wǔ qiān kuài zuǒyòu.",
+          "en": "When I bought this laptop last year it cost about five thousand yuan."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (旧字新词 Word game)",
+      "items": [
+        {
+          "zh": "字典",
+          "py": "zìdiǎn",
+          "en": "character dictionary (字 + 词典)"
+        },
+        {
+          "zh": "运动会",
+          "py": "yùndònghuì",
+          "en": "sports meet (运动 + 会议)"
+        },
+        {
+          "zh": "开会",
+          "py": "kāi huì",
+          "en": "to have a meeting (开 + 会议)"
+        }
+      ]
+    }
+  ]
+}

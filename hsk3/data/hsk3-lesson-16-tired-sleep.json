@@ -1,0 +1,291 @@
+{
+  "title": "第16课 · 我现在累得下了班就想睡觉",
+  "subtitle": "HSK 3 · Lesson 16 — 我现在累得下了班就想睡觉 · I am so tired that I want to do nothing but sleep after work",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在公司 — In the company",
+      "items": [
+        {
+          "zh": "城市",
+          "py": "chéngshì",
+          "en": "city"
+        },
+        {
+          "zh": "如果",
+          "py": "rúguǒ",
+          "en": "if, in case"
+        },
+        {
+          "zh": "认为",
+          "py": "rènwéi",
+          "en": "to think, to believe"
+        },
+        {
+          "zh": "小丽：我不喜欢一直住在同一个城市，想去其他城市看一看。",
+          "py": "Xiǎolì: Wǒ bù xǐhuan yīzhí zhù zài tóng yī ge chéngshì, xiǎng qù qítā chéngshì kàn yi kàn.",
+          "en": "Xiaoli: I don't like living in the same city all the time; I want to go and see other cities."
+        },
+        {
+          "zh": "周明：我年轻的时候也这么想，但是那时候没有钱，如果有钱，就去了。",
+          "py": "Zhōu Míng: Wǒ niánqīng de shíhou yě zhème xiǎng, dànshì nà shíhou méiyǒu qián, rúguǒ yǒu qián, jiù qù le.",
+          "en": "Zhou Ming: When I was young I thought so too, but back then I had no money. If I'd had the money, I would have gone."
+        },
+        {
+          "zh": "小丽：那您现在为什么不去？",
+          "py": "Xiǎolì: Nà nín xiànzài wèi shénme bù qù?",
+          "en": "Xiaoli: Then why don't you go now?"
+        },
+        {
+          "zh": "周明：现在钱不是问题了，主要是没有时间。",
+          "py": "Zhōu Míng: Xiànzài qián bù shì wèntí le, zhǔyào shì méiyǒu shíjiān.",
+          "en": "Zhou Ming: Money isn't the problem now; the main thing is I have no time."
+        },
+        {
+          "zh": "小丽：我认为现在您有时间也不会出去玩儿。",
+          "py": "Xiǎolì: Wǒ rènwéi xiànzài nín yǒu shíjiān yě bù huì chūqu wánr.",
+          "en": "Xiaoli: I think that even if you had time now, you wouldn't go out and travel."
+        },
+        {
+          "zh": "周明：你说得对，我现在累得下了班就想睡觉。",
+          "py": "Zhōu Míng: Nǐ shuō de duì, wǒ xiànzài lèi de xiàle bān jiù xiǎng shuì jiào.",
+          "en": "Zhou Ming: You're right. These days I'm so tired that after work I just want to sleep."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在同事家 — At a colleague's home",
+      "items": [
+        {
+          "zh": "皮鞋",
+          "py": "píxié",
+          "en": "leather shoes"
+        },
+        {
+          "zh": "帽子",
+          "py": "màozi",
+          "en": "hat, cap"
+        },
+        {
+          "zh": "长",
+          "py": "zhǎng",
+          "en": "to grow, to develop"
+        },
+        {
+          "zh": "可爱",
+          "py": "kě'ài",
+          "en": "lovely, adorable"
+        },
+        {
+          "zh": "米",
+          "py": "mǐ",
+          "en": "metre"
+        },
+        {
+          "zh": "公斤",
+          "py": "gōngjīn",
+          "en": "kilogramme"
+        },
+        {
+          "zh": "鼻子",
+          "py": "bízi",
+          "en": "nose"
+        },
+        {
+          "zh": "头发",
+          "py": "tóufa",
+          "en": "hair"
+        },
+        {
+          "zh": "同事：谢谢你们来看我女儿。你送的小皮鞋和小帽子真漂亮！",
+          "py": "Tóngshì: Xièxie nǐmen lái kàn wǒ nǚ'ér. Nǐ sòng de xiǎo píxié hé xiǎo màozi zhēn piàoliang!",
+          "en": "Colleague: Thank you for coming to see my daughter. The little leather shoes and little hat you gave her are really pretty!"
+        },
+        {
+          "zh": "小丽：别客气，你女儿长得白白的、胖胖的，真可爱！现在多高了？",
+          "py": "Xiǎolì: Bié kèqi, nǐ nǚ'ér zhǎng de báibái de, pàngpàng de, zhēn kě'ài! Xiànzài duō gāo le?",
+          "en": "Xiaoli: You're welcome. Your daughter is so fair and chubby — really adorable! How tall is she now?"
+        },
+        {
+          "zh": "同事：快1米了，25公斤。",
+          "py": "Tóngshì: Kuài yī mǐ le, èrshíwǔ gōngjīn.",
+          "en": "Colleague: Almost 1 metre, and 25 kilos."
+        },
+        {
+          "zh": "小丽：你看她鼻子小小的，头发黑黑的；长得像谁？",
+          "py": "Xiǎolì: Nǐ kàn tā bízi xiǎoxiǎo de, tóufa hēihēi de; zhǎng de xiàng shéi?",
+          "en": "Xiaoli: Look at her tiny nose and her jet-black hair — who does she look like?"
+        },
+        {
+          "zh": "同事：像她爸爸，刚出生时她爸爸高兴得一个晚上都没睡着。",
+          "py": "Tóngshì: Xiàng tā bàba, gāng chūshēng shí tā bàba gāoxìng de yī ge wǎnshang dōu méi shuìzháo.",
+          "en": "Colleague: Like her dad. When she was just born, her dad was so happy he couldn't sleep all night."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在公司 — In the company",
+      "items": [
+        {
+          "zh": "检查",
+          "py": "jiǎnchá",
+          "en": "to check, to examine"
+        },
+        {
+          "zh": "刷牙",
+          "py": "shuā yá",
+          "en": "to brush the teeth"
+        },
+        {
+          "zh": "小刚：我的牙还是很疼。",
+          "py": "Xiǎogāng: Wǒ de yá háishi hěn téng.",
+          "en": "Xiaogang: My tooth still hurts a lot."
+        },
+        {
+          "zh": "同事：如果不舒服，就去医院检查一下吧。",
+          "py": "Tóngshì: Rúguǒ bù shūfu, jiù qù yīyuàn jiǎnchá yīxià ba.",
+          "en": "Colleague: If you're not feeling well, go to the hospital and get it checked."
+        },
+        {
+          "zh": "小刚：检查好几次了，但是没什么用。",
+          "py": "Xiǎogāng: Jiǎnchá hǎo jǐ cì le, dànshì méi shénme yòng.",
+          "en": "Xiaogang: I've had it checked several times, but it hasn't helped."
+        },
+        {
+          "zh": "同事：大夫怎么说的？",
+          "py": "Tóngshì: Dàifu zěnme shuō de?",
+          "en": "Colleague: What did the doctor say?"
+        },
+        {
+          "zh": "小刚：每次医生都告诉我，回家好好儿刷牙。",
+          "py": "Xiǎogāng: Měi cì yīshēng dōu gàosu wǒ, huí jiā hǎohāor shuā yá.",
+          "en": "Xiaogang: Every time, the doctor tells me to go home and brush my teeth properly."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 短文 — Relationships between people",
+      "items": [
+        {
+          "zh": "关系",
+          "py": "guānxì",
+          "en": "relationship"
+        },
+        {
+          "zh": "别人",
+          "py": "biérén",
+          "en": "other people"
+        },
+        {
+          "zh": "词语",
+          "py": "cíyǔ",
+          "en": "word, expression"
+        },
+        {
+          "zh": "很多人都觉得现在人和人的关系冷冷的，这可能是因为工作太忙，忙得没时间跟别人见面，累得不愿意和别人多说话。",
+          "py": "Hěn duō rén dōu juéde xiànzài rén hé rén de guānxì lěnglěng de, zhè kěnéng shì yīnwèi gōngzuò tài máng, máng de méi shíjiān gēn biérén jiàn miàn, lèi de bù yuànyì hé biérén duō shuō huà.",
+          "en": "Many people feel that relationships between people are cold nowadays. This may be because work is too busy: people are so busy they have no time to meet others, and so tired they don't want to talk much with others."
+        },
+        {
+          "zh": "其实，我们应该多对别人笑笑，说话时如果能多用一些“您好”“谢谢”这样的词语，和别人的关系就会变得更好。",
+          "py": "Qíshí, wǒmen yīnggāi duō duì biérén xiàoxiao, shuō huà shí rúguǒ néng duō yòng yīxiē “nín hǎo” “xièxie” zhèyàng de cíyǔ, hé biérén de guānxì jiù huì biàn de gèng hǎo.",
+          "en": "In fact, we should smile at others more. When speaking, if we can use more expressions like “hello” and “thank you”, our relationships with others will become better."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (如果……（的话），（S）就……)",
+      "items": [
+        {
+          "zh": "如果你太累了，就休息一会儿。",
+          "py": "Rúguǒ nǐ tài lèi le, jiù xiūxi yīhuìr.",
+          "en": "If you're too tired, have a rest."
+        },
+        {
+          "zh": "如果你喜欢，我就给你买。",
+          "py": "Rúguǒ nǐ xǐhuan, wǒ jiù gěi nǐ mǎi.",
+          "en": "If you like it, I'll buy it for you."
+        },
+        {
+          "zh": "如果有钱的话，我就去旅游。",
+          "py": "Rúguǒ yǒu qián dehuà, wǒ jiù qù lǚyóu.",
+          "en": "If I had money, I would go travelling."
+        },
+        {
+          "zh": "如果不舒服，就去医院检查一下吧。",
+          "py": "Rúguǒ bù shūfu, jiù qù yīyuàn jiǎnchá yīxià ba.",
+          "en": "If you're not feeling well, go to the hospital and get checked."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (复杂的状态补语 Adj/V + 得 + VP)",
+      "items": [
+        {
+          "zh": "孩子们玩儿得不想回家。",
+          "py": "Háizimen wánr de bù xiǎng huí jiā.",
+          "en": "The children are having so much fun they don't want to go home."
+        },
+        {
+          "zh": "弟弟高兴得跳了起来。",
+          "py": "Dìdi gāoxìng de tiàole qilai.",
+          "en": "My younger brother was so happy he jumped up."
+        },
+        {
+          "zh": "儿子累得下了班就睡觉了。",
+          "py": "Érzi lèi de xiàle bān jiù shuì jiào le.",
+          "en": "My son was so tired he went to sleep as soon as he got off work."
+        },
+        {
+          "zh": "人们忙得没时间跟别人见面。",
+          "py": "Rénmen máng de méi shíjiān gēn biérén jiàn miàn.",
+          "en": "People are so busy they have no time to meet others."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (单音节形容词重叠 AA的)",
+      "items": [
+        {
+          "zh": "你送的花红红的，我很喜欢。",
+          "py": "Nǐ sòng de huā hónghóng de, wǒ hěn xǐhuan.",
+          "en": "The flowers you gave me are so red — I like them very much."
+        },
+        {
+          "zh": "这些草绿绿的，真漂亮。",
+          "py": "Zhèxiē cǎo lǜlǜ de, zhēn piàoliang.",
+          "en": "This grass is so green, really beautiful."
+        },
+        {
+          "zh": "他鼻子小小的，长得像谁？",
+          "py": "Tā bízi xiǎoxiǎo de, zhǎng de xiàng shéi?",
+          "en": "He has such a tiny nose — who does he look like?"
+        },
+        {
+          "zh": "你女儿长得白白的、胖胖的，真可爱！",
+          "py": "Nǐ nǚ'ér zhǎng de báibái de, pàngpàng de, zhēn kě'ài!",
+          "en": "Your daughter is so fair and chubby — really adorable!"
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (旧字新词 Word game)",
+      "items": [
+        {
+          "zh": "词典 + 汉语 → 词语",
+          "py": "cídiǎn + Hànyǔ → cíyǔ",
+          "en": "dictionary + Chinese → word, expression"
+        },
+        {
+          "zh": "运动 + 皮鞋 → 运动鞋",
+          "py": "yùndòng + píxié → yùndòngxié",
+          "en": "sport + leather shoes → sports shoes, trainers"
+        },
+        {
+          "zh": "身体 + 检查 → 体检",
+          "py": "shēntǐ + jiǎnchá → tǐjiǎn",
+          "en": "body + examine → physical check-up"
+        }
+      ]
+    }
+  ]
+}

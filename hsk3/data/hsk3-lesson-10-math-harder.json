@@ -1,0 +1,316 @@
+{
+  "title": "第10课 · 数学比历史难多了",
+  "subtitle": "HSK 3 · Lesson 10 — 数学比历史难多了 · Maths is much harder than history",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "个子",
+          "py": "gèzi",
+          "en": "height, stature"
+        },
+        {
+          "zh": "矮",
+          "py": "ǎi",
+          "en": "short"
+        },
+        {
+          "zh": "朋友：大山，你和马可谁个子高？",
+          "py": "Péngyou: Dàshān, nǐ hé Mǎkě shéi gèzi gāo?",
+          "en": "Friend: Dashan, who is taller, you or Mark?"
+        },
+        {
+          "zh": "大山：马可比我高，我比马可矮一点儿。",
+          "py": "Dàshān: Mǎkě bǐ wǒ gāo, wǒ bǐ Mǎkě ǎi yīdiǎnr.",
+          "en": "Dashan: Mark is taller than me; I'm a little shorter than Mark."
+        },
+        {
+          "zh": "朋友：那你们谁大？",
+          "py": "Péngyou: Nà nǐmen shéi dà?",
+          "en": "Friend: Then who is older?"
+        },
+        {
+          "zh": "大山：我比马可大两岁。",
+          "py": "Dàshān: Wǒ bǐ Mǎkě dà liǎng suì.",
+          "en": "Dashan: I'm two years older than Mark."
+        },
+        {
+          "zh": "朋友：你们谁的汉语说得更好？",
+          "py": "Péngyou: Nǐmen shéi de Hànyǔ shuō de gèng hǎo?",
+          "en": "Friend: Which of you speaks Chinese better?"
+        },
+        {
+          "zh": "大山：马可比我说得好一些，我的汉语没有他好。",
+          "py": "Dàshān: Mǎkě bǐ wǒ shuō de hǎo yīxiē, wǒ de Hànyǔ méiyǒu tā hǎo.",
+          "en": "Dashan: Mark speaks a bit better than me; my Chinese isn't as good as his."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "历史",
+          "py": "lìshǐ",
+          "en": "history"
+        },
+        {
+          "zh": "体育",
+          "py": "tǐyù",
+          "en": "P.E., sports"
+        },
+        {
+          "zh": "数学",
+          "py": "shùxué",
+          "en": "maths"
+        },
+        {
+          "zh": "小明：我喜欢历史课、体育课，不喜欢数学课。",
+          "py": "Xiǎomíng: Wǒ xǐhuan lìshǐ kè, tǐyù kè, bù xǐhuan shùxué kè.",
+          "en": "Xiaoming: I like history and P.E. classes, but I don't like maths."
+        },
+        {
+          "zh": "同学：为什么？数学也很有意思啊。",
+          "py": "Tóngxué: Wèi shénme? Shùxué yě hěn yǒu yìsi a.",
+          "en": "Classmate: Why? Maths is interesting too."
+        },
+        {
+          "zh": "小明：我觉得数学比历史难多了，我听不懂。",
+          "py": "Xiǎomíng: Wǒ juéde shùxué bǐ lìshǐ nán duō le, wǒ tīng bu dǒng.",
+          "en": "Xiaoming: I think maths is much harder than history; I can't understand it."
+        },
+        {
+          "zh": "同学：别担心，我可以帮你。",
+          "py": "Tóngxué: Bié dān xīn, wǒ kěyǐ bāng nǐ.",
+          "en": "Classmate: Don't worry, I can help you."
+        },
+        {
+          "zh": "小明：好啊，我们每天学多长时间？",
+          "py": "Xiǎomíng: Hǎo a, wǒmen měi tiān xué duō cháng shíjiān?",
+          "en": "Xiaoming: Great, how long shall we study each day?"
+        },
+        {
+          "zh": "同学：一两个小时吧。",
+          "py": "Tóngxué: Yī-liǎng ge xiǎoshí ba.",
+          "en": "Classmate: One or two hours, I guess."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在休息室 — In the lounge",
+      "items": [
+        {
+          "zh": "方便",
+          "py": "fāngbiàn",
+          "en": "convenient"
+        },
+        {
+          "zh": "自行车",
+          "py": "zìxíngchē",
+          "en": "bicycle"
+        },
+        {
+          "zh": "骑",
+          "py": "qí",
+          "en": "to ride"
+        },
+        {
+          "zh": "旧",
+          "py": "jiù",
+          "en": "old, used, worn"
+        },
+        {
+          "zh": "换",
+          "py": "huàn",
+          "en": "to change, to substitute"
+        },
+        {
+          "zh": "同事：你最近比以前来得早多了，搬家了？",
+          "py": "Tóngshì: Nǐ zuìjìn bǐ yǐqián lái de zǎo duō le, bān jiā le?",
+          "en": "Colleague: Lately you've been arriving much earlier than before. Did you move?"
+        },
+        {
+          "zh": "小丽：是啊，你不知道？我上个月就搬家了，走路二十分钟就到。",
+          "py": "Xiǎolì: Shì a, nǐ bù zhīdào? Wǒ shàng ge yuè jiù bān jiā le, zǒu lù èrshí fēnzhōng jiù dào.",
+          "en": "Xiaoli: Yes, didn't you know? I moved last month. It's only a twenty-minute walk."
+        },
+        {
+          "zh": "同事：那很方便啊。",
+          "py": "Tóngshì: Nà hěn fāngbiàn a.",
+          "en": "Colleague: That's very convenient."
+        },
+        {
+          "zh": "小丽：我还打算买辆自行车，骑车七八分钟就能到。",
+          "py": "Xiǎolì: Wǒ hái dǎsuàn mǎi liàng zìxíngchē, qí chē qī-bā fēnzhōng jiù néng dào.",
+          "en": "Xiaoli: I'm also planning to buy a bike; by bike I can get here in seven or eight minutes."
+        },
+        {
+          "zh": "同事：你不是有一辆吗？",
+          "py": "Tóngshì: Nǐ bù shì yǒu yī liàng ma?",
+          "en": "Colleague: Don't you already have one?"
+        },
+        {
+          "zh": "小丽：那辆太旧了，要换一辆，很便宜，两三百块钱。",
+          "py": "Xiǎolì: Nà liàng tài jiù le, yào huàn yī liàng, hěn piányi, liǎng-sān bǎi kuài qián.",
+          "en": "Xiaoli: That one is too old, I want to replace it. It's cheap, two or three hundred yuan."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在看房子 — Seeing an apartment",
+      "items": [
+        {
+          "zh": "地方",
+          "py": "dìfang",
+          "en": "place"
+        },
+        {
+          "zh": "中介",
+          "py": "zhōngjiè",
+          "en": "intermediary, agent"
+        },
+        {
+          "zh": "主要",
+          "py": "zhǔyào",
+          "en": "main"
+        },
+        {
+          "zh": "环境",
+          "py": "huánjìng",
+          "en": "environment"
+        },
+        {
+          "zh": "附近",
+          "py": "fùjìn",
+          "en": "nearby, vicinity"
+        },
+        {
+          "zh": "大山：这两个地方的房子一样吗？",
+          "py": "Dàshān: Zhè liǎng ge dìfang de fángzi yīyàng ma?",
+          "en": "Dashan: Are the apartments in these two places the same?"
+        },
+        {
+          "zh": "中介：不一样。您看，学校外边的房子比学校里边的大一些。",
+          "py": "Zhōngjiè: Bù yīyàng. Nín kàn, xuéxiào wàibian de fángzi bǐ xuéxiào lǐbian de dà yīxiē.",
+          "en": "Agent: No. Look, the apartment outside the school is a bit bigger than the one inside."
+        },
+        {
+          "zh": "大山：大小没关系，主要是环境，哪个更安静？",
+          "py": "Dàshān: Dàxiǎo méi guānxi, zhǔyào shì huánjìng, nǎge gèng ānjìng?",
+          "en": "Dashan: Size doesn't matter; the main thing is the environment. Which one is quieter?"
+        },
+        {
+          "zh": "中介：学校里边的没有学校外边的那么安静。",
+          "py": "Zhōngjiè: Xuéxiào lǐbian de méiyǒu xuéxiào wàibian de nàme ānjìng.",
+          "en": "Agent: The one inside the school isn't as quiet as the one outside."
+        },
+        {
+          "zh": "大山：哪个方便一些呢？",
+          "py": "Dàshān: Nǎge fāngbiàn yīxiē ne?",
+          "en": "Dashan: Which one is a bit more convenient?"
+        },
+        {
+          "zh": "中介：学校里边比学校外边方便，附近有三四个车站。",
+          "py": "Zhōngjiè: Xuéxiào lǐbian bǐ xuéxiào wàibian fāngbiàn, fùjìn yǒu sān-sì ge chēzhàn.",
+          "en": "Agent: Inside the school is more convenient than outside; there are three or four stops nearby."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (A比B + Adj + 一点儿/一些/得多/多了)",
+      "items": [
+        {
+          "zh": "大山比大卫矮一点儿。",
+          "py": "Dàshān bǐ Dàwèi ǎi yīdiǎnr.",
+          "en": "Dashan is a little shorter than David."
+        },
+        {
+          "zh": "我今天起得比昨天晚一些。",
+          "py": "Wǒ jīntiān qǐ de bǐ zuótiān wǎn yīxiē.",
+          "en": "I got up a bit later today than yesterday."
+        },
+        {
+          "zh": "今天的作业比昨天多得多。",
+          "py": "Jīntiān de zuòyè bǐ zuótiān duō de duō.",
+          "en": "Today's homework is much more than yesterday's."
+        },
+        {
+          "zh": "数学比历史难多了。",
+          "py": "Shùxué bǐ lìshǐ nán duō le.",
+          "en": "Maths is much harder than history."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (A没有B（这么/那么）+ Adj)",
+      "items": [
+        {
+          "zh": "咖啡没有茶好喝。",
+          "py": "Kāfēi méiyǒu chá hǎohē.",
+          "en": "Coffee doesn't taste as good as tea."
+        },
+        {
+          "zh": "他没有我这么高。",
+          "py": "Tā méiyǒu wǒ zhème gāo.",
+          "en": "He isn't as tall as me."
+        },
+        {
+          "zh": "这个电影没有那个电影那么有意思。",
+          "py": "Zhège diànyǐng méiyǒu nàge diànyǐng nàme yǒu yìsi.",
+          "en": "This film isn't as interesting as that one."
+        },
+        {
+          "zh": "学校里边的（房子）没有学校外边的那么安静。",
+          "py": "Xuéxiào lǐbian de (fángzi) méiyǒu xuéxiào wàibian de nàme ānjìng.",
+          "en": "The apartment inside the school isn't as quiet as the one outside."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (概数：一两、三四、七八)",
+      "items": [
+        {
+          "zh": "我每天学习一两个小时汉语。",
+          "py": "Wǒ měi tiān xuéxí yī-liǎng ge xiǎoshí Hànyǔ.",
+          "en": "I study Chinese for one or two hours every day."
+        },
+        {
+          "zh": "你都喝了三四杯咖啡了，别再喝了！",
+          "py": "Nǐ dōu hēle sān-sì bēi kāfēi le, bié zài hē le!",
+          "en": "You've already had three or four cups of coffee, don't drink any more!"
+        },
+        {
+          "zh": "从小丽家到公司骑车七八分钟就能到。",
+          "py": "Cóng Xiǎolì jiā dào gōngsī qí chē qī-bā fēnzhōng jiù néng dào.",
+          "en": "From Xiaoli's home to the company takes only seven or eight minutes by bike."
+        },
+        {
+          "zh": "学校里边比学校外边方便，附近有三四个车站。",
+          "py": "Xuéxiào lǐbian bǐ xuéxiào wàibian fāngbiàn, fùjìn yǒu sān-sì ge chēzhàn.",
+          "en": "Inside the school is more convenient than outside; there are three or four stops nearby."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (旧字新词 Word game)",
+      "items": [
+        {
+          "zh": "换季",
+          "py": "huàn jì",
+          "en": "change of season (换 + 季节)"
+        },
+        {
+          "zh": "地面",
+          "py": "dìmiàn",
+          "en": "ground, floor (地方 + 上面)"
+        },
+        {
+          "zh": "主菜",
+          "py": "zhǔcài",
+          "en": "main course (主要 + 菜)"
+        }
+      ]
+    }
+  ]
+}

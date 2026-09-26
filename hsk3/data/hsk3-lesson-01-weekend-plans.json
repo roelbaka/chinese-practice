@@ -1,0 +1,341 @@
+{
+  "title": "第1课 · 周末你有什么打算",
+  "subtitle": "HSK 3 · Lesson 1 — 周末你有什么打算 · What's your plan for the weekend",
+  "data": [
+    {
+      "topic": "课文1 · 1. 谈周末的打算 — Talking about the plan for the weekend",
+      "items": [
+        {
+          "zh": "周末",
+          "py": "zhōumò",
+          "en": "weekend"
+        },
+        {
+          "zh": "打算",
+          "py": "dǎsuàn",
+          "en": "plan; to intend"
+        },
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "particle for confirmation or defense"
+        },
+        {
+          "zh": "跟",
+          "py": "gēn",
+          "en": "with"
+        },
+        {
+          "zh": "小丽",
+          "py": "Xiǎolì",
+          "en": "Xiaoli (name)"
+        },
+        {
+          "zh": "小刚",
+          "py": "Xiǎogāng",
+          "en": "Xiaogang (name)"
+        },
+        {
+          "zh": "小丽：周末你有什么打算？",
+          "py": "Xiǎolì: Zhōumò nǐ yǒu shénme dǎsuàn?",
+          "en": "Xiaoli: What are your plans for the weekend?"
+        },
+        {
+          "zh": "小刚：我早就想好了，请你吃饭、看电影、喝咖啡。",
+          "py": "Xiǎogāng: Wǒ zǎo jiù xiǎnghǎo le, qǐng nǐ chī fàn, kàn diànyǐng, hē kāfēi.",
+          "en": "Xiaogang: I figured it out long ago: I'm treating you to dinner, a movie and coffee."
+        },
+        {
+          "zh": "小丽：请我？",
+          "py": "Xiǎolì: Qǐng wǒ?",
+          "en": "Xiaoli: Treating me?"
+        },
+        {
+          "zh": "小刚：是啊，我已经找好饭馆了，电影票也买好了。",
+          "py": "Xiǎogāng: Shì a, wǒ yǐjīng zhǎohǎo fànguǎn le, diànyǐngpiào yě mǎihǎo le.",
+          "en": "Xiaogang: Yes, I've already found a restaurant, and I've bought the movie tickets too."
+        },
+        {
+          "zh": "小丽：我还没想好要不要跟你去呢。",
+          "py": "Xiǎolì: Wǒ hái méi xiǎnghǎo yào bu yào gēn nǐ qù ne.",
+          "en": "Xiaoli: I haven't decided yet whether I want to go with you."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在家 — At home",
+      "items": [
+        {
+          "zh": "一直",
+          "py": "yìzhí",
+          "en": "all the time"
+        },
+        {
+          "zh": "游戏",
+          "py": "yóuxì",
+          "en": "game"
+        },
+        {
+          "zh": "作业",
+          "py": "zuòyè",
+          "en": "homework"
+        },
+        {
+          "zh": "着急",
+          "py": "zháojí",
+          "en": "worried, anxious"
+        },
+        {
+          "zh": "复习",
+          "py": "fùxí",
+          "en": "to review"
+        },
+        {
+          "zh": "妈妈：你一直玩儿电脑游戏，作业写完了吗？",
+          "py": "Māma: Nǐ yīzhí wánr diànnǎo yóuxì, zuòyè xiěwán le ma?",
+          "en": "Mom: You've been playing computer games all the time. Have you finished your homework?"
+        },
+        {
+          "zh": "儿子：都写完了。",
+          "py": "Érzi: Dōu xiěwán le.",
+          "en": "Son: I've finished all of it."
+        },
+        {
+          "zh": "妈妈：明天不是有考试吗？你怎么一点儿也不着急？",
+          "py": "Māma: Míngtiān bù shì yǒu kǎoshì ma? Nǐ zěnme yīdiǎnr yě bù zháojí?",
+          "en": "Mom: Don't you have an exam tomorrow? How come you're not worried at all?"
+        },
+        {
+          "zh": "儿子：我早就复习好了。",
+          "py": "Érzi: Wǒ zǎo jiù fùxí hǎo le.",
+          "en": "Son: I finished reviewing long ago."
+        },
+        {
+          "zh": "妈妈：那也不能一直玩儿啊。",
+          "py": "Māma: Nà yě bù néng yīzhí wánr a.",
+          "en": "Mom: Even so, you can't play all the time."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 聊旅游计划 — Talking about the travel plan",
+      "items": [
+        {
+          "zh": "南（方）",
+          "py": "nán (fāng)",
+          "en": "south, southern part"
+        },
+        {
+          "zh": "北方",
+          "py": "běifāng",
+          "en": "north, northern part"
+        },
+        {
+          "zh": "小丽：下个月我去旅游，你能跟我一起去吗？",
+          "py": "Xiǎolì: Xià ge yuè wǒ qù lǚyóu, nǐ néng gēn wǒ yīqǐ qù ma?",
+          "en": "Xiaoli: I'm going travelling next month. Can you come with me?"
+        },
+        {
+          "zh": "小刚：我还没想好呢。你觉得哪儿最好玩儿？",
+          "py": "Xiǎogāng: Wǒ hái méi xiǎnghǎo ne. Nǐ juéde nǎr zuì hǎowánr?",
+          "en": "Xiaogang: I haven't decided yet. Where do you think is the most fun?"
+        },
+        {
+          "zh": "小丽：南方啊，我们去年就是这个时候去的。",
+          "py": "Xiǎolì: Nánfāng a, wǒmen qùnián jiù shì zhège shíhou qù de.",
+          "en": "Xiaoli: The south! We went at exactly this time last year."
+        },
+        {
+          "zh": "小刚：南方太热了，北方好一些，不冷也不热。",
+          "py": "Xiǎogāng: Nánfāng tài rè le, běifāng hǎo yīxiē, bù lěng yě bù rè.",
+          "en": "Xiaogang: The south is too hot. The north is a bit better: neither cold nor hot."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 准备去旅游 — Preparing for their trip",
+      "items": [
+        {
+          "zh": "面包",
+          "py": "miànbāo",
+          "en": "bread"
+        },
+        {
+          "zh": "带",
+          "py": "dài",
+          "en": "to take along, to bring"
+        },
+        {
+          "zh": "地图",
+          "py": "dìtú",
+          "en": "map"
+        },
+        {
+          "zh": "搬",
+          "py": "bān",
+          "en": "to move, to carry"
+        },
+        {
+          "zh": "小刚：水果、面包、茶都准备好了，我们还带什么？",
+          "py": "Xiǎogāng: Shuǐguǒ, miànbāo, chá dōu zhǔnbèi hǎo le, wǒmen hái dài shénme?",
+          "en": "Xiaogang: The fruit, bread and tea are all ready. What else should we bring?"
+        },
+        {
+          "zh": "小丽：手机、电脑、地图，一个也不能少。",
+          "py": "Xiǎolì: Shǒujī, diànnǎo, dìtú, yī ge yě bù néng shǎo.",
+          "en": "Xiaoli: Phone, computer, map: we can't leave a single one behind."
+        },
+        {
+          "zh": "小刚：这些我昨天下午就准备好了。",
+          "py": "Xiǎogāng: Zhèxiē wǒ zuótiān xiàwǔ jiù zhǔnbèi hǎo le.",
+          "en": "Xiaogang: I already got those ready yesterday afternoon."
+        },
+        {
+          "zh": "小丽：再多带几件衣服吧。",
+          "py": "Xiǎolì: Zài duō dài jǐ jiàn yīfu ba.",
+          "en": "Xiaoli: Bring a few more pieces of clothing."
+        },
+        {
+          "zh": "小刚：我们是去旅游，不是搬家，还是少带一些吧。",
+          "py": "Xiǎogāng: Wǒmen shì qù lǚyóu, bù shì bān jiā, háishi shǎo dài yīxiē ba.",
+          "en": "Xiaogang: We're going on a trip, not moving house. Let's bring a bit less."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (结果补语“好”)",
+      "items": [
+        {
+          "zh": "今晚的电影小刚已经买好票了。",
+          "py": "Jīnwǎn de diànyǐng Xiǎogāng yǐjīng mǎihǎo piào le.",
+          "en": "Xiaogang has already bought the tickets for tonight's movie."
+        },
+        {
+          "zh": "饭还没做好，请你等一会儿。",
+          "py": "Fàn hái méi zuòhǎo, qǐng nǐ děng yīhuìr.",
+          "en": "The food isn't ready yet, please wait a moment."
+        },
+        {
+          "zh": "去旅游的东西准备好了吗？",
+          "py": "Qù lǚyóu de dōngxi zhǔnbèi hǎo le ma?",
+          "en": "Are the things for the trip ready?"
+        },
+        {
+          "zh": "我还没想好要不要跟你去呢。",
+          "py": "Wǒ hái méi xiǎnghǎo yào bu yào gēn nǐ qù ne.",
+          "en": "I haven't decided yet whether I want to go with you."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (一 + MW + N + 也/都 + 不/没)",
+      "items": [
+        {
+          "zh": "我一个苹果也不想吃。",
+          "py": "Wǒ yī ge píngguǒ yě bù xiǎng chī.",
+          "en": "I don't want to eat a single apple."
+        },
+        {
+          "zh": "昨天他一件衣服都没买。",
+          "py": "Zuótiān tā yī jiàn yīfu dōu méi mǎi.",
+          "en": "Yesterday he didn't buy a single piece of clothing."
+        },
+        {
+          "zh": "小丽一杯茶也没喝。",
+          "py": "Xiǎolì yī bēi chá yě méi hē.",
+          "en": "Xiaoli didn't drink a single cup of tea."
+        },
+        {
+          "zh": "手机、电脑、地图，一个也不能少（带）。",
+          "py": "Shǒujī, diànnǎo, dìtú, yī ge yě bù néng shǎo (dài).",
+          "en": "Phone, computer, map: we can't leave a single one behind."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (一点儿 + N + 也/都 + 不/没)",
+      "items": [
+        {
+          "zh": "我一点儿东西也不想吃。",
+          "py": "Wǒ yīdiǎnr dōngxi yě bù xiǎng chī.",
+          "en": "I don't want to eat anything at all."
+        },
+        {
+          "zh": "这个星期我很忙，一点儿时间也没有。",
+          "py": "Zhège xīngqī wǒ hěn máng, yīdiǎnr shíjiān yě méiyǒu.",
+          "en": "I'm very busy this week; I have no time at all."
+        },
+        {
+          "zh": "今天早上我一点儿咖啡都没喝。",
+          "py": "Jīntiān zǎoshang wǒ yīdiǎnr kāfēi dōu méi hē.",
+          "en": "I didn't drink any coffee at all this morning."
+        },
+        {
+          "zh": "我一点儿钱都没带，所以不能买衣服。",
+          "py": "Wǒ yīdiǎnr qián dōu méi dài, suǒyǐ bù néng mǎi yīfu.",
+          "en": "I didn't bring any money at all, so I can't buy clothes."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (一点儿也/都 + 不 + Adj)",
+      "items": [
+        {
+          "zh": "他一点儿也不累。",
+          "py": "Tā yīdiǎnr yě bù lèi.",
+          "en": "He isn't tired at all."
+        },
+        {
+          "zh": "南方一点儿都不冷。",
+          "py": "Nánfāng yīdiǎnr dōu bù lěng.",
+          "en": "The south isn't cold at all."
+        },
+        {
+          "zh": "那个地方一点儿也不远。",
+          "py": "Nàge dìfang yīdiǎnr yě bù yuǎn.",
+          "en": "That place isn't far at all."
+        },
+        {
+          "zh": "你怎么一点儿也不着急？",
+          "py": "Nǐ zěnme yīdiǎnr yě bù zháojí?",
+          "en": "How come you're not worried at all?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (连词“那”)",
+      "items": [
+        {
+          "zh": "A：我不想去看电影。  B：那我也不去了。",
+          "py": "A: Wǒ bù xiǎng qù kàn diànyǐng.  B: Nà wǒ yě bù qù le.",
+          "en": "A: I don't want to go to the movies.  B: Then I won't go either."
+        },
+        {
+          "zh": "A：（明天的考试）我早就复习好了。  B：那也不能一直玩儿啊。",
+          "py": "A: (Míngtiān de kǎoshì) wǒ zǎo jiù fùxí hǎo le.  B: Nà yě bù néng yīzhí wánr a.",
+          "en": "A: (For tomorrow's exam) I finished reviewing long ago.  B: Even so, you can't play all the time."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (旧字新词 Word game)",
+      "items": [
+        {
+          "zh": "旅游 + 客人 → 游客",
+          "py": "lǚyóu + kèrén → yóukè",
+          "en": "travel + guest → tourist"
+        },
+        {
+          "zh": "外边 + 地方 → 外地",
+          "py": "wàibian + dìfang → wàidì",
+          "en": "outside + place → other parts of the country"
+        },
+        {
+          "zh": "北方 + 门 → 北门",
+          "py": "běifāng + mén → běimén",
+          "en": "north + gate → north gate"
+        }
+      ]
+    }
+  ]
+}

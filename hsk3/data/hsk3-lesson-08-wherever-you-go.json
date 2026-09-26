@@ -1,0 +1,326 @@
+{
+  "title": "第8课 · 你去哪儿我就去哪儿",
+  "subtitle": "HSK 3 · Lesson 8 — 你去哪儿我就去哪儿 · I'll go wherever you go",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在休息室 — In the lounge",
+      "items": [
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "again"
+        },
+        {
+          "zh": "满意",
+          "py": "mǎnyì",
+          "en": "to be satisfied"
+        },
+        {
+          "zh": "电梯",
+          "py": "diàntī",
+          "en": "elevator"
+        },
+        {
+          "zh": "层",
+          "py": "céng",
+          "en": "(measure word for floors)"
+        },
+        {
+          "zh": "害怕",
+          "py": "hài pà",
+          "en": "to be afraid, to be scared"
+        },
+        {
+          "zh": "同事：听说你最近打算买房子？",
+          "py": "Tóngshì: Tīngshuō nǐ zuìjìn dǎsuàn mǎi fángzi?",
+          "en": "Colleague: I hear you're planning to buy a house?"
+        },
+        {
+          "zh": "小丽：是，昨天去看了看，今天又去看了看，明天还要再去看看。",
+          "py": "Xiǎolì: Shì, zuótiān qù kànle kàn, jīntiān yòu qù kànle kàn, míngtiān hái yào zài qù kànkan.",
+          "en": "Xiaoli: Yes. I went to look yesterday, went again today, and I'm going to look again tomorrow."
+        },
+        {
+          "zh": "同事：都不满意吗？",
+          "py": "Tóngshì: Dōu bù mǎnyì ma?",
+          "en": "Colleague: You weren't happy with any of them?"
+        },
+        {
+          "zh": "小丽：一个没有电梯，不方便。一个有电梯，但是在二十层。",
+          "py": "Xiǎolì: Yī ge méiyǒu diàntī, bù fāngbiàn. Yī ge yǒu diàntī, dànshì zài èrshí céng.",
+          "en": "Xiaoli: One has no elevator, which is inconvenient. One has an elevator, but it's on the 20th floor."
+        },
+        {
+          "zh": "同事：二十层怎么了？",
+          "py": "Tóngshì: Èrshí céng zěnme le?",
+          "en": "Colleague: What's wrong with the 20th floor?"
+        },
+        {
+          "zh": "小丽：太高了，往下看多害怕啊！",
+          "py": "Xiǎolì: Tài gāo le, wǎng xià kàn duō hàipà a!",
+          "en": "Xiaoli: It's too high. Looking down would be so scary!"
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在学校 — At school",
+      "items": [
+        {
+          "zh": "熊猫",
+          "py": "xióngmāo",
+          "en": "panda"
+        },
+        {
+          "zh": "见面",
+          "py": "jiàn miàn",
+          "en": "to meet"
+        },
+        {
+          "zh": "小明：听说你下个星期就要回国了？",
+          "py": "Xiǎomíng: Tīngshuō nǐ xià ge xīngqī jiù yào huí guó le?",
+          "en": "Xiaoming: I hear you're going back to your country next week?"
+        },
+        {
+          "zh": "马可：是啊，真不想离开北京。",
+          "py": "Mǎkě: Shì a, zhēn bù xiǎng líkāi Běijīng.",
+          "en": "Mark: Yes. I really don't want to leave Beijing."
+        },
+        {
+          "zh": "小明：我下星期不在北京，不能去机场送你了。",
+          "py": "Xiǎomíng: Wǒ xià xīngqī bù zài Běijīng, bù néng qù jīchǎng sòng nǐ le.",
+          "en": "Xiaoming: I won't be in Beijing next week, so I can't see you off at the airport."
+        },
+        {
+          "zh": "马可：没关系，你忙吧。",
+          "py": "Mǎkě: Méi guānxi, nǐ máng ba.",
+          "en": "Mark: That's OK, you go about your business."
+        },
+        {
+          "zh": "小明：这个小熊猫送给你，欢迎你以后再到中国来。",
+          "py": "Xiǎomíng: Zhège xiǎo xióngmāo sòng gěi nǐ, huānyíng nǐ yǐhòu zài dào Zhōngguó lái.",
+          "en": "Xiaoming: This little panda is for you. You're welcome to come back to China in the future."
+        },
+        {
+          "zh": "马可：谢谢。希望以后能再见面。",
+          "py": "Mǎkě: Xièxie. Xīwàng yǐhòu néng zài jiàn miàn.",
+          "en": "Mark: Thank you. I hope we can meet again someday."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在咖啡厅 — In a coffee house",
+      "items": [
+        {
+          "zh": "安静",
+          "py": "ānjìng",
+          "en": "quiet"
+        },
+        {
+          "zh": "可乐",
+          "py": "kělè",
+          "en": "cola, Coke"
+        },
+        {
+          "zh": "一会儿",
+          "py": "yíhuìr",
+          "en": "a moment"
+        },
+        {
+          "zh": "马上",
+          "py": "mǎshàng",
+          "en": "immediately, at once"
+        },
+        {
+          "zh": "洗手间",
+          "py": "xǐshǒujiān",
+          "en": "bathroom, restroom"
+        },
+        {
+          "zh": "小丽：小刚，我们坐哪儿？",
+          "py": "Xiǎolì: Xiǎogāng, wǒmen zuò nǎr?",
+          "en": "Xiaoli: Xiaogang, where shall we sit?"
+        },
+        {
+          "zh": "小刚：你坐哪儿我就坐哪儿。",
+          "py": "Xiǎogāng: Nǐ zuò nǎr wǒ jiù zuò nǎr.",
+          "en": "Xiaogang: I'll sit wherever you sit."
+        },
+        {
+          "zh": "小丽：坐这儿吧，这儿安静。你想喝什么饮料？",
+          "py": "Xiǎolì: Zuò zhèr ba, zhèr ānjìng. Nǐ xiǎng hē shénme yǐnliào?",
+          "en": "Xiaoli: Let's sit here; it's quiet. What would you like to drink?"
+        },
+        {
+          "zh": "小刚：你喝什么我就喝什么。",
+          "py": "Xiǎogāng: Nǐ hē shénme wǒ jiù hē shénme.",
+          "en": "Xiaogang: I'll have whatever you have."
+        },
+        {
+          "zh": "小丽：喝可乐吧。你等我一会儿，我马上回来。",
+          "py": "Xiǎolì: Hē kělè ba. Nǐ děng wǒ yīhuìr, wǒ mǎshàng huílai.",
+          "en": "Xiaoli: Let's have cola. Wait for me a moment, I'll be right back."
+        },
+        {
+          "zh": "小刚：小丽，你去哪儿？你去哪儿我就去哪儿。",
+          "py": "Xiǎogāng: Xiǎolì, nǐ qù nǎr? Nǐ qù nǎr wǒ jiù qù nǎr.",
+          "en": "Xiaogang: Xiaoli, where are you going? I'll go wherever you go."
+        },
+        {
+          "zh": "小丽：我去洗手间。",
+          "py": "Xiǎolì: Wǒ qù xǐshǒujiān.",
+          "en": "Xiaoli: I'm going to the restroom."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在周明家 — At Zhou Ming's home",
+      "items": [
+        {
+          "zh": "老",
+          "py": "lǎo",
+          "en": "old"
+        },
+        {
+          "zh": "几乎",
+          "py": "jīhū",
+          "en": "almost"
+        },
+        {
+          "zh": "变化",
+          "py": "biànhuà",
+          "en": "to change"
+        },
+        {
+          "zh": "健康",
+          "py": "jiànkāng",
+          "en": "healthy"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòngyào",
+          "en": "important"
+        },
+        {
+          "zh": "老同学：快五年了，你几乎没变化。",
+          "py": "Lǎo tóngxué: Kuài wǔ nián le, nǐ jīhū méi biànhuà.",
+          "en": "Old classmate: It's been almost five years, and you've hardly changed."
+        },
+        {
+          "zh": "周太太：谁说的？我胖了，以前的衣服都不能穿了。",
+          "py": "Zhōu tàitai: Shéi shuō de? Wǒ pàng le, yǐqián de yīfu dōu bù néng chuān le.",
+          "en": "Mrs. Zhou: Who says? I've put on weight; I can't wear any of my old clothes."
+        },
+        {
+          "zh": "老同学：健康最重要，胖瘦没关系。",
+          "py": "Lǎo tóngxué: Jiànkāng zuì zhòngyào, pàng shòu méi guānxi.",
+          "en": "Old classmate: Health is what matters most; fat or thin doesn't matter."
+        },
+        {
+          "zh": "周太太：是呀，想吃什么就吃什么。",
+          "py": "Zhōu tàitai: Shì ya, xiǎng chī shénme jiù chī shénme.",
+          "en": "Mrs. Zhou: Right, I eat whatever I feel like."
+        },
+        {
+          "zh": "老同学：你做饭还是周明做饭？",
+          "py": "Lǎo tóngxué: Nǐ zuò fàn háishi Zhōu Míng zuò fàn?",
+          "en": "Old classmate: Do you do the cooking, or does Zhou Ming?"
+        },
+        {
+          "zh": "周太太：我做，我想吃什么就做什么，想吃多少就做多少。",
+          "py": "Zhōu tàitai: Wǒ zuò, wǒ xiǎng chī shénme jiù zuò shénme, xiǎng chī duōshao jiù zuò duōshao.",
+          "en": "Mrs. Zhou: I do. I cook whatever I want to eat, and as much as I want to eat."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (又 vs 再)",
+      "items": [
+        {
+          "zh": "上个星期我买了一条裤子，昨天又买了一条。",
+          "py": "Shàng ge xīngqī wǒ mǎile yī tiáo kùzi, zuótiān yòu mǎile yī tiáo.",
+          "en": "I bought a pair of trousers last week, and yesterday I bought another pair."
+        },
+        {
+          "zh": "你上午已经喝了一杯咖啡，下午怎么又喝了一杯？",
+          "py": "Nǐ shàngwǔ yǐjīng hēle yī bēi kāfēi, xiàwǔ zěnme yòu hēle yī bēi?",
+          "en": "You already had a cup of coffee this morning. Why did you have another one this afternoon?"
+        },
+        {
+          "zh": "小刚，你前天迟到，昨天迟到，今天怎么又迟到了？",
+          "py": "Xiǎogāng, nǐ qiántiān chídào, zuótiān chídào, jīntiān zěnme yòu chídào le?",
+          "en": "Xiaogang, you were late the day before yesterday and yesterday. Why are you late again today?"
+        },
+        {
+          "zh": "我昨天看了一个电影，今天又看了一个。",
+          "py": "Wǒ zuótiān kànle yī ge diànyǐng, jīntiān yòu kànle yī ge.",
+          "en": "I watched a film yesterday and watched another one today."
+        },
+        {
+          "zh": "你只吃了一点儿饭，再吃一点儿吧。",
+          "py": "Nǐ zhǐ chīle yīdiǎnr fàn, zài chī yīdiǎnr ba.",
+          "en": "You've only eaten a little. Have some more."
+        },
+        {
+          "zh": "家里只有一个面包了，我们再买一些吧。",
+          "py": "Jiā li zhǐ yǒu yī ge miànbāo le, wǒmen zài mǎi yīxiē ba.",
+          "en": "There's only one loaf of bread left at home. Let's buy some more."
+        },
+        {
+          "zh": "那个饭馆我昨天去了一次，明天还想再去一次。",
+          "py": "Nàge fànguǎn wǒ zuótiān qùle yī cì, míngtiān hái xiǎng zài qù yī cì.",
+          "en": "I went to that restaurant once yesterday, and I want to go again tomorrow."
+        },
+        {
+          "zh": "昨天去看了看，今天又去看了看，明天还要再去看看。",
+          "py": "Zuótiān qù kànle kàn, jīntiān yòu qù kànle kàn, míngtiān hái yào zài qù kànkan.",
+          "en": "I went to look yesterday, went again today, and will go look again tomorrow."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (Question word + 就 + question word)",
+      "items": [
+        {
+          "zh": "什么东西便宜我就买什么。",
+          "py": "Shénme dōngxi piányi wǒ jiù mǎi shénme.",
+          "en": "I'll buy whatever is cheap."
+        },
+        {
+          "zh": "你哪天有时间就哪天来我家吧。",
+          "py": "Nǐ nǎ tiān yǒu shíjiān jiù nǎ tiān lái wǒ jiā ba.",
+          "en": "Come to my place whichever day you have time."
+        },
+        {
+          "zh": "谁喜欢他他就喜欢谁。",
+          "py": "Shéi xǐhuan tā tā jiù xǐhuan shéi.",
+          "en": "He likes whoever likes him."
+        },
+        {
+          "zh": "你坐哪儿我就坐哪儿。",
+          "py": "Nǐ zuò nǎr wǒ jiù zuò nǎr.",
+          "en": "I'll sit wherever you sit."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (Word game: 旧字新词)",
+      "items": [
+        {
+          "zh": "面试",
+          "py": "miànshì",
+          "en": "interview (见面 meet + 考试 exam)"
+        },
+        {
+          "zh": "自学",
+          "py": "zìxué",
+          "en": "to teach oneself (自己 oneself + 学习 study)"
+        },
+        {
+          "zh": "离婚",
+          "py": "lí hūn",
+          "en": "to divorce (离开 leave + 结婚 marry)"
+        }
+      ]
+    }
+  ]
+}

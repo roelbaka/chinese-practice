@@ -1,0 +1,281 @@
+{
+  "title": "第9课 · 她的汉语说得跟中国人一样好",
+  "subtitle": "HSK 3 · Lesson 9 — 她的汉语说得跟中国人一样好 · She speaks Chinese like a native",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "中文",
+          "py": "Zhōngwén",
+          "en": "Chinese language"
+        },
+        {
+          "zh": "班",
+          "py": "bān",
+          "en": "class"
+        },
+        {
+          "zh": "一样",
+          "py": "yíyàng",
+          "en": "same, as...as..."
+        },
+        {
+          "zh": "大山：马可，你的中文越说越好了！",
+          "py": "Dàshān: Mǎkě, nǐ de Zhōngwén yuè shuō yuè hǎo le!",
+          "en": "Dashan: Mark, your Chinese is getting better and better!"
+        },
+        {
+          "zh": "马可：哪里哪里，我们班王静说得更好。",
+          "py": "Mǎkě: Nǎli nǎli, wǒmen bān Wáng Jìng shuō de gèng hǎo.",
+          "en": "Mark: Not at all. Wang Jing in our class speaks even better."
+        },
+        {
+          "zh": "大山：怎么好？",
+          "py": "Dàshān: Zěnme hǎo?",
+          "en": "Dashan: How good?"
+        },
+        {
+          "zh": "马可：她的汉语说得跟中国人一样好。",
+          "py": "Mǎkě: Tā de Hànyǔ shuō de gēn Zhōngguórén yīyàng hǎo.",
+          "en": "Mark: She speaks Chinese as well as a Chinese person."
+        },
+        {
+          "zh": "大山：王静？我怎么没听说过这个名字？",
+          "py": "Dàshān: Wáng Jìng? Wǒ zěnme méi tīngshuōguo zhège míngzi?",
+          "en": "Dashan: Wang Jing? How come I've never heard that name?"
+        },
+        {
+          "zh": "马可：她是我们的汉语老师。",
+          "py": "Mǎkě: Tā shì wǒmen de Hànyǔ lǎoshī.",
+          "en": "Mark: She's our Chinese teacher."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在蛋糕店 — In a bakery",
+      "items": [
+        {
+          "zh": "最后",
+          "py": "zuìhòu",
+          "en": "the last one"
+        },
+        {
+          "zh": "放心",
+          "py": "fàng xīn",
+          "en": "to ease one's mind, to rest assured"
+        },
+        {
+          "zh": "一定",
+          "py": "yídìng",
+          "en": "definitely, certainly"
+        },
+        {
+          "zh": "小丽：别吃了，你已经吃了三块蛋糕了。",
+          "py": "Xiǎolì: Bié chī le, nǐ yǐjīng chīle sān kuài dàngāo le.",
+          "en": "Xiaoli: Stop eating, you've already had three pieces of cake."
+        },
+        {
+          "zh": "小刚：这是最后一块。",
+          "py": "Xiǎogāng: Zhè shì zuìhòu yī kuài.",
+          "en": "Xiaogang: This is the last one."
+        },
+        {
+          "zh": "小丽：你总是吃甜的东西，会越吃越胖。",
+          "py": "Xiǎolì: Nǐ zǒngshì chī tián de dōngxi, huì yuè chī yuè pàng.",
+          "en": "Xiaoli: You always eat sweet things; the more you eat, the fatter you'll get."
+        },
+        {
+          "zh": "小刚：你放心，我一定不会变胖。",
+          "py": "Xiǎogāng: Nǐ fàng xīn, wǒ yīdìng bù huì biàn pàng.",
+          "en": "Xiaogang: Don't worry, I definitely won't get fat."
+        },
+        {
+          "zh": "小丽：为什么？",
+          "py": "Xiǎolì: Wèi shénme?",
+          "en": "Xiaoli: Why?"
+        },
+        {
+          "zh": "小刚：我们家的人都很瘦，吃不胖。",
+          "py": "Xiǎogāng: Wǒmen jiā de rén dōu hěn shòu, chī bu pàng.",
+          "en": "Xiaogang: Everyone in my family is thin; we can't get fat no matter what we eat."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在山上 — On the mountain",
+      "items": [
+        {
+          "zh": "担心",
+          "py": "dān xīn",
+          "en": "to worry"
+        },
+        {
+          "zh": "比较",
+          "py": "bǐjiào",
+          "en": "fairly, rather"
+        },
+        {
+          "zh": "了解",
+          "py": "liǎojiě",
+          "en": "to know"
+        },
+        {
+          "zh": "先",
+          "py": "xiān",
+          "en": "first, in advance"
+        },
+        {
+          "zh": "中间",
+          "py": "zhōngjiān",
+          "en": "middle"
+        },
+        {
+          "zh": "小丽：我有点儿害怕。",
+          "py": "Xiǎolì: Wǒ yǒudiǎnr hàipà.",
+          "en": "Xiaoli: I'm a bit scared."
+        },
+        {
+          "zh": "小刚：怎么了？",
+          "py": "Xiǎogāng: Zěnme le?",
+          "en": "Xiaogang: What's wrong?"
+        },
+        {
+          "zh": "小丽：山越高，路越难走。我也越爬越冷。",
+          "py": "Xiǎolì: Shān yuè gāo, lù yuè nán zǒu. Wǒ yě yuè pá yuè lěng.",
+          "en": "Xiaoli: The higher the mountain, the harder the path. And the more I climb, the colder I get."
+        },
+        {
+          "zh": "小刚：不用担心，有我呢，我对这儿比较了解。",
+          "py": "Xiǎogāng: Bù yòng dān xīn, yǒu wǒ ne, wǒ duì zhèr bǐjiào liǎojiě.",
+          "en": "Xiaogang: Don't worry, I'm here. I know this place quite well."
+        },
+        {
+          "zh": "小丽：那我们先休息一下，一会儿再爬。",
+          "py": "Xiǎolì: Nà wǒmen xiān xiūxi yīxià, yīhuìr zài pá.",
+          "en": "Xiaoli: Then let's rest first and climb again in a little while."
+        },
+        {
+          "zh": "小刚：好，一会儿我们可以从中间这条路上去。",
+          "py": "Xiǎogāng: Hǎo, yīhuìr wǒmen kěyǐ cóng zhōngjiān zhè tiáo lù shàngqu.",
+          "en": "Xiaogang: OK, in a while we can go up by this path in the middle."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在小明家 — At Xiaoming's home",
+      "items": [
+        {
+          "zh": "参加",
+          "py": "cānjiā",
+          "en": "to participate"
+        },
+        {
+          "zh": "影响",
+          "py": "yǐngxiǎng",
+          "en": "influence"
+        },
+        {
+          "zh": "同学：小明，你的眼睛怎么跟大熊猫一样了？",
+          "py": "Tóngxué: Xiǎomíng, nǐ de yǎnjing zěnme gēn dà xióngmāo yīyàng le?",
+          "en": "Classmate: Xiaoming, how come your eyes look like a giant panda's?"
+        },
+        {
+          "zh": "小明：我这几天脚疼，没休息好。",
+          "py": "Xiǎomíng: Wǒ zhè jǐ tiān jiǎo téng, méi xiūxi hǎo.",
+          "en": "Xiaoming: My foot has been hurting these past few days, so I haven't rested well."
+        },
+        {
+          "zh": "同学：去医院了吗？医生说什么？",
+          "py": "Tóngxué: Qù yīyuàn le ma? Yīshēng shuō shénme?",
+          "en": "Classmate: Did you go to the hospital? What did the doctor say?"
+        },
+        {
+          "zh": "小明：他让我多休息。休息得越多，好得越快。",
+          "py": "Xiǎomíng: Tā ràng wǒ duō xiūxi. Xiūxi de yuè duō, hǎo de yuè kuài.",
+          "en": "Xiaoming: He told me to rest more. The more I rest, the faster I'll recover."
+        },
+        {
+          "zh": "同学：下个月的篮球比赛，你能参加吗？",
+          "py": "Tóngxué: Xià ge yuè de lánqiú bǐsài, nǐ néng cānjiā ma?",
+          "en": "Classmate: Can you take part in next month's basketball match?"
+        },
+        {
+          "zh": "小明：一定能参加，一点儿影响也没有。",
+          "py": "Xiǎomíng: Yīdìng néng cānjiā, yīdiǎnr yǐngxiǎng yě méiyǒu.",
+          "en": "Xiaoming: I can definitely take part; it won't be affected at all."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (越A越B)",
+      "items": [
+        {
+          "zh": "雨越下越大。",
+          "py": "Yǔ yuè xià yuè dà.",
+          "en": "The rain is getting heavier and heavier."
+        },
+        {
+          "zh": "你的中文越说越好。",
+          "py": "Nǐ de Zhōngwén yuè shuō yuè hǎo.",
+          "en": "The more you speak Chinese, the better it gets."
+        },
+        {
+          "zh": "越往南，天气越热。",
+          "py": "Yuè wǎng nán, tiānqì yuè rè.",
+          "en": "The further south you go, the hotter the weather."
+        },
+        {
+          "zh": "山越高，路越难走。",
+          "py": "Shān yuè gāo, lù yuè nán zǒu.",
+          "en": "The higher the mountain, the harder the path."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (A跟B一样 + Adj)",
+      "items": [
+        {
+          "zh": "这本书跟那本书一样。",
+          "py": "Zhè běn shū gēn nà běn shū yīyàng.",
+          "en": "This book is the same as that book."
+        },
+        {
+          "zh": "儿子跟爸爸一样高。",
+          "py": "Érzi gēn bàba yīyàng gāo.",
+          "en": "The son is as tall as his father."
+        },
+        {
+          "zh": "这辆车的颜色跟那辆车不一样。",
+          "py": "Zhè liàng chē de yánsè gēn nà liàng chē bù yīyàng.",
+          "en": "The colour of this car is different from that car."
+        },
+        {
+          "zh": "她的汉语说得跟中国人一样好。",
+          "py": "Tā de Hànyǔ shuō de gēn Zhōngguórén yīyàng hǎo.",
+          "en": "She speaks Chinese as well as a Chinese person."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (旧字新词 Word game)",
+      "items": [
+        {
+          "zh": "课间",
+          "py": "kèjiān",
+          "en": "break between classes (上课 + 中间)"
+        },
+        {
+          "zh": "山路",
+          "py": "shānlù",
+          "en": "mountain path (爬山 + 路上)"
+        },
+        {
+          "zh": "参赛",
+          "py": "cānsài",
+          "en": "to take part in a competition (参加 + 比赛)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HSK 3 · Chinese Practice</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --card: #1a1a2e;
+    --card-hover: #222244;
+    --accent: #e94560;
+    --text: #eee;
+    --text-muted: #999;
+    --border: #2a2a4a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    padding: 2rem 1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  }
+  header h1 { font-size: 2rem; font-weight: 300; letter-spacing: 2px; }
+  header h1 span { color: var(--accent); font-weight: 600; }
+  header p { color: var(--text-muted); margin-top: .4rem; font-size: .95rem; }
+  .lessons {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .lesson-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem 1.8rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: all .25s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lesson-card:hover { background: var(--card-hover); border-color: var(--accent); transform: translateX(4px); }
+  .lesson-card .info h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: .3rem; }
+  .lesson-card .info p { color: var(--text-muted); font-size: .85rem; line-height: 1.4; }
+  .lesson-card .lesson-num {
+    background: var(--accent);
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .3rem .7rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 1rem;
+  }
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.4rem; }
+    .lesson-card { flex-direction: column; align-items: flex-start; gap: .8rem; }
+    .lesson-card .lesson-num { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="../" style="color:var(--text-muted);text-decoration:none;font-size:.85rem;display:inline-block;margin-bottom:.5rem;">&larr; Back to classes</a>
+  <h1>HSK <span>3</span></h1>
+  <p>HSK标准教程3 · HSK Standard Course 3 (Lessons 1–20)</p>
+</header>
+<div class="lessons">
+  <a href="lesson.html?id=hsk3-lesson-01-weekend-plans" class="lesson-card">
+    <div class="info">
+      <h3>第一课 · 周末你有什么打算</h3>
+      <p>What&#x27;s your plan for the weekend · 结果补语“好”, 一 + MW + N + 也/都 + 不/没, 一点儿 + N + 也/都 + 不/没, 一点儿也/都 + 不 + Adj, 连词“那”</p>
+    </div>
+    <div class="lesson-num">Lesson 1</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-02-when-back" class="lesson-card">
+    <div class="info">
+      <h3>第二课 · 他什么时候回来</h3>
+      <p>When will he come back · 简单趋向补语 V + 来/去, V + 地点 + 来/去, V + 来/去 + 事物宾语, V₁了……就V₂……, 反问：能……吗？</p>
+    </div>
+    <div class="lesson-num">Lesson 2</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-03-drinks-on-table" class="lesson-card">
+    <div class="info">
+      <h3>第三课 · 桌子上放着很多饮料</h3>
+      <p>There are plenty of drinks on the table · “还是”和“或者”, 存在：处所 + V着 + 数量 + N, “会”表示可能</p>
+    </div>
+    <div class="lesson-num">Lesson 3</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-04-smiling-guests" class="lesson-card">
+    <div class="info">
+      <h3>第四课 · 她总是笑着跟客人说话</h3>
+      <p>She always smiles when talking to customers · 又 + Adj₁ + 又 + Adj₂, V₁着 (O₁) + V₂ (O₂)</p>
+    </div>
+    <div class="lesson-num">Lesson 4</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-05-getting-fatter" class="lesson-card">
+    <div class="info">
+      <h3>第五课 · 我最近越来越胖了</h3>
+      <p>I am getting fatter and fatter lately · “了” indicating a change, 越来越 + Adj/Mental V</p>
+    </div>
+    <div class="lesson-num">Lesson 5</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-06-cant-find" class="lesson-card">
+    <div class="info">
+      <h3>第六课 · 怎么突然找不到了</h3>
+      <p>Why are they suddenly missing · 可能补语 V得/不 + Complement, N + 呢 asking about location, 刚 vs 刚才</p>
+    </div>
+    <div class="lesson-num">Lesson 6</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-07-five-years" class="lesson-card">
+    <div class="info">
+      <h3>第七课 · 我跟她都认识五年了</h3>
+      <p>I&#x27;ve known her for five years · S + V + 了 + Duration + O (+ 了), 对……感兴趣 expressing interest, Telling time with 半 / 刻 / 差</p>
+    </div>
+    <div class="lesson-num">Lesson 7</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-08-wherever-you-go" class="lesson-card">
+    <div class="info">
+      <h3>第八课 · 你去哪儿我就去哪儿</h3>
+      <p>I&#x27;ll go wherever you go · 又 vs 再, Question word + 就 + question word</p>
+    </div>
+    <div class="lesson-num">Lesson 8</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-09-like-chinese" class="lesson-card">
+    <div class="info">
+      <h3>第九课 · 她的汉语说得跟中国人一样好</h3>
+      <p>She speaks Chinese like a native · 越A越B, A跟B一样 + Adj</p>
+    </div>
+    <div class="lesson-num">Lesson 9</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-10-math-harder" class="lesson-card">
+    <div class="info">
+      <h3>第十课 · 数学比历史难多了</h3>
+      <p>Maths is much harder than history · A比B + Adj + 一点儿/一些/得多/多了, A没有B（这么/那么）+ Adj, 概数：一两、三四、七八</p>
+    </div>
+    <div class="lesson-num">Lesson 10</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-11-air-conditioner" class="lesson-card">
+    <div class="info">
+      <h3>第十一课 · 别忘了把空调关了</h3>
+      <p>Don&#x27;t forget to turn off the air conditioner · 把字句1：A把B+V+……, 概数：左右</p>
+    </div>
+    <div class="lesson-num">Lesson 11</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-12-put-it-here" class="lesson-card">
+    <div class="info">
+      <h3>第十二课 · 把重要的东西放在我这儿吧</h3>
+      <p>Leave the important items with me · 就：早、快、顺利, 才：晚、慢、不顺利, 把字句2：A把B+V+在/到+地方, 把字句2：A把B+V+给+sb.</p>
+    </div>
+    <div class="lesson-num">Lesson 12</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-13-walked-back" class="lesson-card">
+    <div class="info">
+      <h3>第十三课 · 我是走回来的</h3>
+      <p>I walked back · 复合趋向补语 V + 回/出/进… + 来/去, 一边……一边……</p>
+    </div>
+    <div class="lesson-num">Lesson 13</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-14-bring-fruit" class="lesson-card">
+    <div class="info">
+      <h3>第十四课 · 你把水果拿过来</h3>
+      <p>Please bring the fruit here · 把字句 A把B + V + 结果/趋向补语, 先……，再/又……，然后……</p>
+    </div>
+    <div class="lesson-num">Lesson 14</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-15-no-other-problems" class="lesson-card">
+    <div class="info">
+      <h3>第十五课 · 其他都没什么问题</h3>
+      <p>The rest of them are all OK · 除了……以外，都/还/也……, 疑问代词活用：什么, Adj/心理动词 + 极了</p>
+    </div>
+    <div class="lesson-num">Lesson 15</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-16-tired-sleep" class="lesson-card">
+    <div class="info">
+      <h3>第十六课 · 我现在累得下了班就想睡觉</h3>
+      <p>I am so tired that I want to do nothing but sleep after work · 如果……（的话），（S）就……, 复杂的状态补语 Adj/V + 得 + VP, 单音节形容词重叠 AA的</p>
+    </div>
+    <div class="lesson-num">Lesson 16</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-17-illness" class="lesson-card">
+    <div class="info">
+      <h3>第十七课 · 谁都有办法看好你的“病”</h3>
+      <p>Everybody is able to cure your &quot;disease&quot; · 双音节动词重叠 ABAB, 谁/什么/怎么/哪儿 + 都</p>
+    </div>
+    <div class="lesson-num">Lesson 17</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-18-they-will-agree" class="lesson-card">
+    <div class="info">
+      <h3>第十八课 · 我相信他们会同意的</h3>
+      <p>I believe they&#x27;ll agree · 只要……就……, 介词“关于”</p>
+    </div>
+    <div class="lesson-num">Lesson 18</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-19-didnt-notice" class="lesson-card">
+    <div class="info">
+      <h3>第十九课 · 你没看出来吗</h3>
+      <p>Didn&#x27;t you recognise him · V + 出来: something new emerges, V + 出来: recognising, Adj/V + 下来: slowing, calming, V + 起来: recalling, 看上去 / 看起来, “使”“叫”“让”</p>
+    </div>
+    <div class="lesson-num">Lesson 19</div>
+  </a>
+
+  <a href="lesson.html?id=hsk3-lesson-20-influenced" class="lesson-card">
+    <div class="info">
+      <h3>第二十课 · 我被他影响了</h3>
+      <p>I&#x27;ve been influenced by him · 被字句: S + 被/叫/让 + O + V + 其他, 没/会 + 被: negation &amp; modal before 被, 只有……才……</p>
+    </div>
+    <div class="lesson-num">Lesson 20</div>
+  </a>
+</div>
+</body>
+</html>

@@ -1,0 +1,391 @@
+{
+  "title": "第2课 · 他什么时候回来",
+  "subtitle": "HSK 3 · Lesson 2 — 他什么时候回来 · When will he come back",
+  "data": [
+    {
+      "topic": "课文1 · 1. 下山的路上 — On the way going down the mountain",
+      "items": [
+        {
+          "zh": "腿",
+          "py": "tuǐ",
+          "en": "leg"
+        },
+        {
+          "zh": "疼",
+          "py": "téng",
+          "en": "hurt, painful"
+        },
+        {
+          "zh": "脚",
+          "py": "jiǎo",
+          "en": "foot"
+        },
+        {
+          "zh": "树",
+          "py": "shù",
+          "en": "tree"
+        },
+        {
+          "zh": "容易",
+          "py": "róngyì",
+          "en": "easy"
+        },
+        {
+          "zh": "难",
+          "py": "nán",
+          "en": "difficult"
+        },
+        {
+          "zh": "小丽：休息一下吧。",
+          "py": "Xiǎolì: Xiūxi yīxià ba.",
+          "en": "Xiaoli: Let's take a rest."
+        },
+        {
+          "zh": "小刚：怎么了？",
+          "py": "Xiǎogāng: Zěnme le?",
+          "en": "Xiaogang: What's wrong?"
+        },
+        {
+          "zh": "小丽：我现在腿也疼，脚也疼。",
+          "py": "Xiǎolì: Wǒ xiànzài tuǐ yě téng, jiǎo yě téng.",
+          "en": "Xiaoli: Now my legs hurt and my feet hurt too."
+        },
+        {
+          "zh": "小刚：好，那边树多，我们过去坐一下吧。",
+          "py": "Xiǎogāng: Hǎo, nàbian shù duō, wǒmen guòqu zuò yīxià ba.",
+          "en": "Xiaogang: OK, there are lots of trees over there. Let's go over and sit for a bit."
+        },
+        {
+          "zh": "小丽：上来的时候我怎么没觉得这么累？",
+          "py": "Xiǎolì: Shànglai de shíhou wǒ zěnme méi juéde zhème lèi?",
+          "en": "Xiaoli: How come I didn't feel this tired on the way up?"
+        },
+        {
+          "zh": "小刚：上山容易下山难，你不知道？",
+          "py": "Xiǎogāng: Shàng shān róngyì xià shān nán, nǐ bù zhīdào?",
+          "en": "Xiaogang: Going up a mountain is easy, coming down is hard. Didn't you know?"
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在打电话 — On the phone",
+      "items": [
+        {
+          "zh": "太太",
+          "py": "tàitai",
+          "en": "Mrs., madam"
+        },
+        {
+          "zh": "秘书",
+          "py": "mìshū",
+          "en": "secretary"
+        },
+        {
+          "zh": "经理",
+          "py": "jīnglǐ",
+          "en": "manager"
+        },
+        {
+          "zh": "办公室",
+          "py": "bàngōngshì",
+          "en": "office"
+        },
+        {
+          "zh": "周",
+          "py": "Zhōu",
+          "en": "Zhou (surname)"
+        },
+        {
+          "zh": "周明",
+          "py": "Zhōu Míng",
+          "en": "Zhou Ming (name)"
+        },
+        {
+          "zh": "周太太：喂，你好，请问周明在吗？",
+          "py": "Zhōu tàitai: Wèi, nǐ hǎo, qǐngwèn Zhōu Míng zài ma?",
+          "en": "Mrs. Zhou: Hello, may I ask if Zhou Ming is in?"
+        },
+        {
+          "zh": "秘书：周经理出去了，不在办公室。",
+          "py": "Mìshū: Zhōu jīnglǐ chūqu le, bù zài bàngōngshì.",
+          "en": "Secretary: Manager Zhou has gone out; he's not in the office."
+        },
+        {
+          "zh": "周太太：他去哪儿了？什么时候回来？",
+          "py": "Zhōu tàitai: Tā qù nǎr le? Shénme shíhou huílai?",
+          "en": "Mrs. Zhou: Where did he go? When will he be back?"
+        },
+        {
+          "zh": "秘书：他出去办事了，下午回来。",
+          "py": "Mìshū: Tā chūqu bàn shì le, xiàwǔ huílai.",
+          "en": "Secretary: He went out on business; he'll be back in the afternoon."
+        },
+        {
+          "zh": "周太太：回来了就让他给我打个电话。",
+          "py": "Zhōu tàitai: Huílai le jiù ràng tā gěi wǒ dǎ ge diànhuà.",
+          "en": "Mrs. Zhou: As soon as he's back, have him give me a call."
+        },
+        {
+          "zh": "秘书：好的，他到了办公室我就告诉他。",
+          "py": "Mìshū: Hǎo de, tā dàole bàngōngshì wǒ jiù gàosu tā.",
+          "en": "Secretary: All right, I'll tell him as soon as he gets to the office."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在楼门口送朋友 — Parting at the exit of the building",
+      "items": [
+        {
+          "zh": "辆",
+          "py": "liàng",
+          "en": "measure word for vehicles"
+        },
+        {
+          "zh": "楼",
+          "py": "lóu",
+          "en": "building"
+        },
+        {
+          "zh": "拿",
+          "py": "ná",
+          "en": "to take, to fetch"
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "measure word for things with a handle"
+        },
+        {
+          "zh": "伞",
+          "py": "sǎn",
+          "en": "umbrella"
+        },
+        {
+          "zh": "小刚：雨下得真大。你怎么回去？我送你吧。",
+          "py": "Xiǎogāng: Yǔ xià de zhēn dà. Nǐ zěnme huíqu? Wǒ sòng nǐ ba.",
+          "en": "Xiaogang: It's really pouring. How are you getting back? Let me take you."
+        },
+        {
+          "zh": "小丽：没事，我出去叫辆出租车就行了。",
+          "py": "Xiǎolì: Méi shì, wǒ chūqu jiào liàng chūzūchē jiù xíng le.",
+          "en": "Xiaoli: It's fine, I'll just go out and get a taxi."
+        },
+        {
+          "zh": "小刚：那你等等，我上楼去给你拿把伞。",
+          "py": "Xiǎogāng: Nà nǐ děngdeng, wǒ shàng lóu qù gěi nǐ ná bǎ sǎn.",
+          "en": "Xiaogang: Then wait a moment, I'll go upstairs and get you an umbrella."
+        },
+        {
+          "zh": "小丽：好的。我跟你一起上去吧。",
+          "py": "Xiǎolì: Hǎo de. Wǒ gēn nǐ yīqǐ shàngqu ba.",
+          "en": "Xiaoli: OK. I'll go up with you."
+        },
+        {
+          "zh": "小刚：你在这儿等吧，我拿了伞就下来。",
+          "py": "Xiǎogāng: Nǐ zài zhèr děng ba, wǒ nále sǎn jiù xiàlai.",
+          "en": "Xiaogang: Wait here; I'll come down as soon as I've got the umbrella."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在家 — At home",
+      "items": [
+        {
+          "zh": "胖",
+          "py": "pàng",
+          "en": "fat"
+        },
+        {
+          "zh": "其实",
+          "py": "qíshí",
+          "en": "actually"
+        },
+        {
+          "zh": "瘦",
+          "py": "shòu",
+          "en": "thin"
+        },
+        {
+          "zh": "周太太：你看，我这么胖，怎么办呢？",
+          "py": "Zhōu tàitai: Nǐ kàn, wǒ zhème pàng, zěnme bàn ne?",
+          "en": "Mrs. Zhou: Look, I'm so fat. What should I do?"
+        },
+        {
+          "zh": "周明：你每天晚上吃了饭就睡觉，也不出去走走，能不胖吗？",
+          "py": "Zhōu Míng: Nǐ měi tiān wǎnshang chīle fàn jiù shuì jiào, yě bù chūqu zǒuzou, néng bù pàng ma?",
+          "en": "Zhou Ming: Every evening you go to bed right after eating and never go out for a walk. How could you not be fat?"
+        },
+        {
+          "zh": "周太太：其实我每天都运动。",
+          "py": "Zhōu tàitai: Qíshí wǒ měi tiān dōu yùndòng.",
+          "en": "Mrs. Zhou: Actually I exercise every day."
+        },
+        {
+          "zh": "周明：但是你一点儿也没瘦！你做什么运动了？",
+          "py": "Zhōu Míng: Dànshì nǐ yīdiǎnr yě méi shòu! Nǐ zuò shénme yùndòng le?",
+          "en": "Zhou Ming: But you haven't lost any weight at all! What exercise have you been doing?"
+        },
+        {
+          "zh": "周太太：做饭啊。",
+          "py": "Zhōu tàitai: Zuò fàn a.",
+          "en": "Mrs. Zhou: Cooking!"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (简单趋向补语 V + 来/去)",
+      "items": [
+        {
+          "zh": "我们在楼上等你呢，你上来吧。（说话的人在楼上）",
+          "py": "Wǒmen zài lóu shàng děng nǐ ne, nǐ shànglai ba. (Shuōhuà de rén zài lóu shàng)",
+          "en": "We're waiting for you upstairs, come on up. (The speaker is upstairs.)"
+        },
+        {
+          "zh": "谁在外边？你出去看看吧。（“你”在屋里）",
+          "py": "Shéi zài wàibian? Nǐ chūqu kànkan ba. (“Nǐ” zài wū lǐ)",
+          "en": "Who's outside? Go out and have a look. (\"You\" are inside the room.)"
+        },
+        {
+          "zh": "汉语书你带来了吗？",
+          "py": "Hànyǔ shū nǐ dàilai le ma?",
+          "en": "Did you bring your Chinese book?"
+        },
+        {
+          "zh": "那边树多，我们过去坐一下吧。",
+          "py": "Nàbian shù duō, wǒmen guòqu zuò yīxià ba.",
+          "en": "There are lots of trees over there, let's go over and sit for a bit."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (V + 地点 + 来/去)",
+      "items": [
+        {
+          "zh": "小狗下楼来吃东西。",
+          "py": "Xiǎo gǒu xià lóu lái chī dōngxi.",
+          "en": "The puppy comes downstairs to eat."
+        },
+        {
+          "zh": "老师进教室来上课。",
+          "py": "Lǎoshī jìn jiàoshì lái shàng kè.",
+          "en": "The teacher comes into the classroom to teach."
+        },
+        {
+          "zh": "朋友回家去了。",
+          "py": "Péngyou huí jiā qù le.",
+          "en": "My friend has gone home."
+        },
+        {
+          "zh": "我上楼去。",
+          "py": "Wǒ shàng lóu qù.",
+          "en": "I'm going upstairs."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (V + 来/去 + 事物宾语)",
+      "items": [
+        {
+          "zh": "明天要带作业来。",
+          "py": "Míngtiān yào dài zuòyè lái.",
+          "en": "Tomorrow you must bring your homework."
+        },
+        {
+          "zh": "帮我买来点儿面包。",
+          "py": "Bāng wǒ mǎilai diǎnr miànbāo.",
+          "en": "Buy me some bread, please."
+        },
+        {
+          "zh": "你搬这把椅子去吧。",
+          "py": "Nǐ bān zhè bǎ yǐzi qù ba.",
+          "en": "Carry this chair over there."
+        },
+        {
+          "zh": "这次旅游，我想带去这本书。",
+          "py": "Zhè cì lǚyóu, wǒ xiǎng dàiqu zhè běn shū.",
+          "en": "I want to take this book with me on this trip."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (V₁了……就V₂……)",
+      "items": [
+        {
+          "zh": "我下了课就吃饭。",
+          "py": "Wǒ xiàle kè jiù chī fàn.",
+          "en": "I'll eat as soon as class is over."
+        },
+        {
+          "zh": "妈妈起了床就做早饭。",
+          "py": "Māma qǐle chuáng jiù zuò zǎofàn.",
+          "en": "Mom makes breakfast as soon as she gets up."
+        },
+        {
+          "zh": "小刚拿了伞就下来。",
+          "py": "Xiǎogāng nále sǎn jiù xiàlai.",
+          "en": "Xiaogang will come down as soon as he's got the umbrella."
+        },
+        {
+          "zh": "你每天晚上吃了饭就睡觉。",
+          "py": "Nǐ měi tiān wǎnshang chīle fàn jiù shuì jiào.",
+          "en": "Every evening you go to bed right after eating."
+        },
+        {
+          "zh": "你下了课我们就去书店。",
+          "py": "Nǐ xiàle kè wǒmen jiù qù shūdiàn.",
+          "en": "We'll go to the bookstore as soon as your class is over."
+        },
+        {
+          "zh": "老师进了教室我们就对她说“生日快乐”。",
+          "py": "Lǎoshī jìnle jiàoshì wǒmen jiù duì tā shuō “shēngrì kuàilè”.",
+          "en": "As soon as the teacher came into the classroom, we said \"Happy birthday\" to her."
+        },
+        {
+          "zh": "爸爸回来了我们就吃饭。",
+          "py": "Bàba huílai le wǒmen jiù chī fàn.",
+          "en": "We'll eat as soon as Dad comes back."
+        },
+        {
+          "zh": "他到了办公室我就告诉他。",
+          "py": "Tā dàole bàngōngshì wǒ jiù gàosu tā.",
+          "en": "I'll tell him as soon as he gets to the office."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (反问：能……吗？)",
+      "items": [
+        {
+          "zh": "A：为什么我的汉语学得不好？  B：你不做作业，也不练习，能学好吗？",
+          "py": "A: Wèishénme wǒ de Hànyǔ xué de bù hǎo?  B: Nǐ bù zuò zuòyè, yě bù liànxí, néng xuéhǎo ma?",
+          "en": "A: Why isn't my Chinese any good?  B: You don't do your homework and you don't practise. How could you learn it well?"
+        },
+        {
+          "zh": "A：你看我这么胖，怎么办呢？  B：你每天晚上吃了饭就睡觉，也不出去走走，能不胖吗？",
+          "py": "A: Nǐ kàn wǒ zhème pàng, zěnme bàn ne?  B: Nǐ měi tiān wǎnshang chīle fàn jiù shuì jiào, yě bù chūqu zǒuzou, néng bù pàng ma?",
+          "en": "A: Look how fat I am. What should I do?  B: Every evening you go to bed right after eating and never go out for a walk. How could you not be fat?"
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (旧字新词 Word game)",
+      "items": [
+        {
+          "zh": "办公室 + 大楼 → 办公楼",
+          "py": "bàngōngshì + dàlóu → bàngōnglóu",
+          "en": "office + building → office building"
+        },
+        {
+          "zh": "外边 + 出去 → 外出",
+          "py": "wàibian + chūqu → wàichū",
+          "en": "outside + go out → go out (on business)"
+        },
+        {
+          "zh": "中午 + 睡觉 → 午觉",
+          "py": "zhōngwǔ + shuì jiào → wǔjiào",
+          "en": "noon + sleep → afternoon nap"
+        }
+      ]
+    }
+  ]
+}

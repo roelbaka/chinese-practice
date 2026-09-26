@@ -1,0 +1,291 @@
+{
+  "title": "第14课 · 你把水果拿过来",
+  "subtitle": "HSK 3 · Lesson 14 — 你把水果拿过来 · Please bring the fruit here",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在家 — At home",
+      "items": [
+        {
+          "zh": "打扫",
+          "py": "dǎsǎo",
+          "en": "to clean, to sweep"
+        },
+        {
+          "zh": "干净",
+          "py": "gānjìng",
+          "en": "clean"
+        },
+        {
+          "zh": "然后",
+          "py": "ránhòu",
+          "en": "then, after that"
+        },
+        {
+          "zh": "冰箱",
+          "py": "bīngxiāng",
+          "en": "refrigerator"
+        },
+        {
+          "zh": "周太太：客人就要来了，你怎么还不打扫房间啊？",
+          "py": "Zhōu tàitai: Kèrén jiù yào lái le, nǐ zěnme hái bù dǎsǎo fángjiān a?",
+          "en": "Mrs. Zhou: The guests are about to arrive — why haven't you cleaned the room yet?"
+        },
+        {
+          "zh": "周明：别着急，我让孩子们打扫呢，客人来的时候，他们会把房间打扫干净。",
+          "py": "Zhōu Míng: Bié zháojí, wǒ ràng háizimen dǎsǎo ne, kèrén lái de shíhou, tāmen huì bǎ fángjiān dǎsǎo gānjìng.",
+          "en": "Zhou Ming: Don't worry, I've told the kids to clean it. By the time the guests come, they'll have the room clean."
+        },
+        {
+          "zh": "周太太：那你也不能看电视啊。",
+          "py": "Zhōu tàitai: Nà nǐ yě bù néng kàn diànshì a.",
+          "en": "Mrs. Zhou: Even so, you can't just watch TV."
+        },
+        {
+          "zh": "周明：你让我做什么？",
+          "py": "Zhōu Míng: Nǐ ràng wǒ zuò shénme?",
+          "en": "Zhou Ming: What do you want me to do?"
+        },
+        {
+          "zh": "周太太：先把茶和杯子放好，然后把冰箱里的西瓜拿出来。",
+          "py": "Zhōu tàitai: Xiān bǎ chá hé bēizi fànghǎo, ránhòu bǎ bīngxiāng li de xīguā ná chulai.",
+          "en": "Mrs. Zhou: First set out the tea and cups, then take the watermelon out of the fridge."
+        },
+        {
+          "zh": "周明：太热了，我还是先把空调打开吧。",
+          "py": "Zhōu Míng: Tài rè le, wǒ háishi xiān bǎ kōngtiáo dǎ kāi ba.",
+          "en": "Zhou Ming: It's too hot; I'd better turn on the air conditioner first."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在打电话 — On the phone",
+      "items": [
+        {
+          "zh": "洗澡",
+          "py": "xǐ zǎo",
+          "en": "to take a bath/shower"
+        },
+        {
+          "zh": "节目",
+          "py": "jiémù",
+          "en": "programme"
+        },
+        {
+          "zh": "同事：你在忙什么呢？刚才打你的手机你也不接。",
+          "py": "Tóngshì: Nǐ zài máng shénme ne? Gāngcái dǎ nǐ de shǒujī nǐ yě bù jiē.",
+          "en": "Colleague: What are you busy with? I just called your mobile and you didn't answer."
+        },
+        {
+          "zh": "小刚：对不起，我刚洗了个澡，没听见。有什么事吗？",
+          "py": "Xiǎogāng: Duìbuqǐ, wǒ gāng xǐle ge zǎo, méi tīngjiàn. Yǒu shénme shì ma?",
+          "en": "Xiaogang: Sorry, I was just taking a shower and didn't hear it. What's up?"
+        },
+        {
+          "zh": "同事：我想问问你公司里的一些事情。",
+          "py": "Tóngshì: Wǒ xiǎng wènwen nǐ gōngsī li de yīxiē shìqing.",
+          "en": "Colleague: I'd like to ask you about a few things at the company."
+        },
+        {
+          "zh": "小刚：你先等一下，我去把电视关了。",
+          "py": "Xiǎogāng: Nǐ xiān děng yīxià, wǒ qù bǎ diànshì guān le.",
+          "en": "Xiaogang: Hold on a moment, let me go and turn off the TV."
+        },
+        {
+          "zh": "同事：没关系，你先把电视节目看完吧，然后再给我回电话。",
+          "py": "Tóngshì: Méi guānxi, nǐ xiān bǎ diànshì jiémù kànwán ba, ránhòu zài gěi wǒ huí diànhuà.",
+          "en": "Colleague: No problem. Finish watching your TV programme first, then call me back."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在小明家 — At Xiaoming's home",
+      "items": [
+        {
+          "zh": "月亮",
+          "py": "yuèliang",
+          "en": "moon"
+        },
+        {
+          "zh": "像",
+          "py": "xiàng",
+          "en": "to be like"
+        },
+        {
+          "zh": "盘子",
+          "py": "pánzi",
+          "en": "plate"
+        },
+        {
+          "zh": "刮风",
+          "py": "guā fēng",
+          "en": "to be windy"
+        },
+        {
+          "zh": "叔叔",
+          "py": "shūshu",
+          "en": "uncle"
+        },
+        {
+          "zh": "阿姨",
+          "py": "āyí",
+          "en": "aunt"
+        },
+        {
+          "zh": "故事",
+          "py": "gùshi",
+          "en": "story"
+        },
+        {
+          "zh": "声音",
+          "py": "shēngyīn",
+          "en": "sound, voice"
+        },
+        {
+          "zh": "同学：今晚的月亮真漂亮，像白色的盘子一样。",
+          "py": "Tóngxué: Jīn wǎn de yuèliang zhēn piàoliang, xiàng báisè de pánzi yīyàng.",
+          "en": "Classmate: The moon is really beautiful tonight, like a white plate."
+        },
+        {
+          "zh": "小明：是啊，外边也不刮风，我们坐在外边一边看月亮一边吃东西，怎么样？",
+          "py": "Xiǎomíng: Shì a, wàibian yě bù guā fēng, wǒmen zuò zài wàibian yībiān kàn yuèliang yībiān chī dōngxi, zěnmeyàng?",
+          "en": "Xiaoming: Yes, and it isn't windy outside either. How about we sit outside and eat while looking at the moon?"
+        },
+        {
+          "zh": "同学：好啊，我先把桌椅搬出去，然后你把水果拿过来，我们听叔叔阿姨讲讲他们年轻时候的故事。",
+          "py": "Tóngxué: Hǎo a, wǒ xiān bǎ zhuōyǐ bān chuqu, ránhòu nǐ bǎ shuǐguǒ ná guolai, wǒmen tīng shūshu āyí jiǎngjiang tāmen niánqīng shíhou de gùshi.",
+          "en": "Classmate: Great. I'll carry the table and chairs out first, then you bring the fruit over, and we'll listen to your uncle and aunt tell stories from when they were young."
+        },
+        {
+          "zh": "小明：太好了！记得给大山打个电话，让他马上过来。",
+          "py": "Xiǎomíng: Tài hǎo le! Jìde gěi Dàshān dǎ ge diànhuà, ràng tā mǎshàng guolai.",
+          "en": "Xiaoming: Wonderful! Remember to give Dashan a call and tell him to come over right away."
+        },
+        {
+          "zh": "同学：不用打了，你听外边的声音，一定是大山。",
+          "py": "Tóngxué: Bùyòng dǎ le, nǐ tīng wàibian de shēngyīn, yīdìng shì Dàshān.",
+          "en": "Classmate: No need to call. Listen to the voice outside — that must be Dashan."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 短文 — Fruit rice",
+      "items": [
+        {
+          "zh": "菜单",
+          "py": "càidān",
+          "en": "menu"
+        },
+        {
+          "zh": "简单",
+          "py": "jiǎndān",
+          "en": "simple"
+        },
+        {
+          "zh": "香蕉",
+          "py": "xiāngjiāo",
+          "en": "banana"
+        },
+        {
+          "zh": "你吃过水果饭吗？",
+          "py": "Nǐ chī guo shuǐguǒ fàn ma?",
+          "en": "Have you ever eaten fruit rice?"
+        },
+        {
+          "zh": "你在饭馆的菜单上见过水果饭吗？",
+          "py": "Nǐ zài fànguǎn de càidān shang jiàn guo shuǐguǒ fàn ma?",
+          "en": "Have you ever seen fruit rice on a restaurant menu?"
+        },
+        {
+          "zh": "你想学着做水果饭吗？",
+          "py": "Nǐ xiǎng xuézhe zuò shuǐguǒ fàn ma?",
+          "en": "Would you like to learn to make fruit rice?"
+        },
+        {
+          "zh": "其实做水果饭很简单，先把米饭做好，然后再把一块块新鲜的水果放进去，水果饭就做好了。",
+          "py": "Qíshí zuò shuǐguǒ fàn hěn jiǎndān, xiān bǎ mǐfàn zuòhǎo, ránhòu zài bǎ yī kuàikuài xīnxiān de shuǐguǒ fàng jinqu, shuǐguǒ fàn jiù zuòhǎo le.",
+          "en": "Actually, making fruit rice is very simple: first cook the rice, then put in pieces of fresh fruit, and the fruit rice is ready."
+        },
+        {
+          "zh": "你可以做苹果饭、香蕉饭，要是你愿意，还可以做西瓜饭。",
+          "py": "Nǐ kěyǐ zuò píngguǒ fàn, xiāngjiāo fàn, yàoshi nǐ yuànyì, hái kěyǐ zuò xīguā fàn.",
+          "en": "You can make apple rice or banana rice, and if you like, you can even make watermelon rice."
+        },
+        {
+          "zh": "多吃新鲜水果对身体好。",
+          "py": "Duō chī xīnxiān shuǐguǒ duì shēntǐ hǎo.",
+          "en": "Eating lots of fresh fruit is good for your health."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (把字句 A把B + V + 结果/趋向补语)",
+      "items": [
+        {
+          "zh": "我把衣服洗干净了。",
+          "py": "Wǒ bǎ yīfu xǐ gānjìng le.",
+          "en": "I've washed the clothes clean."
+        },
+        {
+          "zh": "妈妈还没把饭做好呢。",
+          "py": "Māma hái méi bǎ fàn zuòhǎo ne.",
+          "en": "Mum hasn't finished cooking the meal yet."
+        },
+        {
+          "zh": "请同学们把铅笔拿出来。",
+          "py": "Qǐng tóngxuémen bǎ qiānbǐ ná chulai.",
+          "en": "Students, please take out your pencils."
+        },
+        {
+          "zh": "你把水果拿过来。",
+          "py": "Nǐ bǎ shuǐguǒ ná guolai.",
+          "en": "Bring the fruit over here."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (先……，再/又……，然后……)",
+      "items": [
+        {
+          "zh": "回家以后，我先做作业，然后吃饭。",
+          "py": "Huí jiā yǐhòu, wǒ xiān zuò zuòyè, ránhòu chī fàn.",
+          "en": "After getting home, I do my homework first and then eat."
+        },
+        {
+          "zh": "我先坐了一个小时公共汽车，又坐了一会儿地铁才到小刚家。",
+          "py": "Wǒ xiān zuòle yī ge xiǎoshí gōnggòng qìchē, yòu zuòle yīhuìr dìtiě cái dào Xiǎogāng jiā.",
+          "en": "I first took the bus for an hour, then took the subway for a while before I got to Xiaogang's home."
+        },
+        {
+          "zh": "你先把电视节目看完吧，然后再给我回电话。",
+          "py": "Nǐ xiān bǎ diànshì jiémù kànwán ba, ránhòu zài gěi wǒ huí diànhuà.",
+          "en": "Finish watching your TV programme first, then call me back."
+        },
+        {
+          "zh": "先把米饭做好，然后再把一块块新鲜的水果放进去。",
+          "py": "Xiān bǎ mǐfàn zuòhǎo, ránhòu zài bǎ yī kuàikuài xīnxiān de shuǐguǒ fàng jinqu.",
+          "en": "First cook the rice, then put in pieces of fresh fruit."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (旧字新词 Word game)",
+      "items": [
+        {
+          "zh": "名字 + 菜单 → 名单",
+          "py": "míngzi + càidān → míngdān",
+          "en": "name + menu → name list"
+        },
+        {
+          "zh": "读 + 声音 → 读音",
+          "py": "dú + shēngyīn → dúyīn",
+          "en": "read + sound → pronunciation"
+        },
+        {
+          "zh": "买 + 菜单 → 买单",
+          "py": "mǎi + càidān → mǎidān",
+          "en": "buy + menu → to pay the bill"
+        }
+      ]
+    }
+  ]
+}

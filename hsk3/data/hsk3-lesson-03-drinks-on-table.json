@@ -1,0 +1,361 @@
+{
+  "title": "第3课 · 桌子上放着很多饮料",
+  "subtitle": "HSK 3 · Lesson 3 — 桌子上放着很多饮料 · There are plenty of drinks on the table",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在小丽家 — At Xiaoli's home",
+      "items": [
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or"
+        },
+        {
+          "zh": "爬山",
+          "py": "pá shān",
+          "en": "to climb a mountain"
+        },
+        {
+          "zh": "小心",
+          "py": "xiǎoxīn",
+          "en": "careful"
+        },
+        {
+          "zh": "小刚：明天是晴天还是阴天？",
+          "py": "Xiǎogāng: Míngtiān shì qíngtiān háishi yīntiān?",
+          "en": "Xiaogang: Will it be sunny or cloudy tomorrow?"
+        },
+        {
+          "zh": "小丽：阴天，电视上说多云。怎么了？有事？",
+          "py": "Xiǎolì: Yīntiān, diànshì shang shuō duōyún. Zěnme le? Yǒu shì?",
+          "en": "Xiaoli: Cloudy. The TV says it'll be overcast. Why? Something up?"
+        },
+        {
+          "zh": "小刚：没事，我们明天要去爬山。",
+          "py": "Xiǎogāng: Méi shì, wǒmen míngtiān yào qù pá shān.",
+          "en": "Xiaogang: Nothing much, we're going mountain climbing tomorrow."
+        },
+        {
+          "zh": "小丽：爬山的时候要小心点儿。",
+          "py": "Xiǎolì: Pá shān de shíhou yào xiǎoxīn diǎnr.",
+          "en": "Xiaoli: Be a bit careful when you're climbing."
+        },
+        {
+          "zh": "小刚：好，你也去吗？",
+          "py": "Xiǎogāng: Hǎo, nǐ yě qù ma?",
+          "en": "Xiaogang: OK. Are you coming too?"
+        },
+        {
+          "zh": "小丽：我不去，我有事。",
+          "py": "Xiǎolì: Wǒ bù qù, wǒ yǒu shì.",
+          "en": "Xiaoli: No, I have something to do."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在商场 — In a mall",
+      "items": [
+        {
+          "zh": "条",
+          "py": "tiáo",
+          "en": "measure word for pants, dresses, etc."
+        },
+        {
+          "zh": "裤子",
+          "py": "kùzi",
+          "en": "pants"
+        },
+        {
+          "zh": "记得",
+          "py": "jìde",
+          "en": "to remember"
+        },
+        {
+          "zh": "衬衫",
+          "py": "chènshān",
+          "en": "shirt"
+        },
+        {
+          "zh": "元",
+          "py": "yuán",
+          "en": "yuan (unit of money)"
+        },
+        {
+          "zh": "周太太：你觉得这条裤子怎么样？",
+          "py": "Zhōu tàitai: Nǐ juéde zhè tiáo kùzi zěnmeyàng?",
+          "en": "Mrs. Zhou: What do you think of these pants?"
+        },
+        {
+          "zh": "周明：我记得你已经有两条这样的裤子了。",
+          "py": "Zhōu Míng: Wǒ jìde nǐ yǐjīng yǒu liǎng tiáo zhèyàng de kùzi le.",
+          "en": "Zhou Ming: I remember you already have two pairs of pants like these."
+        },
+        {
+          "zh": "周太太：那我们再看看别的。",
+          "py": "Zhōu tàitai: Nà wǒmen zài kànkan biéde.",
+          "en": "Mrs. Zhou: Then let's look at something else."
+        },
+        {
+          "zh": "周明：这件衬衫怎么样？",
+          "py": "Zhōu Míng: Zhè jiàn chènshān zěnmeyàng?",
+          "en": "Zhou Ming: How about this shirt?"
+        },
+        {
+          "zh": "周太太：还不错，多少钱？",
+          "py": "Zhōu tàitai: Hái bùcuò, duōshao qián?",
+          "en": "Mrs. Zhou: Not bad. How much is it?"
+        },
+        {
+          "zh": "周明：这上面写着320元。",
+          "py": "Zhōu Míng: Zhè shàngmian xiězhe sān bǎi èrshí yuán.",
+          "en": "Zhou Ming: It says 320 yuan on it."
+        },
+        {
+          "zh": "周太太：买一件。",
+          "py": "Zhōu tàitai: Mǎi yī jiàn.",
+          "en": "Mrs. Zhou: Let's buy one."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在水果店 — In a fruit store",
+      "items": [
+        {
+          "zh": "新鲜",
+          "py": "xīnxiān",
+          "en": "fresh"
+        },
+        {
+          "zh": "甜",
+          "py": "tián",
+          "en": "sweet"
+        },
+        {
+          "zh": "只",
+          "py": "zhǐ",
+          "en": "only, solely"
+        },
+        {
+          "zh": "周太太：这些水果真新鲜，我们买西瓜还是苹果？",
+          "py": "Zhōu tàitai: Zhèxiē shuǐguǒ zhēn xīnxiān, wǒmen mǎi xīguā háishi píngguǒ?",
+          "en": "Mrs. Zhou: This fruit is really fresh. Shall we buy a watermelon or apples?"
+        },
+        {
+          "zh": "周明：西瓜吧。你看，这上面写着“西瓜不甜不要钱”。",
+          "py": "Zhōu Míng: Xīguā ba. Nǐ kàn, zhè shàngmian xiězhe “xīguā bù tián bù yào qián”.",
+          "en": "Zhou Ming: A watermelon. Look, it says here: \"If the watermelon isn't sweet, it's free.\""
+        },
+        {
+          "zh": "周太太：那我们买一个大点儿的吧。",
+          "py": "Zhōu tàitai: Nà wǒmen mǎi yī ge dà diǎnr de ba.",
+          "en": "Mrs. Zhou: Then let's buy a bigger one."
+        },
+        {
+          "zh": "周明：再买几个苹果。",
+          "py": "Zhōu Míng: Zài mǎi jǐ ge píngguǒ.",
+          "en": "Zhou Ming: And a few apples too."
+        },
+        {
+          "zh": "周太太：好啊，今天晚上只吃水果不吃饭！",
+          "py": "Zhōu tàitai: Hǎo a, jīntiān wǎnshang zhǐ chī shuǐguǒ bù chī fàn!",
+          "en": "Mrs. Zhou: Great, tonight we'll eat only fruit and no dinner!"
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在休息室 — In the lounge",
+      "items": [
+        {
+          "zh": "放",
+          "py": "fàng",
+          "en": "to put, to place"
+        },
+        {
+          "zh": "饮料",
+          "py": "yǐnliào",
+          "en": "drink, beverage"
+        },
+        {
+          "zh": "或者",
+          "py": "huòzhě",
+          "en": "or"
+        },
+        {
+          "zh": "舒服",
+          "py": "shūfu",
+          "en": "comfortable"
+        },
+        {
+          "zh": "花",
+          "py": "huā",
+          "en": "flower"
+        },
+        {
+          "zh": "绿",
+          "py": "lǜ",
+          "en": "green"
+        },
+        {
+          "zh": "小丽：桌子上放着很多饮料，你喝什么？",
+          "py": "Xiǎolì: Zhuōzi shang fàngzhe hěn duō yǐnliào, nǐ hē shénme?",
+          "en": "Xiaoli: There are lots of drinks on the table. What will you have?"
+        },
+        {
+          "zh": "小刚：茶或者咖啡都可以。你呢？你喝什么？",
+          "py": "Xiǎogāng: Chá huòzhě kāfēi dōu kěyǐ. Nǐ ne? Nǐ hē shénme?",
+          "en": "Xiaogang: Tea or coffee, either is fine. And you? What will you drink?"
+        },
+        {
+          "zh": "小丽：我喝茶，茶是我的最爱。天冷了或者工作累了的时候，喝杯热茶会很舒服。",
+          "py": "Xiǎolì: Wǒ hē chá, chá shì wǒ de zuì ài. Tiān lěng le huòzhě gōngzuò lèi le de shíhou, hē bēi rè chá huì hěn shūfu.",
+          "en": "Xiaoli: I'll have tea; tea is my favourite. When it's cold or I'm tired from work, a cup of hot tea feels really good."
+        },
+        {
+          "zh": "小刚：你喜欢喝什么茶？",
+          "py": "Xiǎogāng: Nǐ xǐhuan hē shénme chá?",
+          "en": "Xiaogang: What kind of tea do you like?"
+        },
+        {
+          "zh": "小丽：花茶、绿茶、红茶，我都喜欢。",
+          "py": "Xiǎolì: Huāchá, lǜchá, hóngchá, wǒ dōu xǐhuan.",
+          "en": "Xiaoli: Flower tea, green tea, black tea: I like them all."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“还是”和“或者”)",
+      "items": [
+        {
+          "zh": "你要喝咖啡还是喝茶？",
+          "py": "Nǐ yào hē kāfēi háishi hē chá?",
+          "en": "Do you want coffee or tea?"
+        },
+        {
+          "zh": "明天是晴天还是阴天？",
+          "py": "Míngtiān shì qíngtiān háishi yīntiān?",
+          "en": "Will it be sunny or cloudy tomorrow?"
+        },
+        {
+          "zh": "今天晚上吃米饭或者面条都可以。",
+          "py": "Jīntiān wǎnshang chī mǐfàn huòzhě miàntiáo dōu kěyǐ.",
+          "en": "Tonight either rice or noodles is fine."
+        },
+        {
+          "zh": "天冷了或者工作累了的时候，喝杯热茶很舒服。",
+          "py": "Tiān lěng le huòzhě gōngzuò lèi le de shíhou, hē bēi rè chá hěn shūfu.",
+          "en": "When it's cold or you're tired from work, a cup of hot tea is very comforting."
+        },
+        {
+          "zh": "周太太40岁还是50岁，我们不知道。",
+          "py": "Zhōu tàitai sìshí suì háishi wǔshí suì, wǒmen bù zhīdào.",
+          "en": "We don't know whether Mrs. Zhou is 40 or 50."
+        },
+        {
+          "zh": "小丽还没想好周末去爬山还是去看电影。",
+          "py": "Xiǎolì hái méi xiǎnghǎo zhōumò qù pá shān háishi qù kàn diànyǐng.",
+          "en": "Xiaoli hasn't decided yet whether to go climbing or to see a movie this weekend."
+        },
+        {
+          "zh": "他的生日是10月还是11月，我不记得了。",
+          "py": "Tā de shēngrì shì shí yuè háishi shíyī yuè, wǒ bù jìde le.",
+          "en": "I don't remember whether his birthday is in October or November."
+        },
+        {
+          "zh": "我不知道这个人是男的还是女的。",
+          "py": "Wǒ bù zhīdào zhège rén shì nán de háishi nǚ de.",
+          "en": "I don't know whether this person is a man or a woman."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (存在：处所 + V着 + 数量 + N)",
+      "items": [
+        {
+          "zh": "桌子上放着一杯咖啡。",
+          "py": "Zhuōzi shang fàngzhe yī bēi kāfēi.",
+          "en": "There's a cup of coffee on the table."
+        },
+        {
+          "zh": "我家楼上住着一个老师。",
+          "py": "Wǒ jiā lóu shàng zhùzhe yī ge lǎoshī.",
+          "en": "A teacher lives upstairs from us."
+        },
+        {
+          "zh": "上面写着320元。",
+          "py": "Shàngmian xiězhe sān bǎi èrshí yuán.",
+          "en": "It says 320 yuan on it."
+        },
+        {
+          "zh": "桌子上放着很多饮料。",
+          "py": "Zhuōzi shang fàngzhe hěn duō yǐnliào.",
+          "en": "There are lots of drinks on the table."
+        },
+        {
+          "zh": "桌子上没放着咖啡。",
+          "py": "Zhuōzi shang méi fàngzhe kāfēi.",
+          "en": "There's no coffee on the table."
+        },
+        {
+          "zh": "我家楼上没住着老师。",
+          "py": "Wǒ jiā lóu shàng méi zhùzhe lǎoshī.",
+          "en": "No teacher lives upstairs from us."
+        },
+        {
+          "zh": "上面没写着多少钱。",
+          "py": "Shàngmian méi xiězhe duōshao qián.",
+          "en": "It doesn't say how much it costs."
+        },
+        {
+          "zh": "桌子上没放着饮料。",
+          "py": "Zhuōzi shang méi fàngzhe yǐnliào.",
+          "en": "There are no drinks on the table."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“会”表示可能)",
+      "items": [
+        {
+          "zh": "你穿得那么少，会感冒的。",
+          "py": "Nǐ chuān de nàme shǎo, huì gǎnmào de.",
+          "en": "You're wearing so little, you'll catch a cold."
+        },
+        {
+          "zh": "别担心，我会照顾好自己。",
+          "py": "Bié dānxīn, wǒ huì zhàogù hǎo zìjǐ.",
+          "en": "Don't worry, I'll take good care of myself."
+        },
+        {
+          "zh": "你不给他打电话吗，他会不高兴的。",
+          "py": "Nǐ bù gěi tā dǎ diànhuà ma, tā huì bù gāoxìng de.",
+          "en": "Aren't you going to call him? He'll be unhappy."
+        },
+        {
+          "zh": "喝杯热茶会很舒服。",
+          "py": "Hē bēi rè chá huì hěn shūfu.",
+          "en": "A cup of hot tea will feel really good."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (旧字新词 Word game)",
+      "items": [
+        {
+          "zh": "新鲜 + 牛奶 → 鲜奶",
+          "py": "xīnxiān + niúnǎi → xiānnǎi",
+          "en": "fresh + milk → fresh milk"
+        },
+        {
+          "zh": "冷 + 饮料 → 冷饮",
+          "py": "lěng + yǐnliào → lěngyǐn",
+          "en": "cold + drink → cold drink"
+        },
+        {
+          "zh": "上边 + 前面 → 上面",
+          "py": "shàngbian + qiánmian → shàngmian",
+          "en": "above + in front → on top, above"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "title": "第6课 · 怎么突然找不到了",
+  "subtitle": "HSK 3 · Lesson 6 — 怎么突然找不到了 · Why are they suddenly missing",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在客厅 — In the living room",
+      "items": [
+        {
+          "zh": "眼镜",
+          "py": "yǎnjìng",
+          "en": "glasses, spectacles"
+        },
+        {
+          "zh": "突然",
+          "py": "tūrán",
+          "en": "suddenly"
+        },
+        {
+          "zh": "离开",
+          "py": "lí kāi",
+          "en": "to leave, to part with"
+        },
+        {
+          "zh": "清楚",
+          "py": "qīngchu",
+          "en": "clear, distinct"
+        },
+        {
+          "zh": "刚才",
+          "py": "gāngcái",
+          "en": "just now"
+        },
+        {
+          "zh": "帮忙",
+          "py": "bāng máng",
+          "en": "to help"
+        },
+        {
+          "zh": "周明：我的眼镜呢？怎么突然找不到了？你看见了吗？",
+          "py": "Zhōu Míng: Wǒ de yǎnjìng ne? Zěnme tūrán zhǎo bu dào le? Nǐ kànjiàn le ma?",
+          "en": "Zhou Ming: Where are my glasses? Why can't I find them all of a sudden? Have you seen them?"
+        },
+        {
+          "zh": "周太太：我没看见啊。",
+          "py": "Zhōu tàitai: Wǒ méi kànjiàn a.",
+          "en": "Mrs. Zhou: I haven't seen them."
+        },
+        {
+          "zh": "周明：我离不开眼镜，没有眼镜，我一个字也看不清楚。",
+          "py": "Zhōu Míng: Wǒ lí bu kāi yǎnjìng, méiyǒu yǎnjìng, wǒ yī ge zì yě kàn bu qīngchu.",
+          "en": "Zhou Ming: I can't do without my glasses. Without them I can't read a single character clearly."
+        },
+        {
+          "zh": "周太太：你去房间找找，是不是刚才放在桌子上了？",
+          "py": "Zhōu tàitai: Nǐ qù fángjiān zhǎozhao, shì bu shì gāngcái fàng zài zhuōzi shang le?",
+          "en": "Mrs. Zhou: Go and look in the room. Didn't you just put them on the table?"
+        },
+        {
+          "zh": "周明：我怎么看得到啊？你快过来帮忙啊。",
+          "py": "Zhōu Míng: Wǒ zěnme kàn de dào a? Nǐ kuài guòlai bāng máng a.",
+          "en": "Zhou Ming: How could I see them? Come here and help me, quick."
+        },
+        {
+          "zh": "周太太：好吧，我帮你去找找。",
+          "py": "Zhōu tàitai: Hǎo ba, wǒ bāng nǐ qù zhǎozhao.",
+          "en": "Mrs. Zhou: All right, I'll help you look."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在打电话 — On the phone",
+      "items": [
+        {
+          "zh": "特别",
+          "py": "tèbié",
+          "en": "extraordinarily"
+        },
+        {
+          "zh": "讲",
+          "py": "jiǎng",
+          "en": "to explain"
+        },
+        {
+          "zh": "明白",
+          "py": "míngbai",
+          "en": "clear"
+        },
+        {
+          "zh": "锻炼",
+          "py": "duànliàn",
+          "en": "to do physical exercise"
+        },
+        {
+          "zh": "同学：今天的作业你做完了吗？",
+          "py": "Tóngxué: Jīntiān de zuòyè nǐ zuòwán le ma?",
+          "en": "Classmate: Have you finished today's homework?"
+        },
+        {
+          "zh": "儿子：刚做完，你呢？",
+          "py": "Érzi: Gāng zuòwán, nǐ ne?",
+          "en": "Son: I just finished. How about you?"
+        },
+        {
+          "zh": "同学：今天这些题特别难，我看不懂，不会做，你能帮我吗？",
+          "py": "Tóngxué: Jīntiān zhèxiē tí tèbié nán, wǒ kàn bu dǒng, bù huì zuò, nǐ néng bāng wǒ ma?",
+          "en": "Classmate: Today's questions are really hard. I don't understand them and can't do them. Can you help me?"
+        },
+        {
+          "zh": "儿子：电话里讲不明白，你来我家吧，我给你讲讲。",
+          "py": "Érzi: Diànhuà li jiǎng bu míngbai, nǐ lái wǒ jiā ba, wǒ gěi nǐ jiǎngjiang.",
+          "en": "Son: I can't explain it clearly over the phone. Come to my place and I'll explain it to you."
+        },
+        {
+          "zh": "同学：好啊，我锻炼完了就过去。",
+          "py": "Tóngxué: Hǎo a, wǒ duànliàn wán le jiù guòqu.",
+          "en": "Classmate: Great, I'll come over as soon as I finish exercising."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在休息室 — In the lounge",
+      "items": [
+        {
+          "zh": "音乐",
+          "py": "yīnyuè",
+          "en": "music"
+        },
+        {
+          "zh": "公园",
+          "py": "gōngyuán",
+          "en": "park"
+        },
+        {
+          "zh": "聊天(儿)",
+          "py": "liáo tiān (r)",
+          "en": "to chat"
+        },
+        {
+          "zh": "同事：你怎么有点儿不高兴？",
+          "py": "Tóngshì: Nǐ zěnme yǒudiǎnr bù gāoxìng?",
+          "en": "Colleague: Why do you look a bit unhappy?"
+        },
+        {
+          "zh": "小刚：我想请小丽吃饭，但是找不到好饭馆。",
+          "py": "Xiǎogāng: Wǒ xiǎng qǐng Xiǎolì chī fàn, dànshì zhǎo bu dào hǎo fànguǎn.",
+          "en": "Xiaogang: I want to take Xiaoli out to dinner, but I can't find a good restaurant."
+        },
+        {
+          "zh": "同事：那你请她听音乐会吧，她喜欢听音乐。",
+          "py": "Tóngshì: Nà nǐ qǐng tā tīng yīnyuèhuì ba, tā xǐhuan tīng yīnyuè.",
+          "en": "Colleague: Then invite her to a concert. She likes listening to music."
+        },
+        {
+          "zh": "小刚：音乐会人太多，买不到票。",
+          "py": "Xiǎogāng: Yīnyuèhuì rén tài duō, mǎi bu dào piào.",
+          "en": "Xiaogang: Too many people go to concerts; I can't get tickets."
+        },
+        {
+          "zh": "同事：那去公园走走，聊聊天儿吧。",
+          "py": "Tóngshì: Nà qù gōngyuán zǒuzou, liáoliao tiānr ba.",
+          "en": "Colleague: Then take a walk in the park and have a chat."
+        },
+        {
+          "zh": "小刚：公园太大，多累啊。",
+          "py": "Xiǎogāng: Gōngyuán tài dà, duō lèi a.",
+          "en": "Xiaogang: The park is too big. How tiring that would be!"
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在客厅 — In the living room",
+      "items": [
+        {
+          "zh": "睡着",
+          "py": "shuì zháo",
+          "en": "to fall asleep"
+        },
+        {
+          "zh": "更",
+          "py": "gèng",
+          "en": "more, even more"
+        },
+        {
+          "zh": "周太太：你怎么还喝咖啡？",
+          "py": "Zhōu tàitai: Nǐ zěnme hái hē kāfēi?",
+          "en": "Mrs. Zhou: Why are you still drinking coffee?"
+        },
+        {
+          "zh": "周明：怎么了？",
+          "py": "Zhōu Míng: Zěnme le?",
+          "en": "Zhou Ming: What's wrong?"
+        },
+        {
+          "zh": "周太太：你不是说晚上睡不着觉吗？",
+          "py": "Zhōu tàitai: Nǐ bù shì shuō wǎnshang shuì bu zháo jiào ma?",
+          "en": "Mrs. Zhou: Didn't you say you can't fall asleep at night?"
+        },
+        {
+          "zh": "周明：没事，我只喝一杯。",
+          "py": "Zhōu Míng: Méi shì, wǒ zhǐ hē yī bēi.",
+          "en": "Zhou Ming: It's fine, I'm only having one cup."
+        },
+        {
+          "zh": "周太太：你还是喝杯牛奶吧，可以睡得更好些。",
+          "py": "Zhōu tàitai: Nǐ háishi hē bēi niúnǎi ba, kěyǐ shuì de gèng hǎo xiē.",
+          "en": "Mrs. Zhou: You'd better have a glass of milk instead; you'll sleep better."
+        },
+        {
+          "zh": "周明：好吧，牛奶呢？",
+          "py": "Zhōu Míng: Hǎo ba, niúnǎi ne?",
+          "en": "Zhou Ming: OK. Where's the milk?"
+        },
+        {
+          "zh": "周太太：还没买呢。",
+          "py": "Zhōu tàitai: Hái méi mǎi ne.",
+          "en": "Mrs. Zhou: We haven't bought any yet."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (可能补语 V得/不 + Complement)",
+      "items": [
+        {
+          "zh": "我看得清楚那个汉字。",
+          "py": "Wǒ kàn de qīngchu nàge Hànzì.",
+          "en": "I can see that character clearly."
+        },
+        {
+          "zh": "楼太高了，我上不去。",
+          "py": "Lóu tài gāo le, wǒ shàng bu qù.",
+          "en": "The building is too tall; I can't get up there."
+        },
+        {
+          "zh": "老师说的话你听得见听不见？",
+          "py": "Lǎoshī shuō de huà nǐ tīng de jiàn tīng bu jiàn?",
+          "en": "Can you hear what the teacher says or not?"
+        },
+        {
+          "zh": "我找不到好饭馆。",
+          "py": "Wǒ zhǎo bu dào hǎo fànguǎn.",
+          "en": "I can't find a good restaurant."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (N + 呢 asking about location)",
+      "items": [
+        {
+          "zh": "A：你的书呢？放在哪儿了？  B：就在桌子上啊。",
+          "py": "A: Nǐ de shū ne? Fàng zài nǎr le?  B: Jiù zài zhuōzi shang a.",
+          "en": "A: Where's your book? Where did you put it?  B: It's right on the table."
+        },
+        {
+          "zh": "A：我的眼镜呢？你看见了吗？  B：我没看见啊。",
+          "py": "A: Wǒ de yǎnjìng ne? Nǐ kànjiàn le ma?  B: Wǒ méi kànjiàn a.",
+          "en": "A: Where are my glasses? Have you seen them?  B: I haven't seen them."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (刚 vs 刚才)",
+      "items": [
+        {
+          "zh": "爸爸刚出去。",
+          "py": "Bàba gāng chūqu.",
+          "en": "Dad has just gone out."
+        },
+        {
+          "zh": "爸爸刚才出去了。",
+          "py": "Bàba gāngcái chūqu le.",
+          "en": "Dad went out just now."
+        },
+        {
+          "zh": "我刚喝完一杯咖啡。",
+          "py": "Wǒ gāng hēwán yī bēi kāfēi.",
+          "en": "I've just finished a cup of coffee."
+        },
+        {
+          "zh": "刚才我喝了一杯咖啡。",
+          "py": "Gāngcái wǒ hēle yī bēi kāfēi.",
+          "en": "I had a cup of coffee just now."
+        },
+        {
+          "zh": "我刚放在桌子上，现在就没了。",
+          "py": "Wǒ gāng fàng zài zhuōzi shang, xiànzài jiù méi le.",
+          "en": "I just put it on the table, and now it's gone."
+        },
+        {
+          "zh": "眼镜周明刚才放在桌子上了。",
+          "py": "Yǎnjìng Zhōu Míng gāngcái fàng zài zhuōzi shang le.",
+          "en": "Zhou Ming put his glasses on the table just now."
+        },
+        {
+          "zh": "儿子刚做完作业。",
+          "py": "Érzi gāng zuòwán zuòyè.",
+          "en": "The son has just finished his homework."
+        },
+        {
+          "zh": "刚才儿子在做作业。",
+          "py": "Gāngcái érzi zài zuò zuòyè.",
+          "en": "The son was doing his homework just now."
+        }
+      ]
+    },
+    {
+      "topic": "扩展 · Extension (Word game: 旧字新词)",
+      "items": [
+        {
+          "zh": "校园",
+          "py": "xiàoyuán",
+          "en": "campus (学校 school + 公园 park)"
+        },
+        {
+          "zh": "饭桌",
+          "py": "fànzhuō",
+          "en": "dining table (吃饭 eat + 桌子 table)"
+        },
+        {
+          "zh": "花园",
+          "py": "huāyuán",
+          "en": "garden (鲜花 flowers + 公园 park)"
+        }
+      ]
+    }
+  ]
+}
