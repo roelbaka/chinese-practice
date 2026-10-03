@@ -39,21 +39,27 @@
   header h1 span { color: var(--accent); font-weight: 600; }
   header p { color: var(--text-muted); margin-top: .4rem; font-size: .95rem; }
 
-  nav {
-    display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem;
-    padding: 1rem; background: #111;
-    border-bottom: 1px solid var(--border);
-  }
+  nav { padding: .8rem 1rem; background: #111; border-bottom: 1px solid var(--border); }
+
+  .nav-row { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; }
+  .nav-row + .nav-row { margin-top: .6rem; }
+  .nav-row:empty { display: none; }
 
   nav button {
     background: var(--card); color: var(--text); border: 1px solid var(--border);
     padding: .45rem 1rem; border-radius: 999px; cursor: pointer; font-size: .85rem; transition: all .2s;
+    white-space: nowrap; flex-shrink: 0;
   }
 
   nav button:hover { background: var(--card-hover); border-color: var(--accent); }
   nav button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  nav button .count { color: var(--text-muted); font-size: .75rem; margin-left: .3rem; }
+  nav button.active .count { color: rgba(255,255,255,.8); }
 
-  .mode-bar { display: flex; justify-content: center; gap: .5rem; padding: .8rem 1rem; background: #0a0a0a; }
+  #subNav button { font-size: .78rem; padding: .3rem .8rem; max-width: 22rem; overflow: hidden; text-overflow: ellipsis; }
+  #subNav button.active { background: transparent; color: var(--accent); }
+
+  .mode-bar { display: flex; justify-content: center; gap: .5rem; padding: .8rem 1rem 0; background: #111; }
 
   .mode-bar button {
     background: transparent; color: var(--text-muted); border: 1px solid var(--border);
@@ -195,8 +201,10 @@
     .card .chinese { font-size: 1.25rem; }
     .card .speaker-icon { width: 44px; height: 44px; font-size: .85rem; }
     .flashcard .chinese { font-size: 1.7rem; }
-    nav { gap: .3rem; }
+    .nav-row { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; gap: .35rem; scrollbar-width: none; }
+    .nav-row::-webkit-scrollbar { display: none; }
     nav button { font-size: .75rem; padding: .35rem .7rem; }
+    #subNav button { max-width: 14rem; }
   }
 </style>
 </head>
@@ -208,20 +216,51 @@
   <p id="lessonSubtitle">Loading...</p>
 </header>
 
-<nav id="topicNav"></nav>
-
 <div class="mode-bar">
   <button class="active" data-mode="browse">Browse</button>
   <button data-mode="flashcard">Flashcards</button>
   <button data-mode="quiz">Quiz</button>
 </div>
 
+<nav id="topicNav">
+  <div class="nav-row" id="catNav"></div>
+  <div class="nav-row" id="subNav"></div>
+</nav>
+
 <main id="app"><div class="loading">Loading lesson data...</div></main>
 
 <script>
 let DATA = [];
-let currentTopic = "all";
+let currentCat = "all";    // "all" or a CATEGORIES key
+let currentTopic = "all";  // "all" (= whole category) or one section's topic
 let currentMode = "browse";
+
+/** Sections are grouped by the Chinese prefix of their topic ("语法 · …" → Grammar). */
+const CATEGORIES = [
+  { key: "notes",    zh: "课上要点", en: "Notes",    re: /^课上要点/ },
+  { key: "texts",    zh: "课文",    en: "Texts",    re: /^(课文|会话|天气会话|听力|听后复述|句子)/ },
+  { key: "words",    zh: "生词",    en: "Words",    re: /^(生词|词汇|新词|教室词汇|专名|专有名词)/ },
+  { key: "grammar",  zh: "语法",    en: "Grammar",  re: /^(语法|注释|语音)/ },
+  { key: "practice", zh: "练习",    en: "Practice", re: /^(练习|替换|课堂练习|课上扩展)/ },
+  { key: "more",     zh: "更多",    en: "More",     re: /./ },
+];
+
+function categoryOf(section) {
+  return CATEGORIES.find(c => c.re.test(section.topic)).key;
+}
+
+/** Short chip label: "Grammar (A没有B + Adj)" → "A没有B + Adj"; keeps "New Words (Lesson 10)" as is. */
+function shortLabel(topic) {
+  const label = topic.split(" · ")[1] || topic;
+  const m = label.match(/^[^(（]+[(（](.+)[)）]$/);
+  return m && !/^Lesson\b/.test(m[1]) ? m[1].trim() : label;
+}
+
+function visibleSections() {
+  if (currentTopic !== "all") return DATA.filter(t => t.topic === currentTopic);
+  if (currentCat === "all") return DATA;
+  return DATA.filter(t => categoryOf(t) === currentCat);
+}
 
 function prepareLessonData(raw) {
   if (!Array.isArray(raw) || !raw.length) return [];
@@ -272,7 +311,7 @@ if (!lessonId) {
       document.getElementById("lessonSubtitle").textContent = json.subtitle;
       DATA = prepareLessonData(json.data);
       const notesSec = DATA.find((s) => s.classNotesFirst === true);
-      if (notesSec) currentTopic = notesSec.topic;
+      if (notesSec) currentCat = categoryOf(notesSec);
       renderNav();
       render();
     })
@@ -282,12 +321,7 @@ if (!lessonId) {
 }
 
 function getItems() {
-  if (currentTopic === "all") {
-    return DATA.flatMap(t => (t.browseOnly ? [] : t.items));
-  }
-  const sec = DATA.find(t => t.topic === currentTopic);
-  if (!sec || sec.browseOnly) return [];
-  return sec.items;
+  return visibleSections().flatMap(t => (t.browseOnly ? [] : t.items));
 }
 
 function shuffle(arr) { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
@@ -344,17 +378,43 @@ function speak(text) {
 }
 
 function renderNav() {
-  const nav = document.getElementById("topicNav");
-  const topics = [{ topic: "all", label: "All" }, ...DATA.map(t => ({ topic: t.topic, label: t.topic.split(" · ")[1] || t.topic }))];
-  nav.innerHTML = topics.map(t =>
-    `<button data-topic="${t.topic}" class="${currentTopic === t.topic ? 'active' : ''}">${t.label}</button>`
-  ).join("");
-  nav.querySelectorAll("button").forEach(btn => {
+  const catNav = document.getElementById("catNav");
+  const subNav = document.getElementById("subNav");
+  const cats = CATEGORIES
+    .map(c => ({ ...c, count: DATA.filter(t => categoryOf(t) === c.key).length }))
+    .filter(c => c.count > 0);
+
+  catNav.innerHTML = `<button data-cat="all" class="${currentCat === "all" ? "active" : ""}">All</button>` +
+    cats.map(c =>
+      `<button data-cat="${c.key}" class="${currentCat === c.key ? "active" : ""}">${c.zh} ${c.en}${c.count > 1 ? `<span class="count">${c.count}</span>` : ""}</button>`
+    ).join("");
+
+  const sections = currentCat === "all" ? [] : DATA.filter(t => categoryOf(t) === currentCat);
+  subNav.innerHTML = sections.length < 2 ? "" :
+    `<button data-topic="all" class="${currentTopic === "all" ? "active" : ""}">All ${esc(cats.find(c => c.key === currentCat).en.toLowerCase())}</button>` +
+    sections.map(t =>
+      `<button data-topic="${esc(t.topic)}" title="${esc(t.topic)}" class="${currentTopic === t.topic ? "active" : ""}">${esc(shortLabel(t.topic))}</button>`
+    ).join("");
+
+  catNav.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentCat = btn.dataset.cat;
+      currentTopic = "all";
+      renderNav();
+      render();
+    });
+  });
+  subNav.querySelectorAll("button").forEach(btn => {
     btn.addEventListener("click", () => {
       currentTopic = btn.dataset.topic;
       renderNav();
       render();
     });
+  });
+  // On narrow screens the rows scroll sideways: keep the chosen chips visible.
+  [catNav, subNav].forEach(row => {
+    const active = row.querySelector(".active");
+    if (active) row.scrollLeft = active.offsetLeft - row.offsetLeft - 16;
   });
 }
 
@@ -365,8 +425,9 @@ function renderBrowse() {
     <label><input type="checkbox" id="togEn" ${hideEnglish ? "checked" : ""}> Hide English</label>
   </div>`;
 
-  if (currentTopic === "all") {
-    DATA.forEach(section => {
+  const sections = visibleSections();
+  if (sections.length > 1) {
+    sections.forEach(section => {
       html += `<div class="section-title">${section.topic}</div><div class="card-grid">`;
       section.items.forEach(item => {
         const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : ""].filter(Boolean).join(" ");
@@ -380,8 +441,7 @@ function renderBrowse() {
       html += `</div>`;
     });
   } else {
-    const sec = DATA.find(t => t.topic === currentTopic);
-    const items = sec?.items || [];
+    const items = sections[0]?.items || [];
     html += `<div class="card-grid">`;
     items.forEach(item => {
       const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : ""].filter(Boolean).join(" ");
