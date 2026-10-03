@@ -396,6 +396,376 @@
           "en": "main course (主要 + 菜)"
         }
       ]
+    },
+    {
+      "topic": "练习 · Practice (向…学…  Learn X from Y)",
+      "items": [
+        {
+          "zh": "我向老师学中文。",
+          "py": "Wǒ xiàng lǎoshī xué Zhōngwén.",
+          "en": "I learn Chinese from my teacher."
+        },
+        {
+          "zh": "我向朋友学打篮球。",
+          "py": "Wǒ xiàng péngyou xué dǎ lánqiú.",
+          "en": "I learn to play basketball from my friend."
+        },
+        {
+          "zh": "我向妈妈学做饭。",
+          "py": "Wǒ xiàng māma xué zuòfàn.",
+          "en": "I learn to cook from my mum."
+        },
+        {
+          "zh": "我向妈妈学烹饪。",
+          "py": "Wǒ xiàng māma xué pēngrèn.",
+          "en": "I learn cooking from my mum."
+        },
+        {
+          "zh": "我向爸爸学修理自行车。",
+          "py": "Wǒ xiàng bàba xué xiūlǐ zìxíngchē.",
+          "en": "I learn to repair bicycles from my dad."
+        },
+        {
+          "zh": "我向爸爸学骑自行车。",
+          "py": "Wǒ xiàng bàba xué qí zìxíngchē.",
+          "en": "I learn to ride a bicycle from my dad."
+        },
+        {
+          "zh": "我向同事学数学。",
+          "py": "Wǒ xiàng tóngshì xué shùxué.",
+          "en": "I learn maths from my colleague."
+        },
+        {
+          "zh": "我向朋友学做中国菜。",
+          "py": "Wǒ xiàng péngyou xué zuò Zhōngguó cài.",
+          "en": "I learn to cook Chinese food from my friend."
+        },
+        {
+          "zh": "我可以向年轻人学使用新技术。",
+          "py": "Wǒ kěyǐ xiàng niánqīngrén xué shǐyòng xīn jìshù.",
+          "en": "I can learn to use new technology from young people."
+        },
+        {
+          "zh": "老师也向学生学习。",
+          "py": "Lǎoshī yě xiàng xuésheng xuéxí.",
+          "en": "Teachers also learn from their students."
+        },
+        {
+          "zh": "我们应该互相学习。",
+          "py": "Wǒmen yīnggāi hùxiāng xuéxí.",
+          "en": "We should learn from each other."
+        },
+        {
+          "zh": "向某人学习",
+          "py": "xiàng mǒu rén xuéxí",
+          "en": "to learn from someone"
+        }
+      ]
+    },
+    {
+      "topic": "词汇 · Extra Words (Class discussion)",
+      "items": [
+        {
+          "zh": "烹饪",
+          "py": "pēngrèn",
+          "en": "cooking; culinary art"
+        },
+        {
+          "zh": "做饭",
+          "py": "zuòfàn",
+          "en": "to cook (a meal)"
+        },
+        {
+          "zh": "做菜",
+          "py": "zuò cài",
+          "en": "to cook (dishes)"
+        },
+        {
+          "zh": "修理",
+          "py": "xiūlǐ",
+          "en": "to repair"
+        },
+        {
+          "zh": "自行车",
+          "py": "zìxíngchē",
+          "en": "bicycle"
+        },
+        {
+          "zh": "打篮球",
+          "py": "dǎ lánqiú",
+          "en": "to play basketball"
+        },
+        {
+          "zh": "技术",
+          "py": "jìshù",
+          "en": "technology; skill"
+        },
+        {
+          "zh": "同事",
+          "py": "tóngshì",
+          "en": "colleague"
+        },
+        {
+          "zh": "互相",
+          "py": "hùxiāng",
+          "en": "each other; mutually"
+        },
+        {
+          "zh": "起得早",
+          "py": "qǐ de zǎo",
+          "en": "to get up early"
+        },
+        {
+          "zh": "起得晚",
+          "py": "qǐ de wǎn",
+          "en": "to get up late"
+        },
+        {
+          "zh": "通勤",
+          "py": "tōngqín",
+          "en": "to commute"
+        },
+        {
+          "zh": "车站",
+          "py": "chēzhàn",
+          "en": "station; stop"
+        },
+        {
+          "zh": "缺点",
+          "py": "quēdiǎn",
+          "en": "shortcoming; weakness"
+        },
+        {
+          "zh": "优点",
+          "py": "yōudiǎn",
+          "en": "strong point; advantage"
+        },
+        {
+          "zh": "经验",
+          "py": "jīngyàn",
+          "en": "experience"
+        },
+        {
+          "zh": "谦虚",
+          "py": "qiānxū",
+          "en": "modest; humble"
+        },
+        {
+          "zh": "观察",
+          "py": "guānchá",
+          "en": "to observe"
+        },
+        {
+          "zh": "态度",
+          "py": "tàidu",
+          "en": "attitude"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (谁起得早？ Who gets up earlier?)",
+      "items": [
+        {
+          "zh": "你和妈妈谁起得早？",
+          "py": "Nǐ hé māma shéi qǐ de zǎo?",
+          "en": "Who gets up earlier, you or your mum?"
+        },
+        {
+          "zh": "我起得早。",
+          "py": "Wǒ qǐ de zǎo.",
+          "en": "I get up early."
+        },
+        {
+          "zh": "我比妈妈起得早。",
+          "py": "Wǒ bǐ māma qǐ de zǎo.",
+          "en": "I get up earlier than my mum."
+        },
+        {
+          "zh": "她比你早起多长时间？",
+          "py": "Tā bǐ nǐ zǎo qǐ duō cháng shíjiān?",
+          "en": "How much earlier does she get up than you?"
+        },
+        {
+          "zh": "她比我早起半个小时。",
+          "py": "Tā bǐ wǒ zǎo qǐ bàn ge xiǎoshí.",
+          "en": "She gets up half an hour earlier than me."
+        },
+        {
+          "zh": "我比她晚起四十分钟。",
+          "py": "Wǒ bǐ tā wǎn qǐ sìshí fēnzhōng.",
+          "en": "I get up forty minutes later than her."
+        },
+        {
+          "zh": "你和你女朋友谁起得早？",
+          "py": "Nǐ hé nǐ nǚpéngyou shéi qǐ de zǎo?",
+          "en": "Who gets up earlier, you or your girlfriend?"
+        },
+        {
+          "zh": "我比他早起两个小时。",
+          "py": "Wǒ bǐ tā zǎo qǐ liǎng ge xiǎoshí.",
+          "en": "I get up two hours earlier than him."
+        },
+        {
+          "zh": "她比你晚起两个小时。",
+          "py": "Tā bǐ nǐ wǎn qǐ liǎng ge xiǎoshí.",
+          "en": "She gets up two hours later than you."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (多少 & 比 Class numbers)",
+      "items": [
+        {
+          "zh": "今天我们班来了多少学生？",
+          "py": "Jīntiān wǒmen bān lái le duōshao xuésheng?",
+          "en": "How many students came to our class today?"
+        },
+        {
+          "zh": "今天来了九个学生。",
+          "py": "Jīntiān lái le jiǔ ge xuésheng.",
+          "en": "Nine students came today."
+        },
+        {
+          "zh": "上个星期六呢？",
+          "py": "Shàng ge xīngqīliù ne?",
+          "en": "And last Saturday?"
+        },
+        {
+          "zh": "上个星期六来了六个学生。",
+          "py": "Shàng ge xīngqīliù lái le liù ge xuésheng.",
+          "en": "Six students came last Saturday."
+        },
+        {
+          "zh": "上个星期六比今天来得少。",
+          "py": "Shàng ge xīngqīliù bǐ jīntiān lái de shǎo.",
+          "en": "Fewer came last Saturday than today."
+        },
+        {
+          "zh": "今天比上个星期六来得多。",
+          "py": "Jīntiān bǐ shàng ge xīngqīliù lái de duō.",
+          "en": "More came today than last Saturday."
+        },
+        {
+          "zh": "你们今天玩儿了多长时间游戏了？",
+          "py": "Nǐmen jīntiān wánr le duō cháng shíjiān yóuxì le?",
+          "en": "How long did you play games today?"
+        },
+        {
+          "zh": "昨天玩儿了三个小时，今天没有玩儿。",
+          "py": "Zuótiān wánr le sān ge xiǎoshí, jīntiān méiyǒu wánr.",
+          "en": "Yesterday I played for three hours, today I didn't play."
+        },
+        {
+          "zh": "我数学考得不好。",
+          "py": "Wǒ shùxué kǎo de bù hǎo.",
+          "en": "I did badly on the maths exam."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (概数：二三十分钟 Approximate numbers)",
+      "items": [
+        {
+          "zh": "我每天学习一两个小时。",
+          "py": "Wǒ měi tiān xuéxí yī-liǎng ge xiǎoshí.",
+          "en": "I study one or two hours every day."
+        },
+        {
+          "zh": "从家到办公室骑车七八分钟。",
+          "py": "Cóng jiā dào bàngōngshì qí chē qī-bā fēnzhōng.",
+          "en": "From home to the office is seven or eight minutes by bike."
+        },
+        {
+          "zh": "开车二三十分钟，可以接受。",
+          "py": "Kāi chē èr-sānshí fēnzhōng, kěyǐ jiēshòu.",
+          "en": "Driving twenty or thirty minutes is acceptable."
+        },
+        {
+          "zh": "开车四五十分钟，太远了。",
+          "py": "Kāi chē sì-wǔshí fēnzhōng, tài yuǎn le.",
+          "en": "Driving forty or fifty minutes is too far."
+        },
+        {
+          "zh": "我家附近有三四个车站。",
+          "py": "Wǒ jiā fùjìn yǒu sān-sì ge chēzhàn.",
+          "en": "There are three or four stations near my home."
+        },
+        {
+          "zh": "我今天喝了三四杯咖啡。",
+          "py": "Wǒ jīntiān hē le sān-sì bēi kāfēi.",
+          "en": "I drank three or four cups of coffee today."
+        },
+        {
+          "zh": "住在中央车站附近很方便。",
+          "py": "Zhù zài zhōngyāng chēzhàn fùjìn hěn fāngbiàn.",
+          "en": "Living near Central Station is very convenient."
+        },
+        {
+          "zh": "意思是：大概的数量，不是准确的数字。",
+          "py": "Yìsi shì: dàgài de shùliàng, bú shì zhǔnquè de shùzì.",
+          "en": "It means: a rough amount, not an exact number."
+        }
+      ]
+    },
+    {
+      "topic": "格言 · Sayings (三人行，必有我师焉)",
+      "items": [
+        {
+          "zh": "三人行，必有我师焉。",
+          "py": "Sān rén xíng, bì yǒu wǒ shī yān.",
+          "en": "When three people walk together, one of them can be my teacher."
+        },
+        {
+          "zh": "择其善者而从之，其不善者而改之。",
+          "py": "Zé qí shàn zhě ér cóng zhī, qí bù shàn zhě ér gǎi zhī.",
+          "en": "Pick out their good points and follow them; correct yourself where they are bad."
+        },
+        {
+          "zh": "有则改之，无则加勉。",
+          "py": "Yǒu zé gǎi zhī, wú zé jiā miǎn.",
+          "en": "If you have the fault, correct it; if not, take it as encouragement."
+        },
+        {
+          "zh": "看到别人做得好的地方，我学习。",
+          "py": "Kàn dào biérén zuò de hǎo de dìfang, wǒ xuéxí.",
+          "en": "When I see what others do well, I learn from it."
+        },
+        {
+          "zh": "看到别人做得不好的地方，我想想自己有没有同样的问题。",
+          "py": "Kàn dào biérén zuò de bù hǎo de dìfang, wǒ xiǎng xiǎng zìjǐ yǒu méiyǒu tóngyàng de wèntí.",
+          "en": "When I see what others do badly, I ask myself if I have the same problem."
+        },
+        {
+          "zh": "谦虚 + 观察 + 学习",
+          "py": "qiānxū + guānchá + xuéxí",
+          "en": "humble + observe + learn"
+        }
+      ]
+    },
+    {
+      "topic": "文化 · Culture (中荷差异 China vs Netherlands)",
+      "items": [
+        {
+          "zh": "在荷兰，说别人胖不太礼貌。",
+          "py": "Zài Hélán, shuō biérén pàng bù tài lǐmào.",
+          "en": "In the Netherlands, calling someone fat is not very polite."
+        },
+        {
+          "zh": "中国人大多是黑头发，所以很少说头发的颜色。",
+          "py": "Zhōngguórén dàduō shì hēi tóufa, suǒyǐ hěn shǎo shuō tóufa de yánsè.",
+          "en": "Most Chinese have black hair, so hair colour is rarely mentioned."
+        },
+        {
+          "zh": "中国人喜欢早睡早起。",
+          "py": "Zhōngguórén xǐhuan zǎo shuì zǎo qǐ.",
+          "en": "Chinese people like to go to bed early and get up early."
+        },
+        {
+          "zh": "荷兰人周末常常十二点以后才见面。",
+          "py": "Hélánrén zhōumò chángcháng shí'èr diǎn yǐhòu cái jiànmiàn.",
+          "en": "Dutch people often only meet after twelve at weekends."
+        }
+      ]
     }
   ]
 }
