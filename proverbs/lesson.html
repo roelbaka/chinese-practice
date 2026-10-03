@@ -487,6 +487,7 @@ document.querySelectorAll(".mode-bar button").forEach(btn => {
 });
 
 document.addEventListener("keydown", e => {
+  if (document.body.classList.contains("snav-locked")) return;   // site menu is open
   if (currentMode === "flashcard") {
     if (e.key === "ArrowRight") { fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; renderFlashcard(); }
     if (e.key === "ArrowLeft") { fcIndex = (fcIndex - 1 + fcItems.length) % fcItems.length; fcRevealed = false; renderFlashcard(); }
@@ -494,5 +495,6 @@ document.addEventListener("keydown", e => {
   }
 });
 </script>
+<script src="../nav.js" defer></script>
 </body>
 </html>
