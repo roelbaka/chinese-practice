@@ -167,6 +167,17 @@
   .quiz-option.correct { background: #1b5e20; border-color: var(--success); }
   .quiz-option.wrong { background: #b71c1c; border-color: #f44336; }
   .quiz-option.disabled { pointer-events: none; opacity: .8; }
+  .cloze-sentence { font-size: 1.6rem; line-height: 1.9; margin: 1.5rem 0 .5rem; }
+  .cloze-gap {
+    display: inline-block; min-width: 4em; padding: 0 .5em; margin: 0 .15em; line-height: 1.5;
+    border-bottom: 2px dashed var(--accent); font-size: 1rem; vertical-align: middle;
+  }
+  .cloze-gap.hint-en { color: var(--english); }
+  .cloze-gap.hint-py { color: var(--pinyin); }
+  .cloze-gap.filled { border-bottom-style: solid; border-color: var(--success); font-size: 1.6rem; color: var(--text); }
+  .cloze-full { margin-bottom: 1.2rem; }
+  .cloze-full .pinyin { color: var(--pinyin); }
+  .cloze-full .english { color: var(--english); font-size: .95rem; }
   .quiz-score { color: var(--text-muted); margin-top: 1.5rem; font-size: .9rem; }
 
   .quiz-next {
@@ -220,6 +231,7 @@
   <button class="active" data-mode="browse">Browse</button>
   <button data-mode="flashcard">Flashcards</button>
   <button data-mode="quiz">Quiz</button>
+  <button data-mode="cloze">Fill in</button>
 </div>
 
 <nav id="topicNav">
@@ -688,6 +700,129 @@ function renderQuizControls() {
   });
 }
 
+// ---- Fill in: a lesson sentence with one new word blanked out ----
+let clozeItems = [], clozeIndex = 0, clozeScore = 0, clozeAnswered = false, clozeChosen = null;
+let clozeHint = "en", clozeAnswer = "zh";
+
+/** "南（方）" → "南方"; "春(天)" → "春天". */
+function wordForm(zh) { return zh.replace(/[（）()]/g, ""); }
+
+/** "to go through; history (as in lìshǐ – history)" → "to go through". */
+function shortEn(en) { return en.split(/[;；]/)[0].replace(/\s*\(as in[^)]*\)/, "").trim(); }
+
+function clozeWordPool() {
+  const seen = new Set();
+  return DATA.filter(s => categoryOf(s) === "words").flatMap(s => s.items)
+    .map(i => ({ zh: wordForm(i.zh), py: i.py, en: shortEn(i.en) }))
+    .filter(w => w.zh && w.py && !/[，。？！：、…]/.test(w.zh) && !seen.has(w.zh) && seen.add(w.zh));
+}
+
+/** Pairs of (sentence, word) where the word occurs in the sentence; prefers words of 2+ characters. */
+function buildClozeItems() {
+  const words = clozeWordPool();
+  if (words.length < 4) return [];
+  const fromSections = secs => secs
+    .filter(s => categoryOf(s) !== "words" && !s.browseOnly)
+    .flatMap(s => s.items).filter(i => isTextLine(i) && !i.zh.includes("→"));
+  let sentences = fromSections(visibleSections());
+  if (!sentences.length) sentences = fromSections(DATA);
+  const seen = new Set();
+  const out = [];
+  sentences.forEach(sent => {
+    if (seen.has(sent.zh)) return;
+    seen.add(sent.zh);
+    const m = sent.zh.match(/^([^：:]{1,8}[：:])(.*)$/);   // keep a "Speaker：" prefix out of the blank
+    const prefix = m ? m[1] : "", body = m ? m[2] : sent.zh;
+    const hits = words.filter(w => body.includes(w.zh) && body !== w.zh);
+    const long = hits.filter(w => [...w.zh].length > 1);
+    const pool = long.length ? long : hits;
+    if (!pool.length) return;
+    const word = pool[Math.floor(Math.random() * pool.length)];
+    const at = body.indexOf(word.zh);
+    out.push({ sent, word, before: prefix + body.slice(0, at), after: body.slice(at + word.zh.length) });
+  });
+  return shuffle(out);
+}
+
+function renderCloze() {
+  const app = document.getElementById("app");
+  if (!clozeItems.length) {
+    clozeItems = buildClozeItems();
+    clozeIndex = 0; clozeScore = 0; clozeAnswered = false; clozeChosen = null;
+  }
+  if (!clozeItems.length) {
+    app.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:2rem;">No fill-in sentences here: this needs a lesson with a word list and sentences that use those words. Try “All”.</p>`;
+    return;
+  }
+
+  const q = clozeItems[clozeIndex];
+  const field = clozeAnswer;
+  if (!q.options) {
+    const others = clozeWordPool().filter(w =>
+      w[field] !== q.word[field] && w.zh !== q.word.zh && !q.sent.zh.includes(w.zh));
+    const sameLen = others.filter(w => [...w.zh].length === [...q.word.zh].length);
+    q.options = shuffle([q.word, ...shuffle(sameLen.length >= 3 ? sameLen : others).slice(0, 3)]);
+  }
+
+  const gap = clozeAnswered
+    ? `<span class="cloze-gap filled">${esc(q.word.zh)}</span>`
+    : `<span class="cloze-gap hint-${clozeHint}">${esc(q.word[clozeHint])}</span>`;
+
+  app.innerHTML = `<div class="quiz-container">
+    <div class="fc-mode-bar">
+      <span class="fc-mode-label">Hint:</span>
+      <button class="${clozeHint === 'en' ? 'active' : ''}" data-chint="en">English</button>
+      <button class="${clozeHint === 'py' ? 'active' : ''}" data-chint="py">Pinyin</button>
+    </div>
+    <div class="fc-mode-bar" style="margin-bottom:.5rem">
+      <span class="fc-mode-label">Answer:</span>
+      <button class="${field === 'zh' ? 'active' : ''}" data-cans="zh">中文</button>
+      <button class="${field === 'py' ? 'active' : ''}" data-cans="py">Pinyin</button>
+      <button class="${field === 'en' ? 'active' : ''}" data-cans="en">English</button>
+    </div>
+    <div class="fc-progress">${clozeIndex + 1} / ${clozeItems.length}</div>
+    <div class="cloze-sentence">${esc(q.before)}${gap}${esc(q.after)}</div>
+    ${clozeAnswered ? `<div class="cloze-full">
+      <div class="pinyin">${esc(q.sent.py)}</div>
+      <div class="english">${esc(q.sent.en)}</div>
+    </div>` : ""}
+    <div class="quiz-options">
+      ${q.options.map((o, i) => {
+        const cls = !clozeAnswered ? "" :
+          o === q.word ? "correct disabled" : i === clozeChosen ? "wrong disabled" : "disabled";
+        return `<button class="quiz-option ${cls}" data-idx="${i}">${esc(o[field])}</button>`;
+      }).join("")}
+    </div>
+    <div class="quiz-score">Score: ${clozeScore} / ${clozeIndex + (clozeAnswered ? 1 : 0)}</div>
+    ${clozeAnswered ? `<div class="fc-controls">
+      <button type="button" id="clozeSpeak">&#9654; Listen</button>
+      <button type="button" class="quiz-next" id="clozeNext">${clozeIndex + 1 < clozeItems.length ? "Next &rarr;" : "Restart"}</button>
+    </div>` : ""}
+  </div>`;
+
+  app.querySelectorAll("[data-chint]").forEach(btn => btn.addEventListener("click", () => { clozeHint = btn.dataset.chint; renderCloze(); }));
+  app.querySelectorAll("[data-cans]").forEach(btn => btn.addEventListener("click", () => {
+    clozeAnswer = btn.dataset.cans;
+    clozeItems.forEach(c => { delete c.options; });
+    renderCloze();
+  }));
+
+  if (!clozeAnswered) {
+    app.querySelectorAll(".quiz-option").forEach(btn => btn.addEventListener("click", () => {
+      clozeChosen = +btn.dataset.idx;
+      clozeAnswered = true;
+      if (q.options[clozeChosen] === q.word) clozeScore++;
+      renderCloze();
+    }));
+  } else {
+    document.getElementById("clozeSpeak").addEventListener("click", () => speak(q.sent.zh));
+    document.getElementById("clozeNext").addEventListener("click", () => {
+      if (clozeIndex + 1 < clozeItems.length) { clozeIndex++; clozeAnswered = false; clozeChosen = null; renderCloze(); }
+      else { clozeItems = []; renderCloze(); }
+    });
+  }
+}
+
 function esc(s) {
   const d = document.createElement("div");
   d.textContent = s;
@@ -697,9 +832,11 @@ function esc(s) {
 function render() {
   fcItems = [];
   quizItems = [];
+  clozeItems = [];
   if (currentMode === "browse") renderBrowse();
   else if (currentMode === "flashcard") renderFlashcard();
   else if (currentMode === "quiz") renderQuiz();
+  else if (currentMode === "cloze") renderCloze();
 }
 
 document.querySelectorAll(".mode-bar button").forEach(btn => {
