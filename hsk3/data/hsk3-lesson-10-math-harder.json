@@ -3,6 +3,168 @@
   "subtitle": "HSK 3 · Lesson 10 — 数学比历史难多了 · Maths is much harder than history",
   "data": [
     {
+      "topic": "课上要点 · Class notes (3 Oct 2026)",
+      "classNotesFirst": true,
+      "browseOnly": true,
+      "items": [
+        {
+          "zh": "总览 · What this class was about (3 Oct 2026)",
+          "py": "",
+          "en": "We practised 向某人学… (learning something from someone), read Confucius' 三人行，必有我师焉, then continued Lesson 10: approximate numbers (一两、三四、七八、二三十), 比 comparisons with 起得早/晚 and 来得多/少, and finished with Chinese–Dutch cultural differences. Each topic below has a short explanation followed by example sentences. The practice tabs (Practice …, Extra Words, Sayings, Culture) contain the same material for flashcards and quiz."
+        },
+        {
+          "zh": "1 · 向 + person + 学 + verb + object",
+          "py": "",
+          "en": "'To learn something from someone.' 向 marks the person you learn from. The thing you learn needs its own verb: not 学篮球 but 学打篮球, not 学自行车 but 学骑自行车 (ride) or 学修理自行车 (repair). 做饭/做菜 is everyday cooking; 烹饪 is the more formal word."
+        },
+        {
+          "zh": "我向朋友学打篮球。",
+          "py": "Wǒ xiàng péngyou xué dǎ lánqiú.",
+          "en": "I learn to play basketball from my friend."
+        },
+        {
+          "zh": "我向爸爸学修理自行车。",
+          "py": "Wǒ xiàng bàba xué xiūlǐ zìxíngchē.",
+          "en": "I learn to repair bicycles from my dad."
+        },
+        {
+          "zh": "我向妈妈学做饭。",
+          "py": "Wǒ xiàng māma xué zuòfàn.",
+          "en": "I learn to cook from my mum."
+        },
+        {
+          "zh": "Tip · Logic and 'whose'",
+          "py": "",
+          "en": "A sentence must also make sense. 我向妈妈学荷兰语 sounds odd if you already speak Dutch as well as she does — say 我小时候… instead. And 妈妈 alone means your own mum; for someone else's, say whose: 他的妈妈."
+        },
+        {
+          "zh": "我小时候向妈妈学荷兰语。",
+          "py": "Wǒ xiǎoshíhou xiàng māma xué Hélányǔ.",
+          "en": "As a child I learned Dutch from my mum."
+        },
+        {
+          "zh": "我向他的妈妈学做饭。",
+          "py": "Wǒ xiàng tā de māma xué zuòfàn.",
+          "en": "I learn to cook from his mum."
+        },
+        {
+          "zh": "2 · 三人行，必有我师焉",
+          "py": "",
+          "en": "Confucius: among any three people, there is one I can learn from. Follow their good points (择其善者而从之); when you see their faults, check whether you have them too and correct yourself (其不善者而改之). Attitude: 谦虚 + 观察 + 学习 — humble, observe, learn."
+        },
+        {
+          "zh": "三人行，必有我师焉。",
+          "py": "Sān rén xíng, bì yǒu wǒ shī yān.",
+          "en": "When three people walk together, one of them can be my teacher."
+        },
+        {
+          "zh": "择其善者而从之，其不善者而改之。",
+          "py": "Zé qí shàn zhě ér cóng zhī, qí bù shàn zhě ér gǎi zhī.",
+          "en": "Follow their good points; correct in yourself what is bad in them."
+        },
+        {
+          "zh": "有则改之，无则加勉",
+          "py": "",
+          "en": "A related saying used when someone (e.g. a parent) criticises you: if it's true, correct it; if it isn't, don't argue — take it as a reminder to do even better. A traditional attitude of respect for elders."
+        },
+        {
+          "zh": "有则改之，无则加勉。",
+          "py": "Yǒu zé gǎi zhī, wú zé jiā miǎn.",
+          "en": "If you have the fault, correct it; if not, take it as encouragement."
+        },
+        {
+          "zh": "3 · 概数 · Approximate numbers",
+          "py": "",
+          "en": "Two neighbouring numbers together give an estimate: 一两 (1–2), 三四 (3–4), 七八 (7–8), 二三十 (20–30), 四五十 (40–50). 三四杯 means 'three or four', never 34. The exact number doesn't matter — it gives a feeling: 七八分钟 by bike is close; 二三十分钟 by car is a comfortable commute; 四五十分钟 can easily become an hour."
+        },
+        {
+          "zh": "我每天学习一两个小时汉语。",
+          "py": "Wǒ měi tiān xuéxí yī-liǎng ge xiǎoshí Hànyǔ.",
+          "en": "I study Chinese one or two hours a day."
+        },
+        {
+          "zh": "你都喝了三四杯咖啡了，别再喝了！",
+          "py": "Nǐ dōu hēle sān-sì bēi kāfēi le, bié zài hē le!",
+          "en": "You've already had three or four coffees — stop!"
+        },
+        {
+          "zh": "骑车七八分钟，走路大概要二十分钟。",
+          "py": "Qí chē qī-bā fēnzhōng, zǒulù dàgài yào èrshí fēnzhōng.",
+          "en": "Seven or eight minutes by bike, about twenty on foot."
+        },
+        {
+          "zh": "开车二三十分钟，可以接受。",
+          "py": "Kāi chē èr-sānshí fēnzhōng, kěyǐ jiēshòu.",
+          "en": "Twenty or thirty minutes' drive is acceptable."
+        },
+        {
+          "zh": "附近有三四个车站，有很多选择。",
+          "py": "Fùjìn yǒu sān-sì ge chēzhàn, yǒu hěn duō xuǎnzé.",
+          "en": "Three or four stations nearby — lots of choice."
+        },
+        {
+          "zh": "4 · 谁起得早？ Comparing with 比",
+          "py": "",
+          "en": "Ask: A和B谁 + verb + 得 + adj? Answer with A比B + verb + 得 + adj, or say how much: A比B + 早起/晚起 + duration. Both directions work: if I get up 2 hours earlier, she gets up 2 hours later. Keep durations realistic (半个小时, 四十分钟)."
+        },
+        {
+          "zh": "你和妈妈谁起得早？",
+          "py": "Nǐ hé māma shéi qǐ de zǎo?",
+          "en": "Who gets up earlier, you or your mum?"
+        },
+        {
+          "zh": "我比她早起半个小时。",
+          "py": "Wǒ bǐ tā zǎo qǐ bàn ge xiǎoshí.",
+          "en": "I get up half an hour earlier than her."
+        },
+        {
+          "zh": "她比我晚起半个小时。",
+          "py": "Tā bǐ wǒ wǎn qǐ bàn ge xiǎoshí.",
+          "en": "She gets up half an hour later than me."
+        },
+        {
+          "zh": "5 · 来得多 / 来得少",
+          "py": "",
+          "en": "Comparing how many came: use 多 (more) and 少 (fewer). Not 小 — 小 means small (size). Today 9 students came, last Saturday 6."
+        },
+        {
+          "zh": "今天我们班来了九个学生。",
+          "py": "Jīntiān wǒmen bān lái le jiǔ ge xuésheng.",
+          "en": "Nine students came to our class today."
+        },
+        {
+          "zh": "上个星期六比今天来得少。",
+          "py": "Shàng ge xīngqīliù bǐ jīntiān lái de shǎo.",
+          "en": "Fewer came last Saturday than today."
+        },
+        {
+          "zh": "今天比上个星期六来得多。",
+          "py": "Jīntiān bǐ shàng ge xīngqīliù lái de duō.",
+          "en": "More came today than last Saturday."
+        },
+        {
+          "zh": "6 · 中荷文化 · China vs the Netherlands",
+          "py": "",
+          "en": "Chinese like 早睡早起 and meet early; Dutch weekend plans often start after twelve. Chinese put the time first in a sentence (今天我们…), Dutch often later. In the Netherlands calling someone 胖 is taboo. Chinese rarely describe people by hair colour — almost everyone has black hair — while Dutch descriptions (even police ones) often do: 黑头发、金头发、棕色头发."
+        },
+        {
+          "zh": "中国人喜欢早睡早起。",
+          "py": "Zhōngguórén xǐhuan zǎo shuì zǎo qǐ.",
+          "en": "Chinese people like to go to bed early and get up early."
+        },
+        {
+          "zh": "中国人大多是黑头发，所以很少说头发的颜色。",
+          "py": "Zhōngguórén dàduō shì hēi tóufa, suǒyǐ hěn shǎo shuō tóufa de yánsè.",
+          "en": "Most Chinese have black hair, so hair colour is rarely mentioned."
+        },
+        {
+          "zh": "作业 · Homework ideas",
+          "py": "",
+          "en": "1) Write 10 sentences with 我向…学…  2) 5 sentences with 一两/三四/七八/二三十 about commuting, study time, coffee, stations.  3) 5 pairs of 比 sentences in both directions (早起/晚起).  4) Learn 三人行，必有我师焉 by heart."
+        }
+      ]
+    },
+    {
       "topic": "课文1 · 1. 在教室 — In the classroom",
       "items": [
         {
@@ -454,6 +616,31 @@
           "zh": "向某人学习",
           "py": "xiàng mǒu rén xuéxí",
           "en": "to learn from someone"
+        },
+        {
+          "zh": "我向爸爸学吉他。",
+          "py": "Wǒ xiàng bàba xué jítā.",
+          "en": "I learn guitar from my dad."
+        },
+        {
+          "zh": "我向老师学数学。",
+          "py": "Wǒ xiàng lǎoshī xué shùxué.",
+          "en": "I learn maths from my teacher."
+        },
+        {
+          "zh": "我向他的妈妈学做饭。",
+          "py": "Wǒ xiàng tā de māma xué zuòfàn.",
+          "en": "I learn to cook from his mum."
+        },
+        {
+          "zh": "我小时候向妈妈学荷兰语。",
+          "py": "Wǒ xiǎoshíhou xiàng māma xué Hélányǔ.",
+          "en": "As a child I learned Dutch from my mum."
+        },
+        {
+          "zh": "我在小视频上学法语。",
+          "py": "Wǒ zài xiǎo shìpín shang xué Fǎyǔ.",
+          "en": "I learn French from short videos."
         }
       ]
     },
@@ -554,6 +741,71 @@
           "zh": "态度",
           "py": "tàidu",
           "en": "attitude"
+        },
+        {
+          "zh": "吉他",
+          "py": "jítā",
+          "en": "guitar"
+        },
+        {
+          "zh": "法语",
+          "py": "Fǎyǔ",
+          "en": "French (language)"
+        },
+        {
+          "zh": "视频",
+          "py": "shìpín",
+          "en": "video"
+        },
+        {
+          "zh": "选择",
+          "py": "xuǎnzé",
+          "en": "choice; to choose"
+        },
+        {
+          "zh": "距离",
+          "py": "jùlí",
+          "en": "distance"
+        },
+        {
+          "zh": "高矮",
+          "py": "gāo ǎi",
+          "en": "tall or short (height)"
+        },
+        {
+          "zh": "胖瘦",
+          "py": "pàng shòu",
+          "en": "fat or thin (build)"
+        },
+        {
+          "zh": "头发",
+          "py": "tóufa",
+          "en": "hair"
+        },
+        {
+          "zh": "颜色",
+          "py": "yánsè",
+          "en": "colour"
+        },
+        {
+          "zh": "金头发",
+          "py": "jīn tóufa",
+          "en": "blond hair"
+        },
+        {
+          "zh": "棕色",
+          "py": "zōngsè",
+          "en": "brown"
+        },
+        {
+          "zh": "肩膀",
+          "py": "jiānbǎng",
+          "en": "shoulder"
+        },
+        {
+          "zh": "早睡早起",
+          "py": "zǎo shuì zǎo qǐ",
+          "en": "early to bed, early to rise"
         }
       ]
     },
@@ -604,6 +856,16 @@
           "zh": "她比你晚起两个小时。",
           "py": "Tā bǐ nǐ wǎn qǐ liǎng ge xiǎoshí.",
           "en": "She gets up two hours later than you."
+        },
+        {
+          "zh": "我比孩子起得早。",
+          "py": "Wǒ bǐ háizi qǐ de zǎo.",
+          "en": "I get up earlier than the kids."
+        },
+        {
+          "zh": "家里起得早的人一般做早饭。",
+          "py": "Jiā li qǐ de zǎo de rén yìbān zuò zǎofàn.",
+          "en": "Whoever gets up first at home usually makes breakfast."
         }
       ]
     },
@@ -654,6 +916,11 @@
           "zh": "我数学考得不好。",
           "py": "Wǒ shùxué kǎo de bù hǎo.",
           "en": "I did badly on the maths exam."
+        },
+        {
+          "zh": "来得少，不是来得小。",
+          "py": "Lái de shǎo, bú shì lái de xiǎo.",
+          "en": "少 = fewer/less; 小 = small (don't mix them up)."
         }
       ]
     },
@@ -699,6 +966,21 @@
           "zh": "意思是：大概的数量，不是准确的数字。",
           "py": "Yìsi shì: dàgài de shùliàng, bú shì zhǔnquè de shùzì.",
           "en": "It means: a rough amount, not an exact number."
+        },
+        {
+          "zh": "骑车七八分钟，走路大概要二十分钟。",
+          "py": "Qí chē qī-bā fēnzhōng, zǒulù dàgài yào èrshí fēnzhōng.",
+          "en": "Seven or eight minutes by bike, about twenty minutes on foot."
+        },
+        {
+          "zh": "开车一个小时，很费时间。",
+          "py": "Kāi chē yí ge xiǎoshí, hěn fèi shíjiān.",
+          "en": "Driving an hour takes a lot of time."
+        },
+        {
+          "zh": "附近有三四个车站，有很多选择。",
+          "py": "Fùjìn yǒu sān-sì ge chēzhàn, yǒu hěn duō xuǎnzé.",
+          "en": "There are three or four stations nearby, so lots of choice."
         }
       ]
     },
@@ -734,6 +1016,11 @@
           "zh": "谦虚 + 观察 + 学习",
           "py": "qiānxū + guānchá + xuéxí",
           "en": "humble + observe + learn"
+        },
+        {
+          "zh": "千里之行，始于足下。",
+          "py": "Qiān lǐ zhī xíng, shǐ yú zú xià.",
+          "en": "A journey of a thousand miles begins with a single step."
         }
       ]
     },
@@ -759,6 +1046,21 @@
           "zh": "荷兰人周末常常十二点以后才见面。",
           "py": "Hélánrén zhōumò chángcháng shí'èr diǎn yǐhòu cái jiànmiàn.",
           "en": "Dutch people often only meet after twelve at weekends."
+        },
+        {
+          "zh": "中国人喜欢把时间放在句子前面：今天我们去学校。",
+          "py": "Zhōngguórén xǐhuan bǎ shíjiān fàng zài jùzi qiánmiàn: jīntiān wǒmen qù xuéxiào.",
+          "en": "Chinese like to put the time at the front: 'Today we go to school.'"
+        },
+        {
+          "zh": "荷兰人描述别人时常常说头发的颜色：黑头发、金头发、棕色头发。",
+          "py": "Hélánrén miáoshù biérén shí chángcháng shuō tóufa de yánsè: hēi tóufa, jīn tóufa, zōngsè tóufa.",
+          "en": "Dutch people often mention hair colour when describing someone: black, blond, brown."
+        },
+        {
+          "zh": "说别人的妈妈，要说清楚是谁的妈妈。",
+          "py": "Shuō biérén de māma, yào shuō qīngchu shì shéi de māma.",
+          "en": "When you mean someone else's mum, say clearly whose mum."
         }
       ]
     }
