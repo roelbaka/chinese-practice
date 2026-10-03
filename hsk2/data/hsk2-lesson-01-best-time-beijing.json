@@ -3,6 +3,193 @@
   "subtitle": "HSK 2 · Lesson 1 — 九月去北京旅游最好 · September is the best time to visit Beijing",
   "data": [
     {
+      "topic": "课上要点 · Class notes (Lesson 1)",
+      "classNotesFirst": true,
+      "browseOnly": true,
+      "items": [
+        {
+          "zh": "总览 · What this class was about",
+          "py": "",
+          "en": "Warm-up and review (numbers, 吃了吗, time, jobs and retirement, what you did last week, comparing temperatures), then Lesson 1 九月去北京旅游最好: why September is the best time for Beijing, when to visit the Netherlands, the new words with their radicals (猫, 眼睛), and a long list of sports. Each topic has a short explanation and example sentences; the practice tabs hold the same material for flashcards, quiz and fill-in."
+        },
+        {
+          "zh": "1 · 晚点 vs 迟到",
+          "py": "",
+          "en": "晚点 is for schedules — a plane or train is delayed. 迟到 is for people — you arrive late for class or work."
+        },
+        {
+          "zh": "从东京来的飞机到了吗？——不知道，晚点了。",
+          "py": "Cóng Dōngjīng lái de fēijī dàole ma? — Bù zhīdào, wǎndiǎn le.",
+          "en": "Has the plane from Tokyo arrived? — I don't know, it's delayed."
+        },
+        {
+          "zh": "我上课迟到了。",
+          "py": "Wǒ shàngkè chídào le.",
+          "en": "I was late for class."
+        },
+        {
+          "zh": "2 · 现在几点？",
+          "py": "",
+          "en": "Telling the time: 一点 = 1:00, 一点五分 = 1:05, 一点八分 = 1:08. Careful: 一点 also means 'a little' (快一点 = a bit faster, 少一点儿 = a bit less)."
+        },
+        {
+          "zh": "现在一点八分。",
+          "py": "Xiànzài yì diǎn bā fēn.",
+          "en": "It's eight minutes past one."
+        },
+        {
+          "zh": "少一点儿。",
+          "py": "Shǎo yìdiǎnr.",
+          "en": "A little less."
+        },
+        {
+          "zh": "3 · 七八岁 vs 七十八岁 · 退休",
+          "py": "",
+          "en": "七八岁 = about seven or eight (an estimate, Lesson 1 grammar); 七十八岁 = 78. Retirement (退休): in the Netherlands around 67–68; in China women traditionally at 55, men at 60."
+        },
+        {
+          "zh": "你妈妈做什么工作？——她退休了。",
+          "py": "Nǐ māma zuò shénme gōngzuò? — Tā tuìxiū le.",
+          "en": "What does your mother do? — She's retired."
+        },
+        {
+          "zh": "在荷兰，六十七、六十八岁退休。",
+          "py": "Zài Hélán, liùshíqī, liùshíbā suì tuìxiū.",
+          "en": "In the Netherlands people retire at 67 or 68."
+        },
+        {
+          "zh": "在中国，女的五十五岁退休。",
+          "py": "Zài Zhōngguó, nǚ de wǔshíwǔ suì tuìxiū.",
+          "en": "In China women retire at 55."
+        },
+        {
+          "zh": "我的外祖母七十三岁了，还在工作。",
+          "py": "Wǒ de wàizǔmǔ qīshísān suì le, hái zài gōngzuò.",
+          "en": "My grandmother is 73 and still working."
+        },
+        {
+          "zh": "4 · 什么都没… / 哪儿都没… / 谁都不…",
+          "py": "",
+          "en": "Question word + 都 + 没/不 = nothing / nowhere / nobody. Use 没 for the past (last week), 不 for habits or plans (this holiday, in general)."
+        },
+        {
+          "zh": "你们上个星期做了什么？——我感冒了，什么都没做。",
+          "py": "Nǐmen shàng ge xīngqī zuòle shénme? — Wǒ gǎnmào le, shénme dōu méi zuò.",
+          "en": "What did you do last week? — I had a cold, I did nothing."
+        },
+        {
+          "zh": "我什么都没吃。",
+          "py": "Wǒ shénme dōu méi chī.",
+          "en": "I didn't eat anything."
+        },
+        {
+          "zh": "我上个星期哪儿都没去。",
+          "py": "Wǒ shàng ge xīngqī nǎr dōu méi qù.",
+          "en": "I didn't go anywhere last week."
+        },
+        {
+          "zh": "秋假我哪儿都不去。",
+          "py": "Qiūjià wǒ nǎr dōu bú qù.",
+          "en": "I'm not going anywhere in the autumn break."
+        },
+        {
+          "zh": "我谁都不认识。",
+          "py": "Wǒ shéi dōu bú rènshi.",
+          "en": "I don't know anybody."
+        },
+        {
+          "zh": "5 · 比 + 高多少度？",
+          "py": "",
+          "en": "Comparing temperatures: A 比 B 高/低 + number + 度. Don't forget the detail — how many degrees."
+        },
+        {
+          "zh": "上个星期六比这个星期六高多少度？",
+          "py": "Shàng ge xīngqīliù bǐ zhège xīngqīliù gāo duōshao dù?",
+          "en": "How many degrees warmer was last Saturday than this Saturday?"
+        },
+        {
+          "zh": "上个星期六的温度比这个星期六高三度。",
+          "py": "Shàng ge xīngqīliù de wēndù bǐ zhège xīngqīliù gāo sān dù.",
+          "en": "Last Saturday was three degrees warmer than this Saturday."
+        },
+        {
+          "zh": "6 · 九月去北京旅游最好 — why?",
+          "py": "",
+          "en": "When you choose when to travel, think of: 天气 (weather), 价格 (price), 人多不多 (crowds) and 食物 (food). September in Beijing: not cold, not hot; not busy; cheaper tickets."
+        },
+        {
+          "zh": "九月北京天气很好，不冷也不热。",
+          "py": "Jiǔ yuè Běijīng tiānqì hěn hǎo, bù lěng yě bú rè.",
+          "en": "In September the weather in Beijing is good — not cold, not hot."
+        },
+        {
+          "zh": "九月人不多，机票更便宜。",
+          "py": "Jiǔ yuè rén bù duō, jīpiào gèng piányi.",
+          "en": "In September there are fewer people and flights are cheaper."
+        },
+        {
+          "zh": "7 · 什么时候来荷兰最好？",
+          "py": "",
+          "en": "Your Chinese friend asks when to visit the Netherlands. The class said April: spring, lots of flowers, good weather, fresh fish."
+        },
+        {
+          "zh": "你什么时候来荷兰最好？——四月。",
+          "py": "Nǐ shénme shíhou lái Hélán zuì hǎo? — Sì yuè.",
+          "en": "When is the best time to come to the Netherlands? — April."
+        },
+        {
+          "zh": "四月是春天，有很多花，可以看花。",
+          "py": "Sì yuè shì chūntiān, yǒu hěn duō huā, kěyǐ kàn huā.",
+          "en": "April is spring; there are lots of flowers to see."
+        },
+        {
+          "zh": "还可以吃新鲜的鱼。",
+          "py": "Hái kěyǐ chī xīnxiān de yú.",
+          "en": "And you can eat fresh fish."
+        },
+        {
+          "zh": "8 · Radicals: 犭 and 目 / 日",
+          "py": "",
+          "en": "猫 and 狗 have the animal radical 犭. 眼睛 has 目 (eye) on the left; 晴 (clear, 晴天) has the same right side but 日 (sun). Measure words: 两只猫, 三只狗; a pair is 一双: 一双眼睛, 一双手 (but 一只手), 一双鞋, 一双袜子."
+        },
+        {
+          "zh": "这儿有两只猫。",
+          "py": "Zhèr yǒu liǎng zhī māo.",
+          "en": "There are two cats here."
+        },
+        {
+          "zh": "它有一双漂亮的眼睛。",
+          "py": "Tā yǒu yì shuāng piàoliang de yǎnjing.",
+          "en": "It has a pair of beautiful eyes."
+        },
+        {
+          "zh": "今天是晴天。",
+          "py": "Jīntiān shì qíngtiān.",
+          "en": "It's a sunny day today."
+        },
+        {
+          "zh": "9 · 运动 · Sports",
+          "py": "",
+          "en": "踢 is for football; 打 for ball games with hands or rackets (篮球, 排球, 乒乓球, 羽毛球, 台球); other sports have their own verb or none. The best-known Dutch footballer in China: 范佩西 (Van Persie)."
+        },
+        {
+          "zh": "他在踢足球。",
+          "py": "Tā zài tī zúqiú.",
+          "en": "He's playing football."
+        },
+        {
+          "zh": "荷兰最有名的足球运动员是谁？",
+          "py": "Hélán zuì yǒumíng de zúqiú yùndòngyuán shì shéi?",
+          "en": "Who is the most famous Dutch footballer?"
+        },
+        {
+          "zh": "你们知道哪些运动？",
+          "py": "Nǐmen zhīdào nǎxiē yùndòng?",
+          "en": "Which sports do you know?"
+        }
+      ]
+    },
+    {
       "topic": "课文1 · 1. 在学校 — In the school",
       "items": [
         {
@@ -299,6 +486,456 @@
           "zh": "花花多大了？",
           "py": "Huāhua duō dà le?",
           "en": "How old is Huahua?"
+        }
+      ]
+    },
+    {
+      "topic": "词汇 · Extra Words (Class discussion)",
+      "items": [
+        {
+          "zh": "晚点",
+          "py": "wǎndiǎn",
+          "en": "delayed (plane, train)"
+        },
+        {
+          "zh": "迟到",
+          "py": "chídào",
+          "en": "to be late (person)"
+        },
+        {
+          "zh": "退休",
+          "py": "tuìxiū",
+          "en": "to retire"
+        },
+        {
+          "zh": "感冒",
+          "py": "gǎnmào",
+          "en": "to have a cold"
+        },
+        {
+          "zh": "温度",
+          "py": "wēndù",
+          "en": "temperature"
+        },
+        {
+          "zh": "度",
+          "py": "dù",
+          "en": "degree"
+        },
+        {
+          "zh": "拉面",
+          "py": "lāmiàn",
+          "en": "ramen, pulled noodles"
+        },
+        {
+          "zh": "牛肉面",
+          "py": "niúròu miàn",
+          "en": "beef noodles"
+        },
+        {
+          "zh": "东京",
+          "py": "Dōngjīng",
+          "en": "Tokyo"
+        },
+        {
+          "zh": "价格",
+          "py": "jiàgé",
+          "en": "price"
+        },
+        {
+          "zh": "机票",
+          "py": "jīpiào",
+          "en": "plane ticket"
+        },
+        {
+          "zh": "便宜",
+          "py": "piányi",
+          "en": "cheap"
+        },
+        {
+          "zh": "新鲜",
+          "py": "xīnxiān",
+          "en": "fresh"
+        },
+        {
+          "zh": "食物",
+          "py": "shíwù",
+          "en": "food"
+        },
+        {
+          "zh": "春天",
+          "py": "chūntiān",
+          "en": "spring"
+        },
+        {
+          "zh": "花",
+          "py": "huā",
+          "en": "flower"
+        },
+        {
+          "zh": "秋假",
+          "py": "qiūjià",
+          "en": "autumn break"
+        },
+        {
+          "zh": "只",
+          "py": "zhī",
+          "en": "measure word for animals; one of a pair"
+        },
+        {
+          "zh": "双",
+          "py": "shuāng",
+          "en": "pair"
+        },
+        {
+          "zh": "鞋",
+          "py": "xié",
+          "en": "shoe"
+        },
+        {
+          "zh": "袜子",
+          "py": "wàzi",
+          "en": "sock"
+        },
+        {
+          "zh": "晴天",
+          "py": "qíngtiān",
+          "en": "sunny day"
+        },
+        {
+          "zh": "运动员",
+          "py": "yùndòngyuán",
+          "en": "athlete"
+        },
+        {
+          "zh": "有名",
+          "py": "yǒumíng",
+          "en": "famous"
+        },
+        {
+          "zh": "拳",
+          "py": "quán",
+          "en": "fist"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (什么都没 / 哪儿都没 / 谁都不)",
+      "items": [
+        {
+          "zh": "你们上个星期做了什么？",
+          "py": "Nǐmen shàng ge xīngqī zuòle shénme?",
+          "en": "What did you do last week?"
+        },
+        {
+          "zh": "我感冒了。",
+          "py": "Wǒ gǎnmào le.",
+          "en": "I had a cold."
+        },
+        {
+          "zh": "我什么都没做。",
+          "py": "Wǒ shénme dōu méi zuò.",
+          "en": "I didn't do anything."
+        },
+        {
+          "zh": "我什么都没吃。",
+          "py": "Wǒ shénme dōu méi chī.",
+          "en": "I didn't eat anything."
+        },
+        {
+          "zh": "你上个星期去哪儿了？——哪儿都没去。",
+          "py": "Nǐ shàng ge xīngqī qù nǎr le? — Nǎr dōu méi qù.",
+          "en": "Where did you go last week? — Nowhere."
+        },
+        {
+          "zh": "秋假你们去哪儿旅游？——哪儿都不去。",
+          "py": "Qiūjià nǐmen qù nǎr lǚyóu? — Nǎr dōu bú qù.",
+          "en": "Where are you travelling in the autumn break? — Nowhere."
+        },
+        {
+          "zh": "我谁都不认识。",
+          "py": "Wǒ shéi dōu bú rènshi.",
+          "en": "I don't know anyone."
+        },
+        {
+          "zh": "我做了作业。",
+          "py": "Wǒ zuòle zuòyè.",
+          "en": "I did my homework."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Warm-up questions)",
+      "items": [
+        {
+          "zh": "你吃了吗？——我吃了拉面。",
+          "py": "Nǐ chīle ma? — Wǒ chīle lāmiàn.",
+          "en": "Have you eaten? — I had ramen."
+        },
+        {
+          "zh": "我今天吃牛肉面。",
+          "py": "Wǒ jīntiān chī niúròu miàn.",
+          "en": "I'm having beef noodles today."
+        },
+        {
+          "zh": "你哥哥呢？——他在东京。",
+          "py": "Nǐ gēge ne? — Tā zài Dōngjīng.",
+          "en": "And your brother? — He's in Tokyo."
+        },
+        {
+          "zh": "他们在打乒乓球。",
+          "py": "Tāmen zài dǎ pīngpāngqiú.",
+          "en": "They're playing table tennis."
+        },
+        {
+          "zh": "从东京来的飞机到了吗？",
+          "py": "Cóng Dōngjīng lái de fēijī dàole ma?",
+          "en": "Has the plane from Tokyo arrived?"
+        },
+        {
+          "zh": "飞机晚点了。",
+          "py": "Fēijī wǎndiǎn le.",
+          "en": "The plane is delayed."
+        },
+        {
+          "zh": "现在几点？——现在一点五分。",
+          "py": "Xiànzài jǐ diǎn? — Xiànzài yì diǎn wǔ fēn.",
+          "en": "What time is it? — Five past one."
+        },
+        {
+          "zh": "你妈妈做什么工作？",
+          "py": "Nǐ māma zuò shénme gōngzuò?",
+          "en": "What does your mother do?"
+        },
+        {
+          "zh": "她七十八岁，退休了。",
+          "py": "Tā qīshíbā suì, tuìxiū le.",
+          "en": "She's 78 and retired."
+        },
+        {
+          "zh": "上个星期六比这个星期六高三度。",
+          "py": "Shàng ge xīngqīliù bǐ zhège xīngqīliù gāo sān dù.",
+          "en": "Last Saturday was three degrees warmer than this Saturday."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (什么时候去……最好？)",
+      "items": [
+        {
+          "zh": "九月去北京旅游最好。",
+          "py": "Jiǔ yuè qù Běijīng lǚyóu zuì hǎo.",
+          "en": "September is the best time to visit Beijing."
+        },
+        {
+          "zh": "九月北京不冷也不热。",
+          "py": "Jiǔ yuè Běijīng bù lěng yě bú rè.",
+          "en": "Beijing is neither cold nor hot in September."
+        },
+        {
+          "zh": "九月不忙，人不多。",
+          "py": "Jiǔ yuè bù máng, rén bù duō.",
+          "en": "September isn't busy; there aren't many people."
+        },
+        {
+          "zh": "九月机票更便宜。",
+          "py": "Jiǔ yuè jīpiào gèng piányi.",
+          "en": "Plane tickets are cheaper in September."
+        },
+        {
+          "zh": "什么时候来荷兰最好？",
+          "py": "Shénme shíhou lái Hélán zuì hǎo?",
+          "en": "When is the best time to come to the Netherlands?"
+        },
+        {
+          "zh": "四月来荷兰最好，有很多花。",
+          "py": "Sì yuè lái Hélán zuì hǎo, yǒu hěn duō huā.",
+          "en": "April is best — lots of flowers."
+        },
+        {
+          "zh": "春天可以吃新鲜的鱼。",
+          "py": "Chūntiān kěyǐ chī xīnxiān de yú.",
+          "en": "In spring you can eat fresh fish."
+        },
+        {
+          "zh": "你们最想去哪儿旅游？——去中国。",
+          "py": "Nǐmen zuì xiǎng qù nǎr lǚyóu? — Qù Zhōngguó.",
+          "en": "Where would you most like to travel? — China."
+        },
+        {
+          "zh": "去北京天安门旅游。",
+          "py": "Qù Běijīng Tiān'ānmén lǚyóu.",
+          "en": "Visit Tian'anmen in Beijing."
+        },
+        {
+          "zh": "北京烤鸭什么时候都可以吃。",
+          "py": "Běijīng kǎoyā shénme shíhou dōu kěyǐ chī.",
+          "en": "You can eat Peking duck any time."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (量词 只 / 双, radicals)",
+      "items": [
+        {
+          "zh": "两只猫",
+          "py": "liǎng zhī māo",
+          "en": "two cats"
+        },
+        {
+          "zh": "三只狗",
+          "py": "sān zhī gǒu",
+          "en": "three dogs"
+        },
+        {
+          "zh": "一双眼睛",
+          "py": "yì shuāng yǎnjing",
+          "en": "a pair of eyes"
+        },
+        {
+          "zh": "一双手",
+          "py": "yì shuāng shǒu",
+          "en": "a pair of hands"
+        },
+        {
+          "zh": "一只手",
+          "py": "yì zhī shǒu",
+          "en": "one hand"
+        },
+        {
+          "zh": "一双鞋",
+          "py": "yì shuāng xié",
+          "en": "a pair of shoes"
+        },
+        {
+          "zh": "一双袜子",
+          "py": "yì shuāng wàzi",
+          "en": "a pair of socks"
+        },
+        {
+          "zh": "晴天",
+          "py": "qíngtiān",
+          "en": "sunny day (日 + 青)"
+        },
+        {
+          "zh": "眼睛",
+          "py": "yǎnjing",
+          "en": "eye (目 + 青)"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (运动 Sports)",
+      "items": [
+        {
+          "zh": "踢足球",
+          "py": "tī zúqiú",
+          "en": "to play football"
+        },
+        {
+          "zh": "打篮球",
+          "py": "dǎ lánqiú",
+          "en": "to play basketball"
+        },
+        {
+          "zh": "打排球",
+          "py": "dǎ páiqiú",
+          "en": "to play volleyball"
+        },
+        {
+          "zh": "打乒乓球",
+          "py": "dǎ pīngpāngqiú",
+          "en": "to play table tennis"
+        },
+        {
+          "zh": "打羽毛球",
+          "py": "dǎ yǔmáoqiú",
+          "en": "to play badminton"
+        },
+        {
+          "zh": "打壁球",
+          "py": "dǎ bìqiú",
+          "en": "to play squash"
+        },
+        {
+          "zh": "打台球",
+          "py": "dǎ táiqiú",
+          "en": "to play billiards"
+        },
+        {
+          "zh": "游泳",
+          "py": "yóu yǒng",
+          "en": "to swim"
+        },
+        {
+          "zh": "跑步",
+          "py": "pǎo bù",
+          "en": "to run"
+        },
+        {
+          "zh": "瑜伽",
+          "py": "yújiā",
+          "en": "yoga"
+        },
+        {
+          "zh": "滑冰",
+          "py": "huá bīng",
+          "en": "to ice-skate"
+        },
+        {
+          "zh": "滑雪",
+          "py": "huá xuě",
+          "en": "to ski"
+        },
+        {
+          "zh": "攀岩",
+          "py": "pānyán",
+          "en": "rock climbing, bouldering"
+        },
+        {
+          "zh": "撑杆跳",
+          "py": "chēnggān tiào",
+          "en": "pole vault"
+        },
+        {
+          "zh": "跆拳道",
+          "py": "táiquándào",
+          "en": "taekwondo"
+        },
+        {
+          "zh": "太极拳",
+          "py": "tàijíquán",
+          "en": "tai chi"
+        },
+        {
+          "zh": "我玩过台球。",
+          "py": "Wǒ wánguo táiqiú.",
+          "en": "I've played billiards."
+        }
+      ]
+    },
+    {
+      "topic": "文化 · Culture (中荷差异 China vs Netherlands)",
+      "items": [
+        {
+          "zh": "中国女的一般五十五岁退休，男的六十岁。",
+          "py": "Zhōngguó nǚ de yìbān wǔshíwǔ suì tuìxiū, nán de liùshí suì.",
+          "en": "In China women usually retire at 55, men at 60."
+        },
+        {
+          "zh": "荷兰人六十七、六十八岁退休。",
+          "py": "Hélánrén liùshíqī, liùshíbā suì tuìxiū.",
+          "en": "Dutch people retire at 67 or 68."
+        },
+        {
+          "zh": "中国很多人知道范佩西。",
+          "py": "Zhōngguó hěn duō rén zhīdào Fàn Pèixī.",
+          "en": "Many people in China know Van Persie."
+        },
+        {
+          "zh": "十月有秋假。",
+          "py": "Shí yuè yǒu qiūjià.",
+          "en": "There's an autumn break in October."
         }
       ]
     }
