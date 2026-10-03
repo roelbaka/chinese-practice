@@ -23,6 +23,7 @@
     /* names nav.js reads for the site menu */
     --bg: var(--paper); --card: var(--sheet); --card-hover: #f1ebdf;
     --text: var(--ink); --text-muted: var(--ink-faint); --border: var(--rule); --accent: var(--red);
+    --menu-font: "Source Serif 4", "Noto Serif SC", Georgia, serif;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -117,6 +118,33 @@
 
   .msg { color: var(--ink-faint); font-style: italic; padding: 2rem 0; }
 
+  /* Wide screens: a sticky table of contents on the left instead of empty margins. */
+  .toc { display: none; }
+  .lesson { scroll-margin-top: 1.5rem; }
+  @media (min-width: 1100px) {
+    .layout { display: grid; grid-template-columns: 17rem minmax(0, 820px); gap: 3.5rem; justify-content: center; padding: 0 2rem; }
+    .layout header, .layout main { max-width: none; margin: 0; padding-left: 0; padding-right: 0; }
+    .tracks { display: none; }
+    .toc {
+      display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto;
+      padding: 5.5rem 0 2rem; scrollbar-width: thin;
+    }
+    .toc .t-btn {
+      display: block; width: 100%; text-align: left; font: inherit; font-size: .92rem; cursor: pointer;
+      background: none; border: 0; color: var(--ink-soft); padding: .35rem .7rem; border-radius: 8px;
+    }
+    .toc .t-btn:hover { background: var(--card-hover); color: var(--ink); }
+    .toc .t-btn.on { background: var(--ink); color: var(--paper); }
+    .toc .t-btn .zh { margin-right: .3rem; }
+    .toc .group { margin: .2rem 0 .8rem .7rem; padding-left: .7rem; border-left: 1px solid var(--rule); }
+    .toc .group a {
+      display: block; text-decoration: none; color: var(--ink-faint); font-size: .85rem; padding: .2rem 0; line-height: 1.35;
+    }
+    .toc .group a:hover, .toc .group a.here { color: var(--red); }
+    .toc .group a b { font-weight: 600; color: var(--ink-soft); margin-right: .3rem; }
+    .toc .group a.here b { color: var(--red); }
+  }
+
   @media (max-width: 640px) {
     header { padding: 4rem 1rem 1rem; }
     header h1 { font-size: 1.8rem; }
@@ -130,6 +158,9 @@
 </head>
 <body>
 
+<div class="layout">
+<aside class="toc" id="toc" aria-label="Lessons"></aside>
+<div>
 <header>
   <div class="kicker">练习中文 · Notebook</div>
   <h1><span class="zh">课堂笔记</span>Class Journal</h1>
@@ -139,6 +170,8 @@
 <nav class="tracks"><div class="tracks-inner" id="tracks"></div></nav>
 
 <main id="journal"><p class="msg">Loading your class notes…</p></main>
+</div>
+</div>
 
 <script src="../nav.js"></script>
 <script>
@@ -227,7 +260,7 @@ function renderLesson(l) {
   blocks.forEach(b => {
     body += b.type === "part" ? `<div class="part">${esc(b.title)}</div>` : renderTopic(l, b, false);
   });
-  return `<article class="lesson">
+  return `<article class="lesson" id="${esc(l.dir + "-" + l.num)}">
     <div class="margin"><span class="cls">${esc(CLASS_NAMES[l.dir])}</span><span class="num">Les ${l.num}</span>${date ? `<span class="date">${esc(date)}</span>` : ""}</div>
     <div>
       <h3><a class="zh" href="../${l.dir}/lesson.html?id=${encodeURIComponent(l.id)}#notes">${esc(title)}</a></h3>
@@ -255,12 +288,38 @@ function render() {
     if (!lessons.length) return "";
     return `<section class="track"><h2>${t.zh} · ${esc(t.en)}</h2>${lessons.map(renderLesson).join("")}</section>`;
   }).join("");
+  // Sidebar (wide screens): the same track filter, with each track's lessons as jump links.
+  document.getElementById("toc").innerHTML =
+    `<button class="t-btn ${current === "all" ? "on" : ""}" data-t="all">All lessons</button>` +
+    TRACKS.map(t => {
+      const lessons = ALL.filter(l => t.dirs.includes(l.dir)).sort((a, b) => b.num - a.num);
+      return `<button class="t-btn ${current === t.key ? "on" : ""}" data-t="${t.key}"><span class="zh">${t.zh}</span>${esc(t.en)}</button>` +
+        (lessons.length && (current === "all" || current === t.key)
+          ? `<div class="group">${lessons.map(l => `<a href="#${esc(l.dir + "-" + l.num)}"><b>${esc(CLASS_NAMES[l.dir])} ${l.num}</b><span class="zh">${esc(l.title.replace(/^第[^·]+·\s*/, ""))}</span></a>`).join("")}</div>`
+          : "");
+    }).join("");
+  document.querySelectorAll("#toc .t-btn").forEach(b => b.addEventListener("click", () => {
+    current = b.dataset.t;
+    try { localStorage.setItem("journalTrack", current); } catch (e) {}
+    render();
+  }));
+
   const main = document.getElementById("journal");
   main.innerHTML = html || `<p class="msg">No class notes in this track yet.</p>`;
 
   main.querySelectorAll(".note > button").forEach(b => b.addEventListener("click", () => b.parentElement.classList.toggle("open")));
+  watchLessons();
   main.querySelectorAll(".say").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); say(b.dataset.zh); }));
 }
+
+// Mark the lesson you're reading in the sidebar.
+const spy = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    document.querySelectorAll("#toc .group a").forEach(a => a.classList.toggle("here", a.getAttribute("href") === "#" + e.target.id));
+  });
+}, { rootMargin: "-20% 0px -70% 0px" });
+function watchLessons() { spy.disconnect(); document.querySelectorAll(".lesson").forEach(el => spy.observe(el)); }
 
 function say(text) {
   if (!window.speechSynthesis) return;

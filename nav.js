@@ -108,15 +108,16 @@
     .snav-btn {
       position: fixed; top: .75rem; left: .75rem; z-index: 1000;
       width: 44px; height: 44px; border-radius: 10px; cursor: pointer;
-      background: rgba(26,26,46,.85); border: 1px solid var(--border, #2a2a4a);
+      background: var(--card, #1a1a2e); border: 1px solid var(--border, #2a2a4a);
+      box-shadow: 0 1px 3px rgba(0,0,0,.12);
       display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px;
     }
     .snav-btn span { display: block; width: 20px; height: 2px; border-radius: 2px; background: var(--text, #eee); }
-    .snav-btn:hover { border-color: var(--accent, #e94560); }
+    .snav-btn:hover { border-color: var(--accent, #e94560); background: var(--card-hover, #222244); }
     .snav {
       position: fixed; inset: 0; z-index: 1001; background: var(--bg, #0f0f0f); color: var(--text, #eee);
       display: flex; flex-direction: column; opacity: 0; visibility: hidden; transition: opacity .2s, visibility .2s;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif;
+      font-family: var(--menu-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif);
     }
     .snav.open { opacity: 1; visibility: visible; }
     .snav-top {
@@ -140,7 +141,7 @@
     .snav-class { border: 1px solid var(--border, #2a2a4a); border-radius: 12px; margin-bottom: .75rem; overflow: hidden; }
     .snav-head {
       width: 100%; display: flex; align-items: center; gap: .6rem; padding: 1rem 1.1rem; cursor: pointer;
-      background: var(--card, #1a1a2e); color: var(--text, #eee); border: 0; font-size: 1.1rem; text-align: left;
+      background: var(--card, #1a1a2e); color: var(--text, #eee); border: 0; font-family: inherit; font-size: 1.1rem; text-align: left;
     }
     .snav-head:hover { background: var(--card-hover, #222244); }
     .snav-head .en { color: var(--text-muted, #999); font-size: .9rem; }
