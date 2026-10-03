@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chinese Practice — HSK 2</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --card: #1a1a2e;
+    --card-hover: #222244;
+    --accent: #e94560;
+    --accent2: #0f3460;
+    --text: #eee;
+    --text-muted: #999;
+    --pinyin: #f0c040;
+    --english: #80d0ff;
+    --success: #4caf50;
+    --border: #2a2a4a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  header {
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  }
+
+  header h1 { font-size: 2rem; font-weight: 300; letter-spacing: 2px; }
+  header h1 span { color: var(--accent); font-weight: 600; }
+  header p { color: var(--text-muted); margin-top: .4rem; font-size: .95rem; }
+
+  nav { padding: .8rem 1rem; background: #111; border-bottom: 1px solid var(--border); }
+
+  .nav-row { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; }
+  .nav-row + .nav-row { margin-top: .6rem; }
+  .nav-row:empty { display: none; }
+
+  nav button {
+    background: var(--card); color: var(--text); border: 1px solid var(--border);
+    padding: .45rem 1rem; border-radius: 999px; cursor: pointer; font-size: .85rem; transition: all .2s;
+    white-space: nowrap; flex-shrink: 0;
+  }
+
+  nav button:hover { background: var(--card-hover); border-color: var(--accent); }
+  nav button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  nav button .count { color: var(--text-muted); font-size: .75rem; margin-left: .3rem; }
+  nav button.active .count { color: rgba(255,255,255,.8); }
+
+  #subNav button { font-size: .78rem; padding: .3rem .8rem; max-width: 22rem; overflow: hidden; text-overflow: ellipsis; }
+  #subNav button.active { background: transparent; color: var(--accent); }
+
+  .mode-bar { display: flex; justify-content: center; gap: .5rem; padding: .8rem 1rem 0; background: #111; }
+
+  .mode-bar button {
+    background: transparent; color: var(--text-muted); border: 1px solid var(--border);
+    padding: .4rem 1.2rem; border-radius: 6px; cursor: pointer; font-size: .85rem; transition: all .2s;
+  }
+
+  .mode-bar button:hover { color: var(--text); }
+  .mode-bar button.active { background: var(--accent2); color: #fff; border-color: var(--accent2); }
+
+  main { max-width: 900px; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+
+  .card-grid { display: flex; flex-direction: column; gap: .75rem; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 1.2rem 1.4rem; cursor: pointer; transition: all .25s; position: relative;
+  }
+
+  .card:hover { background: var(--card-hover); transform: translateX(4px); }
+  .card .chinese { font-size: 1.55rem; margin-bottom: .35rem; line-height: 1.4; }
+  .card .pinyin { color: var(--pinyin); font-size: .95rem; margin-bottom: .25rem; transition: opacity .3s; }
+  .card .english { color: var(--english); font-size: .9rem; transition: opacity .3s; }
+  .card.hide-pinyin .pinyin { opacity: 0; }
+  .card.hide-english .english { opacity: 0; }
+  .card.reveal .pinyin, .card.reveal .english { opacity: 1 !important; }
+
+  .card .speaker-icon {
+    position: absolute; top: 1rem; right: 1rem; background: none; border: 1px solid var(--border);
+    color: var(--text-muted); width: 32px; height: 32px; border-radius: 50%; cursor: pointer;
+    font-size: .75rem; display: flex; align-items: center; justify-content: center; transition: all .2s;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .card .speaker-icon:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  .flashcard-container { text-align: center; padding: 2rem 0; }
+
+  .flashcard {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 3rem 2rem; max-width: 500px; margin: 0 auto; cursor: pointer; transition: all .3s;
+    min-height: 220px; display: flex; flex-direction: column; justify-content: center; align-items: center;
+  }
+
+  .flashcard:hover { border-color: var(--accent); }
+  .flashcard .chinese { font-size: 2.2rem; margin-bottom: .5rem; }
+  .flashcard .pinyin { color: var(--pinyin); font-size: 1.1rem; margin-bottom: .3rem; }
+  .flashcard .english { color: var(--english); font-size: 1rem; }
+  .flashcard .hidden { opacity: 0; }
+  .flashcard .hint { color: var(--text-muted); font-size: .8rem; margin-top: 1rem; }
+
+  .fc-mode-bar {
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+    margin-bottom: 1.2rem;
+  }
+  .fc-mode-bar .fc-mode-label { color: var(--text-muted); font-size: .85rem; margin-right: .3rem; }
+  .fc-mode-bar button {
+    background: var(--card); color: var(--text-muted); border: 1px solid var(--border);
+    padding: .4rem 1rem; border-radius: 6px; cursor: pointer; font-size: .85rem; transition: all .2s;
+  }
+  .fc-mode-bar button:hover { color: var(--text); border-color: var(--accent); }
+  .fc-mode-bar button.active { background: var(--accent2); color: #fff; border-color: var(--accent2); }
+
+  .fc-controls { display: flex; justify-content: center; gap: .5rem; margin-top: 1.2rem; }
+
+  .fc-controls button {
+    background: var(--card); color: var(--text); border: 1px solid var(--border);
+    padding: .5rem 1.2rem; border-radius: 8px; cursor: pointer; transition: all .2s;
+  }
+
+  .fc-controls button:hover { background: var(--accent); border-color: var(--accent); }
+  .fc-progress { color: var(--text-muted); font-size: .85rem; margin-bottom: 1rem; }
+
+  .fc-type { max-width: 500px; margin: 1.2rem auto 0; display: flex; gap: .5rem; }
+  .fc-type input {
+    flex: 1; min-width: 0; background: var(--card); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: .6rem .9rem; font-size: 1.1rem; font-family: inherit;
+  }
+  .fc-type input:focus { outline: none; border-color: var(--accent); }
+  .fc-type input.correct { border-color: var(--success); }
+  .fc-type input.wrong { border-color: #f44336; }
+  .fc-type button {
+    background: var(--accent2); color: #fff; border: 1px solid var(--accent2);
+    padding: .5rem 1.1rem; border-radius: 8px; cursor: pointer; font-size: .9rem;
+  }
+  .fc-feedback { max-width: 500px; margin: .7rem auto 0; font-size: 1rem; min-height: 1.4em; }
+  .fc-feedback.correct { color: var(--success); }
+  .fc-feedback.wrong { color: #f44336; }
+  .fc-feedback .ok { color: var(--success); }
+  .fc-feedback .bad { color: #f44336; text-decoration: underline; }
+  .fc-feedback .answer { font-size: 1.3rem; margin-top: .3rem; }
+
+  .quiz-container { max-width: 600px; margin: 0 auto; text-align: center; }
+  .quiz-prompt { font-size: 2rem; margin: 1.5rem 0 .5rem; }
+  .quiz-pinyin-hint { color: var(--pinyin); font-size: 1rem; margin-bottom: 1.5rem; }
+  .quiz-options { display: flex; flex-direction: column; gap: .5rem; }
+
+  .quiz-option {
+    background: var(--card); border: 1px solid var(--border); color: var(--text);
+    padding: .9rem 1.2rem; border-radius: 10px; cursor: pointer; font-size: 1rem;
+    transition: all .2s; text-align: left;
+  }
+
+  .quiz-option:hover:not(.disabled) { background: var(--card-hover); border-color: var(--accent); }
+  .quiz-option.correct { background: #1b5e20; border-color: var(--success); }
+  .quiz-option.wrong { background: #b71c1c; border-color: #f44336; }
+  .quiz-option.disabled { pointer-events: none; opacity: .8; }
+  .cloze-sentence { font-size: 1.6rem; line-height: 1.9; margin: 1.5rem 0 .5rem; }
+  .cloze-gap {
+    display: inline-block; min-width: 4em; padding: 0 .5em; margin: 0 .15em; line-height: 1.5;
+    border-bottom: 2px dashed var(--accent); font-size: 1rem; vertical-align: middle;
+  }
+  .cloze-gap.hint-en { color: var(--english); }
+  .cloze-gap.hint-py { color: var(--pinyin); }
+  .cloze-gap.filled { border-bottom-style: solid; border-color: var(--success); font-size: 1.6rem; color: var(--text); }
+  .cloze-full { margin-bottom: 1.2rem; }
+  .cloze-full .pinyin { color: var(--pinyin); }
+  .cloze-full .english { color: var(--english); font-size: .95rem; }
+  .quiz-score { color: var(--text-muted); margin-top: 1.5rem; font-size: .9rem; }
+
+  .quiz-next {
+    margin-top: 1rem; background: var(--accent); color: #fff; border: none;
+    padding: .6rem 1.5rem; border-radius: 8px; cursor: pointer; font-size: .9rem;
+  }
+
+  .toggle-row { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1rem; }
+
+  .toggle-row label {
+    display: flex; align-items: center; gap: .4rem; font-size: .85rem;
+    color: var(--text-muted); cursor: pointer;
+  }
+
+  .toggle-row input[type="checkbox"] { accent-color: var(--accent); }
+
+  .section-title {
+    font-size: .8rem; text-transform: uppercase; letter-spacing: 2px;
+    color: var(--text-muted); margin: 1.5rem 0 .8rem; padding-left: .2rem;
+  }
+
+  .loading {
+    text-align: center; padding: 4rem 1rem; color: var(--text-muted); font-size: 1.1rem;
+  }
+
+  .error {
+    text-align: center; padding: 4rem 1rem; color: var(--accent); font-size: 1.1rem;
+  }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.4rem; }
+    .card .chinese { font-size: 1.25rem; }
+    .card .speaker-icon { width: 44px; height: 44px; font-size: .85rem; }
+    .flashcard .chinese { font-size: 1.7rem; }
+    .nav-row { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; gap: .35rem; scrollbar-width: none; }
+    .nav-row::-webkit-scrollbar { display: none; }
+    nav button { font-size: .75rem; padding: .35rem .7rem; }
+    #subNav button { max-width: 14rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="./" style="color:var(--text-muted);text-decoration:none;font-size:.85rem;display:inline-block;margin-bottom:.5rem;">&larr; Back to HSK 2</a>
+  <h1>HSK <span>2</span></h1>
+  <p id="lessonSubtitle">Loading...</p>
+</header>
+
+<div class="mode-bar">
+  <button class="active" data-mode="browse">Browse</button>
+  <button data-mode="flashcard">Flashcards</button>
+  <button data-mode="quiz">Quiz</button>
+  <button data-mode="cloze">Fill in</button>
+</div>
+
+<nav id="topicNav">
+  <div class="nav-row" id="catNav"></div>
+  <div class="nav-row" id="subNav"></div>
+</nav>
+
+<main id="app"><div class="loading">Loading lesson data...</div></main>
+
+<script src="../nav.js"></script>
+<script>
+let DATA = [];
+let currentCat = "all";    // "all" or a CATEGORIES key
+let currentTopic = "all";  // "all" (= whole category) or one section's topic
+let currentMode = "browse";
+
+// Categories, labels and URL anchors (#grammar, #grammar-2, #all) are shared with the site menu: see nav.js.
+const { categoryOf } = Topics;
+
+/** Show the category/section named in the URL anchor; returns false when there is none. */
+function applyHash() {
+  const st = Topics.parseHash(DATA, location.hash);
+  if (!st) return false;
+  currentCat = st.cat;
+  currentTopic = st.topic;
+  return true;
+}
+
+/** Navigate by changing the anchor, so every view has its own URL (and Back works). */
+function go(cat, topic) {
+  const hash = "#" + Topics.hashFor(DATA, cat, topic);
+  if (location.hash === hash) { currentCat = cat; currentTopic = topic; renderNav(); render(); }
+  else location.hash = hash;
+}
+
+window.addEventListener("hashchange", () => {
+  if (!DATA.length || !applyHash()) return;
+  renderNav();
+  render();
+  const nav = document.getElementById("topicNav");
+  if (window.scrollY > nav.offsetTop) window.scrollTo(0, nav.offsetTop);
+});
+
+/** A line of a conversation or text, as opposed to a single vocabulary word. */
+function isTextLine(item) {
+  return /[：:。？！?!，]/.test(item.zh);
+}
+
+/** Texts are practised one conversation at a time, in their original order. */
+function isTextView() {
+  return currentCat === "texts" && currentTopic !== "all";
+}
+
+function visibleSections() {
+  if (currentTopic !== "all") return DATA.filter(t => t.topic === currentTopic);
+  if (currentCat === "all") return DATA;
+  return DATA.filter(t => categoryOf(t) === currentCat);
+}
+
+function prepareLessonData(raw) {
+  if (!Array.isArray(raw) || !raw.length) return [];
+  const data = [...raw];
+  const i = data.findIndex((s) => s.classNotesFirst === true);
+  if (i <= 0) return data;
+  const [block] = data.splice(i, 1);
+  return [block, ...data];
+}
+
+/** Drop vocabulary words from conversations when they are already in a word list, so a text holds only its lines. */
+function splitTextsFromWords(data) {
+  const listed = new Set(data.filter(s => categoryOf(s) === "words").flatMap(s => s.items.map(i => i.zh)));
+  return data.map(s =>
+    categoryOf(s) === "texts" && s.items.some(isTextLine)
+      ? { ...s, items: s.items.filter(i => isTextLine(i) || !listed.has(i.zh)) }
+      : s
+  );
+}
+let hidePinyin = false;
+let hideEnglish = false;
+let fcItems = [], fcIndex = 0, fcRevealed = false, fcMode = "zh";
+let fcTypeItem = null, fcTyped = "", fcTypeResult = null, fcTypeFocus = false;
+
+/** Compare typed Chinese with the answer, ignoring punctuation, spaces and a "Speaker：" prefix. */
+function normZh(s) {
+  return (s || "").replace(/[\s，。？！：；、“”‘’「」《》（）()…—,.?!:;"'·\-]/g, "");
+}
+function answerVariants(zh) {
+  const noSpeaker = zh.replace(/^[^：:]{1,6}[：:]/, "");
+  const variants = [zh, noSpeaker];
+  // "南（方）" → accept both 南 and 南方
+  [zh, noSpeaker].forEach(v => variants.push(v.replace(/（[^）]*）|\([^)]*\)/g, "")));
+  return [...new Set(variants.map(normZh))].filter(Boolean);
+}
+function checkTyped(typed, zh) {
+  const t = normZh(typed);
+  const variants = answerVariants(zh);
+  if (variants.includes(t)) return { ok: true };
+  // Character-by-character comparison against the closest variant
+  const target = variants.reduce((a, b) => Math.abs(b.length - t.length) < Math.abs(a.length - t.length) ? b : a);
+  const tc = [...t];
+  const diff = [...target].map((c, i) => `<span class="${tc[i] === c ? "ok" : "bad"}">${esc(c)}</span>`).join("");
+  return { ok: false, diff };
+}
+let quizItems = [], quizIndex = 0, quizScore = 0, quizAnswered = false, quizMode = "zh";
+
+const params = new URLSearchParams(window.location.search);
+const lessonId = params.get("id");
+
+if (!lessonId) {
+  document.getElementById("app").innerHTML = '<div class="error">No lesson specified. <a href="./" style="color:var(--accent)">Back to overview</a></div>';
+} else {
+  fetch(`data/${lessonId}.json`)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(json => {
+      document.title = `Chinese Practice — ${json.title}`;
+      document.getElementById("lessonSubtitle").textContent = json.subtitle;
+      DATA = splitTextsFromWords(prepareLessonData(json.data));
+      const notesSec = DATA.find((s) => s.classNotesFirst === true);
+      if (!applyHash() && notesSec) currentCat = categoryOf(notesSec);
+      renderNav();
+      render();
+    })
+    .catch(err => {
+      document.getElementById("app").innerHTML = `<div class="error">Could not load lesson "${lessonId}". <a href="./" style="color:var(--accent)">Back to overview</a></div>`;
+    });
+}
+
+function getItems() {
+  return visibleSections().flatMap(t => (t.browseOnly ? [] : t.items));
+}
+
+function shuffle(arr) { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+function speak(text) {
+  const raw = (text || "").trim();
+  if (!raw || typeof window.speechSynthesis === "undefined") return;
+
+  let started = false;
+  const run = () => {
+    if (started) return;
+    started = true;
+    try {
+      window.speechSynthesis.cancel();
+      if (window.speechSynthesis.paused) window.speechSynthesis.resume();
+    } catch (e) {}
+    const u = new SpeechSynthesisUtterance(raw);
+    u.lang = "zh-CN";
+    u.rate = 0.85;
+    let voices = [];
+    try {
+      voices = window.speechSynthesis.getVoices() || [];
+    } catch (e) {}
+    const norm = (s) => (s || "").toLowerCase().replace(/_/g, "-");
+    const zhVoice =
+      voices.find((v) => norm(v.lang) === "zh-cn") ||
+      voices.find((v) => /^zh(-|$|;)/i.test(v.lang || ""));
+    if (zhVoice) u.voice = zhVoice;
+    window.speechSynthesis.speak(u);
+  };
+
+  let list = [];
+  try {
+    list = window.speechSynthesis.getVoices() || [];
+  } catch (e) {}
+  if (list.length) {
+    run();
+    return;
+  }
+
+  const onVoices = () => {
+    window.speechSynthesis.removeEventListener("voiceschanged", onVoices);
+    clearTimeout(fallbackTimer);
+    run();
+  };
+  window.speechSynthesis.addEventListener("voiceschanged", onVoices);
+  try {
+    window.speechSynthesis.getVoices();
+  } catch (e) {}
+  const fallbackTimer = setTimeout(() => {
+    window.speechSynthesis.removeEventListener("voiceschanged", onVoices);
+    run();
+  }, 800);
+}
+
+function renderNav() {
+  const catNav = document.getElementById("catNav");
+  const subNav = document.getElementById("subNav");
+  const cats = Topics.groups(DATA).map(c => ({ ...c, count: c.sections.length }));
+
+  catNav.innerHTML = `<button data-cat="all" class="${currentCat === "all" ? "active" : ""}">All</button>` +
+    cats.map(c =>
+      `<button data-cat="${c.key}" class="${currentCat === c.key ? "active" : ""}">${c.zh} ${c.en}${c.count > 1 ? `<span class="count">${c.count}</span>` : ""}</button>`
+    ).join("");
+
+  const sections = currentCat === "all" ? [] : DATA.filter(t => categoryOf(t) === currentCat);
+  const texts = currentCat === "texts";
+  // Texts have no "All" chip: each conversation is its own text.
+  subNav.innerHTML = sections.length < (texts ? 1 : 2) ? "" :
+    (texts ? "" : `<button data-topic="all" class="${currentTopic === "all" ? "active" : ""}">${esc(Topics.allLabel(currentCat))}</button>`) +
+    sections.map(t =>
+      `<button data-topic="${esc(t.topic)}" title="${esc(t.topic)}" class="${currentTopic === t.topic ? "active" : ""}">${esc(Topics.sectionLabel(t))}</button>`
+    ).join("");
+
+  catNav.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const cat = btn.dataset.cat;
+      go(cat, cat === "texts" ? DATA.find(t => categoryOf(t) === "texts").topic : "all");
+    });
+  });
+  subNav.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => go(currentCat, btn.dataset.topic));
+  });
+  // On narrow screens the rows scroll sideways: keep the chosen chips visible.
+  [catNav, subNav].forEach(row => {
+    const active = row.querySelector(".active");
+    if (active) row.scrollLeft = active.offsetLeft - row.offsetLeft - 16;
+  });
+}
+
+function renderBrowse() {
+  const app = document.getElementById("app");
+  let html = `<div class="toggle-row">
+    <label><input type="checkbox" id="togPy" ${hidePinyin ? "checked" : ""}> Hide pinyin</label>
+    <label><input type="checkbox" id="togEn" ${hideEnglish ? "checked" : ""}> Hide English</label>
+  </div>`;
+
+  const sections = visibleSections();
+  if (sections.length > 1) {
+    sections.forEach(section => {
+      html += `<div class="section-title">${section.topic}</div><div class="card-grid">`;
+      section.items.forEach(item => {
+        const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : ""].filter(Boolean).join(" ");
+        html += `<div class="card ${cls}" data-zh="${esc(item.zh)}">
+          <div class="chinese">${esc(item.zh)}</div>
+          <div class="pinyin">${esc(item.py)}</div>
+          <div class="english">${esc(item.en)}</div>
+          <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
+        </div>`;
+      });
+      html += `</div>`;
+    });
+  } else {
+    const items = sections[0]?.items || [];
+    html += `<div class="card-grid">`;
+    items.forEach(item => {
+      const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : ""].filter(Boolean).join(" ");
+      html += `<div class="card ${cls}" data-zh="${esc(item.zh)}">
+        <div class="chinese">${esc(item.zh)}</div>
+        <div class="pinyin">${esc(item.py)}</div>
+        <div class="english">${esc(item.en)}</div>
+        <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
+      </div>`;
+    });
+    html += `</div>`;
+  }
+
+  app.innerHTML = html;
+
+  document.getElementById("togPy").addEventListener("change", e => { hidePinyin = e.target.checked; renderBrowse(); });
+  document.getElementById("togEn").addEventListener("change", e => { hideEnglish = e.target.checked; renderBrowse(); });
+
+  app.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("click", e => {
+      if (e.target.closest(".speaker-icon")) return;
+      card.classList.toggle("reveal");
+    });
+    card.querySelector(".speaker-icon").addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      speak(card.dataset.zh);
+    });
+  });
+}
+
+function renderFlashcard() {
+  const app = document.getElementById("app");
+  if (!fcItems.length) {
+    fcItems = isTextView() ? getItems() : shuffle(getItems());
+    fcIndex = 0;
+    fcRevealed = false;
+  }
+  if (!fcItems.length) {
+    app.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:2rem;">No flashcards in this topic. Try another section or “All”.</p>`;
+    return;
+  }
+  const item = fcItems[fcIndex];
+  if (fcTypeItem !== item) { fcTypeItem = item; fcTyped = ""; fcTypeResult = null; }
+
+  const showZh = fcMode === "zh" || fcRevealed;
+  const showPy = fcMode === "py" || fcRevealed;
+  const showEn = fcMode === "en" || fcRevealed;
+
+  const frontLabel = fcMode === "zh" ? "汉字 Chinese" : fcMode === "py" ? "拼音 Pinyin" : "English";
+
+  app.innerHTML = `<div class="flashcard-container">
+    <div class="fc-mode-bar">
+      <span class="fc-mode-label">Show:</span>
+      <button class="${fcMode === 'py' ? 'active' : ''}" data-fcmode="py">Pinyin</button>
+      <button class="${fcMode === 'zh' ? 'active' : ''}" data-fcmode="zh">中文</button>
+      <button class="${fcMode === 'en' ? 'active' : ''}" data-fcmode="en">English</button>
+    </div>
+    <div class="fc-progress">${fcIndex + 1} / ${fcItems.length}</div>
+    <div class="flashcard" id="fc">
+      <div class="chinese ${showZh ? '' : 'hidden'}">${esc(item.zh)}</div>
+      <div class="pinyin ${showPy ? '' : 'hidden'}">${esc(item.py)}</div>
+      <div class="english ${showEn ? '' : 'hidden'}">${esc(item.en)}</div>
+      <div class="hint">${fcRevealed ? 'Click arrows to navigate' : 'Click to reveal'}</div>
+    </div>
+    <div class="fc-type">
+      <input type="text" id="fcTypeInput" placeholder="Type het karakter…" lang="zh-CN" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" value="${esc(fcTyped)}" class="${fcTypeResult ? (fcTypeResult.ok ? "correct" : "wrong") : ""}">
+      <button type="button" id="fcCheck">Check</button>
+    </div>
+    <div class="fc-feedback ${fcTypeResult ? (fcTypeResult.ok ? "correct" : "wrong") : ""}">${
+      !fcTypeResult ? "" :
+      fcTypeResult.ok ? "✓ Goed!" :
+      `✗ Niet helemaal — juiste antwoord:<div class="answer">${fcTypeResult.diff}</div>`
+    }</div>
+    <div class="fc-controls">
+      <button type="button" id="fcPrev">&larr; Prev</button>
+      <button type="button" id="fcSpeak">&#9654; Listen</button>
+      <button type="button" id="fcNext">Next &rarr;</button>
+    </div>
+    <div class="fc-controls">
+      <button type="button" id="fcInOrder">In order</button>
+      <button type="button" id="fcShuffle">Shuffle</button>
+    </div>
+  </div>`;
+
+  app.querySelectorAll(".fc-mode-bar button").forEach(btn => {
+    btn.addEventListener("click", () => { fcMode = btn.dataset.fcmode; fcRevealed = false; renderFlashcard(); });
+  });
+  document.getElementById("fc").addEventListener("click", () => { fcRevealed = !fcRevealed; renderFlashcard(); });
+  document.getElementById("fcPrev").addEventListener("click", () => { fcIndex = (fcIndex - 1 + fcItems.length) % fcItems.length; fcRevealed = false; renderFlashcard(); });
+  document.getElementById("fcNext").addEventListener("click", () => { fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; renderFlashcard(); });
+  document.getElementById("fcSpeak").addEventListener("click", (e) => { e.preventDefault(); speak(item.zh); });
+  document.getElementById("fcInOrder").addEventListener("click", () => { fcItems = getItems(); fcIndex = 0; fcRevealed = false; renderFlashcard(); });
+  document.getElementById("fcShuffle").addEventListener("click", () => { fcItems = shuffle(getItems()); fcIndex = 0; fcRevealed = false; renderFlashcard(); });
+
+  const typeInput = document.getElementById("fcTypeInput");
+  const doCheck = () => {
+    fcTyped = typeInput.value;
+    if (!normZh(fcTyped)) return;
+    fcTypeResult = checkTyped(fcTyped, item.zh);
+    fcRevealed = true;
+    fcTypeFocus = true;
+    renderFlashcard();
+  };
+  typeInput.addEventListener("input", () => { fcTyped = typeInput.value; });
+  typeInput.addEventListener("keydown", e => {
+    e.stopPropagation();
+    if (e.key !== "Enter" || e.isComposing || e.keyCode === 229) return;
+    e.preventDefault();
+    // Enter after a correct answer moves on to the next card
+    if (fcTypeResult && fcTypeResult.ok && typeInput.value === fcTyped) {
+      fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; fcTypeFocus = true; renderFlashcard();
+    } else {
+      doCheck();
+    }
+  });
+  document.getElementById("fcCheck").addEventListener("click", doCheck);
+  if (fcTypeFocus) typeInput.focus({ preventScroll: true });
+}
+
+function itemKind(item) {
+  const zh = (item.zh || "").trim();
+  if (/[，。？！：；、,.?!:;]/.test(zh) || zh.length > 6) return "sentence";
+  return [...zh].length === 1 ? "char" : "word";
+}
+
+function renderQuiz() {
+  const app = document.getElementById("app");
+  if (!quizItems.length) {
+    const all = getItems();
+    if (all.length < 4) {
+      app.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:2rem;">Select a topic with at least 4 items for quiz mode.</p>`;
+      return;
+    }
+    quizItems = shuffle(all);
+    quizIndex = 0;
+    quizScore = 0;
+    quizAnswered = false;
+  }
+
+  const item = quizItems[quizIndex];
+  const allItems = getItems();
+
+  const promptField = quizMode === "en" ? "en" : "zh";
+  const answerField = quizMode === "en" ? "zh" : "en";
+
+  // Keep options comparable: single characters vs. words vs. sentences
+  const candidates = allItems.filter(i => i[answerField] !== item[answerField] && i.zh !== item.zh);
+  const sameKind = candidates.filter(i => itemKind(i) === itemKind(item));
+  let wrongs = shuffle(sameKind.length >= 3 ? sameKind : candidates).slice(0, 3);
+  let options = shuffle([item, ...wrongs]);
+
+  let promptHtml = "";
+  if (quizMode === "zh") {
+    promptHtml = `<div class="quiz-prompt">${esc(item.zh)}</div><div class="quiz-pinyin-hint">${esc(item.py)}</div>`;
+  } else if (quizMode === "py") {
+    promptHtml = `<div class="quiz-prompt" style="color:var(--pinyin)">${esc(item.py)}</div>`;
+  } else {
+    promptHtml = `<div class="quiz-prompt" style="color:var(--english)">${esc(item.en)}</div>`;
+  }
+
+  app.innerHTML = `<div class="quiz-container">
+    <div class="fc-mode-bar" style="margin-bottom:1.5rem">
+      <span class="fc-mode-label">Prompt:</span>
+      <button class="${quizMode === 'py' ? 'active' : ''}" data-qmode="py">Pinyin</button>
+      <button class="${quizMode === 'zh' ? 'active' : ''}" data-qmode="zh">中文</button>
+      <button class="${quizMode === 'en' ? 'active' : ''}" data-qmode="en">English</button>
+    </div>
+    ${promptHtml}
+    <div class="quiz-options">
+      ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o[answerField] === item[answerField]}">${esc(o[answerField])}</button>`).join("")}
+    </div>
+    <div class="quiz-score">Score: ${quizScore} / ${quizIndex}${quizIndex < quizItems.length ? '' : ' — Done!'}</div>
+    ${quizAnswered ? `<button class="quiz-next" id="quizNext">${quizIndex + 1 < quizItems.length ? 'Next &rarr;' : 'Restart'}</button>` : ''}
+  </div>`;
+
+  app.querySelectorAll(".fc-mode-bar button").forEach(btn => {
+    btn.addEventListener("click", () => { quizMode = btn.dataset.qmode; quizItems = []; renderQuiz(); });
+  });
+
+  if (!quizAnswered) {
+    app.querySelectorAll(".quiz-option").forEach(btn => {
+      btn.addEventListener("click", () => {
+        quizAnswered = true;
+        const correct = btn.dataset.correct === "true";
+        if (correct) quizScore++;
+        btn.classList.add(correct ? "correct" : "wrong");
+        if (!correct) {
+          app.querySelector('.quiz-option[data-correct="true"]').classList.add("correct");
+        }
+        app.querySelectorAll(".quiz-option").forEach(b => b.classList.add("disabled"));
+        renderQuizControls();
+      });
+    });
+  }
+}
+
+function renderQuizControls() {
+  const container = document.querySelector(".quiz-container");
+  const scoreEl = container.querySelector(".quiz-score");
+  scoreEl.textContent = `Score: ${quizScore} / ${quizIndex + 1}`;
+
+  const existing = document.getElementById("quizNext");
+  if (existing) existing.remove();
+
+  const btn = document.createElement("button");
+  btn.className = "quiz-next";
+  btn.id = "quizNext";
+  btn.textContent = quizIndex + 1 < quizItems.length ? "Next →" : "Restart";
+  container.appendChild(btn);
+
+  btn.addEventListener("click", () => {
+    if (quizIndex + 1 < quizItems.length) {
+      quizIndex++;
+      quizAnswered = false;
+      renderQuiz();
+    } else {
+      quizItems = [];
+      renderQuiz();
+    }
+  });
+}
+
+// ---- Fill in: a lesson sentence with one new word blanked out ----
+let clozeItems = [], clozeIndex = 0, clozeScore = 0, clozeAnswered = false, clozeChosen = null;
+let clozeHint = "en", clozeAnswer = "zh";
+
+/** "南（方）" → "南方"; "春(天)" → "春天". */
+function wordForm(zh) { return zh.replace(/[（）()]/g, ""); }
+
+/** "to go through; history (as in lìshǐ – history)" → "to go through". */
+function shortEn(en) { return en.split(/[;；]/)[0].replace(/\s*\(as in[^)]*\)/, "").trim(); }
+
+function clozeWordPool() {
+  const seen = new Set();
+  return DATA.filter(s => categoryOf(s) === "words").flatMap(s => s.items)
+    .map(i => ({ zh: wordForm(i.zh), py: i.py, en: shortEn(i.en) }))
+    .filter(w => w.zh && w.py && !/[，。？！：、…]/.test(w.zh) && !seen.has(w.zh) && seen.add(w.zh));
+}
+
+/** Pairs of (sentence, word) where the word occurs in the sentence; prefers words of 2+ characters. */
+function buildClozeItems() {
+  const words = clozeWordPool();
+  if (words.length < 4) return [];
+  const fromSections = secs => secs
+    .filter(s => categoryOf(s) !== "words" && !s.browseOnly)
+    .flatMap(s => s.items).filter(i => isTextLine(i) && !i.zh.includes("→"));
+  let sentences = fromSections(visibleSections());
+  if (!sentences.length) sentences = fromSections(DATA);
+  const seen = new Set();
+  const out = [];
+  sentences.forEach(sent => {
+    if (seen.has(sent.zh)) return;
+    seen.add(sent.zh);
+    const m = sent.zh.match(/^([^：:]{1,8}[：:])(.*)$/);   // keep a "Speaker：" prefix out of the blank
+    const prefix = m ? m[1] : "", body = m ? m[2] : sent.zh;
+    const hits = words.filter(w => body.includes(w.zh) && body !== w.zh);
+    const long = hits.filter(w => [...w.zh].length > 1);
+    const pool = long.length ? long : hits;
+    if (!pool.length) return;
+    const word = pool[Math.floor(Math.random() * pool.length)];
+    const at = body.indexOf(word.zh);
+    out.push({ sent, word, before: prefix + body.slice(0, at), after: body.slice(at + word.zh.length) });
+  });
+  return shuffle(out);
+}
+
+function renderCloze() {
+  const app = document.getElementById("app");
+  if (!clozeItems.length) {
+    clozeItems = buildClozeItems();
+    clozeIndex = 0; clozeScore = 0; clozeAnswered = false; clozeChosen = null;
+  }
+  if (!clozeItems.length) {
+    app.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:2rem;">No fill-in sentences here: this needs a lesson with a word list and sentences that use those words. Try “All”.</p>`;
+    return;
+  }
+
+  const q = clozeItems[clozeIndex];
+  const field = clozeAnswer;
+  if (!q.options) {
+    const others = clozeWordPool().filter(w =>
+      w[field] !== q.word[field] && w.zh !== q.word.zh && !q.sent.zh.includes(w.zh));
+    const sameLen = others.filter(w => [...w.zh].length === [...q.word.zh].length);
+    q.options = shuffle([q.word, ...shuffle(sameLen.length >= 3 ? sameLen : others).slice(0, 3)]);
+  }
+
+  const gap = clozeAnswered
+    ? `<span class="cloze-gap filled">${esc(q.word.zh)}</span>`
+    : `<span class="cloze-gap hint-${clozeHint}">${esc(q.word[clozeHint])}</span>`;
+
+  app.innerHTML = `<div class="quiz-container">
+    <div class="fc-mode-bar">
+      <span class="fc-mode-label">Hint:</span>
+      <button class="${clozeHint === 'en' ? 'active' : ''}" data-chint="en">English</button>
+      <button class="${clozeHint === 'py' ? 'active' : ''}" data-chint="py">Pinyin</button>
+    </div>
+    <div class="fc-mode-bar" style="margin-bottom:.5rem">
+      <span class="fc-mode-label">Answer:</span>
+      <button class="${field === 'zh' ? 'active' : ''}" data-cans="zh">中文</button>
+      <button class="${field === 'py' ? 'active' : ''}" data-cans="py">Pinyin</button>
+      <button class="${field === 'en' ? 'active' : ''}" data-cans="en">English</button>
+    </div>
+    <div class="fc-progress">${clozeIndex + 1} / ${clozeItems.length}</div>
+    <div class="cloze-sentence">${esc(q.before)}${gap}${esc(q.after)}</div>
+    ${clozeAnswered ? `<div class="cloze-full">
+      <div class="pinyin">${esc(q.sent.py)}</div>
+      <div class="english">${esc(q.sent.en)}</div>
+    </div>` : ""}
+    <div class="quiz-options">
+      ${q.options.map((o, i) => {
+        const cls = !clozeAnswered ? "" :
+          o === q.word ? "correct disabled" : i === clozeChosen ? "wrong disabled" : "disabled";
+        return `<button class="quiz-option ${cls}" data-idx="${i}">${esc(o[field])}</button>`;
+      }).join("")}
+    </div>
+    <div class="quiz-score">Score: ${clozeScore} / ${clozeIndex + (clozeAnswered ? 1 : 0)}</div>
+    ${clozeAnswered ? `<div class="fc-controls">
+      <button type="button" id="clozeSpeak">&#9654; Listen</button>
+      <button type="button" class="quiz-next" id="clozeNext">${clozeIndex + 1 < clozeItems.length ? "Next &rarr;" : "Restart"}</button>
+    </div>` : ""}
+  </div>`;
+
+  app.querySelectorAll("[data-chint]").forEach(btn => btn.addEventListener("click", () => { clozeHint = btn.dataset.chint; renderCloze(); }));
+  app.querySelectorAll("[data-cans]").forEach(btn => btn.addEventListener("click", () => {
+    clozeAnswer = btn.dataset.cans;
+    clozeItems.forEach(c => { delete c.options; });
+    renderCloze();
+  }));
+
+  if (!clozeAnswered) {
+    app.querySelectorAll(".quiz-option").forEach(btn => btn.addEventListener("click", () => {
+      clozeChosen = +btn.dataset.idx;
+      clozeAnswered = true;
+      if (q.options[clozeChosen] === q.word) clozeScore++;
+      renderCloze();
+    }));
+  } else {
+    document.getElementById("clozeSpeak").addEventListener("click", () => speak(q.sent.zh));
+    document.getElementById("clozeNext").addEventListener("click", () => {
+      if (clozeIndex + 1 < clozeItems.length) { clozeIndex++; clozeAnswered = false; clozeChosen = null; renderCloze(); }
+      else { clozeItems = []; renderCloze(); }
+    });
+  }
+}
+
+function esc(s) {
+  const d = document.createElement("div");
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function render() {
+  fcItems = [];
+  quizItems = [];
+  clozeItems = [];
+  if (currentMode === "browse") renderBrowse();
+  else if (currentMode === "flashcard") renderFlashcard();
+  else if (currentMode === "quiz") renderQuiz();
+  else if (currentMode === "cloze") renderCloze();
+}
+
+document.querySelectorAll(".mode-bar button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".mode-bar button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentMode = btn.dataset.mode;
+    render();
+  });
+});
+
+document.addEventListener("keydown", e => {
+  if (document.body.classList.contains("snav-locked")) return;   // site menu is open
+  if (currentMode === "flashcard") {
+    if (e.target.closest && e.target.closest("input, textarea")) return;
+    if (e.key === "ArrowRight") { fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; renderFlashcard(); }
+    if (e.key === "ArrowLeft") { fcIndex = (fcIndex - 1 + fcItems.length) % fcItems.length; fcRevealed = false; renderFlashcard(); }
+    if (e.key === " ") { e.preventDefault(); fcRevealed = !fcRevealed; renderFlashcard(); }
+  }
+});
+</script>
+</body>
+</html>

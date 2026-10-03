@@ -1,0 +1,301 @@
+{
+  "title": "第5课 · 就买这件吧",
+  "subtitle": "HSK 2 · Lesson 5 — 就买这件吧 · Take this one",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：晚上我们去饭馆吃饭，怎么样？",
+          "py": "A: Wǎnshang wǒmen qù fànguǎn chī fàn, zěnmeyàng?",
+          "en": "A: Shall we go to a restaurant this evening?"
+        },
+        {
+          "zh": "B：我不想去外面吃，我想在家吃。",
+          "py": "B: Wǒ bù xiǎng qù wàimiàn chī, wǒ xiǎng zài jiā chī.",
+          "en": "B: I don't want to eat out, I want to eat at home."
+        },
+        {
+          "zh": "A：那你准备做什么呢？",
+          "py": "A: Nà nǐ zhǔnbèi zuò shénme ne?",
+          "en": "A: Then what are you planning to cook?"
+        },
+        {
+          "zh": "B：就做你爱吃的鱼吧。",
+          "py": "B: Jiù zuò nǐ ài chī de yú ba.",
+          "en": "B: Let's make the fish you love."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在商店 — In a store",
+      "items": [
+        {
+          "zh": "A：帮我看一下这件衣服怎么样。",
+          "py": "A: Bāng wǒ kàn yíxià zhè jiàn yīfu zěnmeyàng.",
+          "en": "A: What do you think of this piece of clothing?"
+        },
+        {
+          "zh": "B：颜色还可以，就是有点儿大。",
+          "py": "B: Yánsè hái kěyǐ, jiùshì yǒudiǎnr dà.",
+          "en": "B: The colour's OK, but it's a bit big."
+        },
+        {
+          "zh": "A：这件小的怎么样？",
+          "py": "A: Zhè jiàn xiǎo de zěnmeyàng?",
+          "en": "A: What about this smaller one?"
+        },
+        {
+          "zh": "B：这件不错，就买这件吧。",
+          "py": "B: Zhè jiàn búcuò, jiù mǎi zhè jiàn ba.",
+          "en": "B: This one's good. Take this one."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "A：今天去不去打球？",
+          "py": "A: Jīntiān qù bu qù dǎ qiú?",
+          "en": "A: Are you going to play ball today?"
+        },
+        {
+          "zh": "B：这两天有点儿累，不去打球了。",
+          "py": "B: Zhè liǎng tiān yǒudiǎnr lèi, bú qù dǎ qiú le.",
+          "en": "B: I've been a bit tired lately, I won't go."
+        },
+        {
+          "zh": "A：你在做什么呢？是在想昨天的考试吗？",
+          "py": "A: Nǐ zài zuò shénme ne? Shì zài xiǎng zuótiān de kǎoshì ma?",
+          "en": "A: What are you doing? Thinking about yesterday's exam?"
+        },
+        {
+          "zh": "B：是啊，我觉得听和说还可以，读和写不好，很多字我都不知道是什么意思。",
+          "py": "B: Shì a, wǒ juéde tīng hé shuō hái kěyǐ, dú hé xiě bù hǎo, hěn duō zì wǒ dōu bù zhīdào shì shénme yìsi.",
+          "en": "B: Yes. Listening and speaking went OK, reading and writing didn't — I didn't know what lots of the characters meant."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在公司 — In the company",
+      "items": [
+        {
+          "zh": "A：休息一下吧，喝咖啡吗？",
+          "py": "A: Xiūxi yíxià ba, hē kāfēi ma?",
+          "en": "A: Let's take a break. Coffee?"
+        },
+        {
+          "zh": "B：不喝了，我已经喝两杯了。",
+          "py": "B: Bù hē le, wǒ yǐjīng hē liǎng bēi le.",
+          "en": "B: No thanks, I've already had two cups."
+        },
+        {
+          "zh": "A：是啊，咖啡喝多了对身体不好。",
+          "py": "A: Shì a, kāfēi hē duō le duì shēntǐ bù hǎo.",
+          "en": "A: Right, too much coffee is bad for you."
+        },
+        {
+          "zh": "B：以后我少喝一点儿，每天喝一杯。",
+          "py": "B: Yǐhòu wǒ shǎo hē yìdiǎnr, měi tiān hē yì bēi.",
+          "en": "B: From now on I'll drink less — one cup a day."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 5)",
+      "items": [
+        {
+          "zh": "外面",
+          "py": "wàimiàn",
+          "en": "outside"
+        },
+        {
+          "zh": "准备",
+          "py": "zhǔnbèi",
+          "en": "to plan, to prepare"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then (conclusion)"
+        },
+        {
+          "zh": "鱼",
+          "py": "yú",
+          "en": "fish"
+        },
+        {
+          "zh": "吧",
+          "py": "ba",
+          "en": "particle: suggestion"
+        },
+        {
+          "zh": "件",
+          "py": "jiàn",
+          "en": "measure word for clothes, matters"
+        },
+        {
+          "zh": "还",
+          "py": "hái",
+          "en": "fairly, passably"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "en": "not bad, OK"
+        },
+        {
+          "zh": "不错",
+          "py": "búcuò",
+          "en": "pretty good"
+        },
+        {
+          "zh": "考试",
+          "py": "kǎoshì",
+          "en": "exam, test"
+        },
+        {
+          "zh": "意思",
+          "py": "yìsi",
+          "en": "meaning"
+        },
+        {
+          "zh": "咖啡",
+          "py": "kāfēi",
+          "en": "coffee"
+        },
+        {
+          "zh": "对",
+          "py": "duì",
+          "en": "to, for (… is good/bad for)"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐhòu",
+          "en": "afterwards, from now on"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (副词“就” conclusion)",
+      "items": [
+        {
+          "zh": "你不想去，就在家休息吧。",
+          "py": "Nǐ bù xiǎng qù, jiù zài jiā xiūxi ba.",
+          "en": "If you don't want to go, just rest at home."
+        },
+        {
+          "zh": "这儿的咖啡不错，就喝咖啡吧。",
+          "py": "Zhèr de kāfēi búcuò, jiù hē kāfēi ba.",
+          "en": "The coffee here is good, let's have coffee then."
+        },
+        {
+          "zh": "就做你爱吃的鱼吧。",
+          "py": "Jiù zuò nǐ ài chī de yú ba.",
+          "en": "Let's make the fish you love, then."
+        },
+        {
+          "zh": "颜色还可以，就是有点儿大。",
+          "py": "Yánsè hái kěyǐ, jiùshì yǒudiǎnr dà.",
+          "en": "The colour is OK, it's just a bit big (就是 = only, but)."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (语气副词“还” + Adj: passable)",
+      "items": [
+        {
+          "zh": "你身体怎么样？——还好。",
+          "py": "Nǐ shēntǐ zěnmeyàng? — Hái hǎo.",
+          "en": "How are you? — Not bad."
+        },
+        {
+          "zh": "这件衣服大吗？——还行，不太大。",
+          "py": "Zhè jiàn yīfu dà ma? — Hái xíng, bú tài dà.",
+          "en": "Is it too big? — It's OK, not too big."
+        },
+        {
+          "zh": "我觉得听和说还可以，读和写不好。",
+          "py": "Wǒ juéde tīng hé shuō hái kěyǐ, dú hé xiě bù hǎo.",
+          "en": "Listening and speaking were OK, reading and writing not."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (有点儿 + Adj: a bit (too))",
+      "items": [
+        {
+          "zh": "今天天气有点儿冷。",
+          "py": "Jīntiān tiānqì yǒudiǎnr lěng.",
+          "en": "It's a bit cold today."
+        },
+        {
+          "zh": "我昨天有点儿累。",
+          "py": "Wǒ zuótiān yǒudiǎnr lèi.",
+          "en": "I was a bit tired yesterday."
+        },
+        {
+          "zh": "这件衣服有点儿大。",
+          "py": "Zhè jiàn yīfu yǒudiǎnr dà.",
+          "en": "This one is a bit big."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "今天晚上他们在哪儿吃饭？",
+          "py": "Jīntiān wǎnshang tāmen zài nǎr chī fàn?",
+          "en": "Where are they eating tonight?"
+        },
+        {
+          "zh": "她觉得那件衣服怎么样？",
+          "py": "Tā juéde nà jiàn yīfu zěnmeyàng?",
+          "en": "What does she think of that piece of clothing?"
+        },
+        {
+          "zh": "她今天为什么不去打球了？",
+          "py": "Tā jīntiān wèi shénme bú qù dǎ qiú le?",
+          "en": "Why isn't she playing ball today?"
+        },
+        {
+          "zh": "她觉得昨天的考试怎么样？",
+          "py": "Tā juéde zuótiān de kǎoshì zěnmeyàng?",
+          "en": "What did she think of yesterday's exam?"
+        },
+        {
+          "zh": "他为什么以后每天就喝一杯咖啡？",
+          "py": "Tā wèi shénme yǐhòu měi tiān jiù hē yì bēi kāfēi?",
+          "en": "Why will he drink only one coffee a day from now on?"
+        }
+      ]
+    },
+    {
+      "topic": "文化 · Culture (Chinese table manners)",
+      "items": [
+        {
+          "zh": "中国人吃饭一般坐圆形餐桌，大家可以面对面。",
+          "py": "Zhōngguórén chī fàn yìbān zuò yuánxíng cānzhuō, dàjiā kěyǐ miàn duì miàn.",
+          "en": "Chinese people usually eat at a round table, so everyone sits face to face."
+        },
+        {
+          "zh": "主人的右手边是主客，左手边是次重要的客人。",
+          "py": "Zhǔrén de yòushǒu biān shì zhǔkè, zuǒshǒu biān shì cì zhòngyào de kèrén.",
+          "en": "The guest of honour sits on the host's right, the second guest on the left."
+        },
+        {
+          "zh": "主人对面上菜的位置一般不给客人坐。",
+          "py": "Zhǔrén duìmiàn shàng cài de wèizhi yìbān bù gěi kèrén zuò.",
+          "en": "The seat opposite the host, where dishes are served, is not offered to guests."
+        },
+        {
+          "zh": "鱼头要对着最主要的客人。",
+          "py": "Yú tóu yào duìzhe zuì zhǔyào de kèrén.",
+          "en": "The fish head points to the most important guest, as a sign of respect."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "title": "第3课 · 左边那个红色的是我的",
+  "subtitle": "HSK 2 · Lesson 3 — 左边那个红色的是我的 · The red one on the left is mine",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在房间 — In the room",
+      "items": [
+        {
+          "zh": "A：这块手表是你的吗？",
+          "py": "A: Zhè kuài shǒubiǎo shì nǐ de ma?",
+          "en": "A: Is this watch yours?"
+        },
+        {
+          "zh": "B：不是我的。是我爸爸的。",
+          "py": "B: Bú shì wǒ de. Shì wǒ bàba de.",
+          "en": "B: No, it's my father's."
+        },
+        {
+          "zh": "A：多少钱买的？",
+          "py": "A: Duōshao qián mǎi de?",
+          "en": "A: How much was it?"
+        },
+        {
+          "zh": "B：三千多块。",
+          "py": "B: Sānqiān duō kuài.",
+          "en": "B: Over 3,000 yuan."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：这是今天早上的报纸吗？",
+          "py": "A: Zhè shì jīntiān zǎoshang de bàozhǐ ma?",
+          "en": "A: Is this this morning's newspaper?"
+        },
+        {
+          "zh": "B：不是，是昨天的。",
+          "py": "B: Bú shì, shì zuótiān de.",
+          "en": "B: No, it's yesterday's."
+        },
+        {
+          "zh": "A：你听，是不是送报纸的来了？",
+          "py": "A: Nǐ tīng, shì bu shì sòng bàozhǐ de lái le?",
+          "en": "A: Listen — is that the newspaper delivery?"
+        },
+        {
+          "zh": "B：我看一下。不是，是送牛奶的。",
+          "py": "B: Wǒ kàn yíxià. Bú shì, shì sòng niúnǎi de.",
+          "en": "B: Let me see. No, it's the milkman."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：这是谁的房间？",
+          "py": "A: Zhè shì shéi de fángjiān?",
+          "en": "A: Whose room is this?"
+        },
+        {
+          "zh": "B：这是我和我丈夫的，旁边那个小的房间是我女儿的。",
+          "py": "B: Zhè shì wǒ hé wǒ zhàngfu de, pángbiān nàge xiǎo de fángjiān shì wǒ nǚ'ér de.",
+          "en": "B: It's my husband's and mine. The small one next to it is my daughter's."
+        },
+        {
+          "zh": "A：你女儿的房间真漂亮！都是粉色的。",
+          "py": "A: Nǐ nǚ'ér de fángjiān zhēn piàoliang! Dōu shì fěnsè de.",
+          "en": "A: Your daughter's room is so pretty! It's all pink."
+        },
+        {
+          "zh": "B：是啊，粉色是我女儿最喜欢的颜色。",
+          "py": "B: Shì a, fěnsè shì wǒ nǚ'ér zuì xǐhuan de yánsè.",
+          "en": "B: Yes, pink is her favourite colour."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在办公室 — In the office",
+      "items": [
+        {
+          "zh": "A：你看见我的杯子了吗？",
+          "py": "A: Nǐ kànjiàn wǒ de bēizi le ma?",
+          "en": "A: Have you seen my cup?"
+        },
+        {
+          "zh": "B：这里有几个杯子，哪个是你的？",
+          "py": "B: Zhèli yǒu jǐ ge bēizi, nǎge shì nǐ de?",
+          "en": "B: There are a few cups here. Which one is yours?"
+        },
+        {
+          "zh": "A：左边那个红色的是我的。",
+          "py": "A: Zuǒbian nàge hóngsè de shì wǒ de.",
+          "en": "A: The red one on the left is mine."
+        },
+        {
+          "zh": "B：给你。",
+          "py": "B: Gěi nǐ.",
+          "en": "B: Here you are."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 3)",
+      "items": [
+        {
+          "zh": "手表",
+          "py": "shǒubiǎo",
+          "en": "watch"
+        },
+        {
+          "zh": "千",
+          "py": "qiān",
+          "en": "thousand"
+        },
+        {
+          "zh": "报纸",
+          "py": "bàozhǐ",
+          "en": "newspaper"
+        },
+        {
+          "zh": "送",
+          "py": "sòng",
+          "en": "to send, to deliver"
+        },
+        {
+          "zh": "一下",
+          "py": "yíxià",
+          "en": "(verb) a bit, briefly"
+        },
+        {
+          "zh": "牛奶",
+          "py": "niúnǎi",
+          "en": "milk"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "en": "room"
+        },
+        {
+          "zh": "丈夫",
+          "py": "zhàngfu",
+          "en": "husband"
+        },
+        {
+          "zh": "旁边",
+          "py": "pángbiān",
+          "en": "beside"
+        },
+        {
+          "zh": "真",
+          "py": "zhēn",
+          "en": "really, indeed"
+        },
+        {
+          "zh": "粉色",
+          "py": "fěnsè",
+          "en": "pink"
+        },
+        {
+          "zh": "颜色",
+          "py": "yánsè",
+          "en": "colour"
+        },
+        {
+          "zh": "左边",
+          "py": "zuǒbian",
+          "en": "left side"
+        },
+        {
+          "zh": "红色",
+          "py": "hóngsè",
+          "en": "red"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“的”字短语)",
+      "items": [
+        {
+          "zh": "这本书不是我的。",
+          "py": "Zhè běn shū bú shì wǒ de.",
+          "en": "This book isn't mine (= 我的书)."
+        },
+        {
+          "zh": "这个杯子是昨天买的。",
+          "py": "Zhège bēizi shì zuótiān mǎi de.",
+          "en": "This cup was bought yesterday (= 昨天买的杯子)."
+        },
+        {
+          "zh": "这块手表是你的吗？",
+          "py": "Zhè kuài shǒubiǎo shì nǐ de ma?",
+          "en": "Is this watch yours?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (动词 + 一下)",
+      "items": [
+        {
+          "zh": "我看一下。",
+          "py": "Wǒ kàn yíxià.",
+          "en": "Let me have a look."
+        },
+        {
+          "zh": "你休息一下吧。",
+          "py": "Nǐ xiūxi yíxià ba.",
+          "en": "Have a little rest."
+        },
+        {
+          "zh": "我问一下老师。",
+          "py": "Wǒ wèn yíxià lǎoshī.",
+          "en": "I'll just ask the teacher."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (语气副词“真” + Adj)",
+      "items": [
+        {
+          "zh": "你真好！",
+          "py": "Nǐ zhēn hǎo!",
+          "en": "You're so kind!"
+        },
+        {
+          "zh": "今天天气真好！",
+          "py": "Jīntiān tiānqì zhēn hǎo!",
+          "en": "The weather is really nice today!"
+        },
+        {
+          "zh": "你女儿的房间真漂亮！",
+          "py": "Nǐ nǚ'ér de fángjiān zhēn piàoliang!",
+          "en": "Your daughter's room is really pretty!"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "爸爸的手表多少钱？",
+          "py": "Bàba de shǒubiǎo duōshao qián?",
+          "en": "How much was dad's watch?"
+        },
+        {
+          "zh": "送报纸的来了吗？",
+          "py": "Sòng bàozhǐ de lái le ma?",
+          "en": "Has the newspaper been delivered?"
+        },
+        {
+          "zh": "旁边那个小的房间是谁的？",
+          "py": "Pángbiān nàge xiǎo de fángjiān shì shéi de?",
+          "en": "Whose is the small room next door?"
+        },
+        {
+          "zh": "她女儿的房间怎么样？",
+          "py": "Tā nǚ'ér de fángjiān zěnmeyàng?",
+          "en": "What is her daughter's room like?"
+        },
+        {
+          "zh": "哪个杯子是她的？",
+          "py": "Nǎge bēizi shì tā de?",
+          "en": "Which cup is hers?"
+        }
+      ]
+    }
+  ]
+}

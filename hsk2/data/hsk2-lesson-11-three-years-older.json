@@ -1,0 +1,281 @@
+{
+  "title": "第11课 · 他比我大三岁",
+  "subtitle": "HSK 2 · Lesson 11 — 他比我大三岁 · He is three years older than me",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在歌厅 — In a karaoke bar",
+      "items": [
+        {
+          "zh": "A：王方，昨天和你一起唱歌的人是谁？",
+          "py": "A: Wáng Fāng, zuótiān hé nǐ yìqǐ chàng gē de rén shì shéi?",
+          "en": "A: Wang Fang, who was singing with you yesterday?"
+        },
+        {
+          "zh": "B：一个朋友。",
+          "py": "B: Yí ge péngyou.",
+          "en": "B: A friend."
+        },
+        {
+          "zh": "A：什么朋友？是不是男朋友？",
+          "py": "A: Shénme péngyou? Shì bu shì nánpéngyou?",
+          "en": "A: What kind of friend? A boyfriend?"
+        },
+        {
+          "zh": "B：不是不是，我同学介绍的，昨天第一次见。",
+          "py": "B: Bú shì bú shì, wǒ tóngxué jièshào de, zuótiān dì yī cì jiàn.",
+          "en": "B: No, no. A classmate introduced us — we met for the first time yesterday."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在宿舍 — In the dorm",
+      "items": [
+        {
+          "zh": "A：左边这个看报纸的女孩子是你姐姐吗？",
+          "py": "A: Zuǒbian zhège kàn bàozhǐ de nǚ háizi shì nǐ jiějie ma?",
+          "en": "A: Is the girl on the left reading the paper your elder sister?"
+        },
+        {
+          "zh": "B：是，右边写字的那个人是我哥哥。",
+          "py": "B: Shì, yòubian xiě zì de nàge rén shì wǒ gēge.",
+          "en": "B: Yes, and the one on the right writing is my elder brother."
+        },
+        {
+          "zh": "A：你哥哥多大？",
+          "py": "A: Nǐ gēge duō dà?",
+          "en": "A: How old is your brother?"
+        },
+        {
+          "zh": "B：25岁，他比我大三岁。",
+          "py": "B: Èrshíwǔ suì, tā bǐ wǒ dà sān suì.",
+          "en": "B: 25. He's three years older than me."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在商店 — At a store",
+      "items": [
+        {
+          "zh": "A：今天的西瓜怎么卖？",
+          "py": "A: Jīntiān de xīguā zěnme mài?",
+          "en": "A: How much are the watermelons today?"
+        },
+        {
+          "zh": "B：三块五一斤。",
+          "py": "B: Sān kuài wǔ yì jīn.",
+          "en": "B: Three fifty a jin (500 g)."
+        },
+        {
+          "zh": "A：比昨天便宜。",
+          "py": "A: Bǐ zuótiān piányi.",
+          "en": "A: Cheaper than yesterday."
+        },
+        {
+          "zh": "B：是，苹果也比昨天便宜一些。您来点儿吧。",
+          "py": "B: Shì, píngguǒ yě bǐ zuótiān piányi yìxiē. Nín lái diǎnr ba.",
+          "en": "B: Yes, apples are a bit cheaper too. Why not take some?"
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在学校 — In the school",
+      "items": [
+        {
+          "zh": "A：前边说话的那个人就是我的汉语老师。你可能不认识她。",
+          "py": "A: Qiánbian shuō huà de nàge rén jiù shì wǒ de Hànyǔ lǎoshī. Nǐ kěnéng bú rènshi tā.",
+          "en": "A: The woman talking in front is my Chinese teacher. You may not know her."
+        },
+        {
+          "zh": "B：是新来的汉语老师吗？",
+          "py": "B: Shì xīn lái de Hànyǔ lǎoshī ma?",
+          "en": "B: Is she the new Chinese teacher?"
+        },
+        {
+          "zh": "A：是去年来的，她姓王，28岁。",
+          "py": "A: Shì qùnián lái de, tā xìng Wáng, èrshíbā suì.",
+          "en": "A: She came last year. Her surname is Wang, she's 28."
+        },
+        {
+          "zh": "B：她比我们老师小两岁。",
+          "py": "B: Tā bǐ wǒmen lǎoshī xiǎo liǎng suì.",
+          "en": "B: She's two years younger than our teacher."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 11)",
+      "items": [
+        {
+          "zh": "唱歌",
+          "py": "chàng gē",
+          "en": "to sing"
+        },
+        {
+          "zh": "男",
+          "py": "nán",
+          "en": "male"
+        },
+        {
+          "zh": "女",
+          "py": "nǚ",
+          "en": "female"
+        },
+        {
+          "zh": "孩子",
+          "py": "háizi",
+          "en": "child"
+        },
+        {
+          "zh": "右边",
+          "py": "yòubian",
+          "en": "right side"
+        },
+        {
+          "zh": "比",
+          "py": "bǐ",
+          "en": "than (comparison)"
+        },
+        {
+          "zh": "便宜",
+          "py": "piányi",
+          "en": "cheap"
+        },
+        {
+          "zh": "说话",
+          "py": "shuō huà",
+          "en": "to speak, to talk"
+        },
+        {
+          "zh": "可能",
+          "py": "kěnéng",
+          "en": "maybe, probably"
+        },
+        {
+          "zh": "去年",
+          "py": "qùnián",
+          "en": "last year"
+        },
+        {
+          "zh": "姓",
+          "py": "xìng",
+          "en": "to be surnamed; surname"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (动词结构 + 的 + noun)",
+      "items": [
+        {
+          "zh": "新买的自行车",
+          "py": "xīn mǎi de zìxíngchē",
+          "en": "the newly bought bike"
+        },
+        {
+          "zh": "我妈妈做的饭",
+          "py": "wǒ māma zuò de fàn",
+          "en": "the food my mum makes"
+        },
+        {
+          "zh": "和你一起唱歌的人",
+          "py": "hé nǐ yìqǐ chàng gē de rén",
+          "en": "the person who sang with you"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“比”字句 A 比 B + Adj)",
+      "items": [
+        {
+          "zh": "哥哥比姐姐高。",
+          "py": "Gēge bǐ jiějie gāo.",
+          "en": "My brother is taller than my sister."
+        },
+        {
+          "zh": "今天比昨天热。",
+          "py": "Jīntiān bǐ zuótiān rè.",
+          "en": "Today is hotter than yesterday."
+        },
+        {
+          "zh": "今天的西瓜比昨天便宜。",
+          "py": "Jīntiān de xīguā bǐ zuótiān piányi.",
+          "en": "Today's watermelons are cheaper than yesterday's."
+        },
+        {
+          "zh": "哥哥没有姐姐高。",
+          "py": "Gēge méiyǒu jiějie gāo.",
+          "en": "My brother isn't as tall as my sister."
+        },
+        {
+          "zh": "西瓜比苹果贵两块钱。",
+          "py": "Xīguā bǐ píngguǒ guì liǎng kuài qián.",
+          "en": "Watermelon is two yuan dearer than apples."
+        },
+        {
+          "zh": "我的学习比他好一点儿。",
+          "py": "Wǒ de xuéxí bǐ tā hǎo yìdiǎnr.",
+          "en": "I do a little better at school than him."
+        },
+        {
+          "zh": "今天比昨天热得多。",
+          "py": "Jīntiān bǐ zuótiān rè de duō.",
+          "en": "Today is much hotter than yesterday."
+        },
+        {
+          "zh": "她比我们老师小两岁。",
+          "py": "Tā bǐ wǒmen lǎoshī xiǎo liǎng suì.",
+          "en": "She's two years younger than our teacher."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (助动词“可能”)",
+      "items": [
+        {
+          "zh": "他可能早就知道这件事情了。",
+          "py": "Tā kěnéng zǎo jiù zhīdào zhè jiàn shìqing le.",
+          "en": "He probably knew about this long ago."
+        },
+        {
+          "zh": "可能我明天不来上课了。",
+          "py": "Kěnéng wǒ míngtiān bù lái shàngkè le.",
+          "en": "Maybe I won't come to class tomorrow."
+        },
+        {
+          "zh": "你可能不认识她。",
+          "py": "Nǐ kěnéng bú rènshi tā.",
+          "en": "You may not know her."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "昨天和王方一起唱歌的人是谁？",
+          "py": "Zuótiān hé Wáng Fāng yìqǐ chàng gē de rén shì shéi?",
+          "en": "Who sang with Wang Fang yesterday?"
+        },
+        {
+          "zh": "左边看报纸的女孩子是谁？",
+          "py": "Zuǒbian kàn bàozhǐ de nǚ háizi shì shéi?",
+          "en": "Who is the girl on the left reading the paper?"
+        },
+        {
+          "zh": "她的哥哥25岁了，她多大了？",
+          "py": "Tā de gēge èrshíwǔ suì le, tā duō dà le?",
+          "en": "Her brother is 25 — how old is she?"
+        },
+        {
+          "zh": "昨天的西瓜可能卖多少钱？",
+          "py": "Zuótiān de xīguā kěnéng mài duōshao qián?",
+          "en": "What might watermelons have cost yesterday?"
+        },
+        {
+          "zh": "王老师是新老师吗？",
+          "py": "Wáng lǎoshī shì xīn lǎoshī ma?",
+          "en": "Is Teacher Wang a new teacher?"
+        }
+      ]
+    }
+  ]
+}

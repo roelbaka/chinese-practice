@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HSK 2 · Chinese Practice</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --card: #1a1a2e;
+    --card-hover: #222244;
+    --accent: #e94560;
+    --text: #eee;
+    --text-muted: #999;
+    --border: #2a2a4a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    padding: 2rem 1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  }
+  header h1 { font-size: 2rem; font-weight: 300; letter-spacing: 2px; }
+  header h1 span { color: var(--accent); font-weight: 600; }
+  header p { color: var(--text-muted); margin-top: .4rem; font-size: .95rem; }
+  .lessons {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .lesson-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem 1.8rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: all .25s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lesson-card:hover { background: var(--card-hover); border-color: var(--accent); transform: translateX(4px); }
+  .lesson-card .info h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: .3rem; }
+  .lesson-card .info p { color: var(--text-muted); font-size: .85rem; line-height: 1.4; }
+  .lesson-card .lesson-num {
+    background: var(--accent);
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .3rem .7rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 1rem;
+  }
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.4rem; }
+    .lesson-card { flex-direction: column; align-items: flex-start; gap: .8rem; }
+    .lesson-card .lesson-num { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="../" style="color:var(--text-muted);text-decoration:none;font-size:.85rem;display:inline-block;margin-bottom:.5rem;">&larr; Back to classes</a>
+  <h1>HSK <span>2</span></h1>
+  <p>HSK标准教程2 · HSK Standard Course 2 (Lessons 1–15)</p>
+</header>
+<div class="lessons">
+  <a href="lesson.html?id=hsk2-lesson-01-best-time-beijing" class="lesson-card">
+    <div class="info">
+      <h3>第一课 · 九月去北京旅游最好</h3>
+      <p>September is the best time to visit Beijing · 要 (want to), 最 (most), approximate numbers with 几 and 多</p>
+    </div>
+    <div class="lesson-num">Lesson 1</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-02-six-every-day" class="lesson-card">
+    <div class="info">
+      <h3>第二课 · 我每天六点起床</h3>
+      <p>I get up at six every day · 是不是 questions, 每 (every), 多 + adjective (how tall / old)</p>
+    </div>
+    <div class="lesson-num">Lesson 2</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-03-red-one-mine" class="lesson-card">
+    <div class="info">
+      <h3>第三课 · 左边那个红色的是我的</h3>
+      <p>The red one on the left is mine · 的-phrases (mine, yesterday&#x27;s), verb + 一下, 真 + adjective</p>
+    </div>
+    <div class="lesson-num">Lesson 3</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-04-recommended-me" class="lesson-card">
+    <div class="info">
+      <h3>第四课 · 这个工作是他帮我介绍的</h3>
+      <p>He recommended me for this job · 是……的 (who did it), ……的时候 (when), 已经 (already)</p>
+    </div>
+    <div class="lesson-num">Lesson 4</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-05-take-this-one" class="lesson-card">
+    <div class="info">
+      <h3>第五课 · 就买这件吧</h3>
+      <p>Take this one · 就 (then / just), 还 + adj (passable), 有点儿 (a bit)</p>
+    </div>
+    <div class="lesson-num">Lesson 5</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-06-why-not-eat" class="lesson-card">
+    <div class="info">
+      <h3>第六课 · 你怎么不吃了</h3>
+      <p>Why don&#x27;t you eat more · 怎么 (how come), reduplicated measure words (天天, 个个), 因为……所以……</p>
+    </div>
+    <div class="lesson-num">Lesson 6</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-07-far-from-company" class="lesson-card">
+    <div class="info">
+      <h3>第七课 · 你家离公司远吗</h3>
+      <p>Do you live far from your company · 还 (still), 就 (as early as / only), 离 (distance), 呢 for emphasis</p>
+    </div>
+    <div class="lesson-num">Lesson 7</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-08-let-me-think" class="lesson-card">
+    <div class="info">
+      <h3>第八课 · 让我想想再告诉你</h3>
+      <p>Let me think about it and I&#x27;ll tell you later · ……好吗？, 再 (again / then), pivot sentences with 让 / 请 / 叫, verb reduplication</p>
+    </div>
+    <div class="lesson-num">Lesson 8</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-09-too-many-questions" class="lesson-card">
+    <div class="info">
+      <h3>第九课 · 题太多，我没做完</h3>
+      <p>There were too many questions; I didn&#x27;t finish all of them · Result complements (看见, 听懂, 做完, 找到), 从……到……, 第一</p>
+    </div>
+    <div class="lesson-num">Lesson 9</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-10-phone-on-desk" class="lesson-card">
+    <div class="info">
+      <h3>第十课 · 别找了，手机在桌子上呢</h3>
+      <p>Stop looking for your cell phone; it&#x27;s on the desk · 不要……了 / 别……了 (stop doing), 对 (good for, helpful to), 正在</p>
+    </div>
+    <div class="lesson-num">Lesson 10</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-11-three-years-older" class="lesson-card">
+    <div class="info">
+      <h3>第十一课 · 他比我大三岁</h3>
+      <p>He is three years older than me · Verb phrase + 的, 比 comparisons (and 没有), 可能 (maybe)</p>
+    </div>
+    <div class="lesson-num">Lesson 11</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-12-wear-too-little" class="lesson-card">
+    <div class="info">
+      <h3>第十二课 · 你穿得太少了</h3>
+      <p>You wear too little · Degree complements (V + 得 + adj), 比 with 得</p>
+    </div>
+    <div class="lesson-num">Lesson 12</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-13-door-open" class="lesson-card">
+    <div class="info">
+      <h3>第十三课 · 门开着呢</h3>
+      <p>The door is open · 着 (ongoing state), 不是……吗 (rhetorical), 往 (towards), giving directions</p>
+    </div>
+    <div class="lesson-num">Lesson 13</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-14-seen-that-movie" class="lesson-card">
+    <div class="info">
+      <h3>第十四课 · 你看过那个电影吗</h3>
+      <p>Have you seen that movie · 过 (experience), 虽然……但是……, 次 (number of times)</p>
+    </div>
+    <div class="lesson-num">Lesson 14</div>
+  </a>
+
+  <a href="lesson.html?id=hsk2-lesson-15-new-year-coming" class="lesson-card">
+    <div class="info">
+      <h3>第十五课 · 新年就要到了</h3>
+      <p>The New Year is coming · 快要 / 就要……了 (about to), 都……了 (already)</p>
+    </div>
+    <div class="lesson-num">Lesson 15</div>
+  </a>
+</div>
+<script src="../nav.js" defer></script>
+</body>
+</html>

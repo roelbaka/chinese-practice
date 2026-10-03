@@ -1,0 +1,281 @@
+{
+  "title": "第4课 · 这个工作是他帮我介绍的",
+  "subtitle": "HSK 2 · Lesson 4 — 这个工作是他帮我介绍的 · He recommended me for this job",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "A：生日快乐！这是送给你的！",
+          "py": "A: Shēngrì kuàilè! Zhè shì sòng gěi nǐ de!",
+          "en": "A: Happy birthday! This is for you."
+        },
+        {
+          "zh": "B：是什么？是一本书吗？",
+          "py": "B: Shì shénme? Shì yì běn shū ma?",
+          "en": "B: What is it? Is it a book?"
+        },
+        {
+          "zh": "A：对，这本书是我写的。",
+          "py": "A: Duì, zhè běn shū shì wǒ xiě de.",
+          "en": "A: Yes. It's a book I wrote."
+        },
+        {
+          "zh": "B：太谢谢你了！",
+          "py": "B: Tài xièxie nǐ le!",
+          "en": "B: Thank you so much!"
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：早上有你一个电话。",
+          "py": "A: Zǎoshang yǒu nǐ yí ge diànhuà.",
+          "en": "A: Someone called you this morning."
+        },
+        {
+          "zh": "B：电话是谁打的？",
+          "py": "B: Diànhuà shì shéi dǎ de?",
+          "en": "B: Who called?"
+        },
+        {
+          "zh": "A：不知道，是儿子接的。",
+          "py": "A: Bù zhīdào, shì érzi jiē de.",
+          "en": "A: I don't know. Our son answered it."
+        },
+        {
+          "zh": "B：好，晚上我问一下儿子。",
+          "py": "B: Hǎo, wǎnshang wǒ wèn yíxià érzi.",
+          "en": "B: OK, I'll ask him this evening."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在运动场 — On the playground",
+      "items": [
+        {
+          "zh": "A：你喜欢踢足球吗？",
+          "py": "A: Nǐ xǐhuan tī zúqiú ma?",
+          "en": "A: Do you like playing football?"
+        },
+        {
+          "zh": "B：非常喜欢。",
+          "py": "B: Fēicháng xǐhuan.",
+          "en": "B: Very much."
+        },
+        {
+          "zh": "A：你是什么时候开始踢足球的？",
+          "py": "A: Nǐ shì shénme shíhou kāishǐ tī zúqiú de?",
+          "en": "A: When did you start playing football?"
+        },
+        {
+          "zh": "B：我十一岁的时候开始踢足球，已经踢了十年了。",
+          "py": "B: Wǒ shíyī suì de shíhou kāishǐ tī zúqiú, yǐjīng tīle shí nián le.",
+          "en": "B: I started when I was 11. I've been playing for ten years now."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在公司 — In the company",
+      "items": [
+        {
+          "zh": "A：你在这儿工作多长时间了？",
+          "py": "A: Nǐ zài zhèr gōngzuò duō cháng shíjiān le?",
+          "en": "A: How long have you been working here?"
+        },
+        {
+          "zh": "B：已经两年多了，我是2011年来的。",
+          "py": "B: Yǐjīng liǎng nián duō le, wǒ shì èr líng yī yī nián lái de.",
+          "en": "B: More than two years now. I came in 2011."
+        },
+        {
+          "zh": "A：你认识谢先生吗？",
+          "py": "A: Nǐ rènshi Xiè xiānsheng ma?",
+          "en": "A: Do you know Mr Xie?"
+        },
+        {
+          "zh": "B：认识，我们是大学同学，这个工作是他帮我介绍的。",
+          "py": "B: Rènshi, wǒmen shì dàxué tóngxué, zhège gōngzuò shì tā bāng wǒ jièshào de.",
+          "en": "B: Yes, we were classmates at university. He recommended me for this job."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 4)",
+      "items": [
+        {
+          "zh": "生日",
+          "py": "shēngrì",
+          "en": "birthday"
+        },
+        {
+          "zh": "快乐",
+          "py": "kuàilè",
+          "en": "happy"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to, for (after a verb)"
+        },
+        {
+          "zh": "接",
+          "py": "jiē",
+          "en": "to receive, to answer (a call)"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "en": "evening"
+        },
+        {
+          "zh": "问",
+          "py": "wèn",
+          "en": "to ask"
+        },
+        {
+          "zh": "非常",
+          "py": "fēicháng",
+          "en": "very, extremely"
+        },
+        {
+          "zh": "开始",
+          "py": "kāishǐ",
+          "en": "to begin, to start"
+        },
+        {
+          "zh": "已经",
+          "py": "yǐjīng",
+          "en": "already"
+        },
+        {
+          "zh": "长",
+          "py": "cháng",
+          "en": "long"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two"
+        },
+        {
+          "zh": "帮",
+          "py": "bāng",
+          "en": "to help"
+        },
+        {
+          "zh": "介绍",
+          "py": "jièshào",
+          "en": "to introduce, to recommend"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“是……的” who did it)",
+      "items": [
+        {
+          "zh": "这本书是我买的。",
+          "py": "Zhè běn shū shì wǒ mǎi de.",
+          "en": "I'm the one who bought this book."
+        },
+        {
+          "zh": "晚饭是妈妈做的。",
+          "py": "Wǎnfàn shì māma zuò de.",
+          "en": "Mum made dinner."
+        },
+        {
+          "zh": "电话是谁打的？",
+          "py": "Diànhuà shì shéi dǎ de?",
+          "en": "Who made the call?"
+        },
+        {
+          "zh": "这个汉字不是大卫写的。",
+          "py": "Zhège Hànzì bú shì Dàwèi xiě de.",
+          "en": "David didn't write this character."
+        },
+        {
+          "zh": "电话不是我接的。",
+          "py": "Diànhuà bú shì wǒ jiē de.",
+          "en": "I wasn't the one who answered the phone."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (……的时候 when…)",
+      "items": [
+        {
+          "zh": "今天早上八点的时候我没在家。",
+          "py": "Jīntiān zǎoshang bā diǎn de shíhou wǒ méi zài jiā.",
+          "en": "At eight this morning I wasn't home."
+        },
+        {
+          "zh": "我十八岁的时候一个人来到北京。",
+          "py": "Wǒ shíbā suì de shíhou yí ge rén láidào Běijīng.",
+          "en": "When I was 18 I came to Beijing on my own."
+        },
+        {
+          "zh": "我睡觉的时候，我妈妈在做饭。",
+          "py": "Wǒ shuì jiào de shíhou, wǒ māma zài zuò fàn.",
+          "en": "While I was sleeping, my mum was cooking."
+        },
+        {
+          "zh": "麦克到学校的时候下雨了。",
+          "py": "Màikè dào xuéxiào de shíhou xià yǔ le.",
+          "en": "When Mike got to school it started raining."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (时间副词“已经”)",
+      "items": [
+        {
+          "zh": "王老师已经回家了。",
+          "py": "Wáng lǎoshī yǐjīng huí jiā le.",
+          "en": "Teacher Wang has already gone home."
+        },
+        {
+          "zh": "我的身体已经好了。",
+          "py": "Wǒ de shēntǐ yǐjīng hǎo le.",
+          "en": "I'm already better."
+        },
+        {
+          "zh": "足球我已经踢了十年了。",
+          "py": "Zúqiú wǒ yǐjīng tīle shí nián le.",
+          "en": "I've been playing football for ten years."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "这本书是谁写的？",
+          "py": "Zhè běn shū shì shéi xiě de?",
+          "en": "Who wrote this book?"
+        },
+        {
+          "zh": "早上的电话是谁接的？",
+          "py": "Zǎoshang de diànhuà shì shéi jiē de?",
+          "en": "Who answered the phone this morning?"
+        },
+        {
+          "zh": "他是什么时候开始踢足球的？",
+          "py": "Tā shì shénme shíhou kāishǐ tī zúqiú de?",
+          "en": "When did he start playing football?"
+        },
+        {
+          "zh": "他在那儿工作多长时间了？",
+          "py": "Tā zài nàr gōngzuò duō cháng shíjiān le?",
+          "en": "How long has he worked there?"
+        },
+        {
+          "zh": "工作是谁帮他介绍的？",
+          "py": "Gōngzuò shì shéi bāng tā jièshào de?",
+          "en": "Who recommended him for the job?"
+        }
+      ]
+    }
+  ]
+}

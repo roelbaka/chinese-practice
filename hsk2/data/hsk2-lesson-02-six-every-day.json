@@ -1,0 +1,286 @@
+{
+  "title": "第2课 · 我每天六点起床",
+  "subtitle": "HSK 2 · Lesson 2 — 我每天六点起床 · I get up at six every day",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在运动场 — On the playground",
+      "items": [
+        {
+          "zh": "A：你很少生病，是不是喜欢运动？",
+          "py": "A: Nǐ hěn shǎo shēng bìng, shì bu shì xǐhuan yùndòng?",
+          "en": "A: You seldom get sick. You like sports, don't you?"
+        },
+        {
+          "zh": "B：是啊，我每天早上都要出去跑步。",
+          "py": "B: Shì a, wǒ měi tiān zǎoshang dōu yào chūqu pǎo bù.",
+          "en": "B: Yes. I go out for a run every morning."
+        },
+        {
+          "zh": "A：你每天几点起床？",
+          "py": "A: Nǐ měi tiān jǐ diǎn qǐ chuáng?",
+          "en": "A: What time do you get up?"
+        },
+        {
+          "zh": "B：我每天六点起床。",
+          "py": "B: Wǒ měi tiān liù diǎn qǐ chuáng.",
+          "en": "B: I get up at six every day."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在医院 — In the hospital",
+      "items": [
+        {
+          "zh": "A：吃药了吗？现在身体怎么样？",
+          "py": "A: Chī yào le ma? Xiànzài shēntǐ zěnmeyàng?",
+          "en": "A: Did you take your medicine? How do you feel now?"
+        },
+        {
+          "zh": "B：吃了。现在好多了。",
+          "py": "B: Chī le. Xiànzài hǎo duō le.",
+          "en": "B: Yes. I feel much better now."
+        },
+        {
+          "zh": "A：什么时候能出院？",
+          "py": "A: Shénme shíhou néng chū yuàn?",
+          "en": "A: When can you leave the hospital?"
+        },
+        {
+          "zh": "B：医生说下个星期。",
+          "py": "B: Yīshēng shuō xià ge xīngqī.",
+          "en": "B: Next week, the doctor says."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在操场 — On the sports ground",
+      "items": [
+        {
+          "zh": "A：大卫今年多大？",
+          "py": "A: Dàwèi jīnnián duō dà?",
+          "en": "A: How old is David?"
+        },
+        {
+          "zh": "B：二十多岁。",
+          "py": "B: Èrshí duō suì.",
+          "en": "B: Twenty-something."
+        },
+        {
+          "zh": "A：他多高？",
+          "py": "A: Tā duō gāo?",
+          "en": "A: How tall is he?"
+        },
+        {
+          "zh": "B：一米八几。",
+          "py": "B: Yì mǐ bā jǐ.",
+          "en": "B: Over 1.80 metres."
+        },
+        {
+          "zh": "A：你怎么知道这么多啊？",
+          "py": "A: Nǐ zěnme zhīdào zhème duō a?",
+          "en": "A: How come you know so much about him?"
+        },
+        {
+          "zh": "B：他是我同学。",
+          "py": "B: Tā shì wǒ tóngxué.",
+          "en": "B: He's my classmate."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在房间 — In the room",
+      "items": [
+        {
+          "zh": "A：张老师星期六也不休息啊？",
+          "py": "A: Zhāng lǎoshī xīngqī liù yě bù xiūxi a?",
+          "en": "A: Doesn't Teacher Zhang rest on Saturdays either?"
+        },
+        {
+          "zh": "B：是啊，他这几天很忙，没有时间休息。",
+          "py": "B: Shì a, tā zhè jǐ tiān hěn máng, méiyǒu shíjiān xiūxi.",
+          "en": "B: No. He's been very busy lately and has no time to rest."
+        },
+        {
+          "zh": "A：那会很累吧？",
+          "py": "A: Nà huì hěn lèi ba?",
+          "en": "A: That must be tiring."
+        },
+        {
+          "zh": "B：他每天回来都很累。",
+          "py": "B: Tā měi tiān huílai dōu hěn lèi.",
+          "en": "B: He comes home exhausted every day."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 2)",
+      "items": [
+        {
+          "zh": "生病",
+          "py": "shēng bìng",
+          "en": "to fall ill"
+        },
+        {
+          "zh": "每",
+          "py": "měi",
+          "en": "every, each"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "en": "morning"
+        },
+        {
+          "zh": "跑步",
+          "py": "pǎo bù",
+          "en": "to run, to jog"
+        },
+        {
+          "zh": "起床",
+          "py": "qǐ chuáng",
+          "en": "to get up"
+        },
+        {
+          "zh": "药",
+          "py": "yào",
+          "en": "medicine"
+        },
+        {
+          "zh": "身体",
+          "py": "shēntǐ",
+          "en": "body; health"
+        },
+        {
+          "zh": "出院",
+          "py": "chū yuàn",
+          "en": "to leave hospital"
+        },
+        {
+          "zh": "出",
+          "py": "chū",
+          "en": "to go out"
+        },
+        {
+          "zh": "高",
+          "py": "gāo",
+          "en": "tall, high"
+        },
+        {
+          "zh": "米",
+          "py": "mǐ",
+          "en": "metre"
+        },
+        {
+          "zh": "知道",
+          "py": "zhīdào",
+          "en": "to know"
+        },
+        {
+          "zh": "休息",
+          "py": "xiūxi",
+          "en": "to rest"
+        },
+        {
+          "zh": "忙",
+          "py": "máng",
+          "en": "busy"
+        },
+        {
+          "zh": "时间",
+          "py": "shíjiān",
+          "en": "time"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (用“是不是”的问句)",
+      "items": [
+        {
+          "zh": "你很少生病，是不是喜欢运动？",
+          "py": "Nǐ hěn shǎo shēng bìng, shì bu shì xǐhuan yùndòng?",
+          "en": "You rarely get ill — you like sport, don't you?"
+        },
+        {
+          "zh": "是不是明天爸爸休息？",
+          "py": "Shì bu shì míngtiān bàba xiūxi?",
+          "en": "Dad is off tomorrow, isn't he?"
+        },
+        {
+          "zh": "我们星期一去北京，是不是？",
+          "py": "Wǒmen xīngqī yī qù Běijīng, shì bu shì?",
+          "en": "We're going to Beijing on Monday, right?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (代词“每”)",
+      "items": [
+        {
+          "zh": "山姆每年都去中国旅游。",
+          "py": "Shānmǔ měi nián dōu qù Zhōngguó lǚyóu.",
+          "en": "Sam travels to China every year."
+        },
+        {
+          "zh": "你每个星期六都工作吗？",
+          "py": "Nǐ měi ge xīngqī liù dōu gōngzuò ma?",
+          "en": "Do you work every Saturday?"
+        },
+        {
+          "zh": "我每天六点起床。",
+          "py": "Wǒ měi tiān liù diǎn qǐ chuáng.",
+          "en": "I get up at six every day."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问代词“多” + Adj)",
+      "items": [
+        {
+          "zh": "你多大？——我16岁。",
+          "py": "Nǐ duō dà? — Wǒ shíliù suì.",
+          "en": "How old are you? — I'm 16."
+        },
+        {
+          "zh": "王医生的儿子多高？——他儿子一米七。",
+          "py": "Wáng yīshēng de érzi duō gāo? — Tā érzi yì mǐ qī.",
+          "en": "How tall is Dr Wang's son? — 1.70 m."
+        },
+        {
+          "zh": "他多高？——一米八几。",
+          "py": "Tā duō gāo? — Yì mǐ bā jǐ.",
+          "en": "How tall is he? — Over 1.80 m."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "他为什么很少生病？",
+          "py": "Tā wèi shénme hěn shǎo shēng bìng?",
+          "en": "Why does he rarely get ill?"
+        },
+        {
+          "zh": "他每天几点起床？",
+          "py": "Tā měi tiān jǐ diǎn qǐ chuáng?",
+          "en": "What time does he get up every day?"
+        },
+        {
+          "zh": "她现在身体怎么样？",
+          "py": "Tā xiànzài shēntǐ zěnmeyàng?",
+          "en": "How is she feeling now?"
+        },
+        {
+          "zh": "大卫今年多高？多大？",
+          "py": "Dàwèi jīnnián duō gāo? Duō dà?",
+          "en": "How tall and how old is David?"
+        },
+        {
+          "zh": "张老师星期六休息吗？",
+          "py": "Zhāng lǎoshī xīngqī liù xiūxi ma?",
+          "en": "Does Teacher Zhang rest on Saturday?"
+        }
+      ]
+    }
+  ]
+}

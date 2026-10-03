@@ -1,0 +1,276 @@
+{
+  "title": "第9课 · 题太多，我没做完",
+  "subtitle": "HSK 2 · Lesson 9 — 题太多，我没做完 · There were too many questions; I didn't finish all of them",
+  "data": [
+    {
+      "topic": "课文1 · 1. 打电话 — On the phone",
+      "items": [
+        {
+          "zh": "A：你好！请问张欢在吗？",
+          "py": "A: Nǐ hǎo! Qǐngwèn Zhāng Huān zài ma?",
+          "en": "A: Hello! May I speak to Zhang Huan?"
+        },
+        {
+          "zh": "B：你打错了，我们这儿没有叫张欢的。",
+          "py": "B: Nǐ dǎcuò le, wǒmen zhèr méiyǒu jiào Zhāng Huān de.",
+          "en": "B: Wrong number — there's no Zhang Huan here."
+        },
+        {
+          "zh": "A：对不起。",
+          "py": "A: Duìbuqǐ.",
+          "en": "A: Sorry."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在学校 — In the school",
+      "items": [
+        {
+          "zh": "A：您从几岁开始学习跳舞？",
+          "py": "A: Nín cóng jǐ suì kāishǐ xuéxí tiào wǔ?",
+          "en": "A: At what age did you start learning to dance?"
+        },
+        {
+          "zh": "B：我第一次跳舞是在七岁的时候。",
+          "py": "B: Wǒ dì yī cì tiào wǔ shì zài qī suì de shíhou.",
+          "en": "B: I first danced when I was seven."
+        },
+        {
+          "zh": "A：我女儿今年也七岁了。我希望她能跟您学跳舞，可以吗？",
+          "py": "A: Wǒ nǚ'ér jīnnián yě qī suì le. Wǒ xīwàng tā néng gēn nín xué tiào wǔ, kěyǐ ma?",
+          "en": "A: My daughter is seven too. I hope she can learn to dance with you — is that possible?"
+        },
+        {
+          "zh": "B：没问题，非常欢迎。",
+          "py": "B: Méi wèntí, fēicháng huānyíng.",
+          "en": "B: No problem, she's very welcome."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：你知道吗？大卫找到工作了。",
+          "py": "A: Nǐ zhīdào ma? Dàwèi zhǎodào gōngzuò le.",
+          "en": "A: Did you know? David has found a job."
+        },
+        {
+          "zh": "B：太好了！他从什么时候开始上班？",
+          "py": "B: Tài hǎo le! Tā cóng shénme shíhou kāishǐ shàng bān?",
+          "en": "B: Great! When does he start?"
+        },
+        {
+          "zh": "A：从下个星期一开始。",
+          "py": "A: Cóng xià ge xīngqī yī kāishǐ.",
+          "en": "A: Next Monday."
+        },
+        {
+          "zh": "B：这是他的第一个工作，希望他能喜欢。",
+          "py": "B: Zhè shì tā de dì yī ge gōngzuò, xīwàng tā néng xǐhuan.",
+          "en": "B: It's his first job — I hope he likes it."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "A：昨天的考试怎么样？你都听懂了吗？",
+          "py": "A: Zuótiān de kǎoshì zěnmeyàng? Nǐ dōu tīngdǒng le ma?",
+          "en": "A: How was yesterday's exam? Did you understand everything you heard?"
+        },
+        {
+          "zh": "B：听懂了。",
+          "py": "B: Tīngdǒng le.",
+          "en": "B: Yes, I did."
+        },
+        {
+          "zh": "A：你都做完了没有？",
+          "py": "A: Nǐ dōu zuòwán le méiyǒu?",
+          "en": "A: Did you finish it all?"
+        },
+        {
+          "zh": "B：题太多，我没做完。",
+          "py": "B: Tí tài duō, wǒ méi zuòwán.",
+          "en": "B: There were too many questions, I didn't finish."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 9)",
+      "items": [
+        {
+          "zh": "错",
+          "py": "cuò",
+          "en": "wrong"
+        },
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "from"
+        },
+        {
+          "zh": "跳舞",
+          "py": "tiào wǔ",
+          "en": "to dance"
+        },
+        {
+          "zh": "第一",
+          "py": "dì yī",
+          "en": "first"
+        },
+        {
+          "zh": "希望",
+          "py": "xīwàng",
+          "en": "to hope"
+        },
+        {
+          "zh": "问题",
+          "py": "wèntí",
+          "en": "question, problem"
+        },
+        {
+          "zh": "欢迎",
+          "py": "huānyíng",
+          "en": "to welcome"
+        },
+        {
+          "zh": "上班",
+          "py": "shàng bān",
+          "en": "to go to work"
+        },
+        {
+          "zh": "懂",
+          "py": "dǒng",
+          "en": "to understand"
+        },
+        {
+          "zh": "完",
+          "py": "wán",
+          "en": "to finish"
+        },
+        {
+          "zh": "题",
+          "py": "tí",
+          "en": "question (on a test)"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns (Lesson 9)",
+      "items": [
+        {
+          "zh": "张欢",
+          "py": "Zhāng Huān",
+          "en": "Zhang Huan (a name)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (结果补语 V + result)",
+      "items": [
+        {
+          "zh": "我看见你的女朋友了。",
+          "py": "Wǒ kànjiàn nǐ de nǚpéngyou le.",
+          "en": "I saw your girlfriend."
+        },
+        {
+          "zh": "我听懂今天的汉语课了。",
+          "py": "Wǒ tīngdǒng jīntiān de Hànyǔ kè le.",
+          "en": "I understood today's Chinese class."
+        },
+        {
+          "zh": "我做好饭了。",
+          "py": "Wǒ zuòhǎo fàn le.",
+          "en": "I've finished cooking."
+        },
+        {
+          "zh": "大卫找到工作了。",
+          "py": "Dàwèi zhǎodào gōngzuò le.",
+          "en": "David has found a job."
+        },
+        {
+          "zh": "我没听懂他说的话。",
+          "py": "Wǒ méi tīngdǒng tā shuō de huà.",
+          "en": "I didn't understand what he said."
+        },
+        {
+          "zh": "你都做完了没有？",
+          "py": "Nǐ dōu zuòwán le méiyǒu?",
+          "en": "Did you finish everything?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (介词“从” A 到 B)",
+      "items": [
+        {
+          "zh": "从北京到上海要坐几个小时的飞机？",
+          "py": "Cóng Běijīng dào Shànghǎi yào zuò jǐ ge xiǎoshí de fēijī?",
+          "en": "How many hours is the flight from Beijing to Shanghai?"
+        },
+        {
+          "zh": "从老人到孩子都喜欢吃苹果。",
+          "py": "Cóng lǎorén dào háizi dōu xǐhuan chī píngguǒ.",
+          "en": "Everyone from the elderly to children likes apples."
+        },
+        {
+          "zh": "从下个星期一开始上班。",
+          "py": "Cóng xià ge xīngqī yī kāishǐ shàng bān.",
+          "en": "He starts work next Monday."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“第~” order)",
+      "items": [
+        {
+          "zh": "第一本书",
+          "py": "dì yī běn shū",
+          "en": "the first book"
+        },
+        {
+          "zh": "第二个工作",
+          "py": "dì èr ge gōngzuò",
+          "en": "the second job"
+        },
+        {
+          "zh": "第一次跳舞",
+          "py": "dì yī cì tiào wǔ",
+          "en": "dancing for the first time"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "老师从几岁开始学跳舞？",
+          "py": "Lǎoshī cóng jǐ suì kāishǐ xué tiào wǔ?",
+          "en": "At what age did the teacher start learning to dance?"
+        },
+        {
+          "zh": "老师想教她的女儿跳舞吗？",
+          "py": "Lǎoshī xiǎng jiāo tā de nǚ'ér tiào wǔ ma?",
+          "en": "Does the teacher want to teach her daughter to dance?"
+        },
+        {
+          "zh": "大卫什么时候去工作？",
+          "py": "Dàwèi shénme shíhou qù gōngzuò?",
+          "en": "When does David start work?"
+        },
+        {
+          "zh": "这次考试她都听懂了吗？",
+          "py": "Zhè cì kǎoshì tā dōu tīngdǒng le ma?",
+          "en": "Did she understand everything in this exam?"
+        },
+        {
+          "zh": "她考试为什么没做完？",
+          "py": "Tā kǎoshì wèi shénme méi zuòwán?",
+          "en": "Why didn't she finish the exam?"
+        }
+      ]
+    }
+  ]
+}

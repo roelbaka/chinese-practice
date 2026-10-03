@@ -1,0 +1,291 @@
+{
+  "title": "第8课 · 让我想想再告诉你",
+  "subtitle": "HSK 2 · Lesson 8 — 让我想想再告诉你 · Let me think about it and I'll tell you later",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "A：我们下午去看电影，好吗？",
+          "py": "A: Wǒmen xiàwǔ qù kàn diànyǐng, hǎo ma?",
+          "en": "A: Let's see a film this afternoon, shall we?"
+        },
+        {
+          "zh": "B：今天下午我没有时间，明天下午再去吧。",
+          "py": "B: Jīntiān xiàwǔ wǒ méiyǒu shíjiān, míngtiān xiàwǔ zài qù ba.",
+          "en": "B: I'm not free this afternoon. Let's go tomorrow afternoon."
+        },
+        {
+          "zh": "A：你想看什么电影？",
+          "py": "A: Nǐ xiǎng kàn shénme diànyǐng?",
+          "en": "A: Which film would you like to see?"
+        },
+        {
+          "zh": "B：让我想想再告诉你。",
+          "py": "B: Ràng wǒ xiǎngxiang zài gàosu nǐ.",
+          "en": "B: Let me think about it and I'll tell you."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在宿舍 — In the dorm",
+      "items": [
+        {
+          "zh": "A：外边天气很好，我们出去运动运动吧！",
+          "py": "A: Wàibian tiānqì hěn hǎo, wǒmen chūqu yùndòng yùndòng ba!",
+          "en": "A: It's a nice day. Let's go out and get some exercise!"
+        },
+        {
+          "zh": "B：你等等我，好吗？王老师让我给大卫打个电话。",
+          "py": "B: Nǐ děngdeng wǒ, hǎo ma? Wáng lǎoshī ràng wǒ gěi Dàwèi dǎ ge diànhuà.",
+          "en": "B: Wait for me a minute? Teacher Wang asked me to call David."
+        },
+        {
+          "zh": "A：回来再打吧。找大卫有什么事情吗？",
+          "py": "A: Huílai zài dǎ ba. Zhǎo Dàwèi yǒu shénme shìqing ma?",
+          "en": "A: Call him when we're back. What's it about?"
+        },
+        {
+          "zh": "B：听说大卫病了，我想找时间去看看他。",
+          "py": "B: Tīngshuō Dàwèi bìng le, wǒ xiǎng zhǎo shíjiān qù kànkan tā.",
+          "en": "B: I heard David's ill. I want to find time to visit him."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在宾馆的前台 — At the hotel front desk",
+      "items": [
+        {
+          "zh": "A：服务员，我房间的门打不开了。",
+          "py": "A: Fúwùyuán, wǒ fángjiān de mén dǎ bu kāi le.",
+          "en": "A: Excuse me, I can't open my door."
+        },
+        {
+          "zh": "B：您住哪个房间？",
+          "py": "B: Nín zhù nǎge fángjiān?",
+          "en": "B: Which room are you in?"
+        },
+        {
+          "zh": "A：317。",
+          "py": "A: Sān yāo qī.",
+          "en": "A: Room 317."
+        },
+        {
+          "zh": "B：好的，我叫人去看看。",
+          "py": "B: Hǎo de, wǒ jiào rén qù kànkan.",
+          "en": "B: OK, I'll send someone to have a look."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在商店 — In a store",
+      "items": [
+        {
+          "zh": "A：你看看这几件衣服怎么样。",
+          "py": "A: Nǐ kànkan zhè jǐ jiàn yīfu zěnmeyàng.",
+          "en": "A: Have a look at these dresses."
+        },
+        {
+          "zh": "B：这件白的有点儿长，那件黑的有点儿贵。",
+          "py": "B: Zhè jiàn bái de yǒudiǎnr cháng, nà jiàn hēi de yǒudiǎnr guì.",
+          "en": "B: This white one is a bit long, that black one is a bit expensive."
+        },
+        {
+          "zh": "A：这件红的呢？这是今天新来的。",
+          "py": "A: Zhè jiàn hóng de ne? Zhè shì jīntiān xīn lái de.",
+          "en": "A: What about this red one? It just came in today."
+        },
+        {
+          "zh": "B：让我再看看。",
+          "py": "B: Ràng wǒ zài kànkan.",
+          "en": "B: Let me look around some more."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 8)",
+      "items": [
+        {
+          "zh": "再",
+          "py": "zài",
+          "en": "again; then (later)"
+        },
+        {
+          "zh": "让",
+          "py": "ràng",
+          "en": "to let, to ask (sb to do)"
+        },
+        {
+          "zh": "告诉",
+          "py": "gàosu",
+          "en": "to tell"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "to wait"
+        },
+        {
+          "zh": "找",
+          "py": "zhǎo",
+          "en": "to look for"
+        },
+        {
+          "zh": "事情",
+          "py": "shìqing",
+          "en": "thing, matter"
+        },
+        {
+          "zh": "服务员",
+          "py": "fúwùyuán",
+          "en": "attendant, waiter"
+        },
+        {
+          "zh": "白",
+          "py": "bái",
+          "en": "white"
+        },
+        {
+          "zh": "黑",
+          "py": "hēi",
+          "en": "black"
+        },
+        {
+          "zh": "贵",
+          "py": "guì",
+          "en": "expensive"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (……，好吗？)",
+      "items": [
+        {
+          "zh": "我们一起去吃饭，好吗？",
+          "py": "Wǒmen yìqǐ qù chī fàn, hǎo ma?",
+          "en": "Let's go and eat together, OK?"
+        },
+        {
+          "zh": "你明天下午给我打电话，好吗？",
+          "py": "Nǐ míngtiān xiàwǔ gěi wǒ dǎ diànhuà, hǎo ma?",
+          "en": "Call me tomorrow afternoon, will you?"
+        },
+        {
+          "zh": "我们下午去看电影，好吗？",
+          "py": "Wǒmen xiàwǔ qù kàn diànyǐng, hǎo ma?",
+          "en": "Shall we see a film this afternoon?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (副词“再”)",
+      "items": [
+        {
+          "zh": "你再看看这本书吧。",
+          "py": "Nǐ zài kànkan zhè běn shū ba.",
+          "en": "Have another look at this book."
+        },
+        {
+          "zh": "你明天再给我打电话吧。",
+          "py": "Nǐ míngtiān zài gěi wǒ dǎ diànhuà ba.",
+          "en": "Call me again tomorrow."
+        },
+        {
+          "zh": "让我想想再告诉你。",
+          "py": "Ràng wǒ xiǎngxiang zài gàosu nǐ.",
+          "en": "Let me think, then I'll tell you."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (兼语句 请 / 让 / 叫)",
+      "items": [
+        {
+          "zh": "我请你吃饭。",
+          "py": "Wǒ qǐng nǐ chī fàn.",
+          "en": "I'll treat you to a meal."
+        },
+        {
+          "zh": "你让我再想想。",
+          "py": "Nǐ ràng wǒ zài xiǎngxiang.",
+          "en": "Let me think it over."
+        },
+        {
+          "zh": "我叫人去看看。",
+          "py": "Wǒ jiào rén qù kànkan.",
+          "en": "I'll get someone to have a look."
+        },
+        {
+          "zh": "王老师让我给大卫打个电话。",
+          "py": "Wáng lǎoshī ràng wǒ gěi Dàwèi dǎ ge diànhuà.",
+          "en": "Teacher Wang asked me to call David."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (动词的重叠 AA / A一A / ABAB)",
+      "items": [
+        {
+          "zh": "说说 / 说一说",
+          "py": "shuōshuo / shuō yi shuō",
+          "en": "say a bit, talk about it"
+        },
+        {
+          "zh": "听听 / 听一听",
+          "py": "tīngting / tīng yi tīng",
+          "en": "have a listen"
+        },
+        {
+          "zh": "看看 / 看一看",
+          "py": "kànkan / kàn yi kàn",
+          "en": "have a look"
+        },
+        {
+          "zh": "学习学习",
+          "py": "xuéxí xuéxí",
+          "en": "study a bit"
+        },
+        {
+          "zh": "准备准备",
+          "py": "zhǔnbèi zhǔnbèi",
+          "en": "prepare a bit"
+        },
+        {
+          "zh": "我们出去运动运动吧！",
+          "py": "Wǒmen chūqu yùndòng yùndòng ba!",
+          "en": "Let's go out and get some exercise!"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "他们为什么今天下午不去看电影？",
+          "py": "Tāmen wèi shénme jīntiān xiàwǔ bú qù kàn diànyǐng?",
+          "en": "Why aren't they seeing a film this afternoon?"
+        },
+        {
+          "zh": "王老师为什么让他给大卫打电话？",
+          "py": "Wáng lǎoshī wèi shénme ràng tā gěi Dàwèi dǎ diànhuà?",
+          "en": "Why did Teacher Wang ask him to call David?"
+        },
+        {
+          "zh": "大卫怎么了？",
+          "py": "Dàwèi zěnme le?",
+          "en": "What's wrong with David?"
+        },
+        {
+          "zh": "她为什么去找服务员？",
+          "py": "Tā wèi shénme qù zhǎo fúwùyuán?",
+          "en": "Why did she go to the attendant?"
+        },
+        {
+          "zh": "她为什么不喜欢那件黑的？",
+          "py": "Tā wèi shénme bù xǐhuan nà jiàn hēi de?",
+          "en": "Why doesn't she like the black one?"
+        }
+      ]
+    }
+  ]
+}

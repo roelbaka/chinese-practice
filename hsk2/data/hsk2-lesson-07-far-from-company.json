@@ -1,0 +1,286 @@
+{
+  "title": "第7课 · 你家离公司远吗",
+  "subtitle": "HSK 2 · Lesson 7 — 你家离公司远吗 · Do you live far from your company",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：大卫回来了吗？",
+          "py": "A: Dàwèi huílai le ma?",
+          "en": "A: Is David back?"
+        },
+        {
+          "zh": "B：没有，他还在教室学习呢。",
+          "py": "B: Méiyǒu, tā hái zài jiàoshì xuéxí ne.",
+          "en": "B: No, he's still studying in the classroom."
+        },
+        {
+          "zh": "A：已经9点多了，他怎么还在学习？",
+          "py": "A: Yǐjīng jiǔ diǎn duō le, tā zěnme hái zài xuéxí?",
+          "en": "A: It's after nine. Why is he still studying?"
+        },
+        {
+          "zh": "B：明天有考试，他说今天要好好准备。",
+          "py": "B: Míngtiān yǒu kǎoshì, tā shuō jīntiān yào hǎohāo zhǔnbèi.",
+          "en": "B: There's an exam tomorrow; he says he has to prepare well today."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 去机场的路上 — On the way to the airport",
+      "items": [
+        {
+          "zh": "A：你现在在哪儿呢？",
+          "py": "A: Nǐ xiànzài zài nǎr ne?",
+          "en": "A: Where are you now?"
+        },
+        {
+          "zh": "B：在去机场的路上。你已经到了吗？",
+          "py": "B: Zài qù jīchǎng de lùshang. Nǐ yǐjīng dàole ma?",
+          "en": "B: On the way to the airport. Have you arrived?"
+        },
+        {
+          "zh": "A：我下飞机了。你还有多长时间能到这儿？",
+          "py": "A: Wǒ xià fēijī le. Nǐ hái yǒu duō cháng shíjiān néng dào zhèr?",
+          "en": "A: I've got off the plane. How long until you get here?"
+        },
+        {
+          "zh": "B：二十分钟就到。",
+          "py": "B: Èrshí fēnzhōng jiù dào.",
+          "en": "B: I'll be there in 20 minutes."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在健身房 — In the gym",
+      "items": [
+        {
+          "zh": "A：你家离公司远吗？",
+          "py": "A: Nǐ jiā lí gōngsī yuǎn ma?",
+          "en": "A: Do you live far from your company?"
+        },
+        {
+          "zh": "B：很远，坐公共汽车要一个多小时呢！",
+          "py": "B: Hěn yuǎn, zuò gōnggòng qìchē yào yí ge duō xiǎoshí ne!",
+          "en": "B: Very far — more than an hour by bus!"
+        },
+        {
+          "zh": "A：坐公共汽车太慢了，你怎么不开车？",
+          "py": "A: Zuò gōnggòng qìchē tài màn le, nǐ zěnme bù kāi chē?",
+          "en": "A: The bus is too slow. Why don't you drive?"
+        },
+        {
+          "zh": "B：开车也不快，路上车太多了！",
+          "py": "B: Kāi chē yě bú kuài, lùshang chē tài duō le!",
+          "en": "B: Driving isn't fast either — too many cars on the road!"
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在路上 — On the way",
+      "items": [
+        {
+          "zh": "A：今天晚上我们一起吃饭吧，给你过生日。",
+          "py": "A: Jīntiān wǎnshang wǒmen yìqǐ chī fàn ba, gěi nǐ guò shēngrì.",
+          "en": "A: Let's have dinner together tonight to celebrate your birthday."
+        },
+        {
+          "zh": "B：今天？离我的生日还有一个多星期呢！",
+          "py": "B: Jīntiān? Lí wǒ de shēngrì hái yǒu yí ge duō xīngqī ne!",
+          "en": "B: Today? My birthday is more than a week away!"
+        },
+        {
+          "zh": "A：下个星期我要去北京，今天过吧。",
+          "py": "A: Xià ge xīngqī wǒ yào qù Běijīng, jīntiān guò ba.",
+          "en": "A: I'm going to Beijing next week, so let's celebrate today."
+        },
+        {
+          "zh": "B：好吧，离这儿不远有一个中国饭馆，走几分钟就到了。",
+          "py": "B: Hǎo ba, lí zhèr bù yuǎn yǒu yí ge Zhōngguó fànguǎn, zǒu jǐ fēnzhōng jiù dào le.",
+          "en": "B: OK. There's a Chinese restaurant not far from here, a few minutes' walk."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 7)",
+      "items": [
+        {
+          "zh": "教室",
+          "py": "jiàoshì",
+          "en": "classroom"
+        },
+        {
+          "zh": "机场",
+          "py": "jīchǎng",
+          "en": "airport"
+        },
+        {
+          "zh": "路",
+          "py": "lù",
+          "en": "road, way"
+        },
+        {
+          "zh": "离",
+          "py": "lí",
+          "en": "to be away from"
+        },
+        {
+          "zh": "公司",
+          "py": "gōngsī",
+          "en": "company"
+        },
+        {
+          "zh": "远",
+          "py": "yuǎn",
+          "en": "far"
+        },
+        {
+          "zh": "公共汽车",
+          "py": "gōnggòng qìchē",
+          "en": "bus"
+        },
+        {
+          "zh": "小时",
+          "py": "xiǎoshí",
+          "en": "hour"
+        },
+        {
+          "zh": "慢",
+          "py": "màn",
+          "en": "slow"
+        },
+        {
+          "zh": "快",
+          "py": "kuài",
+          "en": "fast, quick"
+        },
+        {
+          "zh": "过",
+          "py": "guò",
+          "en": "to spend (time), to celebrate"
+        },
+        {
+          "zh": "走",
+          "py": "zǒu",
+          "en": "to walk"
+        },
+        {
+          "zh": "到",
+          "py": "dào",
+          "en": "to arrive"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (语气副词“还”: still)",
+      "items": [
+        {
+          "zh": "八点了，他还在睡觉。",
+          "py": "Bā diǎn le, tā hái zài shuì jiào.",
+          "en": "It's eight o'clock and he's still asleep."
+        },
+        {
+          "zh": "你怎么还没吃饭？",
+          "py": "Nǐ zěnme hái méi chī fàn?",
+          "en": "Why haven't you eaten yet?"
+        },
+        {
+          "zh": "他还在教室学习呢。",
+          "py": "Tā hái zài jiàoshì xuéxí ne.",
+          "en": "He's still studying in the classroom."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (时间副词“就”: early, quick)",
+      "items": [
+        {
+          "zh": "同学们七点半就来教室了。",
+          "py": "Tóngxuémen qī diǎn bàn jiù lái jiàoshì le.",
+          "en": "The students were in class as early as 7:30."
+        },
+        {
+          "zh": "我坐飞机一个半小时就到北京了。",
+          "py": "Wǒ zuò fēijī yí ge bàn xiǎoshí jiù dào Běijīng le.",
+          "en": "By plane I got to Beijing in just an hour and a half."
+        },
+        {
+          "zh": "二十分钟就到。",
+          "py": "Èrshí fēnzhōng jiù dào.",
+          "en": "I'll be there in only twenty minutes."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (A 离 B + distance)",
+      "items": [
+        {
+          "zh": "我家离学校很远。",
+          "py": "Wǒ jiā lí xuéxiào hěn yuǎn.",
+          "en": "My home is far from school."
+        },
+        {
+          "zh": "学校离机场有20多公里。",
+          "py": "Xuéxiào lí jīchǎng yǒu èrshí duō gōnglǐ.",
+          "en": "The school is over 20 km from the airport."
+        },
+        {
+          "zh": "离我的生日还有一个多星期呢！",
+          "py": "Lí wǒ de shēngrì hái yǒu yí ge duō xīngqī ne!",
+          "en": "My birthday is still more than a week away!"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (语气助词“呢”: emphasis)",
+      "items": [
+        {
+          "zh": "八点上课，时间还早呢。",
+          "py": "Bā diǎn shàngkè, shíjiān hái zǎo ne.",
+          "en": "Class is at eight — there's plenty of time."
+        },
+        {
+          "zh": "医院离我们这儿还远呢。",
+          "py": "Yīyuàn lí wǒmen zhèr hái yuǎn ne.",
+          "en": "The hospital is still a long way from here."
+        },
+        {
+          "zh": "坐公共汽车要一个多小时呢！",
+          "py": "Zuò gōnggòng qìchē yào yí ge duō xiǎoshí ne!",
+          "en": "By bus it takes over an hour!"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "大卫在哪儿学习呢？",
+          "py": "Dàwèi zài nǎr xuéxí ne?",
+          "en": "Where is David studying?"
+        },
+        {
+          "zh": "九点多了，大卫为什么还不休息？",
+          "py": "Jiǔ diǎn duō le, Dàwèi wèi shénme hái bù xiūxi?",
+          "en": "It's after nine — why isn't David resting yet?"
+        },
+        {
+          "zh": "坐公共汽车一个小时能到公司吗？",
+          "py": "Zuò gōnggòng qìchē yí ge xiǎoshí néng dào gōngsī ma?",
+          "en": "Can you get to the company in an hour by bus?"
+        },
+        {
+          "zh": "公司离家很远，她为什么不开车？",
+          "py": "Gōngsī lí jiā hěn yuǎn, tā wèi shénme bù kāi chē?",
+          "en": "The company is far — why doesn't she drive?"
+        },
+        {
+          "zh": "今天不是她的生日，为什么她朋友要今天给她过生日？",
+          "py": "Jīntiān bú shì tā de shēngrì, wèi shénme tā péngyou yào jīntiān gěi tā guò shēngrì?",
+          "en": "It's not her birthday today — why does her friend want to celebrate today?"
+        }
+      ]
+    }
+  ]
+}

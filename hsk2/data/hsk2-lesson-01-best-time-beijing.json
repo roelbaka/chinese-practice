@@ -1,0 +1,306 @@
+{
+  "title": "第1课 · 九月去北京旅游最好",
+  "subtitle": "HSK 2 · Lesson 1 — 九月去北京旅游最好 · September is the best time to visit Beijing",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在学校 — In the school",
+      "items": [
+        {
+          "zh": "A：我要去北京旅游，你觉得什么时候去最好？",
+          "py": "A: Wǒ yào qù Běijīng lǚyóu, nǐ juéde shénme shíhou qù zuì hǎo?",
+          "en": "A: I'm thinking of a trip to Beijing. When do you think is the best time?"
+        },
+        {
+          "zh": "B：九月去北京旅游最好。",
+          "py": "B: Jiǔ yuè qù Běijīng lǚyóu zuì hǎo.",
+          "en": "B: September is the best time to visit Beijing."
+        },
+        {
+          "zh": "A：为什么？",
+          "py": "A: Wèi shénme?",
+          "en": "A: Why?"
+        },
+        {
+          "zh": "B：九月的北京天气不冷也不热。",
+          "py": "B: Jiǔ yuè de Běijīng tiānqì bù lěng yě bú rè.",
+          "en": "B: Because it's neither cold nor hot in September."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 看照片 — Looking at a picture",
+      "items": [
+        {
+          "zh": "A：你喜欢什么运动？",
+          "py": "A: Nǐ xǐhuan shénme yùndòng?",
+          "en": "A: What sport do you like?"
+        },
+        {
+          "zh": "B：我最喜欢踢足球。",
+          "py": "B: Wǒ zuì xǐhuan tī zúqiú.",
+          "en": "B: I like playing football most."
+        },
+        {
+          "zh": "A：下午我们一起去踢足球吧。",
+          "py": "A: Xiàwǔ wǒmen yìqǐ qù tī zúqiú ba.",
+          "en": "A: Let's go and play football this afternoon."
+        },
+        {
+          "zh": "B：好啊！",
+          "py": "B: Hǎo a!",
+          "en": "B: Great!"
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：我们要不要买几个新的椅子？",
+          "py": "A: Wǒmen yào bu yào mǎi jǐ ge xīn de yǐzi?",
+          "en": "A: Shall we buy some new chairs?"
+        },
+        {
+          "zh": "B：好啊。什么时候去买？",
+          "py": "B: Hǎo a. Shénme shíhou qù mǎi?",
+          "en": "B: Yes. When shall we go and buy them?"
+        },
+        {
+          "zh": "A：明天下午怎么样？你明天几点能回来？",
+          "py": "A: Míngtiān xiàwǔ zěnmeyàng? Nǐ míngtiān jǐ diǎn néng huílai?",
+          "en": "A: What about tomorrow afternoon? When can you be back tomorrow?"
+        },
+        {
+          "zh": "B：三点多。",
+          "py": "B: Sān diǎn duō.",
+          "en": "B: A bit after three."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：桌子下面有个猫。",
+          "py": "A: Zhuōzi xiàmiàn yǒu ge māo.",
+          "en": "A: There is a cat under the table."
+        },
+        {
+          "zh": "B：那是我的猫，它叫花花。",
+          "py": "B: Nà shì wǒ de māo, tā jiào Huāhua.",
+          "en": "B: That's my cat, it's called Huahua."
+        },
+        {
+          "zh": "A：它很漂亮。",
+          "py": "A: Tā hěn piàoliang.",
+          "en": "A: It's beautiful."
+        },
+        {
+          "zh": "B：是啊，我觉得它的眼睛最漂亮。",
+          "py": "B: Shì a, wǒ juéde tā de yǎnjing zuì piàoliang.",
+          "en": "B: Yes, I think its eyes are the most beautiful."
+        },
+        {
+          "zh": "A：它多大了？",
+          "py": "A: Tā duō dà le?",
+          "en": "A: How old is it?"
+        },
+        {
+          "zh": "B：六个多月。",
+          "py": "B: Liù ge duō yuè.",
+          "en": "B: A bit over six months."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 1)",
+      "items": [
+        {
+          "zh": "旅游",
+          "py": "lǚyóu",
+          "en": "to travel, to take a trip"
+        },
+        {
+          "zh": "觉得",
+          "py": "juéde",
+          "en": "to think, to feel"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "为什么",
+          "py": "wèi shénme",
+          "en": "why"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also, too"
+        },
+        {
+          "zh": "运动",
+          "py": "yùndòng",
+          "en": "sport; to exercise"
+        },
+        {
+          "zh": "踢足球",
+          "py": "tī zúqiú",
+          "en": "to play football"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "en": "together"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "to want to, would like to"
+        },
+        {
+          "zh": "新",
+          "py": "xīn",
+          "en": "new"
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "眼睛",
+          "py": "yǎnjing",
+          "en": "eye"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns (Lesson 1)",
+      "items": [
+        {
+          "zh": "花花",
+          "py": "Huāhua",
+          "en": "Huahua (a cat's name)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (助动词“要”)",
+      "items": [
+        {
+          "zh": "王方要学习英语。",
+          "py": "Wáng Fāng yào xuéxí Yīngyǔ.",
+          "en": "Wang Fang wants to learn English."
+        },
+        {
+          "zh": "我们要不要买几个新的椅子？",
+          "py": "Wǒmen yào bu yào mǎi jǐ ge xīn de yǐzi?",
+          "en": "Shall we buy some new chairs?"
+        },
+        {
+          "zh": "小王要去，我不想去。",
+          "py": "Xiǎo Wáng yào qù, wǒ bù xiǎng qù.",
+          "en": "Xiao Wang wants to go, I don't (negative: 不想)."
+        },
+        {
+          "zh": "你要吃米饭吗？——我不想吃米饭。",
+          "py": "Nǐ yào chī mǐfàn ma? — Wǒ bù xiǎng chī mǐfàn.",
+          "en": "Do you want rice? — I don't want rice."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (程度副词“最”)",
+      "items": [
+        {
+          "zh": "大卫的汉语最好。",
+          "py": "Dàwèi de Hànyǔ zuì hǎo.",
+          "en": "David's Chinese is the best."
+        },
+        {
+          "zh": "我最喜欢吃米饭。",
+          "py": "Wǒ zuì xǐhuan chī mǐfàn.",
+          "en": "I like rice most."
+        },
+        {
+          "zh": "它的眼睛最漂亮。",
+          "py": "Tā de yǎnjing zuì piàoliang.",
+          "en": "Its eyes are the most beautiful."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (概数：几、多)",
+      "items": [
+        {
+          "zh": "车上有几个人。",
+          "py": "Chē shang yǒu jǐ ge rén.",
+          "en": "There are a few people in the car."
+        },
+        {
+          "zh": "我想买几本书。",
+          "py": "Wǒ xiǎng mǎi jǐ běn shū.",
+          "en": "I want to buy a few books."
+        },
+        {
+          "zh": "十几个人",
+          "py": "shíjǐ ge rén",
+          "en": "a dozen or so people (11–19)"
+        },
+        {
+          "zh": "几十个人",
+          "py": "jǐshí ge rén",
+          "en": "dozens of people (20–99)"
+        },
+        {
+          "zh": "三个多星期",
+          "py": "sān ge duō xīngqī",
+          "en": "more than three weeks (多 after the measure word under 10)"
+        },
+        {
+          "zh": "六个多月",
+          "py": "liù ge duō yuè",
+          "en": "a bit over six months"
+        },
+        {
+          "zh": "二十多块钱",
+          "py": "èrshí duō kuài qián",
+          "en": "twenty-odd yuan (多 before the measure word from 10 up)"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "什么时候去北京旅游最好？为什么？",
+          "py": "Shénme shíhou qù Běijīng lǚyóu zuì hǎo? Wèi shénme?",
+          "en": "When is the best time to visit Beijing? Why?"
+        },
+        {
+          "zh": "他们下午要做什么？",
+          "py": "Tāmen xiàwǔ yào zuò shénme?",
+          "en": "What are they going to do this afternoon?"
+        },
+        {
+          "zh": "他们想什么时候去买椅子？",
+          "py": "Tāmen xiǎng shénme shíhou qù mǎi yǐzi?",
+          "en": "When do they want to buy chairs?"
+        },
+        {
+          "zh": "花花在哪儿？",
+          "py": "Huāhua zài nǎr?",
+          "en": "Where is Huahua?"
+        },
+        {
+          "zh": "花花多大了？",
+          "py": "Huāhua duō dà le?",
+          "en": "How old is Huahua?"
+        }
+      ]
+    }
+  ]
+}

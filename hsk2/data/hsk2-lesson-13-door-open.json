@@ -1,0 +1,281 @@
+{
+  "title": "第13课 · 门开着呢",
+  "subtitle": "HSK 2 · Lesson 13 — 门开着呢 · The door is open",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在办公室 — In the office",
+      "items": [
+        {
+          "zh": "A：门开着呢，请进。",
+          "py": "A: Mén kāizhe ne, qǐng jìn.",
+          "en": "A: The door's open, come in."
+        },
+        {
+          "zh": "B：请问，张先生在吗？",
+          "py": "B: Qǐngwèn, Zhāng xiānsheng zài ma?",
+          "en": "B: Excuse me, is Mr Zhang in?"
+        },
+        {
+          "zh": "A：他出去了。你下午再来吧。",
+          "py": "A: Tā chūqu le. Nǐ xiàwǔ zài lái ba.",
+          "en": "A: He's gone out. Come back this afternoon."
+        },
+        {
+          "zh": "B：好的，谢谢！",
+          "py": "B: Hǎo de, xièxie!",
+          "en": "B: OK, thanks!"
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在办公室 — In the office",
+      "items": [
+        {
+          "zh": "A：那个正在说话的女孩儿是谁？",
+          "py": "A: Nàge zhèngzài shuō huà de nǚháir shì shéi?",
+          "en": "A: Who's the girl who's talking?"
+        },
+        {
+          "zh": "B：我知道她的名字，她姓杨，叫杨笑笑，她姐姐是我同学。",
+          "py": "B: Wǒ zhīdào tā de míngzi, tā xìng Yáng, jiào Yáng Xiàoxiao, tā jiějie shì wǒ tóngxué.",
+          "en": "B: I know her name — Yang Xiaoxiao. Her elder sister is my classmate."
+        },
+        {
+          "zh": "A：那个手里拿着铅笔的呢？",
+          "py": "A: Nàge shǒu li názhe qiānbǐ de ne?",
+          "en": "A: And the one holding a pencil?"
+        },
+        {
+          "zh": "B：我不认识。",
+          "py": "B: Wǒ bú rènshi.",
+          "en": "B: I don't know her."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在运动场 — On the playground",
+      "items": [
+        {
+          "zh": "A：听说你有女朋友了？我认识她吗？",
+          "py": "A: Tīngshuō nǐ yǒu nǚpéngyou le? Wǒ rènshi tā ma?",
+          "en": "A: I hear you've got a girlfriend. Do I know her?"
+        },
+        {
+          "zh": "B：就是我们班那个长着两个大眼睛，非常爱笑的女孩儿。",
+          "py": "B: Jiù shì wǒmen bān nàge zhǎngzhe liǎng ge dà yǎnjing, fēicháng ài xiào de nǚháir.",
+          "en": "B: She's the girl in our class with big eyes who's always smiling."
+        },
+        {
+          "zh": "A：她不是有男朋友吗？",
+          "py": "A: Tā bú shì yǒu nánpéngyou ma?",
+          "en": "A: Doesn't she have a boyfriend?"
+        },
+        {
+          "zh": "B：那个已经是她的前男友了。",
+          "py": "B: Nàge yǐjīng shì tā de qián nányǒu le.",
+          "en": "B: He's her ex now."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在路上 — On the road",
+      "items": [
+        {
+          "zh": "A：请问，这儿离新京宾馆远吗？",
+          "py": "A: Qǐngwèn, zhèr lí Xīnjīng Bīnguǎn yuǎn ma?",
+          "en": "A: Excuse me, is the Xinjing Hotel far from here?"
+        },
+        {
+          "zh": "B：不远，走路二十分钟就到。",
+          "py": "B: Bù yuǎn, zǒu lù èrshí fēnzhōng jiù dào.",
+          "en": "B: Not far, about 20 minutes on foot."
+        },
+        {
+          "zh": "A：你能告诉我怎么走吗？",
+          "py": "A: Nǐ néng gàosu wǒ zěnme zǒu ma?",
+          "en": "A: Can you tell me how to get there?"
+        },
+        {
+          "zh": "B：从这儿一直往前走，到了前面的路口再往右走。",
+          "py": "B: Cóng zhèr yìzhí wǎng qián zǒu, dàole qiánmiàn de lùkǒu zài wǎng yòu zǒu.",
+          "en": "B: Go straight ahead from here, then turn right at the crossing."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 13)",
+      "items": [
+        {
+          "zh": "着",
+          "py": "zhe",
+          "en": "particle: ongoing state"
+        },
+        {
+          "zh": "手",
+          "py": "shǒu",
+          "en": "hand"
+        },
+        {
+          "zh": "拿",
+          "py": "ná",
+          "en": "to hold, to take"
+        },
+        {
+          "zh": "铅笔",
+          "py": "qiānbǐ",
+          "en": "pencil"
+        },
+        {
+          "zh": "班",
+          "py": "bān",
+          "en": "class"
+        },
+        {
+          "zh": "长",
+          "py": "zhǎng",
+          "en": "to grow; to have (features)"
+        },
+        {
+          "zh": "笑",
+          "py": "xiào",
+          "en": "to smile, to laugh"
+        },
+        {
+          "zh": "宾馆",
+          "py": "bīnguǎn",
+          "en": "hotel"
+        },
+        {
+          "zh": "一直",
+          "py": "yìzhí",
+          "en": "straight, all along"
+        },
+        {
+          "zh": "往",
+          "py": "wǎng",
+          "en": "towards"
+        },
+        {
+          "zh": "路口",
+          "py": "lùkǒu",
+          "en": "crossing, intersection"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns (Lesson 13)",
+      "items": [
+        {
+          "zh": "杨笑笑",
+          "py": "Yáng Xiàoxiao",
+          "en": "Yang Xiaoxiao (a name)"
+        },
+        {
+          "zh": "新京宾馆",
+          "py": "Xīnjīng Bīnguǎn",
+          "en": "Xinjing Hotel"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (结构助词“着”: ongoing state)",
+      "items": [
+        {
+          "zh": "门开着。",
+          "py": "Mén kāizhe.",
+          "en": "The door is open."
+        },
+        {
+          "zh": "他们穿着红色的衣服。",
+          "py": "Tāmen chuānzhe hóngsè de yīfu.",
+          "en": "They're wearing red clothes."
+        },
+        {
+          "zh": "她拿着铅笔。",
+          "py": "Tā názhe qiānbǐ.",
+          "en": "She's holding a pencil."
+        },
+        {
+          "zh": "门没开着。",
+          "py": "Mén méi kāizhe.",
+          "en": "The door isn't open."
+        },
+        {
+          "zh": "门开着没有？",
+          "py": "Mén kāizhe méiyǒu?",
+          "en": "Is the door open?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (反问句“不是……吗”)",
+      "items": [
+        {
+          "zh": "不是说今天有雨吗？怎么没下？",
+          "py": "Bú shì shuō jīntiān yǒu yǔ ma? Zěnme méi xià?",
+          "en": "Didn't they say it would rain today? Why hasn't it?"
+        },
+        {
+          "zh": "你不是北京人吗？怎么不会说北京话？",
+          "py": "Nǐ bú shì Běijīng rén ma? Zěnme bú huì shuō Běijīng huà?",
+          "en": "Aren't you from Beijing? How come you can't speak the dialect?"
+        },
+        {
+          "zh": "她不是有男朋友了吗？",
+          "py": "Tā bú shì yǒu nánpéngyou le ma?",
+          "en": "Doesn't she have a boyfriend already?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (介词“往”: towards)",
+      "items": [
+        {
+          "zh": "从这儿往前走，就是我们学校。",
+          "py": "Cóng zhèr wǎng qián zǒu, jiù shì wǒmen xuéxiào.",
+          "en": "Go ahead from here and you'll reach our school."
+        },
+        {
+          "zh": "往左走是医院，往右走是银行。",
+          "py": "Wǎng zuǒ zǒu shì yīyuàn, wǎng yòu zǒu shì yínháng.",
+          "en": "Left is the hospital, right is the bank."
+        },
+        {
+          "zh": "从这儿一直往前走，到了前面的路口再往右走。",
+          "py": "Cóng zhèr yìzhí wǎng qián zǒu, dàole qiánmiàn de lùkǒu zài wǎng yòu zǒu.",
+          "en": "Go straight ahead, then right at the crossing."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "张先生去哪儿了？",
+          "py": "Zhāng xiānsheng qù nǎr le?",
+          "en": "Where has Mr Zhang gone?"
+        },
+        {
+          "zh": "杨笑笑是谁？",
+          "py": "Yáng Xiàoxiao shì shéi?",
+          "en": "Who is Yang Xiaoxiao?"
+        },
+        {
+          "zh": "他的女朋友是谁？",
+          "py": "Tā de nǚpéngyou shì shéi?",
+          "en": "Who is his girlfriend?"
+        },
+        {
+          "zh": "“前男友”是什么意思？",
+          "py": "“Qián nányǒu” shì shénme yìsi?",
+          "en": "What does 前男友 mean?"
+        },
+        {
+          "zh": "去新京宾馆怎么走？",
+          "py": "Qù Xīnjīng Bīnguǎn zěnme zǒu?",
+          "en": "How do you get to the Xinjing Hotel?"
+        }
+      ]
+    }
+  ]
+}

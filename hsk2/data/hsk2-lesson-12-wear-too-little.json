@@ -1,0 +1,261 @@
+{
+  "title": "第12课 · 你穿得太少了",
+  "subtitle": "HSK 2 · Lesson 12 — 你穿得太少了 · You wear too little",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "A：你每天早上几点起床？",
+          "py": "A: Nǐ měi tiān zǎoshang jǐ diǎn qǐ chuáng?",
+          "en": "A: What time do you get up every morning?"
+        },
+        {
+          "zh": "B：六点多。",
+          "py": "B: Liù diǎn duō.",
+          "en": "B: A bit after six."
+        },
+        {
+          "zh": "A：你比我早起一个小时。",
+          "py": "A: Nǐ bǐ wǒ zǎo qǐ yí ge xiǎoshí.",
+          "en": "A: You get up an hour earlier than me."
+        },
+        {
+          "zh": "B：我睡得也早，我每天晚上十点就睡觉。早睡早起身体好。",
+          "py": "B: Wǒ shuì de yě zǎo, wǒ měi tiān wǎnshang shí diǎn jiù shuì jiào. Zǎo shuì zǎo qǐ shēntǐ hǎo.",
+          "en": "B: I go to bed early too — at ten every night. Early to bed, early to rise is healthy."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在朋友家 — At a friend's home",
+      "items": [
+        {
+          "zh": "A：再来点儿米饭吧，你吃得太少了。",
+          "py": "A: Zài lái diǎnr mǐfàn ba, nǐ chī de tài shǎo le.",
+          "en": "A: Have some more rice — you've eaten too little."
+        },
+        {
+          "zh": "B：不少了，今天吃得很好，太谢谢你了。",
+          "py": "B: Bù shǎo le, jīntiān chī de hěn hǎo, tài xièxie nǐ le.",
+          "en": "B: Not at all, I've eaten very well today. Thank you so much."
+        },
+        {
+          "zh": "A：你做饭做得怎么样？",
+          "py": "A: Nǐ zuò fàn zuò de zěnmeyàng?",
+          "en": "A: How well do you cook?"
+        },
+        {
+          "zh": "B：不怎么样，我妻子比我做得好。",
+          "py": "B: Bù zěnmeyàng, wǒ qīzi bǐ wǒ zuò de hǎo.",
+          "en": "B: Not very well. My wife cooks better than me."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在家门口 — At the door of the house",
+      "items": [
+        {
+          "zh": "A：下雪了，今天真冷。",
+          "py": "A: Xià xuě le, jīntiān zhēn lěng.",
+          "en": "A: It's snowing. It's really cold today."
+        },
+        {
+          "zh": "B：有零下10度吧？",
+          "py": "B: Yǒu líng xià shí dù ba?",
+          "en": "B: It must be ten below zero."
+        },
+        {
+          "zh": "A：是啊，你穿得太少了，我们进房间吧。",
+          "py": "A: Shì a, nǐ chuān de tài shǎo le, wǒmen jìn fángjiān ba.",
+          "en": "A: Yes, and you're wearing too little. Let's go inside."
+        },
+        {
+          "zh": "B：好吧。",
+          "py": "B: Hǎo ba.",
+          "en": "B: OK."
+        }
+      ]
+    },
+    {
+      "topic": "课文4 · 4. 在家里 — At home",
+      "items": [
+        {
+          "zh": "A：你在忙什么呢？",
+          "py": "A: Nǐ zài máng shénme ne?",
+          "en": "A: What are you busy with?"
+        },
+        {
+          "zh": "B：我弟弟让我帮他找个房子，现在他家离公司有点儿远。",
+          "py": "B: Wǒ dìdi ràng wǒ bāng tā zhǎo ge fángzi, xiànzài tā jiā lí gōngsī yǒudiǎnr yuǎn.",
+          "en": "B: My younger brother asked me to find him a flat — he lives a bit far from his company."
+        },
+        {
+          "zh": "A：住得远真的很累！",
+          "py": "A: Zhù de yuǎn zhēn de hěn lèi!",
+          "en": "A: Living far away is really tiring!"
+        },
+        {
+          "zh": "B：是啊，他也希望能住得近一点儿。",
+          "py": "B: Shì a, tā yě xīwàng néng zhù de jìn yìdiǎnr.",
+          "en": "B: Yes, he wants to live a bit closer too."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 12)",
+      "items": [
+        {
+          "zh": "得",
+          "py": "de",
+          "en": "particle before a degree complement"
+        },
+        {
+          "zh": "妻子",
+          "py": "qīzi",
+          "en": "wife"
+        },
+        {
+          "zh": "雪",
+          "py": "xuě",
+          "en": "snow"
+        },
+        {
+          "zh": "零",
+          "py": "líng",
+          "en": "zero"
+        },
+        {
+          "zh": "度",
+          "py": "dù",
+          "en": "degree"
+        },
+        {
+          "zh": "穿",
+          "py": "chuān",
+          "en": "to wear, to put on"
+        },
+        {
+          "zh": "进",
+          "py": "jìn",
+          "en": "to enter"
+        },
+        {
+          "zh": "弟弟",
+          "py": "dìdi",
+          "en": "younger brother"
+        },
+        {
+          "zh": "近",
+          "py": "jìn",
+          "en": "near, close"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (程度补语 V + 得 + Adj)",
+      "items": [
+        {
+          "zh": "他说得很好。",
+          "py": "Tā shuō de hěn hǎo.",
+          "en": "He speaks well."
+        },
+        {
+          "zh": "我起得很早。",
+          "py": "Wǒ qǐ de hěn zǎo.",
+          "en": "I get up early."
+        },
+        {
+          "zh": "他说汉语说得很好。",
+          "py": "Tā shuō Hànyǔ shuō de hěn hǎo.",
+          "en": "He speaks Chinese well (repeat the verb with an object)."
+        },
+        {
+          "zh": "我汉字写得很好。",
+          "py": "Wǒ Hànzì xiě de hěn hǎo.",
+          "en": "I write characters well (object first)."
+        },
+        {
+          "zh": "姐姐唱歌唱得不错。",
+          "py": "Jiějie chàng gē chàng de búcuò.",
+          "en": "My sister sings pretty well."
+        },
+        {
+          "zh": "他说得不好。",
+          "py": "Tā shuō de bù hǎo.",
+          "en": "He doesn't speak well (不 after 得)."
+        },
+        {
+          "zh": "我住得不远。",
+          "py": "Wǒ zhù de bù yuǎn.",
+          "en": "I don't live far."
+        },
+        {
+          "zh": "他说得好不好？",
+          "py": "Tā shuō de hǎo bu hǎo?",
+          "en": "Does he speak well?"
+        },
+        {
+          "zh": "你住得远不远？",
+          "py": "Nǐ zhù de yuǎn bu yuǎn?",
+          "en": "Do you live far?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“比”字句 with 得)",
+      "items": [
+        {
+          "zh": "他比我学得好。",
+          "py": "Tā bǐ wǒ xué de hǎo.",
+          "en": "He studies better than me."
+        },
+        {
+          "zh": "姐姐跑得比我快。",
+          "py": "Jiějie pǎo de bǐ wǒ kuài.",
+          "en": "My sister runs faster than me."
+        },
+        {
+          "zh": "我妻子比我做得好。",
+          "py": "Wǒ qīzi bǐ wǒ zuò de hǎo.",
+          "en": "My wife cooks better than me."
+        },
+        {
+          "zh": "我妻子做得比我好。",
+          "py": "Wǒ qīzi zuò de bǐ wǒ hǎo.",
+          "en": "My wife cooks better than me (比 after 得)."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "她为什么每天晚上十点就睡觉？",
+          "py": "Tā wèi shénme měi tiān wǎnshang shí diǎn jiù shuì jiào?",
+          "en": "Why does she go to bed at ten every night?"
+        },
+        {
+          "zh": "他们家谁做饭做得好？",
+          "py": "Tāmen jiā shéi zuò fàn zuò de hǎo?",
+          "en": "Who cooks well in their family?"
+        },
+        {
+          "zh": "今天天气怎么样？",
+          "py": "Jīntiān tiānqì zěnmeyàng?",
+          "en": "What's the weather like today?"
+        },
+        {
+          "zh": "她这两天在忙什么呢？",
+          "py": "Tā zhè liǎng tiān zài máng shénme ne?",
+          "en": "What has she been busy with lately?"
+        },
+        {
+          "zh": "她弟弟为什么要找新的房子？",
+          "py": "Tā dìdi wèi shénme yào zhǎo xīn de fángzi?",
+          "en": "Why does her brother want a new flat?"
+        }
+      ]
+    }
+  ]
+}
