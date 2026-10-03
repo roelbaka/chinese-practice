@@ -1095,12 +1095,19 @@
         {
           "zh": "──────── Part 1 · 比 — homework patterns",
           "py": "",
-          "en": "Teacher went through answers in order. Full sentences repeat A 比 B + result; temperature often adds 气温 and 度; 多了 after 好 marks “much more” for verbs (滑得好多了、做得好多了)."
+          "en": "Teacher went through answers in order. Full sentences repeat A 比 B + result; temperature often adds 气温 and 度; 多了 after 好 marks “much more” for verbs (滑得好多了、做得好多了).",
+          "see": [
+            "练习 · Exercises (比 Rewriting)",
+            "语法 · Grammar (比 Comparisons)"
+          ]
         },
         {
           "zh": "重复主题 · 词典",
           "py": "",
-          "en": "Incomplete: 他的词典比我的词典 needs a result adjective, e.g. 新."
+          "en": "Incomplete: 他的词典比我的词典 needs a result adjective, e.g. 新.",
+          "see": [
+            "练习 · Exercises (比 Rewriting)"
+          ]
         },
         {
           "zh": "他的词典比我的词典新。",
@@ -1110,7 +1117,11 @@
         {
           "zh": "重复主题 · 气温与度",
           "py": "",
-          "en": "短句 今天比昨天高四度 works in context; fuller and textbook-style: 今天气温比昨天高四度 or 今天的气温比昨天高四度."
+          "en": "短句 今天比昨天高四度 works in context; fuller and textbook-style: 今天气温比昨天高四度 or 今天的气温比昨天高四度.",
+          "see": [
+            "练习 · Exercises (比 Rewriting)",
+            "语法 · Grammar (比 Comparisons)"
+          ]
         },
         {
           "zh": "今天气温比昨天高四度。",
@@ -1120,7 +1131,10 @@
         {
           "zh": "重复主题 · 人口",
           "py": "",
-          "en": "两种说法：带 人口，或省略（家 比 家 少几口人）."
+          "en": "两种说法：带 人口，或省略（家 比 家 少几口人）.",
+          "see": [
+            "练习 · Exercises (比 Rewriting)"
+          ]
         },
         {
           "zh": "小王家比小张家少两口人。",
@@ -1130,7 +1144,10 @@
         {
           "zh": "重复主题 · 滑冰 — 主语不能丢",
           "py": "",
-          "en": "比较的是谁滑冰：要说 小李滑冰比小张……，不能只说 滑冰比小张……（谁滑？不清楚）."
+          "en": "比较的是谁滑冰：要说 小李滑冰比小张……，不能只说 滑冰比小张……（谁滑？不清楚）.",
+          "see": [
+            "练习 · Exercises (比 Rewriting)"
+          ]
         },
         {
           "zh": "小李滑冰比小张滑得好多了。",
@@ -1140,7 +1157,11 @@
         {
           "zh": "重复主题 · 贵 vs 贵多了",
           "py": "",
-          "en": "比 后面用形容词结果；强调差很多用 贵多了 / 便宜多了，不说 ×茄子比西兰花很贵（结构不对）."
+          "en": "比 后面用形容词结果；强调差很多用 贵多了 / 便宜多了，不说 ×茄子比西兰花很贵（结构不对）.",
+          "see": [
+            "语法 · Grammar (比 Comparisons)",
+            "课堂练习 · Class Practice"
+          ]
         },
         {
           "zh": "茄子比西兰花贵多了。",
@@ -1150,7 +1171,10 @@
         {
           "zh": "重复主题 · 做饭 vs 煮饭",
           "py": "",
-          "en": "做饭 = cook (meals in general); 煮饭 often means “cook rice” literally — teacher corrected nuance after the 老公 sentence."
+          "en": "做饭 = cook (meals in general); 煮饭 often means “cook rice” literally — teacher corrected nuance after the 老公 sentence.",
+          "see": [
+            "练习 · Exercises (比 Rewriting)"
+          ]
         },
         {
           "zh": "我做菜比我的老公做的好多了。",
@@ -1160,7 +1184,11 @@
         {
           "zh": "──────── Part 2 · 天气预报",
           "py": "",
-          "en": "Warm-up: Did you listen to the forecast? Then chain questions about 明天、下雨、小雨、大风."
+          "en": "Warm-up: Did you listen to the forecast? Then chain questions about 明天、下雨、小雨、大风.",
+          "see": [
+            "天气会话 · Weather Conversations (Class)",
+            "会话1 · Dialogue 1 (Cold Weather)"
+          ]
         },
         {
           "zh": "你们听天气预报了吗？",
@@ -1190,12 +1218,19 @@
         {
           "zh": "──────── Part 2b · 听力工作纸 “今天天气怎么样？”",
           "py": "",
-          "en": "Five-line listen-and-choose: 晴天、刮风、下雨、下雪、阴天 — emoji hints and full sentences live in the main-deck topic 听力 (same lesson JSON)."
+          "en": "Five-line listen-and-choose: 晴天、刮风、下雨、下雪、阴天 — emoji hints and full sentences live in the main-deck topic 听力 (same lesson JSON).",
+          "see": [
+            "听力 · Listen & choose — 今天天气怎么样？"
+          ]
         },
         {
           "zh": "──────── Part 3 · 去年 / 今年 · 冷暖和零度",
           "py": "",
-          "en": "Class mixed up 去年冬天 and 今年冬天: 今年冬天 can mean “this winter” (season we're in or coming); if it's already spring, 去年冬天 is last winter. 零下 / 零上 with 度 for below/above freezing."
+          "en": "Class mixed up 去年冬天 and 今年冬天: 今年冬天 can mean “this winter” (season we're in or coming); if it's already spring, 去年冬天 is last winter. 零下 / 零上 with 度 for below/above freezing.",
+          "see": [
+            "天气会话 · Weather Conversations (Class)",
+            "四季 · Four Seasons"
+          ]
         },
         {
           "zh": "去年冬天荷兰下雪了吗？",
@@ -1215,7 +1250,11 @@
         {
           "zh": "──────── Part 4 · 雨、雪 → 下雨、下雪",
           "py": "",
-          "en": "雨 and 雪 are nouns (rain, snow). The verbs are 下雨 “to rain” and 下雪 “to snow,” with 下 like “to fall.”"
+          "en": "雨 and 雪 are nouns (rain, snow). The verbs are 下雨 “to rain” and 下雪 “to snow,” with 下 like “to fall.”",
+          "see": [
+            "语法笔记 · Grammar Notes (下/刮 + Nouns)",
+            "天气会话 · Weather Conversations (Class)"
+          ]
         },
         {
           "zh": "今天下雨吗？",
@@ -1230,7 +1269,10 @@
         {
           "zh": "──────── Part 5 · Locative game (review)",
           "py": "",
-          "en": "Short hiding game in class: place words on chair above/below, things 在 书包 里边, then 宝贝 in the bag — same 在…里/上边 patterns as nearby lessons."
+          "en": "Short hiding game in class: place words on chair above/below, things 在 书包 里边, then 宝贝 in the bag — same 在…里/上边 patterns as nearby lessons.",
+          "see": [
+            "教室词汇 · Classroom Vocabulary"
+          ]
         },
         {
           "zh": "书在椅子上面。",

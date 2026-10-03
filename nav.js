@@ -125,6 +125,11 @@
     }
     .snav-home { color: var(--text, #eee); text-decoration: none; font-size: 1.2rem; font-weight: 300; letter-spacing: 1px; }
     .snav-home b { color: var(--accent, #e94560); font-weight: 600; }
+    .snav-journal {
+      margin-left: auto; color: var(--text, #eee); text-decoration: none; font-size: .9rem;
+      border: 1px solid var(--border, #2a2a4a); border-radius: 999px; padding: .35rem .9rem;
+    }
+    .snav-journal:hover { border-color: var(--accent, #e94560); }
     .snav-close {
       width: 44px; height: 44px; border-radius: 10px; cursor: pointer; font-size: 1.6rem; line-height: 1;
       background: transparent; color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
@@ -262,6 +267,7 @@
     const overlay = el(`<div class="snav" role="dialog" aria-modal="true" aria-label="Site menu">
       <div class="snav-top">
         <a class="snav-home" href="${esc(ROOT.href)}">练习 <b>中文</b></a>
+        <a class="snav-journal" href="${esc(new URL("journal/", ROOT).href)}">课堂笔记 · Class journal</a>
         <button type="button" class="snav-close" aria-label="Close menu">&times;</button>
       </div>
       <div class="snav-body"><div class="snav-inner"></div></div>

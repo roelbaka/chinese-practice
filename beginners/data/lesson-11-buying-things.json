@@ -935,7 +935,12 @@
         {
           "zh": "重复主题 · 你要买什么 / 我要买…",
           "py": "",
-          "en": "Core shop question + answer. 要 vs 想 appears in book; class drilled 买 + object + colour follow-up."
+          "en": "Core shop question + answer. 要 vs 想 appears in book; class drilled 买 + object + colour follow-up.",
+          "see": [
+            "买东西 · Buying Things (Class Practice)",
+            "会话1 · Dialogue 1 (Buying Apples)",
+            "会话2 · Dialogue 2 (Buying Oranges)"
+          ]
         },
         {
           "zh": "你要买什么？",
@@ -960,7 +965,11 @@
         {
           "zh": "重复主题 · 还要别的吗 / 有没有问题",
           "py": "",
-          "en": "Lesson 11 checkout phrases. 还要…吗 asks “still want more items?” 有没有问题 closes a step: “Any questions?” 三分钟够不够 checks time."
+          "en": "Lesson 11 checkout phrases. 还要…吗 asks “still want more items?” 有没有问题 closes a step: “Any questions?” 三分钟够不够 checks time.",
+          "see": [
+            "其他 · Other Useful Phrases",
+            "买东西 · Buying Things (Class Practice)"
+          ]
         },
         {
           "zh": "你还要别的吗？",
@@ -985,7 +994,10 @@
         {
           "zh": "重复主题 · 多少钱 / 太贵了 / 人民币",
           "py": "",
-          "en": "Price questions and reactions. 太贵了 = too expensive; 不太贵 = not too expensive (less extreme than 不贵). 人民币 names the currency."
+          "en": "Price questions and reactions. 太贵了 = too expensive; 不太贵 = not too expensive (less extreme than 不贵). 人民币 names the currency.",
+          "see": [
+            "价钱 · Prices & Money"
+          ]
         },
         {
           "zh": "这个多少钱？",
@@ -1005,7 +1017,11 @@
         {
           "zh": "重复主题 · 斤 / 块（价钱）",
           "py": "",
-          "en": "斤 jīn is a weight unit (~500 g) used in shops; price per 斤 is very common for fruit. 块 is spoken “yuan.”"
+          "en": "斤 jīn is a weight unit (~500 g) used in shops; price per 斤 is very common for fruit. 块 is spoken “yuan.”",
+          "see": [
+            "价钱 · Prices & Money",
+            "量词 · Measure Words & Quantities"
+          ]
         },
         {
           "zh": "苹果三块钱一斤。",
@@ -1025,7 +1041,10 @@
         {
           "zh": "重复主题 · 双 / 瓶 / 杯",
           "py": "",
-          "en": "双 shuāng: pairs (gloves, socks). 瓶 píng: bottles. 杯 bēi: cups. Class combined 一瓶 and 一杯咖啡 with 和."
+          "en": "双 shuāng: pairs (gloves, socks). 瓶 píng: bottles. 杯 bēi: cups. Class combined 一瓶 and 一杯咖啡 with 和.",
+          "see": [
+            "量词 · Measure Words & Quantities"
+          ]
         },
         {
           "zh": "请给我一双袜子。",
@@ -1040,7 +1059,11 @@
         {
           "zh": "重复主题 · 多少 + 种",
           "py": "",
-          "en": "多少种 asks “how many kinds?” — 种 classifies types (颜色、水果)."
+          "en": "多少种 asks “how many kinds?” — 种 classifies types (颜色、水果).",
+          "see": [
+            "水果 · Fruits",
+            "颜色 · Colors"
+          ]
         },
         {
           "zh": "你们有多少种颜色？",
@@ -1060,7 +1083,10 @@
         {
           "zh": "重复主题 · 看看 / 听听 / 尝尝",
           "py": "",
-          "en": "看看 = have a look; 听听 = listen a bit; 尝尝 = taste (try) — same rhythm as lesson examples."
+          "en": "看看 = have a look; 听听 = listen a bit; 尝尝 = taste (try) — same rhythm as lesson examples.",
+          "see": [
+            "语法 · Grammar (了 & Reduplication)"
+          ]
         },
         {
           "zh": "我们去颐和园看看吧。",
@@ -1090,7 +1116,10 @@
         {
           "zh": "尝尝 vs 吃吃（说明）",
           "py": "",
-          "en": "吃吃 is possible but 尝尝 is politer for “try my cooking.” Teacher noted both can appear with 都可以."
+          "en": "吃吃 is possible but 尝尝 is politer for “try my cooking.” Teacher noted both can appear with 都可以.",
+          "see": [
+            "语法 · Grammar (了 & Reduplication)"
+          ]
         },
         {
           "zh": "──────── Part 3 · Bridge to next lessons",
@@ -1110,7 +1139,10 @@
         {
           "zh": "重复主题 · 方位（复习扩展）",
           "py": "",
-          "en": "Later activity used 上面 / 下面 / 前边 + 走 / 拐 to hide and find things—same direction words as nearby lessons; good oral review."
+          "en": "Later activity used 上面 / 下面 / 前边 + 走 / 拐 to hide and find things—same direction words as nearby lessons; good oral review.",
+          "see": [
+            "方向 · Directions"
+          ]
         },
         {
           "zh": "笔记本在桌子上面。",

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>课堂笔记 · Class Journal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  /* A calm, paper-like reading page — deliberately different from the dark practice screens. */
+  :root {
+    --paper: #f7f3ea;
+    --sheet: #fffdf8;
+    --ink: #2b2620;
+    --ink-soft: #6b6156;
+    --ink-faint: #9a8f82;
+    --rule: #e4dccd;
+    --red: #b5402e;
+    --red-soft: #f3e1da;
+    --pinyin: #8a6a1f;
+    --english: #3f6b7a;
+    /* names nav.js reads for the site menu */
+    --bg: var(--paper); --card: var(--sheet); --card-hover: #f1ebdf;
+    --text: var(--ink); --text-muted: var(--ink-faint); --border: var(--rule); --accent: var(--red);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #1c1915; --sheet: #25211c; --ink: #ece4d6; --ink-soft: #b7ab9a; --ink-faint: #8a7f71;
+      --rule: #3a342c; --red: #e0705c; --red-soft: #3b2721; --pinyin: #d6b25e; --english: #8fbfcf;
+      --card-hover: #2e2923;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: "Source Serif 4", "Noto Serif SC", Georgia, serif;
+    line-height: 1.6; min-height: 100vh;
+  }
+  .zh, .ex-zh { font-family: "Noto Serif SC", "Source Serif 4", serif; }
+
+  header { max-width: 820px; margin: 0 auto; padding: 4.5rem 1.5rem 1.5rem; }
+  header .kicker { font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--red); }
+  header h1 { font-size: 2.4rem; font-weight: 600; line-height: 1.2; margin: .3rem 0 .4rem; }
+  header h1 .zh { margin-right: .4rem; }
+  header p { color: var(--ink-soft); max-width: 36rem; }
+
+  .tracks {
+    position: sticky; top: 0; z-index: 5; background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+  }
+  /* left room for the site menu button that floats over the sticky bar */
+  .tracks-inner { max-width: 820px; margin: 0 auto; padding: .7rem 1.5rem .7rem 4.2rem; display: flex; gap: .5rem; overflow-x: auto; scrollbar-width: none; }
+  .tracks-inner::-webkit-scrollbar { display: none; }
+  .tracks button {
+    font: inherit; font-size: .9rem; white-space: nowrap; cursor: pointer;
+    background: transparent; color: var(--ink-soft); border: 1px solid var(--rule);
+    padding: .3rem .9rem; border-radius: 999px;
+  }
+  .tracks button:hover { border-color: var(--red); color: var(--ink); }
+  .tracks button.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+  main { max-width: 820px; margin: 0 auto; padding: 1rem 1.5rem 5rem; }
+
+  .track { margin-top: 2.5rem; }
+  .track > h2 {
+    font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-faint);
+    font-weight: 600; margin-bottom: 1rem; display: flex; align-items: center; gap: .8rem;
+  }
+  .track > h2::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+
+  .lesson { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1.4rem; margin-bottom: 2.6rem; }
+  .margin { text-align: right; border-right: 2px solid var(--red); padding: .2rem .9rem 0 0; }
+  .margin .cls { display: block; font-size: .78rem; color: var(--ink-faint); letter-spacing: .05em; }
+  .margin .num { display: block; font-size: 1.6rem; font-weight: 600; line-height: 1.15; }
+  .margin .date { display: block; font-size: .8rem; color: var(--red); font-style: italic; margin-top: .2rem; }
+
+  .lesson h3 { font-size: 1.45rem; font-weight: 600; line-height: 1.3; }
+  .lesson h3 a { color: inherit; text-decoration: none; }
+  .lesson h3 a:hover { color: var(--red); }
+  .lesson .summary { color: var(--ink-soft); margin: .4rem 0 1rem; font-size: .98rem; }
+
+  .part { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--red); margin: 1.2rem 0 .5rem; }
+
+  .note { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; margin-bottom: .55rem; }
+  .note > button {
+    width: 100%; font: inherit; color: inherit; background: none; border: 0; cursor: pointer; text-align: left;
+    display: flex; align-items: baseline; gap: .7rem; padding: .75rem 1rem;
+  }
+  .note > button .t { flex: 1; font-size: 1.05rem; }
+  .note > button .n { font-size: .75rem; color: var(--ink-faint); white-space: nowrap; }
+  .note > button .chev { color: var(--ink-faint); transition: transform .2s; }
+  .note.open > button .chev { transform: rotate(90deg); }
+  .note .body { display: none; padding: 0 1rem 1rem; }
+  .note.open .body { display: block; }
+  .note .expl { color: var(--ink-soft); font-size: .97rem; margin-bottom: .6rem; }
+  .ex { border-left: 2px solid var(--rule); padding: .15rem 0 .15rem .8rem; margin: .5rem 0; }
+  .ex-zh { font-size: 1.15rem; display: flex; align-items: center; gap: .5rem; }
+  .ex-py { color: var(--pinyin); font-size: .88rem; }
+  .ex-en { color: var(--english); font-size: .88rem; font-style: italic; }
+  .say { font: inherit; font-size: .7rem; cursor: pointer; border: 1px solid var(--rule); background: none; color: var(--ink-faint); border-radius: 999px; width: 1.6rem; height: 1.6rem; flex-shrink: 0; }
+  .say:hover { color: var(--red); border-color: var(--red); }
+
+  .practice { margin-top: .8rem; padding-top: .7rem; border-top: 1px dashed var(--rule); display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+  .practice .lbl { font-size: .75rem; color: var(--ink-faint); letter-spacing: .08em; text-transform: uppercase; margin-right: .2rem; }
+  .practice a {
+    font-size: .85rem; text-decoration: none; padding: .25rem .75rem; border-radius: 999px;
+    background: var(--red-soft); color: var(--red);
+  }
+  .practice a:hover { background: var(--red); color: var(--paper); }
+  .practice a.mode { background: transparent; border: 1px solid var(--rule); color: var(--ink-soft); }
+  .practice a.mode:hover { border-color: var(--red); color: var(--red); background: transparent; }
+  .practice .sep { width: 100%; height: 0; }
+
+  .open-lesson { display: inline-block; margin-top: .4rem; font-size: .88rem; color: var(--red); text-decoration: none; }
+  .open-lesson:hover { text-decoration: underline; }
+
+  .msg { color: var(--ink-faint); font-style: italic; padding: 2rem 0; }
+
+  @media (max-width: 640px) {
+    header { padding: 4rem 1rem 1rem; }
+    header h1 { font-size: 1.8rem; }
+    .tracks-inner { padding-left: 3.4rem; padding-right: 1rem; }
+    main { padding-left: 1rem; padding-right: 1rem; }
+    .lesson { grid-template-columns: 1fr; gap: .6rem; }
+    .margin { text-align: left; border-right: 0; border-left: 2px solid var(--red); padding: 0 0 0 .7rem; display: flex; gap: .6rem; align-items: baseline; }
+    .margin .num { font-size: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">练习中文 · Notebook</div>
+  <h1><span class="zh">课堂笔记</span>Class Journal</h1>
+  <p>Everything we discussed in class, lesson by lesson. Open a topic for the explanation and examples, then jump straight to the exercises that belong to it.</p>
+</header>
+
+<nav class="tracks"><div class="tracks-inner" id="tracks"></div></nav>
+
+<main id="journal"><p class="msg">Loading your class notes…</p></main>
+
+<script src="../nav.js"></script>
+<script>
+// Classes are grouped into three tracks; within a track, newest lesson first.
+const TRACKS = [
+  { key: "beginner", zh: "初级", en: "Beginners · HSK 1", dirs: ["beginners", "hsk1"] },
+  { key: "middle",   zh: "中级", en: "Improvers · HSK 2", dirs: ["improvers", "hsk2"] },
+  { key: "hsk3",     zh: "三级", en: "HSK 3",             dirs: ["hsk3"] },
+];
+const CLASS_NAMES = { beginners: "Beginners", improvers: "Improvers", hsk1: "HSK 1", hsk2: "HSK 2", hsk3: "HSK 3" };
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+let current = "all";
+try { current = localStorage.getItem("journalTrack") || "all"; } catch (e) {}
+
+async function lessonsOf(dir) {
+  const html = await fetch(`../${dir}/`).then(r => r.text());
+  const doc = new DOMParser().parseFromString(html, "text/html");
+  const cards = [...doc.querySelectorAll("a.lesson-card")];
+  const out = await Promise.all(cards.map(async (a, i) => {
+    const id = new URL(a.getAttribute("href"), location.href).searchParams.get("id");
+    try {
+      const json = await fetch(`../${dir}/data/${id}.json`).then(r => r.json());
+      const notes = json.data.find(s => s.classNotesFirst);
+      if (!notes) return null;
+      const num = (a.querySelector(".lesson-num")?.textContent || "").replace(/\D+/g, "") || String(i + 1);
+      return { dir, id, num: +num, title: json.title, subtitle: json.subtitle, data: json.data, notes };
+    } catch (e) { return null; }
+  }));
+  return out.filter(Boolean);
+}
+
+/** Split the notes section into a summary, part headings and topics (heading + examples). */
+function parseNotes(notes) {
+  const blocks = [];
+  let summary = null, topic = null;
+  for (const it of notes.items) {
+    if (!it.py) {
+      if (/^总览/.test(it.zh)) { summary = it.en; topic = null; continue; }
+      if (/^─+/.test(it.zh)) {
+        blocks.push({ type: "part", title: it.zh.replace(/^─+\s*/, ""), text: it.en });
+        topic = null; continue;
+      }
+      topic = { type: "topic", title: it.zh.replace(/^重复主题\s*·\s*/, "").replace(/（说明）$/, ""), text: it.en, see: it.see || [], examples: [] };
+      blocks.push(topic);
+    } else if (topic) {
+      topic.examples.push(it);
+    }
+  }
+  return { summary, blocks };
+}
+
+function lessonUrl(l, topicName, mode) {
+  const sec = l.data.find(s => s.topic === topicName);
+  const hash = sec ? Topics.hashFor(l.data, Topics.categoryOf(sec), topicName) : "all";
+  return `../${l.dir}/lesson.html?id=${encodeURIComponent(l.id)}${mode ? `&mode=${mode}` : ""}#${hash}`;
+}
+
+function renderTopic(l, t, open) {
+  const exs = t.examples.map(e => `<div class="ex">
+      <div class="ex-zh">${esc(e.zh)}<button class="say" data-zh="${esc(e.zh)}" title="Listen" aria-label="Listen">&#9654;</button></div>
+      <div class="ex-py">${esc(e.py)}</div><div class="ex-en">${esc(e.en)}</div></div>`).join("");
+  let practice = "";
+  if (t.see.length) {
+    const secs = t.see.map(name => {
+      const s = l.data.find(x => x.topic === name);
+      return s ? `<a href="${lessonUrl(l, name)}">${esc(Topics.sectionLabel(s))} · ${s.items.length}</a>` : "";
+    }).join("");
+    const first = t.see[0];
+    practice = `<div class="practice"><span class="lbl">Oefen</span>${secs}<span class="sep"></span>
+      <a class="mode" href="${lessonUrl(l, first, "flashcard")}">Flashcards</a>
+      <a class="mode" href="${lessonUrl(l, first, "cloze")}">Fill in</a>
+      <a class="mode" href="${lessonUrl(l, first, "quiz")}">Quiz</a></div>`;
+  }
+  const n = t.examples.length ? `${t.examples.length} example${t.examples.length > 1 ? "s" : ""}` : "";
+  return `<div class="note${open ? " open" : ""}">
+    <button type="button"><span class="t zh">${esc(t.title)}</span><span class="n">${n}</span><span class="chev">&#9656;</span></button>
+    <div class="body"><p class="expl">${esc(t.text)}</p>${exs}${practice}</div></div>`;
+}
+
+function renderLesson(l) {
+  const { summary, blocks } = parseNotes(l.notes);
+  const date = (l.notes.topic.match(/\(([^)]*\d{4}[^)]*)\)/) || [])[1] || "";
+  const title = l.title.replace(/^第[^·]+·\s*/, "");
+  let body = "";
+  blocks.forEach(b => {
+    body += b.type === "part" ? `<div class="part">${esc(b.title)}</div>` : renderTopic(l, b, false);
+  });
+  return `<article class="lesson">
+    <div class="margin"><span class="cls">${esc(CLASS_NAMES[l.dir])}</span><span class="num">Les ${l.num}</span>${date ? `<span class="date">${esc(date)}</span>` : ""}</div>
+    <div>
+      <h3><a class="zh" href="../${l.dir}/lesson.html?id=${encodeURIComponent(l.id)}#notes">${esc(title)}</a></h3>
+      ${summary ? `<p class="summary">${esc(summary)}</p>` : ""}
+      ${body}
+      <a class="open-lesson" href="../${l.dir}/lesson.html?id=${encodeURIComponent(l.id)}#all">Open the whole lesson →</a>
+    </div></article>`;
+}
+
+let ALL = [];
+
+function render() {
+  document.getElementById("tracks").innerHTML =
+    `<button data-t="all" class="${current === "all" ? "on" : ""}">All</button>` +
+    TRACKS.map(t => `<button data-t="${t.key}" class="${current === t.key ? "on" : ""}">${t.zh} · ${esc(t.en)}</button>`).join("");
+  document.querySelectorAll("#tracks button").forEach(b => b.addEventListener("click", () => {
+    current = b.dataset.t;
+    try { localStorage.setItem("journalTrack", current); } catch (e) {}
+    render();
+  }));
+
+  const html = TRACKS.filter(t => current === "all" || current === t.key).map(t => {
+    const lessons = ALL.filter(l => t.dirs.includes(l.dir))
+      .sort((a, b) => b.num - a.num || t.dirs.indexOf(a.dir) - t.dirs.indexOf(b.dir));
+    if (!lessons.length) return "";
+    return `<section class="track"><h2>${t.zh} · ${esc(t.en)}</h2>${lessons.map(renderLesson).join("")}</section>`;
+  }).join("");
+  const main = document.getElementById("journal");
+  main.innerHTML = html || `<p class="msg">No class notes in this track yet.</p>`;
+
+  main.querySelectorAll(".note > button").forEach(b => b.addEventListener("click", () => b.parentElement.classList.toggle("open")));
+  main.querySelectorAll(".say").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); say(b.dataset.zh); }));
+}
+
+function say(text) {
+  if (!window.speechSynthesis) return;
+  const u = new SpeechSynthesisUtterance(text.replace(/^[^：:]{1,8}[：:]/, ""));
+  u.lang = "zh-CN";
+  const v = speechSynthesis.getVoices().find(v => /^zh(-|_)?CN/i.test(v.lang)) || speechSynthesis.getVoices().find(v => /^zh/i.test(v.lang));
+  if (v) u.voice = v;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
+}
+
+Promise.all(TRACKS.flatMap(t => t.dirs).map(lessonsOf))
+  .then(lists => { ALL = lists.flat(); render(); })
+  .catch(() => {
+    document.getElementById("journal").innerHTML = `<p class="msg">Couldn't load the notes. Open the site through a web server, not as a file.</p>`;
+  });
+</script>
+</body>
+</html>

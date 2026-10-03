@@ -351,6 +351,14 @@ if (!lessonId) {
       DATA = splitTextsFromWords(prepareLessonData(json.data));
       const notesSec = DATA.find((s) => s.classNotesFirst === true);
       if (!applyHash() && notesSec) currentCat = categoryOf(notesSec);
+      // ?mode=flashcard / quiz / cloze opens the page in that mode (used by the class journal).
+      const startMode = params.get("mode");
+      const modeBtn = startMode && document.querySelector(`.mode-bar button[data-mode="${startMode}"]`);
+      if (modeBtn) {
+        document.querySelectorAll(".mode-bar button").forEach(b => b.classList.remove("active"));
+        modeBtn.classList.add("active");
+        currentMode = startMode;
+      }
       renderNav();
       render();
     })
