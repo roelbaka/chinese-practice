@@ -241,32 +241,39 @@
 
 <main id="app"><div class="loading">Loading lesson data...</div></main>
 
+<script src="../nav.js"></script>
 <script>
 let DATA = [];
 let currentCat = "all";    // "all" or a CATEGORIES key
 let currentTopic = "all";  // "all" (= whole category) or one section's topic
 let currentMode = "browse";
 
-/** Sections are grouped by the Chinese prefix of their topic ("语法 · …" → Grammar). */
-const CATEGORIES = [
-  { key: "notes",    zh: "课上要点", en: "Notes",    re: /^课上要点/ },
-  { key: "texts",    zh: "课文",    en: "Texts",    re: /^(课文|会话|天气会话|听力|听后复述|句子)/ },
-  { key: "words",    zh: "生词",    en: "Words",    re: /^(生词|词汇|新词|教室词汇|专名|专有名词)/ },
-  { key: "grammar",  zh: "语法",    en: "Grammar",  re: /^(语法|注释|语音)/ },
-  { key: "practice", zh: "练习",    en: "Practice", re: /^(练习|替换|课堂练习|课上扩展)/ },
-  { key: "more",     zh: "更多",    en: "More",     re: /./ },
-];
+// Categories, labels and URL anchors (#grammar, #grammar-2, #all) are shared with the site menu: see nav.js.
+const { categoryOf } = Topics;
 
-function categoryOf(section) {
-  return CATEGORIES.find(c => c.re.test(section.topic)).key;
+/** Show the category/section named in the URL anchor; returns false when there is none. */
+function applyHash() {
+  const st = Topics.parseHash(DATA, location.hash);
+  if (!st) return false;
+  currentCat = st.cat;
+  currentTopic = st.topic;
+  return true;
 }
 
-/** Short chip label: "Grammar (A没有B + Adj)" → "A没有B + Adj"; keeps "New Words (Lesson 10)" as is. */
-function shortLabel(topic) {
-  const label = topic.split(" · ")[1] || topic;
-  const m = label.match(/^[^(（]+[(（](.+)[)）]$/);
-  return m && !/^Lesson\b/.test(m[1]) ? m[1].trim() : label;
+/** Navigate by changing the anchor, so every view has its own URL (and Back works). */
+function go(cat, topic) {
+  const hash = "#" + Topics.hashFor(DATA, cat, topic);
+  if (location.hash === hash) { currentCat = cat; currentTopic = topic; renderNav(); render(); }
+  else location.hash = hash;
 }
+
+window.addEventListener("hashchange", () => {
+  if (!DATA.length || !applyHash()) return;
+  renderNav();
+  render();
+  const nav = document.getElementById("topicNav");
+  if (window.scrollY > nav.offsetTop) window.scrollTo(0, nav.offsetTop);
+});
 
 /** A line of a conversation or text, as opposed to a single vocabulary word. */
 function isTextLine(item) {
@@ -344,7 +351,7 @@ if (!lessonId) {
       document.getElementById("lessonSubtitle").textContent = json.subtitle;
       DATA = splitTextsFromWords(prepareLessonData(json.data));
       const notesSec = DATA.find((s) => s.classNotesFirst === true);
-      if (notesSec) currentCat = categoryOf(notesSec);
+      if (!applyHash() && notesSec) currentCat = categoryOf(notesSec);
       renderNav();
       render();
     })
@@ -413,9 +420,7 @@ function speak(text) {
 function renderNav() {
   const catNav = document.getElementById("catNav");
   const subNav = document.getElementById("subNav");
-  const cats = CATEGORIES
-    .map(c => ({ ...c, count: DATA.filter(t => categoryOf(t) === c.key).length }))
-    .filter(c => c.count > 0);
+  const cats = Topics.groups(DATA).map(c => ({ ...c, count: c.sections.length }));
 
   catNav.innerHTML = `<button data-cat="all" class="${currentCat === "all" ? "active" : ""}">All</button>` +
     cats.map(c =>
@@ -426,26 +431,19 @@ function renderNav() {
   const texts = currentCat === "texts";
   // Texts have no "All" chip: each conversation is its own text.
   subNav.innerHTML = sections.length < (texts ? 1 : 2) ? "" :
-    (texts ? "" : `<button data-topic="all" class="${currentTopic === "all" ? "active" : ""}">All ${esc(cats.find(c => c.key === currentCat).en.toLowerCase())}</button>`) +
-    sections.map(t => {
-      const label = texts ? (t.topic.split(" · ")[1] || t.topic) : shortLabel(t.topic);
-      return `<button data-topic="${esc(t.topic)}" title="${esc(t.topic)}" class="${currentTopic === t.topic ? "active" : ""}">${esc(label)}</button>`;
-    }).join("");
+    (texts ? "" : `<button data-topic="all" class="${currentTopic === "all" ? "active" : ""}">${esc(Topics.allLabel(currentCat))}</button>`) +
+    sections.map(t =>
+      `<button data-topic="${esc(t.topic)}" title="${esc(t.topic)}" class="${currentTopic === t.topic ? "active" : ""}">${esc(Topics.sectionLabel(t))}</button>`
+    ).join("");
 
   catNav.querySelectorAll("button").forEach(btn => {
     btn.addEventListener("click", () => {
-      currentCat = btn.dataset.cat;
-      currentTopic = currentCat === "texts" ? DATA.find(t => categoryOf(t) === "texts").topic : "all";
-      renderNav();
-      render();
+      const cat = btn.dataset.cat;
+      go(cat, cat === "texts" ? DATA.find(t => categoryOf(t) === "texts").topic : "all");
     });
   });
   subNav.querySelectorAll("button").forEach(btn => {
-    btn.addEventListener("click", () => {
-      currentTopic = btn.dataset.topic;
-      renderNav();
-      render();
-    });
+    btn.addEventListener("click", () => go(currentCat, btn.dataset.topic));
   });
   // On narrow screens the rows scroll sideways: keep the chosen chips visible.
   [catNav, subNav].forEach(row => {
@@ -859,6 +857,5 @@ document.addEventListener("keydown", e => {
   }
 });
 </script>
-<script src="../nav.js" defer></script>
 </body>
 </html>

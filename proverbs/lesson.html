@@ -182,10 +182,32 @@
 
 <main id="app"><div class="loading">Loading...</div></main>
 
+<script src="../nav.js"></script>
 <script>
 let DATA = [];
 let currentTopic = "all";
 let currentMode = "browse";
+
+// URL anchors (#all, #proverbs-1, #examples-2 …) are shared with the site menu: see nav.js.
+function applyHash() {
+  const st = Topics.parseHash(DATA, location.hash);
+  if (!st) return false;
+  currentTopic = st.topic;
+  return true;
+}
+
+function go(topic) {
+  const sec = DATA.find(t => t.topic === topic);
+  const hash = "#" + (sec ? Topics.hashFor(DATA, Topics.categoryOf(sec), topic) : "all");
+  if (location.hash === hash) { currentTopic = topic; renderNav(); render(); }
+  else location.hash = hash;
+}
+
+window.addEventListener("hashchange", () => {
+  if (!DATA.length || !applyHash()) return;
+  renderNav();
+  render();
+});
 
 function prepareLessonData(raw) {
   if (!Array.isArray(raw) || !raw.length) return [];
@@ -213,7 +235,7 @@ if (!lessonId) {
       document.getElementById("lessonSubtitle").textContent = json.subtitle;
       DATA = prepareLessonData(json.data);
       const notesSec = DATA.find((s) => s.classNotesFirst === true);
-      if (notesSec) currentTopic = notesSec.topic;
+      if (!applyHash() && notesSec) currentTopic = notesSec.topic;
       renderNav();
       render();
     })
@@ -291,11 +313,7 @@ function renderNav() {
     `<button data-topic="${t.topic}" class="${currentTopic === t.topic ? 'active' : ''}">${t.label}</button>`
   ).join("");
   nav.querySelectorAll("button").forEach(btn => {
-    btn.addEventListener("click", () => {
-      currentTopic = btn.dataset.topic;
-      renderNav();
-      render();
-    });
+    btn.addEventListener("click", () => go(btn.dataset.topic));
   });
 }
 
@@ -495,6 +513,5 @@ document.addEventListener("keydown", e => {
   }
 });
 </script>
-<script src="../nav.js" defer></script>
 </body>
 </html>
