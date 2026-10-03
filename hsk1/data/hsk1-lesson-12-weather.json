@@ -1,0 +1,266 @@
+{
+  "title": "第12课 · 明天天气怎么样",
+  "subtitle": "HSK 1 · Lesson 12 — 明天天气怎么样 · What will the weather be like tomorrow",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在路上 — On the road",
+      "items": [
+        {
+          "zh": "A：昨天北京的天气怎么样？",
+          "py": "A: Zuótiān Běijīng de tiānqì zěnmeyàng?",
+          "en": "A: How was the weather in Beijing yesterday?"
+        },
+        {
+          "zh": "B：太热了。",
+          "py": "B: Tài rè le.",
+          "en": "B: It was too hot."
+        },
+        {
+          "zh": "A：明天呢？明天天气怎么样？",
+          "py": "A: Míngtiān ne? Míngtiān tiānqì zěnmeyàng?",
+          "en": "A: And tomorrow? What will the weather be like?"
+        },
+        {
+          "zh": "B：明天天气很好，不冷不热。",
+          "py": "B: Míngtiān tiānqì hěn hǎo, bù lěng bú rè.",
+          "en": "B: It will be fine, neither cold nor hot."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在健身房 — In the gym",
+      "items": [
+        {
+          "zh": "A：今天会下雨吗？",
+          "py": "A: Jīntiān huì xià yǔ ma?",
+          "en": "A: Will it rain today?"
+        },
+        {
+          "zh": "B：今天不会下雨。",
+          "py": "B: Jīntiān bú huì xià yǔ.",
+          "en": "B: No, it won't."
+        },
+        {
+          "zh": "A：王小姐今天会来吗？",
+          "py": "A: Wáng xiǎojiě jīntiān huì lái ma?",
+          "en": "A: Will Miss Wang come today?"
+        },
+        {
+          "zh": "B：不会来，天气太冷了。",
+          "py": "B: Bú huì lái, tiānqì tài lěng le.",
+          "en": "B: No, she won't. It's too cold."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在病房 — In the sickroom",
+      "items": [
+        {
+          "zh": "A：你身体怎么样？",
+          "py": "A: Nǐ shēntǐ zěnmeyàng?",
+          "en": "A: How are you?"
+        },
+        {
+          "zh": "B：我身体不太好。天气太热了，不爱吃饭。",
+          "py": "B: Wǒ shēntǐ bú tài hǎo. Tiānqì tài rè le, bú ài chī fàn.",
+          "en": "B: Not very well. It's too hot, I have no appetite."
+        },
+        {
+          "zh": "A：你多吃些水果，多喝水。",
+          "py": "A: Nǐ duō chī xiē shuǐguǒ, duō hē shuǐ.",
+          "en": "A: Eat more fruit and drink more water."
+        },
+        {
+          "zh": "B：谢谢你，医生。",
+          "py": "B: Xièxie nǐ, yīshēng.",
+          "en": "B: Thank you, doctor."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 12)",
+      "items": [
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "en": "weather"
+        },
+        {
+          "zh": "怎么样",
+          "py": "zěnmeyàng",
+          "en": "how (is it)"
+        },
+        {
+          "zh": "太",
+          "py": "tài",
+          "en": "too, excessively"
+        },
+        {
+          "zh": "太……了",
+          "py": "tài……le",
+          "en": "too, extremely"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "en": "hot"
+        },
+        {
+          "zh": "冷",
+          "py": "lěng",
+          "en": "cold"
+        },
+        {
+          "zh": "下雨",
+          "py": "xià yǔ",
+          "en": "to rain"
+        },
+        {
+          "zh": "小姐",
+          "py": "xiǎojiě",
+          "en": "miss, young lady"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to come"
+        },
+        {
+          "zh": "身体",
+          "py": "shēntǐ",
+          "en": "body; health"
+        },
+        {
+          "zh": "爱",
+          "py": "ài",
+          "en": "to love, to like"
+        },
+        {
+          "zh": "些",
+          "py": "xiē",
+          "en": "some, a few"
+        },
+        {
+          "zh": "水果",
+          "py": "shuǐguǒ",
+          "en": "fruit"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问代词“怎么样”)",
+      "items": [
+        {
+          "zh": "你的汉语怎么样？",
+          "py": "Nǐ de Hànyǔ zěnmeyàng?",
+          "en": "How is your Chinese?"
+        },
+        {
+          "zh": "你妈妈身体怎么样？",
+          "py": "Nǐ māma shēntǐ zěnmeyàng?",
+          "en": "How is your mother's health?"
+        },
+        {
+          "zh": "明天天气怎么样？",
+          "py": "Míngtiān tiānqì zěnmeyàng?",
+          "en": "What will the weather be like tomorrow?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (主谓谓语句)",
+      "items": [
+        {
+          "zh": "我身体不太好。",
+          "py": "Wǒ shēntǐ bú tài hǎo.",
+          "en": "I'm not very well."
+        },
+        {
+          "zh": "明天天气很好。",
+          "py": "Míngtiān tiānqì hěn hǎo.",
+          "en": "Tomorrow the weather will be fine."
+        },
+        {
+          "zh": "你身体怎么样？",
+          "py": "Nǐ shēntǐ zěnmeyàng?",
+          "en": "How are you (health)?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (程度副词“太”)",
+      "items": [
+        {
+          "zh": "太热了。",
+          "py": "Tài rè le.",
+          "en": "It's too hot."
+        },
+        {
+          "zh": "天气太冷了。",
+          "py": "Tiānqì tài lěng le.",
+          "en": "The weather is too cold."
+        },
+        {
+          "zh": "我身体不太好。",
+          "py": "Wǒ shēntǐ bú tài hǎo.",
+          "en": "I'm not very well (no 了 in the negative)."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (能愿动词“会” possibility)",
+      "items": [
+        {
+          "zh": "爸爸八点前会回家吗？——会。",
+          "py": "Bàba bā diǎn qián huì huí jiā ma? — Huì.",
+          "en": "Will dad be home before eight? — Yes."
+        },
+        {
+          "zh": "明天她会来吗？——她会来。",
+          "py": "Míngtiān tā huì lái ma? — Tā huì lái.",
+          "en": "Will she come tomorrow? — Yes, she will."
+        },
+        {
+          "zh": "今天不会下雨。",
+          "py": "Jīntiān bú huì xià yǔ.",
+          "en": "It won't rain today."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "昨天北京的天气怎么样？",
+          "py": "Zuótiān Běijīng de tiānqì zěnmeyàng?",
+          "en": "How was the weather in Beijing yesterday?"
+        },
+        {
+          "zh": "明天天气怎么样？",
+          "py": "Míngtiān tiānqì zěnmeyàng?",
+          "en": "What will the weather be like tomorrow?"
+        },
+        {
+          "zh": "今天会下雨吗？",
+          "py": "Jīntiān huì xià yǔ ma?",
+          "en": "Will it rain today?"
+        },
+        {
+          "zh": "王小姐会来吗？",
+          "py": "Wáng xiǎojiě huì lái ma?",
+          "en": "Will Miss Wang come?"
+        },
+        {
+          "zh": "他的身体怎么样？",
+          "py": "Tā de shēntǐ zěnmeyàng?",
+          "en": "How is his health?"
+        }
+      ]
+    }
+  ]
+}

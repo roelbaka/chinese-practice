@@ -1,0 +1,161 @@
+{
+  "title": "第2课 · 谢谢你",
+  "subtitle": "HSK 1 · Lesson 2 — 谢谢你 · Thank you",
+  "data": [
+    {
+      "topic": "课文1 · 1. Thanks",
+      "items": [
+        {
+          "zh": "A：谢谢！",
+          "py": "A: Xièxie!",
+          "en": "A: Thank you!"
+        },
+        {
+          "zh": "B：不谢！",
+          "py": "B: Bú xiè!",
+          "en": "B: Sure!"
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. You're welcome",
+      "items": [
+        {
+          "zh": "A：谢谢你！",
+          "py": "A: Xièxie nǐ!",
+          "en": "A: Thank you!"
+        },
+        {
+          "zh": "B：不客气！",
+          "py": "B: Bú kèqi!",
+          "en": "B: You're welcome!"
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. Goodbye",
+      "items": [
+        {
+          "zh": "A：再见！",
+          "py": "A: Zàijiàn!",
+          "en": "A: Goodbye!"
+        },
+        {
+          "zh": "B：再见！",
+          "py": "B: Zàijiàn!",
+          "en": "B: Bye!"
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 2)",
+      "items": [
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "en": "to thank"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "no, not"
+        },
+        {
+          "zh": "不客气",
+          "py": "bú kèqi",
+          "en": "you're welcome"
+        },
+        {
+          "zh": "再见",
+          "py": "zàijiàn",
+          "en": "goodbye"
+        }
+      ]
+    },
+    {
+      "topic": "语音 · Pronunciation (Single-syllable words)",
+      "items": [
+        {
+          "zh": "三",
+          "py": "sān",
+          "en": "three"
+        },
+        {
+          "zh": "山",
+          "py": "shān",
+          "en": "mountain"
+        },
+        {
+          "zh": "钟",
+          "py": "zhōng",
+          "en": "clock"
+        },
+        {
+          "zh": "羊",
+          "py": "yáng",
+          "en": "sheep"
+        },
+        {
+          "zh": "零",
+          "py": "líng",
+          "en": "zero"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish, vegetable"
+        },
+        {
+          "zh": "手",
+          "py": "shǒu",
+          "en": "hand"
+        },
+        {
+          "zh": "熊",
+          "py": "xióng",
+          "en": "bear"
+        },
+        {
+          "zh": "云",
+          "py": "yún",
+          "en": "cloud"
+        },
+        {
+          "zh": "星",
+          "py": "xīng",
+          "en": "star"
+        },
+        {
+          "zh": "元",
+          "py": "yuán",
+          "en": "yuan (money)"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        },
+        {
+          "zh": "船",
+          "py": "chuán",
+          "en": "boat"
+        },
+        {
+          "zh": "床",
+          "py": "chuáng",
+          "en": "bed"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "en": "hot"
+        }
+      ]
+    }
+  ]
+}

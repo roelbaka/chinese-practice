@@ -1,0 +1,211 @@
+{
+  "title": "第3课 · 你叫什么名字",
+  "subtitle": "HSK 1 · Lesson 3 — 你叫什么名字 · What's your name",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在学校 — In the school",
+      "items": [
+        {
+          "zh": "A：你叫什么名字？",
+          "py": "A: Nǐ jiào shénme míngzi?",
+          "en": "A: What's your name?"
+        },
+        {
+          "zh": "B：我叫李月。",
+          "py": "B: Wǒ jiào Lǐ Yuè.",
+          "en": "B: My name is Li Yue."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "A：你是老师吗？",
+          "py": "A: Nǐ shì lǎoshī ma?",
+          "en": "A: Are you a teacher?"
+        },
+        {
+          "zh": "B：我不是老师，我是学生。",
+          "py": "B: Wǒ bú shì lǎoshī, wǒ shì xuésheng.",
+          "en": "B: No, I'm not. I'm a student."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在学校 — In the school",
+      "items": [
+        {
+          "zh": "A：你是中国人吗？",
+          "py": "A: Nǐ shì Zhōngguó rén ma?",
+          "en": "A: Are you Chinese?"
+        },
+        {
+          "zh": "B：我不是中国人，我是美国人。",
+          "py": "B: Wǒ bú shì Zhōngguó rén, wǒ shì Měiguó rén.",
+          "en": "B: No, I'm not. I'm American."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 3)",
+      "items": [
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to call, to be called"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I, me"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "question particle"
+        },
+        {
+          "zh": "学生",
+          "py": "xuésheng",
+          "en": "student"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns (Lesson 3)",
+      "items": [
+        {
+          "zh": "李月",
+          "py": "Lǐ Yuè",
+          "en": "Li Yue (a name)"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "美国",
+          "py": "Měiguó",
+          "en": "the USA"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问代词“什么”)",
+      "items": [
+        {
+          "zh": "你叫什么名字？",
+          "py": "Nǐ jiào shénme míngzi?",
+          "en": "What's your name?"
+        },
+        {
+          "zh": "这是什么？",
+          "py": "Zhè shì shénme?",
+          "en": "What is this?"
+        },
+        {
+          "zh": "这是什么书？",
+          "py": "Zhè shì shénme shū?",
+          "en": "What book is this?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“是”字句)",
+      "items": [
+        {
+          "zh": "李月是老师。",
+          "py": "Lǐ Yuè shì lǎoshī.",
+          "en": "Li Yue is a teacher."
+        },
+        {
+          "zh": "我是美国人。",
+          "py": "Wǒ shì Měiguó rén.",
+          "en": "I'm American."
+        },
+        {
+          "zh": "我不是老师。",
+          "py": "Wǒ bú shì lǎoshī.",
+          "en": "I'm not a teacher."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (用“吗”的疑问句)",
+      "items": [
+        {
+          "zh": "你是美国人吗？",
+          "py": "Nǐ shì Měiguó rén ma?",
+          "en": "Are you American?"
+        },
+        {
+          "zh": "你是中国人吗？",
+          "py": "Nǐ shì Zhōngguó rén ma?",
+          "en": "Are you Chinese?"
+        },
+        {
+          "zh": "你是老师吗？",
+          "py": "Nǐ shì lǎoshī ma?",
+          "en": "Are you a teacher?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "你叫什么名字？",
+          "py": "Nǐ jiào shénme míngzi?",
+          "en": "What's your name?"
+        },
+        {
+          "zh": "你是中国人吗？",
+          "py": "Nǐ shì Zhōngguó rén ma?",
+          "en": "Are you Chinese?"
+        },
+        {
+          "zh": "你是美国人吗？",
+          "py": "Nǐ shì Měiguó rén ma?",
+          "en": "Are you American?"
+        },
+        {
+          "zh": "你是老师吗？",
+          "py": "Nǐ shì lǎoshī ma?",
+          "en": "Are you a teacher?"
+        },
+        {
+          "zh": "你是学生吗？",
+          "py": "Nǐ shì xuésheng ma?",
+          "en": "Are you a student?"
+        }
+      ]
+    }
+  ]
+}

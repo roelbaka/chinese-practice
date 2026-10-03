@@ -1,0 +1,336 @@
+{
+  "title": "第7课 · 今天几号",
+  "subtitle": "HSK 1 · Lesson 7 — 今天几号 · What's the date today",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在银行 — In a bank",
+      "items": [
+        {
+          "zh": "A：请问，今天几号？",
+          "py": "A: Qǐngwèn, jīntiān jǐ hào?",
+          "en": "A: Excuse me, what's the date today?"
+        },
+        {
+          "zh": "B：今天9月1号。",
+          "py": "B: Jīntiān jiǔ yuè yī hào.",
+          "en": "B: It's September 1st."
+        },
+        {
+          "zh": "A：今天星期几？",
+          "py": "A: Jīntiān xīngqī jǐ?",
+          "en": "A: What day is it today?"
+        },
+        {
+          "zh": "B：星期三。",
+          "py": "B: Xīngqī sān.",
+          "en": "B: It's Wednesday."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 看日历 — Looking at the calendar",
+      "items": [
+        {
+          "zh": "A：昨天是几月几号？",
+          "py": "A: Zuótiān shì jǐ yuè jǐ hào?",
+          "en": "A: What was the date yesterday?"
+        },
+        {
+          "zh": "B：昨天是8月31号，星期二。",
+          "py": "B: Zuótiān shì bā yuè sānshíyī hào, xīngqī èr.",
+          "en": "B: It was Tuesday, August 31st."
+        },
+        {
+          "zh": "A：明天呢？",
+          "py": "A: Míngtiān ne?",
+          "en": "A: What about tomorrow?"
+        },
+        {
+          "zh": "B：明天是9月2号，星期四。",
+          "py": "B: Míngtiān shì jiǔ yuè èr hào, xīngqī sì.",
+          "en": "B: It's Thursday, September 2nd."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在咖啡馆儿 — In a coffee house",
+      "items": [
+        {
+          "zh": "A：明天星期六，你去学校吗？",
+          "py": "A: Míngtiān xīngqī liù, nǐ qù xuéxiào ma?",
+          "en": "A: Tomorrow is Saturday. Will you go to school?"
+        },
+        {
+          "zh": "B：我去学校。",
+          "py": "B: Wǒ qù xuéxiào.",
+          "en": "B: Yes, I will."
+        },
+        {
+          "zh": "A：你去学校做什么？",
+          "py": "A: Nǐ qù xuéxiào zuò shénme?",
+          "en": "A: What are you going to do there?"
+        },
+        {
+          "zh": "B：我去学校看书。",
+          "py": "B: Wǒ qù xuéxiào kàn shū.",
+          "en": "B: I'm going there to do some reading."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 7)",
+      "items": [
+        {
+          "zh": "请",
+          "py": "qǐng",
+          "en": "please"
+        },
+        {
+          "zh": "问",
+          "py": "wèn",
+          "en": "to ask"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "en": "day of the month"
+        },
+        {
+          "zh": "月",
+          "py": "yuè",
+          "en": "month"
+        },
+        {
+          "zh": "星期",
+          "py": "xīngqī",
+          "en": "week"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look at, to watch, to read"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (日期 月 + 号 + 星期)",
+      "items": [
+        {
+          "zh": "9月1号，星期三。",
+          "py": "Jiǔ yuè yī hào, xīngqī sān.",
+          "en": "September 1st, Wednesday."
+        },
+        {
+          "zh": "9月2号，星期四。",
+          "py": "Jiǔ yuè èr hào, xīngqī sì.",
+          "en": "September 2nd, Thursday."
+        },
+        {
+          "zh": "8月31号，星期二。",
+          "py": "Bā yuè sānshíyī hào, xīngqī èr.",
+          "en": "August 31st, Tuesday."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (名词谓语句)",
+      "items": [
+        {
+          "zh": "我的汉语老师33岁。",
+          "py": "Wǒ de Hànyǔ lǎoshī sānshísān suì.",
+          "en": "My Chinese teacher is 33."
+        },
+        {
+          "zh": "明天星期三。",
+          "py": "Míngtiān xīngqī sān.",
+          "en": "Tomorrow is Wednesday."
+        },
+        {
+          "zh": "今天9月1号。",
+          "py": "Jīntiān jiǔ yuè yī hào.",
+          "en": "Today is September 1st."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (去 + place + to do sth.)",
+      "items": [
+        {
+          "zh": "我去中国学习汉语。",
+          "py": "Wǒ qù Zhōngguó xuéxí Hànyǔ.",
+          "en": "I'm going to China to study Chinese."
+        },
+        {
+          "zh": "我们去中国饭馆儿吃中国菜。",
+          "py": "Wǒmen qù Zhōngguó fànguǎnr chī Zhōngguó cài.",
+          "en": "We're going to a Chinese restaurant to eat Chinese food."
+        },
+        {
+          "zh": "我去学校看书。",
+          "py": "Wǒ qù xuéxiào kàn shū.",
+          "en": "I'm going to school to read."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "今天几月几号星期几？",
+          "py": "Jīntiān jǐ yuè jǐ hào xīngqī jǐ?",
+          "en": "What's the date and day today?"
+        },
+        {
+          "zh": "明天几月几号星期几？",
+          "py": "Míngtiān jǐ yuè jǐ hào xīngqī jǐ?",
+          "en": "What's the date and day tomorrow?"
+        },
+        {
+          "zh": "昨天几月几号星期几？",
+          "py": "Zuótiān jǐ yuè jǐ hào xīngqī jǐ?",
+          "en": "What was the date and day yesterday?"
+        },
+        {
+          "zh": "明天你去哪儿做什么？",
+          "py": "Míngtiān nǐ qù nǎr zuò shénme?",
+          "en": "Where are you going tomorrow, and to do what?"
+        },
+        {
+          "zh": "星期日你去哪儿做什么？",
+          "py": "Xīngqīrì nǐ qù nǎr zuò shénme?",
+          "en": "Where are you going on Sunday, and to do what?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Months and weekdays)",
+      "items": [
+        {
+          "zh": "一月",
+          "py": "yī yuè",
+          "en": "January"
+        },
+        {
+          "zh": "二月",
+          "py": "èr yuè",
+          "en": "February"
+        },
+        {
+          "zh": "三月",
+          "py": "sān yuè",
+          "en": "March"
+        },
+        {
+          "zh": "四月",
+          "py": "sì yuè",
+          "en": "April"
+        },
+        {
+          "zh": "五月",
+          "py": "wǔ yuè",
+          "en": "May"
+        },
+        {
+          "zh": "六月",
+          "py": "liù yuè",
+          "en": "June"
+        },
+        {
+          "zh": "七月",
+          "py": "qī yuè",
+          "en": "July"
+        },
+        {
+          "zh": "八月",
+          "py": "bā yuè",
+          "en": "August"
+        },
+        {
+          "zh": "九月",
+          "py": "jiǔ yuè",
+          "en": "September"
+        },
+        {
+          "zh": "十月",
+          "py": "shí yuè",
+          "en": "October"
+        },
+        {
+          "zh": "十一月",
+          "py": "shíyī yuè",
+          "en": "November"
+        },
+        {
+          "zh": "十二月",
+          "py": "shí'èr yuè",
+          "en": "December"
+        },
+        {
+          "zh": "星期一",
+          "py": "xīngqī yī",
+          "en": "Monday"
+        },
+        {
+          "zh": "星期二",
+          "py": "xīngqī èr",
+          "en": "Tuesday"
+        },
+        {
+          "zh": "星期三",
+          "py": "xīngqī sān",
+          "en": "Wednesday"
+        },
+        {
+          "zh": "星期四",
+          "py": "xīngqī sì",
+          "en": "Thursday"
+        },
+        {
+          "zh": "星期五",
+          "py": "xīngqī wǔ",
+          "en": "Friday"
+        },
+        {
+          "zh": "星期六",
+          "py": "xīngqī liù",
+          "en": "Saturday"
+        },
+        {
+          "zh": "星期日 / 星期天",
+          "py": "xīngqīrì / xīngqītiān",
+          "en": "Sunday"
+        }
+      ]
+    }
+  ]
+}

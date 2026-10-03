@@ -1,0 +1,271 @@
+{
+  "title": "第13课 · 他在学做中国菜呢",
+  "subtitle": "HSK 1 · Lesson 13 — 他在学做中国菜呢 · He is learning to cook Chinese food",
+  "data": [
+    {
+      "topic": "课文1 · 1. 打电话 — On the phone",
+      "items": [
+        {
+          "zh": "A：喂，你在做什么呢？",
+          "py": "A: Wèi, nǐ zài zuò shénme ne?",
+          "en": "A: Hello, what are you doing?"
+        },
+        {
+          "zh": "B：我在看书呢。",
+          "py": "B: Wǒ zài kàn shū ne.",
+          "en": "B: I'm reading."
+        },
+        {
+          "zh": "A：大卫也在看书吗？",
+          "py": "A: Dàwèi yě zài kàn shū ma?",
+          "en": "A: Is David reading too?"
+        },
+        {
+          "zh": "B：他没看书，他在学做中国菜呢。",
+          "py": "B: Tā méi kàn shū, tā zài xué zuò Zhōngguó cài ne.",
+          "en": "B: No, he's learning to cook Chinese food."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在咖啡馆儿 — In a coffee house",
+      "items": [
+        {
+          "zh": "A：昨天上午你在做什么呢？",
+          "py": "A: Zuótiān shàngwǔ nǐ zài zuò shénme ne?",
+          "en": "A: What were you doing yesterday morning?"
+        },
+        {
+          "zh": "B：我在睡觉呢。你呢？",
+          "py": "B: Wǒ zài shuì jiào ne. Nǐ ne?",
+          "en": "B: I was sleeping. And you?"
+        },
+        {
+          "zh": "A：我在家看电视呢。你喜欢看电视吗？",
+          "py": "A: Wǒ zài jiā kàn diànshì ne. Nǐ xǐhuan kàn diànshì ma?",
+          "en": "A: I was watching TV at home. Do you like watching TV?"
+        },
+        {
+          "zh": "B：我不喜欢看电视，我喜欢看电影。",
+          "py": "B: Wǒ bù xǐhuan kàn diànshì, wǒ xǐhuan kàn diànyǐng.",
+          "en": "B: No, I don't. I like watching films."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在学校办公室 — In the school office",
+      "items": [
+        {
+          "zh": "A：82304155，这是李老师的电话吗？",
+          "py": "A: Bā èr sān líng sì yāo wǔ wǔ, zhè shì Lǐ lǎoshī de diànhuà ma?",
+          "en": "A: 82304155 — is that Ms Li's phone number?"
+        },
+        {
+          "zh": "B：不是。她的电话是82304156。",
+          "py": "B: Bú shì. Tā de diànhuà shì bā èr sān líng sì yāo wǔ liù.",
+          "en": "B: No. Her number is 82304156."
+        },
+        {
+          "zh": "A：好，我现在给她打电话。",
+          "py": "A: Hǎo, wǒ xiànzài gěi tā dǎ diànhuà.",
+          "en": "A: OK, I'll call her right now."
+        },
+        {
+          "zh": "B：她在工作呢，你下午打吧。",
+          "py": "B: Tā zài gōngzuò ne, nǐ xiàwǔ dǎ ba.",
+          "en": "B: She's working. Call her in the afternoon."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 13)",
+      "items": [
+        {
+          "zh": "喂",
+          "py": "wèi",
+          "en": "hello (on the phone)"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also, too"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "en": "to study, to learn"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "to learn"
+        },
+        {
+          "zh": "上午",
+          "py": "shàngwǔ",
+          "en": "morning"
+        },
+        {
+          "zh": "睡觉",
+          "py": "shuì jiào",
+          "en": "to sleep"
+        },
+        {
+          "zh": "电视",
+          "py": "diànshì",
+          "en": "television"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "to like"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to, for"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "en": "to make a phone call"
+        },
+        {
+          "zh": "吧",
+          "py": "ba",
+          "en": "particle: suggestion"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns (Lesson 13)",
+      "items": [
+        {
+          "zh": "大卫",
+          "py": "Dàwèi",
+          "en": "David"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (叹词“喂”)",
+      "items": [
+        {
+          "zh": "喂，李老师在家吗？",
+          "py": "Wèi, Lǐ lǎoshī zài jiā ma?",
+          "en": "Hello, is Teacher Li at home?"
+        },
+        {
+          "zh": "喂，你是张小姐吗？",
+          "py": "Wèi, nǐ shì Zhāng xiǎojiě ma?",
+          "en": "Hello, is this Miss Zhang?"
+        },
+        {
+          "zh": "喂，你在做什么呢？",
+          "py": "Wèi, nǐ zài zuò shénme ne?",
+          "en": "Hello, what are you doing?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“在……呢” action in progress)",
+      "items": [
+        {
+          "zh": "我在睡觉呢。",
+          "py": "Wǒ zài shuì jiào ne.",
+          "en": "I'm sleeping."
+        },
+        {
+          "zh": "你在做什么呢？",
+          "py": "Nǐ zài zuò shénme ne?",
+          "en": "What are you doing?"
+        },
+        {
+          "zh": "小王在学习汉语。",
+          "py": "Xiǎo Wáng zài xuéxí Hànyǔ.",
+          "en": "Xiao Wang is studying Chinese."
+        },
+        {
+          "zh": "我没在看电视。",
+          "py": "Wǒ méi zài kàn diànshì.",
+          "en": "I'm not watching TV."
+        },
+        {
+          "zh": "他没看书。",
+          "py": "Tā méi kàn shū.",
+          "en": "He isn't reading."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (电话号码 1 = yāo)",
+      "items": [
+        {
+          "zh": "8069478",
+          "py": "bā líng liù jiǔ sì qī bā",
+          "en": "phone number, read digit by digit"
+        },
+        {
+          "zh": "13851897623",
+          "py": "yāo sān bā wǔ yāo bā jiǔ qī liù èr sān",
+          "en": "mobile number: 1 is read yāo"
+        },
+        {
+          "zh": "82304156",
+          "py": "bā èr sān líng sì yāo wǔ liù",
+          "en": "Teacher Li's number"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (语气助词“吧”)",
+      "items": [
+        {
+          "zh": "这儿没有人，请坐吧。",
+          "py": "Zhèr méiyǒu rén, qǐng zuò ba.",
+          "en": "Nobody's sitting here, please sit."
+        },
+        {
+          "zh": "今天我们在家吃饭吧。",
+          "py": "Jīntiān wǒmen zài jiā chī fàn ba.",
+          "en": "Let's eat at home today."
+        },
+        {
+          "zh": "她在工作呢，你下午打吧。",
+          "py": "Tā zài gōngzuò ne, nǐ xiàwǔ dǎ ba.",
+          "en": "She's working, call in the afternoon."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "大卫在做什么呢？",
+          "py": "Dàwèi zài zuò shénme ne?",
+          "en": "What is David doing?"
+        },
+        {
+          "zh": "昨天上午他在看书吗？",
+          "py": "Zuótiān shàngwǔ tā zài kàn shū ma?",
+          "en": "Was he reading yesterday morning?"
+        },
+        {
+          "zh": "他们都喜欢看电视吗？",
+          "py": "Tāmen dōu xǐhuan kàn diànshì ma?",
+          "en": "Do they all like watching TV?"
+        },
+        {
+          "zh": "李老师的电话号码是多少？",
+          "py": "Lǐ lǎoshī de diànhuà hàomǎ shì duōshao?",
+          "en": "What's Teacher Li's phone number?"
+        },
+        {
+          "zh": "李老师在做什么呢？",
+          "py": "Lǐ lǎoshī zài zuò shénme ne?",
+          "en": "What is Teacher Li doing?"
+        }
+      ]
+    }
+  ]
+}

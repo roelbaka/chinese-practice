@@ -1,0 +1,316 @@
+{
+  "title": "第14课 · 她买了不少衣服",
+  "subtitle": "HSK 1 · Lesson 14 — 她买了不少衣服 · She has bought quite a few clothes",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在宿舍 — In the dorm",
+      "items": [
+        {
+          "zh": "A：昨天上午你去哪儿了？",
+          "py": "A: Zuótiān shàngwǔ nǐ qù nǎr le?",
+          "en": "A: Where did you go yesterday morning?"
+        },
+        {
+          "zh": "B：我去商店买东西了。",
+          "py": "B: Wǒ qù shāngdiàn mǎi dōngxi le.",
+          "en": "B: I went shopping."
+        },
+        {
+          "zh": "A：你买什么了？",
+          "py": "A: Nǐ mǎi shénme le?",
+          "en": "A: What did you buy?"
+        },
+        {
+          "zh": "B：我买了一点儿苹果。",
+          "py": "B: Wǒ mǎile yìdiǎnr píngguǒ.",
+          "en": "B: I bought some apples."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在公司 — In the company",
+      "items": [
+        {
+          "zh": "A：你看见张先生了吗？",
+          "py": "A: Nǐ kànjiàn Zhāng xiānsheng le ma?",
+          "en": "A: Have you seen Mr Zhang?"
+        },
+        {
+          "zh": "B：看见了，他去学开车了。",
+          "py": "B: Kànjiàn le, tā qù xué kāi chē le.",
+          "en": "B: Yes. He has gone to a driving lesson."
+        },
+        {
+          "zh": "A：他什么时候能回来？",
+          "py": "A: Tā shénme shíhou néng huílai?",
+          "en": "A: When can he come back?"
+        },
+        {
+          "zh": "B：40分钟后回来。",
+          "py": "B: Sìshí fēnzhōng hòu huílai.",
+          "en": "B: In 40 minutes."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在商店门口 — Outside a store",
+      "items": [
+        {
+          "zh": "A：王方的衣服太漂亮了！",
+          "py": "A: Wáng Fāng de yīfu tài piàoliang le!",
+          "en": "A: Wang Fang's clothes are so pretty!"
+        },
+        {
+          "zh": "B：是啊，她买了不少衣服。",
+          "py": "B: Shì a, tā mǎile bùshǎo yīfu.",
+          "en": "B: Yes, she's bought quite a few clothes."
+        },
+        {
+          "zh": "A：你买什么了？",
+          "py": "A: Nǐ mǎi shénme le?",
+          "en": "A: What did you buy?"
+        },
+        {
+          "zh": "B：我没买，这些都是王方的东西。",
+          "py": "B: Wǒ méi mǎi, zhèxiē dōu shì Wáng Fāng de dōngxi.",
+          "en": "B: I didn't buy anything. All these are Wang Fang's things."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 14)",
+      "items": [
+        {
+          "zh": "东西",
+          "py": "dōngxi",
+          "en": "thing, stuff"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yìdiǎnr",
+          "en": "a little, a few"
+        },
+        {
+          "zh": "苹果",
+          "py": "píngguǒ",
+          "en": "apple"
+        },
+        {
+          "zh": "看见",
+          "py": "kànjiàn",
+          "en": "to see"
+        },
+        {
+          "zh": "先生",
+          "py": "xiānsheng",
+          "en": "Mr., sir"
+        },
+        {
+          "zh": "开",
+          "py": "kāi",
+          "en": "to drive"
+        },
+        {
+          "zh": "车",
+          "py": "chē",
+          "en": "car, vehicle"
+        },
+        {
+          "zh": "回来",
+          "py": "huílai",
+          "en": "to come back"
+        },
+        {
+          "zh": "分钟",
+          "py": "fēnzhōng",
+          "en": "minute"
+        },
+        {
+          "zh": "后",
+          "py": "hòu",
+          "en": "after, later"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "en": "beautiful, pretty"
+        },
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "particle: confirmation, mood"
+        },
+        {
+          "zh": "少",
+          "py": "shǎo",
+          "en": "little, few"
+        },
+        {
+          "zh": "不少",
+          "py": "bùshǎo",
+          "en": "quite a few, many"
+        },
+        {
+          "zh": "这些",
+          "py": "zhèxiē",
+          "en": "these"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "both, all"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns (Lesson 14)",
+      "items": [
+        {
+          "zh": "张",
+          "py": "Zhāng",
+          "en": "Zhang (family name)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“了”表发生或完成)",
+      "items": [
+        {
+          "zh": "我去商店了。",
+          "py": "Wǒ qù shāngdiàn le.",
+          "en": "I went to the shop."
+        },
+        {
+          "zh": "他去学开车了。",
+          "py": "Tā qù xué kāi chē le.",
+          "en": "He has gone to learn to drive."
+        },
+        {
+          "zh": "她买了一点儿苹果。",
+          "py": "Tā mǎile yìdiǎnr píngguǒ.",
+          "en": "She bought some apples."
+        },
+        {
+          "zh": "我买了不少衣服。",
+          "py": "Wǒ mǎile bùshǎo yīfu.",
+          "en": "I bought quite a few clothes."
+        },
+        {
+          "zh": "你看见了几个人？",
+          "py": "Nǐ kànjiànle jǐ ge rén?",
+          "en": "How many people did you see?"
+        },
+        {
+          "zh": "她没去商店。",
+          "py": "Tā méi qù shāngdiàn.",
+          "en": "She didn't go to the shop (negative: 没, no 了)."
+        },
+        {
+          "zh": "我没看见张先生。",
+          "py": "Wǒ méi kànjiàn Zhāng xiānsheng.",
+          "en": "I didn't see Mr Zhang."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (名词“后”)",
+      "items": [
+        {
+          "zh": "五点后",
+          "py": "wǔ diǎn hòu",
+          "en": "after five"
+        },
+        {
+          "zh": "40分钟后",
+          "py": "sìshí fēnzhōng hòu",
+          "en": "in 40 minutes"
+        },
+        {
+          "zh": "你几点去工作？——八点后。",
+          "py": "Nǐ jǐ diǎn qù gōngzuò? — Bā diǎn hòu.",
+          "en": "When do you go to work? — After eight."
+        },
+        {
+          "zh": "40分钟后回来。",
+          "py": "Sìshí fēnzhōng hòu huílai.",
+          "en": "Back in 40 minutes."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (语气助词“啊”)",
+      "items": [
+        {
+          "zh": "你是王小姐吗？——是啊。",
+          "py": "Nǐ shì Wáng xiǎojiě ma? — Shì a.",
+          "en": "Are you Miss Wang? — Yes, I am."
+        },
+        {
+          "zh": "你想去吃中国菜吗？——好啊。",
+          "py": "Nǐ xiǎng qù chī Zhōngguó cài ma? — Hǎo a.",
+          "en": "Want to go eat Chinese food? — Sure!"
+        },
+        {
+          "zh": "是啊，她买了不少衣服。",
+          "py": "Shì a, tā mǎile bùshǎo yīfu.",
+          "en": "Yes, she bought quite a few clothes."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (副词“都”)",
+      "items": [
+        {
+          "zh": "我们都是中国人。",
+          "py": "Wǒmen dōu shì Zhōngguó rén.",
+          "en": "We are all Chinese."
+        },
+        {
+          "zh": "他们都喜欢喝茶。",
+          "py": "Tāmen dōu xǐhuan hē chá.",
+          "en": "They all like tea."
+        },
+        {
+          "zh": "这些都是王方的东西。",
+          "py": "Zhèxiē dōu shì Wáng Fāng de dōngxi.",
+          "en": "These are all Wang Fang's things."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "昨天上午她去哪儿了？",
+          "py": "Zuótiān shàngwǔ tā qù nǎr le?",
+          "en": "Where did she go yesterday morning?"
+        },
+        {
+          "zh": "她买什么了？",
+          "py": "Tā mǎi shénme le?",
+          "en": "What did she buy?"
+        },
+        {
+          "zh": "张先生什么时候能回来？",
+          "py": "Zhāng xiānsheng shénme shíhou néng huílai?",
+          "en": "When can Mr Zhang come back?"
+        },
+        {
+          "zh": "王方买什么了？",
+          "py": "Wáng Fāng mǎi shénme le?",
+          "en": "What did Wang Fang buy?"
+        },
+        {
+          "zh": "王方的朋友买什么了？",
+          "py": "Wáng Fāng de péngyou mǎi shénme le?",
+          "en": "What did Wang Fang's friend buy?"
+        }
+      ]
+    }
+  ]
+}

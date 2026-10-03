@@ -1,0 +1,261 @@
+{
+  "title": "第9课 · 你儿子在哪儿工作",
+  "subtitle": "HSK 1 · Lesson 9 — 你儿子在哪儿工作 · Where does your son work",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在家 — At home",
+      "items": [
+        {
+          "zh": "A：小猫在哪儿？",
+          "py": "A: Xiǎo māo zài nǎr?",
+          "en": "A: Where is the kitty?"
+        },
+        {
+          "zh": "B：小猫在那儿。",
+          "py": "B: Xiǎo māo zài nàr.",
+          "en": "B: The kitty is over there."
+        },
+        {
+          "zh": "A：小狗在哪儿？",
+          "py": "A: Xiǎo gǒu zài nǎr?",
+          "en": "A: Where is the puppy?"
+        },
+        {
+          "zh": "B：小狗在椅子下面。",
+          "py": "B: Xiǎo gǒu zài yǐzi xiàmiàn.",
+          "en": "B: The puppy is under the chair."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在车站 — At the railway station",
+      "items": [
+        {
+          "zh": "A：你在哪儿工作？",
+          "py": "A: Nǐ zài nǎr gōngzuò?",
+          "en": "A: Where do you work?"
+        },
+        {
+          "zh": "B：我在学校工作。",
+          "py": "B: Wǒ zài xuéxiào gōngzuò.",
+          "en": "B: I work in a school."
+        },
+        {
+          "zh": "A：你儿子在哪儿工作？",
+          "py": "A: Nǐ érzi zài nǎr gōngzuò?",
+          "en": "A: Where does your son work?"
+        },
+        {
+          "zh": "B：我儿子在医院工作，他是医生。",
+          "py": "B: Wǒ érzi zài yīyuàn gōngzuò, tā shì yīshēng.",
+          "en": "B: My son works in a hospital. He is a doctor."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 打电话 — On the phone",
+      "items": [
+        {
+          "zh": "A：你爸爸在家吗？",
+          "py": "A: Nǐ bàba zài jiā ma?",
+          "en": "A: Is your father at home?"
+        },
+        {
+          "zh": "B：不在家。",
+          "py": "B: Bú zài jiā.",
+          "en": "B: No, he isn't."
+        },
+        {
+          "zh": "A：他在哪儿呢？",
+          "py": "A: Tā zài nǎr ne?",
+          "en": "A: Where is he?"
+        },
+        {
+          "zh": "B：他在医院。",
+          "py": "B: Tā zài yīyuàn.",
+          "en": "B: He is in the hospital."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 9)",
+      "items": [
+        {
+          "zh": "小",
+          "py": "xiǎo",
+          "en": "small, little"
+        },
+        {
+          "zh": "猫",
+          "py": "māo",
+          "en": "cat"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "to be in/on/at; in/at"
+        },
+        {
+          "zh": "那儿",
+          "py": "nàr",
+          "en": "there"
+        },
+        {
+          "zh": "狗",
+          "py": "gǒu",
+          "en": "dog"
+        },
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "en": "chair"
+        },
+        {
+          "zh": "下面",
+          "py": "xiàmiàn",
+          "en": "under, below"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work; job"
+        },
+        {
+          "zh": "儿子",
+          "py": "érzi",
+          "en": "son"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "医生",
+          "py": "yīshēng",
+          "en": "doctor"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "father"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (动词“在”)",
+      "items": [
+        {
+          "zh": "我朋友在学校。",
+          "py": "Wǒ péngyou zài xuéxiào.",
+          "en": "My friend is at school."
+        },
+        {
+          "zh": "我妈妈在家。",
+          "py": "Wǒ māma zài jiā.",
+          "en": "My mother is at home."
+        },
+        {
+          "zh": "小狗在椅子下面。",
+          "py": "Xiǎo gǒu zài yǐzi xiàmiàn.",
+          "en": "The puppy is under the chair."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问代词“哪儿”)",
+      "items": [
+        {
+          "zh": "我的杯子在哪儿？",
+          "py": "Wǒ de bēizi zài nǎr?",
+          "en": "Where is my cup?"
+        },
+        {
+          "zh": "你的中国朋友在哪儿？",
+          "py": "Nǐ de Zhōngguó péngyou zài nǎr?",
+          "en": "Where is your Chinese friend?"
+        },
+        {
+          "zh": "小猫在哪儿？",
+          "py": "Xiǎo māo zài nǎr?",
+          "en": "Where is the kitty?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (介词“在” + place + verb)",
+      "items": [
+        {
+          "zh": "我在朋友家喝茶。",
+          "py": "Wǒ zài péngyou jiā hē chá.",
+          "en": "I'm drinking tea at my friend's home."
+        },
+        {
+          "zh": "他们在学校看书。",
+          "py": "Tāmen zài xuéxiào kàn shū.",
+          "en": "They read at school."
+        },
+        {
+          "zh": "我儿子在医院工作。",
+          "py": "Wǒ érzi zài yīyuàn gōngzuò.",
+          "en": "My son works in a hospital."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“呢”问位置)",
+      "items": [
+        {
+          "zh": "我的小猫呢？",
+          "py": "Wǒ de xiǎo māo ne?",
+          "en": "Where's my kitty?"
+        },
+        {
+          "zh": "我的杯子呢？",
+          "py": "Wǒ de bēizi ne?",
+          "en": "Where's my cup?"
+        },
+        {
+          "zh": "他在哪儿呢？",
+          "py": "Tā zài nǎr ne?",
+          "en": "Where is he?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "小狗在哪儿？",
+          "py": "Xiǎo gǒu zài nǎr?",
+          "en": "Where is the puppy?"
+        },
+        {
+          "zh": "他在哪儿工作？",
+          "py": "Tā zài nǎr gōngzuò?",
+          "en": "Where does he work?"
+        },
+        {
+          "zh": "他儿子在哪儿工作？",
+          "py": "Tā érzi zài nǎr gōngzuò?",
+          "en": "Where does his son work?"
+        },
+        {
+          "zh": "她爸爸在家吗？",
+          "py": "Tā bàba zài jiā ma?",
+          "en": "Is her father at home?"
+        },
+        {
+          "zh": "她爸爸在哪儿呢？",
+          "py": "Tā bàba zài nǎr ne?",
+          "en": "Where is her father?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "title": "第4课 · 她是我的汉语老师",
+  "subtitle": "HSK 1 · Lesson 4 — 她是我的汉语老师 · She is my Chinese teacher",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在教室 — In the classroom",
+      "items": [
+        {
+          "zh": "A：她是谁？",
+          "py": "A: Tā shì shéi?",
+          "en": "A: Who is she?"
+        },
+        {
+          "zh": "B：她是我的汉语老师，她叫李月。",
+          "py": "B: Tā shì wǒ de Hànyǔ lǎoshī, tā jiào Lǐ Yuè.",
+          "en": "B: She is my Chinese teacher. Her name is Li Yue."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在图书馆 — In the library",
+      "items": [
+        {
+          "zh": "A：你是哪国人？",
+          "py": "A: Nǐ shì nǎ guó rén?",
+          "en": "A: Which country are you from?"
+        },
+        {
+          "zh": "B：我是美国人。你呢？",
+          "py": "B: Wǒ shì Měiguó rén. Nǐ ne?",
+          "en": "B: The United States. What about you?"
+        },
+        {
+          "zh": "A：我是中国人。",
+          "py": "A: Wǒ shì Zhōngguó rén.",
+          "en": "A: I'm Chinese."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 看照片 — Looking at the photo",
+      "items": [
+        {
+          "zh": "A：他是谁？",
+          "py": "A: Tā shì shéi?",
+          "en": "A: Who is he?"
+        },
+        {
+          "zh": "B：他是我同学。",
+          "py": "B: Tā shì wǒ tóngxué.",
+          "en": "B: He is my classmate."
+        },
+        {
+          "zh": "A：她呢？她是你同学吗？",
+          "py": "A: Tā ne? Tā shì nǐ tóngxué ma?",
+          "en": "A: What about her? Is she your classmate?"
+        },
+        {
+          "zh": "B：她不是我同学，她是我朋友。",
+          "py": "B: Tā bú shì wǒ tóngxué, tā shì wǒ péngyou.",
+          "en": "B: No, she isn't. She is my friend."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 4)",
+      "items": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she, her"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "en": "who, whom"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "structural particle (of, 's)"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Chinese (language)"
+        },
+        {
+          "zh": "哪",
+          "py": "nǎ",
+          "en": "which"
+        },
+        {
+          "zh": "国",
+          "py": "guó",
+          "en": "country, nation"
+        },
+        {
+          "zh": "呢",
+          "py": "ne",
+          "en": "question particle (what about…?)"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he, him"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "en": "classmate"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问代词“谁”“哪”)",
+      "items": [
+        {
+          "zh": "谁是李月？",
+          "py": "Shéi shì Lǐ Yuè?",
+          "en": "Who is Li Yue?"
+        },
+        {
+          "zh": "她是谁？",
+          "py": "Tā shì shéi?",
+          "en": "Who is she?"
+        },
+        {
+          "zh": "哪本书？",
+          "py": "Nǎ běn shū?",
+          "en": "Which book?"
+        },
+        {
+          "zh": "哪个人？",
+          "py": "Nǎge rén?",
+          "en": "Which person?"
+        },
+        {
+          "zh": "你是哪国人？",
+          "py": "Nǐ shì nǎ guó rén?",
+          "en": "Which country are you from?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (结构助词“的”)",
+      "items": [
+        {
+          "zh": "李月是我的老师。",
+          "py": "Lǐ Yuè shì wǒ de lǎoshī.",
+          "en": "Li Yue is my teacher."
+        },
+        {
+          "zh": "这是我的书。",
+          "py": "Zhè shì wǒ de shū.",
+          "en": "This is my book."
+        },
+        {
+          "zh": "她不是我同学，她是我朋友。",
+          "py": "Tā bú shì wǒ tóngxué, tā shì wǒ péngyou.",
+          "en": "She isn't my classmate, she's my friend (的 left out before people)."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问助词“呢”)",
+      "items": [
+        {
+          "zh": "我不是老师，我是学生。你呢？",
+          "py": "Wǒ bú shì lǎoshī, wǒ shì xuésheng. Nǐ ne?",
+          "en": "I'm not a teacher, I'm a student. And you?"
+        },
+        {
+          "zh": "她叫李月。他呢？",
+          "py": "Tā jiào Lǐ Yuè. Tā ne?",
+          "en": "Her name is Li Yue. And him?"
+        },
+        {
+          "zh": "我是美国人。你呢？",
+          "py": "Wǒ shì Měiguó rén. Nǐ ne?",
+          "en": "I'm American. And you?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "你是哪国人？",
+          "py": "Nǐ shì nǎ guó rén?",
+          "en": "Which country are you from?"
+        },
+        {
+          "zh": "你叫什么名字？",
+          "py": "Nǐ jiào shénme míngzi?",
+          "en": "What's your name?"
+        },
+        {
+          "zh": "你的汉语老师是哪国人？",
+          "py": "Nǐ de Hànyǔ lǎoshī shì nǎ guó rén?",
+          "en": "Which country is your Chinese teacher from?"
+        },
+        {
+          "zh": "你的汉语老师叫什么名字？",
+          "py": "Nǐ de Hànyǔ lǎoshī jiào shénme míngzi?",
+          "en": "What's your Chinese teacher's name?"
+        },
+        {
+          "zh": "你的中国朋友是谁？",
+          "py": "Nǐ de Zhōngguó péngyou shì shéi?",
+          "en": "Who is your Chinese friend?"
+        }
+      ]
+    }
+  ]
+}

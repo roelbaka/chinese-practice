@@ -1,0 +1,306 @@
+{
+  "title": "第10课 · 我能坐这儿吗",
+  "subtitle": "HSK 1 · Lesson 10 — 我能坐这儿吗 · Can I sit here",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在办公室 — In the office",
+      "items": [
+        {
+          "zh": "A：桌子上有什么？",
+          "py": "A: Zhuōzi shang yǒu shénme?",
+          "en": "A: What's on the desk?"
+        },
+        {
+          "zh": "B：桌子上有一个电脑和一本书。",
+          "py": "B: Zhuōzi shang yǒu yí ge diànnǎo hé yì běn shū.",
+          "en": "B: There is a computer and a book."
+        },
+        {
+          "zh": "A：杯子在哪儿？",
+          "py": "A: Bēizi zài nǎr?",
+          "en": "A: Where is the cup?"
+        },
+        {
+          "zh": "B：杯子在桌子里。",
+          "py": "B: Bēizi zài zhuōzi li.",
+          "en": "B: It's in the desk."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在健身房 — In the gym",
+      "items": [
+        {
+          "zh": "A：前面那个人叫什么名字？",
+          "py": "A: Qiánmiàn nàge rén jiào shénme míngzi?",
+          "en": "A: Who is the person in front?"
+        },
+        {
+          "zh": "B：她叫王方，在医院工作。",
+          "py": "B: Tā jiào Wáng Fāng, zài yīyuàn gōngzuò.",
+          "en": "B: She is Wang Fang. She works in a hospital."
+        },
+        {
+          "zh": "A：后面那个人呢？他叫什么名字？",
+          "py": "A: Hòumiàn nàge rén ne? Tā jiào shénme míngzi?",
+          "en": "A: And the person at the back? What's his name?"
+        },
+        {
+          "zh": "B：他叫谢朋，在商店工作。",
+          "py": "B: Tā jiào Xiè Péng, zài shāngdiàn gōngzuò.",
+          "en": "B: He is Xie Peng. He works in a store."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在图书馆 — In the library",
+      "items": [
+        {
+          "zh": "A：这儿有人吗？",
+          "py": "A: Zhèr yǒu rén ma?",
+          "en": "A: Is this seat taken?"
+        },
+        {
+          "zh": "B：没有。",
+          "py": "B: Méiyǒu.",
+          "en": "B: No, it isn't."
+        },
+        {
+          "zh": "A：我能坐这儿吗？",
+          "py": "A: Wǒ néng zuò zhèr ma?",
+          "en": "A: Can I sit here?"
+        },
+        {
+          "zh": "B：请坐。",
+          "py": "B: Qǐng zuò.",
+          "en": "B: Yes, please."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 10)",
+      "items": [
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "desk, table"
+        },
+        {
+          "zh": "上",
+          "py": "shang",
+          "en": "on, above"
+        },
+        {
+          "zh": "电脑",
+          "py": "diànnǎo",
+          "en": "computer"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "里",
+          "py": "li",
+          "en": "in, inside"
+        },
+        {
+          "zh": "前面",
+          "py": "qiánmiàn",
+          "en": "front"
+        },
+        {
+          "zh": "后面",
+          "py": "hòumiàn",
+          "en": "back, behind"
+        },
+        {
+          "zh": "这儿",
+          "py": "zhèr",
+          "en": "here"
+        },
+        {
+          "zh": "没有",
+          "py": "méiyǒu",
+          "en": "there is not; not have"
+        },
+        {
+          "zh": "能",
+          "py": "néng",
+          "en": "can, may"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns (Lesson 10)",
+      "items": [
+        {
+          "zh": "王方",
+          "py": "Wáng Fāng",
+          "en": "Wang Fang (a name)"
+        },
+        {
+          "zh": "谢朋",
+          "py": "Xiè Péng",
+          "en": "Xie Peng (a name)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“有”字句：表示存在)",
+      "items": [
+        {
+          "zh": "椅子下面有一只小狗。",
+          "py": "Yǐzi xiàmiàn yǒu yì zhī xiǎo gǒu.",
+          "en": "There is a puppy under the chair."
+        },
+        {
+          "zh": "学校里有一个商店。",
+          "py": "Xuéxiào li yǒu yí ge shāngdiàn.",
+          "en": "There is a shop in the school."
+        },
+        {
+          "zh": "桌子上有一个电脑和一本书。",
+          "py": "Zhuōzi shang yǒu yí ge diànnǎo hé yì běn shū.",
+          "en": "There is a computer and a book on the desk."
+        },
+        {
+          "zh": "椅子下面没有小狗。",
+          "py": "Yǐzi xiàmiàn méiyǒu xiǎo gǒu.",
+          "en": "There is no puppy under the chair."
+        },
+        {
+          "zh": "桌子上没有电脑和书。",
+          "py": "Zhuōzi shang méiyǒu diànnǎo hé shū.",
+          "en": "There is no computer or book on the desk."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (连词“和”)",
+      "items": [
+        {
+          "zh": "我有一个中国朋友和一个美国朋友。",
+          "py": "Wǒ yǒu yí ge Zhōngguó péngyou hé yí ge Měiguó péngyou.",
+          "en": "I have a Chinese friend and an American friend."
+        },
+        {
+          "zh": "我家有三口人，爸爸、妈妈和我。",
+          "py": "Wǒ jiā yǒu sān kǒu rén, bàba, māma hé wǒ.",
+          "en": "There are three of us: dad, mum and me."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (能愿动词“能”)",
+      "items": [
+        {
+          "zh": "明天下午我能去商店。",
+          "py": "Míngtiān xiàwǔ wǒ néng qù shāngdiàn.",
+          "en": "I can go to the shop tomorrow afternoon."
+        },
+        {
+          "zh": "你能在这儿写你的名字吗？",
+          "py": "Nǐ néng zài zhèr xiě nǐ de míngzi ma?",
+          "en": "Can you write your name here?"
+        },
+        {
+          "zh": "我能坐这儿吗？",
+          "py": "Wǒ néng zuò zhèr ma?",
+          "en": "Can I sit here?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (用“请”的祈使句)",
+      "items": [
+        {
+          "zh": "请写您的名字。",
+          "py": "Qǐng xiě nín de míngzi.",
+          "en": "Please write your name."
+        },
+        {
+          "zh": "请喝茶。",
+          "py": "Qǐng hē chá.",
+          "en": "Please have some tea."
+        },
+        {
+          "zh": "请坐。",
+          "py": "Qǐng zuò.",
+          "en": "Please sit down."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "电脑在哪儿？",
+          "py": "Diànnǎo zài nǎr?",
+          "en": "Where is the computer?"
+        },
+        {
+          "zh": "书在哪儿？",
+          "py": "Shū zài nǎr?",
+          "en": "Where is the book?"
+        },
+        {
+          "zh": "桌子里面有什么？",
+          "py": "Zhuōzi lǐmiàn yǒu shénme?",
+          "en": "What's inside the desk?"
+        },
+        {
+          "zh": "哪个人是王方？",
+          "py": "Nǎge rén shì Wáng Fāng?",
+          "en": "Which person is Wang Fang?"
+        },
+        {
+          "zh": "哪个人是谢朋？",
+          "py": "Nǎge rén shì Xiè Péng?",
+          "en": "Which person is Xie Peng?"
+        }
+      ]
+    },
+    {
+      "topic": "文化 · Culture (Chinese names)",
+      "items": [
+        {
+          "zh": "中国人的名字：姓在前，名字在后。",
+          "py": "Zhōngguórén de míngzi: xìng zài qián, míngzi zài hòu.",
+          "en": "Chinese names: family name first, given name after."
+        },
+        {
+          "zh": "李月：李是姓，月是名字。",
+          "py": "Lǐ Yuè: Lǐ shì xìng, Yuè shì míngzi.",
+          "en": "Li Yue: Li is the family name, Yue the given name."
+        },
+        {
+          "zh": "张、王、李、赵是最常见的姓。",
+          "py": "Zhāng, Wáng, Lǐ, Zhào shì zuì chángjiàn de xìng.",
+          "en": "Zhang, Wang, Li and Zhao are the most common family names."
+        },
+        {
+          "zh": "欧阳、上官、诸葛是复姓。",
+          "py": "Ōuyáng, Shàngguān, Zhūgě shì fùxìng.",
+          "en": "Ouyang, Shangguan and Zhuge are two-character family names."
+        },
+        {
+          "zh": "李老师、王医生",
+          "py": "Lǐ lǎoshī, Wáng yīshēng",
+          "en": "Address people as family name + job: Teacher Li, Doctor Wang."
+        }
+      ]
+    }
+  ]
+}

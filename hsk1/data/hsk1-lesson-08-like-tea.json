@@ -1,0 +1,291 @@
+{
+  "title": "第8课 · 我想喝茶",
+  "subtitle": "HSK 1 · Lesson 8 — 我想喝茶 · I'd like some tea",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在饭馆儿 — In a restaurant",
+      "items": [
+        {
+          "zh": "A：你想喝什么？",
+          "py": "A: Nǐ xiǎng hē shénme?",
+          "en": "A: What would you like to drink?"
+        },
+        {
+          "zh": "B：我想喝茶。",
+          "py": "B: Wǒ xiǎng hē chá.",
+          "en": "B: I'd like some tea."
+        },
+        {
+          "zh": "A：你想吃什么？",
+          "py": "A: Nǐ xiǎng chī shénme?",
+          "en": "A: What would you like to eat?"
+        },
+        {
+          "zh": "B：我想吃米饭。",
+          "py": "B: Wǒ xiǎng chī mǐfàn.",
+          "en": "B: I'd like rice."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在客厅 — In the living room",
+      "items": [
+        {
+          "zh": "A：下午你想做什么？",
+          "py": "A: Xiàwǔ nǐ xiǎng zuò shénme?",
+          "en": "A: What would you like to do this afternoon?"
+        },
+        {
+          "zh": "B：下午我想去商店。",
+          "py": "B: Xiàwǔ wǒ xiǎng qù shāngdiàn.",
+          "en": "B: I'd like to go shopping."
+        },
+        {
+          "zh": "A：你想买什么？",
+          "py": "A: Nǐ xiǎng mǎi shénme?",
+          "en": "A: What do you want to buy?"
+        },
+        {
+          "zh": "B：我想买一个杯子。",
+          "py": "B: Wǒ xiǎng mǎi yí ge bēizi.",
+          "en": "B: I want to buy a cup."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在商店 — In a store",
+      "items": [
+        {
+          "zh": "A：你好！这个杯子多少钱？",
+          "py": "A: Nǐ hǎo! Zhège bēizi duōshao qián?",
+          "en": "A: Hello! How much is this cup?"
+        },
+        {
+          "zh": "B：28块。",
+          "py": "B: Èrshíbā kuài.",
+          "en": "B: 28 yuan."
+        },
+        {
+          "zh": "A：那个杯子多少钱？",
+          "py": "A: Nàge bēizi duōshao qián?",
+          "en": "A: What about that one?"
+        },
+        {
+          "zh": "B：那个杯子18块钱。",
+          "py": "B: Nàge bēizi shíbā kuài qián.",
+          "en": "B: That one is 18 yuan."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 8)",
+      "items": [
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "to want, would like"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "en": "cooked rice"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop, store"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        },
+        {
+          "zh": "杯子",
+          "py": "bēizi",
+          "en": "cup, glass"
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "en": "how many, how much"
+        },
+        {
+          "zh": "钱",
+          "py": "qián",
+          "en": "money"
+        },
+        {
+          "zh": "块",
+          "py": "kuài",
+          "en": "yuan (spoken)"
+        },
+        {
+          "zh": "那",
+          "py": "nà",
+          "en": "that"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (能愿动词“想”)",
+      "items": [
+        {
+          "zh": "我想学汉语。",
+          "py": "Wǒ xiǎng xué Hànyǔ.",
+          "en": "I want to learn Chinese."
+        },
+        {
+          "zh": "明天我想去学校看书。",
+          "py": "Míngtiān wǒ xiǎng qù xuéxiào kàn shū.",
+          "en": "Tomorrow I want to go to school to read."
+        },
+        {
+          "zh": "我想买一个杯子。",
+          "py": "Wǒ xiǎng mǎi yí ge bēizi.",
+          "en": "I want to buy a cup."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问代词“多少”)",
+      "items": [
+        {
+          "zh": "你们学校有多少学生？",
+          "py": "Nǐmen xuéxiào yǒu duōshao xuésheng?",
+          "en": "How many students does your school have?"
+        },
+        {
+          "zh": "你有多少汉语老师？",
+          "py": "Nǐ yǒu duōshao Hànyǔ lǎoshī?",
+          "en": "How many Chinese teachers do you have?"
+        },
+        {
+          "zh": "这个杯子多少钱？",
+          "py": "Zhège bēizi duōshao qián?",
+          "en": "How much is this cup?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (量词“个”“口”)",
+      "items": [
+        {
+          "zh": "三个老师",
+          "py": "sān ge lǎoshī",
+          "en": "three teachers"
+        },
+        {
+          "zh": "五个学生",
+          "py": "wǔ ge xuésheng",
+          "en": "five students"
+        },
+        {
+          "zh": "一个杯子",
+          "py": "yí ge bēizi",
+          "en": "one cup"
+        },
+        {
+          "zh": "李老师家有六口人。",
+          "py": "Lǐ lǎoshī jiā yǒu liù kǒu rén.",
+          "en": "Professor Li's family has six people."
+        },
+        {
+          "zh": "我家有三口人。",
+          "py": "Wǒ jiā yǒu sān kǒu rén.",
+          "en": "There are three people in my family."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (钱数 元 / 块)",
+      "items": [
+        {
+          "zh": "一元（块）",
+          "py": "yì yuán (kuài)",
+          "en": "one yuan"
+        },
+        {
+          "zh": "五元（块）",
+          "py": "wǔ yuán (kuài)",
+          "en": "five yuan"
+        },
+        {
+          "zh": "十元（块）",
+          "py": "shí yuán (kuài)",
+          "en": "ten yuan"
+        },
+        {
+          "zh": "五十元（块）",
+          "py": "wǔshí yuán (kuài)",
+          "en": "fifty yuan"
+        },
+        {
+          "zh": "一百元（块）",
+          "py": "yìbǎi yuán (kuài)",
+          "en": "one hundred yuan"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "你想吃什么？",
+          "py": "Nǐ xiǎng chī shénme?",
+          "en": "What would you like to eat?"
+        },
+        {
+          "zh": "你想喝什么？",
+          "py": "Nǐ xiǎng hē shénme?",
+          "en": "What would you like to drink?"
+        },
+        {
+          "zh": "明天下午你想做什么？",
+          "py": "Míngtiān xiàwǔ nǐ xiǎng zuò shénme?",
+          "en": "What would you like to do tomorrow afternoon?"
+        },
+        {
+          "zh": "你去哪个商店买杯子？",
+          "py": "Nǐ qù nǎge shāngdiàn mǎi bēizi?",
+          "en": "Which shop are you going to to buy a cup?"
+        },
+        {
+          "zh": "一个杯子多少钱？",
+          "py": "Yí ge bēizi duōshao qián?",
+          "en": "How much is a cup?"
+        }
+      ]
+    }
+  ]
+}

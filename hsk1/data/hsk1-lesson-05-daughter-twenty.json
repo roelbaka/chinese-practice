@@ -1,0 +1,261 @@
+{
+  "title": "第5课 · 她女儿今年二十岁",
+  "subtitle": "HSK 1 · Lesson 5 — 她女儿今年二十岁 · Her daughter is 20 years old this year",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在学校 — In the school",
+      "items": [
+        {
+          "zh": "A：你家有几口人？",
+          "py": "A: Nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "A: How many people are there in your family?"
+        },
+        {
+          "zh": "B：我家有三口人。",
+          "py": "B: Wǒ jiā yǒu sān kǒu rén.",
+          "en": "B: There are three."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在办公室 — In the office",
+      "items": [
+        {
+          "zh": "A：你女儿几岁了？",
+          "py": "A: Nǐ nǚ'ér jǐ suì le?",
+          "en": "A: How old is your daughter?"
+        },
+        {
+          "zh": "B：她今年四岁了。",
+          "py": "B: Tā jīnnián sì suì le.",
+          "en": "B: She is four years old."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在办公室 — In the office",
+      "items": [
+        {
+          "zh": "A：李老师多大了？",
+          "py": "A: Lǐ lǎoshī duō dà le?",
+          "en": "A: How old is Professor Li?"
+        },
+        {
+          "zh": "B：她今年50岁了。",
+          "py": "B: Tā jīnnián wǔshí suì le.",
+          "en": "B: She is 50 years old."
+        },
+        {
+          "zh": "A：她女儿呢？",
+          "py": "A: Tā nǚ'ér ne?",
+          "en": "A: What about her daughter?"
+        },
+        {
+          "zh": "B：她女儿今年20岁。",
+          "py": "B: Tā nǚ'ér jīnnián èrshí suì.",
+          "en": "B: Her daughter is 20."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 5)",
+      "items": [
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "family, home"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have, there is"
+        },
+        {
+          "zh": "口",
+          "py": "kǒu",
+          "en": "measure word for family members"
+        },
+        {
+          "zh": "女儿",
+          "py": "nǚ'ér",
+          "en": "daughter"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many (under 10)"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "year (of age)"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "particle: change / new situation"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "how (degree)"
+        },
+        {
+          "zh": "大",
+          "py": "dà",
+          "en": "big; old (of age)"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问代词“几”)",
+      "items": [
+        {
+          "zh": "你有几个汉语老师？",
+          "py": "Nǐ yǒu jǐ ge Hànyǔ lǎoshī?",
+          "en": "How many Chinese teachers do you have?"
+        },
+        {
+          "zh": "李老师家有几口人？",
+          "py": "Lǐ lǎoshī jiā yǒu jǐ kǒu rén?",
+          "en": "How many people are in Professor Li's family?"
+        },
+        {
+          "zh": "你女儿几岁了？",
+          "py": "Nǐ nǚ'ér jǐ suì le?",
+          "en": "How old is your daughter?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (百以内的数字 Numbers below 100)",
+      "items": [
+        {
+          "zh": "十九",
+          "py": "shíjiǔ",
+          "en": "19"
+        },
+        {
+          "zh": "二十三",
+          "py": "èrshísān",
+          "en": "23"
+        },
+        {
+          "zh": "五十六",
+          "py": "wǔshíliù",
+          "en": "56"
+        },
+        {
+          "zh": "八十八",
+          "py": "bāshíbā",
+          "en": "88"
+        },
+        {
+          "zh": "九十九",
+          "py": "jiǔshíjiǔ",
+          "en": "99"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“了”表变化)",
+      "items": [
+        {
+          "zh": "李老师今年50岁了。",
+          "py": "Lǐ lǎoshī jīnnián wǔshí suì le.",
+          "en": "Professor Li is 50 this year."
+        },
+        {
+          "zh": "我朋友的女儿今年四岁了。",
+          "py": "Wǒ péngyou de nǚ'ér jīnnián sì suì le.",
+          "en": "My friend's daughter is four this year."
+        },
+        {
+          "zh": "你女儿几岁了？",
+          "py": "Nǐ nǚ'ér jǐ suì le?",
+          "en": "How old is your daughter now?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“多+大”问年龄)",
+      "items": [
+        {
+          "zh": "你多大了？",
+          "py": "Nǐ duō dà le?",
+          "en": "How old are you?"
+        },
+        {
+          "zh": "你女儿今年多大了？",
+          "py": "Nǐ nǚ'ér jīnnián duō dà le?",
+          "en": "How old is your daughter this year?"
+        },
+        {
+          "zh": "李老师多大了？",
+          "py": "Lǐ lǎoshī duō dà le?",
+          "en": "How old is Professor Li?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "你家有几口人？",
+          "py": "Nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "How many people are in your family?"
+        },
+        {
+          "zh": "你今年多大了？",
+          "py": "Nǐ jīnnián duō dà le?",
+          "en": "How old are you this year?"
+        },
+        {
+          "zh": "你的汉语老师今年多大了？",
+          "py": "Nǐ de Hànyǔ lǎoshī jīnnián duō dà le?",
+          "en": "How old is your Chinese teacher?"
+        },
+        {
+          "zh": "你的中国朋友家有几口人？",
+          "py": "Nǐ de Zhōngguó péngyou jiā yǒu jǐ kǒu rén?",
+          "en": "How many people are in your Chinese friend's family?"
+        },
+        {
+          "zh": "你的中国朋友今年多大？",
+          "py": "Nǐ de Zhōngguó péngyou jīnnián duō dà?",
+          "en": "How old is your Chinese friend this year?"
+        }
+      ]
+    },
+    {
+      "topic": "文化 · Culture (Asking a Chinese person's age)",
+      "items": [
+        {
+          "zh": "在中国，年龄不是个人隐私。",
+          "py": "Zài Zhōngguó, niánlíng bú shì gèrén yǐnsī.",
+          "en": "In China, age is not considered private."
+        },
+        {
+          "zh": "你今年几岁了？",
+          "py": "Nǐ jīnnián jǐ suì le?",
+          "en": "How old are you? — to children under 10"
+        },
+        {
+          "zh": "你今年多大了？",
+          "py": "Nǐ jīnnián duō dà le?",
+          "en": "How old are you? — to young people or people your own age"
+        },
+        {
+          "zh": "您今年多大年纪了？",
+          "py": "Nín jīnnián duō dà niánjì le?",
+          "en": "What's your age? — respectful, to older people"
+        }
+      ]
+    }
+  ]
+}

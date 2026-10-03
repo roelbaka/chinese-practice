@@ -1,0 +1,266 @@
+{
+  "title": "第11课 · 现在几点",
+  "subtitle": "HSK 1 · Lesson 11 — 现在几点 · What's the time now",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在图书馆 — In the library",
+      "items": [
+        {
+          "zh": "A：现在几点？",
+          "py": "A: Xiànzài jǐ diǎn?",
+          "en": "A: What's the time now?"
+        },
+        {
+          "zh": "B：现在十点十分。",
+          "py": "B: Xiànzài shí diǎn shí fēn.",
+          "en": "B: It's ten past ten."
+        },
+        {
+          "zh": "A：中午几点吃饭？",
+          "py": "A: Zhōngwǔ jǐ diǎn chī fàn?",
+          "en": "A: When shall we have lunch?"
+        },
+        {
+          "zh": "B：十二点吃饭。",
+          "py": "B: Shí'èr diǎn chī fàn.",
+          "en": "B: At twelve o'clock."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在家 — At home",
+      "items": [
+        {
+          "zh": "A：爸爸什么时候回家？",
+          "py": "A: Bàba shénme shíhou huí jiā?",
+          "en": "A: When is dad coming home?"
+        },
+        {
+          "zh": "B：下午五点。",
+          "py": "B: Xiàwǔ wǔ diǎn.",
+          "en": "B: At five in the afternoon."
+        },
+        {
+          "zh": "A：我们什么时候去看电影？",
+          "py": "A: Wǒmen shénme shíhou qù kàn diànyǐng?",
+          "en": "A: When are we going to see the film?"
+        },
+        {
+          "zh": "B：六点三十分。",
+          "py": "B: Liù diǎn sānshí fēn.",
+          "en": "B: At half past six."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在家 — At home",
+      "items": [
+        {
+          "zh": "A：我星期一去北京。",
+          "py": "A: Wǒ xīngqī yī qù Běijīng.",
+          "en": "A: I'll go to Beijing on Monday."
+        },
+        {
+          "zh": "B：你想在北京住几天？",
+          "py": "B: Nǐ xiǎng zài Běijīng zhù jǐ tiān?",
+          "en": "B: How long will you stay in Beijing?"
+        },
+        {
+          "zh": "A：住三天。",
+          "py": "A: Zhù sān tiān.",
+          "en": "A: Three days."
+        },
+        {
+          "zh": "B：星期五前能回家吗？",
+          "py": "B: Xīngqī wǔ qián néng huí jiā ma?",
+          "en": "B: Can you come back before Friday?"
+        },
+        {
+          "zh": "A：能。",
+          "py": "A: Néng.",
+          "en": "A: Yes, I can."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 11)",
+      "items": [
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o'clock"
+        },
+        {
+          "zh": "分",
+          "py": "fēn",
+          "en": "minute"
+        },
+        {
+          "zh": "中午",
+          "py": "zhōngwǔ",
+          "en": "noon"
+        },
+        {
+          "zh": "吃饭",
+          "py": "chī fàn",
+          "en": "to eat a meal"
+        },
+        {
+          "zh": "时候",
+          "py": "shíhou",
+          "en": "time, moment"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "to go back, to return"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we, us"
+        },
+        {
+          "zh": "电影",
+          "py": "diànyǐng",
+          "en": "film, movie"
+        },
+        {
+          "zh": "住",
+          "py": "zhù",
+          "en": "to live, to stay"
+        },
+        {
+          "zh": "前",
+          "py": "qián",
+          "en": "before"
+        }
+      ]
+    },
+    {
+      "topic": "专名 · Proper Nouns (Lesson 11)",
+      "items": [
+        {
+          "zh": "北京",
+          "py": "Běijīng",
+          "en": "Beijing"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (时间 点 + 分)",
+      "items": [
+        {
+          "zh": "九点",
+          "py": "jiǔ diǎn",
+          "en": "9:00"
+        },
+        {
+          "zh": "两点",
+          "py": "liǎng diǎn",
+          "en": "2:00 — 两, not 二"
+        },
+        {
+          "zh": "五点三十分",
+          "py": "wǔ diǎn sānshí fēn",
+          "en": "5:30"
+        },
+        {
+          "zh": "两点零五分",
+          "py": "liǎng diǎn líng wǔ fēn",
+          "en": "2:05"
+        },
+        {
+          "zh": "上午八点",
+          "py": "shàngwǔ bā diǎn",
+          "en": "8:00 am"
+        },
+        {
+          "zh": "下午三点十分",
+          "py": "xiàwǔ sān diǎn shí fēn",
+          "en": "3:10 pm"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (时间词做状语)",
+      "items": [
+        {
+          "zh": "妈妈六点做饭。",
+          "py": "Māma liù diǎn zuò fàn.",
+          "en": "Mum cooks at six."
+        },
+        {
+          "zh": "李老师上午八点去学校。",
+          "py": "Lǐ lǎoshī shàngwǔ bā diǎn qù xuéxiào.",
+          "en": "Teacher Li goes to school at 8 am."
+        },
+        {
+          "zh": "下午五点他们去看电影。",
+          "py": "Xiàwǔ wǔ diǎn tāmen qù kàn diànyǐng.",
+          "en": "At 5 pm they go to see a film."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (名词“前”)",
+      "items": [
+        {
+          "zh": "三天前",
+          "py": "sān tiān qián",
+          "en": "three days ago"
+        },
+        {
+          "zh": "星期五前",
+          "py": "xīngqī wǔ qián",
+          "en": "before Friday"
+        },
+        {
+          "zh": "你什么时候去学校？——八点前。",
+          "py": "Nǐ shénme shíhou qù xuéxiào? — Bā diǎn qián.",
+          "en": "When do you go to school? — Before eight."
+        },
+        {
+          "zh": "星期五前能回家吗？",
+          "py": "Xīngqī wǔ qián néng huí jiā ma?",
+          "en": "Can you come home before Friday?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "现在几点？",
+          "py": "Xiànzài jǐ diǎn?",
+          "en": "What's the time now?"
+        },
+        {
+          "zh": "他们几点吃饭？",
+          "py": "Tāmen jǐ diǎn chī fàn?",
+          "en": "What time do they eat?"
+        },
+        {
+          "zh": "爸爸什么时候回家？",
+          "py": "Bàba shénme shíhou huí jiā?",
+          "en": "When does dad come home?"
+        },
+        {
+          "zh": "他们什么时候去看电影？",
+          "py": "Tāmen shénme shíhou qù kàn diànyǐng?",
+          "en": "When are they going to the film?"
+        },
+        {
+          "zh": "他去哪儿？什么时候能回家？",
+          "py": "Tā qù nǎr? Shénme shíhou néng huí jiā?",
+          "en": "Where is he going? When can he come home?"
+        }
+      ]
+    }
+  ]
+}

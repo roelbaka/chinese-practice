@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HSK 1 · Chinese Practice</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --card: #1a1a2e;
+    --card-hover: #222244;
+    --accent: #e94560;
+    --text: #eee;
+    --text-muted: #999;
+    --border: #2a2a4a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    padding: 2rem 1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  }
+  header h1 { font-size: 2rem; font-weight: 300; letter-spacing: 2px; }
+  header h1 span { color: var(--accent); font-weight: 600; }
+  header p { color: var(--text-muted); margin-top: .4rem; font-size: .95rem; }
+  .lessons {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .lesson-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem 1.8rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: all .25s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lesson-card:hover { background: var(--card-hover); border-color: var(--accent); transform: translateX(4px); }
+  .lesson-card .info h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: .3rem; }
+  .lesson-card .info p { color: var(--text-muted); font-size: .85rem; line-height: 1.4; }
+  .lesson-card .lesson-num {
+    background: var(--accent);
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .3rem .7rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 1rem;
+  }
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.4rem; }
+    .lesson-card { flex-direction: column; align-items: flex-start; gap: .8rem; }
+    .lesson-card .lesson-num { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="../" style="color:var(--text-muted);text-decoration:none;font-size:.85rem;display:inline-block;margin-bottom:.5rem;">&larr; Back to classes</a>
+  <h1>HSK <span>1</span></h1>
+  <p>HSK标准教程1 · HSK Standard Course 1 (Lessons 1–15)</p>
+</header>
+<div class="lessons">
+  <a href="lesson.html?id=hsk1-lesson-01-hello" class="lesson-card">
+    <div class="info">
+      <h3>第一课 · 你好</h3>
+      <p>Hello · Greetings, sorry / that&#x27;s OK · the four tones</p>
+    </div>
+    <div class="lesson-num">Lesson 1</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-02-thank-you" class="lesson-card">
+    <div class="info">
+      <h3>第二课 · 谢谢你</h3>
+      <p>Thank you · Thank you, you&#x27;re welcome, goodbye · initials zh ch sh r z c s</p>
+    </div>
+    <div class="lesson-num">Lesson 2</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-03-whats-your-name" class="lesson-card">
+    <div class="info">
+      <h3>第三课 · 你叫什么名字</h3>
+      <p>What&#x27;s your name · 什么, 是-sentences, questions with 吗</p>
+    </div>
+    <div class="lesson-num">Lesson 3</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-04-chinese-teacher" class="lesson-card">
+    <div class="info">
+      <h3>第四课 · 她是我的汉语老师</h3>
+      <p>She is my Chinese teacher · 谁 / 哪, the particle 的, 呢 (what about…?)</p>
+    </div>
+    <div class="lesson-num">Lesson 4</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-05-daughter-twenty" class="lesson-card">
+    <div class="info">
+      <h3>第五课 · 她女儿今年二十岁</h3>
+      <p>Her daughter is 20 years old this year · 几, numbers below 100, 了 for change, 多大</p>
+    </div>
+    <div class="lesson-num">Lesson 5</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-06-speak-chinese" class="lesson-card">
+    <div class="info">
+      <h3>第六课 · 我会说汉语</h3>
+      <p>I can speak Chinese · 会 (can), adjective sentences with 很, 怎么 (how)</p>
+    </div>
+    <div class="lesson-num">Lesson 6</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-07-date-today" class="lesson-card">
+    <div class="info">
+      <h3>第七课 · 今天几号</h3>
+      <p>What&#x27;s the date today · Dates (月, 号, 星期), nominal predicates, 去 + place + do sth.</p>
+    </div>
+    <div class="lesson-num">Lesson 7</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-08-like-tea" class="lesson-card">
+    <div class="info">
+      <h3>第八课 · 我想喝茶</h3>
+      <p>I&#x27;d like some tea · 想 (would like), 多少, measure words 个 / 口, money</p>
+    </div>
+    <div class="lesson-num">Lesson 8</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-09-son-work" class="lesson-card">
+    <div class="info">
+      <h3>第九课 · 你儿子在哪儿工作</h3>
+      <p>Where does your son work · 在 (to be at / at), 哪儿, 呢 asking where</p>
+    </div>
+    <div class="lesson-num">Lesson 9</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-10-sit-here" class="lesson-card">
+    <div class="info">
+      <h3>第十课 · 我能坐这儿吗</h3>
+      <p>Can I sit here · 有 for existence, 和, 能 (may / can), polite 请</p>
+    </div>
+    <div class="lesson-num">Lesson 10</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-11-time-now" class="lesson-card">
+    <div class="info">
+      <h3>第十一课 · 现在几点</h3>
+      <p>What&#x27;s the time now · Telling the time, time words before the verb, 前 (before)</p>
+    </div>
+    <div class="lesson-num">Lesson 11</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-12-weather" class="lesson-card">
+    <div class="info">
+      <h3>第十二课 · 明天天气怎么样</h3>
+      <p>What will the weather be like tomorrow · 怎么样, subject-predicate predicates, 太……了, 会 (will)</p>
+    </div>
+    <div class="lesson-num">Lesson 12</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-13-cook-chinese-food" class="lesson-card">
+    <div class="info">
+      <h3>第十三课 · 他在学做中国菜呢</h3>
+      <p>He is learning to cook Chinese food · 喂, 在……呢 (in progress), phone numbers, 吧</p>
+    </div>
+    <div class="lesson-num">Lesson 13</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-14-bought-clothes" class="lesson-card">
+    <div class="info">
+      <h3>第十四课 · 她买了不少衣服</h3>
+      <p>She has bought quite a few clothes · 了 (completed action), 后 (after), 啊, 都 (all)</p>
+    </div>
+    <div class="lesson-num">Lesson 14</div>
+  </a>
+
+  <a href="lesson.html?id=hsk1-lesson-15-came-by-air" class="lesson-card">
+    <div class="info">
+      <h3>第十五课 · 我是坐飞机来的</h3>
+      <p>I came here by air · 是……的 (when / where / how), dates with the year</p>
+    </div>
+    <div class="lesson-num">Lesson 15</div>
+  </a>
+</div>
+<script src="../nav.js" defer></script>
+</body>
+</html>

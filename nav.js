@@ -90,6 +90,7 @@
   const CLASSES = [
     { dir: "beginners", zh: "初级班", en: "Beginners" },
     { dir: "improvers", zh: "提高班", en: "Improvers" },
+    { dir: "hsk1",      zh: "HSK 1",  en: "Standard Course" },
     { dir: "hsk3",      zh: "HSK 3",  en: "Standard Course" },
     { dir: "proverbs",  zh: "成语谚语", en: "Proverbs" },
   ];

@@ -1,0 +1,236 @@
+{
+  "title": "第6课 · 我会说汉语",
+  "subtitle": "HSK 1 · Lesson 6 — 我会说汉语 · I can speak Chinese",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在学校 — In the school",
+      "items": [
+        {
+          "zh": "A：你会说汉语吗？",
+          "py": "A: Nǐ huì shuō Hànyǔ ma?",
+          "en": "A: Can you speak Chinese?"
+        },
+        {
+          "zh": "B：我会说汉语。",
+          "py": "B: Wǒ huì shuō Hànyǔ.",
+          "en": "B: Yes, I can."
+        },
+        {
+          "zh": "A：你妈妈会说汉语吗？",
+          "py": "A: Nǐ māma huì shuō Hànyǔ ma?",
+          "en": "A: Can your mother speak Chinese?"
+        },
+        {
+          "zh": "B：她不会说。",
+          "py": "B: Tā bú huì shuō.",
+          "en": "B: No, she can't."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在厨房 — In the kitchen",
+      "items": [
+        {
+          "zh": "A：中国菜好吃吗？",
+          "py": "A: Zhōngguó cài hǎochī ma?",
+          "en": "A: Is Chinese food delicious?"
+        },
+        {
+          "zh": "B：中国菜很好吃。",
+          "py": "B: Zhōngguó cài hěn hǎochī.",
+          "en": "B: Yes, quite delicious."
+        },
+        {
+          "zh": "A：你会做中国菜吗？",
+          "py": "A: Nǐ huì zuò Zhōngguó cài ma?",
+          "en": "A: Can you cook Chinese food?"
+        },
+        {
+          "zh": "B：我不会做。",
+          "py": "B: Wǒ bú huì zuò.",
+          "en": "B: No, I can't."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在图书馆 — In the library",
+      "items": [
+        {
+          "zh": "A：你会写汉字吗？",
+          "py": "A: Nǐ huì xiě Hànzì ma?",
+          "en": "A: Can you write Chinese characters?"
+        },
+        {
+          "zh": "B：我会写。",
+          "py": "B: Wǒ huì xiě.",
+          "en": "B: Yes, I can."
+        },
+        {
+          "zh": "A：这个字怎么写？",
+          "py": "A: Zhège zì zěnme xiě?",
+          "en": "A: How do you write this character?"
+        },
+        {
+          "zh": "B：对不起，这个字我会读，不会写。",
+          "py": "B: Duìbuqǐ, zhège zì wǒ huì dú, bú huì xiě.",
+          "en": "B: Sorry. I can read it, but I don't know how to write it."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 6)",
+      "items": [
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can, to be able to (learned skill)"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak, to say"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mother"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish, cuisine"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very, quite"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎochī",
+          "en": "delicious, tasty"
+        },
+        {
+          "zh": "做",
+          "py": "zuò",
+          "en": "to make, to do"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "汉字",
+          "py": "Hànzì",
+          "en": "Chinese character"
+        },
+        {
+          "zh": "字",
+          "py": "zì",
+          "en": "character, word"
+        },
+        {
+          "zh": "怎么",
+          "py": "zěnme",
+          "en": "how"
+        },
+        {
+          "zh": "读",
+          "py": "dú",
+          "en": "to read"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (能愿动词“会”)",
+      "items": [
+        {
+          "zh": "我会写汉字。",
+          "py": "Wǒ huì xiě Hànzì.",
+          "en": "I can write Chinese characters."
+        },
+        {
+          "zh": "我不会做中国菜。",
+          "py": "Wǒ bú huì zuò Zhōngguó cài.",
+          "en": "I can't cook Chinese food."
+        },
+        {
+          "zh": "你妈妈会说汉语吗？",
+          "py": "Nǐ māma huì shuō Hànyǔ ma?",
+          "en": "Can your mother speak Chinese?"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (形容词谓语句 S + 很 + Adj)",
+      "items": [
+        {
+          "zh": "我很好。",
+          "py": "Wǒ hěn hǎo.",
+          "en": "I'm fine."
+        },
+        {
+          "zh": "我妈妈的汉语不好。",
+          "py": "Wǒ māma de Hànyǔ bù hǎo.",
+          "en": "My mother's Chinese isn't good."
+        },
+        {
+          "zh": "中国菜很好吃。",
+          "py": "Zhōngguó cài hěn hǎochī.",
+          "en": "Chinese food is delicious."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (疑问代词“怎么”)",
+      "items": [
+        {
+          "zh": "这个汉字怎么读？",
+          "py": "Zhège Hànzì zěnme dú?",
+          "en": "How do you read this character?"
+        },
+        {
+          "zh": "你的汉语名字怎么写？",
+          "py": "Nǐ de Hànyǔ míngzi zěnme xiě?",
+          "en": "How do you write your Chinese name?"
+        },
+        {
+          "zh": "这个字怎么写？",
+          "py": "Zhège zì zěnme xiě?",
+          "en": "How do you write this character?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "你会说汉语吗？",
+          "py": "Nǐ huì shuō Hànyǔ ma?",
+          "en": "Can you speak Chinese?"
+        },
+        {
+          "zh": "你会写汉字吗？",
+          "py": "Nǐ huì xiě Hànzì ma?",
+          "en": "Can you write Chinese characters?"
+        },
+        {
+          "zh": "你会做中国菜吗？",
+          "py": "Nǐ huì zuò Zhōngguó cài ma?",
+          "en": "Can you cook Chinese food?"
+        },
+        {
+          "zh": "你有汉语名字吗？",
+          "py": "Nǐ yǒu Hànyǔ míngzi ma?",
+          "en": "Do you have a Chinese name?"
+        },
+        {
+          "zh": "你会写你的汉语名字吗？",
+          "py": "Nǐ huì xiě nǐ de Hànyǔ míngzi ma?",
+          "en": "Can you write your Chinese name?"
+        }
+      ]
+    }
+  ]
+}

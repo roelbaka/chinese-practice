@@ -1,0 +1,241 @@
+{
+  "title": "第15课 · 我是坐飞机来的",
+  "subtitle": "HSK 1 · Lesson 15 — 我是坐飞机来的 · I came here by air",
+  "data": [
+    {
+      "topic": "课文1 · 1. 在餐桌旁 — At the dining table",
+      "items": [
+        {
+          "zh": "A：你和李小姐是什么时候认识的？",
+          "py": "A: Nǐ hé Lǐ xiǎojiě shì shénme shíhou rènshi de?",
+          "en": "A: When did you and Miss Li meet?"
+        },
+        {
+          "zh": "B：我们是2011年9月认识的。",
+          "py": "B: Wǒmen shì èr líng yī yī nián jiǔ yuè rènshi de.",
+          "en": "B: We met in September 2011."
+        },
+        {
+          "zh": "A：你们在哪儿认识的？",
+          "py": "A: Nǐmen zài nǎr rènshi de?",
+          "en": "A: Where did you meet?"
+        },
+        {
+          "zh": "B：我们是在学校认识的，她是我大学同学。",
+          "py": "B: Wǒmen shì zài xuéxiào rènshi de, tā shì wǒ dàxué tóngxué.",
+          "en": "B: We met at school. She was my university classmate."
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. 在饭店门口 — Outside a hotel",
+      "items": [
+        {
+          "zh": "A：你们是怎么来饭店的？",
+          "py": "A: Nǐmen shì zěnme lái fàndiàn de?",
+          "en": "A: How did you get to the hotel?"
+        },
+        {
+          "zh": "B：我们是坐出租车来的。",
+          "py": "B: Wǒmen shì zuò chūzūchē lái de.",
+          "en": "B: We came by taxi."
+        },
+        {
+          "zh": "A：李先生呢？",
+          "py": "A: Lǐ xiānsheng ne?",
+          "en": "A: What about Mr Li?"
+        },
+        {
+          "zh": "B：他是和朋友一起开车来的。",
+          "py": "B: Tā shì hé péngyou yìqǐ kāi chē lái de.",
+          "en": "B: He drove here with a friend."
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. 在公司 — In the company",
+      "items": [
+        {
+          "zh": "A：很高兴认识您！李小姐。",
+          "py": "A: Hěn gāoxìng rènshi nín! Lǐ xiǎojiě.",
+          "en": "A: Nice to meet you, Miss Li."
+        },
+        {
+          "zh": "B：认识你我也很高兴！",
+          "py": "B: Rènshi nǐ wǒ yě hěn gāoxìng!",
+          "en": "B: Nice to meet you too."
+        },
+        {
+          "zh": "A：听张先生说，您是坐飞机来北京的？",
+          "py": "A: Tīng Zhāng xiānsheng shuō, nín shì zuò fēijī lái Běijīng de?",
+          "en": "A: Mr Zhang said you came to Beijing by plane?"
+        },
+        {
+          "zh": "B：是的。",
+          "py": "B: Shì de.",
+          "en": "B: Yes, I did."
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 15)",
+      "items": [
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to meet, to know"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "大学",
+          "py": "dàxué",
+          "en": "university"
+        },
+        {
+          "zh": "饭店",
+          "py": "fàndiàn",
+          "en": "hotel, restaurant"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzūchē",
+          "en": "taxi"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "en": "together"
+        },
+        {
+          "zh": "高兴",
+          "py": "gāoxìng",
+          "en": "glad, happy"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "en": "to listen"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "airplane"
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (“是……的” time, place, manner)",
+      "items": [
+        {
+          "zh": "我是昨天来的。",
+          "py": "Wǒ shì zuótiān lái de.",
+          "en": "I came yesterday."
+        },
+        {
+          "zh": "这是在北京买的。",
+          "py": "Zhè shì zài Běijīng mǎi de.",
+          "en": "This was bought in Beijing."
+        },
+        {
+          "zh": "你们是怎么来饭店的？",
+          "py": "Nǐmen shì zěnme lái fàndiàn de?",
+          "en": "How did you come to the hotel?"
+        },
+        {
+          "zh": "我不是昨天来的。",
+          "py": "Wǒ bú shì zuótiān lái de.",
+          "en": "I didn't come yesterday (是 can't be dropped here)."
+        },
+        {
+          "zh": "我们不是坐出租车来的。",
+          "py": "Wǒmen bú shì zuò chūzūchē lái de.",
+          "en": "We didn't come by taxi."
+        }
+      ]
+    },
+    {
+      "topic": "语法 · Grammar (日期 年 + 月 + 号 + 星期)",
+      "items": [
+        {
+          "zh": "2008年8月8号，星期五",
+          "py": "èr líng líng bā nián bā yuè bā hào, xīngqī wǔ",
+          "en": "Friday 8 August 2008 — the year is read digit by digit"
+        },
+        {
+          "zh": "明天是2014年5月11号。",
+          "py": "Míngtiān shì èr líng yī sì nián wǔ yuè shíyī hào.",
+          "en": "Tomorrow is 11 May 2014."
+        },
+        {
+          "zh": "今天9月10号，星期三。",
+          "py": "Jīntiān jiǔ yuè shí hào, xīngqī sān.",
+          "en": "Today is Wednesday, 10 September."
+        },
+        {
+          "zh": "我们是2011年9月认识的。",
+          "py": "Wǒmen shì èr líng yī yī nián jiǔ yuè rènshi de.",
+          "en": "We met in September 2011."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (Answer the questions)",
+      "items": [
+        {
+          "zh": "她们是什么时候认识的？",
+          "py": "Tāmen shì shénme shíhou rènshi de?",
+          "en": "When did they meet?"
+        },
+        {
+          "zh": "她们是在哪儿认识的？",
+          "py": "Tāmen shì zài nǎr rènshi de?",
+          "en": "Where did they meet?"
+        },
+        {
+          "zh": "他们是怎么去饭店的？",
+          "py": "Tāmen shì zěnme qù fàndiàn de?",
+          "en": "How did they go to the hotel?"
+        },
+        {
+          "zh": "李先生是坐出租车去饭店的吗？",
+          "py": "Lǐ xiānsheng shì zuò chūzūchē qù fàndiàn de ma?",
+          "en": "Did Mr Li go to the hotel by taxi?"
+        },
+        {
+          "zh": "李小姐是怎么来北京的？",
+          "py": "Lǐ xiǎojiě shì zěnme lái Běijīng de?",
+          "en": "How did Miss Li come to Beijing?"
+        }
+      ]
+    },
+    {
+      "topic": "文化 · Culture (Phones in China)",
+      "items": [
+        {
+          "zh": "中国常用的通信工具有电话和手机。",
+          "py": "Zhōngguó chángyòng de tōngxìn gōngjù yǒu diànhuà hé shǒujī.",
+          "en": "Common ways to communicate in China: landlines and mobile phones."
+        },
+        {
+          "zh": "电话号码一般是6到8位。",
+          "py": "Diànhuà hàomǎ yìbān shì liù dào bā wèi.",
+          "en": "Landline numbers usually have 6 to 8 digits."
+        },
+        {
+          "zh": "手机号码都是11位。",
+          "py": "Shǒujī hàomǎ dōu shì shíyī wèi.",
+          "en": "Mobile numbers always have 11 digits."
+        },
+        {
+          "zh": "139-0107-8866",
+          "py": "yāo sān jiǔ – líng yāo líng qī – bā bā liù liù",
+          "en": "Mobile numbers are read in groups of 3-4-4; 1 is read yāo."
+        }
+      ]
+    }
+  ]
+}

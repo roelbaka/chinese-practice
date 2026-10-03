@@ -1,0 +1,111 @@
+{
+  "title": "第1课 · 你好",
+  "subtitle": "HSK 1 · Lesson 1 — 你好 · Hello",
+  "data": [
+    {
+      "topic": "课文1 · 1. Greeting",
+      "items": [
+        {
+          "zh": "A：你好！",
+          "py": "A: Nǐ hǎo!",
+          "en": "A: Hello!"
+        },
+        {
+          "zh": "B：你好！",
+          "py": "B: Nǐ hǎo!",
+          "en": "B: Hello!"
+        }
+      ]
+    },
+    {
+      "topic": "课文2 · 2. Polite greeting",
+      "items": [
+        {
+          "zh": "A：您好！",
+          "py": "A: Nín hǎo!",
+          "en": "A: Hello!"
+        },
+        {
+          "zh": "B：你们好！",
+          "py": "B: Nǐmen hǎo!",
+          "en": "B: Hello (to you all)!"
+        }
+      ]
+    },
+    {
+      "topic": "课文3 · 3. Saying sorry",
+      "items": [
+        {
+          "zh": "A：对不起！",
+          "py": "A: Duìbuqǐ!",
+          "en": "A: I'm sorry!"
+        },
+        {
+          "zh": "B：没关系！",
+          "py": "B: Méi guānxi!",
+          "en": "B: That's OK!"
+        }
+      ]
+    },
+    {
+      "topic": "生词 · New Words (Lesson 1)",
+      "items": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you (singular)"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good, fine"
+        },
+        {
+          "zh": "您",
+          "py": "nín",
+          "en": "you (polite)"
+        },
+        {
+          "zh": "你们",
+          "py": "nǐmen",
+          "en": "you (plural)"
+        },
+        {
+          "zh": "对不起",
+          "py": "duìbuqǐ",
+          "en": "to be sorry"
+        },
+        {
+          "zh": "没关系",
+          "py": "méi guānxi",
+          "en": "that's OK, it doesn't matter"
+        }
+      ]
+    },
+    {
+      "topic": "语音 · Pronunciation (The four tones)",
+      "items": [
+        {
+          "zh": "妈",
+          "py": "mā",
+          "en": "mother — 1st tone, high and level (55)"
+        },
+        {
+          "zh": "麻",
+          "py": "má",
+          "en": "hemp — 2nd tone, rising (35)"
+        },
+        {
+          "zh": "马",
+          "py": "mǎ",
+          "en": "horse — 3rd tone, falling then rising (214)"
+        },
+        {
+          "zh": "骂",
+          "py": "mà",
+          "en": "to scold — 4th tone, falling (51)"
+        }
+      ]
+    }
+  ]
+}
