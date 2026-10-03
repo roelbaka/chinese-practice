@@ -218,112 +218,82 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 6)",
+      "topic": "生词 · New Words (Lesson 6)",
       "items": [
         {
-          "zh": "眼",
-          "py": "yǎn",
-          "en": "eye (as in yǎnjìng – glasses)"
+          "zh": "眼镜",
+          "py": "yǎnjìng",
+          "en": "glasses, spectacles"
         },
         {
-          "zh": "镜",
-          "py": "jìng",
-          "en": "mirror; lens (as in yǎnjìng – glasses)"
+          "zh": "突然",
+          "py": "tūrán",
+          "en": "suddenly"
         },
         {
-          "zh": "突",
-          "py": "tū",
-          "en": "sudden; to dash (as in tūrán – suddenly)"
+          "zh": "离开",
+          "py": "lí kāi",
+          "en": "to leave, to part with"
         },
         {
-          "zh": "离",
-          "py": "lí",
-          "en": "to leave; away from (as in lí kāi – to leave)"
+          "zh": "清楚",
+          "py": "qīngchu",
+          "en": "clear, distinct"
         },
         {
-          "zh": "清",
-          "py": "qīng",
-          "en": "clear; pure (as in qīngchu – clear)"
+          "zh": "刚才",
+          "py": "gāngcái",
+          "en": "just now"
         },
         {
-          "zh": "楚",
-          "py": "chǔ",
-          "en": "clear; neat (as in qīngchu – clear)"
+          "zh": "帮忙",
+          "py": "bāng máng",
+          "en": "to help"
         },
         {
-          "zh": "刚",
-          "py": "gāng",
-          "en": "just; a moment ago (as in gāngcái – just now)"
-        },
-        {
-          "zh": "才",
-          "py": "cái",
-          "en": "just; only then (as in gāngcái – just now)"
-        },
-        {
-          "zh": "帮",
-          "py": "bāng",
-          "en": "to help (as in bāng máng – to help)"
-        },
-        {
-          "zh": "忙",
-          "py": "máng",
-          "en": "busy (as in bāng máng – to help)"
-        },
-        {
-          "zh": "特",
-          "py": "tè",
-          "en": "special (as in tèbié – extraordinarily)"
-        },
-        {
-          "zh": "别",
-          "py": "bié",
-          "en": "other; don't (as in tèbié – extraordinarily)"
+          "zh": "特别",
+          "py": "tèbié",
+          "en": "extraordinarily"
         },
         {
           "zh": "讲",
           "py": "jiǎng",
-          "en": "to speak; to explain"
+          "en": "to explain"
         },
         {
-          "zh": "白",
-          "py": "bái",
-          "en": "white; clear (as in míngbai – clear)"
+          "zh": "明白",
+          "py": "míngbai",
+          "en": "clear"
         },
         {
-          "zh": "锻",
-          "py": "duàn",
-          "en": "to forge (as in duànliàn – to do physical exercise)"
+          "zh": "锻炼",
+          "py": "duànliàn",
+          "en": "to do physical exercise"
         },
         {
-          "zh": "炼",
-          "py": "liàn",
-          "en": "to refine; to smelt (as in duànliàn – to do physical exercise)"
+          "zh": "音乐",
+          "py": "yīnyuè",
+          "en": "music"
         },
         {
-          "zh": "音",
-          "py": "yīn",
-          "en": "sound (as in yīnyuè – music)"
+          "zh": "公园",
+          "py": "gōngyuán",
+          "en": "park"
         },
         {
-          "zh": "乐",
-          "py": "yuè",
-          "en": "music (as in yīnyuè – music)"
+          "zh": "聊天(儿)",
+          "py": "liáo tiān (r)",
+          "en": "to chat"
         },
         {
-          "zh": "园",
-          "py": "yuán",
-          "en": "garden; park (as in gōngyuán – park)"
-        },
-        {
-          "zh": "聊",
-          "py": "liáo",
-          "en": "to chat (as in liáo tiān (r) – to chat)"
+          "zh": "睡着",
+          "py": "shuì zháo",
+          "en": "to fall asleep"
         },
         {
           "zh": "更",
           "py": "gèng",
-          "en": "more; even more"
+          "en": "more, even more"
         }
       ]
     },

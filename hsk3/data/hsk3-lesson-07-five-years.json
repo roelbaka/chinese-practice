@@ -203,62 +203,47 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 7)",
+      "topic": "生词 · New Words (Lesson 7)",
       "items": [
         {
-          "zh": "事",
-          "py": "shì",
-          "en": "matter; thing; affair (as in tóngshì – colleague)"
+          "zh": "同事",
+          "py": "tóngshì",
+          "en": "colleague"
         },
         {
-          "zh": "以",
-          "py": "yǐ",
-          "en": "by means of; to (as in yǐqián – before)"
+          "zh": "以前",
+          "py": "yǐqián",
+          "en": "before, ago"
         },
         {
-          "zh": "银",
-          "py": "yín",
-          "en": "silver (as in yínháng – bank)"
-        },
-        {
-          "zh": "行",
-          "py": "háng",
-          "en": "firm; line; row (as in yínháng – bank)"
+          "zh": "银行",
+          "py": "yínháng",
+          "en": "bank"
         },
         {
           "zh": "久",
           "py": "jiǔ",
-          "en": "long (time)"
+          "en": "for a long time, long"
         },
         {
-          "zh": "趣",
-          "py": "qù",
-          "en": "interest; fun (as in gǎn xìngqù – to be interested in)"
+          "zh": "感兴趣",
+          "py": "gǎn xìngqù",
+          "en": "to be interested in"
         },
         {
-          "zh": "结",
-          "py": "jié",
-          "en": "to tie; to conclude (as in jié hūn – to marry)"
+          "zh": "结婚",
+          "py": "jié hūn",
+          "en": "to marry, to get married"
         },
         {
-          "zh": "婚",
-          "py": "hūn",
-          "en": "marriage (as in jié hūn – to marry)"
+          "zh": "欢迎",
+          "py": "huānyíng",
+          "en": "to welcome"
         },
         {
-          "zh": "迎",
-          "py": "yíng",
-          "en": "to welcome (as in huānyíng – to welcome)"
-        },
-        {
-          "zh": "迟",
-          "py": "chí",
-          "en": "late (as in chídào – to be late)"
-        },
-        {
-          "zh": "到",
-          "py": "dào",
-          "en": "to arrive; to (as in chídào – to be late)"
+          "zh": "迟到",
+          "py": "chídào",
+          "en": "to be late"
         },
         {
           "zh": "半",
@@ -268,17 +253,17 @@
         {
           "zh": "接",
           "py": "jiē",
-          "en": "to meet; to pick up"
+          "en": "to meet (sb.), to pick up (sb.)"
         },
         {
           "zh": "刻",
           "py": "kè",
-          "en": "quarter (hour); to carve"
+          "en": "quarter (of an hour)"
         },
         {
           "zh": "差",
           "py": "chà",
-          "en": "to lack; short of"
+          "en": "to fall short of"
         }
       ]
     },

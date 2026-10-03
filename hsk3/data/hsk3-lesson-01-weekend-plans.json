@@ -203,102 +203,82 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 1)",
+      "topic": "生词 · New Words (Lesson 1)",
       "items": [
         {
-          "zh": "周",
-          "py": "zhōu",
-          "en": "week; cycle (as in zhōumò – weekend)"
+          "zh": "周末",
+          "py": "zhōumò",
+          "en": "weekend"
         },
         {
-          "zh": "末",
-          "py": "mò",
-          "en": "end; tip (as in zhōumò – weekend)"
-        },
-        {
-          "zh": "算",
-          "py": "suàn",
-          "en": "to calculate; to count (as in dǎsuàn – plan)"
+          "zh": "打算",
+          "py": "dǎsuàn",
+          "en": "plan; to intend"
         },
         {
           "zh": "啊",
           "py": "a",
-          "en": "(particle of confirmation)"
+          "en": "particle for confirmation or defense"
         },
         {
           "zh": "跟",
           "py": "gēn",
-          "en": "with; to follow"
+          "en": "with"
         },
         {
-          "zh": "直",
-          "py": "zhí",
-          "en": "straight; continuously (as in yìzhí – all the time)"
+          "zh": "一直",
+          "py": "yìzhí",
+          "en": "all the time"
         },
         {
-          "zh": "游",
-          "py": "yóu",
-          "en": "to swim; to tour (as in yóuxì – game)"
+          "zh": "游戏",
+          "py": "yóuxì",
+          "en": "game"
         },
         {
-          "zh": "戏",
-          "py": "xì",
-          "en": "play; drama; game (as in yóuxì – game)"
+          "zh": "作业",
+          "py": "zuòyè",
+          "en": "homework"
         },
         {
-          "zh": "业",
-          "py": "yè",
-          "en": "business; line of work (as in zuòyè – homework)"
+          "zh": "着急",
+          "py": "zháojí",
+          "en": "worried, anxious"
         },
         {
-          "zh": "着",
-          "py": "zháo",
-          "en": "to touch; to catch (fire) (as in zháojí – worried)"
+          "zh": "复习",
+          "py": "fùxí",
+          "en": "to review"
         },
         {
-          "zh": "急",
-          "py": "jí",
-          "en": "urgent; anxious (as in zháojí – worried)"
+          "zh": "南（方）",
+          "py": "nán (fāng)",
+          "en": "south, southern part"
         },
         {
-          "zh": "复",
-          "py": "fù",
-          "en": "again; to repeat (as in fùxí – to review)"
+          "zh": "北方",
+          "py": "běifāng",
+          "en": "north, northern part"
         },
         {
-          "zh": "南",
-          "py": "nán",
-          "en": "south (as in nán (fāng) – south)"
-        },
-        {
-          "zh": "方",
-          "py": "fāng",
-          "en": "side; direction; square (as in nán (fāng) – south)"
-        },
-        {
-          "zh": "包",
-          "py": "bāo",
-          "en": "bag; to wrap; bun (as in miànbāo – bread)"
+          "zh": "面包",
+          "py": "miànbāo",
+          "en": "bread"
         },
         {
           "zh": "带",
           "py": "dài",
-          "en": "to bring; belt"
+          "en": "to take along, to bring"
         },
         {
-          "zh": "地",
-          "py": "dì",
-          "en": "earth; ground (as in dìtú – map)"
-        },
-        {
-          "zh": "图",
-          "py": "tú",
-          "en": "picture; chart (as in dìtú – map)"
+          "zh": "地图",
+          "py": "dìtú",
+          "en": "map"
         },
         {
           "zh": "搬",
           "py": "bān",
-          "en": "to move; to carry"
+          "en": "to move, to carry"
         }
       ]
     },

@@ -233,112 +233,92 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 8)",
+      "topic": "生词 · New Words (Lesson 8)",
       "items": [
         {
-          "zh": "满",
-          "py": "mǎn",
-          "en": "full; satisfied (as in mǎnyì – to be satisfied)"
+          "zh": "又",
+          "py": "yòu",
+          "en": "again"
         },
         {
-          "zh": "意",
-          "py": "yì",
-          "en": "meaning; wish (as in mǎnyì – to be satisfied)"
+          "zh": "满意",
+          "py": "mǎnyì",
+          "en": "to be satisfied"
         },
         {
-          "zh": "梯",
-          "py": "tī",
-          "en": "ladder; stairs (as in diàntī – elevator)"
+          "zh": "电梯",
+          "py": "diàntī",
+          "en": "elevator"
         },
         {
           "zh": "层",
           "py": "céng",
-          "en": "floor; layer"
+          "en": "(measure word for floors)"
         },
         {
-          "zh": "害",
-          "py": "hài",
-          "en": "harm; to cause (as in hài pà – to be afraid)"
+          "zh": "害怕",
+          "py": "hài pà",
+          "en": "to be afraid, to be scared"
         },
         {
-          "zh": "怕",
-          "py": "pà",
-          "en": "to fear (as in hài pà – to be afraid)"
+          "zh": "熊猫",
+          "py": "xióngmāo",
+          "en": "panda"
         },
         {
-          "zh": "熊",
-          "py": "xióng",
-          "en": "bear (as in xióngmāo – panda)"
+          "zh": "见面",
+          "py": "jiàn miàn",
+          "en": "to meet"
         },
         {
-          "zh": "安",
-          "py": "ān",
-          "en": "safe; peaceful (as in ānjìng – quiet)"
+          "zh": "安静",
+          "py": "ānjìng",
+          "en": "quiet"
         },
         {
-          "zh": "静",
-          "py": "jìng",
-          "en": "quiet (as in ānjìng – quiet)"
+          "zh": "可乐",
+          "py": "kělè",
+          "en": "cola, Coke"
         },
         {
-          "zh": "可",
-          "py": "kě",
-          "en": "can; may (as in kělè – cola)"
+          "zh": "一会儿",
+          "py": "yíhuìr",
+          "en": "a moment"
         },
         {
-          "zh": "马",
-          "py": "mǎ",
-          "en": "horse (as in mǎshàng – immediately)"
+          "zh": "马上",
+          "py": "mǎshàng",
+          "en": "immediately, at once"
         },
         {
-          "zh": "洗",
-          "py": "xǐ",
-          "en": "to wash (as in xǐshǒujiān – bathroom)"
+          "zh": "洗手间",
+          "py": "xǐshǒujiān",
+          "en": "bathroom, restroom"
         },
         {
-          "zh": "手",
-          "py": "shǒu",
-          "en": "hand (as in xǐshǒujiān – bathroom)"
+          "zh": "老",
+          "py": "lǎo",
+          "en": "old"
         },
         {
-          "zh": "间",
-          "py": "jiān",
-          "en": "room; between (as in xǐshǒujiān – bathroom)"
+          "zh": "几乎",
+          "py": "jīhū",
+          "en": "almost"
         },
         {
-          "zh": "乎",
-          "py": "hū",
-          "en": "(classical particle) (as in jīhū – almost)"
+          "zh": "变化",
+          "py": "biànhuà",
+          "en": "to change"
         },
         {
-          "zh": "变",
-          "py": "biàn",
-          "en": "to change (as in biànhuà – to change)"
+          "zh": "健康",
+          "py": "jiànkāng",
+          "en": "healthy"
         },
         {
-          "zh": "化",
-          "py": "huà",
-          "en": "to change; -ize (as in biànhuà – to change)"
-        },
-        {
-          "zh": "健",
-          "py": "jiàn",
-          "en": "healthy; strong (as in jiànkāng – healthy)"
-        },
-        {
-          "zh": "康",
-          "py": "kāng",
-          "en": "healthy (as in jiànkāng – healthy)"
-        },
-        {
-          "zh": "重",
-          "py": "zhòng",
-          "en": "heavy; important (as in zhòngyào – important)"
-        },
-        {
-          "zh": "要",
-          "py": "yào",
-          "en": "to want; important (as in zhòngyào – important)"
+          "zh": "重要",
+          "py": "zhòngyào",
+          "en": "important"
         }
       ]
     },

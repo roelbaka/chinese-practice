@@ -223,72 +223,52 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 3)",
+      "topic": "生词 · New Words (Lesson 3)",
       "items": [
         {
-          "zh": "还",
-          "py": "hái",
-          "en": "still; also (as in háishi – or)"
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or"
         },
         {
-          "zh": "爬",
-          "py": "pá",
-          "en": "to climb; to crawl (as in pá shān – to climb a mountain)"
+          "zh": "爬山",
+          "py": "pá shān",
+          "en": "to climb a mountain"
         },
         {
-          "zh": "山",
-          "py": "shān",
-          "en": "mountain (as in pá shān – to climb a mountain)"
-        },
-        {
-          "zh": "心",
-          "py": "xīn",
-          "en": "heart; mind (as in xiǎoxīn – careful)"
+          "zh": "小心",
+          "py": "xiǎoxīn",
+          "en": "careful"
         },
         {
           "zh": "条",
           "py": "tiáo",
-          "en": "(measure word for long things); strip"
+          "en": "measure word for pants, dresses, etc."
         },
         {
-          "zh": "裤",
-          "py": "kù",
-          "en": "trousers (as in kùzi – pants)"
+          "zh": "裤子",
+          "py": "kùzi",
+          "en": "pants"
         },
         {
-          "zh": "记",
-          "py": "jì",
-          "en": "to remember; to record (as in jìde – to remember)"
+          "zh": "记得",
+          "py": "jìde",
+          "en": "to remember"
         },
         {
-          "zh": "得",
-          "py": "dé",
-          "en": "to get; to obtain (as in jìde – to remember)"
-        },
-        {
-          "zh": "衬",
-          "py": "chèn",
-          "en": "lining; to set off (as in chènshān – shirt)"
-        },
-        {
-          "zh": "衫",
-          "py": "shān",
-          "en": "shirt; unlined garment (as in chènshān – shirt)"
+          "zh": "衬衫",
+          "py": "chènshān",
+          "en": "shirt"
         },
         {
           "zh": "元",
           "py": "yuán",
-          "en": "yuan (currency); first"
+          "en": "yuan (unit of money)"
         },
         {
-          "zh": "新",
-          "py": "xīn",
-          "en": "new (as in xīnxiān – fresh)"
-        },
-        {
-          "zh": "鲜",
-          "py": "xiān",
-          "en": "fresh (as in xīnxiān – fresh)"
+          "zh": "新鲜",
+          "py": "xīnxiān",
+          "en": "fresh"
         },
         {
           "zh": "甜",
@@ -298,42 +278,32 @@
         {
           "zh": "只",
           "py": "zhǐ",
-          "en": "only"
+          "en": "only, solely"
         },
         {
           "zh": "放",
           "py": "fàng",
-          "en": "to put; to release"
+          "en": "to put, to place"
         },
         {
-          "zh": "饮",
-          "py": "yǐn",
-          "en": "to drink (as in yǐnliào – drink)"
+          "zh": "饮料",
+          "py": "yǐnliào",
+          "en": "drink, beverage"
         },
         {
-          "zh": "料",
-          "py": "liào",
-          "en": "material; stuff (as in yǐnliào – drink)"
+          "zh": "或者",
+          "py": "huòzhě",
+          "en": "or"
         },
         {
-          "zh": "或",
-          "py": "huò",
-          "en": "or; perhaps (as in huòzhě – or)"
-        },
-        {
-          "zh": "者",
-          "py": "zhě",
-          "en": "(suffix: -er, person who) (as in huòzhě – or)"
-        },
-        {
-          "zh": "舒",
-          "py": "shū",
-          "en": "to stretch; relaxed (as in shūfu – comfortable)"
+          "zh": "舒服",
+          "py": "shūfu",
+          "en": "comfortable"
         },
         {
           "zh": "花",
           "py": "huā",
-          "en": "flower; to spend"
+          "en": "flower"
         },
         {
           "zh": "绿",

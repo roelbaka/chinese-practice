@@ -218,47 +218,42 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 10)",
+      "topic": "生词 · New Words (Lesson 10)",
       "items": [
+        {
+          "zh": "个子",
+          "py": "gèzi",
+          "en": "height, stature"
+        },
         {
           "zh": "矮",
           "py": "ǎi",
-          "en": "short (height)"
+          "en": "short"
         },
         {
-          "zh": "历",
-          "py": "lì",
-          "en": "to go through; history (as in lìshǐ – history)"
+          "zh": "历史",
+          "py": "lìshǐ",
+          "en": "history"
         },
         {
-          "zh": "史",
-          "py": "shǐ",
-          "en": "history (as in lìshǐ – history)"
+          "zh": "体育",
+          "py": "tǐyù",
+          "en": "P.E., sports"
         },
         {
-          "zh": "体",
-          "py": "tǐ",
-          "en": "body (as in tǐyù – P.E.)"
+          "zh": "数学",
+          "py": "shùxué",
+          "en": "maths"
         },
         {
-          "zh": "育",
-          "py": "yù",
-          "en": "to educate; to raise (as in tǐyù – P.E.)"
+          "zh": "方便",
+          "py": "fāngbiàn",
+          "en": "convenient"
         },
         {
-          "zh": "数",
-          "py": "shù",
-          "en": "number (as in shùxué – maths)"
-        },
-        {
-          "zh": "便",
-          "py": "biàn",
-          "en": "convenient (as in fāngbiàn – convenient)"
-        },
-        {
-          "zh": "自",
-          "py": "zì",
-          "en": "self; from (as in zìxíngchē – bicycle)"
+          "zh": "自行车",
+          "py": "zìxíngchē",
+          "en": "bicycle"
         },
         {
           "zh": "骑",
@@ -268,37 +263,37 @@
         {
           "zh": "旧",
           "py": "jiù",
-          "en": "old; used"
+          "en": "old, used, worn"
         },
         {
           "zh": "换",
           "py": "huàn",
-          "en": "to change; to exchange"
+          "en": "to change, to substitute"
         },
         {
-          "zh": "介",
-          "py": "jiè",
-          "en": "to lie between; agency (as in zhōngjiè – intermediary)"
+          "zh": "地方",
+          "py": "dìfang",
+          "en": "place"
         },
         {
-          "zh": "主",
-          "py": "zhǔ",
-          "en": "main; master (as in zhǔyào – main)"
+          "zh": "中介",
+          "py": "zhōngjiè",
+          "en": "intermediary, agent"
         },
         {
-          "zh": "环",
-          "py": "huán",
-          "en": "ring; to surround (as in huánjìng – environment)"
+          "zh": "主要",
+          "py": "zhǔyào",
+          "en": "main"
         },
         {
-          "zh": "境",
-          "py": "jìng",
-          "en": "border; area; condition (as in huánjìng – environment)"
+          "zh": "环境",
+          "py": "huánjìng",
+          "en": "environment"
         },
         {
-          "zh": "附",
-          "py": "fù",
-          "en": "to attach; nearby (as in fùjìn – nearby)"
+          "zh": "附近",
+          "py": "fùjìn",
+          "en": "nearby, vicinity"
         }
       ]
     },

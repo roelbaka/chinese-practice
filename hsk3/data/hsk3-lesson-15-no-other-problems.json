@@ -248,107 +248,112 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 15)",
+      "topic": "生词 · New Words (Lesson 15)",
       "items": [
         {
-          "zh": "留",
-          "py": "liú",
-          "en": "to stay; to leave behind (as in liú xué – to study abroad)"
+          "zh": "留学",
+          "py": "liú xué",
+          "en": "to study abroad"
         },
         {
-          "zh": "平",
-          "py": "píng",
-          "en": "flat; level (as in shuǐpíng – level)"
+          "zh": "水平",
+          "py": "shuǐpíng",
+          "en": "level, standard"
         },
         {
-          "zh": "提",
-          "py": "tí",
-          "en": "to lift; to raise (as in tí gāo – to improve)"
+          "zh": "提高",
+          "py": "tí gāo",
+          "en": "to improve"
         },
         {
-          "zh": "练",
-          "py": "liàn",
-          "en": "to practise (as in liànxí – exercise)"
+          "zh": "练习",
+          "py": "liànxí",
+          "en": "exercise"
         },
         {
-          "zh": "完",
-          "py": "wán",
-          "en": "to finish (as in wán chéng – to complete)"
+          "zh": "完成",
+          "py": "wán chéng",
+          "en": "to complete"
         },
         {
-          "zh": "成",
-          "py": "chéng",
-          "en": "to become; to accomplish (as in wán chéng – to complete)"
+          "zh": "句子",
+          "py": "jùzi",
+          "en": "sentence"
         },
         {
-          "zh": "句",
-          "py": "jù",
-          "en": "sentence (as in jùzi – sentence)"
+          "zh": "其他",
+          "py": "qítā",
+          "en": "the rest, other"
         },
         {
-          "zh": "求",
-          "py": "qiú",
-          "en": "to request; to seek (as in yāoqiú – requirement)"
+          "zh": "发",
+          "py": "fā",
+          "en": "to send"
         },
         {
-          "zh": "注",
-          "py": "zhù",
-          "en": "to pour; to focus (as in zhù yì – to pay attention to)"
+          "zh": "要求",
+          "py": "yāoqiú",
+          "en": "requirement"
         },
         {
-          "zh": "网",
-          "py": "wǎng",
-          "en": "net; internet (as in shàng wǎng – to surf the Internet)"
+          "zh": "注意",
+          "py": "zhù yì",
+          "en": "to pay attention to"
         },
         {
-          "zh": "除",
-          "py": "chú",
-          "en": "except; to remove (as in chúle – other than)"
+          "zh": "上网",
+          "py": "shàng wǎng",
+          "en": "to surf the Internet"
         },
         {
-          "zh": "闻",
-          "py": "wén",
-          "en": "to hear; news (as in xīnwén – news)"
+          "zh": "除了",
+          "py": "chúle",
+          "en": "other than, except"
         },
         {
-          "zh": "极",
-          "py": "jí",
-          "en": "extreme; extremely (as in jí (le) – extremely)"
+          "zh": "新闻",
+          "py": "xīnwén",
+          "en": "news"
         },
         {
-          "zh": "举",
-          "py": "jǔ",
-          "en": "to lift; to hold (an event) (as in jǔxíng – to hold (a meeting)"
+          "zh": "花",
+          "py": "huā",
+          "en": "to spend"
         },
         {
-          "zh": "世",
-          "py": "shì",
-          "en": "world; generation (as in shìjiè – world)"
+          "zh": "极（了）",
+          "py": "jí (le)",
+          "en": "extremely"
         },
         {
-          "zh": "界",
-          "py": "jiè",
-          "en": "boundary; world (as in shìjiè – world)"
+          "zh": "节日",
+          "py": "jiérì",
+          "en": "festival"
         },
         {
-          "zh": "街",
-          "py": "jiē",
-          "en": "street (as in jiēdào – street)"
+          "zh": "举行",
+          "py": "jǔxíng",
+          "en": "to hold (a meeting, an event, etc.)"
         },
         {
-          "zh": "道",
-          "py": "dào",
-          "en": "road; way (as in jiēdào – street)"
+          "zh": "世界",
+          "py": "shìjiè",
+          "en": "world"
+        },
+        {
+          "zh": "街道",
+          "py": "jiēdào",
+          "en": "street"
         },
         {
           "zh": "各",
           "py": "gè",
-          "en": "each; every"
+          "en": "each"
         },
         {
-          "zh": "文",
-          "py": "wén",
-          "en": "writing; culture (as in wénhuà – culture)"
+          "zh": "文化",
+          "py": "wénhuà",
+          "en": "culture"
         }
       ]
     },

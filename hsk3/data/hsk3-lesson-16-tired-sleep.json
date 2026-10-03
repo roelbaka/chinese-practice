@@ -193,67 +193,87 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 16)",
+      "topic": "生词 · New Words (Lesson 16)",
       "items": [
         {
-          "zh": "城",
-          "py": "chéng",
-          "en": "city; city wall (as in chéngshì – city)"
+          "zh": "城市",
+          "py": "chéngshì",
+          "en": "city"
         },
         {
-          "zh": "如",
-          "py": "rú",
-          "en": "if; like (as in rúguǒ – if)"
+          "zh": "如果",
+          "py": "rúguǒ",
+          "en": "if, in case"
         },
         {
-          "zh": "皮",
-          "py": "pí",
-          "en": "skin; leather (as in píxié – leather shoes)"
+          "zh": "认为",
+          "py": "rènwéi",
+          "en": "to think, to believe"
         },
         {
-          "zh": "鞋",
-          "py": "xié",
-          "en": "shoe (as in píxié – leather shoes)"
+          "zh": "皮鞋",
+          "py": "píxié",
+          "en": "leather shoes"
         },
         {
-          "zh": "帽",
-          "py": "mào",
-          "en": "hat (as in màozi – hat)"
+          "zh": "帽子",
+          "py": "màozi",
+          "en": "hat, cap"
         },
         {
-          "zh": "斤",
-          "py": "jīn",
-          "en": "jin (½ kg) (as in gōngjīn – kilogramme)"
+          "zh": "长",
+          "py": "zhǎng",
+          "en": "to grow, to develop"
         },
         {
-          "zh": "鼻",
-          "py": "bí",
-          "en": "nose (as in bízi – nose)"
+          "zh": "可爱",
+          "py": "kě'ài",
+          "en": "lovely, adorable"
         },
         {
-          "zh": "头",
-          "py": "tóu",
-          "en": "head (as in tóufa – hair)"
+          "zh": "米",
+          "py": "mǐ",
+          "en": "metre"
         },
         {
-          "zh": "检",
-          "py": "jiǎn",
-          "en": "to inspect (as in jiǎnchá – to check)"
+          "zh": "公斤",
+          "py": "gōngjīn",
+          "en": "kilogramme"
         },
         {
-          "zh": "查",
-          "py": "chá",
-          "en": "to check (as in jiǎnchá – to check)"
+          "zh": "鼻子",
+          "py": "bízi",
+          "en": "nose"
         },
         {
-          "zh": "刷",
-          "py": "shuā",
-          "en": "to brush (as in shuā yá – to brush the teeth)"
+          "zh": "头发",
+          "py": "tóufa",
+          "en": "hair"
         },
         {
-          "zh": "牙",
-          "py": "yá",
-          "en": "tooth (as in shuā yá – to brush the teeth)"
+          "zh": "检查",
+          "py": "jiǎnchá",
+          "en": "to check, to examine"
+        },
+        {
+          "zh": "刷牙",
+          "py": "shuā yá",
+          "en": "to brush the teeth"
+        },
+        {
+          "zh": "关系",
+          "py": "guānxì",
+          "en": "relationship"
+        },
+        {
+          "zh": "别人",
+          "py": "biérén",
+          "en": "other people"
+        },
+        {
+          "zh": "词语",
+          "py": "cíyǔ",
+          "en": "word, expression"
         }
       ]
     },

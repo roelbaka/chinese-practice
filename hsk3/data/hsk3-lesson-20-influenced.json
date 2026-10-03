@@ -208,22 +208,42 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 20)",
+      "topic": "生词 · New Words (Lesson 20)",
       "items": [
+        {
+          "zh": "照相机",
+          "py": "zhàoxiàngjī",
+          "en": "camera"
+        },
         {
           "zh": "被",
           "py": "bèi",
-          "en": "by (passive marker); quilt"
+          "en": "marks the passive voice"
         },
         {
-          "zh": "卡",
-          "py": "kǎ",
-          "en": "card (as in xìnyòngkǎ – credit card)"
+          "zh": "难过",
+          "py": "nánguò",
+          "en": "sad"
         },
         {
-          "zh": "绩",
-          "py": "jì",
-          "en": "achievement (as in chéngjì – grade)"
+          "zh": "东",
+          "py": "dōng",
+          "en": "east"
+        },
+        {
+          "zh": "信用卡",
+          "py": "xìnyòngkǎ",
+          "en": "credit card"
+        },
+        {
+          "zh": "关心",
+          "py": "guānxīn",
+          "en": "to care for, to be interested in"
+        },
+        {
+          "zh": "成绩",
+          "py": "chéngjì",
+          "en": "grade, performance, achievement"
         },
         {
           "zh": "碗",
@@ -231,14 +251,29 @@
           "en": "bowl"
         },
         {
-          "zh": "试",
-          "py": "shì",
-          "en": "to try; exam"
+          "zh": "分",
+          "py": "fēn",
+          "en": "to distinguish"
         },
         {
-          "zh": "正",
-          "py": "zhèng",
-          "en": "straight; just; correct (as in zhēnzhèng – really)"
+          "zh": "解决",
+          "py": "jiějué",
+          "en": "to solve"
+        },
+        {
+          "zh": "试",
+          "py": "shì",
+          "en": "to try"
+        },
+        {
+          "zh": "真正",
+          "py": "zhēnzhèng",
+          "en": "really, truly"
+        },
+        {
+          "zh": "多么",
+          "py": "duōme",
+          "en": "very, to a great extent"
         }
       ]
     },

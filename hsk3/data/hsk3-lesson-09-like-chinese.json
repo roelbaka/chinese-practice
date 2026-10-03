@@ -208,47 +208,72 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 9)",
+      "topic": "生词 · New Words (Lesson 9)",
       "items": [
+        {
+          "zh": "中文",
+          "py": "Zhōngwén",
+          "en": "Chinese language"
+        },
         {
           "zh": "班",
           "py": "bān",
-          "en": "class; shift"
+          "en": "class"
         },
         {
-          "zh": "定",
-          "py": "dìng",
-          "en": "to fix; certain (as in yídìng – definitely)"
+          "zh": "一样",
+          "py": "yíyàng",
+          "en": "same, as...as..."
         },
         {
-          "zh": "担",
-          "py": "dān",
-          "en": "to carry; to take on (as in dān xīn – to worry)"
+          "zh": "最后",
+          "py": "zuìhòu",
+          "en": "the last one"
         },
         {
-          "zh": "较",
-          "py": "jiào",
-          "en": "comparatively (as in bǐjiào – fairly)"
+          "zh": "放心",
+          "py": "fàng xīn",
+          "en": "to ease one's mind, to rest assured"
         },
         {
-          "zh": "解",
-          "py": "jiě",
-          "en": "to untie; to understand (as in liǎojiě – to know)"
+          "zh": "一定",
+          "py": "yídìng",
+          "en": "definitely, certainly"
         },
         {
-          "zh": "参",
-          "py": "cān",
-          "en": "to take part (as in cānjiā – to participate)"
+          "zh": "担心",
+          "py": "dān xīn",
+          "en": "to worry"
         },
         {
-          "zh": "加",
-          "py": "jiā",
-          "en": "to add (as in cānjiā – to participate)"
+          "zh": "比较",
+          "py": "bǐjiào",
+          "en": "fairly, rather"
         },
         {
-          "zh": "响",
-          "py": "xiǎng",
-          "en": "sound; to ring (as in yǐngxiǎng – influence)"
+          "zh": "了解",
+          "py": "liǎojiě",
+          "en": "to know"
+        },
+        {
+          "zh": "先",
+          "py": "xiān",
+          "en": "first, in advance"
+        },
+        {
+          "zh": "中间",
+          "py": "zhōngjiān",
+          "en": "middle"
+        },
+        {
+          "zh": "参加",
+          "py": "cānjiā",
+          "en": "to participate"
+        },
+        {
+          "zh": "影响",
+          "py": "yǐngxiǎng",
+          "en": "influence"
         }
       ]
     },

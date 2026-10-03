@@ -188,37 +188,57 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 12)",
+      "topic": "生词 · New Words (Lesson 12)",
       "items": [
         {
-          "zh": "阳",
-          "py": "yáng",
-          "en": "sun; sunshine (as in tàiyáng – sun)"
+          "zh": "太阳",
+          "py": "tàiyáng",
+          "en": "sun"
         },
         {
-          "zh": "李",
-          "py": "lǐ",
-          "en": "plum; (surname) (as in xínglixiāng – luggage)"
+          "zh": "西",
+          "py": "xī",
+          "en": "west"
         },
         {
-          "zh": "箱",
-          "py": "xiāng",
-          "en": "box; case (as in xínglixiāng – luggage)"
+          "zh": "生气",
+          "py": "shēng qì",
+          "en": "angry"
         },
         {
-          "zh": "己",
-          "py": "jǐ",
-          "en": "oneself (as in zìjǐ – self)"
+          "zh": "行李箱",
+          "py": "xínglixiāng",
+          "en": "luggage, suitcase"
         },
         {
-          "zh": "护",
-          "py": "hù",
-          "en": "to protect (as in hùzhào – passport)"
+          "zh": "自己",
+          "py": "zìjǐ",
+          "en": "self"
         },
         {
-          "zh": "司",
-          "py": "sī",
-          "en": "to manage (as in sījī – driver)"
+          "zh": "包",
+          "py": "bāo",
+          "en": "bag, sack"
+        },
+        {
+          "zh": "发现",
+          "py": "fāxiàn",
+          "en": "to discover"
+        },
+        {
+          "zh": "护照",
+          "py": "hùzhào",
+          "en": "passport"
+        },
+        {
+          "zh": "起飞",
+          "py": "qǐfēi",
+          "en": "(of an aircraft) to take off"
+        },
+        {
+          "zh": "司机",
+          "py": "sījī",
+          "en": "driver"
         },
         {
           "zh": "教",
@@ -228,22 +248,17 @@
         {
           "zh": "画",
           "py": "huà",
-          "en": "to draw; painting"
+          "en": "to draw, to paint; drawing, painting"
         },
         {
-          "zh": "需",
-          "py": "xū",
-          "en": "to need (as in xūyào – to need)"
+          "zh": "需要",
+          "py": "xūyào",
+          "en": "to need"
         },
         {
-          "zh": "黑",
-          "py": "hēi",
-          "en": "black (as in hēibǎn – blackboard)"
-        },
-        {
-          "zh": "板",
-          "py": "bǎn",
-          "en": "board; plank (as in hēibǎn – blackboard)"
+          "zh": "黑板",
+          "py": "hēibǎn",
+          "en": "blackboard"
         }
       ]
     },

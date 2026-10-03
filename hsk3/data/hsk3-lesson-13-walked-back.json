@@ -208,92 +208,82 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 13)",
+      "topic": "生词 · New Words (Lesson 13)",
       "items": [
         {
-          "zh": "终",
-          "py": "zhōng",
-          "en": "end; finally (as in zhōngyú – finally)"
+          "zh": "终于",
+          "py": "zhōngyú",
+          "en": "finally"
         },
         {
-          "zh": "于",
-          "py": "yú",
-          "en": "at; in (as in zhōngyú – finally)"
+          "zh": "爷爷",
+          "py": "yéye",
+          "en": "grandfather"
         },
         {
-          "zh": "爷",
-          "py": "yé",
-          "en": "grandpa (as in yéye – grandfather)"
+          "zh": "礼物",
+          "py": "lǐwù",
+          "en": "gift, present"
         },
         {
-          "zh": "礼",
-          "py": "lǐ",
-          "en": "gift; ceremony (as in lǐwù – gift)"
+          "zh": "奶奶",
+          "py": "nǎinai",
+          "en": "grandmother"
         },
         {
-          "zh": "物",
-          "py": "wù",
-          "en": "thing; object (as in lǐwù – gift)"
+          "zh": "遇到",
+          "py": "yùdào",
+          "en": "to come across, to run into"
         },
         {
-          "zh": "奶",
-          "py": "nǎi",
-          "en": "milk; grandma (as in nǎinai – grandmother)"
+          "zh": "一边",
+          "py": "yìbiān",
+          "en": "(doing two things) at the same time"
         },
         {
-          "zh": "遇",
-          "py": "yù",
-          "en": "to meet; to encounter (as in yùdào – to come across)"
+          "zh": "过去",
+          "py": "guòqù",
+          "en": "past"
         },
         {
-          "zh": "边",
-          "py": "biān",
-          "en": "side; edge (as in yìbiān – (doing two things) at the same time)"
+          "zh": "一般",
+          "py": "yìbān",
+          "en": "general, usual"
         },
         {
-          "zh": "过",
-          "py": "guò",
-          "en": "to pass; to cross (as in guòqù – past)"
+          "zh": "愿意",
+          "py": "yuànyì",
+          "en": "would like to, to be willing"
         },
         {
-          "zh": "般",
-          "py": "bān",
-          "en": "kind; sort (as in yìbān – general)"
+          "zh": "起来",
+          "py": "qǐlai",
+          "en": "to rise (upward movement)"
         },
         {
-          "zh": "愿",
-          "py": "yuàn",
-          "en": "to wish; willing (as in yuànyì – would like to)"
+          "zh": "应该",
+          "py": "yīnggāi",
+          "en": "should"
         },
         {
-          "zh": "应",
-          "py": "yīng",
-          "en": "should (as in yīnggāi – should)"
+          "zh": "生活",
+          "py": "shēnghuó",
+          "en": "life"
         },
         {
-          "zh": "该",
-          "py": "gāi",
-          "en": "should; ought to (as in yīnggāi – should)"
-        },
-        {
-          "zh": "活",
-          "py": "huó",
-          "en": "to live; alive (as in shēnghuó – life)"
-        },
-        {
-          "zh": "长",
-          "py": "zhǎng",
-          "en": "head; chief; to grow (as in xiàozhǎng – headmaster)"
+          "zh": "校长",
+          "py": "xiàozhǎng",
+          "en": "headmaster"
         },
         {
           "zh": "坏",
           "py": "huài",
-          "en": "bad; broken"
+          "en": "broken, ruined"
         },
         {
-          "zh": "常",
-          "py": "cháng",
-          "en": "often; common (as in jīngcháng – often)"
+          "zh": "经常",
+          "py": "jīngcháng",
+          "en": "often"
         }
       ]
     },

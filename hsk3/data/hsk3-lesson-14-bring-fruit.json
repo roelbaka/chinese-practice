@@ -218,102 +218,92 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 14)",
+      "topic": "生词 · New Words (Lesson 14)",
       "items": [
         {
-          "zh": "扫",
-          "py": "sǎo",
-          "en": "to sweep (as in dǎsǎo – to clean)"
+          "zh": "打扫",
+          "py": "dǎsǎo",
+          "en": "to clean, to sweep"
         },
         {
-          "zh": "干",
-          "py": "gān",
-          "en": "dry; clean (as in gānjìng – clean)"
+          "zh": "干净",
+          "py": "gānjìng",
+          "en": "clean"
         },
         {
-          "zh": "净",
-          "py": "jìng",
-          "en": "clean (as in gānjìng – clean)"
+          "zh": "然后",
+          "py": "ránhòu",
+          "en": "then, after that"
         },
         {
-          "zh": "冰",
-          "py": "bīng",
-          "en": "ice (as in bīngxiāng – refrigerator)"
+          "zh": "冰箱",
+          "py": "bīngxiāng",
+          "en": "refrigerator"
         },
         {
-          "zh": "澡",
-          "py": "zǎo",
-          "en": "bath (as in xǐ zǎo – to take a bath/shower)"
+          "zh": "洗澡",
+          "py": "xǐ zǎo",
+          "en": "to take a bath/shower"
         },
         {
-          "zh": "目",
-          "py": "mù",
-          "en": "eye; item (as in jiémù – programme)"
+          "zh": "节目",
+          "py": "jiémù",
+          "en": "programme"
+        },
+        {
+          "zh": "月亮",
+          "py": "yuèliang",
+          "en": "moon"
         },
         {
           "zh": "像",
           "py": "xiàng",
-          "en": "to resemble; like"
+          "en": "to be like"
         },
         {
-          "zh": "盘",
-          "py": "pán",
-          "en": "plate; dish (as in pánzi – plate)"
+          "zh": "盘子",
+          "py": "pánzi",
+          "en": "plate"
         },
         {
-          "zh": "刮",
-          "py": "guā",
-          "en": "to blow (wind); to scrape (as in guā fēng – to be windy)"
+          "zh": "刮风",
+          "py": "guā fēng",
+          "en": "to be windy"
         },
         {
-          "zh": "风",
-          "py": "fēng",
-          "en": "wind (as in guā fēng – to be windy)"
+          "zh": "叔叔",
+          "py": "shūshu",
+          "en": "uncle"
         },
         {
-          "zh": "叔",
-          "py": "shū",
-          "en": "uncle (as in shūshu – uncle)"
+          "zh": "阿姨",
+          "py": "āyí",
+          "en": "aunt"
         },
         {
-          "zh": "阿",
-          "py": "ā",
-          "en": "(prefix for names/kinship) (as in āyí – aunt)"
+          "zh": "故事",
+          "py": "gùshi",
+          "en": "story"
         },
         {
-          "zh": "姨",
-          "py": "yí",
-          "en": "aunt (as in āyí – aunt)"
+          "zh": "声音",
+          "py": "shēngyīn",
+          "en": "sound, voice"
         },
         {
-          "zh": "故",
-          "py": "gù",
-          "en": "old; reason; story (as in gùshi – story)"
+          "zh": "菜单",
+          "py": "càidān",
+          "en": "menu"
         },
         {
-          "zh": "声",
-          "py": "shēng",
-          "en": "sound; voice (as in shēngyīn – sound)"
+          "zh": "简单",
+          "py": "jiǎndān",
+          "en": "simple"
         },
         {
-          "zh": "单",
-          "py": "dān",
-          "en": "single; list (as in càidān – menu)"
-        },
-        {
-          "zh": "简",
-          "py": "jiǎn",
-          "en": "simple (as in jiǎndān – simple)"
-        },
-        {
-          "zh": "香",
-          "py": "xiāng",
-          "en": "fragrant (as in xiāngjiāo – banana)"
-        },
-        {
-          "zh": "蕉",
-          "py": "jiāo",
-          "en": "banana; plantain (as in xiāngjiāo – banana)"
+          "zh": "香蕉",
+          "py": "xiāngjiāo",
+          "en": "banana"
         }
       ]
     },

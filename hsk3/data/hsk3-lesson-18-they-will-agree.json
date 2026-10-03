@@ -208,7 +208,7 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 18)",
+      "topic": "生词 · New Words (Lesson 18)",
       "items": [
         {
           "zh": "向",
@@ -221,44 +221,74 @@
           "en": "ten thousand"
         },
         {
+          "zh": "只",
+          "py": "zhī",
+          "en": "measure word for certain animals"
+        },
+        {
           "zh": "嘴",
           "py": "zuǐ",
           "en": "mouth"
         },
         {
-          "zh": "动",
-          "py": "dòng",
-          "en": "to move (as in dòngwù – animal)"
+          "zh": "动物",
+          "py": "dòngwù",
+          "en": "animal"
         },
         {
           "zh": "段",
           "py": "duàn",
-          "en": "section; paragraph"
+          "en": "measure word for sections or periods"
         },
         {
-          "zh": "相",
-          "py": "xiāng",
-          "en": "each other (as in xiāngxìn – to believe)"
+          "zh": "有名",
+          "py": "yǒumíng",
+          "en": "famous"
         },
         {
-          "zh": "信",
-          "py": "xìn",
-          "en": "to believe; letter (as in xiāngxìn – to believe)"
+          "zh": "同意",
+          "py": "tóngyì",
+          "en": "to agree"
+        },
+        {
+          "zh": "相信",
+          "py": "xiāngxìn",
+          "en": "to believe"
+        },
+        {
+          "zh": "关于",
+          "py": "guānyú",
+          "en": "about, regarding"
+        },
+        {
+          "zh": "机会",
+          "py": "jīhuì",
+          "en": "opportunity"
+        },
+        {
+          "zh": "国家",
+          "py": "guójiā",
+          "en": "country, nation"
         },
         {
           "zh": "种",
           "py": "zhǒng",
-          "en": "kind; type"
+          "en": "kind, type"
         },
         {
-          "zh": "奇",
-          "py": "qí",
-          "en": "strange; rare (as in qíguài – strange)"
+          "zh": "特点",
+          "py": "tèdiǎn",
+          "en": "feature"
         },
         {
-          "zh": "怪",
-          "py": "guài",
-          "en": "strange; odd (as in qíguài – strange)"
+          "zh": "奇怪",
+          "py": "qíguài",
+          "en": "strange, odd"
+        },
+        {
+          "zh": "地",
+          "py": "de",
+          "en": "particle linking an adverbial to the verb"
         }
       ]
     },

@@ -233,7 +233,7 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 2)",
+      "topic": "生词 · New Words (Lesson 2)",
       "items": [
         {
           "zh": "腿",
@@ -243,7 +243,7 @@
         {
           "zh": "疼",
           "py": "téng",
-          "en": "to ache; painful"
+          "en": "hurt, painful"
         },
         {
           "zh": "脚",
@@ -256,14 +256,9 @@
           "en": "tree"
         },
         {
-          "zh": "容",
-          "py": "róng",
-          "en": "to hold; appearance (as in róngyì – easy)"
-        },
-        {
-          "zh": "易",
-          "py": "yì",
-          "en": "easy; to change (as in róngyì – easy)"
+          "zh": "容易",
+          "py": "róngyì",
+          "en": "easy"
         },
         {
           "zh": "难",
@@ -271,54 +266,49 @@
           "en": "difficult"
         },
         {
-          "zh": "秘",
-          "py": "mì",
-          "en": "secret (as in mìshū – secretary)"
+          "zh": "太太",
+          "py": "tàitai",
+          "en": "Mrs., madam"
         },
         {
-          "zh": "经",
-          "py": "jīng",
-          "en": "to pass through; to manage (as in jīnglǐ – manager)"
+          "zh": "秘书",
+          "py": "mìshū",
+          "en": "secretary"
         },
         {
-          "zh": "理",
-          "py": "lǐ",
-          "en": "reason; to manage (as in jīnglǐ – manager)"
+          "zh": "经理",
+          "py": "jīnglǐ",
+          "en": "manager"
         },
         {
-          "zh": "办",
-          "py": "bàn",
-          "en": "to do; to handle (as in bàngōngshì – office)"
+          "zh": "办公室",
+          "py": "bàngōngshì",
+          "en": "office"
         },
         {
-          "zh": "公",
-          "py": "gōng",
-          "en": "public; official (as in bàngōngshì – office)"
-        },
-        {
-          "zh": "室",
-          "py": "shì",
-          "en": "room (as in bàngōngshì – office)"
+          "zh": "周",
+          "py": "Zhōu",
+          "en": "Zhou (surname)"
         },
         {
           "zh": "辆",
           "py": "liàng",
-          "en": "(measure word for vehicles)"
+          "en": "measure word for vehicles"
         },
         {
           "zh": "楼",
           "py": "lóu",
-          "en": "building; floor"
+          "en": "building"
         },
         {
           "zh": "拿",
           "py": "ná",
-          "en": "to take; to hold"
+          "en": "to take, to fetch"
         },
         {
           "zh": "把",
           "py": "bǎ",
-          "en": "to hold; (把 construction; measure word)"
+          "en": "measure word for things with a handle"
         },
         {
           "zh": "伞",
@@ -331,19 +321,14 @@
           "en": "fat"
         },
         {
-          "zh": "其",
-          "py": "qí",
-          "en": "its; that; other (as in qíshí – actually)"
-        },
-        {
-          "zh": "实",
-          "py": "shí",
-          "en": "real; true; solid (as in qíshí – actually)"
+          "zh": "其实",
+          "py": "qíshí",
+          "en": "actually"
         },
         {
           "zh": "瘦",
           "py": "shòu",
-          "en": "thin; slim"
+          "en": "thin"
         }
       ]
     },

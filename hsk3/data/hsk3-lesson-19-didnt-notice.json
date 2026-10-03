@@ -198,17 +198,12 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 19)",
+      "topic": "生词 · New Words (Lesson 19)",
       "items": [
         {
-          "zh": "耳",
-          "py": "ěr",
-          "en": "ear (as in ěrduo – ear)"
-        },
-        {
-          "zh": "朵",
-          "py": "duo",
-          "en": "(in 耳朵; measure word for flowers) (as in ěrduo – ear)"
+          "zh": "耳朵",
+          "py": "ěrduo",
+          "en": "ear"
         },
         {
           "zh": "脸",
@@ -221,14 +216,19 @@
           "en": "short"
         },
         {
+          "zh": "马",
+          "py": "mǎ",
+          "en": "horse"
+        },
+        {
           "zh": "张",
           "py": "zhāng",
-          "en": "(measure word for flat things); to open"
+          "en": "measure word for flat objects (paper, photos)"
         },
         {
           "zh": "位",
           "py": "wèi",
-          "en": "(polite measure word for people); position"
+          "en": "respectful measure word for people"
         },
         {
           "zh": "蓝",
@@ -236,9 +236,14 @@
           "en": "blue"
         },
         {
-          "zh": "秋",
-          "py": "qiū",
-          "en": "autumn (as in qiū (tiān) – autumn)"
+          "zh": "秋（天）",
+          "py": "qiū (tiān)",
+          "en": "autumn, fall"
+        },
+        {
+          "zh": "过",
+          "py": "guò",
+          "en": "to spend, to pass"
         },
         {
           "zh": "鸟",
@@ -251,9 +256,19 @@
           "en": "to cry"
         },
         {
+          "zh": "黄河",
+          "py": "Huáng Hé",
+          "en": "Yellow River (China's second longest river)"
+        },
+        {
           "zh": "船",
           "py": "chuán",
-          "en": "boat; ship"
+          "en": "boat, ship"
+        },
+        {
+          "zh": "经过",
+          "py": "jīngguò",
+          "en": "to pass by"
         }
       ]
     },

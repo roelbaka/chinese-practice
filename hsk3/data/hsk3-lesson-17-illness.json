@@ -223,82 +223,82 @@
       ]
     },
     {
-      "topic": "汉字 · New Characters (Lesson 17)",
+      "topic": "生词 · New Words (Lesson 17)",
       "items": [
         {
-          "zh": "假",
-          "py": "jià",
-          "en": "leave; holiday (as in qǐng jià – to ask for leave)"
+          "zh": "请假",
+          "py": "qǐng jià",
+          "en": "to ask for leave"
         },
         {
-          "zh": "共",
-          "py": "gòng",
-          "en": "together; common (as in yígòng – in total)"
+          "zh": "一共",
+          "py": "yígòng",
+          "en": "in total"
         },
         {
-          "zh": "邻",
-          "py": "lín",
-          "en": "neighbour (as in línjū – neighbour)"
+          "zh": "邻居",
+          "py": "línjū",
+          "en": "neighbour"
         },
         {
-          "zh": "居",
-          "py": "jū",
-          "en": "to reside (as in línjū – neighbour)"
+          "zh": "后来",
+          "py": "hòulái",
+          "en": "later, afterwards"
         },
         {
-          "zh": "法",
-          "py": "fǎ",
-          "en": "method; law (as in bànfǎ – way)"
+          "zh": "爱好",
+          "py": "àihào",
+          "en": "hobby, interest"
+        },
+        {
+          "zh": "办法",
+          "py": "bànfǎ",
+          "en": "way, approach"
         },
         {
           "zh": "饱",
           "py": "bǎo",
-          "en": "full (after eating)"
+          "en": "full, having eaten one's fill"
         },
         {
-          "zh": "决",
-          "py": "jué",
-          "en": "to decide (as in juédìng – to decide)"
+          "zh": "为了",
+          "py": "wèile",
+          "en": "for the sake of"
         },
         {
-          "zh": "选",
-          "py": "xuǎn",
-          "en": "to choose (as in xuǎnzé – to choose)"
+          "zh": "决定",
+          "py": "juédìng",
+          "en": "to decide"
         },
         {
-          "zh": "择",
-          "py": "zé",
-          "en": "to select (as in xuǎnzé – to choose)"
+          "zh": "选择",
+          "py": "xuǎnzé",
+          "en": "to choose"
         },
         {
-          "zh": "冬",
-          "py": "dōng",
-          "en": "winter (as in dōng (tiān) – winter)"
+          "zh": "冬（天）",
+          "py": "dōng (tiān)",
+          "en": "winter"
         },
         {
-          "zh": "必",
-          "py": "bì",
-          "en": "must; certainly (as in bìxū – must)"
+          "zh": "必须",
+          "py": "bìxū",
+          "en": "must"
         },
         {
-          "zh": "须",
-          "py": "xū",
-          "en": "must; to have to (as in bìxū – must)"
+          "zh": "根据",
+          "py": "gēnjù",
+          "en": "according to, based on"
         },
         {
-          "zh": "根",
-          "py": "gēn",
-          "en": "root (as in gēnjù – according to)"
+          "zh": "情况",
+          "py": "qíngkuàng",
+          "en": "condition, situation"
         },
         {
-          "zh": "据",
-          "py": "jù",
-          "en": "according to (as in gēnjù – according to)"
-        },
-        {
-          "zh": "况",
-          "py": "kuàng",
-          "en": "situation (as in qíngkuàng – condition)"
+          "zh": "口",
+          "py": "kǒu",
+          "en": "mouth"
         },
         {
           "zh": "渴",
