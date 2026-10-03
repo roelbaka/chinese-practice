@@ -256,6 +256,16 @@ function shortLabel(topic) {
   return m && !/^Lesson\b/.test(m[1]) ? m[1].trim() : label;
 }
 
+/** A line of a conversation or text, as opposed to a single vocabulary word. */
+function isTextLine(item) {
+  return /[：:。？！?!，]/.test(item.zh);
+}
+
+/** Texts are practised one conversation at a time, in their original order. */
+function isTextView() {
+  return currentCat === "texts" && currentTopic !== "all";
+}
+
 function visibleSections() {
   if (currentTopic !== "all") return DATA.filter(t => t.topic === currentTopic);
   if (currentCat === "all") return DATA;
@@ -270,6 +280,16 @@ function prepareLessonData(raw) {
   if (i <= 0) return data;
   const [block] = data.splice(i, 1);
   return [block, ...data];
+}
+
+/** Drop vocabulary words from conversations when they are already in a word list, so a text holds only its lines. */
+function splitTextsFromWords(data) {
+  const listed = new Set(data.filter(s => categoryOf(s) === "words").flatMap(s => s.items.map(i => i.zh)));
+  return data.map(s =>
+    categoryOf(s) === "texts" && s.items.some(isTextLine)
+      ? { ...s, items: s.items.filter(i => isTextLine(i) || !listed.has(i.zh)) }
+      : s
+  );
 }
 let hidePinyin = false;
 let hideEnglish = false;
@@ -310,7 +330,7 @@ if (!lessonId) {
     .then(json => {
       document.title = `Chinese Practice — ${json.title}`;
       document.getElementById("lessonSubtitle").textContent = json.subtitle;
-      DATA = prepareLessonData(json.data);
+      DATA = splitTextsFromWords(prepareLessonData(json.data));
       const notesSec = DATA.find((s) => s.classNotesFirst === true);
       if (notesSec) currentCat = categoryOf(notesSec);
       renderNav();
@@ -391,16 +411,19 @@ function renderNav() {
     ).join("");
 
   const sections = currentCat === "all" ? [] : DATA.filter(t => categoryOf(t) === currentCat);
-  subNav.innerHTML = sections.length < 2 ? "" :
-    `<button data-topic="all" class="${currentTopic === "all" ? "active" : ""}">All ${esc(cats.find(c => c.key === currentCat).en.toLowerCase())}</button>` +
-    sections.map(t =>
-      `<button data-topic="${esc(t.topic)}" title="${esc(t.topic)}" class="${currentTopic === t.topic ? "active" : ""}">${esc(shortLabel(t.topic))}</button>`
-    ).join("");
+  const texts = currentCat === "texts";
+  // Texts have no "All" chip: each conversation is its own text.
+  subNav.innerHTML = sections.length < (texts ? 1 : 2) ? "" :
+    (texts ? "" : `<button data-topic="all" class="${currentTopic === "all" ? "active" : ""}">All ${esc(cats.find(c => c.key === currentCat).en.toLowerCase())}</button>`) +
+    sections.map(t => {
+      const label = texts ? (t.topic.split(" · ")[1] || t.topic) : shortLabel(t.topic);
+      return `<button data-topic="${esc(t.topic)}" title="${esc(t.topic)}" class="${currentTopic === t.topic ? "active" : ""}">${esc(label)}</button>`;
+    }).join("");
 
   catNav.querySelectorAll("button").forEach(btn => {
     btn.addEventListener("click", () => {
       currentCat = btn.dataset.cat;
-      currentTopic = "all";
+      currentTopic = currentCat === "texts" ? DATA.find(t => categoryOf(t) === "texts").topic : "all";
       renderNav();
       render();
     });
@@ -477,7 +500,7 @@ function renderBrowse() {
 function renderFlashcard() {
   const app = document.getElementById("app");
   if (!fcItems.length) {
-    fcItems = shuffle(getItems());
+    fcItems = isTextView() ? getItems() : shuffle(getItems());
     fcIndex = 0;
     fcRevealed = false;
   }
@@ -523,6 +546,7 @@ function renderFlashcard() {
       <button type="button" id="fcNext">Next &rarr;</button>
     </div>
     <div class="fc-controls">
+      <button type="button" id="fcInOrder">In order</button>
       <button type="button" id="fcShuffle">Shuffle</button>
     </div>
   </div>`;
@@ -534,6 +558,7 @@ function renderFlashcard() {
   document.getElementById("fcPrev").addEventListener("click", () => { fcIndex = (fcIndex - 1 + fcItems.length) % fcItems.length; fcRevealed = false; renderFlashcard(); });
   document.getElementById("fcNext").addEventListener("click", () => { fcIndex = (fcIndex + 1) % fcItems.length; fcRevealed = false; renderFlashcard(); });
   document.getElementById("fcSpeak").addEventListener("click", (e) => { e.preventDefault(); speak(item.zh); });
+  document.getElementById("fcInOrder").addEventListener("click", () => { fcItems = getItems(); fcIndex = 0; fcRevealed = false; renderFlashcard(); });
   document.getElementById("fcShuffle").addEventListener("click", () => { fcItems = shuffle(getItems()); fcIndex = 0; fcRevealed = false; renderFlashcard(); });
 
   const typeInput = document.getElementById("fcTypeInput");
