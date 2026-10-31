@@ -162,6 +162,12 @@
     nav { gap: .3rem; }
     nav button { font-size: .75rem; padding: .35rem .7rem; }
   }
+  .quiz-reveal { margin: -.5rem auto 1.2rem; padding: .7rem 1rem; border-radius: 10px; border: 1px solid var(--border); max-width: 30rem; }
+  .quiz-reveal.ok { border-color: var(--success, #4caf50); }
+  .quiz-reveal.bad { border-color: #f44336; }
+  .quiz-reveal .zh { font-size: 1.5rem; }
+  .quiz-reveal .py { color: var(--pinyin); }
+  .quiz-reveal .en { color: var(--english); font-size: .95rem; }
 </style>
 </head>
 <body>
@@ -457,6 +463,10 @@ function renderQuiz() {
           app.querySelector('.quiz-option[data-correct="true"]').classList.add("correct");
         }
         app.querySelectorAll(".quiz-option").forEach(b => b.classList.add("disabled"));
+        // Right or wrong: show the full item — characters, pinyin and English.
+        app.querySelector(".quiz-pinyin-hint")?.remove();
+        app.querySelector(".quiz-options").insertAdjacentHTML("beforebegin", `<div class="quiz-reveal ${correct ? "ok" : "bad"}">
+          <div class="zh">${esc(item.zh)}</div><div class="py">${esc(item.py)}</div><div class="en">${esc(item.en)}</div></div>`);
         renderQuizControls();
       });
     });
