@@ -342,6 +342,9 @@ function checkTyped(typed, zh) {
   return { ok: false, diff };
 }
 let quizItems = [], quizIndex = 0, quizScore = 0, quizAnswered = false, quizMode = "zh";
+let quizAnswer = "en";   // what the options show: zh / py / en (never the same as the prompt)
+let quizShowPinyin = true;   // pinyin under the characters when the prompt is 中文
+try { quizShowPinyin = localStorage.getItem("quizShowPinyin") !== "0"; } catch (e) {}
 
 const params = new URLSearchParams(window.location.search);
 const lessonId = params.get("id");
@@ -635,8 +638,8 @@ function renderQuiz() {
   const item = quizItems[quizIndex];
   const allItems = getItems();
 
-  const promptField = quizMode === "en" ? "en" : "zh";
-  const answerField = quizMode === "en" ? "zh" : "en";
+  if (quizAnswer === quizMode) quizAnswer = quizMode === "en" ? "zh" : "en";
+  const answerField = quizAnswer;
 
   // Keep options comparable: single characters vs. words vs. sentences
   const candidates = allItems.filter(i => i[answerField] !== item[answerField] && i.zh !== item.zh);
@@ -646,7 +649,8 @@ function renderQuiz() {
 
   let promptHtml = "";
   if (quizMode === "zh") {
-    promptHtml = `<div class="quiz-prompt">${esc(item.zh)}</div><div class="quiz-pinyin-hint">${esc(item.py)}</div>`;
+    // No pinyin hint when pinyin is what you have to pick.
+    promptHtml = `<div class="quiz-prompt">${esc(item.zh)}</div>${answerField === "py" || !quizShowPinyin ? "" : `<div class="quiz-pinyin-hint">${esc(item.py)}</div>`}`;
   } else if (quizMode === "py") {
     promptHtml = `<div class="quiz-prompt" style="color:var(--pinyin)">${esc(item.py)}</div>`;
   } else {
@@ -654,12 +658,21 @@ function renderQuiz() {
   }
 
   app.innerHTML = `<div class="quiz-container">
-    <div class="fc-mode-bar" style="margin-bottom:1.5rem">
+    <div class="fc-mode-bar">
       <span class="fc-mode-label">Prompt:</span>
       <button class="${quizMode === 'py' ? 'active' : ''}" data-qmode="py">Pinyin</button>
       <button class="${quizMode === 'zh' ? 'active' : ''}" data-qmode="zh">中文</button>
       <button class="${quizMode === 'en' ? 'active' : ''}" data-qmode="en">English</button>
     </div>
+    <div class="fc-mode-bar" style="margin-bottom:1.5rem">
+      <span class="fc-mode-label">Answer:</span>
+      ${["py", "zh", "en"].filter(f => f !== quizMode).map(f =>
+        `<button class="${answerField === f ? 'active' : ''}" data-qans="${f}">${f === "py" ? "Pinyin" : f === "zh" ? "中文" : "English"}</button>`
+      ).join("")}
+    </div>
+    ${quizMode === "zh" && answerField !== "py" ? `<div class="toggle-row" style="margin:-.8rem 0 .5rem">
+      <label><input type="checkbox" id="quizPy" ${quizShowPinyin ? "checked" : ""}> Show pinyin</label>
+    </div>` : ""}
     ${promptHtml}
     <div class="quiz-options">
       ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o[answerField] === item[answerField]}">${esc(o[answerField])}</button>`).join("")}
@@ -668,8 +681,19 @@ function renderQuiz() {
     ${quizAnswered ? `<button class="quiz-next" id="quizNext">${quizIndex + 1 < quizItems.length ? 'Next &rarr;' : 'Restart'}</button>` : ''}
   </div>`;
 
-  app.querySelectorAll(".fc-mode-bar button").forEach(btn => {
+  app.querySelectorAll("[data-qmode]").forEach(btn => {
     btn.addEventListener("click", () => { quizMode = btn.dataset.qmode; quizItems = []; renderQuiz(); });
+  });
+  const pyBox = document.getElementById("quizPy");
+  if (pyBox) pyBox.addEventListener("change", () => {
+    quizShowPinyin = pyBox.checked;
+    try { localStorage.setItem("quizShowPinyin", quizShowPinyin ? "1" : "0"); } catch (e) {}
+    const hint = app.querySelector(".quiz-pinyin-hint");
+    if (quizShowPinyin && !hint) app.querySelector(".quiz-prompt").insertAdjacentHTML("afterend", `<div class="quiz-pinyin-hint">${esc(item.py)}</div>`);
+    if (!quizShowPinyin && hint) hint.remove();
+  });
+  app.querySelectorAll("[data-qans]").forEach(btn => {
+    btn.addEventListener("click", () => { quizAnswer = btn.dataset.qans; quizItems = []; renderQuiz(); });
   });
 
   if (!quizAnswered) {
