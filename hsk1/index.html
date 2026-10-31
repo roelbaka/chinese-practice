@@ -69,6 +69,15 @@
     .lesson-card { flex-direction: column; align-items: flex-start; gap: .8rem; }
     .lesson-card .lesson-num { margin-left: 0; }
   }
+  .book-card {
+    display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+    padding: 1.1rem 1.8rem; border-radius: 14px; text-decoration: none; color: var(--text);
+    border: 1px dashed var(--accent); background: transparent; transition: all .25s;
+  }
+  .book-card:hover { background: var(--card-hover); transform: translateX(4px); }
+  .book-card h3 { font-size: 1.05rem; font-weight: 500; }
+  .book-card p { color: var(--text-muted); font-size: .85rem; margin-top: .2rem; }
+  .book-card .go { color: var(--accent); font-size: .9rem; white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -78,6 +87,10 @@
   <p>HSK标准教程1 · HSK Standard Course 1 (Lessons 1–15)</p>
 </header>
 <div class="lessons">
+  <a href="lesson.html?id=words" class="book-card">
+    <div><h3>全书生词 · All words</h3><p>Practise the vocabulary of the whole book — flashcards, quiz or fill-in, per lesson or all at once</p></div>
+    <span class="go">Practise &rarr;</span>
+  </a>
   <a href="lesson.html?id=hsk1-lesson-01-hello" class="lesson-card">
     <div class="info">
       <h3>第一课 · 你好</h3>

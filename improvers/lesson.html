@@ -353,8 +353,11 @@ if (!lessonId) {
   document.getElementById("app").innerHTML = '<div class="error">No lesson specified. <a href="./" style="color:var(--accent)">Back to overview</a></div>';
 } else {
   // The mistakes page reads its "lesson" from this browser's mistake list (progress.js).
+  // ?id=words collects the word lists of every lesson in this book (nav.js).
   (lessonId === "mistakes"
     ? Promise.resolve(Progress.asLesson())
+    : lessonId === "words"
+    ? BookWords(location.pathname.split("/").slice(-2, -1)[0])
     : fetch(`data/${lessonId}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }))
     .then(json => {
       document.title = `Chinese Practice — ${json.title}`;

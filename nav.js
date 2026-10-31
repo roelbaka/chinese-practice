@@ -87,6 +87,36 @@
   // ---------- 2. Hamburger menu ----------
 
   const ROOT = new URL(".", document.currentScript.src);
+
+  /**
+   * All vocabulary of one book as a single "lesson": every lesson's word lists (生词, 词汇, 专名 …)
+   * merged into one section per lesson. Used by lesson.html?id=words in each class folder.
+   */
+  async function bookWords(dir) {
+    const base = new URL(`${dir}/`, ROOT);
+    const html = await fetch(base).then(r => { if (!r.ok) throw new Error(r.status); return r.text(); });
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    const cards = [...doc.querySelectorAll("a.lesson-card")];
+    const lessons = await Promise.all(cards.map(async (a, i) => {
+      const id = new URL(a.getAttribute("href"), base).searchParams.get("id");
+      const json = await fetch(new URL(`data/${id}.json`, base)).then(r => r.json());
+      const num = (a.querySelector(".lesson-num")?.textContent || "").replace(/\D+/g, "") || String(i + 1);
+      const seen = new Set();
+      const items = json.data.filter(s => categoryOf(s) === "words").flatMap(s => s.items)
+        .filter(it => it.zh && !seen.has(it.zh) && seen.add(it.zh));
+      const title = json.title.replace(/^第[^·]+·\s*/, "");
+      return { topic: `生词 · Words (Lesson ${num} · ${title})`, items };
+    }));
+    const data = lessons.filter(l => l.items.length);
+    const total = data.reduce((n, l) => n + l.items.length, 0);
+    const name = (doc.querySelector("header h1")?.textContent || dir).trim();
+    return {
+      title: "全书生词 · All words",
+      subtitle: `${name} · ${total} words from ${data.length} lessons — pick a lesson or practise them all`,
+      data,
+    };
+  }
+  window.BookWords = bookWords;
   const CLASSES = [
     { dir: "beginners", zh: "初级班", en: "Beginners" },
     { dir: "improvers", zh: "提高班", en: "Improvers" },
@@ -244,7 +274,8 @@
     box.innerHTML = `<div class="snav-msg">Loading…</div>`;
     try {
       const lessons = await loadLessons(dir);
-      box.innerHTML = `<a href="${esc(new URL(`${dir}/`, ROOT).href)}"><span class="num"></span><span class="overview">Overview</span></a>`;
+      box.innerHTML = `<a href="${esc(new URL(`${dir}/`, ROOT).href)}"><span class="num"></span><span class="overview">Overview</span></a>` +
+        (dir === "proverbs" ? "" : `<a href="${esc(new URL(`${dir}/lesson.html?id=words`, ROOT).href)}"><span class="num"></span><span class="overview">全书生词 · All words</span></a>`);
       lessons.forEach(l => {
         const cur = dir === currentDir && l.id && l.id === currentId;
         const item = el(`<div class="snav-lesson ${cur ? "current" : ""}">
