@@ -131,6 +131,12 @@
       border: 1px solid var(--border, #2a2a4a); border-radius: 999px; padding: .35rem .9rem;
     }
     .snav-journal:hover { border-color: var(--accent, #e94560); }
+    .snav-mistakes { margin-left: 0; }
+    .snav-count:not(:empty) {
+      display: inline-block; margin-left: .4rem; min-width: 1.3rem; padding: 0 .35rem; border-radius: 999px;
+      background: var(--accent, #e94560); color: #fff; font-size: .75rem; text-align: center;
+    }
+    @media (max-width: 600px) { .snav-journal { font-size: .78rem; padding: .3rem .6rem; } }
     .snav-close {
       width: 44px; height: 44px; border-radius: 10px; cursor: pointer; font-size: 1.6rem; line-height: 1;
       background: transparent; color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
@@ -269,6 +275,7 @@
       <div class="snav-top">
         <a class="snav-home" href="${esc(ROOT.href)}">练习 <b>中文</b></a>
         <a class="snav-journal" href="${esc(new URL("journal/", ROOT).href)}">课堂笔记 · Class journal</a>
+        <a class="snav-journal snav-mistakes" href="${esc(new URL("mistakes/lesson.html?id=mistakes", ROOT).href)}">错题 · Mistakes<span class="snav-count"></span></a>
         <button type="button" class="snav-close" aria-label="Close menu">&times;</button>
       </div>
       <div class="snav-body"><div class="snav-inner"></div></div>
@@ -291,6 +298,13 @@
 
     const open = () => {
       overlay.classList.add("open");
+      // Mistakes are counted from localStorage (progress.js stores them under this key).
+      let n = 0;
+      try {
+        const all = JSON.parse(localStorage.getItem("chinesePractice.mistakes.v1")) || {};
+        n = Object.values(all).filter(r => r.wrong > 0 && r.right / (r.right + r.wrong) <= 0.75).length;
+      } catch (e) {}
+      overlay.querySelector(".snav-count").textContent = n || "";
       document.body.classList.add("snav-locked");
       btn.setAttribute("aria-expanded", "true");
       inner.querySelectorAll(".snav-class.open").forEach(b => b.classList.remove("open"));

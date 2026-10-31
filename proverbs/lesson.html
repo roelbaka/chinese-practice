@@ -183,6 +183,7 @@
 <main id="app"><div class="loading">Loading...</div></main>
 
 <script src="../nav.js"></script>
+<script src="../progress.js"></script>
 <script>
 let DATA = [];
 let currentTopic = "all";
@@ -228,8 +229,10 @@ const lessonId = params.get("id");
 if (!lessonId) {
   document.getElementById("app").innerHTML = '<div class="error">No lesson specified. <a href="./" style="color:var(--accent)">Back to overview</a></div>';
 } else {
-  fetch(`data/${lessonId}.json`)
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  // The mistakes page reads its "lesson" from this browser's mistake list (progress.js).
+  (lessonId === "mistakes"
+    ? Promise.resolve(Progress.asLesson())
+    : fetch(`data/${lessonId}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }))
     .then(json => {
       document.title = `Chinese Practice — ${json.title}`;
       document.getElementById("lessonSubtitle").textContent = json.subtitle;
@@ -242,6 +245,10 @@ if (!lessonId) {
     .catch(err => {
       document.getElementById("app").innerHTML = `<div class="error">Could not load "${lessonId}". <a href="./" style="color:var(--accent)">Back to overview</a></div>`;
     });
+}
+
+function sectionTopicOf(zh) {
+  return (DATA.find(s => s.items.some(i => i.zh === zh)) || {}).topic;
 }
 
 function getItems() {
@@ -443,6 +450,7 @@ function renderQuiz() {
       btn.addEventListener("click", () => {
         quizAnswered = true;
         const correct = btn.dataset.correct === "true";
+        Progress.record(item, correct, sectionTopicOf(item.zh));
         if (correct) quizScore++;
         btn.classList.add(correct ? "correct" : "wrong");
         if (!correct) {

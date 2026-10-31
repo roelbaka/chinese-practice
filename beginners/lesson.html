@@ -242,6 +242,7 @@
 <main id="app"><div class="loading">Loading lesson data...</div></main>
 
 <script src="../nav.js"></script>
+<script src="../progress.js"></script>
 <script>
 let DATA = [];
 let currentCat = "all";    // "all" or a CATEGORIES key
@@ -283,6 +284,11 @@ function isTextLine(item) {
 /** Texts are practised one conversation at a time, in their original order. */
 function isTextView() {
   return currentCat === "texts" && currentTopic !== "all";
+}
+
+/** Topic of the section an item comes from (for the mistakes list). */
+function sectionTopicOf(zh) {
+  return (DATA.find(s => s.items.some(i => i.zh === zh)) || {}).topic;
 }
 
 function visibleSections() {
@@ -344,8 +350,10 @@ const lessonId = params.get("id");
 if (!lessonId) {
   document.getElementById("app").innerHTML = '<div class="error">No lesson specified. <a href="./" style="color:var(--accent)">Back to overview</a></div>';
 } else {
-  fetch(`data/${lessonId}.json`)
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  // The mistakes page reads its "lesson" from this browser's mistake list (progress.js).
+  (lessonId === "mistakes"
+    ? Promise.resolve(Progress.asLesson())
+    : fetch(`data/${lessonId}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }))
     .then(json => {
       document.title = `Chinese Practice — ${json.title}`;
       document.getElementById("lessonSubtitle").textContent = json.subtitle;
@@ -584,6 +592,7 @@ function renderFlashcard() {
     fcTyped = typeInput.value;
     if (!normZh(fcTyped)) return;
     fcTypeResult = checkTyped(fcTyped, item.zh);
+    Progress.record(item, fcTypeResult.ok, sectionTopicOf(item.zh));
     fcRevealed = true;
     fcTypeFocus = true;
     renderFlashcard();
@@ -669,6 +678,7 @@ function renderQuiz() {
       btn.addEventListener("click", () => {
         quizAnswered = true;
         const correct = btn.dataset.correct === "true";
+        Progress.record(item, correct, sectionTopicOf(item.zh));
         if (correct) quizScore++;
         btn.classList.add(correct ? "correct" : "wrong");
         if (!correct) {
@@ -818,7 +828,9 @@ function renderCloze() {
     app.querySelectorAll(".quiz-option").forEach(btn => btn.addEventListener("click", () => {
       clozeChosen = +btn.dataset.idx;
       clozeAnswered = true;
-      if (q.options[clozeChosen] === q.word) clozeScore++;
+      const right = q.options[clozeChosen] === q.word;
+      if (right) clozeScore++;
+      Progress.record(q.word, right, sectionTopicOf(q.word.zh));
       renderCloze();
     }));
   } else {
