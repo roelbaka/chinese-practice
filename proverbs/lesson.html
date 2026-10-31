@@ -443,6 +443,7 @@ function renderQuiz() {
 
   app.innerHTML = `<div class="quiz-container">
     <div class="quiz-prompt">${esc(item.zh)}</div>
+    <div class="pmeter-slot">${Progress.meterHtml(item.zh)}</div>
     <div class="quiz-pinyin-hint">${esc(item.py)}</div>
     <div class="quiz-options">
       ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o.en === item.en}">${esc(o.en)}</button>`).join("")}
@@ -457,6 +458,7 @@ function renderQuiz() {
         quizAnswered = true;
         const correct = btn.dataset.correct === "true";
         Progress.record(item, correct, sectionTopicOf(item.zh));
+        app.querySelector(".pmeter-slot").innerHTML = Progress.meterHtml(item.zh);
         if (correct) quizScore++;
         btn.classList.add(correct ? "correct" : "wrong");
         if (!correct) {

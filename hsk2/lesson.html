@@ -695,6 +695,7 @@ function renderQuiz() {
       <label><input type="checkbox" id="quizPy" ${quizShowPinyin ? "checked" : ""}> Show pinyin</label>
     </div>` : ""}
     ${promptHtml}
+    <div class="pmeter-slot">${Progress.meterHtml(item.zh)}</div>
     <div class="quiz-options">
       ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o[answerField] === item[answerField]}">${esc(o[answerField])}</button>`).join("")}
     </div>
@@ -723,6 +724,7 @@ function renderQuiz() {
         quizAnswered = true;
         const correct = btn.dataset.correct === "true";
         Progress.record(item, correct, sectionTopicOf(item.zh));
+        app.querySelector(".pmeter-slot").innerHTML = Progress.meterHtml(item.zh);
         if (correct) quizScore++;
         btn.classList.add(correct ? "correct" : "wrong");
         if (!correct) {
@@ -847,6 +849,7 @@ function renderCloze() {
     </div>
     <div class="fc-progress">${clozeIndex + 1} / ${clozeItems.length}</div>
     <div class="cloze-sentence">${esc(q.before)}${gap}${esc(q.after)}</div>
+    <div class="pmeter-slot">${Progress.meterHtml(q.word.zh)}</div>
     ${clozeAnswered ? `<div class="cloze-full">
       <div class="pinyin">${esc(q.sent.py)}</div>
       <div class="english">${esc(q.sent.en)}</div>

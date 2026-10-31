@@ -106,5 +106,49 @@
 
   function reset() { try { localStorage.removeItem(KEY); } catch (e) {} }
 
-  window.Progress = { record, list, asLesson, stats, count, byLesson, reset, THRESHOLD };
+  /**
+   * How far an item is from leaving the mistakes list. You need more than 75% right, so with
+   * `wrong` mistakes you need 3 × wrong + 1 right answers in total.
+   * Returns null for items you never got wrong.
+   */
+  function progressOf(zh) {
+    const r = load()[zh];
+    if (!r || !r.wrong) return null;
+    const target = 3 * r.wrong + 1;
+    return { right: r.right, wrong: r.wrong, target, needed: Math.max(0, target - r.right), learned: !isMistake(r) };
+  }
+
+  /** A small meter for the quiz / fill-in screen; empty for items you never got wrong. */
+  function meterHtml(zh) {
+    const p = progressOf(zh);
+    if (!p) return "";
+    const done = Math.min(p.right, p.target);
+    const pct = Math.round(done / p.target * 100);
+    const segs = p.target <= 12
+      ? `<div class="pm-segs">${Array.from({ length: p.target }, (_, i) => `<span class="${i < done ? "on" : ""}"></span>`).join("")}</div>`
+      : `<div class="pm-bar"><span style="width:${pct}%"></span></div>`;
+    const text = p.learned
+      ? "✓ Learned — off your mistakes list"
+      : `Mistake · ${p.needed}× more right to learn it`;
+    return `<div class="pmeter${p.learned ? " learned" : ""}" title="${p.right} right, ${p.wrong} wrong — you need more than 75% right">
+      <div class="pm-text"><span>${text}</span><span class="pm-count">${done} / ${p.target}</span></div>${segs}</div>`;
+  }
+
+  // Styles for the meter, using each page's own colour variables.
+  const style = document.createElement("style");
+  style.textContent = `
+    .pmeter { max-width: 22rem; margin: .4rem auto 1rem; font-size: .8rem; color: var(--text-muted, #999); text-align: left; }
+    .pmeter .pm-text { display: flex; justify-content: space-between; gap: .8rem; margin-bottom: .3rem; }
+    .pmeter .pm-count { font-variant-numeric: tabular-nums; }
+    .pmeter .pm-segs { display: flex; gap: 3px; }
+    .pmeter .pm-segs span { flex: 1; height: 7px; border-radius: 3px; background: var(--border, #2a2a4a); }
+    .pmeter .pm-segs span.on { background: #f0a030; }
+    .pmeter .pm-bar { height: 7px; border-radius: 4px; background: var(--border, #2a2a4a); overflow: hidden; }
+    .pmeter .pm-bar span { display: block; height: 100%; background: #f0a030; transition: width .3s; }
+    .pmeter.learned { color: var(--success, #4caf50); }
+    .pmeter.learned .pm-segs span.on, .pmeter.learned .pm-bar span { background: var(--success, #4caf50); }
+  `;
+  (document.head || document.documentElement).appendChild(style);
+
+  window.Progress = { record, list, asLesson, stats, count, byLesson, progressOf, meterHtml, reset, THRESHOLD };
 })();
