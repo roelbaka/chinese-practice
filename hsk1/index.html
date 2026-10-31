@@ -78,6 +78,10 @@
   .book-card h3 { font-size: 1.05rem; font-weight: 500; }
   .book-card p { color: var(--text-muted); font-size: .85rem; margin-top: .2rem; }
   .book-card .go { color: var(--accent); font-size: .9rem; white-space: nowrap; }
+  .lesson-card .miss {
+    display: inline-block; margin-left: .6rem; padding: .1rem .55rem; border-radius: 999px;
+    background: #f44336; color: #fff; font-size: .75rem; vertical-align: middle; white-space: nowrap;
+  }
 </style>
 </head>
 <body>
@@ -212,5 +216,17 @@
   </a>
 </div>
 <script src="../nav.js" defer></script>
+<script src="../progress.js"></script>
+<script>
+// Red marker: how many words from each lesson are on your mistakes list (this browser).
+(function () {
+  const counts = Progress.byLesson(location.pathname.split("/").slice(-2, -1)[0]);
+  document.querySelectorAll("a.lesson-card").forEach(a => {
+    const id = new URL(a.getAttribute("href"), location.href).searchParams.get("id");
+    const n = counts[id];
+    if (n) a.querySelector("h3").insertAdjacentHTML("beforeend", ` <span class="miss" title="Open the Mistakes page to practise them">${n} fout${n > 1 ? "en" : ""}</span>`);
+  });
+})();
+</script>
 </body>
 </html>

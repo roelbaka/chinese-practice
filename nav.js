@@ -105,7 +105,7 @@
       const items = json.data.filter(s => categoryOf(s) === "words").flatMap(s => s.items)
         .filter(it => it.zh && !seen.has(it.zh) && seen.add(it.zh));
       const title = json.title.replace(/^第[^·]+·\s*/, "");
-      return { topic: `生词 · Words (Lesson ${num} · ${title})`, items };
+      return { topic: `生词 · Words (Lesson ${num} · ${title})`, items, lessonId: id, lessonTitle: json.title };
     }));
     const data = lessons.filter(l => l.items.length);
     const total = data.reduce((n, l) => n + l.items.length, 0);

@@ -58,6 +58,10 @@
 
   #subNav button { font-size: .78rem; padding: .3rem .8rem; max-width: 22rem; overflow: hidden; text-overflow: ellipsis; }
   #subNav button.active { background: transparent; color: var(--accent); }
+  nav button .miss {
+    display: inline-block; margin-left: .4rem; min-width: 1.2rem; padding: 0 .3rem; border-radius: 999px;
+    background: #f44336; color: #fff; font-size: .7rem; line-height: 1.2rem; text-align: center;
+  }
 
   .mode-bar { display: flex; justify-content: center; gap: .5rem; padding: .8rem 1rem 0; background: #111; }
 
@@ -295,7 +299,9 @@ function isTextView() {
 
 /** Topic of the section an item comes from (for the mistakes list). */
 function sectionTopicOf(zh) {
-  return (DATA.find(s => s.items.some(i => i.zh === zh)) || {}).topic;
+  const sec = DATA.find(s => s.items.some(i => i.zh === zh)) || {};
+  // "All words" sections know which lesson they belong to; pass that along.
+  return sec.lessonId ? { topic: sec.topic, lessonId: sec.lessonId, lessonTitle: sec.lessonTitle } : sec.topic;
 }
 
 function visibleSections() {
@@ -442,7 +448,11 @@ function speak(text) {
   }, 800);
 }
 
+// Mistakes per lesson (only used on the "All words" page, whose sections carry a lessonId).
+let mistakeCounts = {};
+
 function renderNav() {
+  mistakeCounts = Progress.byLesson(location.pathname.split("/").slice(-2, -1)[0]);
   const catNav = document.getElementById("catNav");
   const subNav = document.getElementById("subNav");
   const cats = Topics.groups(DATA).map(c => ({ ...c, count: c.sections.length }));
@@ -457,9 +467,11 @@ function renderNav() {
   // Texts have no "All" chip: each conversation is its own text.
   subNav.innerHTML = sections.length < (texts ? 1 : 2) ? "" :
     (texts ? "" : `<button data-topic="all" class="${currentTopic === "all" ? "active" : ""}">${esc(Topics.allLabel(currentCat))}</button>`) +
-    sections.map(t =>
-      `<button data-topic="${esc(t.topic)}" title="${esc(t.topic)}" class="${currentTopic === t.topic ? "active" : ""}">${esc(Topics.sectionLabel(t))}</button>`
-    ).join("");
+    sections.map(t => {
+      const miss = t.lessonId ? (mistakeCounts[t.lessonId] || 0) : 0;
+      const badge = miss ? `<span class="miss" title="${miss} on your mistakes list">${miss}</span>` : "";
+      return `<button data-topic="${esc(t.topic)}" title="${esc(t.topic)}" class="${currentTopic === t.topic ? "active" : ""}">${esc(Topics.sectionLabel(t))}${badge}</button>`;
+    }).join("");
 
   catNav.querySelectorAll("button").forEach(btn => {
     btn.addEventListener("click", () => {

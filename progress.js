@@ -46,10 +46,14 @@
     const src = here();
     const rec = all[item.zh] || { zh: item.zh, py: item.py || "", en: item.en || "", right: 0, wrong: 0 };
     if (src.dir && src.id !== "mistakes") {
+      // On the "All words" page a section names the lesson it came from.
+      const fromSection = section && typeof section === "object" && section.lessonId;
       rec.dir = src.dir;
-      rec.id = src.id;
-      rec.lesson = (document.title.split(" — ")[1] || "").trim() || rec.lesson || "";
-      if (section) rec.section = section;
+      rec.id = fromSection ? section.lessonId : src.id;
+      rec.lesson = fromSection ? (section.lessonTitle || rec.lesson || "")
+        : (document.title.split(" — ")[1] || "").trim() || rec.lesson || "";
+      const topic = typeof section === "object" ? section && section.topic : section;
+      if (topic) rec.section = topic;
     }
     rec.py = rec.py || item.py || "";
     rec.en = rec.en || item.en || "";
@@ -93,7 +97,14 @@
 
   function count() { return list().length; }
 
+  /** { lessonId: number of items from that lesson on the mistakes list } for one class folder. */
+  function byLesson(dir) {
+    const out = {};
+    list().forEach(r => { if (r.dir === dir && r.id) out[r.id] = (out[r.id] || 0) + 1; });
+    return out;
+  }
+
   function reset() { try { localStorage.removeItem(KEY); } catch (e) {} }
 
-  window.Progress = { record, list, asLesson, stats, count, reset, THRESHOLD };
+  window.Progress = { record, list, asLesson, stats, count, byLesson, reset, THRESHOLD };
 })();
