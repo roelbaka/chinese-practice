@@ -367,12 +367,13 @@ if (!lessonId) {
 } else {
   // The mistakes page reads its "lesson" from this browser's mistake list (progress.js).
   (lessonId === "mistakes"
-    ? Promise.resolve(Progress.asLesson())
+    ? Progress.asLessonWithPool()
     : fetch(`data/${lessonId}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }))
     .then(json => {
       document.title = `Chinese Practice — ${json.title}`;
       document.getElementById("lessonSubtitle").textContent = json.subtitle;
       DATA = splitTextsFromWords(prepareLessonData(json.data));
+      EXTRA_POOL = json.pool || [];
       const notesSec = DATA.find((s) => s.classNotesFirst === true);
       if (!applyHash() && notesSec) currentCat = categoryOf(notesSec);
       // ?mode=flashcard / quiz / cloze opens the page in that mode (used by the class journal).
@@ -640,11 +641,14 @@ function itemKind(item) {
   return [...zh].length === 1 ? "char" : "word";
 }
 
+// Extra wrong-answer options for the quiz (the mistakes page fills this from the source lessons).
+let EXTRA_POOL = [];
+
 function renderQuiz() {
   const app = document.getElementById("app");
   if (!quizItems.length) {
     const all = getItems();
-    if (all.length < 4) {
+    if (!all.length || all.length + EXTRA_POOL.length < 4) {
       app.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:2rem;">Select a topic with at least 4 items for quiz mode.</p>`;
       return;
     }
@@ -661,7 +665,9 @@ function renderQuiz() {
   const answerField = quizAnswer;
 
   // Keep options comparable: single characters vs. words vs. sentences
-  const candidates = allItems.filter(i => i[answerField] !== item[answerField] && i.zh !== item.zh);
+  const seenOpt = new Set();
+  const candidates = [...allItems, ...EXTRA_POOL].filter(i =>
+    i[answerField] && i[answerField] !== item[answerField] && i.zh !== item.zh && !seenOpt.has(i.zh) && seenOpt.add(i.zh));
   const sameKind = candidates.filter(i => itemKind(i) === itemKind(item));
   let wrongs = shuffle(sameKind.length >= 3 ? sameKind : candidates).slice(0, 3);
   let options = shuffle([item, ...wrongs]);

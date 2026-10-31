@@ -10,6 +10,7 @@
  */
 (function () {
   const KEY = "chinesePractice.mistakes.v1";
+  const ROOT = new URL(".", document.currentScript.src);
   const THRESHOLD = 0.75;
 
   function load() {
@@ -89,6 +90,23 @@
     };
   }
 
+  /**
+   * The mistakes lesson plus a pool of wrong-answer options: all items of the lessons your
+   * mistakes come from. Lets the quiz run with just one or two mistakes.
+   */
+  async function asLessonWithPool() {
+    const lesson = asLesson();
+    const sources = [...new Set(list().filter(r => r.dir && r.id && !/^(words|mistakes)$/.test(r.id)).map(r => `${r.dir}/${r.id}`))];
+    const pools = await Promise.all(sources.map(src => {
+      const [dir, id] = src.split("/");
+      return fetch(new URL(`${dir}/data/${id}.json`, ROOT)).then(r => r.json())
+        .then(j => j.data.filter(s => !s.browseOnly).flatMap(s => s.items).filter(i => i.py))
+        .catch(() => []);
+    }));
+    lesson.pool = pools.flat();
+    return lesson;
+  }
+
   /** Per-item stats for display: "2 / 5 right". */
   function stats(zh) {
     const r = load()[zh];
@@ -150,5 +168,5 @@
   `;
   (document.head || document.documentElement).appendChild(style);
 
-  window.Progress = { record, list, asLesson, stats, count, byLesson, progressOf, meterHtml, reset, THRESHOLD };
+  window.Progress = { record, list, asLesson, asLessonWithPool, stats, count, byLesson, progressOf, meterHtml, reset, THRESHOLD };
 })();
