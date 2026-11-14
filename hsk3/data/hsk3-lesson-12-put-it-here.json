@@ -3,6 +3,295 @@
   "subtitle": "HSK 3 · Lesson 12 — 把重要的东西放在我这儿吧 · Leave the important items with me",
   "data": [
     {
+      "topic": "课上要点 · Class notes (14 Nov 2026)",
+      "classNotesFirst": true,
+      "browseOnly": true,
+      "items": [
+        {
+          "zh": "总览 · What this class was about (14 Nov 2026)",
+          "py": "",
+          "en": "First half: culture — the 24 solar terms (二十四节气), 立冬 (start of winter, 7 Nov this year), describing winter in the Netherlands, and Chinese winter food (冬补, 麻油鸡). Second half: Lesson 12 — the 把 sentence (把 X 放在 Y), Text 1 (今天太阳从西边出来了吗？), the words 东西南北 / 怎么了 / 这么, 以前 vs 以后, and 就 vs 才. Homework: write 我眼中的冬天."
+        },
+        {
+          "zh": "──────── Part 1 · 二十四节气 and 立冬",
+          "py": "",
+          "en": "Culture part of the class."
+        },
+        {
+          "zh": "1 · 二十四节气 · The 24 solar terms",
+          "py": "",
+          "en": "China used to be a farming country (农业国家), and for farming the weather matters, so a month (30 days) is too long: the year is split into 24 terms of about 15 days, two per month. 立春 is number 1. Easy to remember: 立 = 'start', so 立春、立夏、立秋、立冬 = start of spring, summer, autumn, winter. They follow the farmers' calendar, so the date moves a day: this year 立冬 was 7 November (term 19). Compare: 元旦 (1 January) never moves, but 春节 (Spring Festival) follows the moon (农历) — late January or early February.",
+          "see": [
+            "文化 · Culture (二十四节气 · 立冬 · 冬补)"
+          ]
+        },
+        {
+          "zh": "立春、立夏、立秋、立冬",
+          "py": "lìchūn, lìxià, lìqiū, lìdōng",
+          "en": "start of spring, summer, autumn, winter"
+        },
+        {
+          "zh": "二零二六年十一月七日是立冬。",
+          "py": "Èr líng èr liù nián shíyī yuè qī rì shì lìdōng.",
+          "en": "7 November 2026 was the start of winter."
+        },
+        {
+          "zh": "中国人的新年是按照月亮来计算的。",
+          "py": "Zhōngguórén de xīnnián shì ànzhào yuèliang lái jìsuàn de.",
+          "en": "The Chinese New Year is calculated by the moon."
+        },
+        {
+          "zh": "2 · The winter terms",
+          "py": "",
+          "en": "After 立冬 come 小雪 and 大雪 (little and big snow), then 冬至 (winter solstice: the shortest day and longest night in the northern hemisphere), then 小寒 and 大寒 — the coldest days, around the Spring Festival. In summer it mirrors: 夏至 is the longest day, 小暑 and 大暑 the hottest weeks. 清明 is the day to remember family who passed away.",
+          "see": [
+            "文化 · Culture (二十四节气 · 立冬 · 冬补)"
+          ]
+        },
+        {
+          "zh": "冬至这一天，白天最短，晚上最长。",
+          "py": "Dōngzhì zhè yì tiān, báitiān zuì duǎn, wǎnshang zuì cháng.",
+          "en": "On the winter solstice the day is shortest and the night longest."
+        },
+        {
+          "zh": "小寒和大寒是最冷的时候。",
+          "py": "Xiǎohán hé dàhán shì zuì lěng de shíhou.",
+          "en": "Little Cold and Great Cold are the coldest time."
+        },
+        {
+          "zh": "3 · 立冬以后 · Describing winter",
+          "py": "",
+          "en": "Describe what changes after 立冬. 变 + adjective = 'becomes / is getting' — a moving situation, not a fixed one: 白天变短了, 夜晚变长了. The teacher's example: overnight all the leaves fell off the ginkgo tree (银杏树) in her garden.",
+          "see": [
+            "练习 · Practice (立冬以后 Describing winter)"
+          ]
+        },
+        {
+          "zh": "立冬以后有点冷了。",
+          "py": "Lìdōng yǐhòu yǒudiǎnr lěng le.",
+          "en": "After the start of winter it's getting a bit cold."
+        },
+        {
+          "zh": "白天变短了，夜晚变长了。",
+          "py": "Báitiān biàn duǎn le, yèwǎn biàn cháng le.",
+          "en": "The days are getting shorter and the nights longer."
+        },
+        {
+          "zh": "立冬以后大家穿冬装。",
+          "py": "Lìdōng yǐhòu dàjiā chuān dōngzhuāng.",
+          "en": "After 立冬 everyone wears winter clothes."
+        },
+        {
+          "zh": "银杏树的叶子一夜之间都落了。",
+          "py": "Yínxìngshù de yèzi yí yè zhī jiān dōu luò le.",
+          "en": "Overnight all the ginkgo leaves fell."
+        },
+        {
+          "zh": "4 · 冬藏 and 冬补 · Storing up and eating well",
+          "py": "",
+          "en": "Winter is the season of storing (收藏): animals hibernate (冬眠, like snakes; bears half-sleep), and people eat nourishing, warm food (冬补) to build strength for next year — in the old days there was no work on the land in winter. Northerners eat dumplings (饺子); southerners stew meat soups (炖肉汤). A classic is 麻油鸡: fry ginger in sesame oil, add chicken, then rice wine, and stew slowly for about two hours; add red dates (红枣). Ginger keeps you warm. Dutch counterpart: erwtensoep.",
+          "see": [
+            "文化 · Culture (二十四节气 · 立冬 · 冬补)"
+          ]
+        },
+        {
+          "zh": "冬天要吃得好一点，这叫冬补。",
+          "py": "Dōngtiān yào chī de hǎo yìdiǎnr, zhè jiào dōngbǔ.",
+          "en": "In winter you should eat well — that's called 冬补."
+        },
+        {
+          "zh": "北方人吃饺子，南方人喝肉汤。",
+          "py": "Běifāngrén chī jiǎozi, nánfāngrén hē ròutāng.",
+          "en": "Northerners eat dumplings, southerners drink meat soup."
+        },
+        {
+          "zh": "先用麻油和老姜炒鸡，再加米酒，小火慢慢炖。",
+          "py": "Xiān yòng máyóu hé lǎojiāng chǎo jī, zài jiā mǐjiǔ, xiǎo huǒ mànmàn dùn.",
+          "en": "Fry the chicken with sesame oil and ginger, add rice wine, and stew slowly on a low heat."
+        },
+        {
+          "zh": "作业 · Homework",
+          "py": "",
+          "en": "Write in your own words: 我眼中的冬天 — winter as you see it. Childhood memories, a winter trip (Norway, Iceland…), winter in China, or winter in the Netherlands.",
+          "see": [
+            "练习 · Practice (立冬以后 Describing winter)"
+          ]
+        },
+        {
+          "zh": "──────── Part 2 · Lesson 12 · 把重要的东西放在我这儿吧",
+          "py": "",
+          "en": "Back to the book: the 把 sentence and Text 1."
+        },
+        {
+          "zh": "5 · 把 + thing + 放在 + place",
+          "py": "",
+          "en": "把 links a person, a thing and what happens to it: 我把水杯给你. Without 把 (我水杯你) there is no connection. Warm-up: say where things go — pencil on the desk, clothes in the wardrobe (or 挂 = hang up), photo on the wall, wallet in your pocket, passport in the drawer. 放在 = put on/in; 挂在 = hang on; 拿出来 = take out.",
+          "see": [
+            "练习 · Practice (把……放在…… Where to put things)",
+            "语法 · Grammar (把字句2：A把B+V+在/到+地方)"
+          ]
+        },
+        {
+          "zh": "把铅笔放在桌子上。",
+          "py": "Bǎ qiānbǐ fàng zài zhuōzi shang.",
+          "en": "Put the pencil on the desk."
+        },
+        {
+          "zh": "把衣服挂在衣柜里。",
+          "py": "Bǎ yīfu guà zài yīguì li.",
+          "en": "Hang the clothes in the wardrobe."
+        },
+        {
+          "zh": "把钱包从包里拿出来。",
+          "py": "Bǎ qiánbāo cóng bāo li ná chūlai.",
+          "en": "Take the wallet out of the bag."
+        },
+        {
+          "zh": "请你把包放在旁边，别放在桌子上。",
+          "py": "Qǐng nǐ bǎ bāo fàng zài pángbiān, bié fàng zài zhuōzi shang.",
+          "en": "Please put your bag to the side, not on the table."
+        },
+        {
+          "zh": "6 · 今天太阳从西边出来了吗？",
+          "py": "",
+          "en": "The sun always rises in the east, so 'did the sun rise in the west today?' is a joking way to show surprise that someone does something they never do. Use it only when it's unusual: if Mum cooks every day, cooking today is nothing special.",
+          "see": [
+            "练习 · Practice (太阳从西边出来了吗？)",
+            "课文1 · 1. 在家 — At home"
+          ]
+        },
+        {
+          "zh": "他平时不做家务，今天把家里打扫干净了。太阳从西边出来了！",
+          "py": "Tā píngshí bú zuò jiāwù, jīntiān bǎ jiā li dǎsǎo gānjìng le. Tàiyáng cóng xībian chūlai le!",
+          "en": "He never does housework, but today he cleaned the house. The sun rose in the west!"
+        },
+        {
+          "zh": "一个平时不运动的人今天跑了十公里。",
+          "py": "Yí ge píngshí bú yùndòng de rén jīntiān pǎo le shí gōnglǐ.",
+          "en": "Someone who never exercises ran ten kilometres today."
+        },
+        {
+          "zh": "7 · 东西南北 + 边 · 怎么了 · 这么",
+          "py": "",
+          "en": "东 east, 西 west, 南 south, 北 north; add 边 for 'side': 东边、西边、南边、北边. Chinese like a house or garden facing south (朝南) for the sun. 怎么了？ = what's wrong? — when something is different from usual. Surprise about something here and now takes 这么, never 那么: 你怎么这么早？ 你怎么穿得这么少？",
+          "see": [
+            "练习 · Practice (这么 / 以前 / 以后)"
+          ]
+        },
+        {
+          "zh": "太阳从东边出来。",
+          "py": "Tàiyáng cóng dōngbian chūlai.",
+          "en": "The sun rises in the east."
+        },
+        {
+          "zh": "买房子，院子要朝南。",
+          "py": "Mǎi fángzi, yuànzi yào cháo nán.",
+          "en": "When you buy a house, the garden should face south."
+        },
+        {
+          "zh": "你今天怎么这么早？",
+          "py": "Nǐ jīntiān zěnme zhème zǎo?",
+          "en": "How come you're so early today?"
+        },
+        {
+          "zh": "你怎么穿得这么少？",
+          "py": "Nǐ zěnme chuān de zhème shǎo?",
+          "en": "Why are you wearing so little?"
+        },
+        {
+          "zh": "8 · 以前 / 以后",
+          "py": "",
+          "en": "On their own, 以前 = in the past and 以后 = in the future. After a time word they mean before / after that time: 十点半以前 = before half past ten, 九点以后 = after nine.",
+          "see": [
+            "练习 · Practice (这么 / 以前 / 以后)"
+          ]
+        },
+        {
+          "zh": "我以前住在北京，现在住在荷兰。",
+          "py": "Wǒ yǐqián zhù zài Běijīng, xiànzài zhù zài Hélán.",
+          "en": "I used to live in Beijing; now I live in the Netherlands."
+        },
+        {
+          "zh": "我以后每天十点以前睡觉。",
+          "py": "Wǒ yǐhòu měi tiān shí diǎn yǐqián shuì jiào.",
+          "en": "From now on I'll go to bed before ten every day."
+        },
+        {
+          "zh": "请老师们十点半以前到学校。",
+          "py": "Qǐng lǎoshīmen shí diǎn bàn yǐqián dào xuéxiào.",
+          "en": "Teachers, please be at school before half past ten."
+        },
+        {
+          "zh": "九点以后我会处理。",
+          "py": "Jiǔ diǎn yǐhòu wǒ huì chǔlǐ.",
+          "en": "I'll deal with it after nine."
+        },
+        {
+          "zh": "9 · 就 vs 才",
+          "py": "",
+          "en": "The time is a fact; 就 and 才 show how the speaker feels about it. 就 = earlier / faster than expected; 才 = later / slower than expected. A mother who wants her child up: 你十点才起床. A mother who knows her child is tired: 你十点就起床了? Twenty is late to start Chinese for someone with a Chinese mother (二十岁才开始学), but four is early (四岁就开始学).",
+          "see": [
+            "练习 · Practice (就 vs 才)",
+            "语法 · Grammar (就：早、快、顺利)",
+            "语法 · Grammar (才：晚、慢、不顺利)"
+          ]
+        },
+        {
+          "zh": "他十点才起床。",
+          "py": "Tā shí diǎn cái qǐ chuáng.",
+          "en": "He didn't get up until ten (late)."
+        },
+        {
+          "zh": "爷爷早上五点就起床了。",
+          "py": "Yéye zǎoshang wǔ diǎn jiù qǐ chuáng le.",
+          "en": "Grandpa was up at five already (early)."
+        },
+        {
+          "zh": "我昨天晚上十点就回家了。",
+          "py": "Wǒ zuótiān wǎnshang shí diǎn jiù huí jiā le.",
+          "en": "I was home by ten last night (early)."
+        },
+        {
+          "zh": "我十二点半就到了，早到了一个小时。",
+          "py": "Wǒ shí'èr diǎn bàn jiù dào le, zǎo dào le yí ge xiǎoshí.",
+          "en": "I was there at half past twelve — an hour early."
+        },
+        {
+          "zh": "10 · 生气 · 告诉 · 别",
+          "py": "",
+          "en": "生气 = angry (stronger than 不高兴). 告诉 = tell: 请告诉我你为什么来中国. 别 = don't, softer than 不要 (compare 'stay off the grass' with 'walking on the grass is forbidden').",
+          "see": [
+            "练习 · Practice (这么 / 以前 / 以后)"
+          ]
+        },
+        {
+          "zh": "经理生气了。",
+          "py": "Jīnglǐ shēng qì le.",
+          "en": "The manager got angry."
+        },
+        {
+          "zh": "请告诉我你为什么来中国。",
+          "py": "Qǐng gàosu wǒ nǐ wèi shénme lái Zhōngguó.",
+          "en": "Please tell me why you came to China."
+        },
+        {
+          "zh": "吃饭的时候别说话。",
+          "py": "Chī fàn de shíhou bié shuō huà.",
+          "en": "Don't talk while eating."
+        },
+        {
+          "zh": "写作业的时候别开电视。",
+          "py": "Xiě zuòyè de shíhou bié kāi diànshì.",
+          "en": "Don't turn on the TV while doing homework."
+        },
+        {
+          "zh": "Class news",
+          "py": "",
+          "en": "For the Christmas activity, bring things from home related to China or Asia to exchange or auction (拍卖)."
+        }
+      ]
+    },
+    {
       "topic": "课文1 · 1. 在家 — At home",
       "items": [
         {
@@ -379,6 +668,596 @@
           "zh": "箱子",
           "py": "xiāngzi",
           "en": "box, case (行李箱 + 杯子)"
+        }
+      ]
+    },
+    {
+      "topic": "词汇 · Extra Words (Class discussion)",
+      "items": [
+        {
+          "zh": "节气",
+          "py": "jiéqì",
+          "en": "solar term"
+        },
+        {
+          "zh": "农业",
+          "py": "nóngyè",
+          "en": "agriculture"
+        },
+        {
+          "zh": "立冬",
+          "py": "lìdōng",
+          "en": "start of winter"
+        },
+        {
+          "zh": "立春",
+          "py": "lìchūn",
+          "en": "start of spring"
+        },
+        {
+          "zh": "冬至",
+          "py": "dōngzhì",
+          "en": "winter solstice"
+        },
+        {
+          "zh": "夏至",
+          "py": "xiàzhì",
+          "en": "summer solstice"
+        },
+        {
+          "zh": "农历",
+          "py": "nónglì",
+          "en": "lunar calendar"
+        },
+        {
+          "zh": "元旦",
+          "py": "Yuándàn",
+          "en": "New Year's Day"
+        },
+        {
+          "zh": "变",
+          "py": "biàn",
+          "en": "to become, to change"
+        },
+        {
+          "zh": "白天",
+          "py": "báitiān",
+          "en": "daytime"
+        },
+        {
+          "zh": "夜晚",
+          "py": "yèwǎn",
+          "en": "night"
+        },
+        {
+          "zh": "冬装",
+          "py": "dōngzhuāng",
+          "en": "winter clothes"
+        },
+        {
+          "zh": "树叶",
+          "py": "shùyè",
+          "en": "leaves"
+        },
+        {
+          "zh": "落",
+          "py": "luò",
+          "en": "to fall"
+        },
+        {
+          "zh": "银杏树",
+          "py": "yínxìngshù",
+          "en": "ginkgo tree"
+        },
+        {
+          "zh": "冬眠",
+          "py": "dōngmián",
+          "en": "to hibernate"
+        },
+        {
+          "zh": "冬补",
+          "py": "dōngbǔ",
+          "en": "nourishing winter food"
+        },
+        {
+          "zh": "饺子",
+          "py": "jiǎozi",
+          "en": "dumplings"
+        },
+        {
+          "zh": "炖",
+          "py": "dùn",
+          "en": "to stew"
+        },
+        {
+          "zh": "麻油",
+          "py": "máyóu",
+          "en": "sesame oil"
+        },
+        {
+          "zh": "姜",
+          "py": "jiāng",
+          "en": "ginger"
+        },
+        {
+          "zh": "米酒",
+          "py": "mǐjiǔ",
+          "en": "rice wine"
+        },
+        {
+          "zh": "红枣",
+          "py": "hóngzǎo",
+          "en": "red date, jujube"
+        },
+        {
+          "zh": "东",
+          "py": "dōng",
+          "en": "east"
+        },
+        {
+          "zh": "南",
+          "py": "nán",
+          "en": "south"
+        },
+        {
+          "zh": "北",
+          "py": "běi",
+          "en": "north"
+        },
+        {
+          "zh": "边",
+          "py": "biān",
+          "en": "side"
+        },
+        {
+          "zh": "朝",
+          "py": "cháo",
+          "en": "to face"
+        },
+        {
+          "zh": "衣柜",
+          "py": "yīguì",
+          "en": "wardrobe"
+        },
+        {
+          "zh": "挂",
+          "py": "guà",
+          "en": "to hang"
+        },
+        {
+          "zh": "墙",
+          "py": "qiáng",
+          "en": "wall"
+        },
+        {
+          "zh": "口袋",
+          "py": "kǒudai",
+          "en": "pocket"
+        },
+        {
+          "zh": "抽屉",
+          "py": "chōuti",
+          "en": "drawer"
+        },
+        {
+          "zh": "钱包",
+          "py": "qiánbāo",
+          "en": "wallet"
+        },
+        {
+          "zh": "家务",
+          "py": "jiāwù",
+          "en": "housework"
+        },
+        {
+          "zh": "主动",
+          "py": "zhǔdòng",
+          "en": "on one's own initiative"
+        },
+        {
+          "zh": "平时",
+          "py": "píngshí",
+          "en": "usually"
+        },
+        {
+          "zh": "处理",
+          "py": "chǔlǐ",
+          "en": "to handle, to deal with"
+        },
+        {
+          "zh": "拍卖",
+          "py": "pāimài",
+          "en": "to auction"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (立冬以后 Describing winter)",
+      "items": [
+        {
+          "zh": "立冬以后天气怎么样？",
+          "py": "Lìdōng yǐhòu tiānqì zěnmeyàng?",
+          "en": "What's the weather like after 立冬?"
+        },
+        {
+          "zh": "立冬以后有点冷了。",
+          "py": "Lìdōng yǐhòu yǒudiǎnr lěng le.",
+          "en": "After 立冬 it's getting a bit cold."
+        },
+        {
+          "zh": "白天变短了。",
+          "py": "Báitiān biàn duǎn le.",
+          "en": "The days are getting shorter."
+        },
+        {
+          "zh": "夜晚变长了。",
+          "py": "Yèwǎn biàn cháng le.",
+          "en": "The nights are getting longer."
+        },
+        {
+          "zh": "大家都穿冬装了。",
+          "py": "Dàjiā dōu chuān dōngzhuāng le.",
+          "en": "Everyone is wearing winter clothes."
+        },
+        {
+          "zh": "树叶落了。",
+          "py": "Shùyè luò le.",
+          "en": "The leaves have fallen."
+        },
+        {
+          "zh": "银杏树的叶子是黄色的，像扇子一样。",
+          "py": "Yínxìngshù de yèzi shì huángsè de, xiàng shànzi yíyàng.",
+          "en": "Ginkgo leaves are yellow and shaped like fans."
+        },
+        {
+          "zh": "现在还没有下雪，但是有时候会下雪。",
+          "py": "Xiànzài hái méiyǒu xià xuě, dànshì yǒu shíhou huì xià xuě.",
+          "en": "It hasn't snowed yet, but sometimes it will."
+        },
+        {
+          "zh": "熊和蛇冬天要冬眠。",
+          "py": "Xióng hé shé dōngtiān yào dōngmián.",
+          "en": "Bears and snakes hibernate in winter."
+        },
+        {
+          "zh": "我眼中的冬天",
+          "py": "wǒ yǎn zhōng de dōngtiān",
+          "en": "Winter as I see it (homework title)"
+        },
+        {
+          "zh": "冬天我去过挪威和冰岛。",
+          "py": "Dōngtiān wǒ qùguo Nuówēi hé Bīngdǎo.",
+          "en": "I've been to Norway and Iceland in winter."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (把……放在…… Where to put things)",
+      "items": [
+        {
+          "zh": "把铅笔放在桌子上。",
+          "py": "Bǎ qiānbǐ fàng zài zhuōzi shang.",
+          "en": "Put the pencil on the desk."
+        },
+        {
+          "zh": "把衣服放在衣柜里。",
+          "py": "Bǎ yīfu fàng zài yīguì li.",
+          "en": "Put the clothes in the wardrobe."
+        },
+        {
+          "zh": "把衣服挂起来。",
+          "py": "Bǎ yīfu guà qǐlai.",
+          "en": "Hang the clothes up."
+        },
+        {
+          "zh": "把照片挂在墙上。",
+          "py": "Bǎ zhàopiàn guà zài qiáng shang.",
+          "en": "Hang the photo on the wall."
+        },
+        {
+          "zh": "把钱包放在口袋里。",
+          "py": "Bǎ qiánbāo fàng zài kǒudai li.",
+          "en": "Put the wallet in your pocket."
+        },
+        {
+          "zh": "把钱包从包里拿出来。",
+          "py": "Bǎ qiánbāo cóng bāo li ná chūlai.",
+          "en": "Take the wallet out of the bag."
+        },
+        {
+          "zh": "把护照放在抽屉里。",
+          "py": "Bǎ hùzhào fàng zài chōuti li.",
+          "en": "Put the passport in the drawer."
+        },
+        {
+          "zh": "把护照放好。",
+          "py": "Bǎ hùzhào fàng hǎo.",
+          "en": "Put the passport somewhere safe."
+        },
+        {
+          "zh": "把笔记本电脑放在桌子上。",
+          "py": "Bǎ bǐjìběn diànnǎo fàng zài zhuōzi shang.",
+          "en": "Put the laptop on the table."
+        },
+        {
+          "zh": "把牛奶放在冰箱里。",
+          "py": "Bǎ niúnǎi fàng zài bīngxiāng li.",
+          "en": "Put the milk in the fridge."
+        },
+        {
+          "zh": "我把水杯给你。",
+          "py": "Wǒ bǎ shuǐbēi gěi nǐ.",
+          "en": "I'll give you the water glass."
+        },
+        {
+          "zh": "我把书拿起来。",
+          "py": "Wǒ bǎ shū ná qǐlai.",
+          "en": "I pick up the book."
+        },
+        {
+          "zh": "请你把包放在旁边。",
+          "py": "Qǐng nǐ bǎ bāo fàng zài pángbiān.",
+          "en": "Please put your bag to the side."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (太阳从西边出来了吗？)",
+      "items": [
+        {
+          "zh": "今天太阳从西边出来了吗？",
+          "py": "Jīntiān tàiyáng cóng xībian chūlai le ma?",
+          "en": "Did the sun rise in the west today?"
+        },
+        {
+          "zh": "小明平时不做家务，今天主动把家里打扫干净了。",
+          "py": "Xiǎomíng píngshí bú zuò jiāwù, jīntiān zhǔdòng bǎ jiā li dǎsǎo gānjìng le.",
+          "en": "Xiaoming never does chores, but today he cleaned the house himself."
+        },
+        {
+          "zh": "一个平时很少运动的人，今天跑了十公里。",
+          "py": "Yí ge píngshí hěn shǎo yùndòng de rén, jīntiān pǎo le shí gōnglǐ.",
+          "en": "Someone who rarely exercises ran ten kilometres today."
+        },
+        {
+          "zh": "爷爷从来不做饭，今天他做饭了。",
+          "py": "Yéye cónglái bú zuò fàn, jīntiān tā zuò fàn le.",
+          "en": "Grandpa never cooks, but today he did."
+        },
+        {
+          "zh": "他总是迟到，今天来得很早，还帮老师擦了黑板。",
+          "py": "Tā zǒngshì chídào, jīntiān lái de hěn zǎo, hái bāng lǎoshī cā le hēibǎn.",
+          "en": "He's always late, but today he came early and even wiped the board."
+        },
+        {
+          "zh": "妈妈每天做饭，今天也做饭了。",
+          "py": "Māma měi tiān zuò fàn, jīntiān yě zuò fàn le.",
+          "en": "Mum cooks every day, and today too — nothing special, so don't use the saying."
+        },
+        {
+          "zh": "东边、西边、南边、北边",
+          "py": "dōngbian, xībian, nánbian, běibian",
+          "en": "east, west, south, north (side)"
+        },
+        {
+          "zh": "太阳从东边出来。",
+          "py": "Tàiyáng cóng dōngbian chūlai.",
+          "en": "The sun rises in the east."
+        },
+        {
+          "zh": "怎么了？今天为什么这么安静？",
+          "py": "Zěnme le? Jīntiān wèi shénme zhème ānjìng?",
+          "en": "What's wrong? Why so quiet today?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (这么 / 以前 / 以后)",
+      "items": [
+        {
+          "zh": "你今天怎么这么早？",
+          "py": "Nǐ jīntiān zěnme zhème zǎo?",
+          "en": "How come you're so early today?"
+        },
+        {
+          "zh": "你怎么穿得这么少？",
+          "py": "Nǐ zěnme chuān de zhème shǎo?",
+          "en": "Why are you wearing so little?"
+        },
+        {
+          "zh": "怎么这么重？",
+          "py": "Zěnme zhème zhòng?",
+          "en": "How come it's so heavy?"
+        },
+        {
+          "zh": "我以前住在北京。",
+          "py": "Wǒ yǐqián zhù zài Běijīng.",
+          "en": "I used to live in Beijing."
+        },
+        {
+          "zh": "我以前生活在中国，现在生活在荷兰。",
+          "py": "Wǒ yǐqián shēnghuó zài Zhōngguó, xiànzài shēnghuó zài Hélán.",
+          "en": "I used to live in China; now I live in the Netherlands."
+        },
+        {
+          "zh": "我以后会一直生活在荷兰。",
+          "py": "Wǒ yǐhòu huì yìzhí shēnghuó zài Hélán.",
+          "en": "I'll keep living in the Netherlands from now on."
+        },
+        {
+          "zh": "请老师们十点半以前到学校。",
+          "py": "Qǐng lǎoshīmen shí diǎn bàn yǐqián dào xuéxiào.",
+          "en": "Teachers, please arrive before half past ten."
+        },
+        {
+          "zh": "九点以后我会处理。",
+          "py": "Jiǔ diǎn yǐhòu wǒ huì chǔlǐ.",
+          "en": "I'll handle it after nine."
+        },
+        {
+          "zh": "晚上九点以后请不要再联系我。",
+          "py": "Wǎnshang jiǔ diǎn yǐhòu qǐng búyào zài liánxì wǒ.",
+          "en": "Please don't contact me after nine in the evening."
+        },
+        {
+          "zh": "八点以后你可以给我打电话。",
+          "py": "Bā diǎn yǐhòu nǐ kěyǐ gěi wǒ dǎ diànhuà.",
+          "en": "You can call me after eight."
+        },
+        {
+          "zh": "经理生气了。",
+          "py": "Jīnglǐ shēng qì le.",
+          "en": "The manager got angry."
+        },
+        {
+          "zh": "请告诉我你的名字。",
+          "py": "Qǐng gàosu wǒ nǐ de míngzi.",
+          "en": "Please tell me your name."
+        },
+        {
+          "zh": "吃饭的时候别说话。",
+          "py": "Chī fàn de shíhou bié shuō huà.",
+          "en": "Don't talk while eating."
+        },
+        {
+          "zh": "写作业的时候别开电视。",
+          "py": "Xiě zuòyè de shíhou bié kāi diànshì.",
+          "en": "Don't turn on the TV while doing homework."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (就 vs 才)",
+      "items": [
+        {
+          "zh": "他十点才起床。",
+          "py": "Tā shí diǎn cái qǐ chuáng.",
+          "en": "He didn't get up until ten."
+        },
+        {
+          "zh": "他六点就起床了。",
+          "py": "Tā liù diǎn jiù qǐ chuáng le.",
+          "en": "He was up by six already."
+        },
+        {
+          "zh": "今天早上我十点才起床。",
+          "py": "Jīntiān zǎoshang wǒ shí diǎn cái qǐ chuáng.",
+          "en": "This morning I didn't get up until ten."
+        },
+        {
+          "zh": "周末我八点就起床了。",
+          "py": "Zhōumò wǒ bā diǎn jiù qǐ chuáng le.",
+          "en": "At the weekend I was up by eight."
+        },
+        {
+          "zh": "他晚上十二点才睡觉。",
+          "py": "Tā wǎnshang shí'èr diǎn cái shuì jiào.",
+          "en": "He didn't go to bed until midnight."
+        },
+        {
+          "zh": "我昨天晚上十点才回家。",
+          "py": "Wǒ zuótiān wǎnshang shí diǎn cái huí jiā.",
+          "en": "I didn't get home until ten last night."
+        },
+        {
+          "zh": "我昨天晚上十点就回家了。",
+          "py": "Wǒ zuótiān wǎnshang shí diǎn jiù huí jiā le.",
+          "en": "I was home by ten last night."
+        },
+        {
+          "zh": "他三十岁才开始学中文。",
+          "py": "Tā sānshí suì cái kāishǐ xué Zhōngwén.",
+          "en": "He only started learning Chinese at thirty."
+        },
+        {
+          "zh": "她四岁就开始学中文了。",
+          "py": "Tā sì suì jiù kāishǐ xué Zhōngwén le.",
+          "en": "She started learning Chinese as early as four."
+        },
+        {
+          "zh": "爷爷早上五点就起床了。",
+          "py": "Yéye zǎoshang wǔ diǎn jiù qǐ chuáng le.",
+          "en": "Grandpa was up at five already."
+        },
+        {
+          "zh": "我十二点半就到了。",
+          "py": "Wǒ shí'èr diǎn bàn jiù dào le.",
+          "en": "I was there at half past twelve already."
+        }
+      ]
+    },
+    {
+      "topic": "文化 · Culture (二十四节气 · 立冬 · 冬补)",
+      "items": [
+        {
+          "zh": "二十四节气",
+          "py": "èrshísì jiéqì",
+          "en": "the 24 solar terms"
+        },
+        {
+          "zh": "中国过去是农业国家。",
+          "py": "Zhōngguó guòqù shì nóngyè guójiā.",
+          "en": "China used to be a farming country."
+        },
+        {
+          "zh": "一个月有两个节气。",
+          "py": "Yí ge yuè yǒu liǎng ge jiéqì.",
+          "en": "Each month has two solar terms."
+        },
+        {
+          "zh": "立春是第一个节气。",
+          "py": "Lìchūn shì dì yī ge jiéqì.",
+          "en": "立春 is the first solar term."
+        },
+        {
+          "zh": "立冬是第十九个节气。",
+          "py": "Lìdōng shì dì shíjiǔ ge jiéqì.",
+          "en": "立冬 is the nineteenth solar term."
+        },
+        {
+          "zh": "元旦是一月一号，春节是按照农历的。",
+          "py": "Yuándàn shì yī yuè yī hào, Chūnjié shì ànzhào nónglì de.",
+          "en": "New Year's Day is 1 January; the Spring Festival follows the lunar calendar."
+        },
+        {
+          "zh": "小雪、大雪、冬至、小寒、大寒",
+          "py": "xiǎoxuě, dàxuě, dōngzhì, xiǎohán, dàhán",
+          "en": "Little Snow, Great Snow, Winter Solstice, Little Cold, Great Cold"
+        },
+        {
+          "zh": "夏至这一天，白天最长。",
+          "py": "Xiàzhì zhè yì tiān, báitiān zuì cháng.",
+          "en": "On the summer solstice the day is longest."
+        },
+        {
+          "zh": "清明是纪念家人的节日。",
+          "py": "Qīngmíng shì jìniàn jiārén de jiérì.",
+          "en": "Qingming is the festival for remembering family."
+        },
+        {
+          "zh": "冬天是收藏的季节。",
+          "py": "Dōngtiān shì shōucáng de jìjié.",
+          "en": "Winter is the season for storing up."
+        },
+        {
+          "zh": "北方人冬天吃饺子。",
+          "py": "Běifāngrén dōngtiān chī jiǎozi.",
+          "en": "Northerners eat dumplings in winter."
+        },
+        {
+          "zh": "麻油鸡是冬补的菜。",
+          "py": "Máyóujī shì dōngbǔ de cài.",
+          "en": "Sesame-oil chicken is a winter tonic dish."
+        },
+        {
+          "zh": "姜可以让身体暖和。",
+          "py": "Jiāng kěyǐ ràng shēntǐ nuǎnhuo.",
+          "en": "Ginger keeps your body warm."
+        },
+        {
+          "zh": "荷兰人冬天喝豌豆汤。",
+          "py": "Hélánrén dōngtiān hē wāndòu tāng.",
+          "en": "Dutch people eat pea soup in winter."
         }
       ]
     }
