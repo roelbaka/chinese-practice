@@ -227,6 +227,16 @@
     if (n) a.querySelector("h3").insertAdjacentHTML("beforeend", ` <span class="miss" title="Open the Mistakes page to practise them">${n} fout${n > 1 ? "en" : ""}</span>`);
   });
 })();
+
+// Mastery per lesson: share of its items you know, plus your last quiz score.
+document.querySelectorAll("a.lesson-card").forEach(a => {
+  const id = new URL(a.getAttribute("href"), location.href).searchParams.get("id");
+  const dir = location.pathname.split("/").slice(-2, -1)[0];
+  fetch(`data/${id}.json`).then(r => r.json()).then(j => {
+    const m = Progress.masteryOf(j.data.filter(s => !s.browseOnly).flatMap(s => s.items));
+    a.querySelector(".info").insertAdjacentHTML("beforeend", Progress.masteryBarHtml(m, Progress.chapter(dir, id)));
+  }).catch(() => {});
+});
 </script>
 </body>
 </html>

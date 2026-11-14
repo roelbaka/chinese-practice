@@ -87,5 +87,15 @@
   </a>
 </div>
 <script src="../nav.js" defer></script>
+<script src="../progress.js"></script>
+<script>
+document.querySelectorAll("a.lesson-card").forEach(a => {
+  const id = new URL(a.getAttribute("href"), location.href).searchParams.get("id");
+  fetch(`data/${id}.json`).then(r => r.json()).then(j => {
+    const m = Progress.masteryOf(j.data.filter(s => !s.browseOnly).flatMap(s => s.items));
+    a.querySelector(".info").insertAdjacentHTML("beforeend", Progress.masteryBarHtml(m, Progress.chapter("proverbs", id)));
+  }).catch(() => {});
+});
+</script>
 </body>
 </html>

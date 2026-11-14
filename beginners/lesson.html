@@ -748,6 +748,21 @@ function renderQuiz() {
   }
 }
 
+/** Quiz finished: save the score for this chapter and show score + chapter mastery. */
+function showQuizSummary(container, btn) {
+  const dir = location.pathname.split("/").slice(-2, -1)[0];
+  const chapterPage = lessonId && !/^(words|mistakes)$/.test(lessonId);
+  const cat = typeof currentCat === "undefined" ? "all" : currentCat;
+  const scope = currentTopic === "all" ? (cat === "all" ? "All" : cat) : currentTopic;
+  if (chapterPage) Progress.saveQuiz(dir, lessonId, quizScore, quizItems.length, scope);
+  const mastery = chapterPage ? Progress.masteryOf(DATA.filter(s => !s.browseOnly).flatMap(s => s.items)) : null;
+  const mistakes = chapterPage ? (Progress.byLesson(dir)[lessonId] || 0) : 0;
+  btn.insertAdjacentHTML("beforebegin", Progress.quizSummaryHtml({
+    score: quizScore, total: quizItems.length, mastery, mistakes,
+    mistakesUrl: "../mistakes/lesson.html?id=mistakes",
+  }));
+}
+
 function renderQuizControls() {
   const container = document.querySelector(".quiz-container");
   const scoreEl = container.querySelector(".quiz-score");
@@ -761,6 +776,7 @@ function renderQuizControls() {
   btn.id = "quizNext";
   btn.textContent = quizIndex + 1 < quizItems.length ? "Next \u2192" : "Restart";
   container.appendChild(btn);
+  if (quizIndex + 1 >= quizItems.length) showQuizSummary(container, btn);
 
   btn.addEventListener("click", () => {
     if (quizIndex + 1 < quizItems.length) {

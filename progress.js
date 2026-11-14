@@ -124,6 +124,71 @@
 
   function reset() { try { localStorage.removeItem(KEY); } catch (e) {} }
 
+  // ---------- Chapter mastery ----------
+  // Mastery of a chapter = share of its items you know: answered right at least once and not on
+  // the mistakes list. Computed live from the answer records; the last quiz per chapter is stored.
+  const CH_KEY = "chinesePractice.chapters.v1";
+  function loadCh() { try { return JSON.parse(localStorage.getItem(CH_KEY)) || {}; } catch (e) { return {}; } }
+
+  function masteryOf(items) {
+    const all = load();
+    const done = new Set();
+    let known = 0, seen = 0, total = 0;
+    items.forEach(i => {
+      if (!i || !i.zh || done.has(i.zh)) return;
+      done.add(i.zh);
+      total++;
+      const r = all[i.zh];
+      if (r) { seen++; if (r.right > 0 && !isMistake(r)) known++; }
+    });
+    return { known, seen, total, pct: total ? Math.round(known / total * 100) : 0 };
+  }
+
+  function saveQuiz(dir, id, score, total, scope) {
+    if (!dir || !id || !total) return;
+    const ch = loadCh();
+    const key = `${dir}/${id}`;
+    const pct = Math.round(score / total * 100);
+    ch[key] = { ...(ch[key] || {}), lastQuiz: { score, total, pct, scope: scope || "", date: Date.now() } };
+    ch[key].bestQuiz = Math.max(pct, (ch[key].bestQuiz || 0));
+    try { localStorage.setItem(CH_KEY, JSON.stringify(ch)); } catch (e) {}
+  }
+
+  function chapter(dir, id) { return loadCh()[`${dir}/${id}`] || null; }
+
+  /** Colour band and a short word for a mastery percentage. */
+  function level(pct, seen) {
+    if (!seen) return { cls: "none", label: "Not started" };
+    if (pct >= 75) return { cls: "high", label: "Mastered" };
+    if (pct >= 40) return { cls: "mid", label: "Getting there" };
+    return { cls: "low", label: "Needs practice" };
+  }
+
+  /** Small bar for lesson cards: mastery % plus the last quiz score. */
+  function masteryBarHtml(m, ch) {
+    const lv = level(m.pct, m.seen);
+    const quiz = ch && ch.lastQuiz ? ` · last quiz ${ch.lastQuiz.score}/${ch.lastQuiz.total}` : "";
+    return `<div class="mbar ${lv.cls}" title="${m.known} of ${m.total} items known, ${m.seen} practised">
+      <div class="mbar-track"><span style="width:${m.pct}%"></span></div>
+      <div class="mbar-text">${m.seen ? `Mastery ${m.pct}% · ${lv.label}` : lv.label}${quiz}</div></div>`;
+  }
+
+  /** End-of-quiz card. mastery is null when the quiz wasn't about one chapter. */
+  function quizSummaryHtml({ score, total, mastery, mistakes, mistakesUrl }) {
+    const pct = total ? Math.round(score / total * 100) : 0;
+    let html = `<div class="qsum"><div class="qsum-score"><b>${score} / ${total}</b> right · ${pct}%</div>`;
+    if (mastery) {
+      const lv = level(mastery.pct, mastery.seen);
+      const unseen = mastery.total - mastery.seen;
+      html += `<div class="qsum-m ${lv.cls}">
+        <div class="qsum-row"><span>Chapter mastery</span><b>${mastery.pct}% · ${lv.label}</b></div>
+        <div class="mbar-track"><span style="width:${mastery.pct}%"></span></div>
+        <div class="qsum-detail">${mastery.known} of ${mastery.total} items known${unseen ? ` · ${unseen} not practised yet` : ""}</div></div>`;
+    }
+    if (mistakes) html += `<a class="qsum-mis" href="${mistakesUrl}">${mistakes} on your mistakes list — practise them →</a>`;
+    return html + `</div>`;
+  }
+
   /**
    * How far an item is from leaving the mistakes list. You need more than 75% right, so with
    * `wrong` mistakes you need 3 × wrong + 1 right answers in total.
@@ -165,8 +230,22 @@
     .pmeter .pm-bar span { display: block; height: 100%; background: #f0a030; transition: width .3s; }
     .pmeter.learned { color: var(--success, #4caf50); }
     .pmeter.learned .pm-segs span.on, .pmeter.learned .pm-bar span { background: var(--success, #4caf50); }
+    .mbar { margin-top: .6rem; width: min(16rem, 100%); font-size: .75rem; color: var(--text-muted, #999); }
+    .mbar-track { height: 6px; border-radius: 3px; background: var(--border, #2a2a4a); overflow: hidden; }
+    .mbar-track span { display: block; height: 100%; border-radius: 3px; background: #888; transition: width .3s; }
+    .mbar-text { margin-top: .25rem; }
+    .low .mbar-track span { background: #f44336; } .mid .mbar-track span { background: #f0a030; }
+    .high .mbar-track span { background: var(--success, #4caf50); }
+    .qsum { margin: 1.2rem auto .8rem; padding: 1rem 1.2rem; max-width: 26rem; text-align: left;
+      border: 1px solid var(--border, #2a2a4a); border-radius: 12px; background: var(--card, #1a1a2e); }
+    .qsum-score { font-size: 1.1rem; margin-bottom: .8rem; }
+    .qsum-row { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: .35rem; font-size: .9rem; }
+    .qsum-m.low b { color: #f44336; } .qsum-m.mid b { color: #f0a030; } .qsum-m.high b { color: var(--success, #4caf50); }
+    .qsum-detail { font-size: .8rem; color: var(--text-muted, #999); margin-top: .35rem; }
+    .qsum-mis { display: block; margin-top: .8rem; font-size: .85rem; color: var(--accent, #e94560); text-decoration: none; }
+    .qsum-mis:hover { text-decoration: underline; }
   `;
   (document.head || document.documentElement).appendChild(style);
 
-  window.Progress = { record, list, asLesson, asLessonWithPool, stats, count, byLesson, progressOf, meterHtml, reset, THRESHOLD };
+  window.Progress = { record, list, asLesson, asLessonWithPool, stats, count, byLesson, progressOf, meterHtml, masteryOf, saveQuiz, chapter, level, masteryBarHtml, quizSummaryHtml, reset, THRESHOLD };
 })();
