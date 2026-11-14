@@ -10,7 +10,7 @@
         {
           "zh": "总览 · What this class was about",
           "py": "",
-          "en": "Warm-up: in groups we put the eight lines of a dialogue in the right order (a visitor's third trip to China, a dinner invitation, a hotel pick-up). Then a review of HSK 2 Lesson 2: the words (起床, 跑步, 吃药, 生病, 休息, 出院 and 住院) and asking about size with 多 + adjective — 多大, 多高, 多长, 多重, 多远 — with the units 米, 斤, 公斤 and 公里. We finished by asking each other these questions in pairs."
+          "en": "Warm-up: in groups we put the eight lines of a dialogue in the right order (a visitor's third trip to China, a dinner invitation, a hotel pick-up). Then a review of HSK 2 Lesson 2: the words (起床, 跑步, 吃药, 生病, 休息, 出院 and 住院) and asking about size with 多 + adjective — 多大, 多高, 多长, 多重, 多远 — with the units 米, 斤, 公斤 and 公里. We finished by asking each other these questions in pairs. A second class continued Lesson 2: 多 with more adjectives and 多长时间, 每 with how often you do things (几次), 几乎 / 差不多, and approximate numbers with 多 and 几 (二十多岁, 一米八几, 十几分钟)."
         },
         {
           "zh": "1 · Putting the dialogue in order",
@@ -108,6 +108,117 @@
           "zh": "难不难？——有点儿难。",
           "py": "Nán bu nán? — Yǒudiǎnr nán.",
           "en": "Is it hard? — A bit."
+        },
+        {
+          "zh": "──────── Part 2 · Second class on Lesson 2",
+          "py": "",
+          "en": "每, how often, and approximate numbers."
+        },
+        {
+          "zh": "6 · More 多 questions",
+          "py": "",
+          "en": "Besides 多大, 多高, 多长, 多重, 多远: 多宽 = how wide, and 多长时间 = how long (in time). Chinese ask 多大 rather than 多小. For height of people and things use 米 (这棵树十米); distances in 公里 (= 一千米); weight in 公斤, 斤 (500 g) or 克.",
+          "see": [
+            "练习 · Practice (多高 / 多大 / 多长 / 多重 / 多远)",
+            "语法 · Grammar (疑问代词“多” + Adj)"
+          ]
+        },
+        {
+          "zh": "这棵树多高？——十米。",
+          "py": "Zhè kē shù duō gāo? — Shí mǐ.",
+          "en": "How tall is this tree? — Ten metres."
+        },
+        {
+          "zh": "他一米八六。",
+          "py": "Tā yì mǐ bā liù.",
+          "en": "He is 1.86 m."
+        },
+        {
+          "zh": "你每天工作多长时间？——八个小时。",
+          "py": "Nǐ měi tiān gōngzuò duō cháng shíjiān? — Bā ge xiǎoshí.",
+          "en": "How long do you work each day? — Eight hours."
+        },
+        {
+          "zh": "7 · 每 + time · How often",
+          "py": "",
+          "en": "每天 every day, 每个星期 every week, 每个月 every month, 每年 every year, 每个小时 every hour, 每分钟 every minute, 每秒 every second (每分每秒 = every single moment). Ask how often with 几次: 你每个星期去几次健身房？ and how long with 多长时间. 多久……一次？ = how often. For '24/7' Chinese say 全年无休: 全年 the whole year, 无 = 没有, 休 = rest.",
+          "see": [
+            "练习 · Practice (每 + 几次 / 多长时间 How often, how long)",
+            "语法 · Grammar (代词“每”)"
+          ]
+        },
+        {
+          "zh": "你每个星期去几次健身房？——三次。",
+          "py": "Nǐ měi ge xīngqī qù jǐ cì jiànshēnfáng? — Sān cì.",
+          "en": "How many times a week do you go to the gym? — Three."
+        },
+        {
+          "zh": "我每年去两次旅游，每次去两个星期。",
+          "py": "Wǒ měi nián qù liǎng cì lǚyóu, měi cì qù liǎng ge xīngqī.",
+          "en": "I travel twice a year, two weeks each time."
+        },
+        {
+          "zh": "他多久运动一次？——他每天跑步。",
+          "py": "Tā duō jiǔ yùndòng yí cì? — Tā měi tiān pǎo bù.",
+          "en": "How often does he exercise? — He runs every day."
+        },
+        {
+          "zh": "这家店全年无休。",
+          "py": "Zhè jiā diàn quán nián wú xiū.",
+          "en": "This shop is open all year round."
+        },
+        {
+          "zh": "8 · 几乎 / 差不多 · 很少 vs 常常",
+          "py": "",
+          "en": "几乎每天 / 差不多每天 = almost every day. 很少 = rarely; its opposite is 常常 (often).",
+          "see": [
+            "练习 · Practice (每 + 几次 / 多长时间 How often, how long)",
+            "课文1 · 1. 在运动场 — On the playground"
+          ]
+        },
+        {
+          "zh": "我几乎每天学习中文。",
+          "py": "Wǒ jīhū měi tiān xuéxí Zhōngwén.",
+          "en": "I study Chinese almost every day."
+        },
+        {
+          "zh": "他很少运动。",
+          "py": "Tā hěn shǎo yùndòng.",
+          "en": "He rarely exercises."
+        },
+        {
+          "zh": "我常常去健身房。",
+          "py": "Wǒ chángcháng qù jiànshēnfáng.",
+          "en": "I often go to the gym."
+        },
+        {
+          "zh": "9 · Approximate numbers: 多 and 几",
+          "py": "",
+          "en": "二十多岁 = in your twenties (more than 20, less than 30). 五十多公斤 = 50-something kilos. 一米八几 = 1.8-something metres. 十几分钟 = ten-something minutes (11–19). 几十块 = some tens of yuan; 几百块 = a few hundred. Watch the order with money: 二十多块 = 20-something yuan (21, 25…), but 二十块多 = just over 20 yuan (20.3, 20.5).",
+          "see": [
+            "练习 · Practice (二十多 / 一米八几 / 十几 Approximate numbers)",
+            "课文3 · 3. 在操场 — On the sports ground"
+          ]
+        },
+        {
+          "zh": "大卫二十多岁。",
+          "py": "Dàwèi èrshí duō suì.",
+          "en": "David is in his twenties."
+        },
+        {
+          "zh": "他一米八几。",
+          "py": "Tā yì mǐ bā jǐ.",
+          "en": "He's one eighty-something."
+        },
+        {
+          "zh": "做这个作业要十几分钟。",
+          "py": "Zuò zhège zuòyè yào shí jǐ fēnzhōng.",
+          "en": "This homework takes ten-odd minutes."
+        },
+        {
+          "zh": "这个杯子二十多块。",
+          "py": "Zhège bēizi èrshí duō kuài.",
+          "en": "This cup costs twenty-something yuan."
         }
       ]
     },
@@ -558,6 +669,116 @@
           "zh": "有点儿",
           "py": "yǒudiǎnr",
           "en": "a bit"
+        },
+        {
+          "zh": "多宽",
+          "py": "duō kuān",
+          "en": "how wide"
+        },
+        {
+          "zh": "宽",
+          "py": "kuān",
+          "en": "wide"
+        },
+        {
+          "zh": "多长时间",
+          "py": "duō cháng shíjiān",
+          "en": "how long (time)"
+        },
+        {
+          "zh": "多久",
+          "py": "duō jiǔ",
+          "en": "how long; how often (多久……一次)"
+        },
+        {
+          "zh": "几次",
+          "py": "jǐ cì",
+          "en": "how many times"
+        },
+        {
+          "zh": "次",
+          "py": "cì",
+          "en": "time (occurrence)"
+        },
+        {
+          "zh": "每年",
+          "py": "měi nián",
+          "en": "every year"
+        },
+        {
+          "zh": "每个月",
+          "py": "měi ge yuè",
+          "en": "every month"
+        },
+        {
+          "zh": "每个星期",
+          "py": "měi ge xīngqī",
+          "en": "every week"
+        },
+        {
+          "zh": "每分钟",
+          "py": "měi fēnzhōng",
+          "en": "every minute"
+        },
+        {
+          "zh": "秒",
+          "py": "miǎo",
+          "en": "second"
+        },
+        {
+          "zh": "全年无休",
+          "py": "quán nián wú xiū",
+          "en": "open all year round"
+        },
+        {
+          "zh": "无",
+          "py": "wú",
+          "en": "without (= 没有)"
+        },
+        {
+          "zh": "健身房",
+          "py": "jiànshēnfáng",
+          "en": "gym"
+        },
+        {
+          "zh": "餐厅",
+          "py": "cāntīng",
+          "en": "restaurant"
+        },
+        {
+          "zh": "几乎",
+          "py": "jīhū",
+          "en": "almost"
+        },
+        {
+          "zh": "差不多",
+          "py": "chàbuduō",
+          "en": "almost, about"
+        },
+        {
+          "zh": "很少",
+          "py": "hěn shǎo",
+          "en": "rarely"
+        },
+        {
+          "zh": "常常",
+          "py": "chángcháng",
+          "en": "often"
+        },
+        {
+          "zh": "千米",
+          "py": "qiānmǐ",
+          "en": "kilometre"
+        },
+        {
+          "zh": "棵",
+          "py": "kē",
+          "en": "measure word for trees"
+        },
+        {
+          "zh": "老公",
+          "py": "lǎogōng",
+          "en": "husband (informal)"
         }
       ]
     },
@@ -673,6 +894,151 @@
           "zh": "这个练习难不难？——有点儿难。",
           "py": "Zhège liànxí nán bu nán? — Yǒudiǎnr nán.",
           "en": "Is this exercise hard? — A bit."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (每 + 几次 / 多长时间 How often, how long)",
+      "items": [
+        {
+          "zh": "你每天几点起床？",
+          "py": "Nǐ měi tiān jǐ diǎn qǐ chuáng?",
+          "en": "What time do you get up every day?"
+        },
+        {
+          "zh": "你每天工作多长时间？",
+          "py": "Nǐ měi tiān gōngzuò duō cháng shíjiān?",
+          "en": "How long do you work each day?"
+        },
+        {
+          "zh": "我每天工作八个小时。",
+          "py": "Wǒ měi tiān gōngzuò bā ge xiǎoshí.",
+          "en": "I work eight hours a day."
+        },
+        {
+          "zh": "你每个星期运动多长时间？",
+          "py": "Nǐ měi ge xīngqī yùndòng duō cháng shíjiān?",
+          "en": "How long do you exercise each week?"
+        },
+        {
+          "zh": "我每个星期运动七个小时。",
+          "py": "Wǒ měi ge xīngqī yùndòng qī ge xiǎoshí.",
+          "en": "I exercise seven hours a week."
+        },
+        {
+          "zh": "你每个星期去几次健身房？",
+          "py": "Nǐ měi ge xīngqī qù jǐ cì jiànshēnfáng?",
+          "en": "How often a week do you go to the gym?"
+        },
+        {
+          "zh": "你每个月去几次餐厅吃饭？",
+          "py": "Nǐ měi ge yuè qù jǐ cì cāntīng chī fàn?",
+          "en": "How many times a month do you eat at a restaurant?"
+        },
+        {
+          "zh": "你每年去几次旅游？——两次。",
+          "py": "Nǐ měi nián qù jǐ cì lǚyóu? — Liǎng cì.",
+          "en": "How many trips do you make a year? — Two."
+        },
+        {
+          "zh": "每次去多长时间？——两个星期。",
+          "py": "Měi cì qù duō cháng shíjiān? — Liǎng ge xīngqī.",
+          "en": "How long each time? — Two weeks."
+        },
+        {
+          "zh": "你每个小时写多少汉字？",
+          "py": "Nǐ měi ge xiǎoshí xiě duōshao Hànzì?",
+          "en": "How many characters do you write per hour?"
+        },
+        {
+          "zh": "谁每天在家做饭？——我老公。",
+          "py": "Shéi měi tiān zài jiā zuò fàn? — Wǒ lǎogōng.",
+          "en": "Who cooks at home every day? — My husband."
+        },
+        {
+          "zh": "他多久运动一次？",
+          "py": "Tā duō jiǔ yùndòng yí cì?",
+          "en": "How often does he exercise?"
+        },
+        {
+          "zh": "我几乎每天学习中文。",
+          "py": "Wǒ jīhū měi tiān xuéxí Zhōngwén.",
+          "en": "I study Chinese almost every day."
+        },
+        {
+          "zh": "差不多每天",
+          "py": "chàbuduō měi tiān",
+          "en": "almost every day"
+        },
+        {
+          "zh": "他很少生病。",
+          "py": "Tā hěn shǎo shēng bìng.",
+          "en": "He's rarely ill."
+        },
+        {
+          "zh": "每分每秒",
+          "py": "měi fēn měi miǎo",
+          "en": "every minute and second"
+        },
+        {
+          "zh": "全年无休",
+          "py": "quán nián wú xiū",
+          "en": "open all year, no days off (24/7)"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (二十多 / 一米八几 / 十几 Approximate numbers)",
+      "items": [
+        {
+          "zh": "大卫二十多岁。",
+          "py": "Dàwèi èrshí duō suì.",
+          "en": "David is in his twenties."
+        },
+        {
+          "zh": "我五十多公斤。",
+          "py": "Wǒ wǔshí duō gōngjīn.",
+          "en": "I weigh fifty-something kilos."
+        },
+        {
+          "zh": "他一米八几。",
+          "py": "Tā yì mǐ bā jǐ.",
+          "en": "He's one eighty-something."
+        },
+        {
+          "zh": "十几分钟",
+          "py": "shí jǐ fēnzhōng",
+          "en": "ten-odd minutes (11–19)"
+        },
+        {
+          "zh": "这个杯子二十多块。",
+          "py": "Zhège bēizi èrshí duō kuài.",
+          "en": "This cup is twenty-something yuan."
+        },
+        {
+          "zh": "二十块多",
+          "py": "èrshí kuài duō",
+          "en": "just over twenty yuan (20.x)"
+        },
+        {
+          "zh": "这件衣服几百块。",
+          "py": "Zhè jiàn yīfu jǐ bǎi kuài.",
+          "en": "This piece of clothing costs a few hundred yuan."
+        },
+        {
+          "zh": "这个包几十块钱。",
+          "py": "Zhège bāo jǐ shí kuài qián.",
+          "en": "This bag costs a few tens of yuan."
+        },
+        {
+          "zh": "这棵树十米高。",
+          "py": "Zhè kē shù shí mǐ gāo.",
+          "en": "This tree is ten metres tall."
+        },
+        {
+          "zh": "一公里是一千米。",
+          "py": "Yì gōnglǐ shì yìqiān mǐ.",
+          "en": "A kilometre is a thousand metres."
         }
       ]
     }
