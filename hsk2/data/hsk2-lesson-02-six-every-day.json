@@ -3,6 +3,115 @@
   "subtitle": "HSK 2 · Lesson 2 — 我每天六点起床 · I get up at six every day",
   "data": [
     {
+      "topic": "课上要点 · Class notes (Lesson 2)",
+      "classNotesFirst": true,
+      "browseOnly": true,
+      "items": [
+        {
+          "zh": "总览 · What this class was about",
+          "py": "",
+          "en": "Warm-up: in groups we put the eight lines of a dialogue in the right order (a visitor's third trip to China, a dinner invitation, a hotel pick-up). Then a review of HSK 2 Lesson 2: the words (起床, 跑步, 吃药, 生病, 休息, 出院 and 住院) and asking about size with 多 + adjective — 多大, 多高, 多长, 多重, 多远 — with the units 米, 斤, 公斤 and 公里. We finished by asking each other these questions in pairs."
+        },
+        {
+          "zh": "1 · Putting the dialogue in order",
+          "py": "",
+          "en": "The right order: ask about a first visit → 'no, I've been twice' → 'this is my third time' → dinner invitation → 'you're too kind' → 应该的 → pick-up. The hotel pick-up line can also come right after the invitation; then 'you're too kind' answers the pick-up instead. 第一次 / 第三次 = the first / third time; 以前来过两次 = have been twice before.",
+          "see": [
+            "会话 · Dialogue (欢迎来中国 Welcome to China)"
+          ]
+        },
+        {
+          "zh": "这是我第三次来中国。",
+          "py": "Zhè shì wǒ dì sān cì lái Zhōngguó.",
+          "en": "This is my third time in China."
+        },
+        {
+          "zh": "我以前来过两次。",
+          "py": "Wǒ yǐqián láiguo liǎng cì.",
+          "en": "I've been here twice before."
+        },
+        {
+          "zh": "2 · 太客气了 · 应该的",
+          "py": "",
+          "en": "When someone treats you (请您吃晚饭) or offers to pick you up, answer 不用不用，您太客气了 (no need, you're too kind). The host replies 应该的 — 'it's the least I should do', a phrase Chinese people use all the time.",
+          "see": [
+            "会话 · Dialogue (欢迎来中国 Welcome to China)"
+          ]
+        },
+        {
+          "zh": "不用不用，您太客气了。",
+          "py": "Búyòng búyòng, nín tài kèqi le.",
+          "en": "No need, you're too kind."
+        },
+        {
+          "zh": "应该的。",
+          "py": "Yīnggāi de.",
+          "en": "It's only right — my pleasure."
+        },
+        {
+          "zh": "3 · 住院 · 出院",
+          "py": "",
+          "en": "If you're ill (生病) the doctor may say you have to stay in hospital: 住院 (住 = live, stay + 院 from 医院). When you're better you may leave: 出院 (出 = go out). Then you can go home.",
+          "see": [
+            "练习 · Practice (住院 / 出院 · 一起)",
+            "课文2 · 2. 在医院 — In the hospital"
+          ]
+        },
+        {
+          "zh": "医生说你要住院。",
+          "py": "Yīshēng shuō nǐ yào zhù yuàn.",
+          "en": "The doctor says you have to stay in hospital."
+        },
+        {
+          "zh": "什么时候能出院？——医生说下个星期。",
+          "py": "Shénme shíhou néng chū yuàn? — Yīshēng shuō xià ge xīngqī.",
+          "en": "When can you leave hospital? — Next week, the doctor says."
+        },
+        {
+          "zh": "4 · 多 + adjective · How tall, how heavy, how far",
+          "py": "",
+          "en": "多大 how old/big, 多高 how tall, 多长 how long, 多重 how heavy, 多远 how far. Units: 米 metre (一米八 = 1.80 m), 公斤 kilogram, 斤 = 500 g (Chinese shops price fruit per 斤), 公里 kilometre (= 一千米). Chinese say 高 for people and buildings and 长 for things lying down, like a table.",
+          "see": [
+            "练习 · Practice (多高 / 多大 / 多长 / 多重 / 多远)",
+            "语法 · Grammar (疑问代词“多” + Adj)"
+          ]
+        },
+        {
+          "zh": "你多高？——我一米八。",
+          "py": "Nǐ duō gāo? — Wǒ yì mǐ bā.",
+          "en": "How tall are you? — 1.80 m."
+        },
+        {
+          "zh": "这个桌子多长？——一米五。",
+          "py": "Zhège zhuōzi duō cháng? — Yì mǐ wǔ.",
+          "en": "How long is this table? — 1.5 m."
+        },
+        {
+          "zh": "从鹿特丹到海牙有多远？——二十公里。",
+          "py": "Cóng Lùtèdān dào Hǎiyá yǒu duō yuǎn? — Èrshí gōnglǐ.",
+          "en": "How far is Rotterdam from The Hague? — 20 km."
+        },
+        {
+          "zh": "5 · 一起 · 有点儿难",
+          "py": "",
+          "en": "一起 + verb = do something together: 一起吃晚饭, 一起学习. Asked whether the ordering exercise was hard, the class said 有点儿难 — reading wasn't hard, finding the order was.",
+          "see": [
+            "练习 · Practice (住院 / 出院 · 一起)"
+          ]
+        },
+        {
+          "zh": "我们一起吃晚饭。",
+          "py": "Wǒmen yìqǐ chī wǎnfàn.",
+          "en": "Let's have dinner together."
+        },
+        {
+          "zh": "难不难？——有点儿难。",
+          "py": "Nán bu nán? — Yǒudiǎnr nán.",
+          "en": "Is it hard? — A bit."
+        }
+      ]
+    },
+    {
       "topic": "课文1 · 1. 在运动场 — On the playground",
       "items": [
         {
@@ -109,6 +218,46 @@
           "zh": "B：他每天回来都很累。",
           "py": "B: Tā měi tiān huílai dōu hěn lèi.",
           "en": "B: He comes home exhausted every day."
+        }
+      ]
+    },
+    {
+      "topic": "会话 · Dialogue (欢迎来中国 Welcome to China)",
+      "items": [
+        {
+          "zh": "王小姐：您是第一次来中国吗？",
+          "py": "Wáng xiǎojiě: Nín shì dì yī cì lái Zhōngguó ma?",
+          "en": "Ms Wang: Is this your first time in China?"
+        },
+        {
+          "zh": "李先生：不是，我以前来过两次。",
+          "py": "Lǐ xiānsheng: Bú shì, wǒ yǐqián láiguo liǎng cì.",
+          "en": "Mr Li: No, I've been here twice before."
+        },
+        {
+          "zh": "李先生：这是我第三次来中国。",
+          "py": "Lǐ xiānsheng: Zhè shì wǒ dì sān cì lái Zhōngguó.",
+          "en": "Mr Li: This is my third time in China."
+        },
+        {
+          "zh": "王小姐：太好了！今天晚上我请您吃晚饭。",
+          "py": "Wáng xiǎojiě: Tài hǎo le! Jīntiān wǎnshang wǒ qǐng nín chī wǎnfàn.",
+          "en": "Ms Wang: Great! Let me treat you to dinner tonight."
+        },
+        {
+          "zh": "李先生：不用不用，您太客气了。",
+          "py": "Lǐ xiānsheng: Búyòng búyòng, nín tài kèqi le.",
+          "en": "Mr Li: No need, you're too kind."
+        },
+        {
+          "zh": "王小姐：应该的。我们一起吃晚饭。",
+          "py": "Wáng xiǎojiě: Yīnggāi de. Wǒmen yìqǐ chī wǎnfàn.",
+          "en": "Ms Wang: It's the least I can do. Let's have dinner together."
+        },
+        {
+          "zh": "王小姐：晚上我去酒店接您。",
+          "py": "Wáng xiǎojiě: Wǎnshang wǒ qù jiǔdiàn jiē nín.",
+          "en": "Ms Wang: I'll pick you up at your hotel this evening."
         }
       ]
     },
@@ -279,6 +428,251 @@
           "zh": "张老师星期六休息吗？",
           "py": "Zhāng lǎoshī xīngqī liù xiūxi ma?",
           "en": "Does Teacher Zhang rest on Saturday?"
+        }
+      ]
+    },
+    {
+      "topic": "词汇 · Extra Words (Class discussion)",
+      "items": [
+        {
+          "zh": "第一次",
+          "py": "dì yī cì",
+          "en": "the first time"
+        },
+        {
+          "zh": "以前",
+          "py": "yǐqián",
+          "en": "before, previously"
+        },
+        {
+          "zh": "来过",
+          "py": "láiguo",
+          "en": "have been (here)"
+        },
+        {
+          "zh": "请",
+          "py": "qǐng",
+          "en": "to treat, to invite"
+        },
+        {
+          "zh": "晚饭",
+          "py": "wǎnfàn",
+          "en": "dinner"
+        },
+        {
+          "zh": "不用",
+          "py": "búyòng",
+          "en": "no need"
+        },
+        {
+          "zh": "客气",
+          "py": "kèqi",
+          "en": "polite"
+        },
+        {
+          "zh": "应该的",
+          "py": "yīnggāi de",
+          "en": "it's the least I can do"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "en": "together"
+        },
+        {
+          "zh": "酒店",
+          "py": "jiǔdiàn",
+          "en": "hotel"
+        },
+        {
+          "zh": "接",
+          "py": "jiē",
+          "en": "to pick up"
+        },
+        {
+          "zh": "住院",
+          "py": "zhù yuàn",
+          "en": "to be in hospital"
+        },
+        {
+          "zh": "出院",
+          "py": "chū yuàn",
+          "en": "to leave hospital"
+        },
+        {
+          "zh": "多长",
+          "py": "duō cháng",
+          "en": "how long"
+        },
+        {
+          "zh": "多重",
+          "py": "duō zhòng",
+          "en": "how heavy"
+        },
+        {
+          "zh": "多远",
+          "py": "duō yuǎn",
+          "en": "how far"
+        },
+        {
+          "zh": "长",
+          "py": "cháng",
+          "en": "long"
+        },
+        {
+          "zh": "重",
+          "py": "zhòng",
+          "en": "heavy"
+        },
+        {
+          "zh": "斤",
+          "py": "jīn",
+          "en": "jin (500 g)"
+        },
+        {
+          "zh": "公斤",
+          "py": "gōngjīn",
+          "en": "kilogram"
+        },
+        {
+          "zh": "克",
+          "py": "kè",
+          "en": "gram"
+        },
+        {
+          "zh": "公里",
+          "py": "gōnglǐ",
+          "en": "kilometre"
+        },
+        {
+          "zh": "米",
+          "py": "mǐ",
+          "en": "metre"
+        },
+        {
+          "zh": "难",
+          "py": "nán",
+          "en": "difficult"
+        },
+        {
+          "zh": "有点儿",
+          "py": "yǒudiǎnr",
+          "en": "a bit"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (多高 / 多大 / 多长 / 多重 / 多远)",
+      "items": [
+        {
+          "zh": "你多大？——我三十多岁。",
+          "py": "Nǐ duō dà? — Wǒ sānshí duō suì.",
+          "en": "How old are you? — In my thirties."
+        },
+        {
+          "zh": "你多高？——我一米八。",
+          "py": "Nǐ duō gāo? — Wǒ yì mǐ bā.",
+          "en": "How tall are you? — 1.80 m."
+        },
+        {
+          "zh": "这个桌子多长？——一米五。",
+          "py": "Zhège zhuōzi duō cháng? — Yì mǐ wǔ.",
+          "en": "How long is this table? — 1.5 m."
+        },
+        {
+          "zh": "你的手机多长？",
+          "py": "Nǐ de shǒujī duō cháng?",
+          "en": "How long is your phone?"
+        },
+        {
+          "zh": "老师的包多重？——三公斤。",
+          "py": "Lǎoshī de bāo duō zhòng? — Sān gōngjīn.",
+          "en": "How heavy is the teacher's bag? — 3 kg."
+        },
+        {
+          "zh": "这个西瓜多重？——一公斤。",
+          "py": "Zhège xīguā duō zhòng? — Yì gōngjīn.",
+          "en": "How heavy is this watermelon? — 1 kg."
+        },
+        {
+          "zh": "一斤是五百克。",
+          "py": "Yì jīn shì wǔbǎi kè.",
+          "en": "One jin is 500 grams."
+        },
+        {
+          "zh": "我要一斤苹果。",
+          "py": "Wǒ yào yì jīn píngguǒ.",
+          "en": "I'd like a jin of apples."
+        },
+        {
+          "zh": "从鹿特丹到海牙有多远？——二十公里。",
+          "py": "Cóng Lùtèdān dào Hǎiyá yǒu duō yuǎn? — Èrshí gōnglǐ.",
+          "en": "How far is it from Rotterdam to The Hague? — 20 km."
+        },
+        {
+          "zh": "你家离学校多远？",
+          "py": "Nǐ jiā lí xuéxiào duō yuǎn?",
+          "en": "How far is your home from school?"
+        },
+        {
+          "zh": "一公里是一千米。",
+          "py": "Yì gōnglǐ shì yìqiān mǐ.",
+          "en": "One kilometre is a thousand metres."
+        },
+        {
+          "zh": "你儿子多高？——一米四五。",
+          "py": "Nǐ érzi duō gāo? — Yì mǐ sì wǔ.",
+          "en": "How tall is your son? — 1.45 m."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (住院 / 出院 · 一起)",
+      "items": [
+        {
+          "zh": "如果你生病了，你去医院。",
+          "py": "Rúguǒ nǐ shēng bìng le, nǐ qù yīyuàn.",
+          "en": "If you're ill, you go to hospital."
+        },
+        {
+          "zh": "医生说你要住院。",
+          "py": "Yīshēng shuō nǐ yào zhù yuàn.",
+          "en": "The doctor says you have to stay in hospital."
+        },
+        {
+          "zh": "住院就是住在医院。",
+          "py": "Zhù yuàn jiù shì zhù zài yīyuàn.",
+          "en": "住院 means staying in the hospital."
+        },
+        {
+          "zh": "三四天以后你好了，可以出院了。",
+          "py": "Sān-sì tiān yǐhòu nǐ hǎo le, kěyǐ chū yuàn le.",
+          "en": "After three or four days you're better and can leave hospital."
+        },
+        {
+          "zh": "出院了，可以回家了。",
+          "py": "Chū yuàn le, kěyǐ huí jiā le.",
+          "en": "Discharged — you can go home."
+        },
+        {
+          "zh": "吃药了吗？现在身体怎么样？",
+          "py": "Chī yào le ma? Xiànzài shēntǐ zěnmeyàng?",
+          "en": "Did you take your medicine? How are you feeling now?"
+        },
+        {
+          "zh": "我们一起学习。",
+          "py": "Wǒmen yìqǐ xuéxí.",
+          "en": "Let's study together."
+        },
+        {
+          "zh": "我们一起去看看。",
+          "py": "Wǒmen yìqǐ qù kànkan.",
+          "en": "Let's go and have a look together."
+        },
+        {
+          "zh": "这个练习难不难？——有点儿难。",
+          "py": "Zhège liànxí nán bu nán? — Yǒudiǎnr nán.",
+          "en": "Is this exercise hard? — A bit."
         }
       ]
     }
