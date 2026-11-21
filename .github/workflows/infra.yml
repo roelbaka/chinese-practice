@@ -66,6 +66,20 @@ jobs:
       - name: Format
         run: tofu fmt -check -recursive
 
+      # The state bucket must exist before `tofu init`. Create it (private) the first time.
+      - name: Ensure state bucket
+        env:
+          BUCKET: ${{ vars.TF_STATE_BUCKET }}
+          S3: https://s3.nl-ams.scw.cloud
+        run: |
+          if aws s3api head-bucket --bucket "$BUCKET" --endpoint-url "$S3" --region nl-ams 2>/dev/null; then
+            echo "State bucket $BUCKET exists."
+          else
+            echo "Creating state bucket $BUCKET"
+            aws s3api create-bucket --bucket "$BUCKET" --endpoint-url "$S3" --region nl-ams \
+              --create-bucket-configuration LocationConstraint=nl-ams
+          fi
+
       - name: Init
         run: tofu init -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}"
 
