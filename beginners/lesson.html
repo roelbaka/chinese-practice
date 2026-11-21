@@ -103,6 +103,37 @@
 
   .card .speaker-icon:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
+  /* Texts and dialogues: one block that reads like a page, speaker names in colour, the text's
+     new words as small chips on top, and a button that reads the whole text aloud. */
+  .card-grid.as-text {
+    display: block; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: .5rem 0 .7rem;
+  }
+  .card-grid.as-text .play-all {
+    display: inline-block; margin: .45rem 1.4rem .35rem; font: inherit; font-size: .82rem; padding: .3rem .85rem;
+    border-radius: 999px; border: 1px solid var(--border); background: transparent; color: var(--text-muted); cursor: pointer;
+  }
+  .card-grid.as-text .play-all:hover { color: var(--text); border-color: var(--accent); }
+  .card-grid.as-text .card {
+    background: transparent; border: 0; border-radius: 8px; margin: 0 .35rem; padding: .45rem 3.4rem .45rem 1.05rem;
+  }
+  .card-grid.as-text .card:hover { transform: none; background: var(--card-hover); }
+  .card-grid.as-text .chinese { font-size: 1.3rem; margin-bottom: .1rem; line-height: 1.5; }
+  .card-grid.as-text .pinyin { font-size: .86rem; margin-bottom: .05rem; }
+  .card-grid.as-text .english { font-size: .86rem; }
+  .card-grid.as-text .card .speaker-icon { top: .6rem; right: .9rem; width: 30px; height: 30px; opacity: .6; }
+  .card-grid.as-text .card:hover .speaker-icon { opacity: 1; }
+  .card-grid.as-text .who { color: var(--accent); font-weight: 600; }
+  .card-grid.as-text .pinyin .who, .card-grid.as-text .english .who { font-weight: 500; }
+  /* the new words of the text, as chips */
+  .card-grid.as-text .card.w {
+    display: inline-block; vertical-align: top; margin: .25rem 0 .35rem .9rem; padding: .3rem .75rem;
+    border: 1px solid var(--border); border-radius: 10px;
+  }
+  .card-grid.as-text .card.w .chinese { font-size: 1.05rem; line-height: 1.3; }
+  .card-grid.as-text .card.w .pinyin, .card-grid.as-text .card.w .english { font-size: .74rem; }
+  .card-grid.as-text .card.w .speaker-icon { display: none; }
+  .card-grid.as-text .card.w + .card:not(.w) { margin-top: .5rem; border-top: 1px solid var(--border); border-radius: 0 0 8px 8px; }
+
   /* Word lists on wider screens: a table, Character | Pinyin | Meaning. Phones keep the cards. */
   .table-head { display: none; }
   @media (min-width: 760px) {
@@ -526,9 +557,34 @@ function renderNav() {
 /** Opens the list of a section; word lists get a table header (shown as a table on wider screens). */
 function gridOpen(section) {
   const words = section && typeof Topics !== "undefined" && Topics.categoryOf(section) === "words";
+  if (isTextSection(section)) {
+    return `<div class="card-grid as-text"><button type="button" class="play-all">&#9654; Listen to the whole text</button>`;
+  }
   return words
     ? `<div class="card-grid as-table"><div class="table-head"><span>Character</span><span>Pinyin</span><span>Meaning</span><span></span></div>`
     : `<div class="card-grid">`;
+}
+
+/** Texts and dialogues are shown as a reading text (see .as-text). */
+function isTextSection(section) {
+  return !!section && typeof Topics !== "undefined" && Topics.categoryOf(section) === "texts";
+}
+
+// "小丽：……", "Xiǎolì: ……", "Mrs. Zhou: ……" — the speaker at the start of a dialogue line.
+const SPEAKER_ZH = /^([^：:。！？，\s]{1,8})：/;
+const SPEAKER_LATIN = /^([A-Za-zÀ-ÿĀ-ž'. ]{1,24}?):\s/;
+
+/** One line of a text: escaped, with the speaker's name marked. Other sections: just escaped. */
+function lineHtml(text, section) {
+  if (!isTextSection(section)) return esc(text);
+  const m = String(text || "").match(SPEAKER_ZH) || String(text || "").match(SPEAKER_LATIN);
+  if (!m) return esc(text);
+  return `<b class="who">${esc(m[0].trim())}</b> ${esc(text.slice(m[0].length))}`;
+}
+
+/** A single word (no sentence punctuation) inside a text: one of the text's new words. */
+function isWordLine(item, section) {
+  return isTextSection(section) && !/[。？！?!，,：:；;…]/.test(item.zh) && item.zh.length <= 6;
 }
 
 function renderBrowse() {
@@ -543,11 +599,11 @@ function renderBrowse() {
     sections.forEach(section => {
       html += `<div class="section-title">${section.topic}</div>${gridOpen(section)}`;
       section.items.forEach(item => {
-        const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : ""].filter(Boolean).join(" ");
+        const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : "", isWordLine(item, section) ? "w" : ""].filter(Boolean).join(" ");
         html += `<div class="card ${cls}" data-zh="${esc(item.zh)}">
-          <div class="chinese">${esc(item.zh)}</div>
-          <div class="pinyin">${esc(item.py)}</div>
-          <div class="english">${esc(item.en)}</div>
+          <div class="chinese">${lineHtml(item.zh, section)}</div>
+          <div class="pinyin">${lineHtml(item.py, section)}</div>
+          <div class="english">${lineHtml(item.en, section)}</div>
           <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
         </div>`;
       });
@@ -557,11 +613,11 @@ function renderBrowse() {
     const items = sections[0]?.items || [];
     html += gridOpen(sections[0]);
     items.forEach(item => {
-      const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : ""].filter(Boolean).join(" ");
+      const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : "", isWordLine(item, sections[0]) ? "w" : ""].filter(Boolean).join(" ");
       html += `<div class="card ${cls}" data-zh="${esc(item.zh)}">
-        <div class="chinese">${esc(item.zh)}</div>
-        <div class="pinyin">${esc(item.py)}</div>
-        <div class="english">${esc(item.en)}</div>
+        <div class="chinese">${lineHtml(item.zh, sections[0])}</div>
+        <div class="pinyin">${lineHtml(item.py, sections[0])}</div>
+        <div class="english">${lineHtml(item.en, sections[0])}</div>
         <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
       </div>`;
     });
@@ -584,6 +640,13 @@ function renderBrowse() {
       speak(card.dataset.zh);
     });
   });
+
+  // Read a whole text aloud: its sentences one after another, without the speakers' names.
+  app.querySelectorAll(".play-all").forEach(btn => btn.addEventListener("click", () => {
+    const lines = [...btn.parentElement.querySelectorAll(".card:not(.w)")]
+      .map(c => c.dataset.zh.replace(SPEAKER_ZH, "").trim()).filter(Boolean);
+    speak(lines.map(l => /[。！？!?.…]$/.test(l) ? l : l + "。").join(""));
+  }));
 }
 
 function renderFlashcard() {
