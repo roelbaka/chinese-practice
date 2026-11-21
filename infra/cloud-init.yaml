@@ -48,6 +48,11 @@ write_files:
         # reverse_proxy /api/* app:3000
       }
 
+  # Keep the site in step with the repo (Caddy reads the files live, no restart needed).
+  - path: /etc/cron.d/site-pull
+    content: |
+      */5 * * * * root git -C /opt/app/site pull -q --ff-only >/dev/null 2>&1
+
   - path: /opt/app/docker-compose.yml
     content: |
       services:

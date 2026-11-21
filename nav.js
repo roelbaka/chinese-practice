@@ -13,6 +13,55 @@
  *    class's index.html (.lesson-card links), sections from the lesson's JSON, so nothing goes stale.
  */
 (function () {
+  // ---------- 0. Move from GitHub Pages to xuexi.nl ----------
+  // localStorage belongs to one origin, so the progress (mistakes, chapter scores, settings) is
+  // carried along in the URL fragment, which is never sent to a server. xuexi.nl adds the keys it
+  // does not have yet and puts the original #anchor back.
+  const SITE = "https://xuexi.nl";
+  const KEYS = ["chinesePractice.mistakes.v1", "chinesePractice.chapters.v1", "quizShowPinyin", "journalTrack"];
+  const XFER = "#xfer=";
+
+  if (location.hostname === "roelbaka.github.io") {
+    const path = location.pathname.replace(/^\/chinese-practice/, "") || "/";
+    let hash = location.hash;
+    try {
+      const data = {};
+      KEYS.forEach((k) => { const v = localStorage.getItem(k); if (v !== null) data[k] = v; });
+      if (Object.keys(data).length) {
+        const json = JSON.stringify({ d: data, h: location.hash });
+        hash = XFER + btoa(unescape(encodeURIComponent(json)));
+      }
+    } catch (e) { /* no storage: just redirect */ }
+    location.replace(SITE + path + location.search + hash);
+    return;
+  }
+
+  if (location.hash.startsWith(XFER)) {
+    try {
+      const { d, h } = JSON.parse(decodeURIComponent(escape(atob(location.hash.slice(XFER.length)))));
+      let added = false;
+      Object.entries(d || {}).forEach(([k, v]) => {
+        if (!KEYS.includes(k) || typeof v !== "string") return;
+        const mine = localStorage.getItem(k);
+        if (mine === null) { localStorage.setItem(k, v); added = true; return; }
+        // Both have per-item objects (mistakes, chapters): keep ours, add what is missing.
+        try {
+          const a = JSON.parse(mine), b = JSON.parse(v);
+          if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
+            let n = 0;
+            Object.keys(b).forEach((x) => { if (!(x in a)) { a[x] = b[x]; n++; } });
+            if (n) { localStorage.setItem(k, JSON.stringify(a)); added = true; }
+          }
+        } catch (e) { /* plain value: keep ours */ }
+      });
+      history.replaceState(null, "", location.pathname + location.search + (h || ""));
+      // Pages that load this file with `defer` have already read localStorage: read it again.
+      if (added && document.readyState !== "loading") location.reload();
+    } catch (e) {
+      history.replaceState(null, "", location.pathname + location.search);
+    }
+  }
+
   // ---------- 1. Topics ----------
 
   /** Sections are grouped by the Chinese prefix of their topic ("语法 · …" → Grammar). */

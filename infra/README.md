@@ -51,7 +51,7 @@ After `apply`:
 - The A records for `xuexi.nl` and `www.xuexi.nl` point at the server automatically; Caddy fetches HTTPS certificates once DNS has spread (usually a few minutes). `www` redirects to the bare domain. Changing `domain` later recreates the server, because cloud-init only runs on first boot.
 - `tofu output -raw redis_password` gives the Redis password; it and the Litestream key are also in `/opt/app/.env` on the server.
 - Open the database with `ssh root@<ip>` and `sqlite3 /opt/app/data/app.db`. Changing `cloud-init.yaml` replaces the server; Litestream restores the database from the bucket on the new one.
-- On the server, everything is in `/opt/app` (`docker compose ps`, `docker compose logs`). Update the site with `cd /opt/app/site && git pull`.
+- On the server, everything is in `/opt/app` (`docker compose ps`, `docker compose logs`). The site updates itself: cron runs `git pull` every 5 minutes.
 
 Stardust is not always in stock. If `apply` fails on the server, try another zone (`zone = "fr-par-1"`).
 
