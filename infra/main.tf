@@ -113,14 +113,19 @@ resource "scaleway_object_bucket" "backup" {
 }
 
 # A key that the server uses for Litestream; it can only work with objects, not create or delete buckets.
+# IAM lives at organization level; take the organization of the project the API key works in.
+data "scaleway_account_project" "current" {}
+
 resource "scaleway_iam_application" "backup" {
-  name        = "${var.name}-litestream"
-  description = "Litestream on the web server: SQLite backups"
+  organization_id = data.scaleway_account_project.current.organization_id
+  name            = "${var.name}-litestream"
+  description     = "Litestream on the web server: SQLite backups"
 }
 
 resource "scaleway_iam_policy" "backup" {
-  name           = "${var.name}-litestream"
-  application_id = scaleway_iam_application.backup.id
+  organization_id = data.scaleway_account_project.current.organization_id
+  name            = "${var.name}-litestream"
+  application_id  = scaleway_iam_application.backup.id
 
   rule {
     project_ids          = [scaleway_object_bucket.backup.project_id]
