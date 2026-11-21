@@ -107,6 +107,9 @@ resource "scaleway_rdb_instance" "db" {
 
   volume_type       = "sbs_5k"
   volume_size_in_gb = 5 # smallest block volume
+
+  # Public endpoint (locked down by scaleway_rdb_acl below to the web server's IP).
+  load_balancer {}
 }
 
 resource "scaleway_rdb_database" "app" {
