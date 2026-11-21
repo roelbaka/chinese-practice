@@ -134,6 +134,28 @@
   .card-grid.as-text .card.w .speaker-icon { display: none; }
   .card-grid.as-text .card.w + .card:not(.w) { margin-top: .5rem; border-top: 1px solid var(--border); border-radius: 0 0 8px 8px; }
 
+  /* Dialogues as a conversation: one speaker on the left, the other on the right, in bubbles. */
+  .card-grid.as-text.chat { padding-bottom: .9rem; }
+  .card-grid.as-text.chat .card.say {
+    width: fit-content; max-width: 80%; margin: .3rem 1rem; padding: .55rem 2.9rem .6rem .95rem;
+    border: 1px solid var(--border); border-radius: 16px; background: var(--bg);
+  }
+  .card-grid.as-text.chat .card.say.left { margin-right: auto; border-bottom-left-radius: 4px; }
+  .card-grid.as-text.chat .card.say.right {
+    margin-left: auto; border-bottom-right-radius: 4px;
+    background: color-mix(in srgb, var(--accent) 12%, var(--card)); border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  }
+  .card-grid.as-text.chat .card.say:hover { background: var(--card-hover); }
+  .card-grid.as-text.chat .card.say .speaker-icon { top: .5rem; right: .55rem; }
+  .card-grid.as-text.chat .who-line { font-size: .78rem; color: var(--accent); margin: .7rem 1.25rem -.1rem; }
+  .card-grid.as-text.chat .who-line b { font-weight: 600; font-size: .9rem; }
+  .card-grid.as-text.chat .who-line.right { text-align: right; }
+  .card-grid.as-text.chat .chinese { font-size: 1.25rem; }
+  @media (max-width: 600px) {
+    .card-grid.as-text.chat .card.say { max-width: 88%; margin: .3rem .6rem; }
+    .card-grid.as-text.chat .who-line { margin-left: .9rem; margin-right: .9rem; }
+  }
+
   /* Word lists on wider screens: a table, Character | Pinyin | Meaning. Phones keep the cards. */
   .table-head { display: none; }
   @media (min-width: 760px) {
@@ -557,7 +579,7 @@ function renderNav() {
 function gridOpen(section) {
   const words = section && typeof Topics !== "undefined" && Topics.categoryOf(section) === "words";
   if (isTextSection(section)) {
-    return `<div class="card-grid as-text"><button type="button" class="play-all">&#9654; Listen to the whole text</button>`;
+    return `<div class="card-grid as-text${chatSides(section) ? " chat" : ""}"><button type="button" class="play-all">&#9654; Listen to the whole text</button>`;
   }
   return words
     ? `<div class="card-grid as-table"><div class="table-head"><span>Character</span><span>Pinyin</span><span>Meaning</span><span></span></div>`
@@ -571,7 +593,7 @@ function isTextSection(section) {
 
 // "小丽：……", "Xiǎolì: ……", "Mrs. Zhou: ……" — the speaker at the start of a dialogue line.
 const SPEAKER_ZH = /^([^：:。！？，\s]{1,8})：/;
-const SPEAKER_LATIN = /^([A-Za-zÀ-ÿĀ-ž'. ]{1,24}?):\s/;
+const SPEAKER_LATIN = /^([A-Za-z\u00C0-\u024F'. ]{1,24}?):\s/;
 
 /** One line of a text: escaped, with the speaker's name marked. Other sections: just escaped. */
 function lineHtml(text, section) {
@@ -579,6 +601,51 @@ function lineHtml(text, section) {
   const m = String(text || "").match(SPEAKER_ZH) || String(text || "").match(SPEAKER_LATIN);
   if (!m) return esc(text);
   return `<b class="who">${esc(m[0].trim())}</b> ${esc(text.slice(m[0].length))}`;
+}
+
+/**
+ * Dialogues with two or more speakers become a conversation: speakers take turns left and right
+ * (in order of first appearance). Returns Map(speaker → 0 left / 1 right), or null for other texts.
+ */
+const chatCache = new WeakMap();
+function chatSides(section) {
+  if (!isTextSection(section)) return null;
+  if (chatCache.has(section)) return chatCache.get(section);
+  const order = [];
+  section.items.forEach(it => {
+    const m = String(it.zh || "").match(SPEAKER_ZH);
+    if (m && !order.includes(m[1])) order.push(m[1]);
+  });
+  const sides = order.length >= 2 ? new Map(order.map((name, i) => [name, i % 2])) : null;
+  chatCache.set(section, sides);
+  return sides;
+}
+
+/** One browse card. In a conversation: a bubble on the speaker's side, the name above it when the speaker changes. */
+function cardHtml(item, section, index) {
+  const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : "", isWordLine(item, section) ? "w" : ""];
+  const sides = chatSides(section);
+  const m = sides && String(item.zh || "").match(SPEAKER_ZH);
+  if (m && sides.has(m[1])) {
+    const side = sides.get(m[1]) ? "right" : "left";
+    const prev = index > 0 && String(section.items[index - 1].zh || "").match(SPEAKER_ZH);
+    const pm = String(item.py || "").match(SPEAKER_LATIN);
+    const em = String(item.en || "").match(SPEAKER_LATIN);
+    const who = prev && prev[1] === m[1] ? "" :
+      `<div class="who-line ${side}"><b>${esc(m[1])}</b>${em ? ` · ${esc(em[1])}` : ""}</div>`;
+    return `${who}<div class="card say ${side} ${cls.filter(Boolean).join(" ")}" data-zh="${esc(item.zh)}">
+      <div class="chinese">${esc(item.zh.slice(m[0].length).trim())}</div>
+      <div class="pinyin">${esc(pm ? item.py.slice(pm[0].length) : item.py)}</div>
+      <div class="english">${esc(em ? item.en.slice(em[0].length) : item.en)}</div>
+      <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
+    </div>`;
+  }
+  return `<div class="card ${cls.filter(Boolean).join(" ")}" data-zh="${esc(item.zh)}">
+      <div class="chinese">${lineHtml(item.zh, section)}</div>
+      <div class="pinyin">${lineHtml(item.py, section)}</div>
+      <div class="english">${lineHtml(item.en, section)}</div>
+      <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
+    </div>`;
 }
 
 /** A single word (no sentence punctuation) inside a text: one of the text's new words. */
@@ -597,29 +664,13 @@ function renderBrowse() {
   if (sections.length > 1) {
     sections.forEach(section => {
       html += `<div class="section-title">${section.topic}</div>${gridOpen(section)}`;
-      section.items.forEach(item => {
-        const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : "", isWordLine(item, section) ? "w" : ""].filter(Boolean).join(" ");
-        html += `<div class="card ${cls}" data-zh="${esc(item.zh)}">
-          <div class="chinese">${lineHtml(item.zh, section)}</div>
-          <div class="pinyin">${lineHtml(item.py, section)}</div>
-          <div class="english">${lineHtml(item.en, section)}</div>
-          <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
-        </div>`;
-      });
+      section.items.forEach((item, i) => { html += cardHtml(item, section, i); });
       html += `</div>`;
     });
   } else {
     const items = sections[0]?.items || [];
     html += gridOpen(sections[0]);
-    items.forEach(item => {
-      const cls = [hidePinyin ? "hide-pinyin" : "", hideEnglish ? "hide-english" : "", isWordLine(item, sections[0]) ? "w" : ""].filter(Boolean).join(" ");
-      html += `<div class="card ${cls}" data-zh="${esc(item.zh)}">
-        <div class="chinese">${lineHtml(item.zh, sections[0])}</div>
-        <div class="pinyin">${lineHtml(item.py, sections[0])}</div>
-        <div class="english">${lineHtml(item.en, sections[0])}</div>
-        <button type="button" class="speaker-icon" title="Listen">&#9654;</button>
-      </div>`;
-    });
+    items.forEach((item, i) => { html += cardHtml(item, sections[0], i); });
     html += `</div>`;
   }
 
@@ -636,7 +687,7 @@ function renderBrowse() {
     card.querySelector(".speaker-icon").addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
-      speak(card.dataset.zh);
+      speak(card.dataset.zh.replace(SPEAKER_ZH, ""));
     });
   });
 
