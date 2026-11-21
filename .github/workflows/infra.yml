@@ -14,6 +14,10 @@ on:
         description: "Apply the plan (creates / changes resources at Scaleway)"
         type: boolean
         default: false
+      replace:
+        description: "Resource to rebuild, e.g. scaleway_instance_server.web (empty = none)"
+        type: string
+        default: ""
 
 # Never run two tofu jobs against the same state at once.
 concurrency:
@@ -87,7 +91,9 @@ jobs:
         run: tofu validate
 
       - name: Plan
-        run: tofu plan -out=tfplan
+        env:
+          REPLACE: ${{ inputs.replace }}
+        run: tofu plan -out=tfplan ${REPLACE:+-replace="$REPLACE"}
 
       - name: Apply
         if: github.event_name == 'workflow_dispatch' && inputs.apply
