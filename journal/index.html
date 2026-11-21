@@ -49,19 +49,19 @@
   }
   .zh, .ex-zh { font-family: "Noto Serif SC", "Source Serif 4", serif; }
 
-  header { max-width: 820px; margin: 0 auto; padding: 4.5rem 1.5rem 1.5rem; }
+  header { max-width: 820px; margin: 0 auto; padding: 2.5rem 1.5rem 1.5rem; }
   header .kicker { font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--red); }
   header h1 { font-size: 2.4rem; font-weight: 600; line-height: 1.2; margin: .3rem 0 .4rem; }
   header h1 .zh { margin-right: .4rem; }
   header p { color: var(--ink-soft); max-width: 36rem; }
 
   .tracks {
-    position: sticky; top: 0; z-index: 5; background: var(--paper);
+    position: sticky; top: var(--sbar-h, 0px); z-index: 5; background: var(--paper);
     border-bottom: 1px solid var(--rule);
   }
-  /* left room for the site menu button that floats over the sticky bar */
-  .tracks-inner { max-width: 820px; margin: 0 auto; padding: .7rem 1.5rem .7rem 4.2rem; display: flex; gap: .5rem; overflow-x: auto; scrollbar-width: none; }
+  .tracks-inner { max-width: 820px; margin: 0 auto; padding: .7rem 1.5rem; display: flex; gap: .5rem; overflow-x: auto; scrollbar-width: none; }
   .tracks-inner::-webkit-scrollbar { display: none; }
+
   .tracks button {
     font: inherit; font-size: .9rem; white-space: nowrap; cursor: pointer;
     background: transparent; color: var(--ink-soft); border: 1px solid var(--rule);
@@ -155,9 +155,9 @@
   }
 
   @media (max-width: 640px) {
-    header { padding: 4rem 1rem 1rem; }
+    header { padding: 2rem 1rem 1rem; }
     header h1 { font-size: 1.8rem; }
-    .tracks-inner { padding-left: 3.4rem; padding-right: 1rem; }
+    .tracks-inner { padding-left: 1rem; padding-right: 1rem; }
     main { padding-left: 1rem; padding-right: 1rem; }
     .lesson { grid-template-columns: 1fr; gap: .6rem; }
     .margin { text-align: left; border-right: 0; border-left: 2px solid var(--red); padding: 0 0 0 .7rem; display: flex; gap: .6rem; align-items: baseline; }

@@ -289,7 +289,17 @@
       box-shadow: 0 1px 3px rgba(0,0,0,.12);
       display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px;
     }
-    .snav-btn span { display: block; width: 20px; height: 2px; border-radius: 2px; background: var(--text, #eee); }
+    .snav-btn .bar { display: block; width: 20px; height: 2px; border-radius: 2px; background: var(--text, #eee); }
+    .snav-btn .lbl { display: none; }
+    /* Desktop: a plain "Menu" button; phones keep the hamburger. */
+    @media (min-width: 761px) {
+      .snav-btn { width: auto; padding: 0 1.1rem; color: var(--text, #eee); }
+      .snav-btn .bar { display: none; }
+      .snav-btn .lbl {
+        display: inline; font: 500 .95rem var(--menu-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+        letter-spacing: .3px;
+      }
+    }
     .snav-btn:hover { border-color: var(--accent, #e94560); background: var(--card-hover, #222244); }
     .stheme {
       position: fixed; top: .75rem; right: .75rem; z-index: 1000; width: 44px; height: 44px; border-radius: 10px;
@@ -409,7 +419,44 @@
       .snav-lessons .num { min-width: 3.8rem; }
       .snav-sub { margin-left: 1rem; }
     }
+
+    /* ---- The pink bar along the top: menu left, logo in the middle, account + theme right ---- */
+    :root { --sbar-h: 60px; }
+    .sbar {
+      position: sticky; top: 0; z-index: 1000; height: var(--sbar-h); width: 100%; align-self: stretch;
+      display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: .5rem; padding: 0 .75rem;
+      background: var(--brand, #e94560); color: #fff; box-shadow: 0 1px 6px rgba(0,0,0,.18);
+    }
+    .sbar-l, .sbar-r { display: flex; align-items: center; gap: .5rem; min-width: 0; }
+    .sbar-r { justify-content: flex-end; }
+    .sbar-logo { display: block; line-height: 0; }
+    .sbar-logo svg { height: 40px; width: auto; display: block; }
+    .sbar .snav-btn, .sbar .stheme, .sbar .sacct {
+      position: static; height: 42px; box-shadow: none;
+      background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.35); color: #fff;
+    }
+    .sbar .snav-btn:hover, .sbar .stheme:hover, .sbar .sacct:hover { background: rgba(255,255,255,.26); border-color: #fff; }
+    .sbar .snav-btn .bar { background: #fff; }
+    .sbar .snav-btn .lbl { color: #fff; }
+    .sbar .stheme { width: 42px; }
+    .sbar .sacct .av { background: #fff; color: var(--brand, #e94560); }
+    .sacct-pop { top: calc(var(--sbar-h) + .4rem); right: .75rem; }
+    body.snav-locked .sacct, body.snav-locked .stheme { display: flex; }
+    @media (max-width: 600px) {
+      :root { --sbar-h: 54px; }
+      .sbar { padding: 0 .5rem; gap: .35rem; }
+      .sbar-logo svg { height: 34px; }
+      .sbar .snav-btn, .sbar .stheme, .sbar .sacct { height: 40px; }
+      .sbar .snav-btn, .sbar .stheme { width: 40px; }
+      .sacct-pop { right: .5rem; }
+    }
   `;
+
+  // The logo's strokes, white, for the pink bar (the bar itself is the tile). Same paths as logo.svg.
+  const LOGO_STROKES = `<svg viewBox="40 8 176 124" role="img" aria-label="学习 · Home"><g fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M61 58 V46 H197 V108 Q197 119 184 114"/><path d="M71 21 L77 34"/><path d="M129 19 L130 32"/><path d="M188 19 L178 34"/>
+    <path d="M79 64 H113 L97 76"/><path d="M97 76 V104 Q97 113 88 110"/><path d="M59 88 H135"/>
+    <path d="M149 63 L161 74"/><path d="M139 104 L181 80"/></g></svg>`;
 
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -500,7 +547,7 @@
   function build() {
     document.head.appendChild(el(`<style>${css}</style>`));
 
-    const btn = el(`<button type="button" class="snav-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>`);
+    const btn = el(`<button type="button" class="snav-btn" aria-label="Open menu" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="lbl">Menu</span></button>`);
     const overlay = el(`<div class="snav" role="dialog" aria-modal="true" aria-label="Site menu">
       <div class="snav-top">
         <a class="snav-home" href="${esc(ROOT.href)}"><img src="${esc(new URL("logo.svg", ROOT).href)}" alt="学习 · Home"></a>
@@ -579,7 +626,10 @@
       if (e.key === "Escape" && overlay.classList.contains("open")) { close(); btn.focus(); }
     });
 
-    document.body.append(btn, overlay);
+    const bar = el(`<div class="sbar"><div class="sbar-l"></div><a class="sbar-logo" href="${esc(ROOT.href)}">${LOGO_STROKES}</a><div class="sbar-r"></div></div>`);
+    bar.querySelector(".sbar-l").append(btn);
+    document.body.prepend(bar);
+    document.body.append(overlay);
     buildThemeButton();
     buildAccountButton();
   }
@@ -609,7 +659,7 @@
       paint();
     });
     paint();
-    document.body.append(b);
+    document.querySelector(".sbar-r").append(b);
   }
 
   /** Top-right: "Sign in" when signed out; your initial with a small sign-out panel when signed in. */
@@ -622,7 +672,7 @@
         const a = el(`<a class="sacct" title="Save your progress to your account and use it on every device">${G}<span>Sign in</span></a>`);
         a.href = "/auth/login?return=" + encodeURIComponent(here);
         a.addEventListener("click", () => { a.href = "/auth/login?return=" + encodeURIComponent(location.pathname + location.search + location.hash); });
-        document.body.append(a);
+        document.querySelector(".sbar-r").prepend(a);
         return;
       }
       const name = (user.name || user.email).trim();
@@ -640,7 +690,8 @@
       pop.querySelector("button").addEventListener("click", () => Account.signOut());
       document.addEventListener("click", () => toggle(false));
       document.addEventListener("keydown", (e) => { if (e.key === "Escape") toggle(false); });
-      document.body.append(b, pop);
+      document.querySelector(".sbar-r").prepend(b);
+      document.body.append(pop);
     });
   }
 
