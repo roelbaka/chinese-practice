@@ -644,6 +644,16 @@ function itemKind(item) {
 // Extra wrong-answer options for the quiz (the mistakes page fills this from the source lessons).
 let EXTRA_POOL = [];
 
+/**
+ * Quiz only: drop a dialogue speaker label ("A：", "大卫：", "Xiǎolì: ", "Mary: ") so the answer
+ * options are easy to compare. Only for items whose Chinese starts with a short "name：".
+ */
+function quizText(item, field) {
+  const s = item[field] || "";
+  if (!/^[^：:，。？！\s]{1,6}[：:]/.test(item.zh || "")) return s;
+  return s.replace(/^[^：:]{1,20}[：:]\s*/, "");
+}
+
 function renderQuiz() {
   const app = document.getElementById("app");
   if (!quizItems.length) {
@@ -667,7 +677,8 @@ function renderQuiz() {
   // Keep options comparable: single characters vs. words vs. sentences
   const seenOpt = new Set();
   const candidates = [...allItems, ...EXTRA_POOL].filter(i =>
-    i[answerField] && i[answerField] !== item[answerField] && i.zh !== item.zh && !seenOpt.has(i.zh) && seenOpt.add(i.zh));
+    i[answerField] && quizText(i, answerField) !== quizText(item, answerField) && i.zh !== item.zh &&
+    !seenOpt.has(quizText(i, answerField)) && seenOpt.add(quizText(i, answerField)));
   const sameKind = candidates.filter(i => itemKind(i) === itemKind(item));
   let wrongs = shuffle(sameKind.length >= 3 ? sameKind : candidates).slice(0, 3);
   let options = shuffle([item, ...wrongs]);
@@ -675,11 +686,11 @@ function renderQuiz() {
   let promptHtml = "";
   if (quizMode === "zh") {
     // No pinyin hint when pinyin is what you have to pick.
-    promptHtml = `<div class="quiz-prompt">${esc(item.zh)}</div>${answerField === "py" || !quizShowPinyin ? "" : `<div class="quiz-pinyin-hint">${esc(item.py)}</div>`}`;
+    promptHtml = `<div class="quiz-prompt">${esc(quizText(item, "zh"))}</div>${answerField === "py" || !quizShowPinyin ? "" : `<div class="quiz-pinyin-hint">${esc(quizText(item, "py"))}</div>`}`;
   } else if (quizMode === "py") {
-    promptHtml = `<div class="quiz-prompt" style="color:var(--pinyin)">${esc(item.py)}</div>`;
+    promptHtml = `<div class="quiz-prompt" style="color:var(--pinyin)">${esc(quizText(item, "py"))}</div>`;
   } else {
-    promptHtml = `<div class="quiz-prompt" style="color:var(--english)">${esc(item.en)}</div>`;
+    promptHtml = `<div class="quiz-prompt" style="color:var(--english)">${esc(quizText(item, "en"))}</div>`;
   }
 
   app.innerHTML = `<div class="quiz-container">
@@ -701,7 +712,7 @@ function renderQuiz() {
     ${promptHtml}
     <div class="pmeter-slot">${Progress.meterHtml(item.zh)}</div>
     <div class="quiz-options">
-      ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o[answerField] === item[answerField]}">${esc(o[answerField])}</button>`).join("")}
+      ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o[answerField] === item[answerField]}">${esc(quizText(o, answerField))}</button>`).join("")}
     </div>
     <div class="quiz-score">Score: ${quizScore} / ${quizIndex}${quizIndex < quizItems.length ? '' : ' — Done!'}</div>
     ${quizAnswered ? `<button class="quiz-next" id="quizNext">${quizIndex + 1 < quizItems.length ? 'Next &rarr;' : 'Restart'}</button>` : ''}
@@ -715,7 +726,7 @@ function renderQuiz() {
     quizShowPinyin = pyBox.checked;
     try { localStorage.setItem("quizShowPinyin", quizShowPinyin ? "1" : "0"); } catch (e) {}
     const hint = app.querySelector(".quiz-pinyin-hint");
-    if (quizShowPinyin && !hint) app.querySelector(".quiz-prompt").insertAdjacentHTML("afterend", `<div class="quiz-pinyin-hint">${esc(item.py)}</div>`);
+    if (quizShowPinyin && !hint) app.querySelector(".quiz-prompt").insertAdjacentHTML("afterend", `<div class="quiz-pinyin-hint">${esc(quizText(item, "py"))}</div>`);
     if (!quizShowPinyin && hint) hint.remove();
   });
   app.querySelectorAll("[data-qans]").forEach(btn => {
@@ -738,7 +749,7 @@ function renderQuiz() {
         // Right or wrong: show the full item — characters, pinyin and English.
         app.querySelector(".quiz-pinyin-hint")?.remove();
         app.querySelector(".quiz-options").insertAdjacentHTML("beforebegin", `<div class="quiz-reveal ${correct ? "ok" : "bad"}">
-          <div class="zh">${esc(item.zh)}</div><div class="py">${esc(item.py)}</div><div class="en">${esc(item.en)}</div></div>`);
+          <div class="zh">${esc(quizText(item, "zh"))}</div><div class="py">${esc(quizText(item, "py"))}</div><div class="en">${esc(quizText(item, "en"))}</div></div>`);
         renderQuizControls();
       });
     });
