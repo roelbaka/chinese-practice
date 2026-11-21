@@ -1,0 +1,92 @@
+#cloud-config
+# Stardust web server: 2 GB swap, Docker, Caddy (static site + HTTPS) and a Redis sidecar for sessions.
+package_update: true
+packages:
+  - docker.io
+  - docker-compose-v2
+  - git
+
+write_files:
+  - path: /opt/app/.env
+    permissions: "0600"
+    content: |
+      REDIS_PASSWORD=${redis_password}
+      DATABASE_URL=${database_url}
+
+  - path: /opt/app/Caddyfile
+    content: |
+%{ if domain != "" ~}
+      www.${domain} {
+        redir https://${domain}{uri} permanent
+      }
+
+      ${domain} {
+%{ else ~}
+      :80 {
+%{ endif ~}
+        root * /srv/site
+        file_server
+        encode gzip
+        # Never serve the repo's infra and git files.
+        @private path /infra/* /.git/* /.github/*
+        respond @private 404
+        # Later: send /api/* to the app container, e.g.
+        # reverse_proxy /api/* app:3000
+      }
+
+  - path: /opt/app/docker-compose.yml
+    content: |
+      services:
+        caddy:
+          image: caddy:2-alpine
+          restart: unless-stopped
+          ports: ["80:80", "443:443"]
+          volumes:
+            - ./Caddyfile:/etc/caddy/Caddyfile:ro
+            - ./site:/srv/site:ro
+            - caddy_data:/data
+          mem_limit: 128m
+
+        redis:
+          # Sidecar for sessions: only reachable inside the compose network, never published.
+          image: redis:7-alpine
+          restart: unless-stopped
+          command: >
+            redis-server --requirepass $${REDIS_PASSWORD}
+            --maxmemory 64mb --maxmemory-policy allkeys-lru
+            --save 300 10 --appendonly no
+          env_file: .env
+          volumes:
+            - redis_data:/data
+          mem_limit: 96m
+
+        # Your future app goes here; it gets REDIS_URL and DATABASE_URL from .env:
+        # app:
+        #   build: ./site/server
+        #   restart: unless-stopped
+        #   env_file: .env
+        #   environment:
+        #     REDIS_URL: redis://:$${REDIS_PASSWORD}@redis:6379
+        #   depends_on: [redis]
+        #   mem_limit: 256m
+
+      volumes:
+        caddy_data:
+        redis_data:
+
+runcmd:
+  # 2 GB swap: Stardust has only 1 GB RAM.
+  - fallocate -l ${swap_size_gb}G /swapfile
+  - chmod 600 /swapfile
+  - mkswap /swapfile
+  - swapon /swapfile
+  - echo '/swapfile none swap sw 0 0' >> /etc/fstab
+  - sysctl -w vm.swappiness=10
+  - echo 'vm.swappiness=10' > /etc/sysctl.d/99-swappiness.conf
+  # Redis wants this to avoid latency spikes.
+  - sysctl -w vm.overcommit_memory=1
+  - echo 'vm.overcommit_memory=1' > /etc/sysctl.d/99-redis.conf
+  # Site + containers
+  - systemctl enable --now docker
+  - git clone --depth 1 ${repo_url} /opt/app/site
+  - cd /opt/app && docker compose up -d

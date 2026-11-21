@@ -1,0 +1,85 @@
+name: Infra (OpenTofu)
+
+# Plan on every push or pull request that touches infra/. Apply only when you start the workflow by
+# hand with "apply" ticked; the production environment holds the Scaleway credentials.
+on:
+  push:
+    branches: [main]
+    paths: ["infra/**", ".github/workflows/infra.yml"]
+  pull_request:
+    paths: ["infra/**", ".github/workflows/infra.yml"]
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Apply the plan (creates / changes resources at Scaleway)"
+        type: boolean
+        default: false
+
+# Never run two tofu jobs against the same state at once.
+concurrency:
+  group: infra
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  tofu:
+    runs-on: ubuntu-latest
+    environment: production
+    defaults:
+      run:
+        working-directory: infra
+    env:
+      # Environment secrets: SCWACCESSKEYID, SCWSECRETKEY, SCW_DEFAULT_PROJECT_ID, SSH_PUBLIC_KEY.
+      # Environment variable: TF_STATE_BUCKET.
+      SCW_ACCESS_KEY: ${{ secrets.SCWACCESSKEYID }}
+      SCW_SECRET_KEY: ${{ secrets.SCWSECRETKEY }}
+      SCW_DEFAULT_PROJECT_ID: ${{ secrets.SCW_DEFAULT_PROJECT_ID || vars.SCW_DEFAULT_PROJECT_ID }}
+      # The S3 state backend uses the same Scaleway keys.
+      AWS_ACCESS_KEY_ID: ${{ secrets.SCWACCESSKEYID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCWSECRETKEY }}
+      TF_VAR_ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY || vars.SSH_PUBLIC_KEY }}
+      TF_IN_AUTOMATION: "true"
+      TF_INPUT: "false"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: opentofu/setup-opentofu@v1
+        with:
+          tofu_version: 1.10.x
+
+      - name: Check settings
+        run: |
+          missing=""
+          [ -n "$SCW_ACCESS_KEY" ] || missing="$missing SCWACCESSKEYID"
+          [ -n "$SCW_SECRET_KEY" ] || missing="$missing SCWSECRETKEY"
+          [ -n "$SCW_DEFAULT_PROJECT_ID" ] || missing="$missing SCW_DEFAULT_PROJECT_ID"
+          [ -n "$TF_VAR_ssh_public_key" ] || missing="$missing SSH_PUBLIC_KEY"
+          [ -n "${{ vars.TF_STATE_BUCKET }}" ] || missing="$missing TF_STATE_BUCKET"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing in the 'production' environment:$missing"
+            exit 1
+          fi
+
+      - name: Format
+        run: tofu fmt -check -recursive
+
+      - name: Init
+        run: tofu init -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}"
+
+      - name: Validate
+        run: tofu validate
+
+      - name: Plan
+        run: tofu plan -out=tfplan
+
+      - name: Apply
+        if: github.event_name == 'workflow_dispatch' && inputs.apply
+        run: tofu apply -auto-approve tfplan
+
+      - name: Show server IP
+        if: github.event_name == 'workflow_dispatch' && inputs.apply
+        run: |
+          echo "Site = $(tofu output -raw url)  (server IP $(tofu output -raw server_ip))" >> "$GITHUB_STEP_SUMMARY"

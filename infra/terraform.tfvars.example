@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars (that file is git-ignored) and fill in.
+ssh_public_key = "ssh-ed25519 AAAA... you@laptop"
+
+# The domain defaults to xuexi.nl (DNS records are created automatically). Set "" for IP-only.
+# domain = "xuexi.nl"
+
+# zone   = "nl-ams-1"
+# region = "nl-ams"
