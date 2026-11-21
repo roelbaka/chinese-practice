@@ -1,7 +1,8 @@
 # Smallest possible setup:
 #   - one Stardust instance (STARDUST1-S: 1 vCPU, 1 GB RAM, 10 GB local SSD) with a 2 GB swap file,
-#     running Caddy (web server / HTTPS) and Redis as a sidecar container for sessions
-#   - one managed PostgreSQL (DB-DEV-S), reachable only from the server's public IP
+#     running Caddy (web server / HTTPS), Redis as a sidecar for sessions, and Litestream
+#   - SQLite on the server's disk; Litestream streams every change to a private Object Storage bucket
+#     and restores the database from it when a new server boots
 
 # ---------- Server ----------
 
@@ -57,11 +58,24 @@ resource "scaleway_instance_server" "web" {
       repo_url       = var.repo_url
       domain         = var.domain
       redis_password = random_password.redis.result
-      database_url   = "postgresql://${var.db_user}:${random_password.db.result}@${scaleway_rdb_instance.db.load_balancer[0].ip}:${scaleway_rdb_instance.db.load_balancer[0].port}/${var.db_name}?sslmode=require"
+      backup_bucket  = scaleway_object_bucket.backup.name
+      region         = var.region
+      backup_key_id  = scaleway_iam_api_key.backup.access_key
+      backup_secret  = scaleway_iam_api_key.backup.secret_key
     })
   }
 
-  depends_on = [scaleway_iam_ssh_key.main]
+  # cloud-init only runs on first boot: a new config means a new server. The database survives,
+  # because Litestream restores it from the bucket.
+  lifecycle {
+    replace_triggered_by = [terraform_data.cloud_init_version]
+  }
+
+  depends_on = [scaleway_iam_ssh_key.main, scaleway_iam_policy.backup]
+}
+
+resource "terraform_data" "cloud_init_version" {
+  input = filesha256("${path.module}/cloud-init.yaml")
 }
 
 # ---------- DNS (zone xuexi.nl in Scaleway Domains & DNS) ----------
@@ -84,52 +98,38 @@ resource "scaleway_domain_record" "www" {
   ttl      = 300
 }
 
-# ---------- Managed PostgreSQL ----------
+# ---------- SQLite backups (Litestream → Object Storage) ----------
 
-resource "random_password" "db" {
-  length           = 32
-  special          = true
-  override_special = "-_"
-  min_upper        = 1
-  min_lower        = 1
-  min_numeric      = 1
-  min_special      = 1
+resource "random_id" "backup" {
+  byte_length = 3
 }
 
-resource "scaleway_rdb_instance" "db" {
-  name           = "${var.name}-db"
-  node_type      = "DB-DEV-S" # smallest: 2 vCPU (shared), 2 GB
-  engine         = var.db_engine
-  is_ha_cluster  = false
-  disable_backup = false
-  user_name      = var.db_user
-  password       = random_password.db.result
+resource "scaleway_object_bucket" "backup" {
+  name = "${var.name}-db-${random_id.backup.hex}"
 
-  volume_type       = "sbs_5k"
-  volume_size_in_gb = 5 # smallest block volume
-
-  # Public endpoint (locked down by scaleway_rdb_acl below to the web server's IP).
-  load_balancer {}
-}
-
-resource "scaleway_rdb_database" "app" {
-  instance_id = scaleway_rdb_instance.db.id
-  name        = var.db_name
-}
-
-resource "scaleway_rdb_privilege" "app" {
-  instance_id   = scaleway_rdb_instance.db.id
-  user_name     = var.db_user
-  database_name = scaleway_rdb_database.app.name
-  permission    = "all"
-}
-
-# Only the web server may connect to the database.
-resource "scaleway_rdb_acl" "db" {
-  instance_id = scaleway_rdb_instance.db.id
-
-  acl_rules {
-    ip          = "${scaleway_instance_ip.web.address}/32"
-    description = "web server"
+  versioning {
+    enabled = false
   }
+}
+
+# A key that the server uses for Litestream; it can only work with objects, not create or delete buckets.
+resource "scaleway_iam_application" "backup" {
+  name        = "${var.name}-litestream"
+  description = "Litestream on the web server: SQLite backups"
+}
+
+resource "scaleway_iam_policy" "backup" {
+  name           = "${var.name}-litestream"
+  application_id = scaleway_iam_application.backup.id
+
+  rule {
+    project_ids          = [scaleway_object_bucket.backup.project_id]
+    permission_set_names = ["ObjectStorageBucketsRead", "ObjectStorageObjectsRead", "ObjectStorageObjectsWrite", "ObjectStorageObjectsDelete"]
+  }
+}
+
+resource "scaleway_iam_api_key" "backup" {
+  application_id     = scaleway_iam_application.backup.id
+  default_project_id = scaleway_object_bucket.backup.project_id
+  description        = "Litestream on ${var.name}-web"
 }

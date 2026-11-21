@@ -1,5 +1,6 @@
 #cloud-config
-# Stardust web server: 2 GB swap, Docker, Caddy (static site + HTTPS) and a Redis sidecar for sessions.
+# Stardust web server: 2 GB swap, Docker, Caddy (static site + HTTPS), a Redis sidecar for sessions,
+# and Litestream, which streams the SQLite database in /opt/app/data to Object Storage.
 package_update: true
 packages:
   - docker.io
@@ -11,7 +12,20 @@ write_files:
     permissions: "0600"
     content: |
       REDIS_PASSWORD=${redis_password}
-      DATABASE_URL=${database_url}
+      DATABASE_PATH=/data/app.db
+      LITESTREAM_ACCESS_KEY_ID=${backup_key_id}
+      LITESTREAM_SECRET_ACCESS_KEY=${backup_secret}
+
+  - path: /opt/app/litestream.yml
+    content: |
+      dbs:
+        - path: /data/app.db
+          replicas:
+            - type: s3
+              bucket: ${backup_bucket}
+              path: app.db
+              endpoint: https://s3.${region}.scw.cloud
+              region: ${region}
 
   - path: /opt/app/Caddyfile
     content: |
@@ -60,14 +74,42 @@ write_files:
             - redis_data:/data
           mem_limit: 96m
 
-        # Your future app goes here; it gets REDIS_URL and DATABASE_URL from .env:
+        # On a fresh server: pull the database back from the bucket (no-op if there is no backup yet).
+        litestream-restore:
+          image: litestream/litestream:0.3.13
+          command: restore -config /etc/litestream.yml -if-db-not-exists -if-replica-exists /data/app.db
+          env_file: .env
+          volumes:
+            - ./litestream.yml:/etc/litestream.yml:ro
+            - ./data:/data
+          restart: "no"
+
+        # Streams every change of /data/app.db to the bucket, about once a second.
+        litestream:
+          image: litestream/litestream:0.3.13
+          command: replicate -config /etc/litestream.yml
+          restart: unless-stopped
+          env_file: .env
+          volumes:
+            - ./litestream.yml:/etc/litestream.yml:ro
+            - ./data:/data
+          depends_on:
+            litestream-restore:
+              condition: service_completed_successfully
+          mem_limit: 64m
+
+        # Your future app goes here; it gets DATABASE_PATH (SQLite) and REDIS_PASSWORD from .env:
         # app:
         #   build: ./site/server
         #   restart: unless-stopped
         #   env_file: .env
         #   environment:
         #     REDIS_URL: redis://:$${REDIS_PASSWORD}@redis:6379
-        #   depends_on: [redis]
+        #   volumes:
+        #     - ./data:/data
+        #   depends_on:
+        #     redis: { condition: service_started }
+        #     litestream-restore: { condition: service_completed_successfully }
         #   mem_limit: 256m
 
       volumes:
@@ -89,4 +131,5 @@ runcmd:
   # Site + containers
   - systemctl enable --now docker
   - git clone --depth 1 ${repo_url} /opt/app/site
+  - mkdir -p /opt/app/data
   - cd /opt/app && docker compose up -d

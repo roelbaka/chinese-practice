@@ -11,14 +11,9 @@ output "ssh" {
   value = "ssh root@${scaleway_instance_ip.web.address}"
 }
 
-output "database_host" {
-  value = "${scaleway_rdb_instance.db.load_balancer[0].ip}:${scaleway_rdb_instance.db.load_balancer[0].port}"
-}
-
-output "database_url" {
-  description = "Also written to /opt/app/.env on the server."
-  value       = "postgresql://${var.db_user}:${random_password.db.result}@${scaleway_rdb_instance.db.load_balancer[0].ip}:${scaleway_rdb_instance.db.load_balancer[0].port}/${var.db_name}?sslmode=require"
-  sensitive   = true
+output "backup_bucket" {
+  description = "Object Storage bucket with the Litestream replica of the SQLite database."
+  value       = scaleway_object_bucket.backup.name
 }
 
 output "redis_password" {

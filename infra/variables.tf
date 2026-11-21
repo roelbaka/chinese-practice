@@ -1,5 +1,5 @@
 variable "region" {
-  description = "Scaleway region (managed database lives here)."
+  description = "Scaleway region (Object Storage bucket for the SQLite backups)."
   type        = string
   default     = "nl-ams"
 }
@@ -37,20 +37,4 @@ variable "swap_size_gb" {
   description = "Swap file on the server."
   type        = number
   default     = 2
-}
-
-variable "db_name" {
-  type    = string
-  default = "chinese"
-}
-
-variable "db_user" {
-  type    = string
-  default = "chinese"
-}
-
-variable "db_engine" {
-  description = "Managed PostgreSQL version."
-  type        = string
-  default     = "PostgreSQL-16"
 }
