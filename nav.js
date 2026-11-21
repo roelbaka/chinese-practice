@@ -291,6 +291,42 @@
     }
     .snav-btn span { display: block; width: 20px; height: 2px; border-radius: 2px; background: var(--text, #eee); }
     .snav-btn:hover { border-color: var(--accent, #e94560); background: var(--card-hover, #222244); }
+    .sacct {
+      position: fixed; top: .75rem; right: .75rem; z-index: 1000; height: 44px; box-sizing: border-box;
+      display: flex; align-items: center; gap: .5rem; padding: 0 .9rem; border-radius: 10px; cursor: pointer;
+      background: var(--card, #1a1a2e); color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
+      box-shadow: 0 1px 3px rgba(0,0,0,.12); font: 500 .9rem var(--menu-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+      text-decoration: none;
+    }
+    .sacct:hover { border-color: var(--accent, #e94560); background: var(--card-hover, #222244); }
+    .sacct svg { width: 18px; height: 18px; flex-shrink: 0; }
+    .sacct.in { padding: 0 .35rem 0 .35rem; gap: .45rem; }
+    .sacct .av {
+      width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center;
+      background: var(--accent, #e94560); color: #fff; font-weight: 700; font-size: .95rem;
+    }
+    .sacct .nm { max-width: 9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: .45rem; }
+    .sacct-pop {
+      position: fixed; top: 3.6rem; right: .75rem; z-index: 1000; min-width: 14rem; padding: .75rem;
+      background: var(--card, #1a1a2e); color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
+      border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.25);
+      font: .88rem var(--menu-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+    }
+    .sacct-pop[hidden] { display: none; }
+    .sacct-pop .em { color: var(--text-muted, #999); font-size: .8rem; margin: .15rem 0 .6rem; word-break: break-all; }
+    .sacct-pop p { margin: 0 0 .7rem; color: var(--text-muted, #999); font-size: .8rem; line-height: 1.4; }
+    .sacct-pop button {
+      width: 100%; padding: .5rem; border-radius: 8px; cursor: pointer; font: inherit;
+      background: transparent; color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
+    }
+    .sacct-pop button:hover { border-color: var(--accent, #e94560); }
+    body.snav-locked .sacct, body.snav-locked .sacct-pop { display: none; }
+    @media (max-width: 600px) {
+      .sacct { top: .5rem; right: .5rem; height: 40px; padding: 0 .7rem; font-size: .82rem; }
+      .sacct.in .nm { display: none; }
+      .sacct .av { width: 30px; height: 30px; }
+      .sacct-pop { top: 3.2rem; right: .5rem; }
+    }
     .snav {
       position: fixed; inset: 0; z-index: 1001; background: var(--bg, #0f0f0f); color: var(--text, #eee);
       display: flex; flex-direction: column; opacity: 0; visibility: hidden; transition: opacity .2s, visibility .2s;
@@ -528,6 +564,39 @@
     });
 
     document.body.append(btn, overlay);
+    buildAccountButton();
+  }
+
+  /** Top-right: "Sign in" when signed out; your initial with a small sign-out panel when signed in. */
+  function buildAccountButton() {
+    const G = `<svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.6 5.4 2.7 13.3l7.9 6.1C12.5 13.6 17.8 9.5 24 9.5z"/><path fill="#4285F4" d="M46.1 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.4c-.5 2.9-2.2 5.3-4.6 6.9l7.4 5.7c4.3-4 6.9-9.9 6.9-17.1z"/><path fill="#FBBC05" d="M10.6 28.6c-.5-1.4-.8-3-.8-4.6s.3-3.2.8-4.6l-7.9-6.1C1 16.6 0 20.2 0 24s1 7.4 2.7 10.7l7.9-6.1z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.4-5.7c-2.1 1.4-4.8 2.3-8.5 2.3-6.2 0-11.5-4.1-13.4-9.8l-7.9 6.1C6.6 42.6 14.6 48 24 48z"/></svg>`;
+    Account.ready.then(({ available, user }) => {
+      if (!available) return;
+      const here = location.pathname + location.search + location.hash;
+      if (!user) {
+        const a = el(`<a class="sacct" title="Save your progress to your account and use it on every device">${G}<span>Sign in</span></a>`);
+        a.href = "/auth/login?return=" + encodeURIComponent(here);
+        a.addEventListener("click", () => { a.href = "/auth/login?return=" + encodeURIComponent(location.pathname + location.search + location.hash); });
+        document.body.append(a);
+        return;
+      }
+      const name = (user.name || user.email).trim();
+      const first = name.split(/\s+/)[0];
+      const b = el(`<button type="button" class="sacct in" aria-haspopup="true" aria-expanded="false"><span class="av"></span><span class="nm"></span></button>`);
+      b.querySelector(".av").textContent = first.charAt(0).toUpperCase();
+      b.querySelector(".nm").textContent = first;
+      b.title = `Signed in as ${user.email}`;
+      const pop = el(`<div class="sacct-pop" hidden><strong></strong><div class="em"></div><p>Your progress is saved to your account and shared between your devices.</p><button type="button">Sign out</button></div>`);
+      pop.querySelector("strong").textContent = name;
+      pop.querySelector(".em").textContent = user.email;
+      const toggle = (open) => { pop.hidden = !open; b.setAttribute("aria-expanded", String(open)); };
+      b.addEventListener("click", (e) => { e.stopPropagation(); toggle(pop.hidden); });
+      pop.addEventListener("click", (e) => e.stopPropagation());
+      pop.querySelector("button").addEventListener("click", () => Account.signOut());
+      document.addEventListener("click", () => toggle(false));
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape") toggle(false); });
+      document.body.append(b, pop);
+    });
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", build);
