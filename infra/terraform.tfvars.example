@@ -1,6 +1,10 @@
 # Copy to terraform.tfvars (that file is git-ignored) and fill in.
 ssh_public_key = "ssh-ed25519 AAAA... you@laptop"
 
+# Key of the Litestream IAM application (object read/write only).
+litestream_access_key_id = "SCW..."
+litestream_secret_key    = "..."
+
 # The domain defaults to xuexi.nl (DNS records are created automatically). Set "" for IP-only.
 # domain = "xuexi.nl"
 

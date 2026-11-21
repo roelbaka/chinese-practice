@@ -39,8 +39,12 @@ and tick **apply**. It uses the `production` environment:
 | `TF_STATE_BUCKET` | variable | name of the Object Storage bucket for the state |
 
 The IAM policy of `xuexi` needs: InstancesFullAccess, SSHKeysFullAccess, DomainsDNSFullAccess (for the
-xuexi.nl records), ObjectStorageFullAccess (state and backup buckets) and IAMManager (to create the
-Litestream key for the server).
+xuexi.nl records), ObjectStorageFullAccess (state and backup buckets).
+
+Litestream on the server uses its own key: an IAM application with only ObjectStorageBucketsRead,
+ObjectStorageObjectsRead, ObjectStorageObjectsWrite and ObjectStorageObjectsDelete on the project.
+Its key is in the secrets `LIFESTREAMSCWKEYID` and `LIFESTREAMSCWSECRET` (locally:
+`litestream_access_key_id` and `litestream_secret_key` in terraform.tfvars).
 
 After `apply`:
 

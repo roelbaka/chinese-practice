@@ -60,8 +60,8 @@ resource "scaleway_instance_server" "web" {
       redis_password = random_password.redis.result
       backup_bucket  = scaleway_object_bucket.backup.name
       region         = var.region
-      backup_key_id  = scaleway_iam_api_key.backup.access_key
-      backup_secret  = scaleway_iam_api_key.backup.secret_key
+      backup_key_id  = var.litestream_access_key_id
+      backup_secret  = var.litestream_secret_key
     })
   }
 
@@ -71,7 +71,7 @@ resource "scaleway_instance_server" "web" {
     replace_triggered_by = [terraform_data.cloud_init_version]
   }
 
-  depends_on = [scaleway_iam_ssh_key.main, scaleway_iam_policy.backup]
+  depends_on = [scaleway_iam_ssh_key.main]
 }
 
 resource "terraform_data" "cloud_init_version" {
@@ -110,31 +110,4 @@ resource "scaleway_object_bucket" "backup" {
   versioning {
     enabled = false
   }
-}
-
-# A key that the server uses for Litestream; it can only work with objects, not create or delete buckets.
-# IAM lives at organization level; take the organization of the project the API key works in.
-data "scaleway_account_project" "current" {}
-
-resource "scaleway_iam_application" "backup" {
-  organization_id = data.scaleway_account_project.current.organization_id
-  name            = "${var.name}-litestream"
-  description     = "Litestream on the web server: SQLite backups"
-}
-
-resource "scaleway_iam_policy" "backup" {
-  organization_id = data.scaleway_account_project.current.organization_id
-  name            = "${var.name}-litestream"
-  application_id  = scaleway_iam_application.backup.id
-
-  rule {
-    project_ids          = [scaleway_object_bucket.backup.project_id]
-    permission_set_names = ["ObjectStorageBucketsRead", "ObjectStorageObjectsRead", "ObjectStorageObjectsWrite", "ObjectStorageObjectsDelete"]
-  }
-}
-
-resource "scaleway_iam_api_key" "backup" {
-  application_id     = scaleway_iam_application.backup.id
-  default_project_id = scaleway_object_bucket.backup.project_id
-  description        = "Litestream on ${var.name}-web"
 }

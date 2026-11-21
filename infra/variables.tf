@@ -38,3 +38,17 @@ variable "swap_size_gb" {
   type        = number
   default     = 2
 }
+
+# Key of a separate Scaleway IAM application that may only read/write objects (made by hand, so the
+# deploy key needs no IAM rights). In GitHub: secrets LIFESTREAMSCWKEYID and LIFESTREAMSCWSECRET.
+variable "litestream_access_key_id" {
+  description = "Access key Litestream uses for the backup bucket."
+  type        = string
+  sensitive   = true
+}
+
+variable "litestream_secret_key" {
+  description = "Secret key Litestream uses for the backup bucket."
+  type        = string
+  sensitive   = true
+}

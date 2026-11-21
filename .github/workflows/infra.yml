@@ -35,7 +35,8 @@ jobs:
       run:
         working-directory: infra
     env:
-      # Environment secrets: SCWACCESSKEYID, SCWSECRETKEY, SCW_DEFAULT_PROJECT_ID, SSH_PUBLIC_KEY.
+      # Environment secrets: SCWACCESSKEYID, SCWSECRETKEY, SCW_DEFAULT_PROJECT_ID, SSH_PUBLIC_KEY,
+      # LIFESTREAMSCWKEYID and LIFESTREAMSCWSECRET (Litestream key for the SQLite backups).
       # Environment variable: TF_STATE_BUCKET.
       SCW_ACCESS_KEY: ${{ secrets.SCWACCESSKEYID }}
       SCW_SECRET_KEY: ${{ secrets.SCWSECRETKEY }}
@@ -44,6 +45,8 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.SCWACCESSKEYID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.SCWSECRETKEY }}
       TF_VAR_ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY || vars.SSH_PUBLIC_KEY }}
+      TF_VAR_litestream_access_key_id: ${{ secrets.LIFESTREAMSCWKEYID }}
+      TF_VAR_litestream_secret_key: ${{ secrets.LIFESTREAMSCWSECRET }}
       TF_IN_AUTOMATION: "true"
       TF_INPUT: "false"
 
@@ -61,6 +64,8 @@ jobs:
           [ -n "$SCW_SECRET_KEY" ] || missing="$missing SCWSECRETKEY"
           [ -n "$SCW_DEFAULT_PROJECT_ID" ] || missing="$missing SCW_DEFAULT_PROJECT_ID"
           [ -n "$TF_VAR_ssh_public_key" ] || missing="$missing SSH_PUBLIC_KEY"
+          [ -n "$TF_VAR_litestream_access_key_id" ] || missing="$missing LIFESTREAMSCWKEYID"
+          [ -n "$TF_VAR_litestream_secret_key" ] || missing="$missing LIFESTREAMSCWSECRET"
           [ -n "${{ vars.TF_STATE_BUCKET }}" ] || missing="$missing TF_STATE_BUCKET"
           if [ -n "$missing" ]; then
             echo "::error::Missing in the 'production' environment:$missing"
