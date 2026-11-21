@@ -19,6 +19,7 @@ const SYNC_KEYS = [
     'quizShowPinyin',
     'journalTrack',
     'homeworkClass',
+    'theme',
 ];
 const MAX_VALUE_BYTES = 2_000_000;
 const SESSION_NAME = 'xuexi_sid';

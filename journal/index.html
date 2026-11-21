@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="journal">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../theme.css">
+<link rel="icon" type="image/svg+xml" href="../logo.svg">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <title>课堂笔记 · Class Journal</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +28,14 @@
     --text: var(--ink); --text-muted: var(--ink-faint); --border: var(--rule); --accent: var(--red);
     --menu-font: "Source Serif 4", "Noto Serif SC", Georgia, serif;
   }
+  /* Dark paper: when chosen with the light/dark toggle (nav.js), or by the system if nothing was chosen. */
+  :root[data-theme="dark"] {
+    --paper: #1c1915; --sheet: #25211c; --ink: #ece4d6; --ink-soft: #b7ab9a; --ink-faint: #8a7f71;
+    --rule: #3a342c; --red: #e0705c; --red-soft: #3b2721; --pinyin: #d6b25e; --english: #8fbfcf;
+    --card-hover: #2e2923;
+  }
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme]) {
       --paper: #1c1915; --sheet: #25211c; --ink: #ece4d6; --ink-soft: #b7ab9a; --ink-faint: #8a7f71;
       --rule: #3a342c; --red: #e0705c; --red-soft: #3b2721; --pinyin: #d6b25e; --english: #8fbfcf;
       --card-hover: #2e2923;

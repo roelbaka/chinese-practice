@@ -1,0 +1,42 @@
+/*
+ * Light mode. The site is dark by default; the class journal follows the system unless you choose.
+ * The choice is stored in localStorage "theme" ("light" / "dark") and put on <html data-theme="…">
+ * by a one-line script in each page's <head> (so there is no flash); the toggle lives in nav.js.
+ * Most colours come from each page's CSS variables, so this mostly redefines those.
+ */
+:root[data-theme="light"]:not(.journal) {
+  color-scheme: light;
+  --bg: #f4f5f9;
+  --card: #ffffff;
+  --card-hover: #eef0f8;
+  --accent: #d6334f;
+  --text: #1d1e27;
+  --text-muted: #646979;
+  --border: #dcdfe9;
+  --pinyin: #9a6200;
+  --english: #1d68a6;
+  --success: #2e8b3e;
+}
+
+/* Hard-coded dark backgrounds on the class and lesson pages */
+:root[data-theme="light"]:not(.journal) header {
+  background: linear-gradient(135deg, #ffffff 0%, #eceff9 100%) !important;
+}
+:root[data-theme="light"]:not(.journal) body > nav,
+:root[data-theme="light"] .mode-bar { background: #eceef5 !important; }
+:root[data-theme="light"] .quiz-option.correct { background: #def3e1; }
+:root[data-theme="light"] .quiz-option.wrong { background: #fde2e1; }
+:root[data-theme="light"] .card-grid.as-table .card:nth-child(odd) { background: rgba(0, 0, 0, .02); }
+:root[data-theme="light"] .snav-btn, :root[data-theme="light"] .sacct, :root[data-theme="light"] .stheme {
+  box-shadow: 0 1px 4px rgba(20, 30, 60, .12);
+}
+
+/* Homework page */
+:root[data-theme="light"] .hw .body { color: var(--text); }
+:root[data-theme="light"] .hw .body a, :root[data-theme="light"] .hw .links a { color: #1d68a6; }
+
+/* Admin pages */
+:root[data-theme="light"] .py { color: #9a6200; }
+:root[data-theme="light"] .en { color: #1d68a6; }
+:root[data-theme="light"] .good { color: #2e8b3e; }
+:root[data-theme="light"] .hwform input[type=date] { color-scheme: light; }

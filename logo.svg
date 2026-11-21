@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 136" role="img" aria-labelledby="t">
+  <title id="t">学习 · xuéxí</title>
+  <!-- 学习, drawn as single-weight strokes (no font needed) on a red tile.
+       One line carries both characters: the roof of 学 runs on into the top line of 习, and the
+       three strokes of 学 sit across the whole width, as if 学习 were one character. -->
+  <rect width="256" height="136" rx="28" fill="#e94560"/>
+  <g fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- the shared line: left edge of 学's roof, the roof itself, 习's top line, 习's right side and hook -->
+    <path d="M61 58 V46 H197 V108 Q197 119 184 114"/>
+    <!-- the three strokes on top of 学, spread over both characters as if they were one -->
+    <path d="M71 21 L77 34"/>
+    <path d="M129 19 L130 32"/>
+    <path d="M188 19 L178 34"/>
+    <!-- 学 -->
+    <path d="M79 64 H113 L97 76"/>
+    <path d="M97 76 V104 Q97 113 88 110"/>
+    <path d="M59 88 H135"/>
+    <!-- 习 -->
+    <path d="M149 63 L161 74"/>
+    <path d="M139 104 L181 80"/>
+  </g>
+</svg>

@@ -21,7 +21,7 @@
   // carried along in the URL fragment, which is never sent to a server. xuexi.nl adds the keys it
   // does not have yet and puts the original #anchor back.
   const SITE = "https://xuexi.nl";
-  const KEYS = ["chinesePractice.mistakes.v1", "chinesePractice.chapters.v1", "quizShowPinyin", "journalTrack", "homeworkClass"];
+  const KEYS = ["chinesePractice.mistakes.v1", "chinesePractice.chapters.v1", "quizShowPinyin", "journalTrack", "homeworkClass", "theme"];
   const XFER = "#xfer=";
 
   if (location.hostname === "roelbaka.github.io") {
@@ -291,8 +291,17 @@
     }
     .snav-btn span { display: block; width: 20px; height: 2px; border-radius: 2px; background: var(--text, #eee); }
     .snav-btn:hover { border-color: var(--accent, #e94560); background: var(--card-hover, #222244); }
+    .stheme {
+      position: fixed; top: .75rem; right: .75rem; z-index: 1000; width: 44px; height: 44px; border-radius: 10px;
+      display: grid; place-items: center; cursor: pointer; font-size: 1.1rem; line-height: 1;
+      background: var(--card, #1a1a2e); color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
+      box-shadow: 0 1px 3px rgba(0,0,0,.12);
+    }
+    .stheme:hover { border-color: var(--accent, #e94560); background: var(--card-hover, #222244); }
+    .stheme svg { width: 20px; height: 20px; }
+    body.snav-locked .stheme { display: none; }
     .sacct {
-      position: fixed; top: .75rem; right: .75rem; z-index: 1000; height: 44px; box-sizing: border-box;
+      position: fixed; top: .75rem; right: calc(.75rem + 44px + .5rem); z-index: 1000; height: 44px; box-sizing: border-box;
       display: flex; align-items: center; gap: .5rem; padding: 0 .9rem; border-radius: 10px; cursor: pointer;
       background: var(--card, #1a1a2e); color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
       box-shadow: 0 1px 3px rgba(0,0,0,.12); font: 500 .9rem var(--menu-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
@@ -307,7 +316,7 @@
     }
     .sacct .nm { max-width: 9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: .45rem; }
     .sacct-pop {
-      position: fixed; top: 3.6rem; right: .75rem; z-index: 1000; min-width: 14rem; padding: .75rem;
+      position: fixed; top: 3.6rem; right: calc(.75rem + 44px + .5rem); z-index: 1000; min-width: 14rem; padding: .75rem;
       background: var(--card, #1a1a2e); color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
       border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.25);
       font: .88rem var(--menu-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
@@ -326,10 +335,11 @@
     }
     body.snav-locked .sacct, body.snav-locked .sacct-pop { display: none; }
     @media (max-width: 600px) {
-      .sacct { top: .5rem; right: .5rem; height: 40px; padding: 0 .7rem; font-size: .82rem; }
+      .stheme { top: .5rem; right: .5rem; width: 40px; height: 40px; }
+      .sacct { top: .5rem; right: calc(.5rem + 40px + .4rem); height: 40px; padding: 0 .7rem; font-size: .82rem; }
       .sacct.in .nm { display: none; }
       .sacct .av { width: 30px; height: 30px; }
-      .sacct-pop { top: 3.2rem; right: .5rem; }
+      .sacct-pop { top: 3.2rem; right: calc(.5rem + 40px + .4rem); }
     }
     .snav {
       position: fixed; inset: 0; z-index: 1001; background: var(--bg, #0f0f0f); color: var(--text, #eee);
@@ -343,6 +353,7 @@
     }
     .snav-home { color: var(--text, #eee); text-decoration: none; font-size: 1.2rem; font-weight: 300; letter-spacing: 1px; }
     .snav-home b { color: var(--accent, #e94560); font-weight: 600; }
+    .snav-home img { display: block; height: 34px; width: auto; }
     .snav-journal {
       margin-left: auto; color: var(--text, #eee); text-decoration: none; font-size: .9rem;
       border: 1px solid var(--border, #2a2a4a); border-radius: 999px; padding: .35rem .9rem;
@@ -492,7 +503,7 @@
     const btn = el(`<button type="button" class="snav-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>`);
     const overlay = el(`<div class="snav" role="dialog" aria-modal="true" aria-label="Site menu">
       <div class="snav-top">
-        <a class="snav-home" href="${esc(ROOT.href)}">练习 <b>中文</b></a>
+        <a class="snav-home" href="${esc(ROOT.href)}"><img src="${esc(new URL("logo.svg", ROOT).href)}" alt="学习 · Home"></a>
         <a class="snav-journal" href="${esc(new URL("homework/", ROOT).href)}">作业 · Homework</a>
         <a class="snav-journal snav-mistakes" href="${esc(new URL("journal/", ROOT).href)}">课堂笔记 · Class journal</a>
         <a class="snav-journal snav-mistakes" href="${esc(new URL("mistakes/lesson.html?id=mistakes", ROOT).href)}">错题 · Mistakes<span class="snav-count"></span></a>
@@ -569,7 +580,36 @@
     });
 
     document.body.append(btn, overlay);
+    buildThemeButton();
     buildAccountButton();
+  }
+
+  /**
+   * Light / dark toggle, top right. The choice goes to localStorage "theme" and <html data-theme>;
+   * theme.css holds the light colours, and each page's <head> applies the choice before drawing.
+   * Without a choice the site is dark, except the class journal, which follows the system.
+   */
+  function buildThemeButton() {
+    const root = document.documentElement;
+    const SUN = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>`;
+    const MOON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg>`;
+    const current = () => root.getAttribute("data-theme")
+      || (root.classList.contains("journal") && !matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    const b = el(`<button type="button" class="stheme"></button>`);
+    const paint = () => {
+      const light = current() === "light";
+      b.innerHTML = light ? MOON : SUN;
+      b.title = light ? "Switch to dark mode" : "Switch to light mode";
+      b.setAttribute("aria-label", b.title);
+    };
+    b.addEventListener("click", () => {
+      const next = current() === "light" ? "dark" : "light";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      paint();
+    });
+    paint();
+    document.body.append(b);
   }
 
   /** Top-right: "Sign in" when signed out; your initial with a small sign-out panel when signed in. */

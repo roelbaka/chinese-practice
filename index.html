@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="theme.css">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <title>练习中文 · Chinese Practice</title>
 <style>
   :root {
@@ -26,12 +29,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: safe center;
+    padding-bottom: 3rem;
   }
 
   header {
     text-align: center;
     margin-bottom: 3rem;
+    padding-top: 4.5rem;
   }
 
   header h1 {
@@ -39,6 +44,8 @@
     font-weight: 300;
     letter-spacing: 3px;
   }
+
+  header h1 .logo { display: block; height: 104px; width: auto; margin: 0 auto; }
 
   header h1 span {
     color: var(--accent);
@@ -117,6 +124,7 @@
 
   @media (max-width: 600px) {
     header h1 { font-size: 2rem; }
+    header h1 .logo { height: 80px; }
     .classes { gap: 1rem; }
     .class-card { width: 100%; max-width: 340px; padding: 2rem 1.5rem; }
   }
@@ -125,7 +133,7 @@
 <body>
 
 <header>
-  <h1>练习 <span>中文</span></h1>
+  <h1><img class="logo" src="logo.svg" alt="学习 · xuéxí"></h1>
   <p>Choose your class</p>
 </header>
 

@@ -202,6 +202,9 @@ function page(string $title, string $body): void
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
+<link rel="stylesheet" href="/theme.css">
+<link rel="icon" type="image/svg+xml" href="/logo.svg">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <title>$t · Admin · 练习中文</title>
 <style>
   :root { --bg:#0f0f0f; --card:#1a1a2e; --card-hover:#222244; --border:#2a2a4a; --text:#eee; --text-muted:#999; --accent:#e94560; }
