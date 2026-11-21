@@ -71,7 +71,7 @@ $body = ($flash ? '<div class="flash">' . h($flash) . '</div>' : '')
     . '<div class="card"><div class="v">' . $totals['users'] . '</div><div class="l">Registered users</div></div>'
     . '<div class="card"><div class="v">' . $totals['active'] . '</div><div class="l">Practised in the last 7 days</div></div>'
     . '<div class="card"><div class="v">' . $totals['answers'] . '</div><div class="l">Answers in total</div></div>'
-    . '<div class="card"><div class="v">' . count($admins) . '</div><div class="l">Admins</div></div>'
+    . '<a class="card row" href="/admin/admins"><div class="v">' . count($admins) . '</div><div class="l">Admins · manage →</div></a>'
     . '</div>'
     . '<h2>Users</h2>';
 

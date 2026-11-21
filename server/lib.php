@@ -4,7 +4,7 @@
  *
  *   /auth/login     → Google sign-in        /api/me        → who is signed in
  *   /auth/google/callback → from Google     /api/progress  → GET / POST the practice progress
- *   /auth/logout                             /admin, /admin/user → admin pages (server/admin.php)
+ *   /auth/logout                             /admin, /admin/user, /admin/admins → admin pages
  *
  * Sessions live in Redis (see server/php/php.ini); users and progress in SQLite at DATABASE_PATH,
  * which Litestream streams to Object Storage. Signed-out visitors never reach this code: the site

@@ -1,7 +1,8 @@
 <?php
 /*
  * Admin pages (/admin, /admin/user): who signed in, and their progress.
- * Admins are the Google accounts whose email hash is in the `admins` table (see server/add-admin.php),
+ * Admins are the Google accounts whose email hash is in the `admins` table (managed on /admin/admins,
+ * or with server/add-admin.php on the server),
  * so no admin address is stored readable anywhere.
  *
  * Everything shown here comes from the users' own localStorage, so it is untrusted: cast numbers,
@@ -230,13 +231,17 @@ function page(string $title, string $body): void
   .pill { display:inline-block; padding:.05rem .5rem; border-radius:999px; border:1px solid var(--border); font-size:.75rem; color:var(--text-muted); }
   .empty { padding:1.2rem; color:var(--text-muted); }
   form.inline { display:inline; margin:0; }
+  .addform { display:flex; gap:.5rem; flex-wrap:wrap; }
+  .addform input { flex:1; min-width:14rem; font:inherit; padding:.5rem .75rem; border-radius:8px; background:var(--card); color:var(--text); border:1px solid var(--border); }
+  .addform input:focus { outline:none; border-color:var(--accent); }
+  .addform .btn { font-size:.9rem; padding:.5rem 1rem; }
   .btn { font:inherit; font-size:.8rem; padding:.25rem .65rem; border-radius:8px; cursor:pointer; background:transparent; color:var(--text); border:1px solid var(--border); }
   .btn:hover { border-color:var(--accent); }
   .pill.admin { border-color:var(--accent); color:var(--accent); }
   .flash { background:var(--card); border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:8px; padding:.6rem .9rem; margin-bottom:1rem; }
 </style>
 </head><body>
-<header><div class="crumbs"><a href="/">练习中文</a> · <a href="/admin">Admin</a></div><h1>管理 <b>Admin</b></h1></header>
+<header><div class="crumbs"><a href="/">练习中文</a> · <a href="/admin">Users</a> · <a href="/admin/admins">Admins</a></div><h1>管理 <b>Admin</b></h1></header>
 <main>$body</main>
 <script src="/nav.js" defer></script>
 </body></html>
