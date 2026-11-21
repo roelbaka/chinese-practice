@@ -19,7 +19,7 @@
 }
 
 /* Hard-coded dark backgrounds on the class and lesson pages */
-:root[data-theme="light"]:not(.journal) header {
+:root[data-theme="light"]:not(.journal) header:not(.plain) {
   background: linear-gradient(135deg, #ffffff 0%, #eceff9 100%) !important;
 }
 :root[data-theme="light"]:not(.journal) body > nav,
