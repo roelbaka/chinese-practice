@@ -51,6 +51,8 @@ After `apply`:
 
 - The A records for `xuexi.nl` and `www.xuexi.nl` point at the server automatically; Caddy fetches HTTPS certificates once DNS has spread (usually a few minutes). `www` redirects to the bare domain. Changing `domain` later recreates the server, because cloud-init only runs on first boot.
 - `tofu output -raw redis_password` gives the Redis password; it and the Litestream key are also in `/opt/app/.env` on the server.
+- Give a Google account access to `/admin` (only its SHA-256 hash is stored):
+  `cd /opt/app && docker compose exec php php /srv/site/server/add-admin.php someone@gmail.com`
 - Open the database with `ssh root@<ip>` and `sqlite3 /opt/app/data/app.db`. Changing `cloud-init.yaml` replaces the server; Litestream restores the database from the bucket on the new one.
 - On the server, everything is in `/opt/app` (`docker compose ps`, `docker compose logs`). The site updates itself: cron runs `git pull` every 5 minutes.
 

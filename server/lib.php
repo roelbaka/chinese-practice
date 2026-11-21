@@ -4,7 +4,7 @@
  *
  *   /auth/login     → Google sign-in        /api/me        → who is signed in
  *   /auth/google/callback → from Google     /api/progress  → GET / POST the practice progress
- *   /auth/logout
+ *   /auth/logout                             /admin, /admin/user → admin pages (server/admin.php)
  *
  * Sessions live in Redis (see server/php/php.ini); users and progress in SQLite at DATABASE_PATH,
  * which Litestream streams to Object Storage. Signed-out visitors never reach this code: the site
@@ -85,6 +85,10 @@ function db(): PDO
         created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
         last_login TEXT
     )');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS admins (
+        email_hash TEXT PRIMARY KEY,           -- email_hash() of a Google account with access to /admin
+        added_at   TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+    )');
     $pdo->exec('CREATE TABLE IF NOT EXISTS progress (
         user_id    TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
         key        TEXT NOT NULL,              -- one of SYNC_KEYS
@@ -93,6 +97,12 @@ function db(): PDO
         PRIMARY KEY (user_id, key)
     )');
     return $pdo;
+}
+
+/** How admin emails are stored: never the address itself. */
+function email_hash(string $email): string
+{
+    return hash('sha256', strtolower(trim($email)));
 }
 
 function json_out(mixed $data, int $status = 200): never

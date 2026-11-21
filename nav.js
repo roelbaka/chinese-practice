@@ -319,7 +319,11 @@
       width: 100%; padding: .5rem; border-radius: 8px; cursor: pointer; font: inherit;
       background: transparent; color: var(--text, #eee); border: 1px solid var(--border, #2a2a4a);
     }
-    .sacct-pop button:hover { border-color: var(--accent, #e94560); }
+    .sacct-pop button:hover, .sacct-pop .adm:hover { border-color: var(--accent, #e94560); }
+    .sacct-pop .adm {
+      display: block; text-align: center; margin-bottom: .5rem; padding: .5rem; border-radius: 8px;
+      color: var(--text, #eee); text-decoration: none; border: 1px solid var(--border, #2a2a4a);
+    }
     body.snav-locked .sacct, body.snav-locked .sacct-pop { display: none; }
     @media (max-width: 600px) {
       .sacct { top: .5rem; right: .5rem; height: 40px; padding: 0 .7rem; font-size: .82rem; }
@@ -586,7 +590,7 @@
       b.querySelector(".av").textContent = first.charAt(0).toUpperCase();
       b.querySelector(".nm").textContent = first;
       b.title = `Signed in as ${user.email}`;
-      const pop = el(`<div class="sacct-pop" hidden><strong></strong><div class="em"></div><p>Your progress is saved to your account and shared between your devices.</p><button type="button">Sign out</button></div>`);
+      const pop = el(`<div class="sacct-pop" hidden><strong></strong><div class="em"></div><p>Your progress is saved to your account and shared between your devices.</p>${user.admin ? `<a class="adm" href="/admin">Admin · users and progress</a>` : ""}<button type="button">Sign out</button></div>`);
       pop.querySelector("strong").textContent = name;
       pop.querySelector(".em").textContent = user.email;
       const toggle = (open) => { pop.hidden = !open; b.setAttribute("aria-expanded", String(open)); };

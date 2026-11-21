@@ -50,11 +50,11 @@ write_files:
           respond 404
         }
 
-        # The PHP backend: /auth/login → auth/login.php, /api/progress → api/progress.php, …
-        @php path /api/* /auth/*
+        # The PHP backend: /auth/login → auth/login.php, /api/progress → api/progress.php, /admin → admin/index.php
+        @php path /api/* /auth/* /admin /admin/*
         handle @php {
           php_fastcgi php:9000 {
-            try_files {path}.php {path}
+            try_files {path}.php {path}/index.php {path}
           }
         }
 
