@@ -52,3 +52,16 @@ variable "litestream_secret_key" {
   type        = string
   sensitive   = true
 }
+
+# Google sign-in (OAuth client in Google Cloud). Redirect URI: https://<domain>/auth/google/callback.
+# In GitHub: secrets GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET.
+variable "google_client_id" {
+  description = "Google OAuth client id."
+  type        = string
+}
+
+variable "google_client_secret" {
+  description = "Google OAuth client secret."
+  type        = string
+  sensitive   = true
+}

@@ -54,14 +54,17 @@ resource "scaleway_instance_server" "web" {
 
   user_data = {
     cloud-init = templatefile("${path.module}/cloud-init.yaml", {
-      swap_size_gb   = var.swap_size_gb
-      repo_url       = var.repo_url
-      domain         = var.domain
-      redis_password = random_password.redis.result
-      backup_bucket  = scaleway_object_bucket.backup.name
-      region         = var.region
-      backup_key_id  = var.litestream_access_key_id
-      backup_secret  = var.litestream_secret_key
+      swap_size_gb         = var.swap_size_gb
+      repo_url             = var.repo_url
+      domain               = var.domain
+      redis_password       = random_password.redis.result
+      backup_bucket        = scaleway_object_bucket.backup.name
+      region               = var.region
+      backup_key_id        = var.litestream_access_key_id
+      backup_secret        = var.litestream_secret_key
+      base_url             = var.domain != "" ? "https://${var.domain}" : "http://${scaleway_instance_ip.web.address}"
+      google_client_id     = var.google_client_id
+      google_client_secret = var.google_client_secret
     })
   }
 

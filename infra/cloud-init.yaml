@@ -15,6 +15,9 @@ write_files:
       DATABASE_PATH=/data/app.db
       LITESTREAM_ACCESS_KEY_ID=${backup_key_id}
       LITESTREAM_SECRET_ACCESS_KEY=${backup_secret}
+      BASE_URL=${base_url}
+      GOOGLE_CLIENT_ID=${google_client_id}
+      GOOGLE_CLIENT_SECRET=${google_client_secret}
 
   - path: /opt/app/litestream.yml
     content: |
@@ -39,13 +42,25 @@ write_files:
       :80 {
 %{ endif ~}
         root * /srv/site
-        file_server
         encode gzip
-        # Never serve the repo's infra and git files.
-        @private path /infra/* /.git/* /.github/*
-        respond @private 404
-        # Later: send /api/* to the app container, e.g.
-        # reverse_proxy /api/* app:3000
+
+        # Never serve the repo's infra, server code and git files.
+        @private path /infra/* /server/* /.git/* /.github/* *.md
+        handle @private {
+          respond 404
+        }
+
+        # The PHP backend: /auth/login → auth/login.php, /api/progress → api/progress.php, …
+        @php path /api/* /auth/*
+        handle @php {
+          php_fastcgi php:9000 {
+            try_files {path}.php {path}
+          }
+        }
+
+        handle {
+          file_server
+        }
       }
 
   # Keep the site in step with the repo (Caddy reads the files live, no restart needed).
@@ -79,10 +94,24 @@ write_files:
             - redis_data:/data
           mem_limit: 96m
 
+        # PHP backend (sign-in, progress). Reads the same files as Caddy; sessions go to Redis.
+        php:
+          build: ./site/server/php
+          restart: unless-stopped
+          env_file: .env
+          volumes:
+            - ./site:/srv/site:ro
+            - ./data:/data
+          depends_on:
+            redis: { condition: service_started }
+            litestream-restore: { condition: service_completed_successfully }
+          mem_limit: 128m
+
         # On a fresh server: pull the database back from the bucket (no-op if there is no backup yet).
         litestream-restore:
           image: litestream/litestream:0.3.13
           command: restore -config /etc/litestream.yml -if-db-not-exists -if-replica-exists /data/app.db
+          user: "82:82" # www-data in the PHP image, so PHP can write the database
           env_file: .env
           volumes:
             - ./litestream.yml:/etc/litestream.yml:ro
@@ -94,6 +123,7 @@ write_files:
           image: litestream/litestream:0.3.13
           command: replicate -config /etc/litestream.yml
           restart: unless-stopped
+          user: "82:82"
           env_file: .env
           volumes:
             - ./litestream.yml:/etc/litestream.yml:ro
@@ -102,20 +132,6 @@ write_files:
             litestream-restore:
               condition: service_completed_successfully
           mem_limit: 64m
-
-        # Your future app goes here; it gets DATABASE_PATH (SQLite) and REDIS_PASSWORD from .env:
-        # app:
-        #   build: ./site/server
-        #   restart: unless-stopped
-        #   env_file: .env
-        #   environment:
-        #     REDIS_URL: redis://:$${REDIS_PASSWORD}@redis:6379
-        #   volumes:
-        #     - ./data:/data
-        #   depends_on:
-        #     redis: { condition: service_started }
-        #     litestream-restore: { condition: service_completed_successfully }
-        #   mem_limit: 256m
 
       volumes:
         caddy_data:
@@ -137,4 +153,5 @@ runcmd:
   - systemctl enable --now docker
   - git clone --depth 1 ${repo_url} /opt/app/site
   - mkdir -p /opt/app/data
+  - chown 82:82 /opt/app/data
   - cd /opt/app && docker compose up -d

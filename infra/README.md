@@ -6,7 +6,8 @@ The smallest setup for the practice site with sessions and a database (about €
 |---|---|---|
 | Web server | `STARDUST1-S` (1 vCPU, 1 GB RAM, 10 GB SSD) | Ubuntu 24.04, 2 GB swap, Docker |
 | Web / HTTPS | Caddy container | serves this repo as a static site; gets a certificate once `domain` is set |
-| Sessions | Redis container (sidecar) | not exposed; 64 MB, password from `.env` |
+| Backend | PHP-FPM container (`server/php`) | `/auth/*` Google sign-in, `/api/*` progress; code in `auth/`, `api/`, `server/lib.php` |
+| Sessions | Redis container (sidecar) | PHP sessions; not exposed; 64 MB, password from `.env` |
 | Database | SQLite in `/opt/app/data/app.db` on the server | the app opens the file at `DATABASE_PATH` |
 | Backups | Litestream container → private Object Storage bucket | every change within about a second; restored automatically on a new server |
 | DNS | A records `xuexi.nl` and `www.xuexi.nl` | in the existing Scaleway DNS zone |

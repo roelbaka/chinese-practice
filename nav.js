@@ -11,6 +11,9 @@
  * 2. The hamburger menu: a full-screen overlay listing every class, its lessons, and per lesson
  *    the categories and sections (linking to the anchors above). Lesson lists are read from each
  *    class's index.html (.lesson-card links), sections from the lesson's JSON, so nothing goes stale.
+ *
+ * 0. Before all that: the redirect from GitHub Pages to xuexi.nl, and window.Account, which keeps
+ *    the progress on the server for signed-in users (see "0b" below and server/lib.php).
  */
 (function () {
   // ---------- 0. Move from GitHub Pages to xuexi.nl ----------
@@ -36,6 +39,32 @@
     return;
   }
 
+  /** `base` wins; for per-item objects (mistakes, chapter scores) add the items only `extra` has. */
+  function mergeMissing(base, extra) {
+    if (base === null) return extra;
+    if (extra === null) return base;
+    try {
+      const a = JSON.parse(base), b = JSON.parse(extra);
+      if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
+        let n = 0;
+        Object.keys(b).forEach((x) => { if (!(x in a)) { a[x] = b[x]; n++; } });
+        return n ? JSON.stringify(a) : base;
+      }
+    } catch (e) { /* plain value */ }
+    return base;
+  }
+
+  // Pages that load this file with `defer` have already read localStorage: read it again, once.
+  // The mark only lives for one load, so this can never loop.
+  const RELOAD_MARK = "navReloaded";
+  const justReloaded = sessionStorage.getItem(RELOAD_MARK) === location.href;
+  sessionStorage.removeItem(RELOAD_MARK);
+  function reloadIfLate() {
+    if (document.readyState === "loading" || justReloaded) return;
+    sessionStorage.setItem(RELOAD_MARK, location.href);
+    location.reload();
+  }
+
   if (location.hash.startsWith(XFER)) {
     try {
       const { d, h } = JSON.parse(decodeURIComponent(escape(atob(location.hash.slice(XFER.length)))));
@@ -43,24 +72,93 @@
       Object.entries(d || {}).forEach(([k, v]) => {
         if (!KEYS.includes(k) || typeof v !== "string") return;
         const mine = localStorage.getItem(k);
-        if (mine === null) { localStorage.setItem(k, v); added = true; return; }
-        // Both have per-item objects (mistakes, chapters): keep ours, add what is missing.
-        try {
-          const a = JSON.parse(mine), b = JSON.parse(v);
-          if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
-            let n = 0;
-            Object.keys(b).forEach((x) => { if (!(x in a)) { a[x] = b[x]; n++; } });
-            if (n) { localStorage.setItem(k, JSON.stringify(a)); added = true; }
-          }
-        } catch (e) { /* plain value: keep ours */ }
+        const merged = mergeMissing(mine, v);
+        if (merged !== mine) { localStorage.setItem(k, merged); added = true; }
       });
       history.replaceState(null, "", location.pathname + location.search + (h || ""));
-      // Pages that load this file with `defer` have already read localStorage: read it again.
-      if (added && document.readyState !== "loading") location.reload();
+      if (added) reloadIfLate();
     } catch (e) {
       history.replaceState(null, "", location.pathname + location.search);
     }
   }
+
+  // ---------- 0b. Account: progress on the server when signed in ----------
+  // Signed out (or on a host without the PHP backend): everything stays in localStorage, as before.
+  // Signed in with Google: the server (SQLite on xuexi.nl) holds the progress and localStorage is a
+  // working copy. Every write to one of KEYS is sent to /api/progress; on page load the server's copy
+  // replaces the local one. The first sign-in on a device merges what this device already had.
+  const SYNCED_AS = "chinesePractice.syncedAs";
+  const store = Storage.prototype;
+  const rawSet = store.setItem, rawRemove = store.removeItem;
+  let account = null, pending = {}, timer = null;
+
+  function flush() {
+    clearTimeout(timer);
+    const keys = Object.keys(pending);
+    if (!keys.length || !account) return;
+    const body = JSON.stringify(pending);
+    pending = {};
+    fetch("/api/progress", {
+      method: "POST", credentials: "same-origin", keepalive: body.length < 60000,
+      headers: { "Content-Type": "application/json" }, body,
+    }).catch(() => { /* offline: the next write or page load sends it again */ });
+  }
+  function queue(k, v) {
+    if (!account || !KEYS.includes(k)) return;
+    pending[k] = v;
+    clearTimeout(timer);
+    timer = setTimeout(flush, 800);
+  }
+  store.setItem = function (k, v) { rawSet.call(this, k, v); if (this === window.localStorage) queue(String(k), String(v)); };
+  store.removeItem = function (k) { rawRemove.call(this, k); if (this === window.localStorage) queue(String(k), null); };
+  addEventListener("pagehide", flush);
+
+  const accountReady = fetch("/api/me", { credentials: "same-origin" })
+    .then((r) => (r.ok && (r.headers.get("content-type") || "").includes("json") ? r.json() : null))
+    .catch(() => null)
+    .then(async (me) => {
+      if (!me) return { available: false, user: null };
+      if (!me.user) {
+        // Signed out elsewhere (or session expired): don't keep the account's copy on this device.
+        if (localStorage.getItem(SYNCED_AS)) {
+          KEYS.forEach((k) => rawRemove.call(localStorage, k));
+          rawRemove.call(localStorage, SYNCED_AS);
+          reloadIfLate();
+        }
+        return { available: true, user: null };
+      }
+      const server = await fetch("/api/progress", { credentials: "same-origin" }).then((r) => r.json()).catch(() => null);
+      if (!server) return { available: true, user: me.user };
+      const firstTime = localStorage.getItem(SYNCED_AS) !== me.user.email;
+      const push = {};
+      let changed = false;
+      KEYS.forEach((k) => {
+        const local = localStorage.getItem(k);
+        const remote = typeof server[k] === "string" ? server[k] : null;
+        const value = firstTime ? mergeMissing(remote, local) : remote;
+        if (value !== local) {
+          if (value === null) rawRemove.call(localStorage, k); else rawSet.call(localStorage, k, value);
+          changed = true;
+        }
+        if (value !== remote && value !== null) push[k] = value;
+      });
+      rawSet.call(localStorage, SYNCED_AS, me.user.email);
+      account = me.user;
+      Object.assign(pending, push);
+      flush();
+      if (changed) reloadIfLate();
+      return { available: true, user: me.user };
+    });
+
+  /** Sign out: forget the account's copy on this device first, then end the session. */
+  function signOut() {
+    flush();
+    account = null;
+    KEYS.forEach((k) => rawRemove.call(localStorage, k));
+    rawRemove.call(localStorage, SYNCED_AS);
+    location.href = "/auth/logout?return=" + encodeURIComponent(location.pathname + location.search + location.hash);
+  }
+  window.Account = { ready: accountReady, signOut };
 
   // ---------- 1. Topics ----------
 
@@ -210,7 +308,8 @@
       border: 1px solid var(--border, #2a2a4a); border-radius: 999px; padding: .35rem .9rem;
     }
     .snav-journal:hover { border-color: var(--accent, #e94560); }
-    .snav-mistakes { margin-left: 0; }
+    .snav-mistakes, .snav-account { margin-left: 0; }
+    .snav-account[hidden] { display: none; }
     .snav-count:not(:empty) {
       display: inline-block; margin-left: .4rem; min-width: 1.3rem; padding: 0 .35rem; border-radius: 999px;
       background: var(--accent, #e94560); color: #fff; font-size: .75rem; text-align: center;
@@ -356,11 +455,30 @@
         <a class="snav-home" href="${esc(ROOT.href)}">练习 <b>中文</b></a>
         <a class="snav-journal" href="${esc(new URL("journal/", ROOT).href)}">课堂笔记 · Class journal</a>
         <a class="snav-journal snav-mistakes" href="${esc(new URL("mistakes/lesson.html?id=mistakes", ROOT).href)}">错题 · Mistakes<span class="snav-count"></span></a>
+        <a class="snav-journal snav-account" hidden></a>
         <button type="button" class="snav-close" aria-label="Close menu">&times;</button>
       </div>
       <div class="snav-body"><div class="snav-inner"></div></div>
     </div>`);
     const inner = overlay.querySelector(".snav-inner");
+
+    // Sign in / out (only where the backend exists, i.e. on xuexi.nl).
+    const acc = overlay.querySelector(".snav-account");
+    Account.ready.then(({ available, user }) => {
+      if (!available) return;
+      const here = location.pathname + location.search + location.hash;
+      if (user) {
+        acc.textContent = "Sign out";
+        acc.title = `Signed in as ${user.email}: your progress is saved to your account`;
+        acc.href = "/auth/logout";
+        acc.addEventListener("click", (e) => { e.preventDefault(); Account.signOut(); });
+      } else {
+        acc.textContent = "Sign in with Google";
+        acc.title = "Save your progress to your account and use it on every device";
+        acc.href = "/auth/login?return=" + encodeURIComponent(here);
+      }
+      acc.hidden = false;
+    });
 
     CLASSES.forEach(c => {
       const block = el(`<div class="snav-class ${c.dir === currentDir ? "current" : ""}" data-dir="${c.dir}">

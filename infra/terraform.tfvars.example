@@ -5,6 +5,10 @@ ssh_public_key = "ssh-ed25519 AAAA... you@laptop"
 litestream_access_key_id = "SCW..."
 litestream_secret_key    = "..."
 
+# Google sign-in (OAuth client).
+google_client_id     = "....apps.googleusercontent.com"
+google_client_secret = "..."
+
 # The domain defaults to xuexi.nl (DNS records are created automatically). Set "" for IP-only.
 # domain = "xuexi.nl"
 
