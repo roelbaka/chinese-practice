@@ -134,6 +134,38 @@
   .card-grid.as-text .card.w .speaker-icon { display: none; }
   .card-grid.as-text .card.w + .card:not(.w) { margin-top: .5rem; border-top: 1px solid var(--border); border-radius: 0 0 8px 8px; }
 
+  /* Hide pinyin / Hide English: the hidden lines take no room (click a card to show them again).
+     With both hidden, the characters get the focus: centred, larger, word lists as a wall of tiles. */
+  #app.hide-py .card:not(.reveal) .pinyin, #app.hide-en .card:not(.reveal) .english { display: none; }
+  #app.hide-py.hide-en .card-grid:not(.as-text):not(.as-table) .card { text-align: center; padding: 1.4rem 3rem; }
+  #app.hide-py.hide-en .card-grid:not(.as-text) .chinese { font-size: 1.9rem; margin-bottom: 0; }
+  #app.hide-py.hide-en .card-grid:not(.as-text) .card.reveal .chinese { margin-bottom: .35rem; }
+  #app.hide-py.hide-en .card-grid.as-table {
+    display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: .6rem; border: 0; border-radius: 0; overflow: visible;
+  }
+  #app.hide-py.hide-en .card-grid.as-table .table-head { display: none; }
+  #app.hide-py.hide-en .card-grid.as-table .card {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .15rem; position: relative;
+    min-width: 6.5rem; padding: .9rem 1.6rem; border: 1px solid var(--border); border-radius: 12px; background: var(--card); text-align: center;
+  }
+  #app.hide-py.hide-en .card-grid.as-table .card:hover { background: var(--card-hover); }
+  #app.hide-py.hide-en .card-grid.as-table .speaker-icon { position: absolute; top: .3rem; right: .3rem; width: 24px; height: 24px; font-size: .6rem; }
+  @media (min-width: 760px) {
+    /* the table without its pinyin or English column; a clicked row shows it under the character */
+    #app.hide-py .card-grid.as-table .table-head span:nth-child(2),
+    #app.hide-en .card-grid.as-table .table-head span:nth-child(3) { display: none; }
+    #app.hide-py .card-grid.as-table .table-head, #app.hide-py .card-grid.as-table .card { grid-template-columns: minmax(7rem, 1fr) 3fr 36px; }
+    #app.hide-en .card-grid.as-table .table-head, #app.hide-en .card-grid.as-table .card { grid-template-columns: minmax(7rem, 1fr) minmax(8rem, 3fr) 36px; }
+    #app.hide-py:not(.hide-en) .card-grid.as-table .card .chinese,
+    #app.hide-en:not(.hide-py) .card-grid.as-table .card .chinese { grid-column: 1; grid-row: 1; }
+    #app.hide-py:not(.hide-en) .card-grid.as-table .card .english { grid-column: 2; grid-row: 1; }
+    #app.hide-py:not(.hide-en) .card-grid.as-table .card .pinyin { grid-column: 1; grid-row: 2; }
+    #app.hide-en:not(.hide-py) .card-grid.as-table .card .pinyin { grid-column: 2; grid-row: 1; }
+    #app.hide-en:not(.hide-py) .card-grid.as-table .card .english { grid-column: 2; grid-row: 2; }
+    #app.hide-py:not(.hide-en) .card-grid.as-table .card .speaker-icon,
+    #app.hide-en:not(.hide-py) .card-grid.as-table .card .speaker-icon { grid-column: 3; grid-row: 1; }
+  }
+
   /* Dialogues as a conversation: one speaker on the left, the other on the right, in bubbles. */
   .card-grid.as-text.chat { padding-bottom: .9rem; }
   .card-grid.as-text.chat .card.say {
@@ -673,6 +705,8 @@ function renderBrowse() {
   }
 
   app.innerHTML = html;
+  app.classList.toggle("hide-py", hidePinyin);
+  app.classList.toggle("hide-en", hideEnglish);
 
   document.getElementById("togPy").addEventListener("change", e => { hidePinyin = e.target.checked; renderBrowse(); });
   document.getElementById("togEn").addEventListener("change", e => { hideEnglish = e.target.checked; renderBrowse(); });
@@ -698,6 +732,7 @@ function renderBrowse() {
 }
 
 function renderFlashcard() {
+  document.getElementById("app").classList.remove("hide-py", "hide-en");
   const app = document.getElementById("app");
   if (!fcItems.length) {
     fcItems = isTextView() ? getItems() : shuffle(getItems());
@@ -807,6 +842,7 @@ function quizText(item, field) {
 }
 
 function renderQuiz() {
+  document.getElementById("app").classList.remove("hide-py", "hide-en");
   const app = document.getElementById("app");
   if (!quizItems.length) {
     const all = getItems();
@@ -1001,6 +1037,7 @@ function buildClozeItems() {
 }
 
 function renderCloze() {
+  document.getElementById("app").classList.remove("hide-py", "hide-en");
   const app = document.getElementById("app");
   if (!clozeItems.length) {
     clozeItems = buildClozeItems();
