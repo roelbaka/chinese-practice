@@ -210,6 +210,9 @@
   .cloze-full .pinyin { color: var(--pinyin); }
   .cloze-full .english { color: var(--english); font-size: .95rem; }
   .quiz-score { color: var(--text-muted); margin-top: 1.5rem; font-size: .9rem; }
+  .quiz-score .sc-right { color: var(--success, #4caf50); }
+  .quiz-score .sc-wrong { color: #f44336; }
+  .quiz-score .sc-done { color: var(--text); }
 
   .quiz-next {
     margin-top: 1rem; background: var(--accent); color: #fff; border: none;
@@ -751,7 +754,7 @@ function renderQuiz() {
     <div class="quiz-options">
       ${options.map((o, i) => `<button class="quiz-option" data-idx="${i}" data-correct="${o[answerField] === item[answerField]}">${esc(quizText(o, answerField))}</button>`).join("")}
     </div>
-    <div class="quiz-score">Score: ${quizScore} / ${quizIndex}${quizIndex < quizItems.length ? '' : ' — Done!'}</div>
+    <div class="quiz-score">${scoreHtml(quizScore, quizIndex, quizItems.length)}${quizIndex < quizItems.length ? '' : ' · Done!'}</div>
     ${quizAnswered ? `<button class="quiz-next" id="quizNext">${quizIndex + 1 < quizItems.length ? 'Next &rarr;' : 'Restart'}</button>` : ''}
   </div>`;
 
@@ -808,10 +811,16 @@ function showQuizSummary(container, btn) {
   }));
 }
 
+/** Score line: right, wrong, and how far along the exercise you are. */
+function scoreHtml(right, answered, total) {
+  return `<span class="sc-right">✓ ${right} right</span> · <span class="sc-wrong">✗ ${answered - right} wrong</span>`
+    + ` · <span class="sc-done">${answered} of ${total} done</span>`;
+}
+
 function renderQuizControls() {
   const container = document.querySelector(".quiz-container");
   const scoreEl = container.querySelector(".quiz-score");
-  scoreEl.textContent = `Score: ${quizScore} / ${quizIndex + 1}`;
+  scoreEl.innerHTML = scoreHtml(quizScore, quizIndex + 1, quizItems.length);
 
   const existing = document.getElementById("quizNext");
   if (existing) existing.remove();
@@ -929,7 +938,7 @@ function renderCloze() {
         return `<button class="quiz-option ${cls}" data-idx="${i}">${esc(o[field])}</button>`;
       }).join("")}
     </div>
-    <div class="quiz-score">Score: ${clozeScore} / ${clozeIndex + (clozeAnswered ? 1 : 0)}</div>
+    <div class="quiz-score">${scoreHtml(clozeScore, clozeIndex + (clozeAnswered ? 1 : 0), clozeItems.length)}</div>
     ${clozeAnswered ? `<div class="fc-controls">
       <button type="button" id="clozeSpeak">&#9654; Listen</button>
       <button type="button" class="quiz-next" id="clozeNext">${clozeIndex + 1 < clozeItems.length ? "Next &rarr;" : "Restart"}</button>
