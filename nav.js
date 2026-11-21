@@ -369,8 +369,15 @@
       border: 1px solid var(--border, #2a2a4a); border-radius: 999px; padding: .35rem .9rem;
     }
     .snav-journal:hover { border-color: var(--accent, #e94560); }
-    .snav-mistakes, .snav-account { margin-left: 0; }
-    .snav-account[hidden] { display: none; }
+    .snav-mistakes { margin-left: 0; }
+    .snav-journal { white-space: nowrap; }
+    /* Narrow screens: logo and close on the first row, the links on one scrollable row below */
+    @media (max-width: 760px) {
+      .snav-top { flex-wrap: wrap; row-gap: .6rem; }
+      .snav-close { order: 1; margin-left: auto; }
+      .snav-journal { order: 2; margin-left: 0; }
+      .snav-top::after { content: ""; order: 1; flex-basis: 100%; }
+    }
     .snav-count:not(:empty) {
       display: inline-block; margin-left: .4rem; min-width: 1.3rem; padding: 0 .35rem; border-radius: 999px;
       background: var(--accent, #e94560); color: #fff; font-size: .75rem; text-align: center;
@@ -554,30 +561,11 @@
         <a class="snav-journal" href="${esc(new URL("homework/", ROOT).href)}">作业 · Homework</a>
         <a class="snav-journal snav-mistakes" href="${esc(new URL("journal/", ROOT).href)}">课堂笔记 · Class journal</a>
         <a class="snav-journal snav-mistakes" href="${esc(new URL("mistakes/lesson.html?id=mistakes", ROOT).href)}">错题 · Mistakes<span class="snav-count"></span></a>
-        <a class="snav-journal snav-account" hidden></a>
         <button type="button" class="snav-close" aria-label="Close menu">&times;</button>
       </div>
       <div class="snav-body"><div class="snav-inner"></div></div>
     </div>`);
     const inner = overlay.querySelector(".snav-inner");
-
-    // Sign in / out (only where the backend exists, i.e. on xuexi.nl).
-    const acc = overlay.querySelector(".snav-account");
-    Account.ready.then(({ available, user }) => {
-      if (!available) return;
-      const here = location.pathname + location.search + location.hash;
-      if (user) {
-        acc.textContent = "Sign out";
-        acc.title = `Signed in as ${user.email}: your progress is saved to your account`;
-        acc.href = "/auth/logout";
-        acc.addEventListener("click", (e) => { e.preventDefault(); Account.signOut(); });
-      } else {
-        acc.textContent = "Sign in with Google";
-        acc.title = "Save your progress to your account and use it on every device";
-        acc.href = "/auth/login?return=" + encodeURIComponent(here);
-      }
-      acc.hidden = false;
-    });
 
     CLASSES.forEach(c => {
       const block = el(`<div class="snav-class ${c.dir === currentDir ? "current" : ""}" data-dir="${c.dir}">
