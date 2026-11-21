@@ -21,7 +21,7 @@
   // carried along in the URL fragment, which is never sent to a server. xuexi.nl adds the keys it
   // does not have yet and puts the original #anchor back.
   const SITE = "https://xuexi.nl";
-  const KEYS = ["chinesePractice.mistakes.v1", "chinesePractice.chapters.v1", "quizShowPinyin", "journalTrack"];
+  const KEYS = ["chinesePractice.mistakes.v1", "chinesePractice.chapters.v1", "quizShowPinyin", "journalTrack", "homeworkClass"];
   const XFER = "#xfer=";
 
   if (location.hostname === "roelbaka.github.io") {
@@ -493,7 +493,8 @@
     const overlay = el(`<div class="snav" role="dialog" aria-modal="true" aria-label="Site menu">
       <div class="snav-top">
         <a class="snav-home" href="${esc(ROOT.href)}">练习 <b>中文</b></a>
-        <a class="snav-journal" href="${esc(new URL("journal/", ROOT).href)}">课堂笔记 · Class journal</a>
+        <a class="snav-journal" href="${esc(new URL("homework/", ROOT).href)}">作业 · Homework</a>
+        <a class="snav-journal snav-mistakes" href="${esc(new URL("journal/", ROOT).href)}">课堂笔记 · Class journal</a>
         <a class="snav-journal snav-mistakes" href="${esc(new URL("mistakes/lesson.html?id=mistakes", ROOT).href)}">错题 · Mistakes<span class="snav-count"></span></a>
         <a class="snav-journal snav-account" hidden></a>
         <button type="button" class="snav-close" aria-label="Close menu">&times;</button>

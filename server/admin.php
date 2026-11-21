@@ -231,6 +231,20 @@ function page(string $title, string $body): void
   .pill { display:inline-block; padding:.05rem .5rem; border-radius:999px; border:1px solid var(--border); font-size:.75rem; color:var(--text-muted); }
   .empty { padding:1.2rem; color:var(--text-muted); }
   form.inline { display:inline; margin:0; }
+  .hwform { display:grid; gap:.8rem; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem; }
+  .hwform label { display:grid; gap:.3rem; font-size:.85rem; color:var(--text-muted); }
+  .hwform .two { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:.8rem; }
+  .hwform input, .hwform select, .hwform textarea { font:inherit; font-size:.95rem; color:var(--text); background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:.5rem .7rem; width:100%; }
+  .hwform textarea { resize:vertical; line-height:1.5; }
+  .hwform input:focus, .hwform select:focus, .hwform textarea:focus { outline:none; border-color:var(--accent); }
+  .hwform input[type=date] { color-scheme:dark; }
+  .hwform code { font-size:.8rem; color:var(--text); }
+  .hwform .actions { display:flex; gap:.5rem; }
+  .btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; font-size:.9rem; padding:.5rem 1.1rem; }
+  a.btn { text-decoration:none; display:inline-block; }
+  .flash.bad { border-left-color:#f0c060; }
+  tr.past td { opacity:.55; }
+  .pre { white-space:pre-line; font-size:.82rem; margin-top:.2rem; }
   .addform { display:flex; gap:.5rem; flex-wrap:wrap; }
   .addform input { flex:1; min-width:14rem; font:inherit; padding:.5rem .75rem; border-radius:8px; background:var(--card); color:var(--text); border:1px solid var(--border); }
   .addform input:focus { outline:none; border-color:var(--accent); }
@@ -241,7 +255,7 @@ function page(string $title, string $body): void
   .flash { background:var(--card); border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:8px; padding:.6rem .9rem; margin-bottom:1rem; }
 </style>
 </head><body>
-<header><div class="crumbs"><a href="/">练习中文</a> · <a href="/admin">Users</a> · <a href="/admin/admins">Admins</a></div><h1>管理 <b>Admin</b></h1></header>
+<header><div class="crumbs"><a href="/">练习中文</a> · <a href="/admin">Users</a> · <a href="/admin/homework">Homework</a> · <a href="/admin/admins">Admins</a></div><h1>管理 <b>Admin</b></h1></header>
 <main>$body</main>
 <script src="/nav.js" defer></script>
 </body></html>

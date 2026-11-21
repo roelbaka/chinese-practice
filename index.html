@@ -165,6 +165,13 @@
     <div class="arrow">&rarr;</div>
   </a>
 
+  <a href="homework/" class="class-card" id="homeworkCard">
+    <div class="icon">📝</div>
+    <h2>作业 <span>Homework</span></h2>
+    <p id="homeworkNext">What to prepare for the next class, per class</p>
+    <div class="arrow">&rarr;</div>
+  </a>
+
   <a href="journal/" class="class-card">
     <div class="icon">📓</div>
     <h2>课堂笔记 <span>Class Journal</span></h2>
@@ -188,5 +195,20 @@
 </div>
 
 <script src="nav.js" defer></script>
+<script>
+// Show the next homework on its card (only where the backend exists, i.e. on xuexi.nl).
+fetch("/api/homework").then(r => r.ok && (r.headers.get("content-type") || "").includes("json") ? r.json() : null).then(j => {
+  if (!j) return;
+  let cls = "all";
+  try { cls = localStorage.getItem("homeworkClass") || "all"; } catch (e) {}
+  const next = j.items.filter(h => h.due >= j.today && (cls === "all" || !h.track || h.track === cls))
+    .sort((a, b) => a.due.localeCompare(b.due))[0];
+  if (!next) return;
+  const date = new Date(next.due + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+  const p = document.getElementById("homeworkNext");
+  p.textContent = `Next: ${next.title} · due ${date}`;
+  p.style.color = "var(--text)";
+}).catch(() => {});
+</script>
 </body>
 </html>

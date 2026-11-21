@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>作业 · Homework · Chinese Practice</title>
+<style>
+  :root {
+    --bg: #0f0f0f; --card: #1a1a2e; --card-hover: #222244; --accent: #e94560;
+    --text: #eee; --text-muted: #999; --border: #2a2a4a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, "Noto Sans SC", sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+  header { text-align: center; padding: 1.4rem 4rem 1.2rem; background: linear-gradient(180deg, #1a1a2e, #0f0f0f); border-bottom: 1px solid var(--border); }
+  header .back { color: var(--text-muted); text-decoration: none; font-size: .85rem; }
+  header .back:hover { color: var(--text); }
+  header h1 { font-weight: 300; font-size: 2rem; letter-spacing: 2px; margin-top: .3rem; }
+  header h1 span { color: var(--accent); font-weight: 600; }
+  main { max-width: 760px; margin: 0 auto; padding: 1.25rem 1rem 4rem; }
+  .tracks { display: flex; gap: .5rem; overflow-x: auto; scrollbar-width: none; margin-bottom: 1.25rem; }
+  .tracks::-webkit-scrollbar { display: none; }
+  .tracks button {
+    flex-shrink: 0; font: inherit; font-size: .85rem; padding: .4rem .9rem; border-radius: 999px; cursor: pointer;
+    background: transparent; color: var(--text-muted); border: 1px solid var(--border);
+  }
+  .tracks button:hover { color: var(--text); border-color: var(--accent); }
+  .tracks button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  h2 { font-size: .8rem; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-muted); margin: 1.6rem 0 .7rem; }
+  .hw { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.1rem 1.2rem; margin-bottom: .8rem; }
+  .hw.soon { border-left: 3px solid var(--accent); }
+  .hw .meta { display: flex; flex-wrap: wrap; gap: .4rem .8rem; align-items: center; font-size: .82rem; color: var(--text-muted); }
+  .hw .due { color: var(--text); font-weight: 600; }
+  .hw .when { color: var(--accent); }
+  .pill { display: inline-block; padding: .05rem .55rem; border-radius: 999px; border: 1px solid var(--border); font-size: .75rem; }
+  .hw h3 { font-size: 1.15rem; font-weight: 500; margin: .45rem 0 .3rem; }
+  .hw .body { white-space: pre-line; line-height: 1.6; color: #ddd; font-size: .95rem; }
+  .hw .body a, .hw .links a { color: #8ec5ff; word-break: break-word; }
+  .hw .links { list-style: none; margin-top: .7rem; display: grid; gap: .35rem; }
+  .hw .links a { display: inline-flex; gap: .45rem; align-items: baseline; text-decoration: none; }
+  .hw .links a:hover { text-decoration: underline; }
+  .hw .links a::before { content: "↗"; color: var(--text-muted); font-size: .8rem; }
+  .hw .links a.local::before { content: "→"; }
+  details { margin-top: 1.6rem; }
+  details summary { cursor: pointer; color: var(--text-muted); font-size: .8rem; letter-spacing: 1.5px; text-transform: uppercase; list-style: none; }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::before { content: "▸ "; } details[open] summary::before { content: "▾ "; }
+  details .hw { opacity: .7; }
+  details > div { margin-top: .7rem; }
+  .empty { color: var(--text-muted); text-align: center; padding: 2rem 1rem; border: 1px dashed var(--border); border-radius: 14px; }
+  @media (max-width: 600px) { header { padding: 1.2rem 3.2rem 1rem; } header h1 { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="../">&larr; All classes</a>
+  <h1>作业 <span>Homework</span></h1>
+</header>
+<main>
+  <nav class="tracks" id="tracks"></nav>
+  <div id="list"><div class="empty">Loading…</div></div>
+</main>
+
+<script src="../nav.js"></script>
+<script>
+// Homework comes from /api/homework (set by admins on /admin/homework), per class at school.
+// The chosen class is remembered (and follows your account when signed in, see nav.js).
+const CLASS_KEY = "homeworkClass";
+const TRACKS = [
+  { key: "all", label: "All classes" },
+  { key: "beginners", label: "Beginners" },
+  { key: "improvers", label: "Improvers" },
+  { key: "intermediate", label: "Intermediate" },
+  { key: "advanced", label: "Advanced" },
+];
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+let current = "all";
+try { current = localStorage.getItem(CLASS_KEY) || "all"; } catch (e) {}
+if (!TRACKS.some(t => t.key === current)) current = "all";
+let data = null;
+
+/** Escape the text, then turn web addresses in it into links. */
+function linkify(text) {
+  return esc(text).replace(/\bhttps?:\/\/[^\s<]+[^\s<.,;:!?)\]'"]/g, url => `<a href="${url}" target="_blank" rel="noopener">${url}</a>`);
+}
+
+function dayDiff(a, b) {
+  return Math.round((Date.parse(a + "T12:00:00Z") - Date.parse(b + "T12:00:00Z")) / 86400000);
+}
+
+function card(hw, today) {
+  const d = dayDiff(hw.due, today);
+  const when = d === 0 ? "today" : d === 1 ? "tomorrow" : d > 1 ? `in ${d} days` : d === -1 ? "yesterday" : `${-d} days ago`;
+  const date = new Date(hw.due + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "long", year: "numeric" });
+  const links = hw.links.map(l => {
+    const local = l.url.startsWith("/");
+    return `<li><a href="${esc(l.url)}" class="${local ? "local" : ""}"${local ? "" : ' target="_blank" rel="noopener"'}>${esc(l.label || l.url)}</a></li>`;
+  }).join("");
+  return `<article class="hw ${d >= 0 && d <= 2 ? "soon" : ""}">
+    <div class="meta"><span class="due">Due ${esc(date)}</span><span class="when">${when}</span>${hw.track ? `<span class="pill">${esc(hw.trackName)}</span>` : ""}</div>
+    <h3>${esc(hw.title)}</h3>
+    ${hw.body ? `<div class="body">${linkify(hw.body)}</div>` : ""}
+    ${links ? `<ul class="links">${links}</ul>` : ""}
+  </article>`;
+}
+
+function render() {
+  document.getElementById("tracks").innerHTML = TRACKS.map(t =>
+    `<button type="button" data-k="${t.key}" class="${t.key === current ? "on" : ""}">${esc(t.label)}</button>`).join("");
+  document.querySelectorAll("#tracks button").forEach(b => b.addEventListener("click", () => {
+    current = b.dataset.k;
+    try { localStorage.setItem(CLASS_KEY, current); } catch (e) {}
+    render();
+  }));
+  const list = document.getElementById("list");
+  if (!data) return;
+  const items = data.items.filter(h => current === "all" || !h.track || h.track === current);
+  const upcoming = items.filter(h => h.due >= data.today).sort((a, b) => a.due.localeCompare(b.due) || a.id - b.id);
+  const past = items.filter(h => h.due < data.today);
+  list.innerHTML =
+    `<h2>Upcoming</h2>` +
+    (upcoming.length ? upcoming.map(h => card(h, data.today)).join("") : `<div class="empty">No homework due. 🎉</div>`) +
+    (past.length ? `<details><summary>Earlier (${past.length})</summary><div>${past.map(h => card(h, data.today)).join("")}</div></details>` : "");
+}
+
+render();
+fetch("/api/homework", { credentials: "same-origin" })
+  .then(r => { if (!r.ok || !(r.headers.get("content-type") || "").includes("json")) throw new Error(r.status); return r.json(); })
+  .then(j => { data = j; render(); })
+  .catch(() => {
+    document.getElementById("list").innerHTML = `<div class="empty">Homework is shown on <a href="https://xuexi.nl/homework/" style="color:#8ec5ff">xuexi.nl</a>.</div>`;
+  });
+</script>
+</body>
+</html>
