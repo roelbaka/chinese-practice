@@ -3,7 +3,7 @@
   "subtitle": "HSK 3 · Lesson 12 — 把重要的东西放在我这儿吧 · Leave the important items with me",
   "data": [
     {
-      "topic": "课上要点 · Class notes (14 Nov 2026)",
+      "topic": "课上要点 · Class notes (14 + 21 Nov 2026)",
       "classNotesFirst": true,
       "browseOnly": true,
       "items": [
@@ -288,6 +288,272 @@
           "zh": "Class news",
           "py": "",
           "en": "For the Christmas activity, bring things from home related to China or Asia to exchange or auction (拍卖)."
+        },
+        {
+          "zh": "──────── Part 3 · Second class on Lesson 12 (21 Nov 2026)",
+          "py": "",
+          "en": "More 就 vs 才, 以后 and 前, 怎么这么早, making plans with 有事吗？……吧, 如果……就……, 每天都, then Text 2: a business trip (外地, 办事), 照顾 vs 帮助 and 已经……了."
+        },
+        {
+          "zh": "总览 · What the second class was about (21 Nov 2026)",
+          "py": "",
+          "en": "We went through last week's worksheet: choose 就 or 才, then add 就, 才, 怎么, 如果 or 都 to a plain sentence. The point of the day: the time is the fact, the little word tells how the speaker feels about it. Then speaking practice (when do you get up and go to bed?), Text 2 read in pairs, and the new words of the text."
+        },
+        {
+          "zh": "11 · 就 or 才? The fact plus your feeling",
+          "py": "",
+          "en": "他每天早上六点起床 just tells the fact. Add 就 and you also say it's early (就 + verb, often with 了 at the end): 他每天早上六点就起床了. Add 才 and you say it's late (no 了): 他每天早上十点才起床. The same time can go either way: 我昨天晚上十二点才回家 (even I think that's late) or 我昨天晚上十二点就回家了 (it was the weekend, I worked all day — what you'd tell your mother). 才 is cái, second tone, with c — not 在 zài. Never use both: 十二点就才睡觉 is wrong.",
+          "see": [
+            "练习 · Practice (就 vs 才)",
+            "语法 · Grammar (就：早、快、顺利)",
+            "语法 · Grammar (才：晚、慢、不顺利)"
+          ]
+        },
+        {
+          "zh": "他每天早上六点就起床了。",
+          "py": "Tā měi tiān zǎoshang liù diǎn jiù qǐ chuáng le.",
+          "en": "He gets up at six every morning — that early."
+        },
+        {
+          "zh": "他每天早上十点才起床。",
+          "py": "Tā měi tiān zǎoshang shí diǎn cái qǐ chuáng.",
+          "en": "He doesn't get up until ten every morning."
+        },
+        {
+          "zh": "我昨天晚上十二点才回家。",
+          "py": "Wǒ zuótiān wǎnshang shí'èr diǎn cái huí jiā.",
+          "en": "I didn't get home until twelve last night."
+        },
+        {
+          "zh": "她五岁就开始学钢琴了。",
+          "py": "Tā wǔ suì jiù kāishǐ xué gāngqín le.",
+          "en": "She started learning the piano at just five."
+        },
+        {
+          "zh": "12 · 二十岁才开始学中文 — what your 才 says about you",
+          "py": "",
+          "en": "Chinese don't comment directly; the 就 or 才 does it for them. 他二十岁才开始学中文 says: twenty is late — a very Chinese view (the teacher's mother thought a seven-year-old who couldn't recite the times tables yet was late). Say it without 才 — 他二十岁开始学中文 — and you sound tolerant, more Western: it's never too late. From these small words you can tell how someone thinks, for example about education.",
+          "see": [
+            "练习 · Practice (就 vs 才)"
+          ]
+        },
+        {
+          "zh": "他二十岁才开始学中文。",
+          "py": "Tā èrshí suì cái kāishǐ xué Zhōngwén.",
+          "en": "He didn't start learning Chinese until twenty (too late, the speaker thinks)."
+        },
+        {
+          "zh": "他二十岁开始学中文。",
+          "py": "Tā èrshí suì kāishǐ xué Zhōngwén.",
+          "en": "He started learning Chinese at twenty (just the fact)."
+        },
+        {
+          "zh": "13 · ……以后 and ……前",
+          "py": "",
+          "en": "以后 after an action is a period, not a clock time: 吃完饭以后去散步 (after eating, go for a walk). After a time it is a point in time: 晚上十点以后请不要给我打电话; 十一点以后丹华上课. 前 right after a verb means just before: 吃饭前先洗洗手 (wash your hands right before eating). 吃饭以前 is not wrong, but 以前 can be a long time before.",
+          "see": [
+            "练习 · Practice (这么 / 以前 / 以后)"
+          ]
+        },
+        {
+          "zh": "我吃完饭以后去散步。",
+          "py": "Wǒ chīwán fàn yǐhòu qù sàn bù.",
+          "en": "After eating I go for a walk."
+        },
+        {
+          "zh": "晚上十点以后请不要给我打电话。",
+          "py": "Wǎnshang shí diǎn yǐhòu qǐng búyào gěi wǒ dǎ diànhuà.",
+          "en": "Please don't call me after ten in the evening."
+        },
+        {
+          "zh": "吃饭前先洗洗手。",
+          "py": "Chī fàn qián xiān xǐxi shǒu.",
+          "en": "Wash your hands before you eat."
+        },
+        {
+          "zh": "14 · 怎么这么早就……了？",
+          "py": "",
+          "en": "怎么 here means why / how come, with surprise — it asks why, not what (什么). 你怎么这么早就回家了？ = how come you're home so early? Where you put 怎么 shifts the focus: 他今天怎么这么早就回家了？ stresses so early; 他怎么今天这么早就回家了？ stresses today (normally he doesn't). The 就……了 is needed: 他今天怎么这么早回家 sounds unfinished. It's the same pattern as Text 1: 你怎么这么早就要睡觉了？",
+          "see": [
+            "练习 · Practice (这么 / 以前 / 以后)",
+            "课文1 · 1. 在家 — At home"
+          ]
+        },
+        {
+          "zh": "你怎么这么早就回家了？",
+          "py": "Nǐ zěnme zhème zǎo jiù huí jiā le?",
+          "en": "How come you're home so early?"
+        },
+        {
+          "zh": "他今天怎么这么早就回家了？",
+          "py": "Tā jīntiān zěnme zhème zǎo jiù huí jiā le?",
+          "en": "How come he came home so early today?"
+        },
+        {
+          "zh": "他怎么今天这么早就回家了？",
+          "py": "Tā zěnme jīntiān zhème zǎo jiù huí jiā le?",
+          "en": "How come he came home so early today, of all days?"
+        },
+        {
+          "zh": "15 · 你明天有事吗？那我们一起去……吧",
+          "py": "",
+          "en": "To make plans, first ask 你明天有事吗？ (any plans tomorrow?) — swap in 下个星期, 周末, 下个月. Then suggest with 吧: 那我们一起去看电影吧. 吧 turns an order (明天我们去看电影) into a friendly suggestion — it's how you'd talk to family or friends; \"why don't we…\" sounds formal by comparison. Careful: 他有事 can also mean something is wrong with him.",
+          "see": [
+            "练习 · Practice (有事吗？……吧 Making plans)",
+            "课文1 · 1. 在家 — At home"
+          ]
+        },
+        {
+          "zh": "你明天有事吗？那我们一起去看电影吧。",
+          "py": "Nǐ míngtiān yǒu shì ma? Nà wǒmen yìqǐ qù kàn diànyǐng ba.",
+          "en": "Are you busy tomorrow? Then let's go to a film together."
+        },
+        {
+          "zh": "16 · 如果……就…… · 每天都",
+          "py": "",
+          "en": "如果 + condition, (subject +) 就 + result: 如果明天下雨，我们就不去公园了. Without 就 people still understand you, but with 就 it's correct. 都 after 每天 stresses every single day, not one missed: 我以前每天晚上都十二点才睡觉. With a single day (昨天) you can't use 都.",
+          "see": [
+            "练习 · Practice (如果……就…… · 每天都)"
+          ]
+        },
+        {
+          "zh": "如果明天下雨，我们就不去公园了。",
+          "py": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù gōngyuán le.",
+          "en": "If it rains tomorrow, we won't go to the park."
+        },
+        {
+          "zh": "如果你明天不来，就告诉我。",
+          "py": "Rúguǒ nǐ míngtiān bù lái, jiù gàosu wǒ.",
+          "en": "If you're not coming tomorrow, let me know."
+        },
+        {
+          "zh": "我以前每天晚上都十二点才睡觉。",
+          "py": "Wǒ yǐqián měi tiān wǎnshang dōu shí'èr diǎn cái shuì jiào.",
+          "en": "I used to go to bed at midnight every single night."
+        },
+        {
+          "zh": "17 · 太阳从西边出来了 again",
+          "py": "",
+          "en": "If friends who always go to bed at one tell you 我昨天晚上九点就睡了, you can say 太阳从西边出来了！ It's a soft, half-joking way to say: what a surprise — and we've noticed how you usually are. Chinese rarely criticise directly; a friend who is always late and arrives almost on time gets the same comment. Whether it sounds friendly or sarcastic depends on how you say it.",
+          "see": [
+            "练习 · Practice (太阳从西边出来了吗？)"
+          ]
+        },
+        {
+          "zh": "18 · Speaking: when do you get up and go to bed?",
+          "py": "",
+          "en": "We each told the class: when do you get up, when do you go to bed, and is that early or late for you (就 or 才)? Useful: 大概 (about), 不固定 (not fixed), 有时候……有时候…… (sometimes…sometimes…). Note 我十二点就睡了 — for some, midnight is early!",
+          "see": [
+            "练习 · Practice (就 vs 才)"
+          ]
+        },
+        {
+          "zh": "我每天起床的时间不固定，有时候七点半，有时候九点。",
+          "py": "Wǒ měi tiān qǐ chuáng de shíjiān bú gùdìng, yǒu shíhou qī diǎn bàn, yǒu shíhou jiǔ diǎn.",
+          "en": "I don't get up at a fixed time: sometimes half past seven, sometimes nine."
+        },
+        {
+          "zh": "我每天早上大概八点起床。",
+          "py": "Wǒ měi tiān zǎoshang dàgài bā diǎn qǐ chuáng.",
+          "en": "I get up at about eight every morning."
+        },
+        {
+          "zh": "19 · Text 2 · 外地 / 本地 · 外出办事",
+          "py": "",
+          "en": "外地 = another city (外 outside + 地 place); your own city is 本地 (本 = base): 本地人 locals, 本地菜 local food, 本地话 local dialect. For someone from 合肥, Beijing or Shanghai are 外地; for us in Rotterdam, Amsterdam is 外地. 外出 / 出外 = go out, which can be in your own city. 办事 = take care of something — neutral and very common: 我下午要去银行办事. 我明天要外出办事 tells people you're out without saying exactly what for.",
+          "see": [
+            "练习 · Practice (外地 / 本地 / 办事)",
+            "课文2 · 2. 在家 — At home"
+          ]
+        },
+        {
+          "zh": "我要跟周经理去外地办事，明天的飞机。",
+          "py": "Wǒ yào gēn Zhōu jīnglǐ qù wàidì bàn shì, míngtiān de fēijī.",
+          "en": "I'm going on a business trip with Manager Zhou; the flight is tomorrow."
+        },
+        {
+          "zh": "我下午要去银行办事。",
+          "py": "Wǒ xiàwǔ yào qù yínháng bàn shì.",
+          "en": "This afternoon I have to go to the bank to sort something out."
+        },
+        {
+          "zh": "20 · 一个星期就回来 · 一个星期以后才回来",
+          "py": "",
+          "en": "The same week, two feelings: 小刚 says 一个星期就回来 (only a week, soon), 小丽 answers 一个星期以后才回来？ (a whole week!).",
+          "see": [
+            "课文2 · 2. 在家 — At home",
+            "练习 · Practice (就 vs 才)"
+          ]
+        },
+        {
+          "zh": "21 · 行李箱 · 收拾 · 放 · 自己",
+          "py": "",
+          "en": "行李箱 suitcase (我的行李箱太重了 — these days you pay for every kilo). 收拾 = tidy up: 我要收拾一下房间. 放 = put: 把茶杯放在桌子上. 自己 = (by) oneself: 我自己做饭 — what every Chinese student in the Netherlands ends up telling their parents. 他三岁就会自己穿衣服了 (就: that's early).",
+          "see": [
+            "练习 · Practice (外地 / 本地 / 办事)",
+            "语法 · Grammar (把字句2：A把B+V+在/到+地方)"
+          ]
+        },
+        {
+          "zh": "我的行李箱太重了。",
+          "py": "Wǒ de xínglixiāng tài zhòng le.",
+          "en": "My suitcase is too heavy."
+        },
+        {
+          "zh": "我要收拾一下房间。",
+          "py": "Wǒ yào shōushi yíxià fángjiān.",
+          "en": "I need to tidy up my room."
+        },
+        {
+          "zh": "他三岁就会自己穿衣服了。",
+          "py": "Tā sān suì jiù huì zìjǐ chuān yīfu le.",
+          "en": "He could dress himself at just three."
+        },
+        {
+          "zh": "22 · 照顾 vs 帮助",
+          "py": "",
+          "en": "照顾 = take care of — a responsibility, someone depends on you: 照顾孩子, 照顾老人, 照顾病人. 妈妈生病了，我要照顾她. 帮助 = help — kind, but optional: you can say \"sorry, I'm busy\". In Text 2: 你要自己照顾好自己. Caring for the elderly is a big issue in China now: with one child per family, more old people choose a nursing home (养老院).",
+          "see": [
+            "练习 · Practice (照顾 / 帮助 / 已经……了)",
+            "课文2 · 2. 在家 — At home"
+          ]
+        },
+        {
+          "zh": "妈妈生病了，我要照顾她。",
+          "py": "Māma shēng bìng le, wǒ yào zhàogù tā.",
+          "en": "Mum is ill, I have to take care of her."
+        },
+        {
+          "zh": "你要自己照顾好自己。",
+          "py": "Nǐ yào zìjǐ zhàogù hǎo zìjǐ.",
+          "en": "You have to take good care of yourself."
+        },
+        {
+          "zh": "23 · 已经……了 · 吃的和喝的",
+          "py": "",
+          "en": "已经……了 = already done: 我已经吃过饭了; 学费交了没有？— 我已经交过了. 吃的 = everything to eat, 喝的 = everything to drink: 吃的和喝的 covers the main part of Chinese life (吃吃喝喝).",
+          "see": [
+            "练习 · Practice (照顾 / 帮助 / 已经……了)",
+            "课文2 · 2. 在家 — At home"
+          ]
+        },
+        {
+          "zh": "我已经给你准备好吃的和喝的了。",
+          "py": "Wǒ yǐjīng gěi nǐ zhǔnbèi hǎo chī de hé hē de le.",
+          "en": "I've already got food and drink ready for you."
+        },
+        {
+          "zh": "我已经把我的照片放在你的包里了。",
+          "py": "Wǒ yǐjīng bǎ wǒ de zhàopiàn fàng zài nǐ de bāo li le.",
+          "en": "I've already put my photo in your bag."
+        },
+        {
+          "zh": "24 · 放学以后你干什么？",
+          "py": "",
+          "en": "We ended with: what will you do after Chinese school? Note 我去朋友家 — 去 needs a place, so not 我去朋友 (but 我去看朋友 is fine). 经常 = often.",
+          "see": [
+            "练习 · Practice (放学以后你干什么？)"
+          ]
         }
       ]
     },
@@ -868,6 +1134,156 @@
           "zh": "拍卖",
           "py": "pāimài",
           "en": "to auction"
+        },
+        {
+          "zh": "钢琴",
+          "py": "gāngqín",
+          "en": "piano"
+        },
+        {
+          "zh": "散步",
+          "py": "sàn bù",
+          "en": "to go for a walk"
+        },
+        {
+          "zh": "枸杞",
+          "py": "gǒuqǐ",
+          "en": "goji berry"
+        },
+        {
+          "zh": "菊花茶",
+          "py": "júhuā chá",
+          "en": "chrysanthemum tea"
+        },
+        {
+          "zh": "固定",
+          "py": "gùdìng",
+          "en": "fixed"
+        },
+        {
+          "zh": "大概",
+          "py": "dàgài",
+          "en": "about, roughly"
+        },
+        {
+          "zh": "准时",
+          "py": "zhǔnshí",
+          "en": "on time"
+        },
+        {
+          "zh": "迟到",
+          "py": "chídào",
+          "en": "to be late"
+        },
+        {
+          "zh": "如果",
+          "py": "rúguǒ",
+          "en": "if"
+        },
+        {
+          "zh": "逛街",
+          "py": "guàng jiē",
+          "en": "to go shopping, stroll the streets"
+        },
+        {
+          "zh": "外地",
+          "py": "wàidì",
+          "en": "another city, elsewhere"
+        },
+        {
+          "zh": "本地",
+          "py": "běndì",
+          "en": "local, this place"
+        },
+        {
+          "zh": "办事",
+          "py": "bàn shì",
+          "en": "to take care of something, run an errand"
+        },
+        {
+          "zh": "外出",
+          "py": "wàichū",
+          "en": "to go out"
+        },
+        {
+          "zh": "出差",
+          "py": "chū chāi",
+          "en": "to go on a business trip"
+        },
+        {
+          "zh": "银行",
+          "py": "yínháng",
+          "en": "bank"
+        },
+        {
+          "zh": "收拾",
+          "py": "shōushi",
+          "en": "to tidy up"
+        },
+        {
+          "zh": "照顾",
+          "py": "zhàogù",
+          "en": "to take care of"
+        },
+        {
+          "zh": "帮助",
+          "py": "bāngzhù",
+          "en": "to help"
+        },
+        {
+          "zh": "养老院",
+          "py": "yǎnglǎoyuàn",
+          "en": "nursing home"
+        },
+        {
+          "zh": "已经",
+          "py": "yǐjīng",
+          "en": "already"
+        },
+        {
+          "zh": "学费",
+          "py": "xuéfèi",
+          "en": "school fee"
+        },
+        {
+          "zh": "交",
+          "py": "jiāo",
+          "en": "to pay (a fee), hand in"
+        },
+        {
+          "zh": "放学",
+          "py": "fàng xué",
+          "en": "school is out"
+        },
+        {
+          "zh": "礼物",
+          "py": "lǐwù",
+          "en": "present, gift"
+        },
+        {
+          "zh": "庆祝",
+          "py": "qìngzhù",
+          "en": "to celebrate"
+        },
+        {
+          "zh": "圣尼古拉斯节",
+          "py": "Shèng Nígǔlāsī Jié",
+          "en": "Sinterklaas (St Nicholas' day)"
+        },
+        {
+          "zh": "经常",
+          "py": "jīngcháng",
+          "en": "often"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "en": "supermarket"
+        },
+        {
+          "zh": "下班",
+          "py": "xià bān",
+          "en": "to finish work"
         }
       ]
     },
@@ -1048,6 +1464,16 @@
           "zh": "怎么了？今天为什么这么安静？",
           "py": "Zěnme le? Jīntiān wèi shénme zhème ānjìng?",
           "en": "What's wrong? Why so quiet today?"
+        },
+        {
+          "zh": "你们平时十二点才睡觉，昨天晚上九点就睡了？太阳从西边出来了！",
+          "py": "Nǐmen píngshí shí'èr diǎn cái shuì jiào, zuótiān wǎnshang jiǔ diǎn jiù shuì le? Tàiyáng cóng xībian chūlai le!",
+          "en": "You usually don't go to bed until midnight, and last night you were asleep at nine? The sun rose in the west!"
+        },
+        {
+          "zh": "他总是迟到，今天准时来了。太阳从西边出来了！",
+          "py": "Tā zǒngshì chídào, jīntiān zhǔnshí lái le. Tàiyáng cóng xībian chūlai le!",
+          "en": "He's always late, and today he was on time. The sun rose in the west!"
         }
       ]
     },
@@ -1123,6 +1549,46 @@
           "zh": "写作业的时候别开电视。",
           "py": "Xiě zuòyè de shíhou bié kāi diànshì.",
           "en": "Don't turn on the TV while doing homework."
+        },
+        {
+          "zh": "我吃完饭以后去散步。",
+          "py": "Wǒ chīwán fàn yǐhòu qù sàn bù.",
+          "en": "After eating I go for a walk."
+        },
+        {
+          "zh": "晚上十点以后请不要给我打电话。",
+          "py": "Wǎnshang shí diǎn yǐhòu qǐng búyào gěi wǒ dǎ diànhuà.",
+          "en": "Please don't call me after ten in the evening."
+        },
+        {
+          "zh": "十一点以后丹华上课。",
+          "py": "Shíyī diǎn yǐhòu Dānhuá shàng kè.",
+          "en": "After eleven, Danhua's lessons start."
+        },
+        {
+          "zh": "下班以后我去超市。",
+          "py": "Xià bān yǐhòu wǒ qù chāoshì.",
+          "en": "After work I go to the supermarket."
+        },
+        {
+          "zh": "吃饭前先洗洗手。",
+          "py": "Chī fàn qián xiān xǐxi shǒu.",
+          "en": "Wash your hands before you eat."
+        },
+        {
+          "zh": "你怎么这么早就回家了？",
+          "py": "Nǐ zěnme zhème zǎo jiù huí jiā le?",
+          "en": "How come you're home so early?"
+        },
+        {
+          "zh": "他今天怎么这么早就回家了？",
+          "py": "Tā jīntiān zěnme zhème zǎo jiù huí jiā le?",
+          "en": "How come he came home so early today?"
+        },
+        {
+          "zh": "他怎么今天这么早就回家了？",
+          "py": "Tā zěnme jīntiān zhème zǎo jiù huí jiā le?",
+          "en": "How come he came home so early today, of all days?"
         }
       ]
     },
@@ -1183,6 +1649,281 @@
           "zh": "我十二点半就到了。",
           "py": "Wǒ shí'èr diǎn bàn jiù dào le.",
           "en": "I was there at half past twelve already."
+        },
+        {
+          "zh": "他每天早上六点就起床了。",
+          "py": "Tā měi tiān zǎoshang liù diǎn jiù qǐ chuáng le.",
+          "en": "He gets up at six every morning — that early."
+        },
+        {
+          "zh": "他每天早上十点才起床。",
+          "py": "Tā měi tiān zǎoshang shí diǎn cái qǐ chuáng.",
+          "en": "He doesn't get up until ten every morning."
+        },
+        {
+          "zh": "我昨天晚上十二点才回家。",
+          "py": "Wǒ zuótiān wǎnshang shí'èr diǎn cái huí jiā.",
+          "en": "I didn't get home until twelve last night."
+        },
+        {
+          "zh": "我昨天晚上十二点就回家了。",
+          "py": "Wǒ zuótiān wǎnshang shí'èr diǎn jiù huí jiā le.",
+          "en": "I was home by twelve last night (that's early for me)."
+        },
+        {
+          "zh": "她五岁就开始学钢琴了。",
+          "py": "Tā wǔ suì jiù kāishǐ xué gāngqín le.",
+          "en": "She started learning the piano at just five."
+        },
+        {
+          "zh": "他十二点才起床。",
+          "py": "Tā shí'èr diǎn cái qǐ chuáng.",
+          "en": "He didn't get up until twelve."
+        },
+        {
+          "zh": "他二十岁才开始学中文。",
+          "py": "Tā èrshí suì cái kāishǐ xué Zhōngwén.",
+          "en": "He didn't start learning Chinese until twenty."
+        },
+        {
+          "zh": "我晚上十二点就睡了。",
+          "py": "Wǒ wǎnshang shí'èr diǎn jiù shuì le.",
+          "en": "I go to bed at midnight already (early, for me)."
+        },
+        {
+          "zh": "一个星期就回来。",
+          "py": "Yí ge xīngqī jiù huílai.",
+          "en": "I'll be back in just a week."
+        },
+        {
+          "zh": "一个星期以后才回来？",
+          "py": "Yí ge xīngqī yǐhòu cái huílai?",
+          "en": "You won't be back for a whole week?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (有事吗？……吧 Making plans)",
+      "items": [
+        {
+          "zh": "你明天有事吗？",
+          "py": "Nǐ míngtiān yǒu shì ma?",
+          "en": "Do you have plans tomorrow?"
+        },
+        {
+          "zh": "你下个星期有事吗？",
+          "py": "Nǐ xià ge xīngqī yǒu shì ma?",
+          "en": "Are you busy next week?"
+        },
+        {
+          "zh": "你周末有事吗？",
+          "py": "Nǐ zhōumò yǒu shì ma?",
+          "en": "Anything on this weekend?"
+        },
+        {
+          "zh": "那我们一起去看电影吧。",
+          "py": "Nà wǒmen yìqǐ qù kàn diànyǐng ba.",
+          "en": "Then let's go to a film together."
+        },
+        {
+          "zh": "我们一起去公园吧。",
+          "py": "Wǒmen yìqǐ qù gōngyuán ba.",
+          "en": "Let's go to the park together."
+        },
+        {
+          "zh": "我们一起去逛街吧。",
+          "py": "Wǒmen yìqǐ qù guàng jiē ba.",
+          "en": "Let's go shopping together."
+        },
+        {
+          "zh": "我们一起去喝杯咖啡吧。",
+          "py": "Wǒmen yìqǐ qù hē bēi kāfēi ba.",
+          "en": "Let's go for a coffee together."
+        },
+        {
+          "zh": "明天我们去看电影。",
+          "py": "Míngtiān wǒmen qù kàn diànyǐng.",
+          "en": "Tomorrow we're going to a film. (a decision, not a suggestion)"
+        },
+        {
+          "zh": "他怎么了？他有事吗？",
+          "py": "Tā zěnme le? Tā yǒu shì ma?",
+          "en": "What's up with him? Is something wrong?"
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (如果……就…… · 每天都)",
+      "items": [
+        {
+          "zh": "如果明天下雨，我们就不去公园了。",
+          "py": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù gōngyuán le.",
+          "en": "If it rains tomorrow, we won't go to the park."
+        },
+        {
+          "zh": "如果你明天不来，就告诉我。",
+          "py": "Rúguǒ nǐ míngtiān bù lái, jiù gàosu wǒ.",
+          "en": "If you're not coming tomorrow, let me know."
+        },
+        {
+          "zh": "如果你有事，我们就下个星期去。",
+          "py": "Rúguǒ nǐ yǒu shì, wǒmen jiù xià ge xīngqī qù.",
+          "en": "If you're busy, we'll go next week."
+        },
+        {
+          "zh": "我以前每天晚上都十二点才睡觉。",
+          "py": "Wǒ yǐqián měi tiān wǎnshang dōu shí'èr diǎn cái shuì jiào.",
+          "en": "I used to go to bed at midnight every single night."
+        },
+        {
+          "zh": "他每天都六点就起床了。",
+          "py": "Tā měi tiān dōu liù diǎn jiù qǐ chuáng le.",
+          "en": "He's up at six every single day."
+        },
+        {
+          "zh": "中国菜、法国菜、日本菜，我都喜欢。",
+          "py": "Zhōngguó cài, Fǎguó cài, Rìběn cài, wǒ dōu xǐhuan.",
+          "en": "Chinese, French, Japanese food — I like them all."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (外地 / 本地 / 办事)",
+      "items": [
+        {
+          "zh": "我要跟周经理去外地办事。",
+          "py": "Wǒ yào gēn Zhōu jīnglǐ qù wàidì bàn shì.",
+          "en": "I'm going to another city on business with Manager Zhou."
+        },
+        {
+          "zh": "我是合肥人，北京和上海对我来说是外地。",
+          "py": "Wǒ shì Héféi rén, Běijīng hé Shànghǎi duì wǒ lái shuō shì wàidì.",
+          "en": "I'm from Hefei; Beijing and Shanghai are other cities to me."
+        },
+        {
+          "zh": "我们本地人吃的菜都偏甜。",
+          "py": "Wǒmen běndì rén chī de cài dōu piān tián.",
+          "en": "The food we locals eat is all on the sweet side."
+        },
+        {
+          "zh": "爸爸明天要外出办事。",
+          "py": "Bàba míngtiān yào wàichū bàn shì.",
+          "en": "Dad has to go out to take care of some things tomorrow."
+        },
+        {
+          "zh": "我下午要去银行办事。",
+          "py": "Wǒ xiàwǔ yào qù yínháng bàn shì.",
+          "en": "This afternoon I have to go to the bank to sort something out."
+        },
+        {
+          "zh": "我的行李箱太重了。",
+          "py": "Wǒ de xínglixiāng tài zhòng le.",
+          "en": "My suitcase is too heavy."
+        },
+        {
+          "zh": "我要收拾一下房间。",
+          "py": "Wǒ yào shōushi yíxià fángjiān.",
+          "en": "I need to tidy up my room."
+        },
+        {
+          "zh": "我把茶杯放在桌子上，把书也放在桌子上。",
+          "py": "Wǒ bǎ chábēi fàng zài zhuōzi shang, bǎ shū yě fàng zài zhuōzi shang.",
+          "en": "I put the teacup on the table, and the book too."
+        },
+        {
+          "zh": "我自己做饭。",
+          "py": "Wǒ zìjǐ zuò fàn.",
+          "en": "I cook for myself."
+        },
+        {
+          "zh": "他三岁就会自己穿衣服了。",
+          "py": "Tā sān suì jiù huì zìjǐ chuān yīfu le.",
+          "en": "He could dress himself at just three."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (照顾 / 帮助 / 已经……了)",
+      "items": [
+        {
+          "zh": "妈妈生病了，我要照顾她。",
+          "py": "Māma shēng bìng le, wǒ yào zhàogù tā.",
+          "en": "Mum is ill, I have to take care of her."
+        },
+        {
+          "zh": "我照顾孩子，也照顾老人。",
+          "py": "Wǒ zhàogù háizi, yě zhàogù lǎorén.",
+          "en": "I look after the children and the elderly too."
+        },
+        {
+          "zh": "你要自己照顾好自己。",
+          "py": "Nǐ yào zìjǐ zhàogù hǎo zìjǐ.",
+          "en": "You have to take good care of yourself."
+        },
+        {
+          "zh": "我老了，我要去养老院。",
+          "py": "Wǒ lǎo le, wǒ yào qù yǎnglǎoyuàn.",
+          "en": "When I'm old, I'll go to a nursing home."
+        },
+        {
+          "zh": "他常常帮助朋友。",
+          "py": "Tā chángcháng bāngzhù péngyou.",
+          "en": "He often helps his friends."
+        },
+        {
+          "zh": "我已经吃过饭了。",
+          "py": "Wǒ yǐjīng chīguo fàn le.",
+          "en": "I've already eaten."
+        },
+        {
+          "zh": "学费交了没有？我已经交过了。",
+          "py": "Xuéfèi jiāo le méiyǒu? Wǒ yǐjīng jiāoguo le.",
+          "en": "Have you paid the school fee? — Yes, already paid."
+        },
+        {
+          "zh": "我已经给你准备好吃的和喝的了。",
+          "py": "Wǒ yǐjīng gěi nǐ zhǔnbèi hǎo chī de hé hē de le.",
+          "en": "I've already got food and drink ready for you."
+        },
+        {
+          "zh": "我已经把我的照片放在你的包里了。",
+          "py": "Wǒ yǐjīng bǎ wǒ de zhàopiàn fàng zài nǐ de bāo li le.",
+          "en": "I've already put my photo in your bag."
+        }
+      ]
+    },
+    {
+      "topic": "练习 · Practice (放学以后你干什么？)",
+      "items": [
+        {
+          "zh": "放学以后你干什么？",
+          "py": "Fàng xué yǐhòu nǐ gàn shénme?",
+          "en": "What are you doing after school?"
+        },
+        {
+          "zh": "放学以后我要回家帮孩子做一件礼物。",
+          "py": "Fàng xué yǐhòu wǒ yào huí jiā bāng háizi zuò yí jiàn lǐwù.",
+          "en": "After school I'm going home to make a present with my child."
+        },
+        {
+          "zh": "今天放学以后我去朋友家。",
+          "py": "Jīntiān fàng xué yǐhòu wǒ qù péngyou jiā.",
+          "en": "Today after school I'm going to a friend's house."
+        },
+        {
+          "zh": "放学以后我去商店。",
+          "py": "Fàng xué yǐhòu wǒ qù shāngdiàn.",
+          "en": "After school I'm going to the shops."
+        },
+        {
+          "zh": "我经常星期六去看奶奶。",
+          "py": "Wǒ jīngcháng xīngqīliù qù kàn nǎinai.",
+          "en": "I often visit my grandma on Saturdays."
+        },
+        {
+          "zh": "放学以后全家一起庆祝圣尼古拉斯节。",
+          "py": "Fàng xué yǐhòu quán jiā yìqǐ qìngzhù Shèng Nígǔlāsī Jié.",
+          "en": "After school the whole family celebrates Sinterklaas together."
         }
       ]
     },
